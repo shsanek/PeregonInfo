@@ -1,0 +1,44 @@
+native core_tests release rc=0
+native scene_core_replay release rc=0
+executor core_tests.exe win32-release rc=0
+executor scene_core_replay.exe win32-release rc=0
+native core_tests debug rc=0
+native scene_core_replay debug rc=0
+executor core_tests.exe win32-debug rc=0
+executor scene_core_replay.exe win32-debug rc=0
+IDENTICAL native_release_core_tests.stdout.txt == executor_release_core_tests.stdout.txt
+IDENTICAL native_release_core_tests.stdout.txt == executor_debug_core_tests.stdout.txt
+IDENTICAL native_release_core_tests.stdout.txt == native_debug_core_tests.stdout.txt
+IDENTICAL native_release_scene_core_replay.stdout.txt == executor_release_scene_core_replay.stdout.txt
+IDENTICAL native_release_scene_core_replay.stdout.txt == executor_debug_scene_core_replay.stdout.txt
+IDENTICAL native_release_scene_core_replay.stdout.txt == native_debug_scene_core_replay.stdout.txt
+IDENTICAL native_release_scene_core_replay.prpl == executor_release_scene_core_replay.prpl
+IDENTICAL native_release_scene_core_replay.prpl == executor_debug_scene_core_replay.prpl
+IDENTICAL native_release_scene_core_replay.prpl == native_debug_scene_core_replay.prpl
+PASS native core_tests all passed
+PASS executor core_tests all passed
+PASS executor math_bit_identity_hash
+PASS executor balance_hot_reload_polls_file
+PASS executor scene_core_replay RESULT PASS
+PASS recorded replay equals committed tools/replays/scene_core_replay_bot.prpl
+PASS run_scene scene_core_replay native vs EXEcutor identical
+run_scene native world hash eee4d01350e1d2bc recorded eee4d01350e1d2bc
+PASS run_scene native reproduces recorded final world hash
+run_scene win32 world hash eee4d01350e1d2bc recorded eee4d01350e1d2bc
+PASS run_scene win32 reproduces recorded final world hash
+core_tests: [done] 44/44 passed, 1304 checks
+bit identity: fp results 106496 total 0xa8e6b5282e53e99f
+scene: record frames=2097 ticks=3000 clock_tick=3000 dropped=0 render_hash=fc743ab5d34e75d3
+scene: replay file bytes=27930 fnv=28f37da8
+scene: replay ticks=3000 hashes_checked=3000 first_desync=none final_match=yes
+scene: perturbed replay (restitution+0.001) first_desync=tick 23
+stub/nodll lines: 0
+native core_tests release ms=388
+native scene_core_replay release ms=390
+executor core_tests.exe win32-release ms=625
+executor scene_core_replay.exe win32-release ms=902
+native core_tests debug ms=426
+native scene_core_replay debug ms=554
+executor core_tests.exe win32-debug ms=956
+executor scene_core_replay.exe win32-debug ms=1982
+GATE 0b PASS

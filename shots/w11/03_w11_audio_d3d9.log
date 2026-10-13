@@ -1,0 +1,13 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w11_audio --rhi d3d9 --seed 20261007 --ticks 1740 --replay C:\Peregon\scene_w11_audio.txt --timescale 1
+rc=0
+--- stdout
+w11_audio wav=w11_audio.wav written=1 bytes=4939244 fnv32=0x1f98c876 backend=waveout open_error="" buffers_written=838 buffers_done=838 underruns=0 overrun_frames=3675 errors=0 min_in_flight=4 max_in_flight=8 last_error=""
+scene=scene_w11_audio seed=20261007 ticks=1740 flavour=win32
+final_state_hash=7ab9f85c
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hoKeRinm7A/dump/present_000.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hoKeRinm7A/dump/present_001.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hoKeRinm7A/dump/present_002.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hoKeRinm7A/dump/present_003.bgra
+[RunResult] guest_exit_code=0x00000000

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scene": "scene_w1_world",
+  "seed": 7,
+  "ticks": 600,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:null",
+  "rhi": {"backend": "null", "backend_name": "null", "shader_model": 512, "fixed_function": true, "width": 320, "height": 240, "frames": 3, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 1, "draw_calls": 240, "primitives": 24464, "vertices": 73392, "state_binds": 27, "texture_binds": 2, "bytes_uploaded": 0, "pixels_written": 114754, "unrasterized_draws": 0}, "window": null},
+  "replay": null,
+  "wall_time_ms": 35.798,
+  "frame_time_ms": {"avg": 0.059, "min": 0.000, "max": 17.769},
+  "final_state_hash": "2f778b70",
+  "captures": [
+    {"tick": 0, "state_hash": "9d4c9102", "image_hash": "b805b0ac", "width": 320, "height": 240, "file": "tick_000000.bmp"},
+    {"tick": 300, "state_hash": "5bec8d81", "image_hash": "b805b0ac", "width": 320, "height": 240, "file": "tick_000300.bmp"},
+    {"tick": 600, "state_hash": "2f778b70", "image_hash": "b805b0ac", "width": 320, "height": 240, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": {"stream": "W1", "contracts_version": 2, "content_hash": "0x3771e36b", "bus": {"published": 2, "delivered": 2, "dropped": 0, "handler_calls": 2, "max_pending": 2, "stream_hash_hi": "0x19bd5a34", "stream_hash_lo": "0x612ae15b"}, "slice_hash": "0x7367d56d", "height_hash": "0x0ebad9f4", "surface_hash": "0x7a743f95", "terrain_hash": "0xaabde572", "input_map_hash": "0x76fb9d04", "world_build_ms": 66.260, "terrain": {"tiles": 1024, "lod_vertices": [365568, 119808, 46080, 21504], "lod_triangles_per_tile": [768, 256, 96, 40], "ribbon_chunks": 124, "props": 40, "prop_batches": 11, "puddles": 41, "height_min": 73.907, "height_max": 117.806}, "surface_cells": {"asphalt": 5855, "dirt": 72918, "grass": 969162, "mud": 509, "puddle": 132, "broken_asphalt": 0, "gravel": 0, "sand": 0, "snow": 0, "ice": 0, "rock": 0, "scree": 0, "takyr": 0, "ford": 0}, "surface_samples": {"asphalt": 2400, "dirt": 0, "grass": 0, "mud": 0, "puddle": 0, "broken_asphalt": 0, "gravel": 0, "sand": 0, "snow": 0, "ice": 0, "rock": 0, "scree": 0, "takyr": 0, "ford": 0}, "stuck_ticks": {"asphalt": 0, "dirt": 0, "grass": 0, "mud": 0, "puddle": 0, "broken_asphalt": 0, "gravel": 0, "sand": 0, "snow": 0, "ice": 0, "rock": 0, "scree": 0, "takyr": 0, "ford": 0}, "mode_ticks": {"drive": 600, "on_foot": 0, "cargo": 0, "camp": 0, "pause": 0}, "camera_ticks": {"chase": 600, "on_foot": 0, "free": 0}, "mode": "drive", "camera": "chase", "transitions": 1, "rejected": 0, "rain": 0, "world_time_ms": 27010000, "vehicle": {"road": "asphalt", "s": 20.000, "speed": 0.000, "x": 476.542, "z": 1441.100}, "drive_distance_m": 0.000, "free_camera_distance_m": 0.000, "save": {"saves": 0, "loads": 0, "load_failures": 0, "restore_mismatches": 0, "bytes": 0, "image_hash": "0x00000000", "state_at_save": "0x00000000", "state_after_load": "0x00000000", "file_written": false}, "render": {"path": "fixed-function", "frames": 3, "last": {"tiles_visible": 228, "tiles_lod": [10, 22, 56, 140], "culled_frustum": 377, "culled_distance": 419, "ribbons": 8, "prop_batches": 1, "dynamic": 3, "draws": 240, "triangles": 24464}, "avg_tiles_visible": 228.000, "max_tiles_visible": 228, "avg_draws": 240.000, "avg_triangles": 24464.000}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

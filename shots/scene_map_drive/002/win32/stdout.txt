@@ -1,0 +1,6 @@
+scene=scene_map_drive seed=20261007 ticks=360 flavour=win32
+capture tick=0 state=d80bfa94 image=50c2a613 file=tick_000000.bmp
+capture tick=120 state=5e340787 image=13d6d3e8 file=tick_000120.bmp
+capture tick=240 state=024cff07 image=993d6731 file=tick_000240.bmp
+capture tick=360 state=14799c5f image=fdf34fe2 file=tick_000360.bmp
+final_state_hash=14799c5f

@@ -1,0 +1,12 @@
+command: "C:\Peregon\peregon.exe" --rhi d3d9 --seed 3 --from-tick 0 --ticks 330 --timescale 1 --scene scene_w13_bot_camp
+rc=0
+--- stdout
+scene=scene_w13_bot_camp seed=3 ticks=330 flavour=win32
+final_state_hash=8721f351
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hs8F5cwOBf/dump/present_000.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hs8F5cwOBf/dump/present_001.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hs8F5cwOBf/dump/present_002.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.hs8F5cwOBf/dump/present_003.bgra
+[RunResult] guest_exit_code=0x00000000

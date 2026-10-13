@@ -1,0 +1,39 @@
+contracts_taken: 1
+contracts_done: 1
+outposts_cleared: 1
+fights_lost: 0
+kills: 0
+items_looted: 0
+items_sold: 1
+upgrades: 1
+saves: 1
+loads: 1
+truck_resets: 0
+drive_m: 0
+tiers: [1, 1, 2, 1]
+coupons: 35
+xp: 205
+mode: foot
+nature: cells 36, colliders skipped on road beds 0, foot boxes 14
+bot steps:
+      32 step mechanic
+     401 step trader
+    1130 step save
+    1251 step load
+    1432 step to_board
+moments:
+  0:00 new game at the Sawmill
+  0:00 contract taken: w5e0_000_grain_haul
+  0:00 stage: elevator cleared
+  0:00 contract stop done at elevator
+  0:00 stage: 5 cargo items loaded into the bed
+  0:00 stage: 5 cargo items carried to the receiving point
+  0:00 cargo received: 5 x grain_sack
+  0:00 contract done +350 coupons +205 xp
+  0:00 stage: 2 cargo items loaded into the bed
+  0:00 stage start: mechanic
+  0:00 autosave
+  0:02 upgrade tires to T2
+  0:18 saved
+  0:20 loaded save
+  0:20 load check: restored [director places board ruts wetness weather cleared loot wallet bed tiers contract] differ []

@@ -1,0 +1,3 @@
+native asset_tests release rc=0
+executor asset_tests.exe win32-release rc=0
+executor asset_tests.exe win32-debug rc=0

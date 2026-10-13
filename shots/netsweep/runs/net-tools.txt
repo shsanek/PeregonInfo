@@ -1,0 +1,50 @@
+LOG line 8 host prompt.1: Tree: LMB — fell it (it falls away from you)
+LOG line 14 host felled: 1
+LOG line 17 host prompt.1: Felled tree: LMB — strip the branches
+LOG line 20 host yard.log: 0
+LOG line 21 host yard.thick_log: 1
+LOG line 25 host prompt.2: E / LMB — lift with both hands: Thick log (too big for the rucksack)
+LOG line 35 host prompt.2: LMB — dig · E — put the shovel down
+LOG line 38 host layer.soil: 6dc80d72
+LOG line 42 host prompt.0: Tree: LMB — fell it (it falls away from you)
+LOG line 8 p1 prompt.1: Tree: LMB — fell it (it falls away from you)
+LOG line 14 p1 felled: 1
+LOG line 17 p1 prompt.1: Felled tree: LMB — strip the branches
+LOG line 20 p1 yard.log: 0
+LOG line 21 p1 yard.thick_log: 1
+LOG line 25 p1 prompt.2: na
+LOG line 35 p1 prompt.2: na
+LOG line 38 p1 layer.soil: 8c01ad97
+LOG line 42 p1 prompt.0: na
+LOG line 8 p2 prompt.1: na
+LOG line 14 p2 felled: 1
+LOG line 17 p2 prompt.1: na
+LOG line 20 p2 yard.log: 0
+LOG line 21 p2 yard.thick_log: 1
+LOG line 25 p2 prompt.2: E / LMB — lift with both hands: Thick log (too big for the rucksack)
+LOG line 35 p2 prompt.2: LMB — dig · E — put the shovel down
+LOG line 38 p2 layer.soil: 8c01ad97
+LOG line 42 p2 prompt.0: na
+PASS line 6 WOOD-01 axe = 1:1: host=1:1 p1=1:1 p2=1:1
+PASS line 11 WOOD-06 felled = $felled0+1: host=1@33 p1=1@46 p2=1@45
+PASS line 12 WOOD-13 treestage >= 1: host=1@483 p1=1@495 p2=1@495
+PASS line 13 WOOD-14 treestage >= 2: host=2 p1=2@6 p2=2@2
+PASS line 22 WOOD-09 yardn > 3: host=8 p1=8 p2=8
+PASS line 27 WOOD-10 carry.2 = thick_log: host=thick_log@10 p1=thick_log@11 p2=thick_log@11
+PASS line 28 CARGO-17 carry.2 = thick_log: host=thick_log@10 p1=thick_log@11 p2=thick_log@11
+PASS line 30 WOOD-10 carry.2 = -: host=-@9 p1=-@10 p2=-@9
+PASS line 32 DIG-01 shovel = 1:2: host=1:2 p1=1:2@1 p2=1:2
+PASS line 37 DIG-04 layer.soil != $soil0: host=6dc80d72 p1=8c01ad97 p2=8c01ad97
+PASS line 45 WOOD-06 felled = $felled1+1: host=2@25 p1=2@32 p2=2@32
+acts 20, failed acts 0
+rows 9 pass 9 fail 0
+ROW CARGO-17 PASS (1 checks)
+ROW DIG-01 PASS (1 checks)
+ROW DIG-04 PASS (1 checks)
+ROW WOOD-01 PASS (1 checks)
+ROW WOOD-06 PASS (2 checks)
+ROW WOOD-09 PASS (1 checks)
+ROW WOOD-10 PASS (2 checks)
+ROW WOOD-13 PASS (1 checks)
+ROW WOOD-14 PASS (1 checks)
+RESULT PASS

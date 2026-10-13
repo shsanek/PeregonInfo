@@ -1,0 +1,20 @@
+LOG line 8 host prompt.1: Rod: hold LMB for power, release to cast · E — put down (look down or into the bed: LMB too)
+LOG line 17 host prompt.1: E / LMB — put down: Fishing rod
+LOG line 8 p1 prompt.1: Rod: hold LMB for power, release to cast · E — put down (look down or into the bed: LMB too)
+LOG line 17 p1 prompt.1: E / LMB — put down: Fishing rod
+LOG line 8 p2 prompt.1: na
+LOG line 17 p2 prompt.1: na
+PASS line 6 FISH-01 carry.1 = fishing_rod: host=fishing_rod p1=fishing_rod p2=fishing_rod
+PASS line 10 FISH-02 line.1 >= 1: host=1@10 p1=1@10 p2=2@60
+PASS line 11 FISH-03 line.1 >= 2: host=2 p1=2@1 p2=2
+PASS line 12 FISH-03 line.1 >= 2: host=2 p1=2@1 p2=2
+PASS line 14 FISH-02 line.1 = 0: host=0@284 p1=0@284 p2=0@10
+PASS line 19 FISH-15 carry.1 = -: host=-@9 p1=-@9 p2=-@10
+PASS line 20 FISH-15 yard.fishing_rod >= 1: host=1@9 p1=1@10 p2=1@10
+acts 10, failed acts 0
+rows 4 pass 4 fail 0
+ROW FISH-01 PASS (1 checks)
+ROW FISH-02 PASS (2 checks)
+ROW FISH-03 PASS (2 checks)
+ROW FISH-15 PASS (2 checks)
+RESULT PASS

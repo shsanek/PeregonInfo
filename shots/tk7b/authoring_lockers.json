@@ -1,0 +1,12 @@
+{
+  "stage": "/Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/assets/truck_wb/stage38_base_inset_authoring.blend",
+  "locker_width_scale": 1.5,
+  "fixed_pillar_edge_x_m": -1.609,
+  "opening_front_x_m": -1.285,
+  "box_width_m": 0.321,
+  "lid_width_m": 0.3075,
+  "step_width_before_m": 0.176,
+  "step_width_after_m": 0.247,
+  "outer_step_y_m": 0.907,
+  "inner_step_y_m": 0.66
+}

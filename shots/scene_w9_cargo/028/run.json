@@ -1,0 +1,20 @@
+{
+  "scene": "scene_w9_cargo",
+  "run": "028",
+  "date": "2026-10-07T15:35:29Z",
+  "commit": "7337ab398e",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "3",
+    "--ticks",
+    "962",
+    "--capture",
+    "962",
+    "--replay",
+    "replay.txt"
+  ]
+}

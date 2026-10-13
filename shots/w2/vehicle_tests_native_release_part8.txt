@@ -1,0 +1,5 @@
+[suite] vehicle_tests
+[ OK ] course_brake_in_turn_weight_transfer
+    coast over bump: max per-tick gain 0.000 J, lost 12386.7 J
+[ OK ] course_coast_over_bump_never_gains_energy
+[done] 2/2 passed, 11 checks

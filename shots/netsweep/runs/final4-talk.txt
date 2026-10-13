@@ -1,0 +1,67 @@
+LOG line 5 host talk.fyodor: 0
+LOG line 6 host place.0: foot
+LOG line 16 host banner.1: -
+LOG line 19 host subs.2: 1
+LOG line 33 host place.0: foot
+LOG line 34 host banner.0: A new job on the notice board.
+LOG line 43 host talk.fyodor: 1
+LOG line 47 host journal: 8
+LOG line 5 p1 talk.fyodor: 0
+LOG line 6 p1 place.0: foot
+LOG line 16 p1 banner.1: -
+LOG line 19 p1 subs.2: na
+LOG line 33 p1 place.0: foot
+LOG line 34 p1 banner.0: na
+LOG line 43 p1 talk.fyodor: 1
+LOG line 47 p1 journal: 8
+LOG line 5 p2 talk.fyodor: 0
+LOG line 6 p2 place.0: foot
+LOG line 16 p2 banner.1: na
+LOG line 19 p2 subs.2: 1
+LOG line 33 p2 place.0: foot
+LOG line 34 p2 banner.0: na
+LOG line 43 p2 talk.fyodor: 1
+LOG line 47 p2 journal: 8
+LOG line 5 p3 talk.fyodor: -
+LOG line 6 p3 place.0: foot
+LOG line 16 p3 banner.1: na
+LOG line 19 p3 subs.2: na
+LOG line 33 p3 place.0: foot
+LOG line 34 p3 banner.0: na
+LOG line 43 p3 talk.fyodor: -
+LOG line 47 p3 journal: 8
+PASS line 7 DLG-01 talk.fyodor = 0: host=0 p1=0 p2=0
+PASS line 8 DLG-01 talk.fyodor == x: host=0 p1=0 p2=0
+PASS line 9 QUEST-03 storyhash == x: host=d518c8b9 p1=d518c8b9 p2=d518c8b9
+PASS line 10 QUEST-03 journal == x: host=5 p1=5 p2=5
+PASS line 14 DLG-01 talkui.1 = 1: host=na(x) p1=1@1 p2=na(x)
+PASS line 15 DLG-01 talk.fyodor = 0: host=0 p1=0@1 p2=0@1
+PASS line 17 DLG-02 subs.1 >= 1: host=1 p1=1 p2=na(x)
+PASS line 18 DLG-02 subs.2 >= 1: host=1 p1=na(x) p2=1
+PASS line 21 DLG-01 talkui.1 = 0: host=na(x) p1=0@1 p2=na(x)
+PASS line 23 DLG-01 talk.fyodor = -: host=-@1 p1=-@13 p2=-@3
+PASS line 24 DLG-01 place.0 = foot: host=foot p1=foot p2=foot
+PASS line 28 DLG-03 talk.fyodor = 1: host=1@10 p1=1@12 p2=1@12
+PASS line 29 DLG-03 talkui.1 = 1: host=na(x) p1=1@2 p2=na(x)
+PASS line 32 DLG-03 talk.fyodor = 1: host=1 p1=1 p2=1@1
+PASS line 35 DLG-02 subs.2 >= 1: host=1 p1=na(x) p2=1@1
+PASS line 36 DLG-02 subs.0 >= 1: host=1 p1=na(x) p2=na(x)
+PASS line 38 DLG-03 talkui.2 = 1: host=na(x) p1=na(x) p2=1@1
+PASS line 39 DLG-03 talk.fyodor = 1: host=1 p1=1@1 p2=1
+PASS line 41 DLG-03 talkui.2 = 0: host=na(x) p1=na(x) p2=0@2
+PASS line 44 QUEST-03 storyhash != $h0: host=6764afdf p1=6764afdf@1 p2=6764afdf p3=6764afdf@301
+PASS line 45 QUEST-03 storyhash == x: host=6764afdf p1=6764afdf@1 p2=6764afdf p3=6764afdf@301
+PASS line 46 QUEST-03 journal == x: host=8 p1=8@1 p2=8 p3=8@301
+PASS line 49 DLG-03 talk.fyodor = -: host=-@9 p1=-@10 p2=-@9 p3=-@241
+PASS line 50 QUEST-04 storyhash == x: host=6764afdf p1=6764afdf p2=6764afdf@1 p3=6764afdf
+PASS line 51 QUEST-04 journal == x: host=8 p1=8 p2=8@1 p3=8
+PASS line 52 QUEST-04 players = 4: host=4 p1=4 p2=4@1 p3=4
+client layer checks: 90 equal, 0 differ
+acts 14, failed acts 0
+rows 5 pass 5 fail 0
+ROW DLG-01 PASS (7 checks)
+ROW DLG-02 PASS (4 checks)
+ROW DLG-03 PASS (7 checks)
+ROW QUEST-03 PASS (5 checks)
+ROW QUEST-04 PASS (3 checks)
+RESULT PASS

@@ -1,0 +1,87 @@
+ok   build all both (native ctest incl. ai_tests, win32 imports)
+ok   win32 imports allow-listed; ai_tests.exe imports core/kernel32/msvcrt only
+native ai_tests release (all) rc=0
+native ai_tests release part 1 rc=0
+executor ai_tests.exe release part 1 rc=0
+executor ai_tests.exe debug part 1 rc=0
+native ai_tests release part 2 rc=0
+executor ai_tests.exe release part 2 rc=0
+executor ai_tests.exe debug part 2 rc=0
+ok   ai_tests exit 0 everywhere
+ok   ai_tests part 1 all passed in EXEcutor (perception, A*, cover, state machines, road AI)
+ok   ai_tests stdout ai_tests_executor_release_1.txt == native release part 1
+ok   ai_tests stdout ai_tests_executor_debug_1.txt == native release part 1
+ok   ai_tests part 2 all passed in EXEcutor (perception, A*, cover, state machines, road AI)
+ok   ai_tests stdout ai_tests_executor_release_2.txt == native release part 2
+ok   ai_tests stdout ai_tests_executor_debug_2.txt == native release part 2
+ok   ai_tests parts 1 + 2 cover every test of the full native run
+ok   replays: fresh bot recording == committed tools/replays/scene_w4_* (txt + keys)
+ok   c0 contract run: scene_w4_ai seed 7, 600 ticks, no replay, native == EXEcutor (rhi_null)
+ok   gas_station: run_scene win32 (EXEcutor d3d9) seed 1 ticks 807 captures 1,126,127,352,441,561
+ok   gas_station: repeat EXEcutor d3d9 run (scratch)
+ok   gas_station: native vs EXEcutor (rhi_null) compare identical
+ok   gas_station: deterministic across EXEcutor runs (final hash, capture state and image hashes, ai metrics)
+ok   gas_station: d3d9 state == rhi_null state == native (same final hash and capture states)
+ok   gas_station: d3d9 backend, 0 rhi errors, every frame rendered, JPGs <= 300 KB
+ok   gas_station: scene reproduces the recorder (ai metrics and moments == keys.json)
+ok   gas_station: outcome and metrics sane (thresholds in docs/ai.md)
+ok   gas_station: RunGame window run, EXEcutor present dump around tick 126 (cover)
+ok   gas_station: RunGame final hash == headless EXEcutor hash
+ok   elevator: run_scene win32 (EXEcutor d3d9) seed 2 ticks 2130 captures 1,35,122,409,909,1019
+ok   elevator: repeat EXEcutor d3d9 run (scratch)
+ok   elevator: native vs EXEcutor (rhi_null) compare identical
+ok   elevator: deterministic across EXEcutor runs (final hash, capture state and image hashes, ai metrics)
+ok   elevator: d3d9 state == rhi_null state == native (same final hash and capture states)
+ok   elevator: d3d9 backend, 0 rhi errors, every frame rendered, JPGs <= 300 KB
+ok   elevator: scene reproduces the recorder (ai metrics and moments == keys.json)
+ok   elevator: outcome and metrics sane (thresholds in docs/ai.md)
+ok   elevator: RunGame window run, EXEcutor present dump around tick 1019 (interrupt)
+ok   elevator: RunGame final hash == headless EXEcutor hash
+ok   road_buggies: run_scene win32 (EXEcutor d3d9) seed 3 ticks 2078 captures 429,488,608,2018
+ok   road_buggies: repeat EXEcutor d3d9 run (scratch)
+ok   road_buggies: native vs EXEcutor (rhi_null) compare identical
+ok   road_buggies: deterministic across EXEcutor runs (final hash, capture state and image hashes, ai metrics)
+ok   road_buggies: d3d9 state == rhi_null state == native (same final hash and capture states)
+ok   road_buggies: d3d9 backend, 0 rhi errors, every frame rendered, JPGs <= 300 KB
+ok   road_buggies: scene reproduces the recorder (ai metrics and moments == keys.json)
+ok   road_buggies: outcome and metrics sane (thresholds in docs/ai.md)
+ok   road_buggies: RunGame window run, EXEcutor present dump around tick 429 (ram)
+ok   road_buggies: RunGame final hash == headless EXEcutor hash
+gas_station time_to_clear_s = 12.45 (cleared in 5..60 s) OK
+gas_station player_damage_taken = 24.0 (raiders hurt the bot, bot survives) OK
+gas_station player_down_tick = 0 (0) OK
+gas_station ai accuracy = 0.375 (0.05..0.75) OK
+gas_station reaction_avg_s = 0.45 (data reaction_s 0.45) OK
+gas_station cover_pct = 21.9 (>= 40 elevator, >= 10 gas station) OK
+gas_station cover_arrivals = 4 (>= 3) OK
+gas_station peeks = 4 (>= 3) OK
+gas_station retreats (broken groups) = 2 (>= 1) OK
+gas_station flank_attempts = 1 (>= 1) OK
+gas_station kills == enemies = 8 (all) OK
+gas_station nav failures = 0 (0) OK
+elevator time_to_clear_s = 34.5 (cleared in 5..60 s) OK
+elevator player_damage_taken = 80.0 (raiders hurt the bot, bot survives) OK
+elevator player_down_tick = 0 (0) OK
+elevator ai accuracy = 0.476 (0.05..0.75) OK
+elevator reaction_avg_s = 0.45 (data reaction_s 0.45) OK
+elevator cover_pct = 52.1 (>= 40 elevator, >= 10 gas station) OK
+elevator cover_arrivals = 12 (>= 3) OK
+elevator peeks = 14 (>= 3) OK
+elevator retreats (broken groups) = 2 (>= 1) OK
+elevator flank_attempts = 4 (>= 1) OK
+elevator kills == enemies = 9 (all) OK
+elevator nav failures = 0 (0) OK
+elevator brute charges = 1 (>= 1) OK
+elevator charges_interrupted = 1 (sawn-off knockback interrupts) OK
+elevator nailgun interrupts = 0 (nails never interrupt) OK
+road_buggies time_to_clear_s = 33.633 (cleared in 5..60 s) OK
+road_buggies rams = 1 (>= 1) OK
+road_buggies strip_events == rams = 1 (one cargo strip event per ram) OK
+road_buggies truck_damage == 12 x rams = 12.0 (ram_damage 12) OK
+road_buggies kills == buggies = 6 (all buggies, >= 3) OK
+road_buggies waves = 3 (3) OK
+road_buggies mg accuracy = 0.48 (0.2..1.0) OK
+ok   every screenshot under reports/shots/w4 is a JPG <= 300 KB
+ok   report.py
+ok   progress.js untouched
+GATE w4 PASS

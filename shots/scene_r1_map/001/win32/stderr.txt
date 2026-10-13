@@ -1,0 +1,2 @@
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a254af61e66b238c0/games/peregon/tools/run_executor.sh: line 112: 41721 Killed: 9               "$RUN_BIN" "$GUEST_COMMAND" "$HOST_DIR" > "$OUT_TMP" 2> "$STDERR_LOG"
+run_executor: peregon_headless.exe timed out (attempt 1, host load { 23.51 20.67 27.19 }), retrying

@@ -1,0 +1,31 @@
+{
+ "asset": "fish_box",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1968257
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 1199
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 599
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.986,
+   "side": 0.9774,
+   "q34": 0.98,
+   "top": 0.992
+  },
+  "LOD1 (after)": {
+   "front": 0.952,
+   "side": 0.9428,
+   "q34": 0.951,
+   "top": 0.9696
+  }
+ }
+}

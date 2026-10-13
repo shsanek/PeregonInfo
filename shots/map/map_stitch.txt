@@ -1,0 +1,1 @@
+mapgen stitch: 0 border links (dry run, --write to create)

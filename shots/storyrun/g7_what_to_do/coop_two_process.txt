@@ -1,0 +1,17 @@
+tools/net/world_loopback.sh 2 --replay build/storyrun_shots/idle.txt --ticks 4800 --join-at 900 --client-bot person:foma:flood --out build/net-world/g7_coop -- --start "sq:s2_warn:warn:foma:1100"
+world loopback: 2 instances, host ticks 4800, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (165 chunks), 0.01 MB on the wire, 0.8 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 2 ms, max 3 ms
+host: layer stream after join: avg 11.1 KB/s, max 12.1 KB/s (cap 48); wire avg 47.8 KB/s, max 57.1 KB/s; collect max 0.54 ms  PASS
+p1: bot person:foma:flood, participant True, moved 0.0 m  PASS
+p1: joined at host tick 1020 in 0.8 s, 0.01 MB of frames, 73 chunks, first check equal, apply max 3.8 ms
+p1: 64 complete checks, 64 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":1890
+"what":"person_screen","tick":1891,"holder":255
+"what":"person_topic","tick":1920,"ok":1
+"what":"person_press","tick":1890
+"s2_warn": {"status": 1, "stage": "warn"}
+"s2_warn": {"status": 1, "stage": "warn"}
+"story": {"serial": 6, "hash": 2139192705
+"story": {"serial": 6, "hash": 2139192705

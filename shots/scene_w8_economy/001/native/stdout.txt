@@ -1,0 +1,5 @@
+scene=scene_w8_economy seed=7 ticks=600 flavour=native
+capture tick=0 state=da876e30 image=de2f5756 file=tick_000000.bmp
+capture tick=300 state=d8632a02 image=2c921bd2 file=tick_000300.bmp
+capture tick=600 state=be902ae7 image=257d2e86 file=tick_000600.bmp
+final_state_hash=be902ae7

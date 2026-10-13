@@ -1,0 +1,81 @@
+[suite] contracts
+[ OK ] arena_spawn_layouts
+[ OK ] content_cross_references_resolve
+    surfaces.txt text hash 0x411f4812
+    items.txt text hash 0x2ecf9938
+    weapons.txt text hash 0xb26fa0e9
+    enemies.txt text hash 0x60b34d13
+    vehicle.txt text hash 0xf80e730e
+    contracts.txt text hash 0xc96eb411
+    arenas.txt text hash 0xfeec539d
+    content hash 0x2207e6ed
+[ OK ] content_embedded_loads_and_validates
+[ OK ] content_hash_ignores_comments_and_layout
+[ OK ] content_hot_reload_from_dir
+[ OK ] content_invariants_hold
+[ OK ] content_reports_errors_and_keeps_old_data
+[ OK ] content_without_balance_skips_cross_check
+[ OK ] contract_headers_compile_as_c
+    PeregonSurfaceSample size 8 align 4
+    PeregonSurfaceDef size 220 align 4
+    PeregonGameState size 16 align 4
+    PeregonGameStateEvent size 8 align 4
+    PeregonDamageEvent size 52 align 4
+    PeregonItemDef size 124 align 4
+    PeregonInventoryEntry size 12 align 4
+    PeregonInventory size 716 align 4
+    PeregonCargoMass size 20 align 4
+    PeregonVehicleFrameDef size 128 align 4
+    PeregonVehiclePartDef size 204 align 4
+    PeregonVehicleLoadout size 8 align 4
+    PeregonVehicleStats size 124 align 4
+    PeregonWeaponDef size 184 align 4
+    PeregonCombatRules size 40 align 4
+    PeregonEnemyDef size 128 align 4
+    PeregonSpawnPoint size 24 align 4
+    PeregonArenaSpawn size 944 align 4
+    PeregonContractDef size 256 align 4
+    PeregonEvent size 144 align 4
+    PeregonSaveHeader size 24 align 4
+    PeregonSaveVehicle size 48 align 4
+    PeregonSaveContracts size 104 align 4
+[ OK ] contract_layouts_are_fixed
+    stream hash 0x844a6ebe1dae457a
+[ OK ] event_bus_delivers_in_publish_and_subscription_order
+[ OK ] event_bus_rejects_bad_payloads_and_drops_on_overflow
+[ OK ] event_bus_unsubscribe_during_dispatch_and_stream_hash
+[ OK ] game_state_transitions_and_pause
+[ OK ] ids_are_fnv1a_of_text
+    bed center 0x2d1bc, 0x1ea68 hash 0x37365506
+[ OK ] inventory_grid_fastening_and_cargo_mass
+    save bytes 0x33c hash 0x2a547864
+[ OK ] save_record_roundtrip_and_corruption
+[ OK ] surface_climb_rule_matches_map_brief
+[ OK ] surface_data_backward_compatible
+[ OK ] surface_map_contract_clamps_samples
+[ OK ] surface_mud_needs_tires_and_suspension_t2
+    asphalt grade x10 rwd/wet/awd/studs 485/385/985/410 sound hard
+    dirt grade x10 rwd/wet/awd/studs 346/248/732/346 sound soft
+    grass grade x10 rwd/wet/awd/studs 262/178/584/262 sound grass
+    mud grade x10 rwd/wet/awd/studs 0/0/162/0 sound mud
+    puddle grade x10 rwd/wet/awd/studs 120/120/340/120 sound water
+    broken_asphalt grade x10 rwd/wet/awd/studs 396/300/815/333 sound rough
+    gravel grade x10 rwd/wet/awd/studs 296/230/641/296 sound gravel
+    sand grade x10 rwd/wet/awd/studs 55/55/330/55 sound sand
+    snow grade x10 rwd/wet/awd/studs 125/90/370/199 sound snow
+    ice grade x10 rwd/wet/awd/studs 86/54/186/236 sound ice
+    rock grade x10 rwd/wet/awd/studs 339/255/709/302 sound rough
+    scree grade x10 rwd/wet/awd/studs 103/78/327/103 sound gravel
+    takyr grade x10 rwd/wet/awd/studs 385/164/810/385 sound rough
+    ford grade x10 rwd/wet/awd/studs 50/50/300/50 sound water
+[ OK ] surface_set_s1_has_all_fourteen
+[ OK ] surface_soil_sinkage_and_shear
+[ OK ] surface_wetness_and_depth
+    T1 grip q16 ice 13107 ford 32768; T3 sand 45056
+[ OK ] vehicle_stats_cover_new_surfaces
+    T3 engine + T3 armor + 600 kg: accel_0_100 0xc5e38
+[ OK ] vehicle_stats_follow_design_formulas
+[ OK ] weapon_matrix_matches_design
+[done] 27/27 passed, 680 checks
+contracts version 0x2
+content hash 0x2207e6ed

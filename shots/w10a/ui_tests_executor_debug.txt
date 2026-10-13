@@ -1,0 +1,21 @@
+[suite] ui_tests
+[ OK ] utf8_decodes_ascii_cyrillic_and_multibyte
+[ OK ] utf8_rejects_invalid_sequences
+[ OK ] builtin_font_covers_latin_and_cyrillic
+[ OK ] text_width_sums_advances_and_scales
+[ OK ] wrap_breaks_on_spaces_newlines_and_long_words
+[ OK ] layout_alignment_and_rects
+[ OK ] drawlist_batches_clips_and_nine_slices
+[ OK ] focus_moves_spatially_and_stops_at_edges
+[ OK ] focus_repeat_on_hold
+[ OK ] list_and_grid_consume_inner_navigation
+[ OK ] button_click_is_edge_triggered_and_pointer_works
+[ OK ] context_is_deterministic
+[ OK ] tooltip_appears_after_delay_in_overlay
+    image fnv32 0xb586aea1
+[ OK ] renderer_fixed_function_draws_exact_pixels_on_rhi_null
+[ OK ] renderer_program_path_validates_on_rhi_null
+    atlas fnv32 0xfbc3c590
+[ OK ] atlas_has_white_and_sprites
+[ OK ] tr_switches_language_and_falls_back_to_key
+[done] 17/17 passed, 163 checks

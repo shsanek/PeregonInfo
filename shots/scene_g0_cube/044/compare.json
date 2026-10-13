@@ -1,0 +1,66 @@
+{
+  "status": "identical",
+  "scene": "scene_g0_cube",
+  "seed": 1,
+  "ticks": {
+    "native": 6,
+    "win32": 6
+  },
+  "final_state_hash": {
+    "native": "4396bd83",
+    "win32": "4396bd83",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 0,
+      "state_hash": {
+        "native": "9be17165",
+        "win32": "9be17165"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "448d070f",
+        "win32": "448d070f"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "005fa96e3c5869fd6b03e1cdbccc03f8805ab06a72047289b5db756cd04c307d",
+        "win32": "005fa96e3c5869fd6b03e1cdbccc03f8805ab06a72047289b5db756cd04c307d"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_000000.jpg",
+        "win32": "win32/tick_000000.jpg"
+      },
+      "status": "identical"
+    },
+    {
+      "tick": 6,
+      "state_hash": {
+        "native": "4396bd83",
+        "win32": "4396bd83"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "c00c4313",
+        "win32": "c00c4313"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "fc3b7a53c22bc1c4e9b8021060847edd7c241f8ed2f1ee2db2cdebe6bdcfd25e",
+        "win32": "fc3b7a53c22bc1c4e9b8021060847edd7c241f8ed2f1ee2db2cdebe6bdcfd25e"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_000006.jpg",
+        "win32": "win32/tick_000006.jpg"
+      },
+      "status": "identical"
+    }
+  ]
+}

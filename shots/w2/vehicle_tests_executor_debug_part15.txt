@@ -1,0 +1,6 @@
+[suite] vehicle_tests
+    step steer 0.5 at 40 km/h asphalt: steady yaw 18.66 deg/s, t90 0.350 s, overshoot 1.8 %, max body slip 0.58 deg
+[ OK ] lateral_step_steer_response
+    double lane change 3.5 m on dirt at 50 km/h: max path error 0.74 m, max body slip 0.81 deg, peak 0.253 g, back in lane within 0.18 m, heading -0.21 deg
+[ OK ] lateral_lane_change_on_dirt
+[done] 2/2 passed, 9 checks

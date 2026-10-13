@@ -1,0 +1,139 @@
+{
+ "barracks_yard/noon": {
+  "frame_ms_avg": 14.406,
+  "frames": 123,
+  "shot": "after_barracks_yard_noon.jpg",
+  "state_hash": "26373915",
+  "tick": 865
+ },
+ "barracks_yard/sunset": {
+  "frame_ms_avg": 17.006,
+  "frames": 23,
+  "shot": "after_barracks_yard_sunset.jpg",
+  "state_hash": "bc0fcf16",
+  "tick": 889
+ },
+ "fence/noon": {
+  "frame_ms_avg": 16.654,
+  "frames": 123,
+  "shot": "after_fence_noon.jpg",
+  "state_hash": "aa79cc12",
+  "tick": 1013
+ },
+ "fence/sunset": {
+  "frame_ms_avg": 16.524,
+  "frames": 23,
+  "shot": "after_fence_sunset.jpg",
+  "state_hash": "b88940b3",
+  "tick": 1037
+ },
+ "izba/noon": {
+  "frame_ms_avg": 22.367,
+  "frames": 123,
+  "shot": "after_izba_noon.jpg",
+  "state_hash": "a9876f27",
+  "tick": 273
+ },
+ "izba/sunset": {
+  "frame_ms_avg": 16.805,
+  "frames": 23,
+  "shot": "after_izba_sunset.jpg",
+  "state_hash": "c7ea7e94",
+  "tick": 297
+ },
+ "izba_close/noon": {
+  "frame_ms_avg": 16.6,
+  "frames": 123,
+  "shot": "after_izba_close_noon.jpg",
+  "state_hash": "5c3640ef",
+  "tick": 421
+ },
+ "izba_close/sunset": {
+  "frame_ms_avg": 16.411,
+  "frames": 23,
+  "shot": "after_izba_close_sunset.jpg",
+  "state_hash": "b103347a",
+  "tick": 445
+ },
+ "roofs_barracks/noon": {
+  "frame_ms_avg": 16.659,
+  "frames": 123,
+  "shot": "after_roofs_barracks_noon.jpg",
+  "state_hash": "a0b857f7",
+  "tick": 1457
+ },
+ "roofs_barracks/sunset": {
+  "frame_ms_avg": 16.545,
+  "frames": 23,
+  "shot": "after_roofs_barracks_sunset.jpg",
+  "state_hash": "b922cd16",
+  "tick": 1481
+ },
+ "roofs_workshop/noon": {
+  "frame_ms_avg": 16.695,
+  "frames": 123,
+  "shot": "after_roofs_workshop_noon.jpg",
+  "state_hash": "e87cd8c1",
+  "tick": 1309
+ },
+ "roofs_workshop/sunset": {
+  "frame_ms_avg": 16.754,
+  "frames": 23,
+  "shot": "after_roofs_workshop_sunset.jpg",
+  "state_hash": "aca34b16",
+  "tick": 1333
+ },
+ "run": {
+  "final_state_hash": "e3be18d3",
+  "frame_time_ms": {
+   "avg": 31.757,
+   "max": 5114.357,
+   "min": 1.169
+  },
+  "launches": 1,
+  "ticks": 1483,
+  "wall_time_ms": 47102.973
+ },
+ "stall/noon": {
+  "frame_ms_avg": 16.439,
+  "frames": 123,
+  "shot": "after_stall_noon.jpg",
+  "state_hash": "d0d29e36",
+  "tick": 569
+ },
+ "stall/sunset": {
+  "frame_ms_avg": 16.483,
+  "frames": 23,
+  "shot": "after_stall_sunset.jpg",
+  "state_hash": "2c962070",
+  "tick": 593
+ },
+ "stall_close/noon": {
+  "frame_ms_avg": 16.505,
+  "frames": 123,
+  "shot": "after_stall_close_noon.jpg",
+  "state_hash": "97b45ee5",
+  "tick": 717
+ },
+ "stall_close/sunset": {
+  "frame_ms_avg": 10.124,
+  "frames": 23,
+  "shot": "after_stall_close_sunset.jpg",
+  "state_hash": "0e8596f9",
+  "tick": 741
+ },
+ "workshop/noon": {
+  "frame_ms_avg": 16.669,
+  "frames": 123,
+  "shot": "after_workshop_noon.jpg",
+  "state_hash": "f5c28fa2",
+  "tick": 1161
+ },
+ "workshop/sunset": {
+  "frame_ms_avg": 16.59,
+  "frames": 23,
+  "shot": "after_workshop_sunset.jpg",
+  "state_hash": "8d529e7f",
+  "tick": 1185
+ }
+}

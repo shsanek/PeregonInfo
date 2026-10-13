@@ -1,0 +1,43 @@
+Q1 story, region stages natively (peregon_headless --scene play_region_auto --seed 1 --start <stage>, R1 pak rebuilt
+from map/, budget = nominal x 1.25 + 300). "base" = a clean build of claude/peregon-design 0168872054 with the old
+stage table. GOAL = the stage goal was reached within the budget.
+
+stage                 Q1 (work/peregon-story-q1)          base (claude/peregon-design)
+camp_board            timeout: bot cannot place a board   GOAL 357 (no cargo in the old contract 1)
+                      bundle over the HERO bed rails
+drive_elevator        timeout: engine never started       timeout: engine never started
+elevator_unload       timeout: carry onto the bay         (elevator_gate fight) GOAL 1865
+elevator_load         timeout: carry into the bed         timeout: carry into the bed
+drive_home            timeout: engine never started       timeout: engine never started
+camp_unload           timeout: carry out of the bed       timeout: carry out of the bed
+handin_camp           GOAL 131, contracts_done 1          GOAL 131
+mechanic              GOAL 1281, T2 tyres, load check     GOAL 1281
+outpost_board         GOAL 357, contract 2 taken          timeout: supply crates into the bed
+drive_field           timeout: engine never started       timeout: engine never started
+ford_west             timeout                             timeout
+switchback            timeout                             timeout
+drive_outpost         timeout                             timeout
+outpost_gate          GOAL 2042, 6 raiders, bot climbs,   GOAL 2075
+                      fights_lost 0, cleared
+(outpost_unload)      removed: nothing is delivered       timeout
+outpost_load          timeout: carry into the bed         timeout
+outpost_camp_unload   timeout                             timeout
+outpost_handin        GOAL 131, contracts_done 2          GOAL 131
+
+Strict contact rules: 0 permille contact, 0 collisions on every Q1 stage except drive_outpost (the stalled truck
+leans on a tree trunk at 36819, 22895 while the bot keeps steering; base: the same trunk, 641 permille).
+
+Playthrough shots (seed 2, Russian, --rhi metal --render-captures; stage starts set the state the earlier stages
+leave, so the loading and driving steps the bot cannot do yet are skipped by the stage jump):
+01 board, contract 1 "Доски за хлеб" with the giver and the reason
+02 carrying a board bundle to the truck at the Sawmill
+03 at the elevator gate: friendly, open, boards in the truck
+04 the elevator weighbridge seen from the cab
+05 boards received, grain sacks to load
+06 hand-in of contract 1 at the board
+07 board, contract 2 "Солярка с отрога": giver Grisha, the reason, "Держат Ржавые ... Будет бой"
+08 the field track to the Olkhovka ford
+09 arrival at the spur station: "Рейдеры!"
+10 the fight at the station
+11 the station taken: load the canisters, loot crate
+12 hand-in of contract 2

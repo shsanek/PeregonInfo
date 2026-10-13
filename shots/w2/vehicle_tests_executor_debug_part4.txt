@@ -1,0 +1,8 @@
+[suite] vehicle_tests
+    mud T1: z 50.635 m, stuck 14.950 s, belly ticks 0; T2: max z 132.770 m, stuck 0.000 s
+[ OK ] mud_pit_t1_stuck_t2_passes
+    mud T1 tyre: p 63.2 kPa, A 0.0543 m2, sink 0.165 m, resist 5313 N; T3 tyre: p 36.1 kPa, A 0.0957 m2, sink 0.076 m, resist 1954 N; asphalt resist 206 N
+[ OK ] soil_wide_tyre_floats_in_mud_and_asphalt_is_unaffected
+    mud T1 full throttle max z 50.6 (stuck 15.0 s), T1 gentle 122.4, T1 gentle +600 kg 56.0, T2 full 132.8; T1 full throttle on dry dirt reaches z 119.7
+[ OK ] mud_outcome_is_emergent_driver_cargo_tyres
+[done] 3/3 passed, 20 checks

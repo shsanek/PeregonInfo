@@ -1,0 +1,51 @@
+LOG line 8 host engine: 0
+LOG line 9 host ignition: 1
+LOG line 12 host prompt.1: Key OFF: E / LMB — power ON · F / RMB — remove the key
+LOG line 14 host ignition: 2
+LOG line 16 host prompt.1: Power ON: hold E / LMB — start · F / RMB — OFF
+LOG line 18 host ignition: 2
+LOG line 19 host prompt.1: Power ON: hold E / LMB — start · F / RMB — OFF
+LOG line 24 host ignition: 2
+LOG line 27 host prompt.2: LIGHT: E / LMB — headlights ON
+LOG line 33 host prompt.2: E / LMB — engage low range
+LOG line 41 host ignition: 2
+LOG line 8 p1 engine: 0
+LOG line 9 p1 ignition: 1
+LOG line 12 p1 prompt.1: Key OFF: E / LMB — power ON · F / RMB — remove the key
+LOG line 14 p1 ignition: 2
+LOG line 16 p1 prompt.1: Power ON: hold E / LMB — start · F / RMB — OFF
+LOG line 18 p1 ignition: 2
+LOG line 19 p1 prompt.1: Power ON: hold E / LMB — start · F / RMB — OFF
+LOG line 24 p1 ignition: 2
+LOG line 27 p1 prompt.2: na
+LOG line 33 p1 prompt.2: na
+LOG line 41 p1 ignition: 2
+LOG line 8 p2 engine: 0
+LOG line 9 p2 ignition: 1
+LOG line 12 p2 prompt.1: na
+LOG line 14 p2 ignition: 2
+LOG line 16 p2 prompt.1: na
+LOG line 18 p2 ignition: 2
+LOG line 19 p2 prompt.1: na
+LOG line 24 p2 ignition: 2
+LOG line 27 p2 prompt.2: LIGHT: E / LMB — headlights ON
+LOG line 33 p2 prompt.2: E / LMB — engage low range
+LOG line 41 p2 ignition: 2
+PASS line 10 POWER-01 engine = 0: host=0 p1=0@1 p2=0@1
+PASS line 21 POWER-01 engine = 1: host=1@53 p1=1@53 p2=1@55
+PASS line 22 POWER-01 engine == x: host=0 p1=0@1 p2=0
+PASS line 23 POWER-01 ignition == x: host=2 p1=2@1 p2=2
+PASS line 29 SEAT-12 lamps != $l0: host=1@9 p1=1@11 p2=1@11
+PASS line 30 POWER-12 lamps == x: host=0 p1=0 p2=0@1
+PASS line 35 SEAT-12 lowrange != $r0: host=1@9 p1=1@11 p2=1@10
+PASS line 36 DRIVE-04 lowrange == x: host=0 p1=0 p2=0
+PASS line 39 POWER-01 engine = 0: host=0@10 p1=0@10 p2=0@10
+PASS line 40 POWER-01 engine == x: host=1 p1=1 p2=1@1
+client layer checks: 79 equal, 0 differ
+acts 15, failed acts 0
+rows 4 pass 4 fail 0
+ROW DRIVE-04 PASS (1 checks)
+ROW POWER-01 PASS (6 checks)
+ROW POWER-12 PASS (1 checks)
+ROW SEAT-12 PASS (2 checks)
+RESULT PASS

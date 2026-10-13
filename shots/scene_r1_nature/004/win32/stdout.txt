@@ -1,0 +1,11 @@
+scene=scene_r1_nature seed=1 ticks=480 flavour=win32
+capture tick=0 state=b24a3a67 image=3bce6e38 file=tick_000000.bmp
+capture tick=35 state=4da1981b image=aa1aead3 file=tick_000035.bmp
+capture tick=105 state=66ed7f52 image=23be8d31 file=tick_000105.bmp
+capture tick=175 state=932e7404 image=d66f11df file=tick_000175.bmp
+capture tick=245 state=f1454735 image=e1498dff file=tick_000245.bmp
+capture tick=315 state=a65fdfce image=c67a01d4 file=tick_000315.bmp
+capture tick=385 state=96c861d0 image=1f1edb77 file=tick_000385.bmp
+capture tick=440 state=ae21904b image=ec662449 file=tick_000440.bmp
+capture tick=470 state=49923e81 image=ec662449 file=tick_000470.bmp
+final_state_hash=2604f607

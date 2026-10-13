@@ -1,0 +1,17 @@
+tools/net/world_loopback.sh 2 --replay build/storyrun_shots/idle.txt --ticks 4800 --join-at 900 --client-bot person:mikheich:store_ask -- --start "sq:-:-:mikheich:1000"
+world loopback: 2 instances, host ticks 4800, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (126 chunks), 0.01 MB on the wire, 0.5 s, complete at tick 1080 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 5 ms, max 5 ms
+host: layer stream after join: avg 7.2 KB/s, max 10.1 KB/s (cap 48); wire avg 44.3 KB/s, max 53.7 KB/s; collect max 0.72 ms  PASS
+p1: bot person:mikheich:store_ask, participant True, moved 0.0 m  PASS
+p1: joined at host tick 1080 in 0.5 s, 0.01 MB of frames, 72 chunks, first check equal, apply max 3.7 ms
+p1: 63 complete checks, 63 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":1440
+"what":"person_screen","tick":1441,"holder":255
+"what":"person_topic","tick":1500,"ok":1
+"what":"person_press","tick":1440
+"s1_warden": {"status": 1, "stage": "useful"}
+"s1_warden": {"status": 1, "stage": "useful"}
+"story": {"serial": 5, "hash": 1090201653
+"story": {"serial": 5, "hash": 1090201653

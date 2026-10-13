@@ -1,0 +1,122 @@
+==> Building EXEcutor...
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2027-01-02 10:30:16.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2028-12-28 08:14:48.000000000  
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/GameAutomation/CornerRelativeMouseController.swift:344:91: warning: static property 'zero' cannot be used in a default argument value because 'CoreGraphics' was not imported by this file; this is an error in the Swift 6 language mode
+    |                                                                                           |- warning: static property 'zero' cannot be used in a default argument value because 'CoreGraphics' was not imported by this file; this is an error in the Swift 6 language mode
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2027-02-28 22:30:32.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2026-11-28 00:27:52.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2026-11-25 17:51:04.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2029-03-11 18:27:04.000000000  
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/CUnrar/unpack50mt.cpp:39:12: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'UnpackThreadData' [-Wnontrivial-memcall]
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2027-01-23 12:41:28.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2029-03-21 01:37:28.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2028-05-04 19:48:08.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2027-04-11 03:05:44.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2027-02-07 02:18:16.000000000  
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2028-02-29 17:35:52.000000000  
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Controls/GameControlsStore.swift:54:13: warning: result of 'try?' is unused [#no-usage]
+    |             `- warning: result of 'try?' is unused [#no-usage]
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Controls/GameControlsStore.swift:57:13: warning: result of 'try?' is unused [#no-usage]
+    |             `- warning: result of 'try?' is unused [#no-usage]
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Controls/GameControlsStore.swift:122:40: warning: result of 'try?' is unused [#no-usage]
+    |                                        `- warning: result of 'try?' is unused [#no-usage]
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Controls/GameControlsStore.swift:123:40: warning: result of 'try?' is unused [#no-usage]
+    |                                        `- warning: result of 'try?' is unused [#no-usage]
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Controls/GameControlsStore.swift:198:17: warning: result of 'try?' is unused [#no-usage]
+    |                 `- warning: result of 'try?' is unused [#no-usage]
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Controls/GameControlsStore.swift:206:17: warning: result of 'try?' is unused [#no-usage]
+    |                 `- warning: result of 'try?' is unused [#no-usage]
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Model/ExeSidecar.swift:221:9: warning: result of 'try?' is unused [#no-usage]
+    |         `- warning: result of 'try?' is unused [#no-usage]
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/Sources/EXEcutorIOS/Model/GameProfileIdentitySeeder.swift:67:9: warning: result of 'try?' is unused [#no-usage]
+   |         `- warning: result of 'try?' is unused [#no-usage]
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 2026-11-12 11:11:52.000000000  
+Build complete! (119.81s)
+
+--- msvcrt ---
+[ PASS ] aligned_alloc_vc9
+[ PASS ] argv_pointer_exports
+[ PASS ] atexit_lifecycle
+[ PASS ] beginthreadex_basic
+[ PASS ] ci_log10_x87
+[ PASS ] controlfp_precision
+[ PASS ] crtdll_lowio
+[ PASS ] ctype_data
+[ PASS ] cxx_catch_continuation_rethrow
+[ PASS ] data_exports
+[ PASS ] difftime_basic
+[ PASS ] eh_prolog
+[ PASS ] except_handler3_continue
+[ PASS ] fgets_count_one
+[ PASS ] file_compat_apis
+[ PASS ] file_flag_eof
+[ PASS ] filelengthi64
+[ PASS ] findfirst64
+[ PASS ] fputs_basic
+[ PASS ] fread_partial_tail
+[ PASS ] fscanf_stream
+[ PASS ] fseeki64
+[ PASS ] getcwd_alloc_vc9
+[ PASS ] getenv_basic
+[ PASS ] gmtime
+[ PASS ] heap_concurrent_realloc
+[ PASS ] heapchk_status
+[ PASS ] isatty_basic
+[ PASS ] isctype_masks
+[ PASS ] ldiv_abi
+[ PASS ] libm_sse2_precise
+[ PASS ] libm_sse2_vc8
+[ PASS ] locale_data_exports
+[ PASS ] lowio_wide_env
+[ PASS ] makepath_splitpath
+[ PASS ] math_exports
+[ PASS ] mb_character_space
+[ PASS ] mb_code_page
+[ PASS ] mb_navigation
+[ PASS ] mbcs_sbc
+[ PASS ] mbsnbcpy
+[ PASS ] mbsrchr
+[ PASS ] mbstring_search_compare
+[ PASS ] mbtowc_code_page
+[ PASS ] memcmp_basic
+[ PASS ] msvcr80_initterm
+[ PASS ] msvcr90_fallback
+[ PASS ] p_iob_mb_cur_max
+[ PASS ] pipe_dup_redirect
+[ PASS ] qsort_general
+[ PASS ] set_error_mode
+[ BASE ] setbuf_visibility  (created expected_files/ baseline: buffered.dat unbuffered.dat)
+[ PASS ] setbuf_visibility
+[ PASS ] setjmp3_longjmp_vc9
+[ PASS ] snscanf_bound
+[ PASS ] sopen_share
+[ PASS ] sscanf_s_vc8
+[ PASS ] stat64_layout
+[ PASS ] stat_layouts
+[ PASS ] strnlen_vc8
+[ PASS ] strtoi64_vc8
+[ PASS ] strtol_basic
+[ PASS ] swprintf_legacy
+[ PASS ] text_mode_crlf
+[ PASS ] type_info_compare
+[ PASS ] type_info_name
+[ PASS ] ucrt_api_set_contracts
+[ PASS ] undname_wine_table
+[ PASS ] vc14_runtime_surface
+[ PASS ] vc8_memory_exports
+[ PASS ] vc8_rtti_cast
+[ PASS ] vc8_rtti_throw
+[ PASS ] vc8_terminate_handler
+[ PASS ] vcrt_initialize_critical_section_ex
+[ PASS ] vfprintf_file
+[ PASS ] vsnprintf_legacy_count
+[ PASS ] vsnprintf_s
+[ PASS ] vswprintf_vc8
+[ PASS ] wcsspn_fgetws
+[ PASS ] wctomb_code_page
+[ PASS ] wide_ctype_unicode
+[ PASS ] wide_remove_rename
+[ PASS ] wopen
+
+Results: 82 passed, 0 failed
+==> 67 test(s), 78 snapshot(s) → /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/tests/snap_preview/index.html

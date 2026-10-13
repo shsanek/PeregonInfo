@@ -1,0 +1,139 @@
+Test project /Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/build/native-release
+      Start 17: net_world_tests
+      Start 24: play_water_tests
+ 1/67 Test #24: play_water_tests .................   Passed   42.21 sec
+      Start 16: play_care_tests
+ 2/67 Test #17: net_world_tests ..................   Passed   63.04 sec
+      Start 14: timewarp_tests
+ 3/67 Test #14: timewarp_tests ...................   Passed   60.27 sec
+      Start 20: coop_slots_tests
+ 4/67 Test #16: play_care_tests ..................   Passed   98.34 sec
+      Start 22: woodcut_tests
+ 5/67 Test #22: woodcut_tests ....................   Passed    8.31 sec
+      Start  8: audio_tests
+ 6/67 Test #20: coop_slots_tests .................   Passed   30.08 sec
+      Start 19: loadout_tests
+ 7/67 Test  #8: audio_tests ......................   Passed   21.34 sec
+      Start  1: net_tests
+ 8/67 Test #19: loadout_tests ....................   Passed   17.43 sec
+      Start 65: care_tests
+ 9/67 Test  #1: net_tests ........................   Passed   13.81 sec
+      Start 10: vehicle_tests
+10/67 Test #65: care_tests .......................   Passed   19.09 sec
+      Start 21: inventory_tests
+11/67 Test #10: vehicle_tests ....................   Passed   17.45 sec
+      Start 37: diffuse_gi_render_check
+12/67 Test #37: diffuse_gi_render_check ..........   Passed    5.50 sec
+      Start 13: play_cargo_tests
+13/67 Test #21: inventory_tests ..................   Passed   32.32 sec
+      Start 56: character_tests
+14/67 Test #13: play_cargo_tests .................   Passed   18.49 sec
+      Start 23: play_lake_tests
+15/67 Test #56: character_tests ..................   Passed   11.95 sec
+      Start 57: ai_tests
+16/67 Test #23: play_lake_tests ..................   Passed   10.37 sec
+      Start 40: cloud_render_check
+17/67 Test #57: ai_tests .........................   Passed    2.67 sec
+      Start 52: glass_weather_tests
+18/67 Test #40: cloud_render_check ...............   Passed   11.71 sec
+      Start 53: world_tests
+19/67 Test #52: glass_weather_tests ..............   Passed   13.36 sec
+      Start 18: paper_map_tests
+20/67 Test #53: world_tests ......................   Passed    7.45 sec
+      Start 39: spot_shadow_render_check
+21/67 Test #18: paper_map_tests ..................   Passed   12.23 sec
+      Start 11: region_stream_check
+22/67 Test #39: spot_shadow_render_check .........   Passed   15.85 sec
+      Start 36: cab_lighting_tests
+23/67 Test #11: region_stream_check ..............   Passed    8.81 sec
+      Start 31: shaderc_tests
+24/67 Test #31: shaderc_tests ....................   Passed    2.56 sec
+      Start 45: cab_render_check
+25/67 Test #36: cab_lighting_tests ...............   Passed    7.22 sec
+      Start 44: aerial_render_check
+26/67 Test #45: cab_render_check .................   Passed    5.17 sec
+      Start 66: water_tests
+27/67 Test #66: water_tests ......................   Passed    0.06 sec
+      Start 64: survival_tests
+28/67 Test #64: survival_tests ...................   Passed    0.53 sec
+      Start 58: loc_tests
+29/67 Test #58: loc_tests ........................   Passed    0.02 sec
+      Start 49: leaf_tests
+30/67 Test #44: aerial_render_check ..............   Passed    1.57 sec
+      Start 59: save_tests
+31/67 Test #59: save_tests .......................   Passed    3.01 sec
+      Start 61: bot_tests
+32/67 Test #49: leaf_tests .......................   Passed    3.15 sec
+      Start 42: ground_normal_render_check
+33/67 Test #61: bot_tests ........................   Passed    1.07 sec
+      Start 50: river_ice_tests
+34/67 Test #50: river_ice_tests ..................   Passed    1.29 sec
+      Start 60: director_tests
+35/67 Test #60: director_tests ...................   Passed    1.01 sec
+      Start 41: sun_shadow_render_check
+36/67 Test #42: ground_normal_render_check .......   Passed    3.50 sec
+      Start 35: diffuse_gi_tests
+37/67 Test #41: sun_shadow_render_check ..........   Passed    1.75 sec
+      Start 67: lake_tests
+38/67 Test #67: lake_tests .......................   Passed    0.02 sec
+      Start 46: glass_render_check
+39/67 Test #35: diffuse_gi_tests .................   Passed    1.61 sec
+      Start 43: far_terrain_render_check
+40/67 Test #46: glass_render_check ...............   Passed    1.25 sec
+      Start  9: rhi_metal_tests
+41/67 Test #43: far_terrain_render_check .........   Passed    1.72 sec
+      Start 38: cab_lighting_gpu_check
+42/67 Test  #9: rhi_metal_tests ..................   Passed    0.92 sec
+      Start 48: season_tests
+43/67 Test #38: cab_lighting_gpu_check ...........   Passed    1.38 sec
+      Start  7: farm_tests
+44/67 Test #48: season_tests .....................   Passed    1.25 sec
+      Start 30: shader_metal_test
+45/67 Test #30: shader_metal_test ................   Passed    0.35 sec
+      Start 47: sky_occlusion_tests
+46/67 Test  #7: farm_tests .......................   Passed    0.89 sec
+      Start  2: economy_tests
+47/67 Test  #2: economy_tests ....................   Passed    0.23 sec
+      Start 15: winterplow_tests
+48/67 Test #47: sky_occlusion_tests ..............   Passed    1.06 sec
+      Start 25: combat_tests
+49/67 Test #25: combat_tests .....................   Passed    0.11 sec
+      Start 51: atmos_fx_tests
+50/67 Test #15: winterplow_tests .................   Passed    1.36 sec
+      Start 63: poi_tests
+51/67 Test #51: atmos_fx_tests ...................   Passed    1.11 sec
+      Start 54: nature_tests
+52/67 Test #63: poi_tests ........................   Passed    0.41 sec
+      Start 62: view_tests
+53/67 Test #54: nature_tests .....................   Passed    8.69 sec
+      Start 29: contracts_tests
+54/67 Test #29: contracts_tests ..................   Passed    0.12 sec
+      Start 26: gunplay_tests
+55/67 Test #26: gunplay_tests ....................   Passed    0.12 sec
+      Start  3: rhi_tests
+56/67 Test  #3: rhi_tests ........................   Passed    0.05 sec
+      Start 55: light_tests
+57/67 Test #62: view_tests .......................   Passed   15.26 sec
+      Start  6: cargo_tests
+58/67 Test  #6: cargo_tests ......................   Passed    0.07 sec
+      Start  5: ui_tests
+59/67 Test  #5: ui_tests .........................   Passed    0.02 sec
+      Start 28: scene_core_replay
+60/67 Test #28: scene_core_replay ................   Passed    0.41 sec
+      Start 32: asset_tests
+61/67 Test #32: asset_tests ......................   Passed    0.02 sec
+      Start 27: core_tests
+62/67 Test #27: core_tests .......................   Passed    0.02 sec
+      Start  4: scene_rhi_cube
+63/67 Test  #4: scene_rhi_cube ...................   Passed    0.01 sec
+      Start 34: asset_tests_characters_baba
+64/67 Test #34: asset_tests_characters_baba ......   Passed    0.10 sec
+      Start 33: asset_tests_characters
+65/67 Test #55: light_tests ......................   Passed    6.93 sec
+      Start 12: region_static_check
+66/67 Test #33: asset_tests_characters ...........   Passed    0.09 sec
+67/67 Test #12: region_static_check ..............   Passed   28.20 sec
+
+100% tests passed out of 67
+
+Total Test time (real) = 337.99 sec

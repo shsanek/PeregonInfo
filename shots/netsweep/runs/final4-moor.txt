@@ -1,0 +1,40 @@
+LOG line 6 host boatpos.x: -2499
+LOG line 7 host boatpos.z: 3911
+LOG line 25 host boatpos.x: -2494
+LOG line 26 host boatpos.z: 3923
+LOG line 6 p1 boatpos.x: -2499
+LOG line 7 p1 boatpos.z: 3911
+LOG line 25 p1 boatpos.x: -2495
+LOG line 26 p1 boatpos.z: 3923
+LOG line 6 p2 boatpos.x: -2499
+LOG line 7 p2 boatpos.z: 3911
+LOG line 25 p2 boatpos.x: -2495
+LOG line 26 p2 boatpos.z: 3923
+PASS line 3 BOAT-18 moor = 1: host=1 p1=1@1 p2=1@1
+PASS line 8 BOAT-18 boatpos.x = $bx: host=-2499 p1=-2499 p2=-2499
+PASS line 9 BOAT-18 boatpos.z = $bz: host=3911 p1=3911 p2=3911
+PASS line 10 BOAT-09 boatpos.x ~~ 2: host=-2499 p1=-2499 p2=-2499
+PASS line 14 BOAT-06 tow.1 = 1: host=1@10 p1=1@10 p2=na(x)
+PASS line 15 BOAT-18 moor = 0: host=0@11 p1=0@19 p2=0@19
+PASS line 17 BOAT-06 tow.1 = 0: host=0@9 p1=0@9 p2=na(x)
+PASS line 18 BOAT-18 moor = 1: host=1@10 p1=1@20 p2=1@21
+PASS line 22 BOAT-07 inboat.2 = 1: host=1@9 p1=1@10 p2=1@9
+PASS line 23 BOAT-18 moor = 0: host=0@10 p1=0@10 p2=0@10
+PASS line 27 BOAT-09 boatpos.x ~~ 2: host=-2494 p1=-2495@1 p2=-2495@1
+PASS line 28 BOAT-09 boatpos.z ~~ 2: host=3923 p1=3923@1 p2=3923@1
+PASS line 31 BOAT-12 inboat.2 = 0: host=0@10 p1=0@12 p2=0@10
+PASS line 32 BOAT-11 moor = 1: host=1@11 p1=1@26 p2=1@20
+PASS line 35 BOAT-18 boatpos.x = $cx: host=-2478 p1=-2478 p2=-2478
+PASS line 36 BOAT-18 boatpos.z = $cz: host=3933 p1=3933 p2=3933
+PASS line 37 BOAT-11 boatpos.x ~~ 2: host=-2478 p1=-2478 p2=-2478
+PASS line 38 BOAT-11 boatpos.z ~~ 2: host=3933 p1=3933 p2=3933
+client layer checks: 117 equal, 0 differ
+acts 11, failed acts 0
+rows 6 pass 6 fail 0
+ROW BOAT-06 PASS (2 checks)
+ROW BOAT-07 PASS (1 checks)
+ROW BOAT-09 PASS (3 checks)
+ROW BOAT-11 PASS (3 checks)
+ROW BOAT-12 PASS (1 checks)
+ROW BOAT-18 PASS (8 checks)
+RESULT PASS

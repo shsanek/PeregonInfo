@@ -1,0 +1,25 @@
+[suite] vehicle_tests
+    equilibrium: load 13733.993 N of 13734.001 N, belly gap 0.179 m, clearance 0.180 m
+[ OK ] suspension_equilibrium_on_flat_asphalt
+    drop: max gain 0.000 J, dissipated 5621.836 J of 5493.600 J
+[ OK ] energy_never_grows_after_drop
+    coast: 20.000 m/s -> 16.055 m/s after 10 s, energy rises 0
+[ OK ] coast_down_loses_energy
+    golden accel ticks=2400 chain=0xbe8e43d21dfc306c final=0x0f9064d444bdd023
+    golden mud_t1 ticks=1200 chain=0x772ef15dd8713a5e final=0x2baf4b8694db752a
+    golden mud_t2 ticks=1200 chain=0x0ecc87a5537c01e8 final=0xf6975d6e24c634ef
+    golden ram ticks=600 chain=0xe4fab98f73eb0e14 final=0xb71e831403a84208
+    golden ramp ticks=600 chain=0x29cc70f00750d7c7 final=0x08277aef0ac759d9
+[ OK ] determinism_hash_per_tick
+    0-100 11.900 s (design 11.963 s), top 136.421 km/h (stat 140)
+[ OK ] acceleration_0_100_matches_design
+    mud T1: z 57.047 m, stuck 14.183 s, belly ticks 991; T2: max z 132.648 m, stuck 0.000 s
+[ OK ] mud_pit_t1_stuck_t2_passes
+    ram -> entity 202 at 76 km/h damage 10.639
+    ram -> entity 200 at 76 km/h damage 10.639
+    ram -> entity 201 at 76 km/h damage 10.639
+    ram -> entity 100 at 64 km/h damage 8.959
+[ OK ] ram_emits_damage_event
+    0-100: T1 11.900 s, engine T3 7.500 s (design 8.017), armour T3 13.350 s, +600 kg 17.016 s (design 17.090); tyres T2 only in mud: max z 130.673 m
+[ OK ] parts_and_cargo_change_handling
+[done] 8/8 passed, 61 checks

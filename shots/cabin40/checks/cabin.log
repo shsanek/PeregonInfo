@@ -1,0 +1,5 @@
+[suite] coop_seats_tests
+[ OK ] cabin40_each_exit_keeps_its_door_and_both_bed_ladders_work
+[done] 1/1 passed, 41 checks
+    inspection side -1: base 0.000 peak 0.949 final 0.921
+    inspection side 1: base 0.000 peak 0.876 final 0.851

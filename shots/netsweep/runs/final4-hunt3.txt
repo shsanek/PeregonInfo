@@ -1,0 +1,62 @@
+LOG line 12 host carc.0.kg: 190
+LOG line 14 host prompt.1: Brown bear: E / LMB — take it and drag · no knife
+LOG line 20 host carc.0.x: 505
+LOG line 21 host carc.0.z: 1203
+LOG line 24 host prompt.1: Dragging the Bear carcass, 190 kg (1 pulling) · F / RMB — let go
+LOG line 27 host prompt.2: Brown bear: E / LMB — take it and drag · no knife
+LOG line 32 host carc.0.x: 509
+LOG line 33 host carc.0.z: 1202
+LOG line 36 host prompt.1: Dragging the Bear carcass, 190 kg (2 pulling) · E / LMB — haul it up the tailgate on the rope (hold) · F / RMB — let go
+LOG line 39 host prompt.1: Dragging the Bear carcass, 190 kg (1 pulling) · E / LMB — haul it up the tailgate on the rope (hold) · F / RMB — let go
+LOG line 44 host cargokg: 192
+LOG line 45 host raid: 0
+LOG line 51 host prompt.2: E / LMB — tidy up the garden bed
+LOG line 12 p1 carc.0.kg: 190
+LOG line 14 p1 prompt.1: Brown bear: E / LMB — take it and drag · no knife
+LOG line 20 p1 carc.0.x: 505
+LOG line 21 p1 carc.0.z: 1203
+LOG line 24 p1 prompt.1: Dragging the Bear carcass, 190 kg (1 pulling) · F / RMB — let go
+LOG line 27 p1 prompt.2: na
+LOG line 32 p1 carc.0.x: 509
+LOG line 33 p1 carc.0.z: 1202
+LOG line 36 p1 prompt.1: Dragging the Bear carcass, 190 kg (2 pulling) · E / LMB — haul it up the tailgate on the rope (hold) · F / RMB — let go
+LOG line 39 p1 prompt.1: Dragging the Bear carcass, 190 kg (1 pulling) · E / LMB — haul it up the tailgate on the rope (hold) · F / RMB — let go
+LOG line 44 p1 cargokg: 192
+LOG line 45 p1 raid: 0
+LOG line 51 p1 prompt.2: na
+LOG line 12 p2 carc.0.kg: 190
+LOG line 14 p2 prompt.1: na
+LOG line 20 p2 carc.0.x: 505
+LOG line 21 p2 carc.0.z: 1203
+LOG line 24 p2 prompt.1: na
+LOG line 27 p2 prompt.2: Brown bear: E / LMB — take it and drag · no knife
+LOG line 32 p2 carc.0.x: 509
+LOG line 33 p2 carc.0.z: 1202
+LOG line 36 p2 prompt.1: na
+LOG line 39 p2 prompt.1: na
+LOG line 44 p2 cargokg: 192
+LOG line 45 p2 raid: 0
+LOG line 51 p2 prompt.2: E / LMB — tidy up the garden bed
+PASS line 11 HUNT-08 carc.0.sp = 2: host=2 p1=2@1 p2=2@1
+PASS line 16 HUNT-08 carc.0.ndrag = 1: host=1@10 p1=1@12 p2=1@12
+PASS line 22 HUNT-08 carc.0.x ~~ 1: host=505 p1=505@1 p2=505@1
+PASS line 23 HUNT-08 carc.0.z ~~ 1: host=1203 p1=1203@1 p2=1203@1
+PASS line 29 HUNT-09 carc.0.ndrag = 2: host=2@10 p1=2@12 p2=2@11
+PASS line 34 HUNT-09 carc.0.x ~~ 1: host=509 p1=509 p2=509
+PASS line 35 HUNT-09 carc.0.z ~~ 1: host=1202 p1=1202 p2=1202
+PASS line 38 HUNT-09 carc.0.ndrag = 1: host=1@10 p1=1@14 p2=1@14
+PASS line 41 HUNT-10 carc.0.place = 1: host=1@547 p1=1@548 p2=1@549
+PASS line 42 HUNT-10 cargokg > $m0+150: host=192@548 p1=192@555 p2=192@555
+PASS line 43 HUNT-10 cargokg ~~ 2: host=2 p1=2 p2=2
+PASS line 47 FAUNA-08 raid >= 1: host=1 p1=1 p2=1
+PASS line 48 FAUNA-08 raid ~~ 0: host=1 p1=1 p2=1
+PASS line 53 FAUNA-08 raid < $r0: host=0@10 p1=0@11 p2=0@11
+PASS line 54 FAUNA-08 raid ~~ 0: host=1 p1=1@1 p2=1@1
+client layer checks: 123 equal, 0 differ
+acts 21, failed acts 0
+rows 4 pass 4 fail 0
+ROW FAUNA-08 PASS (4 checks)
+ROW HUNT-08 PASS (4 checks)
+ROW HUNT-09 PASS (4 checks)
+ROW HUNT-10 PASS (3 checks)
+RESULT PASS

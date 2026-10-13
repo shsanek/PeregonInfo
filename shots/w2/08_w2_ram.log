@@ -1,0 +1,11 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w2_vehicle --rhi d3d9 --replay C:\Peregon\scene_w2_vehicle_ram.prpl --ticks 600
+rc=0
+--- stdout
+scene=scene_w2_vehicle seed=1 ticks=600 flavour=win32
+final_state_hash=20b3f899
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.ZDIAbT6B9v/dump/present_000.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.ZDIAbT6B9v/dump/present_001.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.ZDIAbT6B9v/dump/present_002.bgra
+[RunResult] guest_exit_code=0x00000000

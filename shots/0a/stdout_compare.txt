@@ -1,0 +1,4 @@
+IDENTICAL native_peregon.stdout.txt == executor_peregon.stdout.txt
+IDENTICAL native_peregon.stdout.txt == executor_peregon_debug.stdout.txt
+IDENTICAL native_core_tests.stdout.txt == executor_core_tests.stdout.txt
+IDENTICAL native_core_tests.stdout.txt == executor_core_tests_debug.stdout.txt

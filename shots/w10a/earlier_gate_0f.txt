@@ -1,0 +1,19 @@
+..................................
+----------------------------------------------------------------------
+Ran 34 tests in 0.016s
+
+OK
+unlit_textured: vs_2_0 9 slots 2 temps, ps_2_0 1 arith 1 tex 1 temps
+vertex_lit_fog: vs_2_0 33 slots 4 temps, ps_2_0 6 arith 1 tex 3 temps
+golden check OK: 12 files
+metal unlit_textured hash=d369c1c5 expected=d369c1c5 mismatches=0 max_delta=0 margin_milli_lsb=500 PASS
+metal vertex_lit_fog hash=f5bb01c5 expected=f5bb01c5 mismatches=0 max_delta=0 margin_milli_lsb=22 PASS
+d3d9 unlit_textured hash=d369c1c5 expected=d369c1c5 mismatches=0 max_delta=0 margin_milli_lsb=500 PASS
+d3d9 vertex_lit_fog hash=f5bb01c5 expected=f5bb01c5 mismatches=0 max_delta=0 margin_milli_lsb=22 PASS
+shot: reports/shots/0f/23_unlit_textured_native.jpg (9556 bytes)
+shot: reports/shots/0f/23_unlit_textured_executor.jpg (9556 bytes)
+shot: reports/shots/0f/23_vertex_lit_fog_native.jpg (4718 bytes)
+shot: reports/shots/0f/23_vertex_lit_fog_executor.jpg (4718 bytes)
+log: reports/shots/0f/23_shader_gate.log
+shader gate PASS: native metal and executor d3d9 match the analytic reference
+GATE 0f PASS

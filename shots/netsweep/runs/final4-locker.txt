@@ -1,0 +1,58 @@
+LOG line 9 host prompt.1: Locker in the seat base: E / LMB — open the lid
+LOG line 16 host prompt.2: Box under the seat is empty: E / LMB — close the lid · B put the thermos in · F / RMB — get in: Passenger seat
+LOG line 23 host carry.1: oil_can
+LOG line 24 host seatbox: 1:0:0
+LOG line 25 host banner.1: Picked up: Oil can
+LOG line 27 host prompt.1: Box under the seat (0/3): E / LMB — put in: Oil can · B put the thermos in
+LOG line 32 host banner.1: Put under the seat: Oil can
+LOG line 33 host seatbox: 1:1:0
+LOG line 39 host seatbox: 1:0:0
+LOG line 45 host prompt.1: Locker in the seat base: E / LMB — open the lid
+LOG line 9 p1 prompt.1: Locker in the seat base: E / LMB — open the lid
+LOG line 16 p1 prompt.2: na
+LOG line 23 p1 carry.1: oil_can
+LOG line 24 p1 seatbox: 1:0:0
+LOG line 25 p1 banner.1: Picked up: Oil can
+LOG line 27 p1 prompt.1: Box under the seat (0/3): E / LMB — put in: Oil can · B put the thermos in
+LOG line 32 p1 banner.1: Put under the seat: Oil can
+LOG line 33 p1 seatbox: 1:1:0
+LOG line 39 p1 seatbox: 1:0:0
+LOG line 45 p1 prompt.1: Locker in the seat base: E / LMB — open the lid
+LOG line 9 p2 prompt.1: na
+LOG line 16 p2 prompt.2: Box under the seat is empty: E / LMB — close the lid · B put the thermos in · F / RMB — get in: Passenger seat
+LOG line 23 p2 carry.1: oil_can
+LOG line 24 p2 seatbox: 1:0:0
+LOG line 25 p2 banner.1: na
+LOG line 27 p2 prompt.1: na
+LOG line 32 p2 banner.1: na
+LOG line 33 p2 seatbox: 1:1:0
+LOG line 39 p2 seatbox: 1:0:0
+LOG line 45 p2 prompt.1: na
+PASS line 11 INV-11 seatbox = 1:0:0: host=1:0:0@35 p1=1:0:0@43 p2=1:0:0@41
+PASS line 12 INV-11 seatbox == x: host=0:0:0 p1=0:0:0@3 p2=0:0:0@5
+PASS line 13 INV-14 seatlock = 1: host=1@35 p1=na(x) p2=na(x)
+PASS line 18 INV-14 seatlock = 1: host=1 p1=na(x) p2=na(x)
+PASS line 19 INV-14 seatbox = 1:0:0: host=1:0:0 p1=1:0:0@2 p2=1:0:0@1
+PASS line 29 INV-12 seatbox = 1:1:0: host=1:1:0@11 p1=1:1:0@12 p2=1:1:0@12
+PASS line 30 INV-12 seatbox == x: host=1:0:0 p1=1:0:0@1 p2=1:0:0@2
+PASS line 31 INV-12 carry.1 = -: host=-@11 p1=-@11 p2=-@12
+PASS line 35 INV-12 carry.1 = oil_can: host=oil_can@10 p1=oil_can@10 p2=oil_can@15
+PASS line 36 INV-12 seatbox = 1:0:0: host=1:0:0@10 p1=1:0:0@12 p2=1:0:0@15
+PASS line 41 INV-13 seatbox = 0:0:0: host=0:0:0@9 p1=0:0:0@9 p2=0:0:0@9
+PASS line 42 INV-14 seatlock = -: host=-@9 p1=na(x) p2=na(x)
+PASS line 43 INV-13 seatbox == x: host=1:0:0 p1=1:0:0 p2=1:0:0
+PASS line 47 INV-11 seatbox = 1:0:0: host=1:0:0@9 p1=1:0:0@18 p2=1:0:0@10
+PASS line 48 INV-14 seatlock = 1: host=1@9 p1=na(x) p2=na(x)
+PASS line 50 INV-13 seatbox = 0:0:0: host=0:0:0 p1=0:0:0 p2=0:0:0@1
+PASS line 51 INV-14 seatlock = -: host=- p1=na(x) p2=na(x)
+PASS line 52 INV-13 seatbox == x: host=0:0:0 p1=0:0:0 p2=0:0:0@1
+PASS line 55 INV-14 seatlock = 2: host=2@9 p1=na(x) p2=na(x)
+PASS line 56 INV-14 seatbox = 1:0:0: host=1:0:0@9 p1=1:0:0@8 p2=1:0:0@9
+client layer checks: 71 equal, 0 differ
+acts 23, failed acts 0
+rows 4 pass 4 fail 0
+ROW INV-11 PASS (3 checks)
+ROW INV-12 PASS (5 checks)
+ROW INV-13 PASS (4 checks)
+ROW INV-14 PASS (8 checks)
+RESULT PASS

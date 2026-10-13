@@ -1,0 +1,19 @@
+tools/net/world_loopback.sh 2 --replay build/storyrun_shots/idle.txt --ticks 4800 --join-at 900 --client-bot person:sych:kolya -- --start "sq:s5_sych:proofs:sych:1000:flag.s5_roof_done:flag.s5_sych_refused:var.s5_proofs=2"
+world loopback: 2 instances, host ticks 4800, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (82 chunks), 0.00 MB on the wire, 0.1 s, complete at tick 960 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 4 ms, max 6 ms
+host: layer stream after join: avg 7.6 KB/s, max 8.5 KB/s (cap 48); wire avg 44.6 KB/s, max 52.0 KB/s; collect max 0.78 ms  PASS
+p1: bot person:sych:kolya, participant True, moved 0.0 m  PASS
+p1: joined at host tick 960 in 0.1 s, 0.01 MB of frames, 77 chunks, first check equal, apply max 3.1 ms
+p1: 65 complete checks, 65 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":1620
+"what":"person_screen","tick":1620,"holder":255
+"what":"person_topic","tick":2160,"ok":1
+"what":"person_press","tick":1620
+"s5_sych": {"status": 2, "stage": "proofs"}
+"s5_sych": {"status": 2, "stage": "proofs"}
+"r2_new_fence:16@271~271,-245,1354"
+"r2_new_fence:16@271~271,-245,1354"
+"story": {"serial": 12, "hash": 127170439
+"story": {"serial": 12, "hash": 127170439

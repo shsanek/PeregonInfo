@@ -1,0 +1,19 @@
+map rect_test: 160 tiles of 512 m, pak 5.0 MB (largest tile 73.9 KB), 1131 2 m patches, 7 placements, heights 313..558 m, route 30.2 km / 608 s
+mapgen last run: {"time_s": 0.92, "load_s": 0.83, "tiles_s": 0.0, "tiles_built": 0, "tiles_reused": 160, "tiles_empty": 0, "jobs": 8}
+network R1   roads  1   10.58 km  max cut  0.42 m fill  4.58 m grade 0.060  worst ratio 1.000 (rect_trunk)
+network R10  roads  1    0.72 km  max cut  0.21 m fill  0.02 m grade 0.065  worst ratio 0.432 (rect_steppe)
+network R4   roads  1    6.32 km  max cut  0.18 m fill  0.17 m grade 0.084  worst ratio 0.839 (rect_main)
+network R5   roads  1    2.42 km  max cut  0.19 m fill  0.02 m grade 0.121  worst ratio 0.644 (rect_spur)
+network RW   roads  1   10.18 km  max cut  4.90 m fill 11.45 m grade 0.020  worst ratio 1.000 (rect_railway)
+EXEcutor d3d9 SM2 short: ticks 360, wall 0.4 s, frame avg 1.19 ms p95 1.39 max 52.46, hitches>50ms 1, teleports 0
+  streaming: loads 11 (prime 9), evictions 0, unique tiles 11/160, peak resident 11, max loads/tick 1, load avg 4.424 ms max 34.176 ms, rebases 0, read 0.4 MB
+  memory: tiles peak 2.013 MB, gpu peak 14.839 MB (far 0.592 MB), total peak 18.851 MB of 300.0 MB budget
+  render: frames 361, draws avg 87.269 max 128, triangles avg 51357.452 max 61976, uploads 11, mesh build 7.139 ms per tile, max 13.212 ms per frame; precision local 0.004 mm vs float world 0.004 mm
+host rhi_null whole route: ticks 37096, wall 0.1 s, frame avg 0.00 ms p95 0.00 max 0.00, hitches>50ms 0, teleports 4
+  streaming: loads 367 (prime 83), evictions 342, unique tiles 130/160, peak resident 43, max loads/tick 0, load avg 0.122 ms max 0.365 ms, rebases 24, read 12.2 MB
+  memory: tiles peak 8.058 MB, gpu peak 12.204 MB (far 0.592 MB), total peak 22.263 MB of 300.0 MB budget
+  render: frames 0, draws avg 0.0 max 0, triangles avg 0.0 max 0, uploads 9, mesh build 0.0 ms per tile, max 0.0 ms per frame; precision local 0.031 mm vs float world 0.244 mm
+EXEcutor RunGame d3d9 whole route: ticks 37096, wall 322.5 s, frame avg 1.98 ms p95 5.72 max 51.38, hitches>50ms 2, teleports 4
+  streaming: loads 367 (prime 83), evictions 342, unique tiles 130/160, peak resident 43, max loads/tick 0, load avg 1.544 ms max 31.805 ms, rebases 24, read 12.2 MB
+  memory: tiles peak 8.058 MB, gpu peak 59.585 MB (far 0.592 MB), total peak 69.643 MB of 300.0 MB budget
+  render: frames 37096, draws avg 168.288 max 282, triangles avg 77597.441 max 105598, uploads 367, mesh build 37.402 ms per tile, max 27.286 ms per frame; precision local 0.031 mm vs float world 0.244 mm

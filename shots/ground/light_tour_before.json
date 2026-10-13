@@ -1,0 +1,328 @@
+{
+ "field_road_edge/noon": {
+  "frame_ms_avg": 19.64,
+  "frames": 123,
+  "shot": "before_field_road_edge_noon.jpg",
+  "state_hash": "95593b46",
+  "tick": 1153
+ },
+ "field_road_edge/overcast": {
+  "frame_ms_avg": 15.255,
+  "frames": 23,
+  "shot": "before_field_road_edge_overcast.jpg",
+  "state_hash": "1bebddff",
+  "tick": 1201
+ },
+ "field_road_edge/rain": {
+  "frame_ms_avg": 15.05,
+  "frames": 23,
+  "shot": "before_field_road_edge_rain.jpg",
+  "state_hash": "d754da88",
+  "tick": 1225
+ },
+ "field_road_edge/snow": {
+  "frame_ms_avg": 15.544,
+  "frames": 23,
+  "shot": "before_field_road_edge_snow.jpg",
+  "state_hash": "9e454eb0",
+  "tick": 1249
+ },
+ "field_road_edge/sunset": {
+  "frame_ms_avg": 15.289,
+  "frames": 23,
+  "shot": "before_field_road_edge_sunset.jpg",
+  "state_hash": "2873f0d2",
+  "tick": 1177
+ },
+ "ford_approach/noon": {
+  "frame_ms_avg": 19.094,
+  "frames": 123,
+  "shot": "before_ford_approach_noon.jpg",
+  "state_hash": "8fa1be78",
+  "tick": 1593
+ },
+ "ford_approach/overcast": {
+  "frame_ms_avg": 17.778,
+  "frames": 23,
+  "shot": "before_ford_approach_overcast.jpg",
+  "state_hash": "fe9eb8e9",
+  "tick": 1641
+ },
+ "ford_approach/rain": {
+  "frame_ms_avg": 16.022,
+  "frames": 23,
+  "shot": "before_ford_approach_rain.jpg",
+  "state_hash": "961fea1a",
+  "tick": 1665
+ },
+ "ford_approach/snow": {
+  "frame_ms_avg": 16.182,
+  "frames": 23,
+  "shot": "before_ford_approach_snow.jpg",
+  "state_hash": "e062e392",
+  "tick": 1689
+ },
+ "ford_approach/sunset": {
+  "frame_ms_avg": 15.446,
+  "frames": 23,
+  "shot": "before_ford_approach_sunset.jpg",
+  "state_hash": "714b92bc",
+  "tick": 1617
+ },
+ "forest_edge/noon": {
+  "frame_ms_avg": 23.229,
+  "frames": 123,
+  "shot": "before_forest_edge_noon.jpg",
+  "state_hash": "69de79b8",
+  "tick": 713
+ },
+ "forest_edge/overcast": {
+  "frame_ms_avg": 21.392,
+  "frames": 23,
+  "shot": "before_forest_edge_overcast.jpg",
+  "state_hash": "29035b0f",
+  "tick": 761
+ },
+ "forest_edge/rain": {
+  "frame_ms_avg": 20.706,
+  "frames": 23,
+  "shot": "before_forest_edge_rain.jpg",
+  "state_hash": "a65a1cbb",
+  "tick": 785
+ },
+ "forest_edge/snow": {
+  "frame_ms_avg": 21.429,
+  "frames": 23,
+  "shot": "before_forest_edge_snow.jpg",
+  "state_hash": "b8a19df0",
+  "tick": 809
+ },
+ "forest_edge/sunset": {
+  "frame_ms_avg": 18.718,
+  "frames": 23,
+  "shot": "before_forest_edge_sunset.jpg",
+  "state_hash": "72716aa3",
+  "tick": 737
+ },
+ "gravel_pad/noon": {
+  "frame_ms_avg": 26.187,
+  "frames": 123,
+  "shot": "before_gravel_pad_noon.jpg",
+  "state_hash": "a1ce4054",
+  "tick": 1813
+ },
+ "gravel_pad/overcast": {
+  "frame_ms_avg": 22.345,
+  "frames": 23,
+  "shot": "before_gravel_pad_overcast.jpg",
+  "state_hash": "f958bc63",
+  "tick": 1861
+ },
+ "gravel_pad/rain": {
+  "frame_ms_avg": 23.565,
+  "frames": 23,
+  "shot": "before_gravel_pad_rain.jpg",
+  "state_hash": "9421767b",
+  "tick": 1885
+ },
+ "gravel_pad/snow": {
+  "frame_ms_avg": 23.866,
+  "frames": 23,
+  "shot": "before_gravel_pad_snow.jpg",
+  "state_hash": "d60494ec",
+  "tick": 1909
+ },
+ "gravel_pad/sunset": {
+  "frame_ms_avg": 20.208,
+  "frames": 23,
+  "shot": "before_gravel_pad_sunset.jpg",
+  "state_hash": "518e23fb",
+  "tick": 1837
+ },
+ "meadow_far/noon": {
+  "frame_ms_avg": 15.18,
+  "frames": 123,
+  "shot": "before_meadow_far_noon.jpg",
+  "state_hash": "cb6fbcbf",
+  "tick": 493
+ },
+ "meadow_far/overcast": {
+  "frame_ms_avg": 12.489,
+  "frames": 23,
+  "shot": "before_meadow_far_overcast.jpg",
+  "state_hash": "52bde98f",
+  "tick": 541
+ },
+ "meadow_far/rain": {
+  "frame_ms_avg": 13.87,
+  "frames": 23,
+  "shot": "before_meadow_far_rain.jpg",
+  "state_hash": "b1589c69",
+  "tick": 565
+ },
+ "meadow_far/snow": {
+  "frame_ms_avg": 15.678,
+  "frames": 23,
+  "shot": "before_meadow_far_snow.jpg",
+  "state_hash": "3e62febf",
+  "tick": 589
+ },
+ "meadow_far/sunset": {
+  "frame_ms_avg": 8.959,
+  "frames": 23,
+  "shot": "before_meadow_far_sunset.jpg",
+  "state_hash": "aed8da2d",
+  "tick": 517
+ },
+ "meadow_near/noon": {
+  "frame_ms_avg": 21.822,
+  "frames": 123,
+  "shot": "before_meadow_near_noon.jpg",
+  "state_hash": "a9876f27",
+  "tick": 273
+ },
+ "meadow_near/overcast": {
+  "frame_ms_avg": 15.83,
+  "frames": 23,
+  "shot": "before_meadow_near_overcast.jpg",
+  "state_hash": "9e49a815",
+  "tick": 321
+ },
+ "meadow_near/rain": {
+  "frame_ms_avg": 15.49,
+  "frames": 23,
+  "shot": "before_meadow_near_rain.jpg",
+  "state_hash": "db313bc7",
+  "tick": 345
+ },
+ "meadow_near/snow": {
+  "frame_ms_avg": 15.849,
+  "frames": 23,
+  "shot": "before_meadow_near_snow.jpg",
+  "state_hash": "f57ddf22",
+  "tick": 369
+ },
+ "meadow_near/sunset": {
+  "frame_ms_avg": 15.331,
+  "frames": 23,
+  "shot": "before_meadow_near_sunset.jpg",
+  "state_hash": "c7ea7e94",
+  "tick": 297
+ },
+ "riverbank/noon": {
+  "frame_ms_avg": 18.791,
+  "frames": 123,
+  "shot": "before_riverbank_noon.jpg",
+  "state_hash": "e6ad11a4",
+  "tick": 933
+ },
+ "riverbank/overcast": {
+  "frame_ms_avg": 17.374,
+  "frames": 23,
+  "shot": "before_riverbank_overcast.jpg",
+  "state_hash": "8908f887",
+  "tick": 981
+ },
+ "riverbank/rain": {
+  "frame_ms_avg": 15.827,
+  "frames": 23,
+  "shot": "before_riverbank_rain.jpg",
+  "state_hash": "333a33d2",
+  "tick": 1005
+ },
+ "riverbank/snow": {
+  "frame_ms_avg": 16.753,
+  "frames": 23,
+  "shot": "before_riverbank_snow.jpg",
+  "state_hash": "4ef0a053",
+  "tick": 1029
+ },
+ "riverbank/sunset": {
+  "frame_ms_avg": 15.399,
+  "frames": 23,
+  "shot": "before_riverbank_sunset.jpg",
+  "state_hash": "9a31fa4b",
+  "tick": 957
+ },
+ "road_truck/noon": {
+  "frame_ms_avg": 16.565,
+  "frames": 123,
+  "shot": "before_road_truck_noon.jpg",
+  "state_hash": "0541b350",
+  "tick": 1373
+ },
+ "road_truck/overcast": {
+  "frame_ms_avg": 15.515,
+  "frames": 23,
+  "shot": "before_road_truck_overcast.jpg",
+  "state_hash": "c7fa803c",
+  "tick": 1421
+ },
+ "road_truck/rain": {
+  "frame_ms_avg": 15.407,
+  "frames": 23,
+  "shot": "before_road_truck_rain.jpg",
+  "state_hash": "9fe697d4",
+  "tick": 1445
+ },
+ "road_truck/snow": {
+  "frame_ms_avg": 15.699,
+  "frames": 23,
+  "shot": "before_road_truck_snow.jpg",
+  "state_hash": "5cc13380",
+  "tick": 1469
+ },
+ "road_truck/sunset": {
+  "frame_ms_avg": 15.737,
+  "frames": 23,
+  "shot": "before_road_truck_sunset.jpg",
+  "state_hash": "ea3539c6",
+  "tick": 1397
+ },
+ "rock_slope/noon": {
+  "frame_ms_avg": 19.652,
+  "frames": 123,
+  "shot": "before_rock_slope_noon.jpg",
+  "state_hash": "ac623e11",
+  "tick": 2033
+ },
+ "rock_slope/overcast": {
+  "frame_ms_avg": 16.82,
+  "frames": 23,
+  "shot": "before_rock_slope_overcast.jpg",
+  "state_hash": "4c6efe9a",
+  "tick": 2081
+ },
+ "rock_slope/rain": {
+  "frame_ms_avg": 15.669,
+  "frames": 23,
+  "shot": "before_rock_slope_rain.jpg",
+  "state_hash": "1ce389d9",
+  "tick": 2105
+ },
+ "rock_slope/snow": {
+  "frame_ms_avg": 15.778,
+  "frames": 23,
+  "shot": "before_rock_slope_snow.jpg",
+  "state_hash": "f9ed35a8",
+  "tick": 2129
+ },
+ "rock_slope/sunset": {
+  "frame_ms_avg": 15.506,
+  "frames": 23,
+  "shot": "before_rock_slope_sunset.jpg",
+  "state_hash": "45178b70",
+  "tick": 2057
+ },
+ "run": {
+  "final_state_hash": "366b864b",
+  "frame_time_ms": {
+   "avg": 25.911,
+   "max": 5126.122,
+   "min": 8.252
+  },
+  "launches": 1,
+  "ticks": 2131,
+  "wall_time_ms": 55223.44
+ }
+}

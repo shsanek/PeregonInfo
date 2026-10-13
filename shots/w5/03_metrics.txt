@@ -1,0 +1,22 @@
+distance driven km                             7.06   >= 6 km (two loops of the slice)             OK
+encounters per km (all)                       1.559   1..3 per km                                  OK
+  ambush spawned / met / per km           2/2/0.283   met >= 1                                     OK
+  traffic spawned / met / per km          4/4/0.567   met >= 1                                     OK
+  convoy spawned / met / per km           1/1/0.142   met >= 1                                     OK
+  breakdown spawned / met / per km        2/2/0.283   met >= 1                                     OK
+  wreck spawned / met / per km            1/1/0.142   met >= 1                                     OK
+  obstacle spawned / met / per km         1/1/0.142   met >= 1                                     OK
+something worth seeing: mean s               25.761   brief 30-45 s (mean 20..45)                  OK
+something worth seeing: max s                 40.95   <= 60 s, quiet stretch <= 2 min              OK
+something worth seeing: within budget %        100.0   >= 85 % of gaps <= 45 s                      OK
+place or road moment: max s                   111.6   brief 90-150 s (max <= 150)                  OK
+authored roadblock ambush cleared on foot            2   once per emission cycle: 2                   OK
+raiders fought on foot                            8   >= 6                                         OK
+emissions                                         1   1 (camp rest crosses day 2 03:00)            OK
+outposts cleared then reoccupied                  2   both outposts reoccupied by the emission     OK
+contracts offered                                10   >= 8                                         OK
+contract board C0 errors                          0   0                                            OK
+contract variety jobs/factions/conditions        6/3/4   >= 4 / 3 / >= 3                              OK
+reward coupons min/mean/max            280/322.0/350   W8 Zarechye 150..350                         OK
+contracts completed                               1   >= 1                                         OK
+wrecks looted / items into the bed              3/7   >= 3 items                                   OK

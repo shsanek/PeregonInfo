@@ -1,0 +1,14 @@
+[0/2] Re-checking globbed directories...
+[1/9] Generating prop_embedded_501.cpp
+[2/9] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_501.cpp.o
+[3/9] Linking CXX static library lib/libperegon_prop_data.a
+[4/9] Building CXX object src/view/CMakeFiles/peregon_view.dir/truck_hero.cpp.o
+[5/9] Linking CXX static library lib/libperegon_view.a
+[6/9] Linking CXX executable bin/peregon_headless
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[7/9] Building CXX object src/game/CMakeFiles/play_cargo_tests.dir/play/tests/play_cargo_tests.cpp.o
+[8/9] Linking CXX executable bin/play_cargo_tests
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_assets.a', 'lib/libperegon_cargo.a', 'lib/libperegon_combat.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0

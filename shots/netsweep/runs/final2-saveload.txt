@@ -1,0 +1,38 @@
+LOG line 11 host banner.0: Game saved
+LOG line 12 host yard.oil_can: 1
+LOG line 23 host banner.0: Loading a save works only alone: the other players would keep things from the newer world
+LOG line 30 host place.1: foot
+LOG line 31 host place.2: foot
+LOG line 32 host pack.1.oil_can: 1
+LOG line 11 p1 banner.0: na
+LOG line 12 p1 yard.oil_can: 1
+LOG line 23 p1 banner.0: na
+LOG line 30 p1 place.1: foot
+LOG line 31 p1 place.2: foot
+LOG line 32 p1 pack.1.oil_can: 1
+LOG line 11 p2 banner.0: na
+LOG line 12 p2 yard.oil_can: 1
+LOG line 23 p2 banner.0: na
+LOG line 30 p2 place.1: foot
+LOG line 31 p2 place.2: foot
+LOG line 32 p2 pack.1.oil_can: na
+PASS line 8 SAVE-01 coupons = 120: host=120 p1=120@1 p2=120
+PASS line 9 SAVE-01 tailgate = 0: host=0 p1=0@1 p2=0
+PASS line 15 SAVE-03 pack.1.oil_can = 1: host=1@9 p1=1@9 p2=na(x)
+PASS line 16 SAVE-03 yard.oil_can = 0: host=0@9 p1=0@15 p2=0@16
+PASS line 20 SAVE-02 tailgate = 1: host=1 p1=1@1 p2=1@1
+PASS line 21 SAVE-02 door.0 = 1: host=1 p1=1@1 p2=1@1
+PASS line 24 SAVE-01 banner.0 ~ alone: host=Loading a save works only alone: the other players would keep things from the newer world p1=na(x) p2=na(x)
+PASS line 25 SAVE-01 tailgate = 1: host=1 p1=1 p2=1
+PASS line 26 SAVE-01 coupons = 300: host=300 p1=300 p2=300
+PASS line 27 SAVE-03 yard.oil_can = 0: host=0 p1=0 p2=0
+PASS line 28 SAVE-03 pack.1.oil_can = 1: host=1 p1=1 p2=na(x)
+PASS line 29 SAVE-01 players = 3: host=3 p1=3 p2=3
+PASS line 33 SAVE-01 layer.cargo == x: host=1747a631 p1=1747a631 p2=1747a631
+PASS line 34 SAVE-01 layer.world == x: host=00c7da2c p1=00c7da2c p2=00c7da2c
+acts 11, failed acts 0
+rows 3 pass 3 fail 0
+ROW SAVE-01 PASS (8 checks)
+ROW SAVE-02 PASS (2 checks)
+ROW SAVE-03 PASS (4 checks)
+RESULT PASS

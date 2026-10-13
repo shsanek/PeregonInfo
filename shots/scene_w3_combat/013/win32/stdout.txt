@@ -1,0 +1,8 @@
+scene=scene_w3_combat seed=4 ticks=1034 flavour=win32
+capture tick=32 state=ab24397c image=b1346235 file=tick_000032.bmp
+capture tick=68 state=40bfc746 image=66f932f9 file=tick_000068.bmp
+capture tick=135 state=c0d79d64 image=ac89c13b file=tick_000135.bmp
+capture tick=265 state=f90c7f4b image=5b6d3ad1 file=tick_000265.bmp
+capture tick=312 state=d5b277fa image=bdf706c6 file=tick_000312.bmp
+capture tick=433 state=331bb48e image=17e7afec file=tick_000433.bmp
+final_state_hash=086743f0

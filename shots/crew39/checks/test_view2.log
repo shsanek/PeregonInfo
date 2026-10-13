@@ -1,0 +1,20 @@
+[suite] view_tests
+[ OK ] hero_hood_and_tailgate_open_around_their_real_hinges
+[ OK ] hero_wheels_follow_suspension_without_rotating_chassis
+[ OK ] hero_controls_animate_instead_of_snapping_and_needles_use_live_values
+[ OK ] hero_controls_transfer_and_separate_key_have_animated_poses
+[ OK ] hero_tyre_toggle_replaces_the_choke_card_and_the_choke_is_a_pull_knob_under_the_lock
+[ OK ] hero_window_seal_line_tracks_the_sliding_pane
+[ OK ] hero_engine_load_answers_the_pedal_within_50ms
+[ OK ] hero_controls_all_gauges_park_without_ignition_power
+[ OK ] hero_gauges_never_jump_and_stay_on_their_pins
+[ OK ] hero_tach_brake_then_throttle_rises_smoothly_from_idle
+[ OK ] hero_tach_follows_shift_drop_and_downshift_blip
+[ OK ] hero_engine_catch_flares_then_settles_and_stop_spins_down
+[ OK ] hero_driver_has_one_tank_on_supports_and_no_storage_lid_or_straps
+[ OK ] hero_rear_locker_lids_hold_only_their_own_door
+[ OK ] hero_passenger_locker_opens_outward_and_holds_its_door
+[ OK ] hero_oil_and_coolant_follow_physical_models
+[ OK ] hero_speedometer_reads_magnitude_and_fuel_gauge_is_damped
+[ OK ] hero_gauge_engine_needles_quiver_but_stopped_and_unpowered_needles_are_stable
+[done] 18/18 passed, 19993 checks

@@ -1,0 +1,2 @@
+[done] 48/48 passed, 23561 checks
+  crew seat skin: outside 0, floor -0.306 roof 0.806 rear toes -0.406 m

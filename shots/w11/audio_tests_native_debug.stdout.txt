@@ -1,0 +1,44 @@
+[suite] audio_tests
+    sine hash 0x75ace840
+[ OK ] dsp_sine_table_and_helpers
+[ OK ] wav_header_layout
+    mix.txt content hash 0xa755d5be
+[ OK ] config_embedded_and_errors
+[ OK ] mixer_bus_voice_limit_and_priority
+[ OK ] mixer_global_limit_steals_lowest_priority
+[ OK ] mixer_oneshots_finish_and_free
+[ OK ] spatial_attenuation_pan_lowpass_occlusion
+    pan render hash 0xd71b6325
+[ OK ] mixer_render_pans_and_attenuates
+    duck min 0x4000
+[ OK ] mixer_ducks_sfx_under_radio
+[ OK ] mixer_limiter_and_bus_volume
+    synth hashes 0xbf00cacd 0x5cbd0552 0x9f956635 0x28b047e0 0x8c49bc16 0xf307b498 0x6a73e099 0x64e4361e 0x41899ffb 0x577492bc 0xfc0074d5 0xbfcced57 0x9ddada1e 0xf1738fc5 0x5ee55025 0xb32c7e5c 0x6273d2ab 0x2399d850 0x3c66f942 0xd237a1ad 0xf619ee28 0xba34434a 0x4d394d03 0xe056b2a0 0xd55b2b89 0xa620a7bb 0x32414cda 0xe8cf1bd0 0x6bafb5fc 0xf6ffff47 0xb895b69c 0x22befcaf 0x6beae915 
+[ OK ] synth_determinism_hashes
+    engine 2400 rpm peak band 79 Hz
+[ OK ] engine_firing_rate_follows_rpm
+[ OK ] tyres_surface_crossfade_and_squeal
+    tyre asphalt hash 0x4813e605 abs 0x1be zc 0xa85
+    tyre dirt hash 0x62aaf9f8 abs 0x843 zc 0x3b8
+    tyre grass hash 0xe45e1058 abs 0x494 zc 0xfe9
+    tyre mud hash 0x7f965b5f abs 0xf8c zc 0x23e
+    tyre puddle hash 0xd2eec25e abs 0xbb6 zc 0x11b9
+    tyre broken_asphalt hash 0xf07d68a8 abs 0xa4a zc 0x1bb
+    tyre gravel hash 0x5af8d7c4 abs 0xa53 zc 0x1017
+    tyre sand hash 0xb986edd1 abs 0x588 zc 0x14bc
+    tyre snow hash 0xe2c94827 abs 0x2d8 zc 0xece
+    tyre ice hash 0x4b7a5d25 abs 0x3f zc 0x25cb
+    tyre rock hash 0x8e345a0c abs 0xabb zc 0x274
+    tyre scree hash 0x2d142f21 abs 0x1472 zc 0x58c
+    tyre takyr hash 0xaf6f97c1 abs 0x52a zc 0x1da1
+    tyre ford hash 0xdd2d58d1 abs 0xc9c zc 0xfb3
+[ OK ] tyres_all_surfaces_signatures
+[ OK ] radio_tuning_signal_voice_and_crackle
+    analyzer hash 0xe8ee6958
+[ OK ] analyzer_finds_tone_band
+[ OK ] vehicle_rig_reads_surface_map_and_gears
+    frontend replay hash 0x291c058a
+[ OK ] frontend_commands_replay_identically
+[ OK ] playback_latency_and_game_hitch
+[ OK ] backend_null_and_default
+[done] 20/20 passed, 522 checks

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "scene": "scene_w2_vehicle",
+  "seed": 1,
+  "ticks": 600,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 480, "frames": 600, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 1, "draw_calls": 3, "primitives": 1948, "vertices": 5844, "state_binds": 8, "texture_binds": 0, "bytes_uploaded": 83808, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": {"file": "C:\\Test\\scene_w2_vehicle_ram.prpl", "format": "prpl1", "hash": "c02b5425", "length_ticks": 600},
+  "wall_time_ms": 1240.445,
+  "frame_time_ms": {"avg": 2.064, "min": 1.394, "max": 145.665},
+  "final_state_hash": "20b3f899",
+  "captures": [
+    {"tick": 420, "state_hash": "6acf9db0", "image_hash": "c3a9dd97", "width": 640, "height": 480, "file": "tick_000420.bmp"},
+    {"tick": 480, "state_hash": "092bc621", "image_hash": "7ac3fd6f", "width": 640, "height": 480, "file": "tick_000480.bmp"},
+    {"tick": 520, "state_hash": "2165715d", "image_hash": "d9ffcc70", "width": 640, "height": 480, "file": "tick_000520.bmp"}
+  ],
+  "scene_metrics": {"stream": "W2", "scenario": "ram", "content_hash": "0xa6cfa1c0", "vehicle_hash64": "0xb71e831403a84208", "loadout": {"engine": 1, "suspension": 1, "tires": 1, "armor": 1}, "mass_kg": 1400.000, "power_hp": 110, "max_speed_kmh": 140, "clearance_mm": 180, "design_0_100_s": 11.964, "durability": 394.633, "durability_max": 400, "wear": [0.065, 0.117, 0.000, 0.117], "gear": 1, "accel_0_100_s": null, "top_speed_kmh": 76.355, "max_z_m": 82.116, "distance_m": 114.383, "stuck_time_s": 0.000, "stuck_events": 0, "belly_ticks": 0, "mud_passed": null, "ram_events": 4, "wall_hits": 1, "damage_dealt": 40.880, "max_ram_damage": 10.640, "max_ram_kmh": 76, "damage_taken": 5.367, "bus": {"published": 7, "delivered": 7, "dropped": 0, "damage": 4, "stuck": 0, "stats": 3}, "bodies": 16, "render_path": "fixed-function", "rhi_errors": 0},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

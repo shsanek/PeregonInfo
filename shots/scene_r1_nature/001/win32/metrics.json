@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "scene": "scene_r1_nature",
+  "seed": 1,
+  "ticks": 480,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 480, "frames": 481, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 79, "primitives": 44639, "vertices": 133917, "state_binds": 124, "texture_binds": 6, "bytes_uploaded": 11008, "pixels_written": 0, "unrasterized_draws": 0}, "window": null},
+  "replay": null,
+  "wall_time_ms": 3835.896,
+  "frame_time_ms": {"avg": 7.990, "min": 3.271, "max": 45.397},
+  "final_state_hash": "081598ae",
+  "captures": [
+    {"tick": 0, "state_hash": "fd960c75", "image_hash": "89c88695", "width": 640, "height": 480, "file": "tick_000000.bmp"},
+    {"tick": 35, "state_hash": "3ece5189", "image_hash": "0ff928c8", "width": 640, "height": 480, "file": "tick_000035.bmp"},
+    {"tick": 105, "state_hash": "eeb4f2c8", "image_hash": "f245fbf6", "width": 640, "height": 480, "file": "tick_000105.bmp"},
+    {"tick": 175, "state_hash": "bf6907e1", "image_hash": "b6c673a8", "width": 640, "height": 480, "file": "tick_000175.bmp"},
+    {"tick": 245, "state_hash": "7865f5b0", "image_hash": "d18d6497", "width": 640, "height": 480, "file": "tick_000245.bmp"},
+    {"tick": 315, "state_hash": "b2ba09aa", "image_hash": "29022a0b", "width": 640, "height": 480, "file": "tick_000315.bmp"},
+    {"tick": 385, "state_hash": "bd394068", "image_hash": "d6dd8c67", "width": 640, "height": 480, "file": "tick_000385.bmp"},
+    {"tick": 440, "state_hash": "636dce7f", "image_hash": "f7f5989f", "width": 640, "height": 480, "file": "tick_000440.bmp"},
+    {"tick": 470, "state_hash": "605f2ce4", "image_hash": "01bfe6c0", "width": 640, "height": 480, "file": "tick_000470.bmp"}
+  ],
+  "scene_metrics": {"stream": "R1", "contracts_version": 2, "content_hash": "0x2207e6ed", "bus": {"published": 0, "delivered": 0, "dropped": 0, "handler_calls": 0, "max_pending": 0, "stream_hash_hi": "0xefd01f60", "stream_hash_lo": "0xba992926"}, "slice_hash": "0x46ea4967", "terrain_hash": "0x825182ae", "catalog_hash": "0x4f91a2db", "kit_hash": "0x03e9e02b", "scatter": {"seed": 1, "big_hash": "0xbaa411d8", "ground_hash": "0x4b972b75", "placement_hash": "0x763f5f65", "big_window": [0.000, 0.000, 512.000, 512.000], "ground_window": [64.000, 64.000, 320.000, 320.000], "density_scale": [1.000, 1.000, 1.000, 1.000, 1.000], "instances": 17019, "by_category": {"tree": 2132, "shrub": 363, "ground": 13421, "deadwood": 126, "rock": 977}, "by_habitat": {"ridge_foothill_forest": 36, "ridge_scree": 314, "ridge_south_steppe": 198, "riverbank": 875, "riverbed": 371, "roadside": 1185, "zarechye_forest": 2796, "zarechye_kolki": 72, "zarechye_meadow": 11147}, "pieces_used": 55, "placements": 25}, "site": {"surface_counts": {"asphalt": 0, "dirt": 776, "grass": 57826, "mud": 0, "puddle": 0, "broken_asphalt": 0, "gravel": 756, "sand": 170, "snow": 0, "ice": 0, "rock": 1277, "scree": 3290, "takyr": 0, "ford": 1441}}, "render": {"path": "sm2", "frames": 481, "nature": {"draws": 57, "triangles": 33521, "avg_draws": 50, "avg_triangles": 25655, "max_draws": 68, "max_triangles": 44279, "cells_drawn": [12, 19, 2], "cells_resident": [67, 64, 4], "cells_built": [188, 65, 4], "cells_evicted": [121, 1, 0], "max_built_per_frame": 15, "max_cells_pending": 53, "build_ms_total": 1011.311, "scatter_ms": [30.208, 101.741], "upload_ms": 54.617, "prime_ms": 244.493, "build_ms_max": 92.623, "draw_ms_avg": 4.136, "scatter_cells_generated": 412, "instances_resident": 19049, "vertices_resident": 713823, "vertex_bytes_resident": 60940288, "grid_range_m": [96.000, 360.000, 1100.000]}, "world": {"draws": 19, "triangles": 11008, "avg_draws": 26, "avg_triangles": 10683}, "spots": [{"spot": 1, "name": "overview", "frames": 70, "avg_draws": 53, "avg_triangles": 16552, "max_draws": 57, "max_triangles": 17300, "world_avg_draws": 61, "world_avg_triangles": 16408}, {"spot": 2, "name": "forest edge", "frames": 70, "avg_draws": 51, "avg_triangles": 40404, "max_draws": 55, "max_triangles": 44279, "world_avg_draws": 18, "world_avg_triangles": 9709}, {"spot": 3, "name": "birch kolki in the field", "frames": 70, "avg_draws": 65, "avg_triangles": 28516, "max_draws": 68, "max_triangles": 31403, "world_avg_draws": 48, "world_avg_triangles": 14109}, {"spot": 4, "name": "riverbank willows and reeds", "frames": 70, "avg_draws": 53, "avg_triangles": 20594, "max_draws": 56, "max_triangles": 22262, "world_avg_draws": 21, "world_avg_triangles": 10845}, {"spot": 5, "name": "rocky slope and cliffs", "frames": 70, "avg_draws": 32, "avg_triangles": 18246, "max_draws": 36, "max_triangles": 21578, "world_avg_draws": 6, "world_avg_triangles": 4608}, {"spot": 6, "name": "scree and talus", "frames": 70, "avg_draws": 43, "avg_triangles": 22784, "max_draws": 45, "max_triangles": 23219, "world_avg_draws": 10, "world_avg_triangles": 8137}, {"spot": 7, "name": "meadow grass in the wind", "frames": 60, "avg_draws": 56, "avg_triangles": 33494, "max_draws": 57, "max_triangles": 33521, "world_avg_draws": 19, "world_avg_triangles": 11008}]}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

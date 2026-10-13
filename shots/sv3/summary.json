@@ -1,0 +1,42 @@
+{
+ "cold": {
+  "body_c": "35.099",
+  "exit": 0,
+  "outside_c": "-24.00",
+  "shots": [
+   "cold_cold_sprinting.jpg",
+   "cold_cold_resting.jpg"
+  ],
+  "start": "stamina_cold"
+ },
+ "heat_sprint": {
+  "body_c": "37.484",
+  "exit": 0,
+  "outside_c": "32.00",
+  "shots": [
+   "heat_sprint_heat_sprint_start.jpg",
+   "heat_sprint_heat_sprinting.jpg",
+   "heat_sprint_heat_resting.jpg"
+  ],
+  "start": "stamina_heat_run"
+ },
+ "locker": {
+  "body_c": "36.603",
+  "exit": 0,
+  "outside_c": "18.08",
+  "shots": [
+   "locker_thermos_in_locker.jpg",
+   "locker_thermos_taken.jpg"
+  ],
+  "start": "stamina_locker"
+ },
+ "normal_sprint": {
+  "body_c": "37.501",
+  "exit": 0,
+  "outside_c": "32.00",
+  "shots": [
+   "normal_sprint_mild_sprinting.jpg"
+  ],
+  "start": "stamina_heat_run"
+ }
+}

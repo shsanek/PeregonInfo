@@ -1,0 +1,5 @@
+[suite] view_tests
+[ OK ] hero_seat_box_lid_sits_flush_in_the_seat_base_facing_the_driver_door
+[done] 1/1 passed, 17 checks
+    seat lid: deepest swept point 0.0173 m behind the panel, lowest 0.669 m, open top edge at x -0.836 y 0.671
+    closed door inner face 0.0667 m outboard of the closed lid

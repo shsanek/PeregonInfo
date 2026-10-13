@@ -1,0 +1,8 @@
+PASS stage elevator_gate: goal within 2500 ticks (nominal 1750), goal=1 first_visit=elevator cleared=elevator fights_lost=0
+PASS stage elevator_gate: no pushing into walls or props (contact <= 2% of the stage, no contact > 1 s), no truck reset
+PASS stage elevator_gate: the recorded bot input replayed natively reaches the stage goal at the same tick 1865
+PASS stage elevator_gate in EXEcutor RunGame d3d9: 0 rhi errors, 5 captures, final state == native 5aba44d2
+PASS stage elevator_load: goal within 10900 ticks (nominal 8450), goal=1 cargo_put=5
+PASS stage elevator_load: no pushing into walls or props (contact <= 2% of the stage, no contact > 1 s), no truck reset
+PASS stage elevator_load: the recorded bot input replayed natively reaches the stage goal at the same tick 8477
+PASS stage elevator_load in EXEcutor RunGame d3d9: 0 rhi errors, 6 captures, final state == native 9edae07f

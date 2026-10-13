@@ -1,0 +1,31 @@
+{
+ "asset": "scrap_bundle",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1908696
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 1500
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 912
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.96,
+   "side": 0.9533,
+   "q34": 0.9552,
+   "top": 0.9546
+  },
+  "LOD1 (after)": {
+   "front": 0.9371,
+   "side": 0.9236,
+   "q34": 0.9063,
+   "top": 0.9206
+  }
+ }
+}

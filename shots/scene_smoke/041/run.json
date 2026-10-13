@@ -1,0 +1,18 @@
+{
+  "scene": "scene_smoke",
+  "run": "041",
+  "date": "2026-10-07T17:31:26Z",
+  "commit": "29e6515542",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "7",
+    "--ticks",
+    "600",
+    "--capture",
+    "100,300,600"
+  ]
+}

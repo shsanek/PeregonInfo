@@ -1,0 +1,13 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w11_audio --rhi d3d9 --seed 20261007 --ticks 2600 --replay C:\Peregon\scene_w11_audio.txt --timescale 1 --window=borderless
+rc=0
+--- stdout
+w11_audio wav=w11_audio.wav written=1 bytes=7467644 fnv32=0x9457127e backend=waveout open_error="" buffers_written=2598 buffers_done=2598 underruns=0 overrun_frames=0 errors=0 min_in_flight=4 max_in_flight=6 wakeups=2592 last_error="" playback_frames=1909530 commands=12890 applied=12890 late=0 resyncs=0 slip_ms=0 max_queue=60
+scene=scene_w11_audio seed=20261007 ticks=2600 flavour=win32
+final_state_hash=3ce7cdec
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.PDFMcHrFOV/dump/present_000.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.PDFMcHrFOV/dump/present_001.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.PDFMcHrFOV/dump/present_002.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.PDFMcHrFOV/dump/present_003.bgra
+[RunResult] guest_exit_code=0x00000000

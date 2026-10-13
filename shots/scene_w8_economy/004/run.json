@@ -1,0 +1,18 @@
+{
+  "scene": "scene_w8_economy",
+  "run": "004",
+  "date": "2026-10-07T12:54:30Z",
+  "commit": "6224643c0",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "7",
+    "--ticks",
+    "600",
+    "--capture",
+    "0,300,600"
+  ]
+}

@@ -1,0 +1,6 @@
+[suite] view_tests
+[ OK ] crew_ray_tracks_all_four_doors_across_the_entire_swing
+[ OK ] crew_ray_depth_stops_at_closed_door_and_does_not_hit_its_old_pose
+[ OK ] crew_rear_window_and_crank_follow_their_parent_door
+[ OK ] crew_ray_tracks_hood_and_tailgate_through_every_pose
+[done] 4/4 passed, 391 checks

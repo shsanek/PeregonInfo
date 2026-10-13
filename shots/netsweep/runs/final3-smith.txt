@@ -1,0 +1,8 @@
+LOG line 5 host prompt.1: E / LMB — talk to Kuzmich
+LOG line 5 p1 prompt.1: E / LMB — talk to Kuzmich
+PASS line 7 SHOP-13 smithui = 1: host=na(x) p1=1@1
+PASS line 9 SHOP-13 smithui = 0: host=na(x) p1=0@1
+acts 5, failed acts 0
+rows 1 pass 1 fail 0
+ROW SHOP-13 PASS (2 checks)
+RESULT PASS

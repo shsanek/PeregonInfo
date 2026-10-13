@@ -1,0 +1,228 @@
+[suite] vehicle_tests
+    equilibrium: load 13734.000 N of 13734.001 N, belly gap 0.300 m, clearance 0.300 m
+[ OK ] suspension_equilibrium_on_flat_asphalt
+[ OK ] low_range_doubles_the_effective_driveline_ratio
+[ OK ] ignition_off_and_failed_engine_have_zero_rpm_and_torque_in_both_directions
+    drop: max gain 0.000 J, dissipated 5621.656 J of 5493.600 J
+[ OK ] energy_never_grows_after_drop
+    coast: 20.000 m/s -> 16.064 m/s after 10 s, energy rises 0
+[ OK ] coast_down_loses_energy
+    golden accel ticks=2400 chain=0x820806f12c66f469 final=0x3b55f5ba53ceee55
+    golden mud_t1 ticks=1200 chain=0x1e159ba0e3b785fb final=0x3ded7d60b3ed5785
+    golden mud_t2 ticks=1200 chain=0xf4f0ed4b3e9bab37 final=0x8190d27b82d514f1
+    golden ram ticks=600 chain=0xe07b1d927d926022 final=0xaf9f152704594275
+    golden ramp ticks=600 chain=0xf45b160f86160155 final=0x8716ed9a6b18511b
+[ OK ] determinism_hash_per_tick
+    0-100 12.300 s (design 11.999 s), top 135.548 km/h (stat 140)
+[ OK ] acceleration_0_100_matches_design
+    mud T1: z 56.083 m, stuck 13.450 s, belly ticks 0; T2: max z 131.605 m, stuck 0.000 s
+[ OK ] mud_pit_t1_stuck_t2_passes
+    ram -> entity 202 at 75 km/h damage 10.500
+    ram -> entity 200 at 74 km/h damage 10.359
+    ram -> entity 201 at 74 km/h damage 10.359
+    ram -> entity 201 at 20 km/h damage 2.799
+    ram -> entity 100 at 65 km/h damage 9.099
+    ram -> entity 200 at 8 km/h damage 1.119
+[ OK ] ram_emits_damage_event
+    0-100: T1 12.300 s, engine T3 7.800 s (design 8.041), armour T3 13.750 s, +600 kg 17.450 s (design 17.142); tyres T2 only in mud: max z 131.655 m
+[ OK ] parts_and_cargo_change_handling
+[ OK ] course_log_left_rolls_left_up_and_settles
+[ OK ] course_log_right_mirrors_log_left
+[ OK ] course_speed_bump_pitches_then_settles
+[ OK ] course_kerb_climbs_without_tunnelling
+[ OK ] course_washboard_pothole_camber
+[ OK ] course_jump_airtime_and_landing
+[ OK ] course_brake_in_turn_weight_transfer
+    coast over bump: max per-tick gain 0.000 J, lost 12378.2 J
+[ OK ] course_coast_over_bump_never_gains_energy
+    jump fast bump-stop ticks T1/T2/T3 24/20/10, log roll T1 0.989 deg T3 1.038 deg
+[ OK ] suspension_tiers_change_the_response
+    golden log_left_slow ticks=559 chain=0xbc1f3f1d57615379
+    golden log_left_fast ticks=441 chain=0x3e9342da46d9028e
+    golden log_right_slow ticks=559 chain=0x6f82eb565e9f9778
+    golden log_right_fast ticks=441 chain=0x37614ed88fba4f6e
+    golden speed_bump_slow ticks=568 chain=0x73c5f03e5697372b
+    golden speed_bump_fast ticks=446 chain=0xf53cb12a688733b9
+    golden kerb_slow ticks=851 chain=0x06ed8b36c1960f96
+    golden kerb_fast ticks=597 chain=0xe53abef6ebcfe0dd
+    golden washboard_slow ticks=953 chain=0x64e1956e7f7d4d81
+    golden washboard_fast ticks=653 chain=0x13272f75c6354cfd
+    golden pothole_slow ticks=570 chain=0x493f4b4e640f1931
+    golden pothole_fast ticks=447 chain=0xfcdc53ef57563b9b
+    golden camber_slow ticks=1043 chain=0x49ce12556dff4874
+    golden camber_fast ticks=699 chain=0xfdbcd71ce8e98da5
+    golden jump_slow ticks=638 chain=0x5a6907de6dff9a78
+    golden jump_fast ticks=568 chain=0xc5b1a9a13db5a4ee
+    golden brake_turn_slow ticks=615 chain=0x05a9dc62ed03fb4d
+    golden brake_turn_fast ticks=591 chain=0x16c599e078f6ffc2
+[ OK ] course_golden_chains
+    suspension T1: ride 0.300 m, travel 0.270 m (bump 0.140, rebound 0.130), spring 26000 N/m, min wheel-body gap 0.050 m
+    suspension T2: ride 0.340 m, travel 0.310 m (bump 0.160, rebound 0.150), spring 30000 N/m, min wheel-body gap 0.050 m
+    suspension T3: ride 0.380 m, travel 0.350 m (bump 0.180, rebound 0.170), spring 34000 N/m, min wheel-body gap 0.050 m
+[ OK ] chassis_geometry_wheels_clear_body_all_tiers
+    mud T1 tyre: p 63.2 kPa, A 0.0543 m2, sink 0.177 m, resist 8239 N; T3 tyre: p 36.1 kPa, A 0.0957 m2, sink 0.082 m, resist 2981 N; asphalt resist 206 N
+[ OK ] soil_wide_tyre_floats_in_mud_and_asphalt_is_unaffected
+    right wheels in mud, left on grass, no steering: heading -2.99 deg (negative = towards the mud side)
+[ OK ] soil_split_surface_pulls_toward_the_mud
+    mud T1 full throttle max z 56.1 (stuck 13.5 s), T1 gentle 120.9, T1 gentle +600 kg 52.2, T2 full 131.6; T1 full throttle on dry dirt reaches z 121.0
+[ OK ] mud_outcome_is_emergent_driver_cargo_tyres
+    steer right at 20 km/h: heading 0.00 -> -61.19 deg (clockwise from above), a point 30 m ahead moves to view x -22.73 m (left on screen)
+[ OK ] steering_right_turns_clockwise_and_scene_moves_left
+    reverse with steer right: gear -1, speed -17.5 km/h, heading 171.35 deg (nose swings left like a real car)
+[ OK ] steering_right_in_reverse_swings_the_nose_left
+    asphalt: max lateral 0.628 g, full steer at 20/40/60 km/h = 0.546/0.628/0.597 g
+    dirt: max lateral 0.459 g, full steer at 20/40/60 km/h = 0.433/0.459/0.424 g
+    grass: max lateral 0.461 g, full steer at 20/40/60 km/h = 0.433/0.461/0.425 g
+    mud (tyres T2): max lateral 0.351 g, full steer at 20/40/60 km/h = 0.291/0.337/0.351 g
+[ OK ] lateral_steady_state_cornering_per_surface
+    asphalt 40 km/h full lock: steer 10.7 deg, front slip 7.9 deg, rear slip 6.1 deg, body slip max 2.0 deg, 0.628 g, min up_y 0.998
+    asphalt 60 km/h full lock: steer 5.4 deg, front slip 7.2 deg, rear slip 5.6 deg, body slip max 4.7 deg, 0.597 g, min up_y 0.998
+[ OK ] lateral_keyboard_full_lock_asphalt_no_rollover_no_plow
+    mud T2 30 km/h full steer: sidewall share of the lateral force 18.0 %, asphalt 0
+[ OK ] lateral_sidewall_bites_in_mud
+    step steer 0.5 at 40 km/h asphalt: steady yaw 18.65 deg/s, t90 0.350 s, overshoot 2.2 %, max body slip 0.58 deg
+[ OK ] lateral_step_steer_response
+    double lane change 3.5 m on dirt at 50 km/h: max path error 0.74 m, max body slip 0.42 deg, peak 0.234 g, back in lane within 0.19 m, heading 0.56 deg
+[ OK ] lateral_lane_change_on_dirt
+    5 km/h full lock circle radius 5.50 m (kinematic 5.4 m), rear axle slip max 0.26 deg, braked stop drift 2.5 mm; 10 % side slope, no input, 5 s: lateral drift 0.3 mm asphalt, 0.2 mm dirt
+[ OK ] lateral_low_speed_manoeuvre_no_creep
+    park brake on 10 % grade, 5 s: drift 0.1 mm asphalt, 0.5 mm dirt, 0.1 mm nose down (neutral, gear 0); without it rolls 18.16 m; holds up to 80 % asphalt, 40 % dirt
+[ OK ] park_brake_holds_on_grade
+    brake held 7 s from 20 km/h: min forward speed -0.010 m/s, gear stays 1; release 1/6 s and press again: reverse at -19.9 km/h
+[ OK ] brake_held_at_standstill_does_not_reverse_until_repress
+[ OK ] snowpack_accumulates_with_duration_and_cold_and_melts_in_warm_rain
+[ OK ] snowpack_physical_rates_and_track_weather_share_elapsed_time
+[ OK ] snowpack_patches_grow_smoothly_and_roads_hold_less_than_grass
+[ OK ] snow_weight_buries_grass_gradually_and_melting_exposes_it_again
+    snow drive 10 s: clear=142.9 m, first snow=143.6 m, deep=1.7 m; wheel resistance=239/230/2434 N; drift depth=1.02 m
+[ OK ] snowdrifts_slow_truck_progressively_without_stopping_first_snow
+    braking from 12 m/s: dry asphalt 8.6 m, frozen puddle 42.2 m, ice under 8 cm snow 9.1 m
+[ OK ] frozen_puddle_ice_lengthens_braking_and_snow_cover_restores_grip
+[ OK ] frozen_puddle_patch_only_affects_wheels_on_it
+[ OK ] snowdrift_sampling_preserves_absolute_position_after_rebase
+[ OK ] scenes_without_drift_geometry_keep_snow_out_of_height_and_driving_forces
+    unploughed road 10 s clear/onset/deep: 134.6/134.5/86.1 m
+    cargo 0 kg: pressure=63285 Pa, compressed bed=0.116 m, sink fraction=0.691
+    cargo 350 kg: pressure=70222 Pa, compressed bed=0.199 m, sink fraction=0.704
+    cargo 700 kg: pressure=75945 Pa, compressed bed=0.231 m, sink fraction=0.711
+[ OK ] snowy_unploughed_roads_slow_truck_and_heavy_load_compresses_powder
+[ OK ] maximum_snow_completely_thaws_in_elapsed_warm_rain
+[ OK ] snow_tracks_keep_world_coordinates_fill_with_snow_and_vanish_on_full_thaw
+[ OK ] compressed_snow_carries_tyres_without_excavating_new_mud_ruts
+    fresh / previously tracked snow road: 86.1/120.5 m in10s, resistance 624/189 N
+[ OK ] previous_snow_channels_reduce_ploughing_resistance_on_the_same_road
+[ OK ] shovel_dig_removes_snow_mass_refills_with_snowfall_and_survives_serialize
+    snow 0.6 m: stuck at z 1.75 m; without digging 10 s full throttle -0.03 m; after 32 wheel strokes (22.11 m3 of snow) 76.0 m
+[ OK ] shovel_digging_snow_around_wheels_frees_a_stuck_truck
+    mud (wet 0.8, firm ground 4 m ahead): stuck at z 1.19 m; without digging 10 s 1.09 m; after 16 wheel strokes 108.5 m
+[ OK ] shovel_digging_a_mud_ramp_frees_a_stuck_truck_onto_firm_ground
+    160 strokes: 674 L dug, first 18.5 L, last 0.5 L, deepest 1.20 m, steepest wall 2.40
+    dumped 674 L, pile top 0.69 m, net volume 0.00 L, steepest pile slope 0.78
+[ OK ] soil_dig_and_dump_conserve_mass_respect_depth_limit_and_repose
+    pit 1.17 m: 3 dry days 1.10 m, 3 rain days 0.42 m, 3 frozen days 1.17 m
+[ OK ] soil_erodes_pits_slowly_dry_faster_in_rain_freezes_under_snow_and_regrows
+    front-left wheel hub: level 0.539 m, pit 1.19 m -> 0.309 m (roll -0.002 -> -0.116), pile 0.45 m -> 0.905 m (roll 0.197)
+    pit 1.20 m under 0.5 m of snow: snow surface 0.43 m, natural 0.43 m
+[ OK ] soil_pit_drops_a_wheel_a_pile_lifts_it_and_snow_fills_the_pit
+    trench 4 m x 1.2 m: lowest wheel contact -0.02 -> -0.35 m, 6 s distance 44.1 -> 20.1 m
+[ OK ] soil_trench_across_the_track_jolts_and_slows_a_driving_truck
+    mud rut 120 mm (berm 36 mm): 3 dry days 66 mm, 3 rain days 20 mm (water 1.00), 3 frozen days 120 mm
+[ OK ] rut_field_dries_fills_with_rain_freezes_and_ages_deterministically
+    599 aging steps over 5 chunks; 5 chunks left
+[ OK ] rut_aging_steps_replayed_on_packed_chunks_match_the_field
+    legacy rut save (9-byte cells) restores depth 80 mm and 2 passes; new format 64 bytes round-trips
+[ OK ] rut_field_loads_old_saves_and_round_trips_the_new_format
+    parked FL wheel on gravel, contact / hub: level -0.024 / 0.537 m, in a 80 mm rut -0.059 / 0.508 m, in a 160 mm rut -0.112 / 0.463 m; crossing a 140 mm rut at 4 m/s: lowest contact -0.030 -> -0.029 m, peak vertical accel 1.72 -> 4.57 m/s2
+[ OK ] rut_depth_carries_the_wheel_and_crossing_ruts_jolts_the_truck
+    mud, 6 s at throttle 0.3: wheel sink 177 mm thawed, 16 mm frozen; deepest rut 148 -> 14 mm
+[ OK ] frozen_ground_carries_the_truck_over_mud_without_new_ruts
+    braked + parked truck, slide onset grade: asphalt 93.9 %, dirt 55.8 %, grass 63.7 %, mud 40.3 %, wet mud 23.3 %; cross slope: grass 53.2 %, wet mud 20.9 %
+[ OK ] physics_slope_slide_onset_falls_with_wetness_and_surface
+    max climbable grade from standstill: mud T1 11.3 %, wet mud T1 0.0 %, mud T2 30.5 %, wet mud T2 16.0 %, grass T1 46.5 %; wet mud T1 with a 30 km/h run-up 10.5 %
+[ OK ] physics_mud_slope_climb_depends_on_wetness_tyres_and_momentum
+    cross slope 40 m at 10 km/h, downhill drift: 25 % grass 2.60 m, wet mud T1 1.56 m; 35 % grass 3.95 m, wet mud T1 211.66 m (yaw 179.7 deg), wet mud T2 439.01 m
+[ OK ] physics_mud_cross_slope_slides_the_truck_sideways
+    hummock field 0.4 m / 2.4 m at 8 km/h: wheel off the ground T1 11.6 % of ticks, T3 11.8 %; max axle twist T1 0.334 m, T3 0.342 m; free-spinning lifted wheel T1 11.6 %; body roll max T1 12.6 deg
+[ OK ] physics_hummocks_lift_wheels_and_articulate
+    diagonal bumps (cross-axle): open diffs T1 progress 0.08 m (stuck, hanging wheel spin 25.0 m/s), rear LSD T2 2.81 m, lockers T3 8.89 m
+[ OK ] physics_cross_axle_open_diffs_stall_lockers_climb
+    ford crossing at 5 km/h, flow 1.5 m/s: downstream drift 0.3 m deep 1.14 m, 0.6 m 7.16 m, 0.9 m 36.09 m; 0.6 m calm 0.00 m, 2.5 m/s 36.66 m; wheel load share 0.3/0.6/0.9 m: 0.89/0.72/0.24; parked in 1.1 m at 2 m/s drifts 17.1 m (load share 0.02, intake wet 0)
+[ OK ] physics_water_current_pushes_and_lifts_the_truck
+    mud T1 parked: sink 169 mm at 1 s -> 215 mm at 20 s; spinning against a wall: 248 -> 300 mm (cap 300); sand 130 -> 168 mm; takyr crust holds empty (14 mm), breaks with 1200 kg (133 mm)
+[ OK ] physics_progressive_sinking_standing_and_spinning
+    dug in on wet mud: full throttle 10 s progress 0.56 m (sink 300 mm); rocking forward/reverse 3.05 m
+[ OK ] physics_rocking_gets_a_dug_in_truck_out
+    mud rut depth after 1/2/3/4 passes: T1 tyre 130/160/180/198 mm (width 0.34 m), T3 tyre 64/79/89/97 mm (width 0.42 m)
+[ OK ] physics_ruts_deepen_with_passes_and_depend_on_tyre_width
+    T2 tyres at 15 km/h in a 3-pass mud rut: steer 0.12 -> lateral offset after 1.5 s 0.075 m (fresh mud 0.565 m), front wheels leave the rut after 2.10 s as the rear swings; steer 0.6 -> out after 1.37 s
+[ OK ] physics_ruts_guide_the_wheels
+    coast-down decel at 40 km/h (m/s2) / vertical vibration rms (m/s2) / 0-30 km/h (s): asphalt 0.24/0.11/1.68, broken 0.31/0.52/1.70, gravel 0.66/0.60/1.87, grass 0.69/0.32/1.90, sand 1.88/0.24/20.00, mud 2.45/0.65/20.00
+[ OK ] physics_surface_feel_differs
+    full lock at 40 km/h, peak lateral g / slide m / yaw deg / end km/h / scuff mm: grass 0.550 / 0.90 / 114 / 22.1 / 16.1, wet grass 0.333 / 0.34 / 63 / 27.5 / 16.5, dirt 0.573 / 1.12 / 120 / 18.9 / 9.9, wet dirt 0.356; steady 30 km/h steer 0.5: grass 0.326 g, dirt 0.319 g
+[ OK ] physics_grass_turf_breaks_and_bites_like_soil
+    rut field: 24 presses over 72 m with 4 hot chunks -> 8 cold chunks; restore and save/load keep every depth (55.0 mm), save blob 20424 bytes
+[ OK ] physics_rut_field_streams_and_persists
+    map soil layer: dirt parked 20 s sinks 38 mm; with bearing x0.4, max sink x2 154 mm
+[ OK ] physics_map_soil_scale_softens_ground
+    rain (ground wetness 0 -> 1), 40 km/h braking decel m/s2: asphalt 8.45 -> 7.57 (-10 %), grass 5.77 -> 4.59 (-21 %), dirt 5.79 -> 4.92 (-15 %); parked 20 s on dirt sinks 38 -> 73 mm; rain_effect 0: 5.79 m/s2, 38 mm; ground wetness after 1 min of rain 0.250, after 1 more dry min 0.230
+[ OK ] physics_rain_makes_ground_slipperier_and_softer
+    spray: 32 tread emissions forward/reverse below the axle, behind the tread, thrown back and up; slide pushes sideways; 0.35 m water, r 0.5: spray rises at the waterline behind (z -0.48), entry splash ahead (z 0.48), bow wave at z 0.58, mirrored in reverse; asphalt and submerged tyres throw no mud
+[ OK ] spray_leaves_the_contact_patch_along_the_tread_and_the_waterline
+    DBG grass wet0.4 0.1 along 0.0 across 0.1
+    DBG grass wet0.4 0.2 along 0.3 across 0.3
+    DBG grass wet0.4 0.3 along 0.3 across 0.4
+    DBG grass wet0.4 0.4 along 0.4 across 0.2
+    parked (no brake pedal) 10 s drift: dirt 40 % 0.1 cm, grass 45 % 0.4 cm, grass across 40 % 0.4 cm, asphalt 60 % 0.6 cm, wet mud 40 % 2.1 m (beyond grip)
+[ OK ] physics_park_holds_all_four_wheels_within_grip
+[ OK ] physics_lab_is_deterministic
+[ OK ] snow_covered_asphalt_and_mud_throw_powder_from_the_drift_surface
+[ OK ] blade_fitting_adds_mass_and_moves_centre_of_mass_forward
+    plow 16 s: moved 140.0 m, lane 0.31 -> 0.027 m, berms 0.58/0.58 m (verge 0.33, far 0.61), removed 124.99 m3, piled 124.78 m3, front 0.22 m3, force 797 N
+[ OK ] lowered_blade_clears_the_lane_and_leaves_berms
+[ OK ] raised_blade_leaves_shallow_snow_untouched
+    plough 10 s at 50% low: depth 0.10/0.30/0.50/0.70 m -> 87.4/84.0/79.3/72.8 m, mean force 121/575/1076/1621 N
+[ OK ] plough_resistance_grows_with_snow_depth
+    15 s full throttle low range: 1.45 m drift blade down 4.8 m (stalled 617 ticks); 1.30 m drift blade down 78.1 m, skimming 78.9 m, bed left 0.30 m; face force down 3760 N, skimming 2707 N
+[ OK ] deep_drift_stalls_the_lowered_blade_and_skimming_takes_the_top_off
+    no blade, 1.10 m drift, 15 s full throttle low range: 4.1 m
+[ OK ] truck_without_blade_bogs_down_in_a_drift
+    tree 4 m ahead of the blade: edge stops at 3.75 m, hits 1
+[ OK ] blade_hits_a_tree_before_the_cab_does
+    lane 0.020 m, berm 1.39 m, after 40 s of heavy snow 0.32 m
+[ OK ] cleared_lane_refills_with_new_snow_and_survives_serialization
+    blade: mount z 2.47, moldboard back 0.41 m and cutting edge 0.86 m in front of the bumper, centre of mass 0.56 m
+    edge 1.72 m ahead of the front axle, edge height 0.51 m raised
+[ OK ] blade_sits_close_in_front_of_the_bumper_on_a_short_frame
+    front axle share: bare 0.516, short mount 0.641, old long arm 0.665
+[ OK ] short_blade_mount_loads_the_front_axle_less_than_the_long_arm
+    front mount 380 kg: front axle 7093 -> 12662 N, rear 6641 -> 4806 N, nose pitch -3.22 deg
+    post 3 m ahead of the header's right end: header front stops 3.18 m on, hits 2
+[ OK ] front_mount_adds_mass_moves_the_centre_forward_and_collides
+    40 random drops and rollovers (0.5-5.5 m, flat and 0-60 % slopes): energy above the start 0.008 (hero) / 0.005 (stock), max spin 455.2 / 447.7 deg/s, max wheel load 39.8 / 76.7 kN
+[ OK ] handling_fall_and_rollover_never_gain_energy_or_spin_up
+    ledge 3 m at 50 km/h: max spin after landing 123.9 deg/s, 0.14 turns; cliff 8 m at 70 km/h: 192.3 deg/s, upright 1
+[ OK ] handling_ledges_land_without_tumbling
+[ OK ] handling_spin_backstop_bounds_a_chassis_angular_velocity
+    hero 2240.0 kg, 323.6 N m: 0-50 4.27 s, top 117.3 km/h; stock 1400.0 kg: 0-50 3.93 s, top 137.9 km/h
+[ OK ] handling_hero_is_heavier_stronger_and_a_little_slower
+    full-throttle climb dirt 49.9 % (stock 13.4), grass 52.3 % (33.8); washboard heave 3.18 m/s2 (4.55), hummocks 45 km/h 1.22 (1.59)
+[ OK ] handling_hero_climbs_further_and_shakes_less
+    full lock at 60 km/h, yaw rate: asphalt 22.2, dirt 20.3, snow 17.3, ice 7.1 deg/s; worst body slip 4.4 deg (gravel slalom)
+[ OK ] handling_hero_grips_without_spinning_out_and_surfaces_still_differ
+    +0.0 kg: static pitch 0.00 deg nose-up, rear 0.2 mm, front 0.5 mm, launch squat +5.02 deg, rear bump-stop ticks 20, com z 0.10
+    +400.0 kg: static pitch 1.25 deg nose-up, rear 40.8 mm, front -12.7 mm, launch squat +4.29 deg, rear bump-stop ticks 0, com z -0.23
+    +800.0 kg: static pitch 1.89 deg nose-up, rear 49.4 mm, front -26.4 mm, launch squat +3.93 deg, rear bump-stop ticks 0, com z -0.48
+    +1200.0 kg: static pitch 2.45 deg nose-up, rear 54.2 mm, front -38.4 mm, launch squat +3.58 deg, rear bump-stop ticks 0, com z -0.67
+    +1560.0 kg: static pitch 3.00 deg nose-up, rear 59.4 mm, front -54.8 mm, launch squat +3.03 deg, rear bump-stop ticks 0, com z -0.81
+[ OK ] handling_load_squat_stays_plausible_up_to_the_full_bed
+    80 m floodplain mud, T1 full throttle: 10.6 km/h, sink 208.4 mm, slip 69.7 %; +600 kg 9.7 km/h; careful 7.4 km/h; heavy-rain mud: stuck after 16.4 m (+600 kg 12.1 m)
+[ OK ] mudpass_floodplain_t1_crosses_slowly_and_heavy_rain_mud_stops_it
+    floodplain sink / speed: T1 208.4 mm 10.6 km/h, T2 149.6 / 28.5, T3 116.9 / 30.4, T1 at 0.7 132.6 / 27.7; heavy-rain mud passes with T2, T3 +600 kg and T1 at low pressure; T2 +600 kg 80.0 m at 13.1 km/h (empty 16.3), sink 296.0 / 275.4 mm
+[ OK ] mudpass_tyre_tiers_and_low_pressure_clearly_help
+    T1 +600 kg parked 30 s in floodplain mud, full throttle: 1.0 m; rocking (empty) +9.9 m, T2 in heavy-rain mud +34.5 m, reverse backs out 10.7 m, winch +14.2 m (3.2 kN), shovel +23.8 m; low pressure and T3 tyres start by themselves; heavy-rain mud +600 kg: winch gains more ground (+7.2 m, 11.0 kN; shovel +5.7 m)
+[ OK ] mudpass_stopping_in_mud_needs_technique_and_every_tool_helps
+    frozen mud +600 kg sink 21.3 mm, 28.0 km/h; wet field start +600 kg sink 65.7 mm; rutted wet track 43.2 km/h; slush over mud 28.4 km/h
+[ OK ] mudpass_frozen_ground_firm_fields_and_tracks_stay_easy
+    valve: inflation 0.50 after 10 s, 0.00 after 25 s, back to 1 in 45 s, identical hashes; coasting 5 s from 40 km/h on asphalt loses 4.8 km/h at 3.0, 7.2 km/h at 0.7
+[ OK ] mudpass_tyre_valve_deflates_and_inflates_deterministically_and_costs_on_hard_ground
+[done] 102/102 passed, 1423 checks

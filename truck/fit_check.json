@@ -1,0 +1,566 @@
+{
+ "tiers": {
+  "1": {
+   "upper": 1.03,
+   "tyre_width": 0.26,
+   "poses": [
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.097
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.096
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.157
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.158
+    }
+   ]
+  },
+  "2": {
+   "upper": 1.05,
+   "tyre_width": 0.32,
+   "poses": [
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.079
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.06
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.157
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.158
+    }
+   ]
+  },
+  "3": {
+   "upper": 1.07,
+   "tyre_width": 0.36,
+   "poses": [
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.04
+    },
+    {
+     "axle": "front",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": -0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.039
+    },
+    {
+     "axle": "front",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.55,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "left",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.157
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "droop",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "static",
+     "steer": 0.0,
+     "points_inside": 0
+    },
+    {
+     "axle": "rear",
+     "side": "right",
+     "travel": "bump",
+     "steer": 0.0,
+     "points_inside": 0,
+     "top_clearance_m": 0.158
+    }
+   ]
+  }
+ },
+ "errors": [],
+ "cargo_box": {
+  "x": [
+   -0.8,
+   0.8
+  ],
+  "z": [
+   -1.875,
+   -0.325
+  ],
+  "y": [
+   1.2,
+   1.49
+  ]
+ },
+ "bed_points_in_cargo_box": 0,
+ "bed_floor_top_m": 1.191,
+ "cab_rear_z": -0.241,
+ "bed_front_z": -0.255,
+ "cab_bed_gap_m": 0.014,
+ "engine_bonnet_gap_m": 0.08,
+ "engine_front_z": 2.349,
+ "grille_inner_z": 2.449,
+ "engine_size_m": [
+  0.659,
+  0.731,
+  0.751
+ ]
+}

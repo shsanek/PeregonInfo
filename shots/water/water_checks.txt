@@ -1,0 +1,7 @@
+PASS shaderc golden + limits (water.pgsl within vs_2_0/ps_2_0, terrain_lit unchanged)
+PASS map_tests native: water mesh per chunk (2 m grid, foam 0..1, finite depth), index/LOD buffers, wave textures, rain rings, uniforms, renderer on validating rhi_null
+PASS map_tests in EXEcutor (win32 build): the same water tests OK
+PASS world_tests native (renderers on rhi_null incl. map pass)
+PASS presentation only: play_region headless hash (rain) is the same at noon and at sunset
+PASS ONE EXEcutor RunGame D3D9 launch walks data/render/water_tour.txt (7 river views x 5 conditions, in-guest readback), every shot present, no render error
+PASS rendered tour state hash == native headless hash of the same replay (with and without the tour)

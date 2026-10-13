@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scene": "scene_w10_cargo",
+  "seed": 2,
+  "ticks": 330,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi_null+ui",
+  "rhi": null,
+  "replay": {"file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_cargo_nav.txt", "format": "text1", "hash": "78fbcc2e", "length_ticks": 290},
+  "wall_time_ms": 80.929,
+  "frame_time_ms": {"avg": 0.245, "min": 0.035, "max": 22.788},
+  "final_state_hash": "da28a9f6",
+  "captures": [
+    {"tick": 100, "state_hash": "014c3f81", "image_hash": "ce86e41c", "width": 960, "height": 540, "file": "tick_000100.bmp"},
+    {"tick": 160, "state_hash": "89700a0c", "image_hash": "5729a33c", "width": 960, "height": 540, "file": "tick_000160.bmp"},
+    {"tick": 320, "state_hash": "4740e9ab", "image_hash": "82eba38c", "width": 960, "height": 540, "file": "tick_000320.bmp"}
+  ],
+  "scene_metrics": {"backend": "null", "own_null_device": true, "render_path": "fixed-function", "language": "ru", "focus": "cargo.loadout", "focus_trail": ["0:cargo.grid", "120:cargo.secure", "190:cargo.drop", "240:cargo.loadout"], "ui_quads": 950, "ui_batches": 25, "ui_draws": 25, "rhi_errors": 0, "atlas_hash": "0xfbc3c590", "cargo": {"entries": 11, "cells": 18, "weight_kg": 145, "loose_kg": 50, "straps": 5, "dropped": 1, "cursor": [4, 2], "loadout_selected": 3, "content_hash": "0x2207e6ed"}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

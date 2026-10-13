@@ -1,0 +1,47 @@
+perf_tour tour: steady avg 16.9 ms p95 19.3 ms (1620 frames), all avg 17.3 ms, final hash 68a65258
+  sections ms: outside 3.9, objects 2.8, map 1.8, tick_physics 1.8, nature 1.8, light 1.1, footprints 0.6, layers 0.5, tick 0.5, nature_update 0.5, game_frame 0.4, water 0.3, sky 0.2, tick_ui 0.2, cab 0.1, hud 0.1, tick_director 0.1, precip 0.0, detail 0.0, tick_sites 0.0, hands 0.0
+  counters/frame: {"draws": 446, "state_binds": 355, "texture_binds": 99, "upload_kb": 261, "objects_drawn": 0}
+  cab/noon               avg   17.2 p95   17.7 draws   371  1378608b
+  cab/sunset             avg   16.7 p95   19.4 draws   366  d9521407
+  cab/rain               avg   17.0 p95   17.1 draws   437  3a2353c8
+  truck_side/noon        avg   17.0 p95   19.8 draws   629  9b37dd1f
+  truck_side/sunset      avg   17.2 p95   20.5 draws   624  e71107fe
+  truck_side/rain        avg   16.9 p95   20.8 draws   625  2030bb87
+  truck_rear/noon        avg   16.8 p95   17.5 draws   468  4e5469f0
+  truck_rear/sunset      avg   16.7 p95   18.1 draws   463  45623be8
+  truck_rear/rain        avg   17.0 p95   19.4 draws   464  9d8642f8
+  yard/noon              avg   17.0 p95   18.2 draws   624  de62a133
+  yard/sunset            avg   16.9 p95   18.2 draws   619  f8fd5148
+  yard/rain              avg   16.8 p95   19.3 draws   620  8e5cd3a6
+  sawmill/noon           avg   17.6 p95   18.7 draws   751  9d6742f1
+  sawmill/sunset         avg   17.2 p95   20.5 draws   746  7ac9007c
+  sawmill/rain           avg   17.3 p95   18.1 draws   747  7b9fc223
+  ford/noon              avg   17.0 p95   19.2 draws   246  35b735f7
+  ford/sunset            avg   16.9 p95   20.2 draws   241  b96b9a50
+  ford/rain              avg   16.8 p95   19.5 draws   242  9a71edcb
+  floodplain/noon        avg   16.8 p95   18.0 draws   318  3a04edc1
+  floodplain/sunset      avg   17.0 p95   18.2 draws   313  40c868c4
+  floodplain/rain        avg   16.9 p95   19.7 draws   314  c3682951
+  hairpins/noon          avg   17.0 p95   18.1 draws   306  e0835447
+  hairpins/sunset        avg   16.6 p95   18.8 draws   301  4770496a
+  hairpins/rain          avg   16.7 p95   19.4 draws   302  74948265
+  elevator/noon          avg   17.0 p95   18.3 draws   308  af6c7030
+  elevator/sunset        avg   16.7 p95   18.7 draws   303  252d3683
+  elevator/rain          avg   16.7 p95   19.1 draws   304  bb478da2
+compare with ref_tour: final state hash same
+  cab/noon: 1137 pixels differ, 48 by more than 3 levels (0.009%), 16 by more than 24 (0.0031%), max delta 192
+  cab/sunset: 1217 pixels differ, 73 by more than 3 levels (0.014%), 11 by more than 24 (0.0021%), max delta 41
+  cab/rain: 2829 pixels differ, 91 by more than 3 levels (0.018%), 16 by more than 24 (0.0031%), max delta 147
+  truck_side/noon: 418 pixels differ, 56 by more than 3 levels (0.011%), 15 by more than 24 (0.0029%), max delta 211
+  truck_side/sunset: 327 pixels differ, 82 by more than 3 levels (0.016%), 7 by more than 24 (0.0014%), max delta 176
+  truck_side/rain: 323 pixels differ, 55 by more than 3 levels (0.011%), 10 by more than 24 (0.0019%), max delta 131
+  truck_rear/noon: 423 pixels differ, 46 by more than 3 levels (0.009%), 18 by more than 24 (0.0035%), max delta 163
+  truck_rear/sunset: 557 pixels differ, 86 by more than 3 levels (0.017%), 7 by more than 24 (0.0014%), max delta 58
+  truck_rear/rain: 448 pixels differ, 57 by more than 3 levels (0.011%), 14 by more than 24 (0.0027%), max delta 99
+  yard/noon: 2082 pixels differ, 170 by more than 3 levels (0.033%), 147 by more than 24 (0.0284%), max delta 226
+  yard/sunset: 2021 pixels differ, 165 by more than 3 levels (0.032%), 32 by more than 24 (0.0062%), max delta 66
+  yard/rain: 1701 pixels differ, 163 by more than 3 levels (0.031%), 30 by more than 24 (0.0058%), max delta 61
+  sawmill/noon: 12 pixels differ, 6 by more than 3 levels (0.001%), 4 by more than 24 (0.0008%), max delta 157
+  sawmill/sunset: 11 pixels differ, 6 by more than 3 levels (0.001%), 1 by more than 24 (0.0002%), max delta 176
+  sawmill/rain: 9 pixels differ, 6 by more than 3 levels (0.001%), 1 by more than 24 (0.0002%), max delta 124
+  captures changed: 15/27, worst channel delta 226; steady avg 17.9 -> 16.9 ms, p95 25.7 -> 19.3 ms

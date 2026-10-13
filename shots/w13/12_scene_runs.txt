@@ -1,0 +1,3 @@
+scene_w13_bot_drive seed 1 reports/shots/scene_w13_bot_drive/002 episode task=drive seed=1 ticks=3000 success=0 hash=f78a6c84 v=0,0,0,0,0,326,44,0,125,0,0,2304
+scene_w13_bot_arena seed 1 reports/shots/scene_w13_bot_arena/002 episode task=arena seed=1 ticks=937 success=1 hash=09288b5e v=1,937,0,66,8,8,0,1,0,0,1,0
+scene_w13_bot_camp seed 3 reports/shots/scene_w13_bot_camp/002 episode task=camp seed=3 ticks=339 success=1 hash=3c75ebd9 v=0,3,9,5,24,6,455,519,0,0,339,0

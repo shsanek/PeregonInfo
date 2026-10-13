@@ -1,0 +1,125 @@
+{
+  "source": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/assets/truck_wb/stage38_base_inset_authoring.blend",
+  "extension_m": 0.66,
+  "seat_count": 4,
+  "source_originally_saved": true,
+  "rear_seat": {
+    "source": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/assets/truck_wb/stage36_seat_base_authoring.blend",
+    "bench_bounds": [
+      [
+        -2.5250000953674316,
+        -1.9901666641235352
+      ],
+      [
+        0.0,
+        0.7049999833106995
+      ],
+      [
+        0.64000004529953,
+        1.616891860961914
+      ]
+    ],
+    "locker_bounds": [
+      [
+        -2.2680001258850098,
+        -2.05400013923645
+      ],
+      [
+        0.2879999876022339,
+        0.6670000553131104
+      ],
+      [
+        0.656000018119812,
+        0.8519999980926514
+      ]
+    ]
+  },
+  "fuel": {
+    "tank_bounds": [
+      [
+        -1.6399999856948853,
+        -1.209999918937683
+      ],
+      [
+        0.07800000160932541,
+        0.6359999775886536
+      ],
+      [
+        0.6700000166893005,
+        0.8500000238418579
+      ]
+    ],
+    "cap_center": [
+      -1.617,
+      0.886,
+      1.17
+    ]
+  },
+  "bed_frame": {
+    "bed_translation_m": 0.66,
+    "frame_tail_x": -4.710000038146973,
+    "exhaust_tail_x": -4.6136884689331055,
+    "cab_floor_z_m": 0.64,
+    "rail_top_under_rear_row_m": 0.585
+  },
+  "fixed_geometry_checks": {
+    "running_gear": true,
+    "drivetrain": true,
+    "rear_mudguards": true
+  },
+  "front_checks_before_requested_compaction": {
+    "hood": true,
+    "front_kit": true,
+    "cockpit": true,
+    "steering_wheel": true,
+    "gear_lever": true,
+    "door.L": true,
+    "door.R": true,
+    "HERO_tyre_tread": true,
+    "HERO_front_liner": true,
+    "HERO_enginebay": true,
+    "HERO_dashboard_details": true
+  },
+  "original_front_vertices_retained": true,
+  "front_compaction": {
+    "dashboard_depth_reduction_m": 0.09,
+    "steering_and_front_seat_forward_m": 0.09,
+    "B_pillar_forward_m": 0.09,
+    "rear_door_width_m": 0.6500000000000002,
+    "rear_cushion_front_x_m": -1.9901667,
+    "front_backrest_rear_x_m": -1.7724,
+    "footwell_floor_height_m": 0.64
+  },
+  "unchanged_front_objects": {
+    "hood": true,
+    "front_kit": true,
+    "HERO_tyre_tread": true,
+    "HERO_front_liner": true,
+    "HERO_enginebay": true
+  },
+  "final_validation": {
+    "door_world_z_extents_m": {
+      "door.L": [
+        0.6269999742507935,
+        1.8149999380111694
+      ],
+      "door.R": [
+        0.6269999742507935,
+        1.8149999380111694
+      ],
+      "door.rear.L": [
+        0.6269999742507935,
+        1.815000057220459
+      ],
+      "door.rear.R": [
+        0.6269999742507935,
+        1.815000057220459
+      ]
+    },
+    "rear_tunnel_removed": true,
+    "floor_height_m": 0.64,
+    "rear_legroom_reduction_from_previous_m": 0.07,
+    "all_four_doors_open_degrees": 65,
+    "rear_sill_top_z_m": 0.623
+  }
+}

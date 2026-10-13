@@ -1,0 +1,33 @@
+LOG line 6 host place.0: foot
+LOG line 11 host place.1: seat0
+LOG line 14 host truck.y: 400
+LOG line 16 host kmh: 59
+LOG line 19 host truck.y: 364
+LOG line 20 host kmh: 53
+LOG line 25 host kmh: 28
+LOG line 6 p1 place.0: foot
+LOG line 11 p1 place.1: seat0
+LOG line 14 p1 truck.y: 400
+LOG line 16 p1 kmh: 59
+LOG line 19 p1 truck.y: 364
+LOG line 20 p1 kmh: 55
+LOG line 25 p1 kmh: 28
+LOG line 6 p2 place.0: foot
+LOG line 11 p2 place.1: seat0
+LOG line 14 p2 truck.y: 400
+LOG line 16 p2 kmh: 59
+LOG line 19 p2 truck.y: 364
+LOG line 20 p2 kmh: 55
+LOG line 25 p2 kmh: 28
+PASS line 12 COAL-03 place.1 = seat0: host=seat0 p1=seat0 p2=seat0
+PASS line 17 COAL-03 truck.x ~~ 2: host=608 p1=608 p2=608
+PASS line 18 COAL-03 truck.z ~~ 2: host=-1067 p1=-1067 p2=-1067
+PASS line 21 COAL-03 truck.y < $y0: host=364 p1=364 p2=364
+PASS line 22 COAL-03 truck.y ~~ 1: host=364 p1=364 p2=364
+PASS line 23 COAL-03 truck.x ~~ 2: host=535 p1=535 p2=535
+PASS line 26 COAL-03 truck.y ~~ 1: host=314 p1=314 p2=314
+PASS line 27 COAL-03 truck.z ~~ 2: host=-1242 p1=-1242 p2=-1242
+acts 8, failed acts 0
+rows 1 pass 1 fail 0
+ROW COAL-03 PASS (8 checks)
+RESULT PASS

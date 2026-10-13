@@ -1,0 +1,5 @@
+[suite] coop_slots_tests
+[ OK ] coop_two_slots_walk_drive_pick
+[done] 1/1 passed, 25 checks
+    walk 1 enter 1 passenger_in_out 1 drove 150.1 m picked 1 at tick 945, 16 hash samples
+    walk 1 enter 1 passenger_in_out 1 drove 150.1 m picked 1 at tick 945, 16 hash samples

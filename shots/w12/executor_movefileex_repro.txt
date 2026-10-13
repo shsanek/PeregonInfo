@@ -1,0 +1,9 @@
+case1 missing source + REPLACE_EXISTING: ret=0 err=2 (Windows: ret=0 err=2)
+case1 dst after: dst-original
+case1 Windows: dst-original
+case2 existing destination, flags 0: ret=0 err=183 (Windows: ret=0 err=183)
+case2 dst after: dst-original
+case2 Windows: dst-original
+case3 MoveFileA onto existing file: ret=0 err=183 (Windows: ret=0 err=183)
+case3 dst after: dst-original
+case3 Windows: dst-original

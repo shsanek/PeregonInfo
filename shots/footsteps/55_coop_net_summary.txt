@@ -1,0 +1,3 @@
+host: local steps 64, remote steps 95, remote sets {'grass': 95}, remote gaits {'walk': 95}
+p1: local steps 95, remote steps 62, remote sets {'dirt': 7, 'grass': 55}, remote gaits {'walk': 52, 'run': 10}
+RESULT PASS

@@ -1,0 +1,18 @@
+16.7300 timing qpc_us=268623 tick=1 gtc=74900 tgt=74900 ticks=1 frames=1 caps=0
+21.3060 timing qpc_us=4844909 tick=31 gtc=79476 tgt=79476 ticks=30 frames=18 caps=3
+21.7862 timing qpc_us=5325905 tick=36 gtc=79957 tgt=79957 ticks=5 frames=1 caps=1
+21.8427 timing qpc_us=5381690 tick=41 gtc=80013 tgt=80013 ticks=5 frames=1 caps=1
+21.9133 timing qpc_us=5451363 tick=46 gtc=80083 tgt=80083 ticks=5 frames=1 caps=1
+21.9687 timing qpc_us=5506189 tick=51 gtc=80137 tgt=80137 ticks=5 frames=1 caps=1
+22.5086 timing qpc_us=6048221 tick=76 gtc=80679 tgt=80679 ticks=25 frames=5 caps=5
+23.5473 timing qpc_us=7087201 tick=131 gtc=81718 tgt=81718 ticks=55 frames=11 caps=11
+24.5013 timing qpc_us=8041195 tick=191 gtc=82672 tgt=82672 ticks=60 frames=12 caps=12
+25.5095 timing qpc_us=9049403 tick=251 gtc=83681 tgt=83681 ticks=60 frames=12 caps=12
+26.4933 timing qpc_us=10033215 tick=311 gtc=84664 tgt=84664 ticks=60 frames=12 caps=12
+27.5544 timing qpc_us=11094276 tick=371 gtc=85725 tgt=85725 ticks=60 frames=12 caps=12
+29.1114 timing qpc_us=12651217 tick=426 gtc=87282 tgt=87282 ticks=55 frames=11 caps=11
+29.4691 timing qpc_us=13008981 tick=461 gtc=87640 tgt=87640 ticks=35 frames=7 caps=7
+30.4639 timing qpc_us=14003716 tick=511 gtc=88635 tgt=88635 ticks=50 frames=10 caps=10
+31.6240 timing qpc_us=15163902 tick=561 gtc=89795 tgt=89795 ticks=50 frames=10 caps=10
+33.0909 scene=play_region_auto seed=1 ticks=600 flavour=win32
+33.0909 final_state_hash=2ae8eb4d

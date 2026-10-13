@@ -1,0 +1,25 @@
+{
+  "scene": "scene_w4_ai",
+  "run": "004",
+  "date": "2026-10-07T13:29:58Z",
+  "commit": "7043041e7",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "3",
+    "--ticks",
+    "2078",
+    "--capture",
+    "429,488,608,2018",
+    "--replay",
+    "replay.txt"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9"
+    ]
+  }
+}

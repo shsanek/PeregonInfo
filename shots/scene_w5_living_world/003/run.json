@@ -1,0 +1,26 @@
+{
+  "scene": "scene_w5_living_world",
+  "run": "003",
+  "date": "2026-10-07T16:55:05Z",
+  "commit": "33e2d1c483",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "20261007",
+    "--ticks",
+    "36000",
+    "--capture",
+    "1900,2117,6383,10242,15127,17013,19404,23210,36000",
+    "--render-captures",
+    "--replay",
+    "replay.txt"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9"
+    ]
+  }
+}

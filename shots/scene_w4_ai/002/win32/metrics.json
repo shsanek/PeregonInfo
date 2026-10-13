@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "scene": "scene_w4_ai",
+  "seed": 1,
+  "ticks": 807,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 360, "frames": 807, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 49, "primitives": 4768, "vertices": 14304, "state_binds": 31, "texture_binds": 49, "bytes_uploaded": 13920, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": {"file": "C:\\Test\\scene_w4_gas_station.txt", "format": "text1", "hash": "9d1de88e", "length_ticks": 807},
+  "wall_time_ms": 1751.462,
+  "frame_time_ms": {"avg": 2.167, "min": 0.687, "max": 532.512},
+  "final_state_hash": "2fdd1150",
+  "captures": [
+    {"tick": 1, "state_hash": "31eadaf2", "image_hash": "043acf8c", "width": 640, "height": 360, "file": "tick_000001.bmp"},
+    {"tick": 126, "state_hash": "a7f55c4f", "image_hash": "c9ec1bdd", "width": 640, "height": 360, "file": "tick_000126.bmp"},
+    {"tick": 127, "state_hash": "f6804ed8", "image_hash": "5a80f769", "width": 640, "height": 360, "file": "tick_000127.bmp"},
+    {"tick": 352, "state_hash": "0725921c", "image_hash": "af3da130", "width": 640, "height": 360, "file": "tick_000352.bmp"},
+    {"tick": 441, "state_hash": "ba3f131d", "image_hash": "26bbe041", "width": 640, "height": 360, "file": "tick_000441.bmp"},
+    {"tick": 561, "state_hash": "b262e932", "image_hash": "2b34051a", "width": 640, "height": 360, "file": "tick_000561.bmp"}
+  ],
+  "scene_metrics": {"stream": "W4", "contracts_version": 1, "content_hash": "0x1508ed4c", "bus": {"published": 35, "delivered": 35, "dropped": 0, "handler_calls": 27, "max_pending": 1, "stream_hash_hi": "0x738a0276", "stream_hash_lo": "0xcef60a70"}, "render": {"frames": 807, "draws_last": 38747, "path": "fixed-function", "size": "640x360"}, "ai": {"scenario": "gas_station", "scenario_id": 1, "ai_data_hash": "1051908707", "summary": {"time_to_clear_s": 12.450, "player_damage_taken": 24.000, "truck_damage_taken": 0.000, "cover_pct": 21.9, "flank_attempts": 1, "charges_interrupted": 0, "rams": 0}, "arena": {"id": "gas_station", "raiders": 8, "brutes": 0, "waves": 2, "wave": 2, "cleared_tick": 747, "player_down_tick": 0, "kills": 8, "cover_spots": 164}, "player": {"health": 76.000, "damage_taken": 24.000, "hits_taken": 3, "dodged_hits": 0, "dodges": 0, "ammo_trips": 0}, "ai": {"shots": 8, "hits": 3, "accuracy": 0.375, "damage_dealt": 24.000, "reaction_avg_s": 0.450, "spotted_sight": 3, "spotted_hearing": 0, "callouts": 1, "cover_pct": 21.9, "cover_s": 5.250, "active_s": 24.017, "cover_moves": 8, "cover_arrivals": 4, "peeks": 4, "flank_attempts": 1, "flank_arrivals": 0, "flank_shots": 0, "suppress_s": 1.600, "suppress_shots": 1, "retreats": 2, "staggers": 8}, "brute": {"charges": 0, "interrupted": 0, "charge_hits": 0, "blocked": 0, "melee_hits": 0}, "nav": {"paths": 8, "failures": 0, "expanded_max": 62, "expanded_avg": 22.125, "ground_cells": 13659, "brute_cells": 13321}, "weapons": {"crowbar": {"shots": 0, "hits": 0, "kills": 0, "interrupts": 0}, "sawn_off": {"shots": 0, "hits": 0, "kills": 0, "interrupts": 0}, "nailgun": {"shots": 35, "hits": 24, "kills": 8, "interrupts": 0}, "roof_mg": {"shots": 0, "hits": 0, "kills": 0, "interrupts": 0}}, "moments": [{"tick": 1, "what": "spotted", "group": 0, "value": 0, "entity": 1}, {"tick": 27, "what": "first_hit", "group": 0, "value": 0, "entity": 4}, {"tick": 126, "what": "cover", "group": 0, "value": 0, "entity": 3}, {"tick": 127, "what": "suppress", "group": 0, "value": 0, "entity": 3}, {"tick": 284, "what": "suppress", "group": 0, "value": 0, "entity": 1}, {"tick": 352, "what": "retreat", "group": 0, "value": 1, "entity": 0}, {"tick": 441, "what": "wave", "group": 1, "value": 2, "entity": 0}, {"tick": 478, "what": "suppress", "group": 1, "value": 0, "entity": 6}, {"tick": 561, "what": "flank", "group": 1, "value": 6, "entity": 7}, {"tick": 666, "what": "retreat", "group": 1, "value": 1, "entity": 0}, {"tick": 747, "what": "cleared", "group": 0, "value": 0, "entity": 0}]}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

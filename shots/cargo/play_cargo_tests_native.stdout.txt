@@ -1,0 +1,8 @@
+[suite] play_cargo_tests
+[ OK ] accepting_a_contract_loads_nothing_into_the_bed
+[ OK ] stop_counts_only_when_all_deliveries_are_inside_the_receiving_zone
+[ OK ] hand_in_needs_all_pickups_in_the_camp_receiving_zone
+[ OK ] heavy_items_holster_the_weapon_and_slow_the_walk
+[ OK ] items_go_into_the_aimed_bed_cell_and_come_out_again
+[ OK ] world_cargo_stays_where_dropped_and_survives_save_and_load
+[done] 6/6 passed, 77 checks

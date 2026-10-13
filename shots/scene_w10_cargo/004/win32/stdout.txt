@@ -1,0 +1,5 @@
+scene=scene_w10_cargo seed=2 ticks=330 flavour=win32
+capture tick=100 state=014c3f81 image=ce86e41c file=tick_000100.bmp
+capture tick=160 state=89700a0c image=5729a33c file=tick_000160.bmp
+capture tick=320 state=4740e9ab image=82eba38c file=tick_000320.bmp
+final_state_hash=da28a9f6

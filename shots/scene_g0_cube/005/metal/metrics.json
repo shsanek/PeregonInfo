@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "scene": "scene_g0_cube",
+  "seed": 1,
+  "ticks": 60,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:metal",
+  "rhi": {"backend": "metal", "backend_name": "metal", "shader_model": 512, "fixed_function": false, "width": 320, "height": 240, "frames": 60, "lost_frames": 0, "errors": 0, "last_frame": {"passes": 2, "draw_calls": 10, "primitives": 50, "vertices": 148, "state_binds": 11, "texture_binds": 3, "bytes_uploaded": 688, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": null,
+  "wall_time_ms": 13.687,
+  "frame_time_ms": {"avg": 0.228, "min": 0.019, "max": 4.507},
+  "final_state_hash": "2972315a",
+  "captures": [
+    {"tick": 30, "state_hash": "73b434f1", "image_hash": "a40c945f", "width": 320, "height": 240, "file": "tick_000030.bmp"},
+    {"tick": 60, "state_hash": "2972315a", "image_hash": "ebfd9037", "width": 320, "height": 240, "file": "tick_000060.bmp"}
+  ],
+  "scene_metrics": {"path": "sm2", "angle": 21840, "lit_cubes": 3},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

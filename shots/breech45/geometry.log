@@ -1,0 +1,38 @@
+18:47:44 | INFO: Data are loaded, start creating Blender stuff
+18:47:44 | INFO: Blender create Mesh node sawn_off_barrels.001
+18:47:44 | INFO: Blender create Mesh node sawn_off_barrels_LOD1
+18:47:44 | INFO: Blender create Mesh node sawn_off_barrels_LOD2
+18:47:44 | INFO: glTF import finished in 0.01s
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+18:47:44 | INFO: Starting glTF 2.0 export
+18:47:44 | INFO: Extracting primitive: sawn_off_barrels.001
+18:47:44 | INFO: Primitives created: 1
+18:47:44 | INFO: Extracting primitive: sawn_off_barrels_LOD1
+18:47:44 | INFO: Primitives created: 1
+18:47:44 | INFO: Extracting primitive: sawn_off_barrels_LOD2
+18:47:44 | INFO: Primitives created: 1
+18:47:44 | INFO: Finished glTF 2.0 export in 0.017079830169677734 s
+
+18:47:44 | INFO: Data are loaded, start creating Blender stuff
+18:47:44 | INFO: Blender create Mesh node sawn_off.002
+18:47:44 | INFO: Blender create Mesh node sawn_off_LOD1
+18:47:44 | INFO: Blender create Mesh node sawn_off_LOD2
+18:47:44 | INFO: glTF import finished in 0.02s
+18:47:44 | INFO: Starting glTF 2.0 export
+18:47:44 | WARNING: Mesh sawn_off.002 is not valid, and may be exported wrongly
+18:47:44 | INFO: Extracting primitive: sawn_off.002
+18:47:44 | INFO: Primitives created: 1
+18:47:44 | INFO: Extracting primitive: sawn_off_LOD1
+18:47:44 | INFO: Primitives created: 1
+18:47:44 | INFO: Extracting primitive: sawn_off_LOD2
+18:47:44 | INFO: Primitives created: 1
+18:47:44 | INFO: Finished glTF 2.0 export in 0.01662611961364746 s
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/weapons/close_breech.py:130: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+
+Info: Saved as "sawn_off_breech.blend"
+BREECH [{"lod": 0, "triangles": 3403, "bounds_unchanged": true, "chamber_ray_depth_m": [0.19, 0.19]}, {"lod": 1, "triangles": 1090, "bounds_unchanged": true, "chamber_ray_depth_m": [0.19, 0.19]}, {"lod": 2, "triangles": 455, "bounds_unchanged": true, "chamber_ray_depth_m": [0.19, 0.19]}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

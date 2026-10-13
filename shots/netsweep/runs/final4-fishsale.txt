@@ -1,0 +1,25 @@
+LOG line 5 host bed.fish_perch: 7
+LOG line 6 host coupons: 300
+LOG line 11 host prompt.1: E - fish reception and store
+LOG line 13 host mode.1: 2
+LOG line 20 host coupons: 489
+LOG line 5 p1 bed.fish_perch: 7
+LOG line 6 p1 coupons: 300
+LOG line 11 p1 prompt.1: E - fish reception and store
+LOG line 13 p1 mode.1: 2
+LOG line 20 p1 coupons: 489
+LOG line 5 p2 bed.fish_perch: 7
+LOG line 6 p2 coupons: 300
+LOG line 11 p2 prompt.1: na
+LOG line 13 p2 mode.1: na
+LOG line 20 p2 coupons: 489
+PASS line 7 LAKE-03 bed.fish_perch == x: host=7 p1=7@1 p2=7@1
+PASS line 15 LAKE-03 coupons > $c0: host=489@10 p1=489@15 p2=489@16
+PASS line 16 LAKE-03 coupons == x: host=300 p1=300 p2=300
+PASS line 17 LAKE-03 bed.fish_perch < $f0: host=0@10 p1=0@15 p2=0@16
+PASS line 18 LAKE-03 bed.fish_perch == x: host=7 p1=7 p2=7
+client layer checks: 48 equal, 0 differ
+acts 6, failed acts 0
+rows 1 pass 1 fail 0
+ROW LAKE-03 PASS (5 checks)
+RESULT PASS

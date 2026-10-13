@@ -1,0 +1,58 @@
+[suite] map_tests
+    value size_x 0x2000
+    value size_z 0x1400
+    value palette 0x15
+    value route_points 0xec5
+    value present_tiles 0x9
+    hash pak 0x52ecde16
+[ OK ] pak_header_and_sections
+    hash tile 0xb9457d3b
+    hash tile 0x180eafa
+    hash tile 0xaa729a76
+    hash tile 0xaf0049b5
+    hash tile 0x3b79d959
+    hash tile 0x7c26a64d
+    hash tile 0xf5b9f3c0
+    hash tile 0xb8d5425a
+    hash tile 0x3fa9f70c
+[ OK ] tiles_decode_and_match_far_grid
+    value patches 0xb8
+[ OK ] patches_match_coarse_grid_and_borders
+    value loads 0x12
+    value evictions 0x12
+    value empty 0x66
+    value rebases 0xb
+    value peak_tile_bytes 0x1e3b0a
+    hash streamer 0x2fb236bf
+[ OK ] streamer_policy_is_deterministic
+    value route_samples 0x5d
+    value route_on_road 0x5d
+[ OK ] surface_contract_on_route
+    grass=grass dirt=dirt asphalt=asphalt broken_asphalt=broken_asphalt gravel=gravel mud=mud deep_mud=mud puddle=puddle sand=sand rock=rock scree=scree snow=snow ice=ice takyr=takyr salt_crust=dirt ford=ford water=puddle forest_floor=grass steppe=grass field=dirt concrete=asphalt
+[ OK ] contract_types_are_data_driven
+[ OK ] floating_origin_precision
+[ OK ] corrupt_tile_is_rejected
+[ OK ] budget_and_resident_cap
+    value mesh_vertices 0x12c06
+    value mesh_bytes 0x2580c0
+    hash mesh 0xfa5275e2
+[ OK ] tile_mesh_build
+    value draws 0xb4
+    value uploads 0x9
+[ OK ] renderer_on_validating_null_device
+    value graph_nodes 0x1c
+    value graph_edges 0x28
+    value graph_samples 0xefc
+    value graph_links 0x4
+    value graph_bytes 0x182d0
+    hash graph 0xf6f75971
+[ OK ] road_graph_structure
+    value nearest_checked 0x14
+[ OK ] road_graph_nearest_and_lookahead
+    route rect_camp_b -> rect_camp_c time 0x32 s length 0x41d m edges 0x3
+    route rect_camp_b -> rect_camp_a time 0x15c s length 0x195e m edges 0x9
+    route rect_camp_c -> rect_camp_a time 0x173 s length 0x1eef m edges 0xf
+    value camp_routes 0x3
+    value camp_routes_stock 0x1
+[ OK ] road_graph_routes_between_camps
+[done] 14/14 passed, 609125 checks

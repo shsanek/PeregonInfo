@@ -1,0 +1,20 @@
+[suite] cargo_tests
+[ OK ] params_load_and_reject_broken_data
+[ OK ] hold_places_rotates_and_rejects_overlaps
+[ OK ] hold_move_keeps_item_and_straps_belong_to_cells
+[ OK ] hold_publishes_cargo_events_with_mass
+    load: empty 0-100 12.000 s, rear 150 kg com_z -0.174 m, 0-100 13.286 s; left sack com_x 0.023 m
+[ OK ] cargo_mass_moves_vehicle_mass_and_centre
+    bench 0-60 km/h: empty 0.000 kg 0 cells, rear sag 0.124 m, 5.067 s (design 0-100 12.000 s); grain_sack 600.000 kg 24 cells, rear sag 0.218 m, 7.267 s (design 0-100 17.143 s); scrap 120.000 kg 24 cells, rear sag 0.143 m, 5.500 s (design 0-100 13.029 s); supply_crate 360.000 kg 24 cells, rear sag 0.181 m, 6.367 s (design 0-100 15.086 s);
+[ OK ] full_bed_changes_handling_greed_bench
+[ OK ] strapped_cargo_survives_the_course
+    bump 0.26 m: lost 5 of 14, max hop 0.285 m, 41.500 kg
+[ OK ] washboard_keeps_loose_cargo_big_bump_throws_edge_items
+[ OK ] ram_strip_event_throws_struck_side_and_pairs_damage
+[ OK ] heavier_bed_loses_less_on_the_same_ram
+[ OK ] lost_cargo_lands_and_is_picked_up_by_hand
+[ OK ] drop_places_item_behind_the_truck
+[ OK ] screen_drag_and_drop_with_keyboard_gamepad_and_pointer
+    course loose bed: lost 14 (by obstacle 0 0 0 4 3 2 5), 259.500 kg, hops 57, slides 0, hash 0xdc8f5ff1
+[ OK ] course_is_deterministic_and_data_sensitive
+[done] 14/14 passed, 224 checks

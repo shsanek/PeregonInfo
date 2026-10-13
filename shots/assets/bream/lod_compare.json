@@ -1,0 +1,31 @@
+{
+ "asset": "bream",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 30191
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 899
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 359
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9764,
+   "side": 0.9823,
+   "q34": 0.9825,
+   "back34": 0.9831
+  },
+  "LOD1 (after)": {
+   "front": 0.941,
+   "side": 0.9709,
+   "q34": 0.9697,
+   "back34": 0.9669
+  }
+ }
+}

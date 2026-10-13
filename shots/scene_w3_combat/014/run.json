@@ -1,0 +1,25 @@
+{
+  "scene": "scene_w3_combat",
+  "run": "014",
+  "date": "2026-10-07T13:34:26Z",
+  "commit": "6eaf849cf",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "1",
+    "--ticks",
+    "458",
+    "--capture",
+    "14,255,397",
+    "--replay",
+    "replay.txt"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9"
+    ]
+  }
+}

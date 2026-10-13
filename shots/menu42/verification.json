@@ -1,0 +1,29 @@
+{
+  "stage": "MENU42",
+  "implementation": "020495dc3a",
+  "steam_sdk": "1.65",
+  "app_id": 480,
+  "native_build": [
+    "peregon",
+    "peregon_headless"
+  ],
+  "tests": {
+    "suite": "net_menu_tests",
+    "scenarios": 1,
+    "checks": 15,
+    "passed": true
+  },
+  "visual_check": "Native Metal, 6 ticks, main menu and Steam submenu reviewed",
+  "package": {
+    "path": "dist/Peregon-steam480-menu42-macos.zip",
+    "bytes": 327392718,
+    "includes": [
+      "CABIN40",
+      "INTERACT41",
+      "MENU42"
+    ],
+    "loader_check": true
+  },
+  "live_steam_two_accounts": "not verified",
+  "full_suite": "not run"
+}

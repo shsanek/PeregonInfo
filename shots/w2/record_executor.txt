@@ -1,0 +1,24 @@
+record accel ticks=2400 final=0xbece7115e03282ed chain=0x78fa99e9e46970e1 file=C:\Test/scene_w2_vehicle_accel.prpl
+record mud_t1 ticks=1200 final=0xec2d76c4d58fd3b8 chain=0x410e1c193191b19e file=C:\Test/scene_w2_vehicle_mud_t1.prpl
+record mud_t2 ticks=1200 final=0x036d7d33cac32ac1 chain=0x46256030efb776a4 file=C:\Test/scene_w2_vehicle_mud_t2.prpl
+record ram ticks=600 final=0xb353e11758666317 chain=0x24aee98f32092d63 file=C:\Test/scene_w2_vehicle_ram.prpl
+record ramp ticks=600 final=0x0535429cac054125 chain=0x0e373e0ba24a4ceb file=C:\Test/scene_w2_vehicle_ramp.prpl
+record log_left_slow ticks=557 final=0xc10dea79648044ab chain=0x5abf0068d809d6b1 enter=336 file=C:\Test/scene_w2_vehicle_log_left_slow.prpl
+record log_left_fast ticks=439 final=0xaef6bf073f68ff1f chain=0xa42c6e92f62ec02f enter=237 file=C:\Test/scene_w2_vehicle_log_left_fast.prpl
+record log_right_slow ticks=557 final=0x9563fc37b78b1c9f chain=0xa8e1095f9e6a70ee enter=336 file=C:\Test/scene_w2_vehicle_log_right_slow.prpl
+record log_right_fast ticks=439 final=0xcb51fd3fa79ae747 chain=0x7c8b10fe990638be enter=237 file=C:\Test/scene_w2_vehicle_log_right_fast.prpl
+record speed_bump_slow ticks=567 final=0xfaf2bb807ea92cba chain=0xcf9887198c7545b8 enter=336 file=C:\Test/scene_w2_vehicle_speed_bump_slow.prpl
+record speed_bump_fast ticks=444 final=0x913b897dff1fc061 chain=0xc37587021adf9ac0 enter=237 file=C:\Test/scene_w2_vehicle_speed_bump_fast.prpl
+record kerb_slow ticks=849 final=0x971c8b9eff298caf chain=0x8c627cb97795e97a enter=336 file=C:\Test/scene_w2_vehicle_kerb_slow.prpl
+record kerb_fast ticks=595 final=0x6f5afdb8b49b9b77 chain=0x0fa2453c966c3d9b enter=237 file=C:\Test/scene_w2_vehicle_kerb_fast.prpl
+record washboard_slow ticks=952 final=0xeeea02a22b290b32 chain=0x12aaa6f8c4da2828 enter=336 file=C:\Test/scene_w2_vehicle_washboard_slow.prpl
+record washboard_fast ticks=651 final=0x6af0900a829ffa03 chain=0x0dd59e6987bff5dd enter=237 file=C:\Test/scene_w2_vehicle_washboard_fast.prpl
+record pothole_slow ticks=568 final=0x0a6bc91e96132453 chain=0xfd162aa9fc3cebf0 enter=336 file=C:\Test/scene_w2_vehicle_pothole_slow.prpl
+record pothole_fast ticks=445 final=0xb60f01f3f0dafd29 chain=0x970cac5713bfe872 enter=237 file=C:\Test/scene_w2_vehicle_pothole_fast.prpl
+record camber_slow ticks=1041 final=0x7722de8b1c0c7be7 chain=0x2bc7be8a0118f570 enter=336 file=C:\Test/scene_w2_vehicle_camber_slow.prpl
+record camber_fast ticks=697 final=0xb9eac2df1cec22da chain=0x735830868d552244 enter=237 file=C:\Test/scene_w2_vehicle_camber_fast.prpl
+record jump_slow ticks=636 final=0xdfd7be1715a39bf0 chain=0x599d6603d63598a2 enter=392 file=C:\Test/scene_w2_vehicle_jump_slow.prpl
+record jump_fast ticks=564 final=0x52cb867e2c8f0189 chain=0x909d30609c8599a8 enter=341 file=C:\Test/scene_w2_vehicle_jump_fast.prpl
+record brake_turn_slow ticks=614 final=0x3502828d6ee23a8a chain=0xcd85137e6d9cceca enter=430 file=C:\Test/scene_w2_vehicle_brake_turn_slow.prpl
+record brake_turn_fast ticks=590 final=0xdbe181003eaa0cf2 chain=0x4897347af6b465f0 enter=368 file=C:\Test/scene_w2_vehicle_brake_turn_fast.prpl
+record mud_t1_gentle ticks=1500 final=0x34b3966e8ad82225 chain=0x7d78b7c4d578f8d4 file=C:\Test/scene_w2_vehicle_mud_t1_gentle.prpl

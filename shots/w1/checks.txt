@@ -1,0 +1,27 @@
+PASS world_tests native release
+PASS world_tests native release: no failures
+PASS world_tests EXEcutor release exit 0
+PASS world_tests EXEcutor release stdout == native
+PASS world_tests native debug
+PASS world_tests native debug: no failures
+PASS world_tests EXEcutor debug exit 0
+PASS world_tests EXEcutor debug stdout == native
+PASS shaderc golden (terrain_detail, vertex_lit_fog, unlit_textured)
+PASS shaderc unit tests
+PASS replay matches its generator
+FAIL scene_w1_world d3d9 SM2 in EXEcutor (run 018)
+PASS scene_w1_world d3d9 fixed function in EXEcutor (run 019)
+FAIL SM2 path on d3d9, 0 rhi errors
+PASS fixed-function path on d3d9, 0 rhi errors
+FAIL SM2 run reproduces the golden captures (tools/goldens/scene_w1_world.json)
+PASS FF run reproduces the golden captures
+PASS second SM2 run identical (image and state hashes)
+FAIL SM2 and FF simulate the same states
+FAIL host build (rhi_null) simulates the same states as EXEcutor
+PASS save file written by the replay (EXEcutor)
+PASS save file byte-identical host vs EXEcutor
+FAIL save round-trip in the scene (1 save, 1 load, 0 mismatches, state restored)
+FAIL replay covers Drive, OnFoot, Pause and all three cameras
+FAIL performance metrics recorded
+PASS RunGame window, SM2, present dumps
+PASS RunGame window, fixed function, present dumps

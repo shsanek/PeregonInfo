@@ -1,0 +1,16 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w1_world --rhi d3d9 --seed 20261007 --ticks 1600 --replay C:\Peregon\scene_w1_world.txt --timescale 1
+rc=0
+--- stdout
+scene=scene_w1_world seed=20261007 ticks=1600 flavour=win32
+final_state_hash=b3116598
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_000.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_001.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_002.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_003.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_004.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_005.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_006.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.yGCyvX1ErZ/dump/present_007.bgra
+[RunResult] guest_exit_code=0x00000000

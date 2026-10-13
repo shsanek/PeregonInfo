@@ -1,0 +1,3 @@
+scene=scene_w13_bot_camp seed=3 ticks=360 flavour=native
+capture tick=360 state=3c75ebd9 image=174ffd3b file=tick_000360.bmp
+final_state_hash=3c75ebd9

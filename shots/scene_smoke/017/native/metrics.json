@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "scene": "scene_smoke",
+  "seed": 7,
+  "ticks": 600,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "rhi": null,
+  "replay": null,
+  "wall_time_ms": 1.745,
+  "frame_time_ms": {"avg": 0.002, "min": 0.000, "max": 0.638},
+  "final_state_hash": "6d68069b",
+  "captures": [
+    {"tick": 100, "state_hash": "ada901f7", "image_hash": "af22cb33", "width": 320, "height": 240, "file": "tick_000100.bmp"},
+    {"tick": 300, "state_hash": "dd9cad31", "image_hash": "5d6b7890", "width": 320, "height": 240, "file": "tick_000300.bmp"},
+    {"tick": 600, "state_hash": "6d68069b", "image_hash": "041c0c77", "width": 320, "height": 240, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": null,
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

@@ -1,0 +1,7 @@
+[suite] window_tests
+[ OK ] borderless_window_covers_the_monitor_without_a_frame
+[ OK ] windowed_mode_has_a_caption_and_the_requested_client_size
+[ OK ] alt_enter_toggles_borderless_and_windowed
+[ OK ] alt_enter_is_ignored_in_exclusive_fullscreen
+[ OK ] alt_enter_from_the_keyboard_queue
+[done] 5/5 passed, 32 checks

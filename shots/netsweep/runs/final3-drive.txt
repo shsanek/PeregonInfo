@@ -1,0 +1,18 @@
+PASS line 7 POWER-02 engine = 1: host=1 p1=1@1 p2=1@1
+PASS line 11 DRIVE-01 kmh >= 5: host=35 p1=35 p2=35
+PASS line 12 DRIVE-01 truck.x != $tx: host=575 p1=575@1 p2=575@1
+PASS line 14 DRIVE-02 kmh <= 1: host=1@184 p1=1@185 p2=1@185
+PASS line 16 SEAT-21 kmh <= 1: host=0 p1=0@1 p2=0
+PASS line 17 SEAT-21 kmh <= 1: host=0 p1=0 p2=0
+PASS line 19 POWER-03 place.1 = foot: host=foot@10 p1=foot@10 p2=foot@12
+PASS line 20 POWER-03 engine = 1: host=1 p1=1@1 p2=1
+PASS line 21 SEAT-11 place.0 = seat1: host=seat1 p1=seat1 p2=seat1
+acts 9, failed acts 0
+rows 6 pass 6 fail 0
+ROW DRIVE-01 PASS (2 checks)
+ROW DRIVE-02 PASS (1 checks)
+ROW POWER-02 PASS (1 checks)
+ROW POWER-03 PASS (2 checks)
+ROW SEAT-11 PASS (1 checks)
+ROW SEAT-21 PASS (2 checks)
+RESULT PASS

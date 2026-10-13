@@ -1,0 +1,125 @@
+{
+ "run": {
+  "final_state_hash": "0af00a0e",
+  "frame_time_ms": {
+   "avg": 54.207,
+   "max": 4570.646,
+   "min": 1.422
+  },
+  "launches": 1,
+  "ticks": 935,
+  "wall_time_ms": 50685.696
+ },
+ "truck_low/golden": {
+  "frame_ms_avg": 43.535,
+  "frames": 23,
+  "shot": "before_truck_low_golden.jpg",
+  "state_hash": "6a38f4f0",
+  "tick": 297
+ },
+ "truck_low/morning": {
+  "frame_ms_avg": 43.544,
+  "frames": 23,
+  "shot": "before_truck_low_morning.jpg",
+  "state_hash": "6c2f3fbb",
+  "tick": 321
+ },
+ "truck_low/noon": {
+  "frame_ms_avg": 46.664,
+  "frames": 123,
+  "shot": "before_truck_low_noon.jpg",
+  "state_hash": "a409a27a",
+  "tick": 273
+ },
+ "truck_low/overcast": {
+  "frame_ms_avg": 43.621,
+  "frames": 23,
+  "shot": "before_truck_low_overcast.jpg",
+  "state_hash": "c17c5873",
+  "tick": 345
+ },
+ "truck_rear/golden": {
+  "frame_ms_avg": 42.603,
+  "frames": 23,
+  "shot": "before_truck_rear_golden.jpg",
+  "state_hash": "26fd2a10",
+  "tick": 885
+ },
+ "truck_rear/morning": {
+  "frame_ms_avg": 43.011,
+  "frames": 23,
+  "shot": "before_truck_rear_morning.jpg",
+  "state_hash": "a1237c53",
+  "tick": 909
+ },
+ "truck_rear/noon": {
+  "frame_ms_avg": 42.718,
+  "frames": 123,
+  "shot": "before_truck_rear_noon.jpg",
+  "state_hash": "20c3dd28",
+  "tick": 861
+ },
+ "truck_rear/overcast": {
+  "frame_ms_avg": 43.016,
+  "frames": 23,
+  "shot": "before_truck_rear_overcast.jpg",
+  "state_hash": "e04f157c",
+  "tick": 933
+ },
+ "truck_side/golden": {
+  "frame_ms_avg": 43.903,
+  "frames": 23,
+  "shot": "before_truck_side_golden.jpg",
+  "state_hash": "8e4ebc48",
+  "tick": 689
+ },
+ "truck_side/morning": {
+  "frame_ms_avg": 44.114,
+  "frames": 23,
+  "shot": "before_truck_side_morning.jpg",
+  "state_hash": "dd0c4a82",
+  "tick": 713
+ },
+ "truck_side/noon": {
+  "frame_ms_avg": 43.988,
+  "frames": 123,
+  "shot": "before_truck_side_noon.jpg",
+  "state_hash": "7c8ab9b0",
+  "tick": 665
+ },
+ "truck_side/overcast": {
+  "frame_ms_avg": 44.215,
+  "frames": 23,
+  "shot": "before_truck_side_overcast.jpg",
+  "state_hash": "875eb435",
+  "tick": 737
+ },
+ "truck_stand/golden": {
+  "frame_ms_avg": 44.328,
+  "frames": 23,
+  "shot": "before_truck_stand_golden.jpg",
+  "state_hash": "3ec3d16e",
+  "tick": 493
+ },
+ "truck_stand/morning": {
+  "frame_ms_avg": 44.024,
+  "frames": 23,
+  "shot": "before_truck_stand_morning.jpg",
+  "state_hash": "94ed02d2",
+  "tick": 517
+ },
+ "truck_stand/noon": {
+  "frame_ms_avg": 43.979,
+  "frames": 123,
+  "shot": "before_truck_stand_noon.jpg",
+  "state_hash": "fbbb0a6c",
+  "tick": 469
+ },
+ "truck_stand/overcast": {
+  "frame_ms_avg": 44.229,
+  "frames": 23,
+  "shot": "before_truck_stand_overcast.jpg",
+  "state_hash": "8904b323",
+  "tick": 541
+ }
+}

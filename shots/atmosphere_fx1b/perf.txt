@@ -1,0 +1,7 @@
+# FX1b cost vs the FX1 base, native Metal 1280x720 headless, steady frames (frame >= 300), best of 2 alternating rounds
+# scenario: base mean / p95 -> fx1b mean / p95 ms (delta mean, delta p95), precip section base -> fx1b, draws base -> fx1b
+rain_sawmill_shed    base  13.78 /  20.12 -> fx1b  12.81 /  15.17 ms (-0.97 mean, -4.95 p95), precip 0.07 -> 0.19 ms, draws 1259 -> 1259, 899 frames
+rain_home_porch      base  21.32 /  34.86 -> fx1b  33.41 /  55.11 ms (+12.08 mean, +20.25 p95), precip 0.07 -> 0.17 ms, draws 1231 -> 1231, 899 frames
+rain_drive           base  27.08 /  51.96 -> fx1b  19.01 /  36.30 ms (-8.07 mean, -15.65 p95), precip 0.08 -> 0.08 ms, draws 1135 -> 1135, 1199 frames
+snow_forest_edge     base  27.59 /  44.61 -> fx1b  50.04 /  96.24 ms (+22.44 mean, +51.63 p95), precip 0.04 -> 0.05 ms, draws 1461 -> 1461, 899 frames
+frost_sawmill_yard   base  31.55 /  42.36 -> fx1b  18.34 /  30.35 ms (-13.21 mean, -12.00 p95), precip 0.03 -> 0.03 ms, draws 1331 -> 1331, 899 frames

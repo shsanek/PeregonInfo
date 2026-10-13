@@ -1,0 +1,44 @@
+{
+  "stage": "INTERACT41",
+  "date": "2026-10-11",
+  "changes": [
+    "outside visor map uses current geometry and reach",
+    "no decorative sill auto-step at B-pillar",
+    "cargo preview and primary action agree near truck",
+    "E/LMB primary and F/RMB secondary cabin actions",
+    "overturned escape and sustained physical rocking"
+  ],
+  "checks": [
+    {
+      "binary": "coop_seats_tests",
+      "filter": "interaction41",
+      "passed": 2,
+      "checks": 52,
+      "log": "checks/seats.log"
+    },
+    {
+      "binary": "play_cargo_tests",
+      "filter": "interaction41",
+      "passed": 1,
+      "checks": 16,
+      "log": "checks/cargo.log"
+    }
+  ],
+  "sill_lift_m": [
+    0.0,
+    0.0
+  ],
+  "inspection_steps_preserved": true,
+  "recovery_held_ticks": {
+    "side": 104,
+    "roof": 219
+  },
+  "recovery_settled_upright": true,
+  "native_build": [
+    "peregon",
+    "peregon_headless"
+  ],
+  "full_suite_run": false,
+  "authoring_model_unchanged": "stage40_cabin_fit_authoring.blend",
+  "steam_zip_refreshed": false
+}

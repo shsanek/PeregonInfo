@@ -1,0 +1,125 @@
+[suite] vehicle_tests
+    equilibrium: load 13734.007 N of 13734.001 N, belly gap 0.299 m, clearance 0.300 m
+[ OK ] suspension_equilibrium_on_flat_asphalt
+    drop: max gain 0.000 J, dissipated 5621.531 J of 5493.600 J
+[ OK ] energy_never_grows_after_drop
+    coast: 20.000 m/s -> 16.064 m/s after 10 s, energy rises 0
+[ OK ] coast_down_loses_energy
+    coast over bump: max per-tick gain 0.000 J, lost 12386.7 J
+[ OK ] course_coast_over_bump_never_gains_energy
+    steer right at 20 km/h: heading 0.00 -> -61.74 deg (clockwise from above), a point 30 m ahead moves to view x -22.83 m (left on screen)
+[ OK ] steering_right_turns_clockwise_and_scene_moves_left
+    reverse with steer right: gear -1, speed -17.0 km/h, heading 177.47 deg (nose swings left like a real car)
+[ OK ] steering_right_in_reverse_swings_the_nose_left
+[done] 6/6 passed, 30 checks
+[suite] vehicle_tests
+    0-100 12.216 s (design 11.999 s), top 135.513 km/h (stat 140)
+[ OK ] acceleration_0_100_matches_design
+    ram -> entity 202 at 75 km/h damage 10.500
+    ram -> entity 200 at 75 km/h damage 10.500
+    ram -> entity 201 at 75 km/h damage 10.500
+    ram -> entity 100 at 59 km/h damage 8.259
+[ OK ] ram_emits_damage_event
+[done] 2/2 passed, 23 checks
+[suite] vehicle_tests
+    golden accel ticks=2400 chain=0x78fa99e9e46970e1 final=0xbece7115e03282ed
+    golden mud_t1 ticks=1200 chain=0x410e1c193191b19e final=0xec2d76c4d58fd3b8
+    golden mud_t2 ticks=1200 chain=0x46256030efb776a4 final=0x036d7d33cac32ac1
+    golden ram ticks=600 chain=0x24aee98f32092d63 final=0xb353e11758666317
+    golden ramp ticks=600 chain=0x0e373e0ba24a4ceb final=0x0535429cac054125
+[ OK ] determinism_hash_per_tick
+[done] 1/1 passed, 7 checks
+[suite] vehicle_tests
+    mud T1: z 50.635 m, stuck 14.950 s, belly ticks 0; T2: max z 132.770 m, stuck 0.000 s
+[ OK ] mud_pit_t1_stuck_t2_passes
+    mud T1 tyre: p 63.2 kPa, A 0.0543 m2, sink 0.165 m, resist 5313 N; T3 tyre: p 36.1 kPa, A 0.0957 m2, sink 0.076 m, resist 1954 N; asphalt resist 206 N
+[ OK ] soil_wide_tyre_floats_in_mud_and_asphalt_is_unaffected
+    mud T1 full throttle max z 50.6 (stuck 15.0 s), T1 gentle 122.4, T1 gentle +600 kg 56.0, T2 full 132.8; T1 full throttle on dry dirt reaches z 119.7
+[ OK ] mud_outcome_is_emergent_driver_cargo_tyres
+[done] 3/3 passed, 20 checks
+[suite] vehicle_tests
+[ OK ] course_log_left_rolls_left_up_and_settles
+[ OK ] course_log_right_mirrors_log_left
+[done] 2/2 passed, 30 checks
+[suite] vehicle_tests
+[ OK ] course_speed_bump_pitches_then_settles
+[ OK ] course_kerb_climbs_without_tunnelling
+[done] 2/2 passed, 22 checks
+[suite] vehicle_tests
+[ OK ] course_washboard_pothole_camber
+[ OK ] course_jump_airtime_and_landing
+[done] 2/2 passed, 28 checks
+[suite] vehicle_tests
+[ OK ] course_brake_in_turn_weight_transfer
+    coast over bump: max per-tick gain 0.000 J, lost 12386.7 J
+[ OK ] course_coast_over_bump_never_gains_energy
+[done] 2/2 passed, 11 checks
+[suite] vehicle_tests
+    jump fast bump-stop ticks T1/T2/T3 23/19/11, log roll T1 0.979 deg T3 1.026 deg
+[ OK ] suspension_tiers_change_the_response
+[done] 1/1 passed, 4 checks
+[suite] vehicle_tests
+    suspension T1: ride 0.300 m, travel 0.270 m (bump 0.140, rebound 0.130), spring 26000 N/m, min wheel-body gap 0.050 m
+    suspension T2: ride 0.340 m, travel 0.310 m (bump 0.160, rebound 0.150), spring 30000 N/m, min wheel-body gap 0.050 m
+    suspension T3: ride 0.380 m, travel 0.350 m (bump 0.180, rebound 0.170), spring 34000 N/m, min wheel-body gap 0.050 m
+[ OK ] chassis_geometry_wheels_clear_body_all_tiers
+    mud T1 tyre: p 63.2 kPa, A 0.0543 m2, sink 0.165 m, resist 5313 N; T3 tyre: p 36.1 kPa, A 0.0957 m2, sink 0.076 m, resist 1954 N; asphalt resist 206 N
+[ OK ] soil_wide_tyre_floats_in_mud_and_asphalt_is_unaffected
+    right wheels in mud, left on grass, no steering: heading -2.92 deg (negative = towards the mud side)
+[ OK ] soil_split_surface_pulls_toward_the_mud
+[done] 3/3 passed, 35 checks
+[suite] vehicle_tests
+    0-100: T1 12.216 s, engine T3 8.050 s (design 8.041), armour T3 13.650 s, +600 kg 17.383 s (design 17.142); tyres T2 only in mud: max z 133.009 m
+[ OK ] parts_and_cargo_change_handling
+[done] 1/1 passed, 4 checks
+[suite] vehicle_tests
+    golden log_left_slow ticks=557 chain=0x5abf0068d809d6b1
+    golden log_left_fast ticks=439 chain=0xa42c6e92f62ec02f
+    golden log_right_slow ticks=557 chain=0xa8e1095f9e6a70ee
+    golden log_right_fast ticks=439 chain=0x7c8b10fe990638be
+    golden speed_bump_slow ticks=567 chain=0xcf9887198c7545b8
+    golden speed_bump_fast ticks=444 chain=0xc37587021adf9ac0
+    golden kerb_slow ticks=849 chain=0x8c627cb97795e97a
+    golden kerb_fast ticks=595 chain=0x0fa2453c966c3d9b
+    golden washboard_slow ticks=952 chain=0x12aaa6f8c4da2828
+    golden washboard_fast ticks=651 chain=0x0dd59e6987bff5dd
+    golden pothole_slow ticks=568 chain=0xfd162aa9fc3cebf0
+    golden pothole_fast ticks=445 chain=0x970cac5713bfe872
+    golden camber_slow ticks=1041 chain=0x2bc7be8a0118f570
+    golden camber_fast ticks=697 chain=0x735830868d552244
+    golden jump_slow ticks=636 chain=0x599d6603d63598a2
+    golden jump_fast ticks=564 chain=0x909d30609c8599a8
+    golden brake_turn_slow ticks=614 chain=0xcd85137e6d9cceca
+    golden brake_turn_fast ticks=590 chain=0x4897347af6b465f0
+[ OK ] course_golden_chains
+[done] 1/1 passed, 18 checks
+[suite] vehicle_tests
+    asphalt: max lateral 0.628 g, full steer at 20/40/60 km/h = 0.553/0.628/0.597 g
+    dirt: max lateral 0.465 g, full steer at 20/40/60 km/h = 0.436/0.465/0.439 g
+    grass: max lateral 0.422 g, full steer at 20/40/60 km/h = 0.394/0.422/0.412 g
+    mud (tyres T2): max lateral 0.343 g, full steer at 20/40/60 km/h = 0.314/0.343/0.339 g
+[ OK ] lateral_steady_state_cornering_per_surface
+[done] 1/1 passed, 136 checks
+[suite] vehicle_tests
+    asphalt 40 km/h full lock: steer 10.7 deg, front slip 8.0 deg, rear slip 6.1 deg, body slip max 2.0 deg, 0.628 g, min up_y 0.998
+    asphalt 60 km/h full lock: steer 5.4 deg, front slip 7.2 deg, rear slip 5.6 deg, body slip max 4.7 deg, 0.597 g, min up_y 0.998
+[ OK ] lateral_keyboard_full_lock_asphalt_no_rollover_no_plow
+    mud T2 30 km/h full steer: sidewall share of the lateral force 18.8 %, asphalt 0
+[ OK ] lateral_sidewall_bites_in_mud
+[done] 2/2 passed, 12 checks
+[suite] vehicle_tests
+    step steer 0.5 at 40 km/h asphalt: steady yaw 18.66 deg/s, t90 0.350 s, overshoot 1.8 %, max body slip 0.58 deg
+[ OK ] lateral_step_steer_response
+    double lane change 3.5 m on dirt at 50 km/h: max path error 0.74 m, max body slip 0.81 deg, peak 0.253 g, back in lane within 0.18 m, heading -0.21 deg
+[ OK ] lateral_lane_change_on_dirt
+[done] 2/2 passed, 9 checks
+[suite] vehicle_tests
+    5 km/h full lock circle radius 5.48 m (kinematic 5.4 m), rear axle slip max 0.20 deg, braked stop drift 2.6 mm; 10 % side slope, no input, 5 s: lateral drift 0.3 mm asphalt, 0.2 mm dirt
+[ OK ] lateral_low_speed_manoeuvre_no_creep
+    brake held 7 s from 20 km/h: min forward speed -0.011 m/s, gear stays 1; release 1/6 s and press again: reverse at -19.9 km/h
+[ OK ] brake_held_at_standstill_does_not_reverse_until_repress
+[done] 2/2 passed, 9 checks
+[suite] vehicle_tests
+    park brake on 10 % grade, 5 s: drift 0.3 mm asphalt, 0.2 mm dirt, 0.3 mm nose down (neutral, gear 0); without it rolls 18.16 m; holds up to 65 % asphalt, 30 % dirt
+[ OK ] park_brake_holds_on_grade
+[done] 1/1 passed, 5 checks

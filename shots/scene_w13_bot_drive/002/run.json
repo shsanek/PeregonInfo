@@ -1,0 +1,18 @@
+{
+  "scene": "scene_w13_bot_drive",
+  "run": "002",
+  "date": "2026-10-07T16:59:18Z",
+  "commit": "33e2d1c483",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "1",
+    "--ticks",
+    "3000",
+    "--capture",
+    "1,1500,3000"
+  ]
+}

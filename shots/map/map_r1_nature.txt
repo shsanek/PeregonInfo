@@ -1,0 +1,1 @@
+map_nature_check: 11 tiles with a road corridor layer, 50462 big instances, 0 overlapping a road corridor, 0 trees within 2 m of a corridor; 5 tiles with pads, 19 yard stones/gravel on pads, 0 other big instances on or within 2.5 m of a pad -> OK

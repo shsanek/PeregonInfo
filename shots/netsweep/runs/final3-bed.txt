@@ -1,0 +1,29 @@
+LOG line 8 host prompt.1: E / LMB — lower the tailgate
+LOG line 9 host prompt.0: Shovel: E / LMB — take it · W + Space — climb up and look into the bed
+LOG line 10 host prompt.2: Axe on the bed side: E / LMB — take it · W + Space — climb up and look into the bed
+LOG line 32 host prompt.2: E / LMB — raise the tailgate
+LOG line 8 p1 prompt.1: E / LMB — lower the tailgate
+LOG line 9 p1 prompt.0: na
+LOG line 10 p1 prompt.2: na
+LOG line 32 p1 prompt.2: na
+LOG line 8 p2 prompt.1: na
+LOG line 9 p2 prompt.0: na
+LOG line 10 p2 prompt.2: Axe on the bed side: E / LMB — take it · W + Space — climb up and look into the bed
+LOG line 32 p2 prompt.2: E / LMB — raise the tailgate
+PASS line 12 CARGO-12 tailgate = 1: host=1@9 p1=1@9 p2=1@9
+PASS line 13 USE-10 tailgate = 1: host=1@9 p1=1@9 p2=1@9
+PASS line 16 CARGO-18 climb.0 = 2: host=2@20 p1=2@20 p2=2@21
+PASS line 19 CARGO-18 elev.0 >= 90: host=95 p1=95 p2=95
+PASS line 22 CARGO-18 climb.2 = 2: host=2@30 p1=2@31 p2=2@3
+PASS line 24 CARGO-18 elev.2 <= 30: host=25@23 p1=14@25 p2=0@20
+PASS line 29 CARGO-18 elev.1 >= 90: host=94@23 p1=111@4 p2=94@23
+PASS line 34 CARGO-12 tailgate = 0: host=0@10 p1=0@10 p2=0@11
+PASS line 37 MOVE-12 elev.0 <= 30: host=0 p1=0 p2=0
+PASS line 38 MOVE-12 elev.1 <= 30: host=0 p1=0 p2=0
+acts 23, failed acts 0
+rows 4 pass 4 fail 0
+ROW CARGO-12 PASS (2 checks)
+ROW CARGO-18 PASS (5 checks)
+ROW MOVE-12 PASS (2 checks)
+ROW USE-10 PASS (1 checks)
+RESULT PASS

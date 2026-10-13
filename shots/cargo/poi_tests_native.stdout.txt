@@ -1,0 +1,19 @@
+[suite] poi_tests
+[ OK ] kit_metadata_is_complete_and_sane
+    sawmill: 105 parts, 239 collision boxes, 1 levels, 0 links, 832 cover points
+    outpost: 74 parts, 102 collision boxes, 3 levels, 2 links, 289 cover points
+    elevator: 114 parts, 164 collision boxes, 2 levels, 2 links, 712 cover points
+[ OK ] blueprints_assemble_on_a_flat_pad_without_errors
+    level 0 at 0.000000 m: 21426 cells
+    level 1 at 8.000000 m: 1623 cells
+[ OK ] elevator_is_vertical_and_every_floor_is_reachable
+    sawmill on a 1.2 % / 0.8 % slope: 5 parts with plinths or stilts, 0 errors, 0 warnings
+    outpost on a 1.2 % / 0.8 % slope: 3 parts with plinths or stilts, 4 errors, 0 warnings
+    elevator on a 1.2 % / 0.8 % slope: 6 parts with plinths or stilts, 4 errors, 0 warnings
+[ OK ] sloped_ground_gets_foundations_and_nothing_floats
+[ OK ] validation_catches_floating_and_interpenetrating_parts
+    sawmill: 775 drawn boxes, 50 coplanar faces moved apart, 0 left
+    outpost: 266 drawn boxes, 45 coplanar faces moved apart, 0 left
+    elevator: 437 drawn boxes, 53 coplanar faces moved apart, 0 left
+[ OK ] no_coplanar_faces_left_in_any_complex
+[done] 6/6 passed, 172 checks

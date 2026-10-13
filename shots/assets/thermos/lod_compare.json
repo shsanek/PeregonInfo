@@ -1,0 +1,31 @@
+{
+ "asset": "thermos",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 670780
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 700
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 280
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.993,
+   "side": 0.9904,
+   "q34": 0.9937,
+   "top": 0.9806
+  },
+  "LOD1 (after)": {
+   "front": 0.9819,
+   "side": 0.9811,
+   "q34": 0.9894,
+   "top": 0.9635
+  }
+ }
+}

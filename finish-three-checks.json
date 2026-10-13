@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-13",
+  "platform": "native Metal, macOS",
+  "status": "merged linearly into claude/peregon-design",
+  "initial_focused_run": "20/21 passed; hot-engine transient failed, corrected to cold-range-only response",
+  "final_checks": [
+    "vehicle_tests: 110/110, 1475 checks",
+    "all other 20 focused suites passed",
+    "world/view/survival corrected rerun: 3/3",
+    "net_world/coop_audit final rerun: 2/2",
+    "cab heating focused rerun: 1/1, 10 checks",
+    "raspberry shadow batches: 12 -> 1 draws; 51372 indices preserved"
+  ],
+  "cold_cab_minutes": {
+    "before": 10.9,
+    "after": 6.0,
+    "warm_engine": 1.4
+  },
+  "plough": {
+    "cargo_kg": 1043,
+    "ballast_kg": 1000,
+    "A": {
+      "crest_m": 1.2,
+      "ticks": 77062,
+      "passable": 1.0
+    },
+    "B": {
+      "crest_m": 1.4,
+      "ticks": 120320,
+      "passable": 0.998
+    },
+    "scope": "Stock truck, low range, soft tyres, real road and cargo. Existing stage reset between three passes; unrelated game systems and return travel are excluded."
+  },
+  "rodin": {
+    "start": 18.5,
+    "spent": 4,
+    "end": 14.5
+  },
+  "forage": {
+    "method": "Same binary, off/on/on/off, 1920x1080 Metal, 1000 ticks, CPU statistics after frame 300, capture 800. PEREGON_FORAGE_BATCH toggles batching/cache; PEREGON_PERF_CPU=1, PEREGON_METAL_GPU_TIME=1. GPU means include startup.",
+    "runs": {
+      "off1": {
+        "mean": 6.988171673819743,
+        "p95": 7.808,
+        "p99": 8.617,
+        "gpu_ms": 30.511,
+        "detail": 31.915593705293276,
+        "sun_shadows": 1189.0429184549357,
+        "objects": 1216.9384835479257,
+        "draws": 1901.5507868383404,
+        "upload_kb": 788.3776824034335,
+        "state_hash": "75d1bd74"
+      },
+      "on1": {
+        "mean": 6.950158798283262,
+        "p95": 7.706,
+        "p99": 8.454,
+        "gpu_ms": 30.625,
+        "detail": 29.716738197424892,
+        "sun_shadows": 1122.1874105865522,
+        "objects": 1225.8283261802576,
+        "draws": 1814.3533619456366,
+        "upload_kb": 783.0143061516452,
+        "state_hash": "75d1bd74"
+      },
+      "on2": {
+        "mean": 6.950793991416308,
+        "p95": 7.768,
+        "p99": 9.326,
+        "gpu_ms": 30.734,
+        "detail": 30.11301859799714,
+        "sun_shadows": 1124.7896995708154,
+        "objects": 1230.5679542203147,
+        "draws": 1814.3319027181687,
+        "upload_kb": 783.0128755364807,
+        "state_hash": "75d1bd74"
+      },
+      "off2": {
+        "mean": 7.075981402002861,
+        "p95": 7.818,
+        "p99": 8.897,
+        "gpu_ms": 30.888,
+        "detail": 31.4206008583691,
+        "sun_shadows": 1208.1058655221746,
+        "objects": 1245.4692417739627,
+        "draws": 1901.5264663805435,
+        "upload_kb": 788.3748211731045,
+        "state_hash": "75d1bd74"
+      }
+    },
+    "pixdiff": "diff 5365 px (0.259%), >24 levels 34, on base edges 1122, components 408, largest [(1444, 1192, 36, 1246, 83), (714, 954, 247, 994, 276), (567, 1008, 292, 1045, 317), (384, 1140, 358, 1172, 378), (370, 915, 372, 947, 402)]"
+  },
+  "implementation_commit": "48b3e31671",
+  "wip_commits": {
+    "FAUNA3B": [
+      "feb2d5e8a1 -> bd50aca896",
+      "6ece579c10 -> 89708d90c1"
+    ],
+    "ICETENT": [
+      "6930874063 -> 82ad882b48",
+      "2ae6e64630 -> 17863920ac"
+    ],
+    "POLISH1": [
+      "1739efe845 -> dde00fa412"
+    ]
+  },
+  "post_merge": {
+    "native_build": "PASS",
+    "focused_smoke": "4/4: winterplow, contracts, Metal lighting, water",
+    "linear_history": true
+  }
+}

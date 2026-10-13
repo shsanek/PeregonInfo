@@ -1,0 +1,45 @@
+{
+ "id": "grisha",
+ "targets_used": 21,
+ "bones": 43,
+ "cloth_s": 0.0,
+ "mask_s": 0.2,
+ "body_faces_hidden": 5371,
+ "garment_verts_hidden": {
+  "telnyashka": 1438,
+  "overalls": 0,
+  "boots": 1619
+ },
+ "tris_before": {
+  "body": 16014,
+  "eyes": 172,
+  "eyebrows": 192,
+  "hair": 3344,
+  "telnyashka": 7402,
+  "overalls": 4888,
+  "boots": 2566,
+  "goggles": 624
+ },
+ "tris_after": {
+  "body": 2199,
+  "eyes": 172,
+  "eyebrows": 192,
+  "hair": 1700,
+  "telnyashka": 1100,
+  "overalls": 2300,
+  "boots": 600,
+  "goggles": 624
+ },
+ "tris_total": 8887,
+ "bake_diffuse_s": 2.1,
+ "bake_rough_s": 2.2,
+ "bake_normal_s": 2.0,
+ "bake_s": 6.4,
+ "final_objects": {
+  "grisha": 6995,
+  "grisha_alpha": 1892
+ },
+ "final_tris": 8887,
+ "materials": 3,
+ "seconds": 12.1
+}

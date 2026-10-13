@@ -1,0 +1,68 @@
+ok   run_scene scene_smoke both seed 7
+run_scene: scene_smoke run 023 -> /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/scene_smoke/023
+run_scene: native rc=0 in 0s
+run_scene: win32 rc=0 in 1s
+compare: identical (3 captures, final hash equal)
+run_scene: outputs in /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/scene_smoke/023
+  /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/scene_smoke/023:
+  compare.json
+  native
+  run.json
+  win32
+  
+  /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/scene_smoke/023/native/:
+  exit_code.txt
+  metrics.json
+  stderr.txt
+  stdout.txt
+  tick_000100.jpg
+  tick_000300.jpg
+  tick_000600.jpg
+  
+  /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/scene_smoke/023/win32/:
+  executor.stderr.log
+  exit_code.txt
+  metrics.json
+  stderr.txt
+  stdout.txt
+  tick_000100.jpg
+  tick_000300.jpg
+  tick_000600.jpg
+run dir: reports/shots/scene_smoke/023
+ok   compare.json identical
+ok   native metrics.json scene/seed/ticks
+ok   native metrics.json flavour
+ok   native tick_000100.jpg <= 300 KB
+ok   native tick_000300.jpg <= 300 KB
+ok   native tick_000600.jpg <= 300 KB
+ok   win32 metrics.json scene/seed/ticks
+ok   win32 metrics.json flavour
+ok   win32 tick_000100.jpg <= 300 KB
+ok   win32 tick_000300.jpg <= 300 KB
+ok   win32 tick_000600.jpg <= 300 KB
+ok   replay run both flavours identical
+ok   replay changes the final state
+ok   replay recorded in metrics
+ok   timescale 1 paces 30 ticks to >= 450 ms
+ok   unknown scene exits 3
+ok   peregon without args keeps 0a report
+ok   report.py
+report: 14 scenes, 93 runs -> /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/runs.js
+report: scene_core_replay latest=001 status=identical runs=1
+report: scene_g0_cube latest=029 status=within_tolerance runs=29
+report: scene_rhi_cube latest=024 status=within_tolerance runs=24
+report: scene_smoke latest=023 status=identical runs=23
+report: scene_w10_board latest=003 status=identical runs=3
+report: scene_w10_cargo latest=003 status=identical runs=3
+report: scene_w10_hud latest=003 status=identical runs=3
+report: scene_w10_ui latest=001 status=identical runs=1
+report: scene_w1_world latest=001 status=identical runs=1
+report: scene_w2_vehicle latest=001 status=identical runs=1
+report: scene_w3_combat latest=001 status=identical runs=1
+report: scene_w4_ai latest=001 status=identical runs=1
+report: scene_w8_economy latest=001 status=identical runs=1
+report: scene_w9_cargo latest=001 status=identical runs=1
+ok   runs.js lists scene_smoke run 023
+ok   index.html loads progress.js and runs.js
+ok   progress.js untouched
+GATE 0g PASS

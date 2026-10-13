@@ -1,0 +1,3 @@
+A ru->en reports/shots/scene_w12_menu/004
+B save-quit-load-recover reports/shots/scene_w12_menu/005
+C pseudo reports/shots/scene_w12_menu/006

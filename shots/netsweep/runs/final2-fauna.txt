@@ -1,0 +1,44 @@
+LOG line 5 host deer: 3
+LOG line 6 host deerx.0: -35
+LOG line 7 host deerz.0: 1195
+LOG line 8 host marks: 64
+LOG line 16 host gunof.1: 1
+LOG line 20 host wpn.1: 1:0:2:0:0
+LOG line 21 host look.1: -109,4
+LOG line 25 host deer: 2
+LOG line 26 host deerdead: 1
+LOG line 5 p1 deer: 3
+LOG line 6 p1 deerx.0: -36
+LOG line 7 p1 deerz.0: 1194
+LOG line 8 p1 marks: 64
+LOG line 16 p1 gunof.1: 1
+LOG line 20 p1 wpn.1: 1:0:2:0:0
+LOG line 21 p1 look.1: -110,4
+LOG line 25 p1 deer: 2
+LOG line 26 p1 deerdead: 1
+LOG line 5 p2 deer: 3
+LOG line 6 p2 deerx.0: -36
+LOG line 7 p2 deerz.0: 1194
+LOG line 8 p2 marks: 64
+LOG line 16 p2 gunof.1: 1
+LOG line 20 p2 wpn.1: na
+LOG line 21 p2 look.1: na
+LOG line 25 p2 deer: 2
+LOG line 26 p2 deerdead: 1
+PASS line 9 FAUNA-01 deer == x: host=3 p1=3@1 p2=3@1
+PASS line 10 FAUNA-01 deer >= 1: host=3 p1=3@1 p2=3@1
+PASS line 11 FAUNA-01 deerx.0 ~~ 4: host=-35 p1=-36@1 p2=-36@1
+PASS line 12 FAUNA-01 deerz.0 ~~ 4: host=1195 p1=1194@1 p2=1194@1
+PASS line 13 FAUNA-03 marks == x: host=64 p1=64@1 p2=64@1
+PASS line 23 FAUNA-02 deerdead > $d0: host=1 p1=1@1 p2=1
+PASS line 24 FAUNA-02 deerdead == x: host=1 p1=1@1 p2=1
+PASS line 27 FAUNA-01 deer == x: host=2 p1=2 p2=2
+PASS line 28 FAUNA-01 deerx.0 ~~ 4: host=-81 p1=-81 p2=-81
+PASS line 29 FAUNA-01 deerz.0 ~~ 4: host=1150 p1=1150 p2=1150
+PASS line 30 FAUNA-03 marks == x: host=167 p1=167 p2=167
+acts 7, failed acts 0
+rows 3 pass 3 fail 0
+ROW FAUNA-01 PASS (7 checks)
+ROW FAUNA-02 PASS (2 checks)
+ROW FAUNA-03 PASS (2 checks)
+RESULT PASS

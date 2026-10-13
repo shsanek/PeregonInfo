@@ -1,0 +1,40 @@
+PASS world_tests native release
+PASS world_tests native release: no failures
+PASS world_tests EXEcutor release exit 0
+PASS world_tests EXEcutor release stdout == native
+PASS world_tests native debug
+PASS world_tests native debug: no failures
+PASS world_tests EXEcutor debug exit 0
+PASS world_tests EXEcutor debug stdout == native
+PASS shaderc golden (terrain_detail, vertex_lit_fog, unlit_textured)
+PASS shaderc unit tests
+PASS replay matches its generator
+PASS scene_w1_world d3d9 SM2 in EXEcutor (run 006)
+PASS scene_w1_world d3d9 fixed function in EXEcutor (run 007)
+PASS SM2 path on d3d9, 0 rhi errors
+PASS fixed-function path on d3d9, 0 rhi errors
+PASS SM2 run reproduces the golden captures (tools/goldens/scene_w1_world.json)
+PASS FF run reproduces the golden captures
+PASS second SM2 run identical (image and state hashes)
+PASS SM2 and FF simulate the same states
+PASS host build (rhi_null) simulates the same states as EXEcutor
+PASS save file written by the replay (EXEcutor)
+PASS save file byte-identical host vs EXEcutor
+PASS save round-trip in the scene (1 save, 1 load, 0 mismatches, state restored)
+PASS replay covers Drive, OnFoot, Pause and all three cameras
+EXEcutor d3d9 SM2: frames 1601, frame time avg 5.537 ms min 2.044 max 143.253, wall 8865 ms, world build 1483.559 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 193.761 max 236, draws avg 205.007, triangles avg 23122.522
+EXEcutor d3d9 fixed function: frames 1601, frame time avg 4.839 ms min 1.981 max 47.412, wall 7747 ms, world build 2407.964 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 193.761 max 236, draws avg 205.007, triangles avg 23122.522
+host rhi_null (captures only): frames 16, frame time avg 0.152 ms min 0.000 max 19.324, wall 244 ms, world build 60.014 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 178.188 max 233, draws avg 188.625, triangles avg 22011.25
+PASS performance metrics recorded
+PASS RunGame window, SM2, present dumps
+PASS RunGame window, fixed function, present dumps
+PASS earlier gate c0
+PASS earlier gate g0
+PASS earlier gate w14a
+GATE w1 PASS

@@ -1,0 +1,63 @@
+LOG line 8 host sp.3: 10
+LOG line 9 host spnear.3: 61
+LOG line 10 host spx.3: -10
+LOG line 11 host health.1: 100
+LOG line 12 host spnear.3: 61
+LOG line 20 host herd: act0 bold1 hunger0.95 prov0 snow0.18
+LOG line 21 host spnear.3.1: 24
+LOG line 22 host herd: act0 bold1 hunger0.96 prov2 snow0.17
+LOG line 23 host spnear.3.1: 4
+LOG line 24 host health.1: 67
+LOG line 25 host health.0: 100
+LOG line 26 host spx.3: -66
+LOG line 27 host banner.1: Wolves! A shot in the air will scare them off
+LOG line 33 host place.1: foot
+LOG line 36 host spnear.3.1: 42
+LOG line 37 host herd: act4 bold0 hunger0.97 prov2 snow0.12
+LOG line 8 p1 sp.3: 10
+LOG line 9 p1 spnear.3: 62
+LOG line 10 p1 spx.3: -10
+LOG line 11 p1 health.1: 100
+LOG line 12 p1 spnear.3: 62
+LOG line 20 p1 herd: -
+LOG line 21 p1 spnear.3.1: 23
+LOG line 22 p1 herd: -
+LOG line 23 p1 spnear.3.1: 3
+LOG line 24 p1 health.1: 67
+LOG line 25 p1 health.0: na
+LOG line 26 p1 spx.3: -67
+LOG line 27 p1 banner.1: Wolves! A shot in the air will scare them off
+LOG line 33 p1 place.1: foot
+LOG line 36 p1 spnear.3.1: 43
+LOG line 37 p1 herd: -
+LOG line 8 p2 sp.3: 10
+LOG line 9 p2 spnear.3: 62
+LOG line 10 p2 spx.3: -10
+LOG line 11 p2 health.1: na
+LOG line 12 p2 spnear.3: 62
+LOG line 20 p2 herd: -
+LOG line 21 p2 spnear.3.1: 24
+LOG line 22 p2 herd: -
+LOG line 23 p2 spnear.3.1: 4
+LOG line 24 p2 health.1: na
+LOG line 25 p2 health.0: na
+LOG line 26 p2 spx.3: -67
+LOG line 27 p2 banner.1: na
+LOG line 33 p2 place.1: foot
+LOG line 36 p2 spnear.3.1: 41
+LOG line 37 p2 herd: -
+PASS line 13 FAUNA-07 sp.3 == x: host=10 p1=10 p2=10
+PASS line 14 FAUNA-07 sp.3 >= 3: host=10 p1=10 p2=10
+PASS line 15 FAUNA-07 spx.3 ~~ 4: host=-10 p1=-10 p2=-10
+PASS line 16 FAUNA-07 spz.3 ~~ 4: host=1213 p1=1212 p2=1212
+PASS line 28 FAUNA-07 health.1 < $h1: host=67 p1=67
+PASS line 29 FAUNA-07 health.1 == x: host=67 p1=67 p2=na
+PASS line 30 FAUNA-07 health.0 == $h0: host=100 p1=na p2=na
+PASS line 31 FAUNA-07 spx.3 ~~ 4: host=-66 p1=-67 p2=-67
+PASS line 32 FAUNA-07 spz.3 ~~ 4: host=1070 p1=1069 p2=1069
+PASS line 38 FAUNA-07 spnear.3.1 > 15: host=42 p1=43@1 p2=41
+PASS line 39 FAUNA-07 spnear.3.1 ~~ 6: host=42 p1=43@1 p2=41
+acts 7, failed acts 0
+rows 1 pass 1 fail 0
+ROW FAUNA-07 PASS (11 checks)
+RESULT PASS

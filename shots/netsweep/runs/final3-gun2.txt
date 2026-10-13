@@ -1,0 +1,36 @@
+LOG line 7 host wpn.1: 1:0:2:0:0
+LOG line 8 host wpn.2: 1:0:2:0:0
+LOG line 14 host wpn.1: 1:0:0:0:1400
+LOG line 16 host wpn.1: 1:0:2:0:1400
+LOG line 23 host prompt.1: E / LMB — lift with both hands: Supply crate (too big for the rucksack)
+LOG line 31 host wpn.1: 1:0:2:0:1400
+LOG line 7 p1 wpn.1: 1:0:2:0:0
+LOG line 8 p1 wpn.2: na
+LOG line 14 p1 wpn.1: 1:0:0:0:1400
+LOG line 16 p1 wpn.1: 1:0:2:0:1400
+LOG line 23 p1 prompt.1: E / LMB — lift with both hands: Supply crate (too big for the rucksack)
+LOG line 31 p1 wpn.1: 1:0:2:0:1400
+LOG line 7 p2 wpn.1: na
+LOG line 8 p2 wpn.2: 1:0:2:0:0
+LOG line 14 p2 wpn.1: na
+LOG line 16 p2 wpn.1: na
+LOG line 23 p2 prompt.1: na
+LOG line 31 p2 wpn.1: na
+PASS line 9 GUN-01 gunof.1 = 1: host=1 p1=1 p2=1@1
+PASS line 10 GUN-01 gunof.2 = 2: host=2 p1=2 p2=2@1
+PASS line 11 GUN-01 gun.1 = 2: host=2 p1=2 p2=2@1
+PASS line 15 GUN-09 wpn.1 ~ 1:0:0:: host=1:0:0:0:1400 p1=1:0:0:0:1400 p2=na(x)
+PASS line 17 GUN-09 wpn.1 ~ 1:0:2:: host=1:0:2:0:1400 p1=1:0:2:0:1400@1 p2=na(x)
+PASS line 18 GUN-09 wpn.1 == x: host=1:0:2:0:1400 p1=1:0:2:0:1400@1 p2=na@1
+PASS line 19 GUN-01 wpn.2 = $m2: host=1:0:2:0:0 p1=na@1 p2=1:0:2:0:0@1
+PASS line 20 GUN-01 wpn.2 == x: host=1:0:2:0:0 p1=na@1 p2=1:0:2:0:0@1
+PASS line 25 GUN-05 carry.1 = supply_crate: host=supply_crate@11 p1=supply_crate@11 p2=supply_crate@11
+PASS line 28 GUN-05 carry.1 = -: host=- p1=-@1 p2=-@1
+PASS line 29 GUN-05 wpn.1 = $f1: host=1:0:2:0:1400 p1=1:0:2:0:1400@1 p2=na@1
+PASS line 30 GUN-05 carry.1 == x: host=- p1=-@1 p2=-@1
+acts 9, failed acts 0
+rows 3 pass 3 fail 0
+ROW GUN-01 PASS (5 checks)
+ROW GUN-05 PASS (4 checks)
+ROW GUN-09 PASS (3 checks)
+RESULT PASS

@@ -1,0 +1,16 @@
+content hash 0x3771e36b
+file surfaces.txt text hash 0x411f4812
+file items.txt text hash 0x3f57dba9
+file weapons.txt text hash 0x6053e2a4
+file enemies.txt text hash 0x60b34d13
+file vehicle.txt text hash 0xf80e730e
+file contracts.txt text hash 0x90661bd4
+file arenas.txt text hash 0x0ec60d9f
+count surface 14
+count item 13
+count weapon 4
+count enemy 3
+count frame 1
+count part 12
+count contract 3
+count arena 2

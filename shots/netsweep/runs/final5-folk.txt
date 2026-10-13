@@ -1,0 +1,48 @@
+LOG line 4 host folkn: 20
+LOG line 5 host folkpos.lyuda.x: 263
+LOG line 6 host folkpos.lyuda.z: 1554
+LOG line 13 host talk.lyuda: -
+LOG line 16 host prompt.1: E / LMB — talk to Lyuda
+LOG line 20 host prompt.2: E / LMB — talk to Lyuda
+LOG line 24 host banner.2: -
+LOG line 28 host talkui.2: na
+LOG line 31 host prompt.2: E / LMB — talk to Lyuda
+LOG line 4 p1 folkn: 20
+LOG line 5 p1 folkpos.lyuda.x: 263
+LOG line 6 p1 folkpos.lyuda.z: 1554
+LOG line 13 p1 talk.lyuda: -
+LOG line 16 p1 prompt.1: E / LMB — talk to Lyuda
+LOG line 20 p1 prompt.2: na
+LOG line 24 p1 banner.2: na
+LOG line 28 p1 talkui.2: na
+LOG line 31 p1 prompt.2: na
+LOG line 4 p2 folkn: 20
+LOG line 5 p2 folkpos.lyuda.x: 263
+LOG line 6 p2 folkpos.lyuda.z: 1554
+LOG line 13 p2 talk.lyuda: -
+LOG line 16 p2 prompt.1: na
+LOG line 20 p2 prompt.2: E / LMB — talk to Lyuda
+LOG line 24 p2 banner.2: -
+LOG line 28 p2 talkui.2: 1
+LOG line 31 p2 prompt.2: E / LMB — talk to Lyuda
+PASS line 7 NPC-01 folkn ~~ 1: host=20 p1=20@5 p2=20@3
+PASS line 8 NPC-01 folkpos.lyuda.x ~~ 1: host=263 p1=263@5 p2=263@3
+PASS line 9 NPC-01 folkpos.lyuda.z ~~ 1: host=1554 p1=1554@5 p2=1554@3
+PASS line 10 NPC-01 folkpos.efim.x ~~ 2: host=274 p1=274@5 p2=274@3
+PASS line 11 NPC-01 folkpos.palych.x ~~ 2: host=269 p1=269@5 p2=269@3
+PASS line 18 NPC-02 talkui.1 = 1: host=na(x) p1=1@1 p2=na(x)
+PASS line 19 NPC-02 talk.lyuda = 1: host=1@9 p1=1@9 p2=1@8
+PASS line 22 NPC-02 talk.lyuda = 1: host=1 p1=1 p2=1@1
+PASS line 23 NPC-02 subs.2 >= 1: host=1 p1=na(x) p2=1@1
+PASS line 26 NPC-02 talkui.1 = 0: host=na(x) p1=0@1 p2=na(x)
+PASS line 27 NPC-02 talk.lyuda = -: host=-@10 p1=-@12 p2=-@11
+PASS line 33 NPC-02 talk.lyuda = 2: host=2@10 p1=2@12 p2=2@13
+PASS line 34 NPC-02 talkui.2 = 1: host=na(x) p1=na(x) p2=1
+PASS line 36 NPC-02 talk.lyuda = -: host=-@10 p1=-@12 p2=-@12
+links: peer 1 relay, peer 2 relay
+client layer checks: 64 equal, 0 differ
+acts 12, failed acts 0
+rows 2 pass 2 fail 0
+ROW NPC-01 PASS (5 checks)
+ROW NPC-02 PASS (9 checks)
+RESULT PASS

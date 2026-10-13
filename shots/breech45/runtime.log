@@ -1,0 +1,4 @@
+scene=play_region seed=1 ticks=280 flavour=native
+capture tick=233 state=caeefc9a image=dc804a53 file=tick_000233.bmp
+capture tick=258 state=f866f698 image=083c68b6 file=tick_000258.bmp
+final_state_hash=b3797c40

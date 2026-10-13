@@ -1,0 +1,39 @@
+LOG line 6 host sp.0: 4
+LOG line 7 host sp.1: 7
+LOG line 8 host sp.2: 1
+LOG line 9 host sp.3: 5
+LOG line 28 host wpn.1: 1:0:2:0:0
+LOG line 30 host deerdead: 4
+LOG line 6 p1 sp.0: 4
+LOG line 7 p1 sp.1: 7
+LOG line 8 p1 sp.2: 1
+LOG line 9 p1 sp.3: 5
+LOG line 28 p1 wpn.1: 1:0:2:0:0
+LOG line 30 p1 deerdead: 4
+LOG line 6 p2 sp.0: 4
+LOG line 7 p2 sp.1: 7
+LOG line 8 p2 sp.2: 1
+LOG line 9 p2 sp.3: 5
+LOG line 28 p2 wpn.1: na
+LOG line 30 p2 deerdead: 4
+PASS line 10 FAUNA-04 sp.1 == x: host=7 p1=7 p2=7@1
+PASS line 11 FAUNA-04 sp.2 == x: host=1 p1=1 p2=1@1
+PASS line 12 FAUNA-04 sp.3 == x: host=5 p1=5 p2=5@1
+PASS line 13 FAUNA-04 sp.1 >= 1: host=7 p1=7 p2=7@1
+PASS line 14 FAUNA-04 spx.1 ~~ 4: host=26 p1=26 p2=26@1
+PASS line 15 FAUNA-04 spz.1 ~~ 4: host=1226 p1=1226 p2=1226@1
+PASS line 16 FAUNA-04 spx.2 ~~ 4: host=-31 p1=-31 p2=-31@1
+PASS line 17 FAUNA-04 spz.3 ~~ 4: host=1370 p1=1370 p2=1371@1
+PASS line 18 FAUNA-03 marks == x: host=414 p1=414 p2=414@1
+PASS line 19 FAUNA-04 sp.1 == x: host=7 p1=7@1 p2=7@2
+PASS line 20 FAUNA-04 sp.3 == x: host=5 p1=5@1 p2=5@2
+PASS line 21 FAUNA-04 spx.3 ~~ 4: host=-165 p1=-166@1 p2=-166@2
+PASS line 22 FAUNA-04 spz.3 ~~ 4: host=1436 p1=1436@1 p2=1436@2
+PASS line 31 FAUNA-02 deerdead > $d0: host=4 p1=4@1 p2=4
+PASS line 32 FAUNA-02 deerdead == x: host=4 p1=4@1 p2=4
+acts 7, failed acts 0
+rows 3 pass 3 fail 0
+ROW FAUNA-02 PASS (2 checks)
+ROW FAUNA-03 PASS (1 checks)
+ROW FAUNA-04 PASS (12 checks)
+RESULT PASS

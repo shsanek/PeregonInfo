@@ -1,0 +1,4 @@
+nail_raiders reports/shots/scene_w3_combat/006
+sawn_off_brute reports/shots/scene_w3_combat/007
+crowbar_execution reports/shots/scene_w3_combat/008
+roof_mg_overheat reports/shots/scene_w3_combat/009

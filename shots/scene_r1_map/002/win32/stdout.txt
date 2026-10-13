@@ -1,0 +1,5 @@
+scene=scene_r1_map seed=1 ticks=300 flavour=win32
+capture tick=0 state=f29aaf1e image=a6217cc1 file=tick_000000.bmp
+capture tick=150 state=ccb68549 image=8faa7639 file=tick_000150.bmp
+capture tick=300 state=92f1d7a2 image=80b7516f file=tick_000300.bmp
+final_state_hash=92f1d7a2

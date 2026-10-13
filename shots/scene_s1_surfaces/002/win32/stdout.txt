@@ -1,0 +1,19 @@
+scene=scene_s1_surfaces seed=1 ticks=600 flavour=win32
+capture tick=0 state=7537e819 image=ccdf5b1f file=tick_000000.bmp
+capture tick=89 state=5bded1b9 image=31d03448 file=tick_000089.bmp
+capture tick=105 state=fe1c936f image=ddf0e951 file=tick_000105.bmp
+capture tick=135 state=fbb56375 image=59327d1b file=tick_000135.bmp
+capture tick=165 state=2bc09b7a image=a563086d file=tick_000165.bmp
+capture tick=195 state=cb019eeb image=013297f6 file=tick_000195.bmp
+capture tick=225 state=2c472567 image=3ddff121 file=tick_000225.bmp
+capture tick=255 state=6d1064a0 image=18998b51 file=tick_000255.bmp
+capture tick=285 state=9b0e4afb image=b7c19961 file=tick_000285.bmp
+capture tick=315 state=cd60f761 image=146c3a36 file=tick_000315.bmp
+capture tick=345 state=cfa15e2e image=c09c22b2 file=tick_000345.bmp
+capture tick=375 state=6322af19 image=d04c8d87 file=tick_000375.bmp
+capture tick=405 state=773e1b82 image=e8bdbb2e file=tick_000405.bmp
+capture tick=435 state=da677b96 image=791210ae file=tick_000435.bmp
+capture tick=465 state=50c7bb8d image=bb3e3030 file=tick_000465.bmp
+capture tick=495 state=43ba377e image=e827bcbf file=tick_000495.bmp
+capture tick=599 state=2a87e523 image=5aa97b17 file=tick_000599.bmp
+final_state_hash=7d684ed6

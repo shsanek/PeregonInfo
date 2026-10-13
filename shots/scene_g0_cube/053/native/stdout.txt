@@ -1,0 +1,4 @@
+scene=scene_g0_cube seed=1 ticks=6 flavour=native
+capture tick=0 state=9be17165 image=448d070f file=tick_000000.bmp
+capture tick=6 state=4396bd83 image=c00c4313 file=tick_000006.bmp
+final_state_hash=4396bd83

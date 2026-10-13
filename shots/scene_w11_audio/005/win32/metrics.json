@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scene": "scene_w11_audio",
+  "seed": 20261007,
+  "ticks": 1680,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi_null+ui",
+  "rhi": null,
+  "replay": {"file": "C:\\Test\\scene_w11_audio.txt", "format": "text1", "hash": "eede13b6", "length_ticks": 1651},
+  "wall_time_ms": 2620.108,
+  "frame_time_ms": {"avg": 1.558, "min": 0.860, "max": 78.247},
+  "final_state_hash": "dccfce2d",
+  "captures": [],
+  "scene_metrics": {"backend": "null", "own_null_device": true, "render_path": "fixed-function", "language": "en", "focus": "w11.weapons", "focus_trail": ["0:w11.engine", "40:w11.weapons", "70:w11.radio", "1600:w11.weapons"], "ui_quads": 0, "ui_batches": 0, "ui_draws": 0, "rhi_errors": 0, "atlas_hash": "0xfbc3c590", "audio": {"rate": 44100, "frames": 1234800, "script_ticks": 1680, "wav_file": "w11_audio.wav", "wav_bytes": 4939244, "wav_fnv32": "0x1f98c876", "output_hash64": "0x2e9f8f63db55e6b8", "config_hash": "0x8ee08f08", "mixer": {"voices_started": 87, "voices_finished": 83, "voices_stolen": 0, "voices_rejected": 0, "voices_peak": 9, "limited_samples": 51, "duck_min_q16": 29491}, "peak_max": {"master": 30590, "sfx": 32767, "engine": 21868, "radio": 19560, "ui": 5110}, "events": {"gear_changes": 8, "whooshes": 2, "shots": [2, 8, 20], "impacts": [20, 2, 8, 1, 2], "reloads": 1, "overheats": 1, "ui_clicks": [3, 2, 1], "radio_toggles": 2, "surfaces_seen": 31}, "radio": {"syllables": 12, "crackles": 57, "final_tuning_x10": 1015}, "vehicle": {"distance_m": 232, "max_speed_kmh": 90, "max_rpm": 4200, "speed_kmh": 0, "rpm": 24, "gear": 0}, "backend": null}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

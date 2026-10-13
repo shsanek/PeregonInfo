@@ -1,0 +1,9 @@
+[
+ {
+  "a": "rect_railway",
+  "a_file": "roads/rect_railway.json",
+  "b": "rect_trunk",
+  "b_file": "roads/rect_trunk.json",
+  "overlap_m": 800
+ }
+]

@@ -1,0 +1,38 @@
+Each probe is a point on the bottom edge of a grounded box or cylinder, projected into the tour view.
+sky: the pixel 3 px below it is sky or fogged far terrain colour; under: the camera ray through that pixel hits the drawn
+terrain more than 0.3 m behind the object (we see ground behind it, i.e. a gap under it); above: the pixel 2 px above the
+bottom edge (which must be the object) is sky (the object is drawn somewhere else, e.g. lifted); silhouette corners of
+far low objects can hit the background, so up to 0.4 % of the probes may.
+view 0: 424 probes, sky 0 [], under 0 [], above 0 []
+view 1: 44 probes, sky 0 [], under 0 [], above 0 []
+view 2: 332 probes, sky 0 [], under 0 [], above 0 []
+view 3: 223 probes, sky 0 [], under 0 [], above 0 []
+view 4: 315 probes, sky 0 [], under 0 [], above 0 []
+view 5: 120 probes, sky 0 [], under 0 [], above 0 []
+view 6: 95 probes, sky 0 [], under 0 [], above 0 []
+view 7: 354 probes, sky 0 [], under 0 [], above 74 [(472, 272, 'sawmill:11:plank_fence_4:0'), (469, 272, 'sawmill:11:plank_fence_4:0'), (472, 272, 'sawmill:11:plank_fence_4:0'), (469, 272, 'sawmill:11:plank_fence_4:0'), (475, 272, 'sawmill:12:plank_fence_4:0'), (472, 272, 'sawmill:12:plank_fence_4:0')]
+view 8: 294 probes, sky 0 [], under 0 [], above 41 [(469, 272, 'sawmill:27:plank_fence_4:0'), (469, 272, 'sawmill:27:plank_fence_4:0'), (472, 272, 'sawmill:27:plank_fence_4:0'), (472, 272, 'sawmill:27:plank_fence_4:0'), (472, 272, 'sawmill:28:plank_fence_4:0'), (472, 272, 'sawmill:28:plank_fence_4:0')]
+view 9: 77 probes, sky 0 [], under 0 [], above 0 []
+view 10: 200 probes, sky 0 [], under 0 [], above 8 [(480, 271, 'sawmill:0:plank_fence_4:0'), (480, 271, 'sawmill:0:plank_fence_4:0'), (479, 271, 'sawmill:0:plank_fence_4:0'), (479, 271, 'sawmill:0:plank_fence_4:0'), (480, 271, 'sawmill:61:plank_fence_4:0'), (480, 271, 'sawmill:61:plank_fence_4:0')]
+view 11: 396 probes, sky 0 [], under 0 [], above 0 []
+view 13: 140 probes, sky 0 [], under 0 [], above 0 []
+view 14: 151 probes, sky 0 [], under 0 [], above 30 [(368, 232, 'outpost:27:sandbags_3:0'), (360, 232, 'outpost:27:sandbags_3:0'), (371, 232, 'outpost:27:sandbags_3:0'), (363, 232, 'outpost:27:sandbags_3:0'), (374, 232, 'outpost:27:sandbags_3:0'), (366, 232, 'outpost:27:sandbags_3:0')]
+view 15: 202 probes, sky 0 [], under 0 [], above 0 []
+view 16: 268 probes, sky 0 [], under 0 [], above 0 []
+view 17: 252 probes, sky 0 [], under 0 [], above 0 []
+view 18: 168 probes, sky 0 [], under 0 [], above 22 [(350, 211, 'outpost:6:scrap_wall_4:0'), (343, 211, 'outpost:6:scrap_wall_4:0'), (335, 211, 'outpost:6:scrap_wall_4:0'), (328, 211, 'outpost:6:scrap_wall_4:0'), (321, 211, 'outpost:6:scrap_wall_4:0'), (314, 211, 'outpost:6:scrap_wall_4:0')]
+view 19: 311 probes, sky 0 [], under 0 [], above 0 []
+view 20: 263 probes, sky 0 [], under 0 [], above 0 []
+view 21: 176 probes, sky 0 [], under 0 [], above 77 [(470, 273, 'outpost:0:scrap_wall_4:0'), (469, 273, 'outpost:0:scrap_wall_4:0'), (466, 273, 'outpost:0:scrap_wall_4:0'), (464, 273, 'outpost:0:scrap_wall_4:0'), (344, 272, 'outpost:24:sandbags_3:0'), (340, 272, 'outpost:24:sandbags_3:0')]
+view 22: 308 probes, sky 0 [], under 0 [], above 14 [(779, 291, 'elevator:24:wall_concrete_4:0'), (781, 291, 'elevator:24:wall_concrete_4:0'), (785, 291, 'elevator:24:wall_concrete_4:0'), (788, 291, 'elevator:24:wall_concrete_4:0'), (792, 291, 'elevator:24:wall_concrete_4:0'), (794, 291, 'elevator:24:wall_concrete_4:0')]
+view 23: 74 probes, sky 0 [], under 0 [], above 0 []
+view 24: 253 probes, sky 0 [], under 0 [], above 0 []
+view 25: 185 probes, sky 0 [], under 0 [], above 0 []
+view 26: 177 probes, sky 0 [], under 0 [], above 0 []
+view 27: 133 probes, sky 0 [], under 0 [], above 0 []
+view 28: 261 probes, sky 0 [], under 0 [], above 0 []
+view 29: 259 probes, sky 0 [], under 0 [], above 70 [(311, 273, 'elevator:74:wreck_truck:0'), (304, 273, 'elevator:74:wreck_truck:0'), (297, 273, 'elevator:74:wreck_truck:0'), (289, 273, 'elevator:74:wreck_truck:0'), (316, 273, 'elevator:74:wreck_truck:0'), (294, 273, 'elevator:74:wreck_truck:0')]
+view 30: 101 probes, sky 0 [], under 0 [], above 16 [(447, 179, 'elevator:60:wall_concrete_4:0'), (449, 179, 'elevator:60:wall_concrete_4:0'), (452, 179, 'elevator:60:wall_concrete_4:0'), (454, 179, 'elevator:60:wall_concrete_4:0'), (449, 179, 'elevator:61:wall_concrete_4:0'), (451, 179, 'elevator:61:wall_concrete_4:0')]
+view 31: 253 probes, sky 0 [], under 0 [], above 0 []
+view 32: 247 probes, sky 0 [], under 0 [], above 0 []
+total: 7056 probes checked, 0 sky under a bottom edge, 0 gaps under a bottom edge, 352 sky where the object should be

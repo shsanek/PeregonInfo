@@ -1,0 +1,6 @@
+settled night+sunset tour steps, ms per frame (EXEcutor RunGame, interleaved before/after)
+gas   before 10.53 10.09 (mean 10.31, hash 53e35e39); after 9.99 10.79 (mean 10.39, hash 53e35e39); delta +0.08 ms
+saw   before 11.02 10.52 (mean 10.77, hash 9aa93f51); after 11.20 11.36 (mean 11.28, hash 9aa93f51); delta +0.51 ms
+
+pass-2 steady frames (perf probe): sawmill draws 355 -> 378, objects section 1.11 -> 1.42 ms; gas station draws 268 -> 288, objects 0.82 -> 1.09 ms
+tour final state hashes equal before/after: sawmill 9aa93f51, gas station 53e35e39; play_region headless 1200 ticks 7c62ba99 both

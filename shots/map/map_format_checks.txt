@@ -1,0 +1,32 @@
+PASS mapgen selftest: map/examples (placements, layouts, stamps, paint, streets, planned road) bake on a synthetic macro
+PASS mapgen build tools/map/tests/rect  (incremental; full bake when sources changed)
+PASS mapgen check: pak sha256 and per-tile hashes match the manifest
+PASS mapgen rebuild with unchanged sources rebuilds 0 tiles, manifest byte-identical
+PASS mapgen verify: tiles re-baked from scratch (other worker count) hash-identical to the manifest
+PASS road network: max cut / fill / grade per class within the class limits (map_network.txt)
+PASS overlap validator ran (report for de-dup: map_overlaps.txt)
+PASS border stitch dry run (map_stitch.txt)
+PASS road graph: connected per region, every place has an entrance node, advisory speeds 1..35 m/s, bot route between every pair of camps (map_graph.txt)
+PASS rivers: baked channels no deeper than bed depth + 1 m below the macro ground
+PASS incremental: adding one place file re-bakes only the tiles it touches
+PASS preview.py: overview, road profiles + cross sections, zooms; every JPG <= 300 KB
+PASS test window pak (9,6,11,8 around the route quarter point)
+PASS map_tests native release
+PASS map_tests EXEcutor release stdout == native
+PASS map_tests native debug
+PASS map_tests EXEcutor debug stdout == native
+PASS scene_map_drive d3d9 SM2 in EXEcutor, <= 15 s (run 005)
+PASS SM2 path on d3d9, 0 rhi errors, tiles streamed and rendered
+PASS fixed-function path on d3d9, 0 rhi errors
+PASS second SM2 run identical (state and image hashes)
+PASS SM2 and FF simulate the same states
+PASS host build (rhi_null) simulates the same states as EXEcutor
+PASS host drive across the whole route (37096 ticks): complete, within budget
+PASS RunGame d3d9 window: whole route in EXEcutor, present dumps
+PASS RunGame drive: route complete, >= 60 tiles streamed, within budget, 0 failures, 0 rhi errors
+PASS RunGame drive final state hash == host drive (deterministic streaming)
+PASS RunGame d3d9 road class shot: trunk_R1 (route leg 0)
+PASS RunGame d3d9 road class shot: gravel_R4 (route leg 1)
+PASS RunGame d3d9 road class shot: field_R5 (route leg 2)
+PASS RunGame d3d9 road class shot: railway_RW (route leg 3)
+PASS RunGame d3d9 road class shot: steppe_R10 (route leg 4)

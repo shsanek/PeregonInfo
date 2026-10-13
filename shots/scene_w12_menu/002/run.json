@@ -1,0 +1,20 @@
+{
+  "scene": "scene_w12_menu",
+  "run": "002",
+  "date": "2026-10-07T16:02:05Z",
+  "commit": "54f1c0403c",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "4",
+    "--ticks",
+    "520",
+    "--capture",
+    "376,500",
+    "--replay",
+    "replay.txt"
+  ]
+}

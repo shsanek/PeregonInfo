@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "scene": "scene_w3_combat",
+  "seed": 1,
+  "ticks": 458,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 360, "frames": 458, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 47, "primitives": 6870, "vertices": 20610, "state_binds": 35, "texture_binds": 47, "bytes_uploaded": 11712, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": {"file": "C:\\Test\\scene_w3_nail_raiders.txt", "format": "text1", "hash": "aa720f21", "length_ticks": 458},
+  "wall_time_ms": 1936.340,
+  "frame_time_ms": {"avg": 4.132, "min": 0.709, "max": 579.578},
+  "final_state_hash": "8280a14c",
+  "captures": [
+    {"tick": 14, "state_hash": "c63b387b", "image_hash": "b9eb3efd", "width": 640, "height": 360, "file": "tick_000014.bmp"},
+    {"tick": 255, "state_hash": "9207ca17", "image_hash": "bd6db936", "width": 640, "height": 360, "file": "tick_000255.bmp"},
+    {"tick": 397, "state_hash": "c21b42dd", "image_hash": "40490a0b", "width": 640, "height": 360, "file": "tick_000397.bmp"}
+  ],
+  "scene_metrics": {"stream": "W3", "contracts_version": 1, "content_hash": "0x1508ed4c", "bus": {"published": 36, "delivered": 36, "dropped": 0, "handler_calls": 24, "max_pending": 4, "stream_hash_hi": "0xac09e4cb", "stream_hash_lo": "0x9541268b"}, "render": {"frames": 458, "draws_last": 20516, "path": "fixed-function", "size": "640x360"}, "combat": {"scenario": "nail_raiders", "scenario_id": 1, "tick": 458, "player": {"health": 100.000, "armor": 0.000, "damage_taken": 0.000, "hits_taken": 0, "dodges": 0, "dodged_hits": 0, "weapon": "nailgun", "mounted": 0}, "weapons": {"crowbar": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 0, "reserve": 0}, "sawn_off": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 2, "reserve": 20}, "nailgun": {"shots": 24, "ammo_used": 24, "hits": 24, "kills": 8, "damage": 504.000, "window_ticks": 401, "dps": 75.411, "reloads": 1, "overheats": 0, "interrupts": 0, "mag": 46, "reserve": 50}, "roof_mg": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 0, "reserve": 0}}, "kills": [{"tick": 14, "entity": 3, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 12, "ttk_s": 0.200, "executed": 0}, {"tick": 37, "entity": 1, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 12, "ttk_s": 0.200, "executed": 0}, {"tick": 56, "entity": 2, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 12, "ttk_s": 0.200, "executed": 0}, {"tick": 79, "entity": 4, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 12, "ttk_s": 0.200, "executed": 0}, {"tick": 153, "entity": 7, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 12, "ttk_s": 0.200, "executed": 0}, {"tick": 172, "entity": 5, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 12, "ttk_s": 0.200, "executed": 0}, {"tick": 379, "entity": 6, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 201, "ttk_s": 3.350, "executed": 0}, {"tick": 397, "entity": 8, "enemy": "raider", "weapon": "nailgun", "ttk_ticks": 12, "ttk_s": 0.200, "executed": 0}], "ttk": {"nailgun/raider": {"count": 8, "avg_s": 0.594, "min_s": 0.200, "max_s": 3.350}}, "brute": {"charges": 0, "interrupted": 0, "charge_hits": 0, "hits_during_charge": 0}, "executions": 0, "execution_ammo": 0, "ammo_trips": 1, "boxes_taken": 2, "bed_entries": 8, "mg": {"first_overheat_shots": 0, "lock_ticks": 0, "heat": 0.000}, "wave": 1, "cleared_tick": 397, "damage_events": 24, "cargo_events": 4, "kill_events": 8, "moments": [{"tick": 14, "kind": "kill", "weapon": "nailgun", "value": 12, "entity": 3}, {"tick": 37, "kind": "kill", "weapon": "nailgun", "value": 12, "entity": 1}, {"tick": 56, "kind": "kill", "weapon": "nailgun", "value": 12, "entity": 2}, {"tick": 79, "kind": "kill", "weapon": "nailgun", "value": 12, "entity": 4}, {"tick": 139, "kind": "wave", "weapon": "none", "value": 1, "entity": 0}, {"tick": 153, "kind": "kill", "weapon": "nailgun", "value": 12, "entity": 7}, {"tick": 172, "kind": "kill", "weapon": "nailgun", "value": 12, "entity": 5}, {"tick": 255, "kind": "ammo_trip", "weapon": "nailgun", "value": 2, "entity": 0}, {"tick": 379, "kind": "kill", "weapon": "nailgun", "value": 201, "entity": 6}, {"tick": 397, "kind": "kill", "weapon": "nailgun", "value": 12, "entity": 8}, {"tick": 397, "kind": "cleared", "weapon": "none", "value": 0, "entity": 0}]}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

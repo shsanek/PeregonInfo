@@ -1,0 +1,9 @@
+scene_rhi_cube
+backend: null abi=2
+caps: shader_model=0x0200 flags=0x0000007b path=fixed-function
+frame 0: passes=1 draws=2 primitives=14 vertices=40 pixels_written=83516 errors=0
+live: buffers=3 textures=2 samplers=2 layouts=1 states=1
+image: 320x240 rgba8 fnv1a64=0x6972857f29725bb6
+probes: (160,120)=0x302820 (20,230)=0x424939 (300,20)=0x58646e (160,200)=0x424939
+ppm: written
+exit 0

@@ -1,0 +1,8 @@
+scene=scene_w4_ai seed=1 ticks=807 flavour=win32
+capture tick=1 state=31eadaf2 image=043acf8c file=tick_000001.bmp
+capture tick=126 state=a7f55c4f image=c9ec1bdd file=tick_000126.bmp
+capture tick=127 state=f6804ed8 image=5a80f769 file=tick_000127.bmp
+capture tick=352 state=0725921c image=af3da130 file=tick_000352.bmp
+capture tick=441 state=ba3f131d image=26bbe041 file=tick_000441.bmp
+capture tick=561 state=b262e932 image=2b34051a file=tick_000561.bmp
+final_state_hash=2fdd1150

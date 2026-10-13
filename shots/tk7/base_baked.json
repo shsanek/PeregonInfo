@@ -1,0 +1,12 @@
+{
+  "GAME_body": {
+    "base_vertices": 80,
+    "aligned_vertices": 36,
+    "surface_y_m": 0.705
+  },
+  "GAME_body_inside": {
+    "base_vertices": 0,
+    "aligned_vertices": 0,
+    "surface_y_m": 0.705
+  }
+}

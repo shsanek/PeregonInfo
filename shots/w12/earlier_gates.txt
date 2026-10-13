@@ -1,0 +1,5 @@
+Earlier gates for W12 (GATE_SKIP_BUILD=1, run one at a time on this branch after the combined run hit 15 s EXEcutor caps under host load 20-33):
+c0: GATE c0 PASS
+w1: GATE w1 PASS
+w10a: GATE w10a PASS
+w9: GATE w9 PASS

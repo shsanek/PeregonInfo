@@ -1,0 +1,31 @@
+gate parking x_camp_w#0: node 1 at 935, 1000, 2 edges, connected
+  parking x_camp_w#0 is 10.0 m out of the gate node 0, self-loop edges 0
+gate parking x_camp_e#0: node 5 at 2665, 1100, 2 edges, connected
+  parking x_camp_e#0 is 10.0 m out of the gate node 6, self-loop edges 0
+places: x_camp_e (2700, 1100), x_camp_w (900, 1000)
+road x_field          R5 1792 m, max grade 0.037, cut 0.28 fill 0.19, hairpins 0, fords 1, worst ratio 0.195
+road x_forest         R6 1059 m, max grade 0.041, cut 0.23 fill 0.02, hairpins 0, fords 1, worst ratio 0.271
+road x_gravel         R4 3300 m, max grade 0.096, cut 0.57 fill 0.92, hairpins 1, fords 1, worst ratio 0.955
+ford at 1859, 1051: depth 0.35 m, current 0.70 m/s towards 201 deg
+ford at 1511, 1509: depth 0.28 m, current 0.22 m/s towards 117 deg
+ford at 1797, 569: depth 0.34 m, current 0.66 m/s towards 171 deg
+  x_field          ford ramps (8 m, 2 m samples) worst 0.123 at 1900, 1058; mud cells near fords/junctions 0; deepest closed hollow 0.08 m at 2026, 1088
+baked grade x_field          sustained (48 m) 0.120 at 1763, 1025 (limit 0.188 incl. fords); local (8 m) 0.123 at 1902, 1058 (step limit 0.30)
+  x_field          wheel lines (8 m, inside/outside of curves) worst 0.140 at 1925, 1066 (limit 0.228); cross slope worst 0.080 at 1759, 1025; edge drop worst 0.28 m in 1.5 m at 965, 1000 (hairpin no)
+  x_field          roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.06 m at 1682, 1026
+  x_forest         ford ramps (8 m, 2 m samples) worst 0.080 at 1509, 1497; mud cells near fords/junctions 0; deepest closed hollow 0.11 m at 1518, 1544
+baked grade x_forest         sustained (48 m) 0.039 at 1407, 1758 (limit 0.150 incl. fords); local (8 m) 0.080 at 1509, 1497 (step limit 0.25)
+  x_forest         wheel lines (8 m, inside/outside of curves) worst 0.085 at 1510, 1497 (limit 0.190); cross slope worst 0.052 at 1517, 1536; edge drop worst 0.13 m in 1.5 m at 1508, 1481 (hairpin no)
+  x_forest         roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.02 m at 1528, 1085
+  x_gravel         ford ramps (8 m, 2 m samples) worst 0.122 at 1756, 577; mud cells near fords/junctions 0; deepest closed hollow 0.06 m at 2682, 1080
+baked grade x_gravel         sustained (48 m) 0.120 at 1848, 556 (limit 0.120 incl. fords); local (8 m) 0.122 at 1885, 542 (step limit 0.25)
+  x_gravel         wheel lines (8 m, inside/outside of curves) worst 0.126 at 1907, 531 (limit 0.160); cross slope worst 0.095 at 2686, 1069; edge drop worst 0.59 m in 1.5 m at 2711, 997 (hairpin no)
+  x_gravel         roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.32 m at 1460, 578
+gate x_camp_e#0: walk step worst 0.11 m per m at local -2, -29; lane grade (8 m) worst 0.102; gate 0.01 m off the pad level
+gate x_camp_w#0: walk step worst 0.12 m per m at local 0, -29; lane grade (8 m) worst 0.102; gate 0.01 m off the pad level
+pad x_camp_e         -25..25 x -25..25 at yaw 90: level 466.37 m, max deviation 0.07 m at local 5, -1
+pad x_camp_w         -25..25 x -25..25 at yaw 270: level 456.37 m, max deviation 0.07 m at local -9, -11
+surfaces in the square (8 m sample): steppe 49.5%, grass 33.6%, forest_floor 14.2%, water 1.9%, gravel 0.4%, dirt 0.3%, ford 0.2%, puddle 0.0%, rock 0.0%
+layers: SOIL in 0 tiles, FLOW in 6, HUMMOCK in 0; dead-flat dry samples 0.96 %
+water surface continuity: 59913 wet triples at 2 m, 42 kinks/steps > 5 cm (0.07 %), worst 0.44 m at 1592, 1416
+map R1 checks -> OK

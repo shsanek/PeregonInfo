@@ -1,0 +1,23 @@
+PASS slice play_auto still re-records tools/replays/play_action_autoplay.txt
+PASS stage camp_board: contracts_taken=1 step=drive_out drive_m=250 no_camp_reset=1 camp_corridor=clear
+PASS stage camp_board in EXEcutor RunGame d3d9: 0 rhi errors, 7 captures, final state == native bcefaf99
+PASS stage elevator_gate: first_visit=elevator cleared=elevator fights_lost=0
+PASS stage elevator_gate in EXEcutor RunGame d3d9: 0 rhi errors, 8 captures, final state == native b9fb4607
+PASS stage elevator_cleared_loot: stop_done=elevator cargo_put=3
+PASS stage elevator_cleared_loot in EXEcutor RunGame d3d9: 0 rhi errors, 8 captures, final state == native a3b6ee03
+PASS stage truck_loaded_trunk: contracts_done=1
+PASS stage truck_loaded_trunk in EXEcutor RunGame d3d9: 0 rhi errors, 8 captures, final state == native 8d7e33ce
+PASS stage handin_camp: contracts_done=1 upgrade=tires_t2 load_check=clean
+PASS stage handin_camp in EXEcutor RunGame d3d9: 0 rhi errors, 8 captures, final state == native 48069d4b
+PASS stage mechanic: upgrade=tires_t2 load_check=clean
+PASS stage mechanic in EXEcutor RunGame d3d9: 0 rhi errors, 4 captures, final state == native e1e46c21
+PASS stage ford_west: past_ford=6
+PASS stage ford_west in EXEcutor RunGame d3d9: 0 rhi errors, 2 captures, final state == native ef591ce4
+PASS stage switchback: past_hairpins=8
+PASS stage switchback in EXEcutor RunGame d3d9: 0 rhi errors, 2 captures, final state == native 824ba474
+PASS stage outpost_gate: first_visit=outpost_shelf raiders=6 fights_lost=0 bot_climb=1 cleared=gas_station
+PASS stage outpost_gate in EXEcutor RunGame d3d9: 0 rhi errors, 8 captures, final state == native 8765cf76
+PASS stage outpost_cleared: cargo_put=4 stop_done=gas_station
+PASS stage outpost_cleared in EXEcutor RunGame d3d9: 0 rhi errors, 8 captures, final state == native 04313ab2
+PASS stage outpost_handin: contracts_done=2 load_check=clean
+PASS stage outpost_handin in EXEcutor RunGame d3d9: 0 rhi errors, 8 captures, final state == native ef197182

@@ -1,0 +1,35 @@
+LOG line 6 host place.0: foot
+LOG line 11 host place.1: seat0
+LOG line 14 host truck.y: 400
+LOG line 16 host kmh: 59
+LOG line 19 host truck.y: 371
+LOG line 20 host kmh: 55
+LOG line 25 host kmh: 27
+LOG line 6 p1 place.0: foot
+LOG line 11 p1 place.1: seat0
+LOG line 14 p1 truck.y: 400
+LOG line 16 p1 kmh: 59
+LOG line 19 p1 truck.y: 372
+LOG line 20 p1 kmh: 55
+LOG line 25 p1 kmh: 28
+LOG line 6 p2 place.0: foot
+LOG line 11 p2 place.1: seat0
+LOG line 14 p2 truck.y: 400
+LOG line 16 p2 kmh: 59
+LOG line 19 p2 truck.y: 372
+LOG line 20 p2 kmh: 55
+LOG line 25 p2 kmh: 26
+PASS line 12 COAL-03 place.1 = seat0: host=seat0 p1=seat0 p2=seat0
+PASS line 17 COAL-03 truck.x ~~ 2: host=607 p1=608 p2=608
+PASS line 18 COAL-03 truck.z ~~ 2: host=-1068 p1=-1067 p2=-1067
+PASS line 21 COAL-03 truck.y < $y0: host=371 p1=372@1 p2=372
+PASS line 22 COAL-03 truck.y ~~ 1: host=371 p1=372@1 p2=372
+PASS line 23 COAL-03 truck.x ~~ 2: host=536 p1=537@1 p2=537
+PASS line 26 COAL-03 truck.y ~~ 1: host=324 p1=324@1 p2=324
+PASS line 27 COAL-03 truck.z ~~ 2: host=-1250 p1=-1250@1 p2=-1250
+links: peer 1 relay, peer 2 relay
+client layer checks: 98 equal, 0 differ
+acts 8, failed acts 0
+rows 1 pass 1 fail 0
+ROW COAL-03 PASS (8 checks)
+RESULT PASS

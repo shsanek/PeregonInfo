@@ -1,0 +1,5 @@
+scene=scene_core_replay seed=20261007 ticks=3000 flavour=native
+capture tick=1000 state=19627385 image=bdb8cd2f file=tick_001000.bmp
+capture tick=2000 state=6d7dc114 image=a4467208 file=tick_002000.bmp
+capture tick=3000 state=be0502af image=5b5158e7 file=tick_003000.bmp
+final_state_hash=be0502af

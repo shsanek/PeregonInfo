@@ -1,0 +1,13 @@
+GRASS3 perf, EXEcutor RunGame, tools/perf_tour.py, steady frames, shared Mac (host load 20-90 during the runs, about +-1 ms noise).
+before = claude/peregon-design 4d6ef9f8d1 built clean in a separate worktree; after = work/peregon-grass3.
+Grass atlas 1024x512 BC3 both (699 312 bytes ptex), kit reed/cattail/flower cards 128 -> 256 px BC3 (+65 KB each).
+
+Camera tour (data/render/perf_tour.txt, 27 views, 1280x720), frame avg / p95 ms, draws, grass section us, final hash
+  base1  9.50 / 11.32  383  274  4a7a99e0      after1 10.54 / 12.51  383  327  4a7a99e0   (first atlas cut)
+  base2 10.60 / 12.89  383  318  4a7a99e0      after2 10.00 / 11.93  383  302  4a7a99e0   (first atlas cut)
+  base3 11.16 / 13.27  383  335  4a7a99e0      after3 10.44 / 12.54  383  309  4a7a99e0   (final atlas)
+  mean   10.42 ms                               mean   10.33 ms
+
+R1 gameplay replay (tools/replays/play_region_perf.txt, 7200 ticks, 1280x720)
+  base 15.95 ms p95 22.83, draws 358, grass section 345 us | after 14.97 ms p95 20.67, draws 358, grass 321 us
+  final state hash 5edd9f3f both (simulation unchanged)

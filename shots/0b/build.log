@@ -1,0 +1,212 @@
+== win32-debug
+[1/42] Generating balance_embedded.cpp
+[2/40] Building CXX object src/rhi_d3d9/CMakeFiles/peregon_render_d3d9.dir/rhi_d3d9.cpp.obj
+[3/40] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/dxt.cpp.obj
+[4/40] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/raster.cpp.obj
+[5/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/clock.cpp.obj
+[6/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.obj
+[7/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/capture.cpp.obj
+[8/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/replay.cpp.obj
+[9/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/dmath.cpp.obj
+[10/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/balance.cpp.obj
+[11/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/toy_bodies.cpp.obj
+[12/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay_prpl.cpp.obj
+[13/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_table.cpp.obj
+[14/40] Linking CXX shared library bin/render_d3d9.dll
+[15/40] Building C object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_header_check.c.obj
+[16/40] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/scene_rhi_cube.cpp.obj
+[17/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay.cpp.obj
+[18/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_smoke.cpp.obj
+[19/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_core_replay.cpp.obj
+[20/40] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/image_file.cpp.obj
+[21/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/file_io.cpp.obj
+[22/40] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.obj
+[23/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/runner.cpp.obj
+[24/40] Linking CXX shared library bin/core.dll
+[25/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_clock.cpp.obj
+[26/40] Linking CXX static library lib/libperegon_game.a
+[27/40] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.obj
+[28/40] Building CXX object tests/CMakeFiles/scene_core_replay.dir/scene_core_replay.cpp.obj
+[29/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_math.cpp.obj
+[30/40] Linking CXX executable bin/peregon_headless.exe
+[31/40] Linking CXX static library lib/libperegon_rhi_null.a
+[32/40] Linking CXX executable bin/scene_core_replay.exe
+[33/40] Building CXX object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_tests.cpp.obj
+[34/40] Linking CXX executable bin/scene_rhi_cube.exe
+[35/40] Linking CXX executable bin/peregon.exe
+[36/40] Linking CXX executable bin/rhi_tests.exe
+[37/40] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.obj
+[38/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_replay.cpp.obj
+[39/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_balance.cpp.obj
+[40/40] Linking CXX executable bin/core_tests.exe
+core_tests.exe: core.dll kernel32.dll msvcrt.dll
+peregon.exe: core.dll kernel32.dll msvcrt.dll
+peregon_headless.exe: core.dll kernel32.dll msvcrt.dll
+rhi_tests.exe: kernel32.dll msvcrt.dll
+scene_core_replay.exe: core.dll kernel32.dll msvcrt.dll
+scene_rhi_cube.exe: kernel32.dll msvcrt.dll
+shader_d3d9_test.exe: d3d9.dll kernel32.dll msvcrt.dll user32.dll
+core.dll: kernel32.dll msvcrt.dll
+render_d3d9.dll: kernel32.dll msvcrt.dll
+== win32-release
+[1/42] Generating balance_embedded.cpp
+[2/40] Building CXX object src/rhi_d3d9/CMakeFiles/peregon_render_d3d9.dir/rhi_d3d9.cpp.obj
+[3/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/clock.cpp.obj
+[4/40] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/dxt.cpp.obj
+[5/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/capture.cpp.obj
+[6/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.obj
+[7/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/replay.cpp.obj
+[8/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/dmath.cpp.obj
+[9/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay_prpl.cpp.obj
+[10/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/file_io.cpp.obj
+[11/40] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/raster.cpp.obj
+[12/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay.cpp.obj
+[13/40] Building C object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_header_check.c.obj
+[14/40] Linking CXX shared library bin/render_d3d9.dll
+[15/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_table.cpp.obj
+[16/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_core_replay.cpp.obj
+[17/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/toy_bodies.cpp.obj
+[18/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_smoke.cpp.obj
+[19/40] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/image_file.cpp.obj
+[20/40] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/scene_rhi_cube.cpp.obj
+[21/40] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.obj
+[22/40] Building CXX object tests/CMakeFiles/scene_core_replay.dir/scene_core_replay.cpp.obj
+[23/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_clock.cpp.obj
+[24/40] Building CXX object src/core/CMakeFiles/peregon_core.dir/balance.cpp.obj
+[25/40] Linking CXX shared library bin/core.dll
+[26/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_math.cpp.obj
+[27/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_replay.cpp.obj
+[28/40] Building CXX object src/game/CMakeFiles/peregon_game.dir/runner.cpp.obj
+[29/40] Linking CXX static library lib/libperegon_game.a
+[30/40] Linking CXX executable bin/scene_core_replay.exe
+[31/40] Linking CXX executable bin/peregon_headless.exe
+[32/40] Building CXX object tests/CMakeFiles/core_tests.dir/test_balance.cpp.obj
+[33/40] Building CXX object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_tests.cpp.obj
+[34/40] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.obj
+[35/40] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.obj
+[36/40] Linking CXX static library lib/libperegon_rhi_null.a
+[37/40] Linking CXX executable bin/core_tests.exe
+[38/40] Linking CXX executable bin/rhi_tests.exe
+[39/40] Linking CXX executable bin/scene_rhi_cube.exe
+[40/40] Linking CXX executable bin/peregon.exe
+core_tests.exe: core.dll kernel32.dll msvcrt.dll
+peregon.exe: core.dll kernel32.dll msvcrt.dll
+peregon_headless.exe: core.dll kernel32.dll msvcrt.dll
+rhi_tests.exe: kernel32.dll msvcrt.dll
+scene_core_replay.exe: core.dll kernel32.dll msvcrt.dll
+scene_rhi_cube.exe: kernel32.dll msvcrt.dll
+shader_d3d9_test.exe: d3d9.dll kernel32.dll msvcrt.dll user32.dll
+core.dll: kernel32.dll msvcrt.dll
+render_d3d9.dll: kernel32.dll msvcrt.dll
+== native-debug
+[1/40] Generating balance_embedded.cpp
+[2/38] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/image_file.cpp.o
+[3/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.o
+[4/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/dmath.cpp.o
+[5/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/clock.cpp.o
+[6/38] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/raster.cpp.o
+[7/38] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/dxt.cpp.o
+[8/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/capture.cpp.o
+[9/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/file_io.cpp.o
+[10/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/replay.cpp.o
+[11/38] Building C object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_header_check.c.o
+[12/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay.cpp.o
+[13/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/balance.cpp.o
+[14/38] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/scene_rhi_cube.cpp.o
+[15/38] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.o
+[16/38] Linking CXX shared library bin/libcore.dylib
+[17/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay_prpl.cpp.o
+[18/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_core_replay.cpp.o
+[19/38] Linking CXX static library lib/libperegon_rhi_null.a
+[20/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_table.cpp.o
+[21/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_smoke.cpp.o
+[22/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/toy_bodies.cpp.o
+[23/38] Linking CXX executable bin/scene_rhi_cube
+[24/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/runner.cpp.o
+[25/38] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.o
+[26/38] Linking CXX static library lib/libperegon_game.a
+[27/38] Building CXX object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_tests.cpp.o
+[28/38] Linking CXX executable bin/peregon_headless
+[29/38] Linking CXX executable bin/peregon
+[30/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_math.cpp.o
+[31/38] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.o
+[32/38] Linking CXX executable bin/rhi_tests
+[33/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_clock.cpp.o
+[34/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_balance.cpp.o
+[35/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_replay.cpp.o
+[36/38] Building CXX object tests/CMakeFiles/scene_core_replay.dir/scene_core_replay.cpp.o
+[37/38] Linking CXX executable bin/core_tests
+[38/38] Linking CXX executable bin/scene_core_replay
+Test project /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a6d37255a90ecacc4/games/peregon/build/native-debug
+    Start 1: rhi_tests
+1/6 Test #1: rhi_tests ........................   Passed    0.34 sec
+    Start 2: scene_rhi_cube
+2/6 Test #2: scene_rhi_cube ...................   Passed    0.41 sec
+    Start 3: core_tests
+3/6 Test #3: core_tests .......................   Passed    0.76 sec
+    Start 4: scene_core_replay
+4/6 Test #4: scene_core_replay ................   Passed    0.49 sec
+    Start 5: shader_metal_test
+5/6 Test #5: shader_metal_test ................   Passed    0.24 sec
+    Start 6: shaderc_tests
+6/6 Test #6: shaderc_tests ....................   Passed    0.08 sec
+
+100% tests passed out of 6
+
+Total Test time (real) =   2.32 sec
+== native-release
+[1/40] Generating balance_embedded.cpp
+[2/38] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/image_file.cpp.o
+[3/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.o
+[4/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/clock.cpp.o
+[5/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/dmath.cpp.o
+[6/38] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/dxt.cpp.o
+[7/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/capture.cpp.o
+[8/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/replay.cpp.o
+[9/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/file_io.cpp.o
+[10/38] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/raster.cpp.o
+[11/38] Building C object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_header_check.c.o
+[12/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay.cpp.o
+[13/38] Building CXX object src/rhi_null/CMakeFiles/scene_rhi_cube.dir/scene/scene_rhi_cube.cpp.o
+[14/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_table.cpp.o
+[15/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_core_replay.cpp.o
+[16/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/toy_bodies.cpp.o
+[17/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/replay_prpl.cpp.o
+[18/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_smoke.cpp.o
+[19/38] Building CXX object src/core/CMakeFiles/peregon_core.dir/balance.cpp.o
+[20/38] Linking CXX shared library bin/libcore.dylib
+[21/38] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.o
+[22/38] Building CXX object src/game/CMakeFiles/peregon_game.dir/runner.cpp.o
+[23/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_clock.cpp.o
+[24/38] Linking CXX static library lib/libperegon_game.a
+[25/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_math.cpp.o
+[26/38] Linking CXX executable bin/peregon_headless
+[27/38] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.o
+[28/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_balance.cpp.o
+[29/38] Building CXX object tests/CMakeFiles/core_tests.dir/test_replay.cpp.o
+[30/38] Building CXX object tests/CMakeFiles/scene_core_replay.dir/scene_core_replay.cpp.o
+[31/38] Linking CXX executable bin/core_tests
+[32/38] Linking CXX executable bin/scene_core_replay
+[33/38] Building CXX object src/rhi_null/CMakeFiles/rhi_tests.dir/tests/rhi_tests.cpp.o
+[34/38] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.o
+[35/38] Linking CXX static library lib/libperegon_rhi_null.a
+[36/38] Linking CXX executable bin/peregon
+[37/38] Linking CXX executable bin/rhi_tests
+[38/38] Linking CXX executable bin/scene_rhi_cube
+Test project /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a6d37255a90ecacc4/games/peregon/build/native-release
+    Start 1: rhi_tests
+1/6 Test #1: rhi_tests ........................   Passed    0.24 sec
+    Start 2: scene_rhi_cube
+2/6 Test #2: scene_rhi_cube ...................   Passed    0.20 sec
+    Start 3: core_tests
+3/6 Test #3: core_tests .......................   Passed    0.40 sec
+    Start 4: scene_core_replay
+4/6 Test #4: scene_core_replay ................   Passed    0.25 sec
+    Start 5: shader_metal_test
+5/6 Test #5: shader_metal_test ................   Passed    0.26 sec
+    Start 6: shaderc_tests
+6/6 Test #6: shaderc_tests ....................   Passed    0.08 sec
+
+100% tests passed out of 6
+
+Total Test time (real) =   1.44 sec

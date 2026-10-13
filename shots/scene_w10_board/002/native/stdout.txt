@@ -1,0 +1,5 @@
+scene=scene_w10_board seed=3 ticks=300 flavour=native
+capture tick=150 state=4dbae041 image=c76a8cb1 file=tick_000150.bmp
+capture tick=240 state=7f6452b8 image=5981f90a file=tick_000240.bmp
+capture tick=280 state=b8396416 image=82c7a5a9 file=tick_000280.bmp
+final_state_hash=dd62825e

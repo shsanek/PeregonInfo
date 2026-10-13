@@ -1,0 +1,111 @@
+{
+ "b1_crouch/noon": {
+  "frame_ms_avg": 8.428,
+  "frames": 39,
+  "shot": "after_b1_crouch_noon.jpg",
+  "state_hash": "7e514a12",
+  "tick": 379
+ },
+ "b1_crouch_side/noon": {
+  "frame_ms_avg": 8.697,
+  "frames": 39,
+  "shot": "after_b1_crouch_side_noon.jpg",
+  "state_hash": "339685e7",
+  "tick": 419
+ },
+ "b1_idle/noon": {
+  "frame_ms_avg": 15.807,
+  "frames": 39,
+  "shot": "after_b1_idle_noon.jpg",
+  "state_hash": "8eb811fc",
+  "tick": 299
+ },
+ "b1_peek/noon": {
+  "frame_ms_avg": 8.387,
+  "frames": 39,
+  "shot": "after_b1_peek_noon.jpg",
+  "state_hash": "05c6cfc6",
+  "tick": 499
+ },
+ "b1_peek_low/noon": {
+  "frame_ms_avg": 8.401,
+  "frames": 39,
+  "shot": "after_b1_peek_low_noon.jpg",
+  "state_hash": "1a146741",
+  "tick": 459
+ },
+ "b1_run/noon": {
+  "frame_ms_avg": 8.442,
+  "frames": 39,
+  "shot": "after_b1_run_noon.jpg",
+  "state_hash": "6b5c4749",
+  "tick": 339
+ },
+ "b1_stagger/noon": {
+  "frame_ms_avg": 8.359,
+  "frames": 39,
+  "shot": "after_b1_stagger_noon.jpg",
+  "state_hash": "13ae5e92",
+  "tick": 539
+ },
+ "b4_crouch/noon": {
+  "frame_ms_avg": 8.362,
+  "frames": 39,
+  "shot": "after_b4_crouch_noon.jpg",
+  "state_hash": "3773790c",
+  "tick": 659
+ },
+ "b4_crouch_side/noon": {
+  "frame_ms_avg": 8.367,
+  "frames": 39,
+  "shot": "after_b4_crouch_side_noon.jpg",
+  "state_hash": "b5e25828",
+  "tick": 699
+ },
+ "b4_idle/noon": {
+  "frame_ms_avg": 8.342,
+  "frames": 39,
+  "shot": "after_b4_idle_noon.jpg",
+  "state_hash": "f0a2a3e7",
+  "tick": 579
+ },
+ "b4_peek/noon": {
+  "frame_ms_avg": 8.375,
+  "frames": 39,
+  "shot": "after_b4_peek_noon.jpg",
+  "state_hash": "1ccab64d",
+  "tick": 779
+ },
+ "b4_peek_low/noon": {
+  "frame_ms_avg": 8.395,
+  "frames": 39,
+  "shot": "after_b4_peek_low_noon.jpg",
+  "state_hash": "baa04f43",
+  "tick": 739
+ },
+ "b4_run/noon": {
+  "frame_ms_avg": 8.42,
+  "frames": 39,
+  "shot": "after_b4_run_noon.jpg",
+  "state_hash": "fc6bcb27",
+  "tick": 619
+ },
+ "b4_stagger/noon": {
+  "frame_ms_avg": 8.365,
+  "frames": 39,
+  "shot": "after_b4_stagger_noon.jpg",
+  "state_hash": "59f7f985",
+  "tick": 819
+ },
+ "run": {
+  "final_state_hash": "ba09956c",
+  "frame_time_ms": {
+   "avg": 36.216,
+   "max": 4662.428,
+   "min": 6.547
+  },
+  "launches": 1,
+  "ticks": 821,
+  "wall_time_ms": 29736.376
+ }
+}

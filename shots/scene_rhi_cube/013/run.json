@@ -1,0 +1,22 @@
+{
+  "scene": "scene_rhi_cube",
+  "run": "013",
+  "date": "2026-10-07T11:24:53Z",
+  "commit": "9d1c74fc0",
+  "flavours": [
+    "native",
+    "metal"
+  ],
+  "args": [
+    "--ticks",
+    "1",
+    "--capture",
+    "1"
+  ],
+  "compare_args": [
+    "--tolerance",
+    "2",
+    "--min-match",
+    "99.5"
+  ]
+}

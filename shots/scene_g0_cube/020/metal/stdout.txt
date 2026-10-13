@@ -1,0 +1,4 @@
+scene=scene_g0_cube seed=1 ticks=60 flavour=native
+capture tick=30 state=73b434f1 image=a40c945f file=tick_000030.bmp
+capture tick=60 state=2972315a image=ebfd9037 file=tick_000060.bmp
+final_state_hash=2972315a

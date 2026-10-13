@@ -1,0 +1,212 @@
+[suite] asset_tests
+[ OK ] result_names_are_stable
+[ OK ] texture_level_sizes
+[ OK ] bc1_block_decodes_reference_palette
+asset runtime/gb_checker.ptex ptex size 43920 hash e4f8d6fe format 2 usage 0 flags 1 width 256 height 256 mips 9
+asset runtime/gb_checker.ptex mip0 256x256 size 32768 pitch 512 data c303037c rgba 6fab7b39
+asset runtime/gb_checker.ptex mip1 128x128 size 8192 pitch 256 data 35608d7c rgba c9c2bd10
+asset runtime/gb_checker.ptex mip2 64x64 size 2048 pitch 128 data 253a4cfa rgba fb959ca6
+asset runtime/gb_checker.ptex mip3 32x32 size 512 pitch 64 data 1c5d721a rgba 0c9be8c7
+asset runtime/gb_checker.ptex mip4 16x16 size 128 pitch 32 data f9f195ac rgba 5f5fc81c
+asset runtime/gb_checker.ptex mip5 8x8 size 32 pitch 16 data f3447da7 rgba 26b19695
+asset runtime/gb_checker.ptex mip6 4x4 size 8 pitch 8 data ccc0d6c4 rgba 48ba030e
+asset runtime/gb_checker.ptex mip7 2x2 size 8 pitch 8 data 38de86df rgba ab638503
+asset runtime/gb_checker.ptex mip8 1x1 size 8 pitch 8 data 3ead9842 rgba 6d7b6d06
+asset runtime/gb_grid.ptex ptex size 87600 hash b82b94da format 3 usage 0 flags 3 width 256 height 256 mips 9
+asset runtime/gb_grid.ptex mip0 256x256 size 65536 pitch 1024 data 1411ce45 rgba 4adeb6e5
+asset runtime/gb_grid.ptex mip1 128x128 size 16384 pitch 512 data 474f8625 rgba 66fc7805
+asset runtime/gb_grid.ptex mip2 64x64 size 4096 pitch 256 data 67883ea5 rgba f1f1fa05
+asset runtime/gb_grid.ptex mip3 32x32 size 1024 pitch 128 data 35967b05 rgba 872e37e5
+asset runtime/gb_grid.ptex mip4 16x16 size 256 pitch 64 data 260dedc5 rgba 8df60385
+asset runtime/gb_grid.ptex mip5 8x8 size 64 pitch 32 data 44bfc37d rgba 35b9e8c5
+asset runtime/gb_grid.ptex mip6 4x4 size 16 pitch 16 data 61ddee09 rgba ddc12ec5
+asset runtime/gb_grid.ptex mip7 2x2 size 16 pitch 16 data 61ddee09 rgba adee5205
+asset runtime/gb_grid.ptex mip8 1x1 size 16 pitch 16 data 61ddee09 rgba 323d6e58
+asset runtime/gb_tiles.ptex ptex size 87600 hash 772d4020 format 3 usage 0 flags 3 width 256 height 256 mips 9
+asset runtime/gb_tiles.ptex mip0 256x256 size 65536 pitch 1024 data 2932a50b rgba 3c088955
+asset runtime/gb_tiles.ptex mip1 128x128 size 16384 pitch 512 data 3f61d351 rgba c74cf03d
+asset runtime/gb_tiles.ptex mip2 64x64 size 4096 pitch 256 data 30fa4619 rgba f5310ce5
+asset runtime/gb_tiles.ptex mip3 32x32 size 1024 pitch 128 data 70c8c721 rgba 17a7b0bd
+asset runtime/gb_tiles.ptex mip4 16x16 size 256 pitch 64 data 179a2b0f rgba bba66c7d
+asset runtime/gb_tiles.ptex mip5 8x8 size 64 pitch 32 data 1ba95771 rgba 88303345
+asset runtime/gb_tiles.ptex mip6 4x4 size 16 pitch 16 data 10e4c100 rgba 7baae513
+asset runtime/gb_tiles.ptex mip7 2x2 size 16 pitch 16 data bfac4ec2 rgba 634ad962
+asset runtime/gb_tiles.ptex mip8 1x1 size 16 pitch 16 data 4bb86f7d rgba df89bdd6
+asset runtime/gb_tiles_n.ptex ptex size 43920 hash 406217d5 format 2 usage 1 flags 8 width 256 height 256 mips 9
+asset runtime/gb_tiles_n.ptex mip0 256x256 size 32768 pitch 512 data c7e34345 rgba 9fe707e5
+asset runtime/gb_tiles_n.ptex mip1 128x128 size 8192 pitch 256 data 3ae8b305 rgba 39c6f4c5
+asset runtime/gb_tiles_n.ptex mip2 64x64 size 2048 pitch 128 data 37285bc5 rgba 4aa3a3c5
+asset runtime/gb_tiles_n.ptex mip3 32x32 size 512 pitch 64 data ccf0db85 rgba eeb8f085
+asset runtime/gb_tiles_n.ptex mip4 16x16 size 128 pitch 32 data 137ea385 rgba dde4bbc5
+asset runtime/gb_tiles_n.ptex mip5 8x8 size 32 pitch 16 data 2920fc25 rgba f8141745
+asset runtime/gb_tiles_n.ptex mip6 4x4 size 8 pitch 8 data 76bb3205 rgba ff6358c5
+asset runtime/gb_tiles_n.ptex mip7 2x2 size 8 pitch 8 data 76bb3205 rgba 61bafc85
+asset runtime/gb_tiles_n.ptex mip8 1x1 size 8 pitch 8 data 76bb3205 rgba 79ba1a11
+asset runtime/gb_decal.ptex ptex size 22016 hash 446cfbcb format 1 usage 0 flags 5 width 64 height 64 mips 7
+asset runtime/gb_decal.ptex mip0 64x64 size 16384 pitch 256 data 3f1bba95 rgba 3f1bba95
+asset runtime/gb_decal.ptex mip1 32x32 size 4096 pitch 128 data a32ec079 rgba a32ec079
+asset runtime/gb_decal.ptex mip2 16x16 size 1024 pitch 64 data 0e450f85 rgba 0e450f85
+asset runtime/gb_decal.ptex mip3 8x8 size 256 pitch 32 data 3b60ef5d rgba 3b60ef5d
+asset runtime/gb_decal.ptex mip4 4x4 size 64 pitch 16 data 467d8575 rgba 467d8575
+asset runtime/gb_decal.ptex mip5 2x2 size 16 pitch 8 data 60151fed rgba 60151fed
+asset runtime/gb_decal.ptex mip6 1x1 size 4 pitch 4 data b2797a87 rgba b2797a87
+asset runtime/cube.pmesh pmesh size 1520 hash a83179dc flags 2 streams 0000000f lods 1 submeshes 1 materials 1 nodes 1 aabb bf000000,00000000,bf000000,3f000000,3f800000,3f000000
+asset runtime/cube.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset runtime/cube.pmesh lod0 vertices 24 stride 48 indices 36 index_size 2 distance 00000000 first_submesh 0 count 1 indices_hash bf7bf715 vertices_hash eeeefa65
+asset runtime/cube.pmesh submesh0 material 0 first 0 count 36 min_vertex 0 vertices 24
+asset runtime/cube.pmesh material0 gb_checker flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/cube.pmesh node0 cube parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/capsule.pmesh pmesh size 9888 hash 49aeeb8a flags 2 streams 0000000f lods 1 submeshes 1 materials 1 nodes 1 aabb becccccd,00000000,becccccd,3ecccccd,3fe66666,3ecccccd
+asset runtime/capsule.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset runtime/capsule.pmesh lod0 vertices 168 stride 48 indices 768 index_size 2 distance 00000000 first_submesh 0 count 1 indices_hash b5829dbd vertices_hash 1610373e
+asset runtime/capsule.pmesh submesh0 material 0 first 0 count 768 min_vertex 0 vertices 168
+asset runtime/capsule.pmesh material0 gb_grid flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/capsule.pmesh node0 capsule parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/wheel.pmesh pmesh size 19360 hash b45018a1 flags 2 streams 0000000f lods 2 submeshes 4 materials 2 nodes 2 aabb be19999c,bee66666,bee66666,3e19999c,3ee66666,3ee66666
+asset runtime/wheel.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset runtime/wheel.pmesh lod0 vertices 298 stride 48 indices 1140 index_size 2 distance 00000000 first_submesh 0 count 2 indices_hash aeaa3571 vertices_hash ff4a44fc
+asset runtime/wheel.pmesh lod1 vertices 42 stride 48 indices 108 index_size 2 distance 41f00000 first_submesh 2 count 2 indices_hash e81d3ebd vertices_hash 684f5e70
+asset runtime/wheel.pmesh submesh0 material 0 first 0 count 720 min_vertex 0 vertices 150
+asset runtime/wheel.pmesh submesh1 material 1 first 720 count 420 min_vertex 150 vertices 148
+asset runtime/wheel.pmesh submesh2 material 0 first 0 count 60 min_vertex 0 vertices 22
+asset runtime/wheel.pmesh submesh3 material 1 first 60 count 48 min_vertex 22 vertices 20
+asset runtime/wheel.pmesh material0 gb_tiles flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/wheel.pmesh material1 gb_checker flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/wheel.pmesh node0 wheel parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/wheel.pmesh node1 wheel_LOD1 parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/ramp.pmesh pmesh size 1200 hash cc5be979 flags 2 streams 0000000f lods 1 submeshes 1 materials 1 nodes 1 aabb bf800000,00000000,c0000000,3f800000,3f800000,40000000
+asset runtime/ramp.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset runtime/ramp.pmesh lod0 vertices 18 stride 48 indices 24 index_size 2 distance 00000000 first_submesh 0 count 1 indices_hash df298bf6 vertices_hash 2015c615
+asset runtime/ramp.pmesh submesh0 material 0 first 0 count 24 min_vertex 0 vertices 18
+asset runtime/ramp.pmesh material0 gb_grid flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/ramp.pmesh node0 ramp parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/crate.pmesh pmesh size 6480 hash 82ad45e3 flags 2 streams 0000000f lods 1 submeshes 2 materials 2 nodes 1 aabb becccccd,00000000,becccccd,3ecccccd,3f4ccccd,3ecccccd
+asset runtime/crate.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset runtime/crate.pmesh lod0 vertices 120 stride 48 indices 180 index_size 2 distance 00000000 first_submesh 0 count 2 indices_hash 7ad59a05 vertices_hash 0ce43d19
+asset runtime/crate.pmesh submesh0 material 0 first 0 count 36 min_vertex 0 vertices 24
+asset runtime/crate.pmesh submesh1 material 1 first 36 count 144 min_vertex 24 vertices 96
+asset runtime/crate.pmesh material0 gb_tiles flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/crate.pmesh material1 gb_checker flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/crate.pmesh node0 crate parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/barrel.pmesh pmesh size 22000 hash 667cd367 flags 2 streams 0000000f lods 2 submeshes 4 materials 2 nodes 2 aabb bea147ae,00000000,bea147ae,3ea147ae,3f666666,3ea147ae
+asset runtime/barrel.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset runtime/barrel.pmesh lod0 vertices 338 stride 48 indices 1716 index_size 2 distance 00000000 first_submesh 0 count 2 indices_hash 9e442281 vertices_hash 421ccb24
+asset runtime/barrel.pmesh lod1 vertices 34 stride 48 indices 84 index_size 2 distance 41c80000 first_submesh 2 count 2 indices_hash 3024a895 vertices_hash 0c6779cf
+asset runtime/barrel.pmesh submesh0 material 0 first 0 count 1632 min_vertex 0 vertices 306
+asset runtime/barrel.pmesh submesh1 material 1 first 1632 count 84 min_vertex 306 vertices 32
+asset runtime/barrel.pmesh submesh2 material 0 first 0 count 48 min_vertex 0 vertices 18
+asset runtime/barrel.pmesh submesh3 material 1 first 48 count 36 min_vertex 18 vertices 16
+asset runtime/barrel.pmesh material0 gb_grid flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/barrel.pmesh material1 gb_checker flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/barrel.pmesh node0 barrel parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/barrel.pmesh node1 barrel_LOD1 parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset runtime/wall_slab.pmesh pmesh size 1520 hash 15936bc2 flags 2 streams 0000000f lods 1 submeshes 1 materials 1 nodes 1 aabb c0000000,00000000,be000000,40000000,40400000,3e000000
+asset runtime/wall_slab.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset runtime/wall_slab.pmesh lod0 vertices 24 stride 48 indices 36 index_size 2 distance 00000000 first_submesh 0 count 1 indices_hash bf7bf715 vertices_hash 685f6265
+asset runtime/wall_slab.pmesh submesh0 material 0 first 0 count 36 min_vertex 0 vertices 24
+asset runtime/wall_slab.pmesh material0 gb_tiles flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset runtime/wall_slab.pmesh node0 wall_slab parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset golden/tri.pmesh pmesh size 448 hash 6a3f8c4c flags 2 streams 0000000f lods 1 submeshes 1 materials 1 nodes 1 aabb 00000000,00000000,00000000,3f800000,3f800000,00000000
+asset golden/tri.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset golden/tri.pmesh lod0 vertices 3 stride 48 indices 3 index_size 2 distance 00000000 first_submesh 0 count 1 indices_hash f9cd8b56 vertices_hash dcb78715
+asset golden/tri.pmesh submesh0 material 0 first 0 count 3 min_vertex 0 vertices 3
+asset golden/tri.pmesh material0 default flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset golden/tri.pmesh node0 tri parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset golden/hier.pmesh pmesh size 1968 hash a81bf919 flags 2 streams 0000003f lods 2 submeshes 3 materials 2 nodes 5 aabb a6800000,00000000,c0800000,40400000,40800000,00000000
+asset golden/hier.pmesh layout position 0 normal 12 tangent 24 uv0 40 uv1 48 color 56
+asset golden/hier.pmesh lod0 vertices 16 stride 60 indices 48 index_size 2 distance 00000000 first_submesh 0 count 2 indices_hash 15325b15 vertices_hash 120e5c61
+asset golden/hier.pmesh lod1 vertices 4 stride 60 indices 6 index_size 2 distance 41480000 first_submesh 2 count 1 indices_hash 31c33667 vertices_hash f235e045
+asset golden/hier.pmesh submesh0 material 0 first 0 count 12 min_vertex 8 vertices 8
+asset golden/hier.pmesh submesh1 material 1 first 12 count 36 min_vertex 0 vertices 8
+asset golden/hier.pmesh submesh2 material 1 first 0 count 6 min_vertex 0 vertices 4
+asset golden/hier.pmesh material0 mat_a flags 5 color 3f000000,3e800000,3f800000,3f400000 cutoff 3f000000
+asset golden/hier.pmesh material1 mat_b flags 2 color 3f800000,3f800000,3f800000,3f800000 cutoff 3e99999a
+asset golden/hier.pmesh node0 rig_root parent -1 t 00000000,3f800000,00000000 r 00000000,3f3504f3,00000000,3f3504f3 s 3f800000,3f800000,3f800000
+asset golden/hier.pmesh node1 body parent 0 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 40000000,40000000,40000000
+asset golden/hier.pmesh node2 arm parent 1 t 3f800000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset golden/hier.pmesh node3 mirror parent -1 t 40400000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s bf800000,3f800000,3f800000
+asset golden/hier.pmesh node4 body_LOD1 parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset golden/fan.pmesh pmesh size 1040 hash 4b146841 flags 2 streams 0000000f lods 1 submeshes 1 materials 1 nodes 1 aabb bf800000,00000000,bf800000,3f800000,00000000,3f800000
+asset golden/fan.pmesh layout position 0 normal 12 tangent 24 uv0 40
+asset golden/fan.pmesh lod0 vertices 14 stride 48 indices 36 index_size 2 distance 00000000 first_submesh 0 count 1 indices_hash 9fd0b0c9 vertices_hash a92efecb
+asset golden/fan.pmesh submesh0 material 0 first 0 count 36 min_vertex 0 vertices 14
+asset golden/fan.pmesh material0 default flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset golden/fan.pmesh node0 disc parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+asset golden/grad_rgba8.ptex ptex size 4608 hash 58d33cb5 format 1 usage 0 flags 5 width 37 height 23 mips 6
+asset golden/grad_rgba8.ptex mip0 37x23 size 3404 pitch 148 data fea4e5a5 rgba fea4e5a5
+asset golden/grad_rgba8.ptex mip1 18x11 size 792 pitch 72 data a1a4cacb rgba a1a4cacb
+asset golden/grad_rgba8.ptex mip2 9x5 size 180 pitch 36 data e8be59f3 rgba e8be59f3
+asset golden/grad_rgba8.ptex mip3 4x2 size 32 pitch 16 data f10705df rgba f10705df
+asset golden/grad_rgba8.ptex mip4 2x1 size 8 pitch 8 data 579674dc rgba 579674dc
+asset golden/grad_rgba8.ptex mip5 1x1 size 4 pitch 4 data ad7c183d rgba ad7c183d
+asset golden/noisy_bc1.ptex ptex size 2928 hash 0f42670d format 2 usage 0 flags 1 width 64 height 64 mips 7
+asset golden/noisy_bc1.ptex mip0 64x64 size 2048 pitch 128 data be8e54e0 rgba 84bb9c4e
+asset golden/noisy_bc1.ptex mip1 32x32 size 512 pitch 64 data c25dd0dc rgba b3ef85f5
+asset golden/noisy_bc1.ptex mip2 16x16 size 128 pitch 32 data a023315d rgba e041b555
+asset golden/noisy_bc1.ptex mip3 8x8 size 32 pitch 16 data 8ff1b6ad rgba b2768d65
+asset golden/noisy_bc1.ptex mip4 4x4 size 8 pitch 8 data c9062909 rgba 75b40b15
+asset golden/noisy_bc1.ptex mip5 2x2 size 8 pitch 8 data 3898aa89 rgba a597f955
+asset golden/noisy_bc1.ptex mip6 1x1 size 8 pitch 8 data 814253b5 rgba 1f691404
+asset golden/alpha_bc3.ptex ptex size 1536 hash 14a3edba format 3 usage 0 flags 5 width 32 height 32 mips 6
+asset golden/alpha_bc3.ptex mip0 32x32 size 1024 pitch 128 data 92af3dd9 rgba 9d94a9a6
+asset golden/alpha_bc3.ptex mip1 16x16 size 256 pitch 64 data cc3bba11 rgba 8e6679e6
+asset golden/alpha_bc3.ptex mip2 8x8 size 64 pitch 32 data 001646c2 rgba 487c66eb
+asset golden/alpha_bc3.ptex mip3 4x4 size 16 pitch 16 data de775b1c rgba d61f685b
+asset golden/alpha_bc3.ptex mip4 2x2 size 16 pitch 16 data 2867d288 rgba a3d9e445
+asset golden/alpha_bc3.ptex mip5 1x1 size 16 pitch 16 data 244a5382 rgba e0dfba1c
+asset golden/albedo_spec_bc3.ptex ptex size 1536 hash abf7a00e format 3 usage 0 flags 3 width 32 height 32 mips 6
+asset golden/albedo_spec_bc3.ptex mip0 32x32 size 1024 pitch 128 data 3d2d975d rgba a8248502
+asset golden/albedo_spec_bc3.ptex mip1 16x16 size 256 pitch 64 data cd9a407b rgba cd1fd690
+asset golden/albedo_spec_bc3.ptex mip2 8x8 size 64 pitch 32 data 1e7ce917 rgba e2185b8b
+asset golden/albedo_spec_bc3.ptex mip3 4x4 size 16 pitch 16 data edac6221 rgba 913c2c71
+asset golden/albedo_spec_bc3.ptex mip4 2x2 size 16 pitch 16 data 8a0843fb rgba d6a7c5b3
+asset golden/albedo_spec_bc3.ptex mip5 1x1 size 16 pitch 16 data 62533913 rgba 7bac85a4
+asset golden/bump_n_bc1.ptex ptex size 2928 hash 1aa21ee1 format 2 usage 1 flags 8 width 64 height 64 mips 7
+asset golden/bump_n_bc1.ptex mip0 64x64 size 2048 pitch 128 data 501585f9 rgba 81ba48fd
+asset golden/bump_n_bc1.ptex mip1 32x32 size 512 pitch 64 data b4bb03f9 rgba f152b687
+asset golden/bump_n_bc1.ptex mip2 16x16 size 128 pitch 32 data c498f167 rgba 05b136fd
+asset golden/bump_n_bc1.ptex mip3 8x8 size 32 pitch 16 data 097dff95 rgba 6d0f6a29
+asset golden/bump_n_bc1.ptex mip4 4x4 size 8 pitch 8 data b5816a43 rgba 0007c8c3
+asset golden/bump_n_bc1.ptex mip5 2x2 size 8 pitch 8 data 62ba5091 rgba fba2611f
+asset golden/bump_n_bc1.ptex mip6 1x1 size 8 pitch 8 data 76bb3205 rgba 79ba1a11
+asset golden/bump_n_rgba8.ptex ptex size 22016 hash bce2dfab format 1 usage 1 flags 8 width 64 height 64 mips 7
+asset golden/bump_n_rgba8.ptex mip0 64x64 size 16384 pitch 256 data dce4552d rgba dce4552d
+asset golden/bump_n_rgba8.ptex mip1 32x32 size 4096 pitch 128 data 15a2be31 rgba 15a2be31
+asset golden/bump_n_rgba8.ptex mip2 16x16 size 1024 pitch 64 data 852e57e2 rgba 852e57e2
+asset golden/bump_n_rgba8.ptex mip3 8x8 size 256 pitch 32 data 059b853b rgba 059b853b
+asset golden/bump_n_rgba8.ptex mip4 4x4 size 64 pitch 16 data 1970293d rgba 1970293d
+asset golden/bump_n_rgba8.ptex mip5 2x2 size 16 pitch 8 data 5a2142ac rgba 5a2142ac
+asset golden/bump_n_rgba8.ptex mip6 1x1 size 4 pitch 4 data 519bfdeb rgba 519bfdeb
+asset large/large.pmesh pmesh size 3170208 hash a0dd3a76 flags 3 streams 00000003 lods 1 submeshes 1 materials 1 nodes 1 aabb 00000000,00000000,00000000,43958000,3ecccccd,435c0000
+asset large/large.pmesh layout position 0 normal 12
+asset large/large.pmesh lod0 vertices 66300 stride 24 indices 394680 index_size 4 distance 00000000 first_submesh 0 count 1 indices_hash 34c10948 vertices_hash efbda9e0
+asset large/large.pmesh submesh0 material 0 first 0 count 394680 min_vertex 0 vertices 66300
+asset large/large.pmesh material0 default flags 0 color 3f800000,3f800000,3f800000,3f800000 cutoff 3f000000
+asset large/large.pmesh node0 terrain parent -1 t 00000000,00000000,00000000 r 00000000,00000000,00000000,3f800000 s 3f800000,3f800000,3f800000
+[ OK ] assets_load_and_report
+  corrupt null -> argument
+  corrupt short -> truncated
+  corrupt truncated -> truncated
+  corrupt unaligned -> alignment
+  corrupt magic -> magic
+  corrupt version -> version
+  corrupt payload byte -> hash
+  corrupt aabb -> bounds
+  corrupt stream mask -> format
+  corrupt vertex stride -> format
+  corrupt index32 flag -> format
+  corrupt index out of range -> index
+  corrupt index offset -> range
+  corrupt material id -> index
+  corrupt string table -> string
+[ OK ] pmesh_rejects_corruption
+  corrupt short -> truncated
+  corrupt truncated -> truncated
+  corrupt magic -> magic
+  corrupt payload byte -> hash
+  corrupt format id -> format
+  corrupt mip count -> count
+  corrupt mip width -> format
+  corrupt mip offset -> alignment
+[ OK ] ptex_rejects_corruption
+[done] 6/6 passed, 99 checks

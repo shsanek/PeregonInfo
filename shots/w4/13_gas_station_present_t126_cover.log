@@ -1,0 +1,11 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w4_ai --seed 1 --rhi d3d9 --ticks 807 --replay C:\Peregon\scene_w4_gas_station.txt
+rc=0
+--- stdout
+scene=scene_w4_ai seed=1 ticks=807 flavour=win32
+final_state_hash=2fdd1150
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.4feQNkYjqp/dump/present_000.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.4feQNkYjqp/dump/present_001.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.4feQNkYjqp/dump/present_002.bgra
+[RunResult] guest_exit_code=0x00000000

@@ -1,0 +1,42 @@
+LOG line 10 host prompt.1: Boat: E get in · G take the bow rope · Q — drink from the river
+LOG line 11 host prompt.0: Boat: E get in · G take the bow rope · Q — drink from the river
+LOG line 16 host banner.0: The Sawmill. Talk to the contract board (E), then open a truck door and sit down (F).
+LOG line 23 host boatpos.x: -2451
+LOG line 24 host boatpos.z: 3959
+LOG line 26 host boatpos.x: -2441
+LOG line 27 host boatpos.z: 3963
+LOG line 36 host pos.1.x: -1220
+LOG line 10 p1 prompt.1: Boat: E get in · G take the bow rope · Q — drink from the river
+LOG line 11 p1 prompt.0: na
+LOG line 16 p1 banner.0: na
+LOG line 23 p1 boatpos.x: -2452
+LOG line 24 p1 boatpos.z: 3959
+LOG line 26 p1 boatpos.x: -2441
+LOG line 27 p1 boatpos.z: 3962
+LOG line 36 p1 pos.1.x: -1220
+LOG line 10 p2 prompt.1: na
+LOG line 11 p2 prompt.0: na
+LOG line 16 p2 banner.0: na
+LOG line 23 p2 boatpos.x: -2452
+LOG line 24 p2 boatpos.z: 3959
+LOG line 26 p2 boatpos.x: -2441
+LOG line 27 p2 boatpos.z: 3962
+LOG line 36 p2 pos.1.x: -1220
+PASS line 13 BOAT-07 inboat.1 = 1: host=1@8 p1=1@8 p2=1@10
+PASS line 15 BOAT-16 inboat.0 = 0: host=0 p1=0 p2=0@2
+PASS line 19 BOAT-15 holder = fishing_rod: host=fishing_rod@8 p1=fishing_rod@11 p2=fishing_rod@10
+PASS line 20 BOAT-15 carry.1 = -: host=-@8 p1=-@9 p2=-@10
+PASS line 28 BOAT-08 boatpos.x ~~ 2: host=-2441 p1=-2441 p2=-2441
+PASS line 29 BOAT-08 boatpos.z ~~ 2: host=3963 p1=3962 p2=3962
+PASS line 31 FISH-16 holder = -: host=-@8 p1=-@21 p2=-@21
+PASS line 32 FISH-16 carry.1 = fishing_rod: host=fishing_rod@8 p1=fishing_rod@8 p2=fishing_rod@8
+PASS line 35 BOAT-12 inboat.1 = 0: host=0@8 p1=0@8 p2=0@8
+acts 16, failed acts 0
+rows 6 pass 6 fail 0
+ROW BOAT-07 PASS (1 checks)
+ROW BOAT-08 PASS (2 checks)
+ROW BOAT-12 PASS (1 checks)
+ROW BOAT-15 PASS (2 checks)
+ROW BOAT-16 PASS (1 checks)
+ROW FISH-16 PASS (2 checks)
+RESULT PASS

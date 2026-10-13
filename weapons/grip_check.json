@@ -1,0 +1,684 @@
+{
+ "errors": [],
+ "fps": 60,
+ "limits": {
+  "continuity_m": 0.0001,
+  "fist_depth_m": 0.01,
+  "free_hand_depth_m": 0.006,
+  "hit_cone_deg": 35.0,
+  "muzzle_idle_deg": 1.5,
+  "muzzle_rest_deg": 0.5,
+  "palm_depth_m": 0.006,
+  "sleeve_depth_m": 0.006
+ },
+ "pass": true,
+ "weapons": {
+  "crowbar": {
+   "clips": {
+    "equip": {
+     "end_gap": 0.0,
+     "events": {
+      "ready": 0.18
+     },
+     "fist_depth_m": 0.002,
+     "fist_frame": 3,
+     "fist_verts": 16,
+     "fist_where": [
+      0.001,
+      0.039,
+      0.022,
+      16
+     ],
+     "frames": 12,
+     "left_attached_frames": 0,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.18,
+     "min_z_m": 0.3003,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0,
+     "start_gap": 0.0
+    },
+    "holster": {
+     "end_gap": 0.0,
+     "events": {
+      "lowered": 0.12
+     },
+     "fist_depth_m": 0.002,
+     "fist_frame": 7,
+     "fist_verts": 16,
+     "fist_where": [
+      0.001,
+      0.039,
+      0.022,
+      16
+     ],
+     "frames": 9,
+     "left_attached_frames": 0,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.12,
+     "min_z_m": 0.3003,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0,
+     "start_gap": 0.0
+    },
+    "idle": {
+     "end_gap": 0.0,
+     "events": {},
+     "fist_depth_m": 0.002,
+     "fist_frame": 16,
+     "fist_verts": 16,
+     "fist_where": [
+      0.001,
+      0.04,
+      0.022,
+      14
+     ],
+     "frames": 193,
+     "left_attached_frames": 0,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 3.2,
+     "min_z_m": 0.3495,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0,
+     "start_gap": 0.0
+    },
+    "swing_a": {
+     "end_gap": 0.0,
+     "events": {
+      "hit": 0.1,
+      "ready": 0.625
+     },
+     "fist_depth_m": 0.002,
+     "fist_frame": 13,
+     "fist_verts": 16,
+     "fist_where": [
+      0.001,
+      0.04,
+      0.022,
+      14
+     ],
+     "frames": 39,
+     "hit_cone_deg": 32.69,
+     "hit_head_m": [
+      -0.151,
+      0.426,
+      0.704
+     ],
+     "left_attached_frames": 0,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.625,
+     "min_z_m": 0.2629,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0,
+     "start_gap": 0.0
+    },
+    "swing_b": {
+     "end_gap": 0.0,
+     "events": {
+      "hit": 0.1,
+      "ready": 0.625
+     },
+     "fist_depth_m": 0.002,
+     "fist_frame": 23,
+     "fist_verts": 16,
+     "fist_where": [
+      0.001,
+      0.04,
+      0.022,
+      14
+     ],
+     "frames": 39,
+     "hit_cone_deg": 12.73,
+     "hit_head_m": [
+      0.222,
+      0.121,
+      1.119
+     ],
+     "left_attached_frames": 0,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.625,
+     "min_z_m": 0.2452,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0,
+     "start_gap": 0.0
+    },
+    "swing_c": {
+     "end_gap": 0.0,
+     "events": {
+      "hit": 0.11,
+      "ready": 0.625
+     },
+     "fist_depth_m": 0.002,
+     "fist_frame": 3,
+     "fist_verts": 16,
+     "fist_where": [
+      0.001,
+      0.04,
+      0.022,
+      14
+     ],
+     "frames": 39,
+     "hit_cone_deg": 6.93,
+     "hit_head_m": [
+      -0.116,
+      -0.081,
+      1.164
+     ],
+     "left_attached_frames": 0,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.625,
+     "min_z_m": 0.1765,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0,
+     "start_gap": 0.0
+    }
+   },
+   "errors": [],
+   "handle_radius_m": 0.0391,
+   "lod0_triangles": 3999,
+   "lod1_triangles": 1479,
+   "lod2_triangles": 399,
+   "melee_contact_lag_ms": {
+    "swing_a": 100.0,
+    "swing_b": 100.0,
+    "swing_c": 110.0
+   },
+   "support_radius_m": 0.0,
+   "timing": [
+    {
+     "clip_s": 0.3,
+     "gameplay_s": 0.3,
+     "what": "switch"
+    },
+    {
+     "clip_s": 0.625,
+     "gameplay_s": 0.625,
+     "what": "swing_a"
+    },
+    {
+     "clip_s": 0.625,
+     "gameplay_s": 0.625,
+     "what": "swing_b"
+    },
+    {
+     "clip_s": 0.625,
+     "gameplay_s": 0.625,
+     "what": "swing_c"
+    }
+   ]
+  },
+  "nailgun": {
+   "clips": {
+    "equip": {
+     "end_gap": 0.0,
+     "events": {
+      "ready": 0.28
+     },
+     "fist_depth_m": 0.0057,
+     "fist_frame": 13,
+     "fist_verts": 36,
+     "fist_where": [
+      0.013,
+      0.025,
+      -0.008,
+      28
+     ],
+     "frames": 18,
+     "left_attached_frames": 18,
+     "left_depth_m": 0.0009,
+     "left_frame": 10,
+     "left_grip_dist_m": 0.0,
+     "left_kind": "glove_l_fist",
+     "left_verts": 13,
+     "left_where": [
+      0.006,
+      -0.016,
+      0.253,
+      222
+     ],
+     "length_s": 0.28,
+     "min_z_m": 0.2175,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_r",
+     "sleeve_depth_m": 0.0024,
+     "sleeve_frame": 0,
+     "sleeve_where": [
+      -0.004,
+      0.061,
+      -0.048,
+      11
+     ],
+     "start_gap": 0.0
+    },
+    "fire": {
+     "events": {
+      "shot": 0.0
+     },
+     "fist_depth_m": 0.0057,
+     "fist_frame": 0,
+     "fist_verts": 36,
+     "fist_where": [
+      0.013,
+      0.025,
+      -0.008,
+      28
+     ],
+     "frames": 7,
+     "left_attached_frames": 7,
+     "left_depth_m": 0.0009,
+     "left_frame": 3,
+     "left_grip_dist_m": 0.0,
+     "left_kind": "glove_l_fist",
+     "left_verts": 13,
+     "left_where": [
+      0.006,
+      -0.016,
+      0.253,
+      222
+     ],
+     "length_s": 0.1,
+     "min_z_m": 0.2226,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0
+    },
+    "holster": {
+     "end_gap": 0.0,
+     "events": {
+      "lowered": 0.12
+     },
+     "fist_depth_m": 0.0057,
+     "fist_frame": 6,
+     "fist_verts": 36,
+     "fist_where": [
+      0.013,
+      0.028,
+      -0.011,
+      36
+     ],
+     "frames": 9,
+     "left_attached_frames": 9,
+     "left_depth_m": 0.0009,
+     "left_frame": 6,
+     "left_grip_dist_m": 0.0,
+     "left_kind": "glove_l_fist",
+     "left_verts": 13,
+     "left_where": [
+      0.006,
+      -0.016,
+      0.253,
+      222
+     ],
+     "length_s": 0.12,
+     "min_z_m": 0.219,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_r",
+     "sleeve_depth_m": 0.0024,
+     "sleeve_frame": 8,
+     "sleeve_where": [
+      -0.004,
+      0.061,
+      -0.048,
+      11
+     ],
+     "start_gap": 0.0
+    },
+    "idle": {
+     "end_gap": 0.0,
+     "events": {},
+     "fist_depth_m": 0.0057,
+     "fist_frame": 45,
+     "fist_verts": 36,
+     "fist_where": [
+      0.013,
+      0.025,
+      -0.008,
+      28
+     ],
+     "frames": 193,
+     "left_attached_frames": 193,
+     "left_depth_m": 0.0009,
+     "left_frame": 10,
+     "left_grip_dist_m": 0.0,
+     "left_kind": "glove_l_fist",
+     "left_verts": 13,
+     "left_where": [
+      0.006,
+      -0.016,
+      0.253,
+      222
+     ],
+     "length_s": 3.2,
+     "min_z_m": 0.2358,
+     "muzzle_max_deg": 0.3624,
+     "right_grip_dist_m": 0.0,
+     "sleeve_depth_m": 0.0,
+     "start_gap": 0.0
+    },
+    "reload": {
+     "end_gap": 0.0,
+     "events": {
+      "drum_in": 1.38,
+      "drum_out": 0.62,
+      "feed": 1.48,
+      "ready": 2.0,
+      "unlatch": 0.3
+     },
+     "fist_depth_m": 0.0057,
+     "fist_frame": 0,
+     "fist_verts": 36,
+     "fist_where": [
+      0.013,
+      0.025,
+      -0.008,
+      28
+     ],
+     "frames": 121,
+     "left_attached_frames": 2,
+     "left_depth_m": 0.0053,
+     "left_frame": 40,
+     "left_grip_dist_m": 0.0,
+     "left_kind": "glove_l_free",
+     "left_verts": 38,
+     "left_where": [
+      0.059,
+      -0.445,
+      -0.012,
+      38
+     ],
+     "length_s": 2.0,
+     "min_z_m": 0.1785,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_r",
+     "sleeve_depth_m": 0.0025,
+     "sleeve_frame": 83,
+     "sleeve_where": [
+      0.019,
+      0.056,
+      -0.03,
+      11
+     ],
+     "start_gap": 0.0
+    }
+   },
+   "errors": [],
+   "handle_radius_m": 0.0383,
+   "kick_pitch_deg": 1.075,
+   "lod0_triangles": 7999,
+   "lod1_triangles": 1591,
+   "lod2_triangles": 826,
+   "muzzle_rest_deg": 0.0,
+   "recoil_pitch_deg": [
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.1,
+    1.2,
+    1.2,
+    1.3
+   ],
+   "support_radius_m": 0.0247,
+   "timing": [
+    {
+     "clip_s": 0.4,
+     "gameplay_s": 0.4,
+     "what": "switch"
+    },
+    {
+     "clip_s": 2.0,
+     "gameplay_s": 2.0,
+     "what": "reload"
+    },
+    {
+     "clip_s": 2.2,
+     "gameplay_s": 2.2,
+     "what": "tp_reload"
+    },
+    {
+     "clip_s": 0.1,
+     "gameplay_s": 0.1,
+     "what": "fire"
+    }
+   ]
+  },
+  "sawn_off": {
+   "clips": {
+    "equip": {
+     "end_gap": 0.0,
+     "events": {
+      "ready": 0.33
+     },
+     "fist_depth_m": 0.0061,
+     "fist_frame": 15,
+     "fist_verts": 91,
+     "fist_where": [
+      0.002,
+      -0.003,
+      0.039,
+      91
+     ],
+     "frames": 21,
+     "left_attached_frames": 21,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.33,
+     "min_z_m": 0.2083,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_r",
+     "sleeve_depth_m": 0.0044,
+     "sleeve_frame": 0,
+     "sleeve_where": [
+      0.006,
+      0.003,
+      -0.052,
+      42
+     ],
+     "start_gap": 0.0
+    },
+    "fire": {
+     "events": {
+      "shot": 0.0
+     },
+     "fist_depth_m": 0.0061,
+     "fist_frame": 2,
+     "fist_verts": 91,
+     "fist_where": [
+      0.002,
+      -0.003,
+      0.039,
+      91
+     ],
+     "frames": 16,
+     "left_attached_frames": 16,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.25,
+     "min_z_m": 0.149,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_r",
+     "sleeve_depth_m": 0.0038,
+     "sleeve_frame": 7,
+     "sleeve_where": [
+      0.005,
+      0.008,
+      -0.048,
+      28
+     ]
+    },
+    "holster": {
+     "end_gap": 0.0,
+     "events": {
+      "lowered": 0.12
+     },
+     "fist_depth_m": 0.0061,
+     "fist_frame": 3,
+     "fist_verts": 91,
+     "fist_where": [
+      0.002,
+      -0.003,
+      0.039,
+      91
+     ],
+     "frames": 9,
+     "left_attached_frames": 9,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 0.12,
+     "min_z_m": 0.2083,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_r",
+     "sleeve_depth_m": 0.0044,
+     "sleeve_frame": 8,
+     "sleeve_where": [
+      0.006,
+      0.003,
+      -0.052,
+      42
+     ],
+     "start_gap": 0.0
+    },
+    "idle": {
+     "end_gap": 0.0,
+     "events": {},
+     "fist_depth_m": 0.0061,
+     "fist_frame": 101,
+     "fist_verts": 91,
+     "fist_where": [
+      0.002,
+      -0.003,
+      0.039,
+      91
+     ],
+     "frames": 193,
+     "left_attached_frames": 193,
+     "left_depth_m": 0.0,
+     "left_grip_dist_m": 0.0,
+     "left_verts": 0,
+     "length_s": 3.2,
+     "min_z_m": 0.2266,
+     "muzzle_max_deg": 0.3645,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_r",
+     "sleeve_depth_m": 0.0038,
+     "sleeve_frame": 135,
+     "sleeve_where": [
+      0.005,
+      0.008,
+      -0.048,
+      28
+     ],
+     "start_gap": 0.0
+    },
+    "reload": {
+     "end_gap": 0.0,
+     "events": {
+      "close": 1.42,
+      "eject": 0.4,
+      "insert_1": 1.02,
+      "insert_2": 1.14,
+      "open": 0.3,
+      "ready": 1.8
+     },
+     "fist_depth_m": 0.0061,
+     "fist_frame": 9,
+     "fist_verts": 91,
+     "fist_where": [
+      0.002,
+      -0.003,
+      0.039,
+      91
+     ],
+     "frames": 109,
+     "left_attached_frames": 2,
+     "left_depth_m": 0.002,
+     "left_frame": 18,
+     "left_grip_dist_m": 0.0,
+     "left_kind": "glove_l_palm",
+     "left_verts": 1,
+     "left_where": [
+      -0.004,
+      -0.086,
+      0.367,
+      1
+     ],
+     "length_s": 1.8,
+     "min_z_m": 0.1731,
+     "muzzle_max_deg": 0.0,
+     "right_grip_dist_m": 0.0,
+     "sleeve_box": "wrist_l",
+     "sleeve_depth_m": 0.0038,
+     "sleeve_frame": 68,
+     "sleeve_where": [
+      -0.021,
+      0.099,
+      0.132,
+      18
+     ],
+     "start_gap": 0.0
+    }
+   },
+   "errors": [],
+   "handle_radius_m": 0.046,
+   "kick_pitch_deg": 7.5,
+   "lod0_triangles": 6998,
+   "lod1_triangles": 1537,
+   "lod2_triangles": 418,
+   "muzzle_rest_deg": 0.0,
+   "recoil_pitch_deg": [
+    7.5,
+    6.0
+   ],
+   "support_radius_m": 0.0,
+   "timing": [
+    {
+     "clip_s": 0.45,
+     "gameplay_s": 0.45,
+     "what": "switch"
+    },
+    {
+     "clip_s": 1.8,
+     "gameplay_s": 1.8,
+     "what": "reload"
+    },
+    {
+     "clip_s": 2.2,
+     "gameplay_s": 2.2,
+     "what": "tp_reload"
+    },
+    {
+     "clip_s": 0.25,
+     "gameplay_s": 0.25,
+     "what": "fire"
+    }
+   ]
+  }
+ }
+}

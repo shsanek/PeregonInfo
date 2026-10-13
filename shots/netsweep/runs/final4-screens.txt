@@ -1,0 +1,41 @@
+LOG line 6 host prompt.1: E / LMB — talk to the contract board
+LOG line 9 host contract: -
+LOG line 18 host prompt.1: E / LMB — talk to the trader
+LOG line 37 host prompt.1: E / LMB — talk to the mechanic
+LOG line 6 p1 prompt.1: E / LMB — talk to the contract board
+LOG line 9 p1 contract: -
+LOG line 18 p1 prompt.1: E / LMB — talk to the trader
+LOG line 37 p1 prompt.1: E / LMB — talk to the mechanic
+LOG line 6 p2 prompt.1: na
+LOG line 9 p2 contract: -
+LOG line 18 p2 prompt.1: na
+LOG line 37 p2 prompt.1: na
+PASS line 8 UI-06 mode.1 = 4: host=4@11 p1=4@12 p2=na(x)
+PASS line 11 JOB-03 contract != -: host=61192713@11 p1=61192713@15 p2=61192713@16
+PASS line 13 UI-06 mode.1 = 2: host=2@11 p1=2@2 p2=na(x)
+PASS line 14 NET-12 place.1 = foot: host=foot p1=foot p2=foot
+PASS line 20 UI-06 mode.1 = 5: host=5@10 p1=5@10 p2=na(x)
+PASS line 22 SHOP-02 coupons < $coupons0: host=475@13 p1=475@16 p2=475@16
+PASS line 23 SHOP-02 bed.shell_box >= 1: host=1 p1=1@1 p2=1@1
+PASS line 25 UI-06 mode.1 = 2: host=2@10 p1=2@2 p2=na(x)
+PASS line 28 INV-16 inv.2 = 1: host=na(x) p1=na(x) p2=1@4
+PASS line 29 NET-12 mode.2 = 2: host=2 p1=na(x) p2=2@3
+PASS line 31 INV-16 pack.2.shell_box >= 1: host=1@8 p1=na(x) p2=1@8
+PASS line 32 INV-16 carry.2 = -: host=-@8 p1=-@9 p2=-@8
+PASS line 34 INV-16 inv.2 = 0: host=na(x) p1=na(x) p2=0@1
+PASS line 39 UI-06 mode.1 = 6: host=6@10 p1=6@10 p2=na(x)
+PASS line 41 UI-06 mode.1 = 2: host=2@9 p1=2@1 p2=na(x)
+PASS line 44 MAP-08 paper.2 = 1: host=na(x) p1=na(x) p2=1@1
+PASS line 46 MAP-08 paper.2 = 0: host=na(x) p1=na(x) p2=0@19
+PASS line 48 MAP-08 paper.2 = 1: host=na(x) p1=na(x) p2=1@2
+PASS line 50 MAP-08 paper.2 = 0: host=na(x) p1=na(x) p2=0@17
+client layer checks: 98 equal, 0 differ
+acts 25, failed acts 0
+rows 6 pass 6 fail 0
+ROW INV-16 PASS (4 checks)
+ROW JOB-03 PASS (1 checks)
+ROW MAP-08 PASS (4 checks)
+ROW NET-12 PASS (2 checks)
+ROW SHOP-02 PASS (2 checks)
+ROW UI-06 PASS (6 checks)
+RESULT PASS

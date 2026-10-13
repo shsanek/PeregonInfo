@@ -1,0 +1,22 @@
+[suite] save_tests
+[ OK ] section_registry_covers_c0_ids_and_w12_stubs
+    new game image fnv 0x891716a8
+    new game image size 0x6e4
+[ OK ] new_game_packs_checks_and_round_trips
+[ OK ] content_hash_and_contract_version_notes
+[ OK ] world_save_images_are_preserved_byte_for_byte
+[ OK ] section_migrations_and_version_rules
+[ OK ] image_format_migration_hook
+[ OK ] unknown_sections_survive_a_round_trip
+[ OK ] store_atomic_write_backup_and_round_trip
+[ OK ] corruption_falls_back_to_backup
+[ OK ] validator_rejection_and_stale_temp_file
+[ OK ] replace_file_overwrites_and_keeps_bytes
+[ OK ] profile_folder_from_the_standard_api
+[ OK ] autosave_requests_come_from_game_state_events
+    default settings hash 0xb4a5f485
+[ OK ] settings_defaults_text_round_trip
+[ OK ] settings_validation_sanitises_bad_values
+[ OK ] settings_editor_apply_revert_and_effects
+[ OK ] settings_file_atomic_save_and_load
+[done] 17/17 passed, 218 checks

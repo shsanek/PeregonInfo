@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "scene": "scene_w9_cargo",
+  "seed": 3,
+  "ticks": 2010,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi_null+ui",
+  "rhi": null,
+  "replay": {"file": "C:\\Test\\scene_w9_cargo.txt", "format": "text1", "hash": "0274606e", "length_ticks": 1994},
+  "wall_time_ms": 1236.033,
+  "frame_time_ms": {"avg": 0.613, "min": 0.232, "max": 450.210},
+  "final_state_hash": "d0923ba8",
+  "captures": [
+    {"tick": 2010, "state_hash": "d0923ba8", "image_hash": "b04aa847", "width": 960, "height": 540, "file": "tick_002010.bmp"}
+  ],
+  "scene_metrics": {"backend": "null", "own_null_device": true, "render_path": "fixed-function", "language": "en", "focus": "none", "focus_trail": ["0:cargo.grid", "12:cargo.secure", "17:cargo.drop", "22:cargo.loadout", "27:cargo.grid", "42:cargo.secure", "47:cargo.drop", "52:cargo.loadout", "57:cargo.grid", "77:cargo.secure", "82:cargo.drop", "87:cargo.loadout", "92:cargo.grid", "122:cargo.secure", "127:cargo.drop", "132:cargo.loadout", "137:cargo.grid", "157:cargo.secure", "162:cargo.drop", "167:cargo.loadout", "172:cargo.grid", "237:cargo.secure", "242:cargo.drop", "247:cargo.loadout", "257:cargo.grid", "272:cargo.secure", "277:cargo.drop", "282:cargo.loadout", "287:cargo.grid", "317:cargo.secure", "322:cargo.drop", "327:cargo.loadout", "332:cargo.grid", "372:cargo.secure", "377:cargo.drop", "382:cargo.loadout", "387:cargo.grid", "442:cargo.secure", "452:cargo.grid", "467:cargo.secure", "477:cargo.grid", "502:cargo.secure", "512:cargo.grid", "527:cargo.secure", "537:cargo.grid", "557:cargo.secure", "567:cargo.grid", "597:cargo.secure", "607:cargo.grid", "633:none", "1530:cargo.grid", "1553:none", "1970:cargo.grid", "1993:none"], "ui_quads": 361, "ui_batches": 5, "ui_draws": 5, "rhi_errors": 0, "atlas_hash": "0xfbc3c590", "stream": "W9", "contracts_version": 2, "content_hash": "0x2207e6ed", "cargo_params_hash": "0x8efee06e", "bus": {"published": 43, "delivered": 43, "dropped": 0, "handler_calls": 43, "max_pending": 4, "stream_hash_hi": "0x1a81fe14", "stream_hash_lo": "0x051fe4c0"}, "mode": "on_foot", "transitions": 8, "cargo_events": [11, 0, 3, 2, 7], "cargo": {"pile": 11, "pile_items": ["supply_crate", "supply_crate", "supply_crate", "supply_crate", "electronics", "shell_box", "electronics", "scrap", "scrap", "scrap", "scrap"], "packed": {"tick": 633, "cargo_kg": 276.00, "loose_kg": 23.00, "total_kg": 1676.00, "entries": 9, "cells": 24, "com_x_m": -0.0016, "com_z_m": -0.1967, "accel_0_100_s": 14.37}, "stopped": {"tick": 1327, "cargo_kg": 253.00, "loose_kg": 0.00, "total_kg": 1653.00, "entries": 6, "cells": 19, "com_x_m": -0.0028, "com_z_m": -0.1864, "accel_0_100_s": 14.17}, "recovered": {"tick": 2010, "cargo_kg": 273.00, "loose_kg": 20.00, "total_kg": 1673.00, "entries": 8, "cells": 23, "com_x_m": -0.0028, "com_z_m": -0.1938, "accel_0_100_s": 14.34}, "now": {"tick": 2010, "cargo_kg": 273.00, "loose_kg": 20.00, "total_kg": 1673.00, "entries": 8, "cells": 23, "com_x_m": -0.0028, "com_z_m": -0.1938, "accel_0_100_s": 14.34}, "lost_by_obstacle": {"other": {"lost": 0, "lost_kg": 0.00}, "washboard": {"lost": 0, "lost_kg": 0.00}, "bump_1": {"lost": 0, "lost_kg": 0.00}, "bump_2": {"lost": 1, "lost_kg": 3.00}, "bump_3": {"lost": 0, "lost_kg": 0.00}, "ram_1": {"lost": 1, "lost_kg": 10.00}, "ram_2": {"lost": 1, "lost_kg": 10.00}}, "cargo_lost": 3, "cargo_recovered": 2, "lost_kg": 23.00, "recovered_kg": 20.00, "on_ground": 3, "hops": 5, "max_hop_m": 0.280, "slides": 0, "strip_events": 2, "strip_damage_only": 0, "rams": 2, "walk_m": 32.00, "drive_ticks": 694, "accel_0_40_s": 2.633, "truck_s_m": 111.99, "max_speed_kmh": 44.46, "load_ratio": 0.2275, "rig_entries": 2, "carry": false, "ground": [{"item": "shell_box", "obstacle": "pile", "x": -1.80, "z": -3.90, "resting": true}, {"item": "scrap", "obstacle": "pile", "x": -1.80, "z": -4.80, "resting": true}, {"item": "electronics", "obstacle": "bump_2", "x": 0.67, "z": 68.16, "resting": true}]}, "screen": {"moves": 1, "rotations": 3, "strap_toggles": 6, "placed": 11, "cursor": [0, 0], "holding": false}, "moments": ["633:depart", "958:lost_bump_2", "1083:ram_1", "1151:ram_2", "1327:stop", "1431:pick", "1541:stowed", "1761:pick", "1981:stowed"]},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

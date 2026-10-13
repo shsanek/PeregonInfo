@@ -1,0 +1,126 @@
+[suite] vehicle_tests
+    equilibrium: load 13734.000 N of 13734.001 N, belly gap 0.300 m, clearance 0.300 m
+[ OK ] suspension_equilibrium_on_flat_asphalt
+    drop: max gain 0.000 J, dissipated 5621.658 J of 5493.600 J
+[ OK ] energy_never_grows_after_drop
+    coast: 20.000 m/s -> 16.064 m/s after 10 s, energy rises 0
+[ OK ] coast_down_loses_energy
+    golden accel ticks=2400 chain=0x820806f12c66f469 final=0x3b55f5ba53ceee55
+    golden mud_t1 ticks=1200 chain=0x1e159ba0e3b785fb final=0x3ded7d60b3ed5785
+    golden mud_t2 ticks=1200 chain=0xf4f0ed4b3e9bab37 final=0x8190d27b82d514f1
+    golden ram ticks=600 chain=0xe07b1d927d926022 final=0xaf9f152704594275
+    golden ramp ticks=600 chain=0xf45b160f86160155 final=0x8716ed9a6b18511b
+[ OK ] determinism_hash_per_tick
+    0-100 12.300 s (design 11.999 s), top 135.548 km/h (stat 140)
+[ OK ] acceleration_0_100_matches_design
+    mud T1: z 56.083 m, stuck 13.450 s, belly ticks 0; T2: max z 131.605 m, stuck 0.000 s
+[ OK ] mud_pit_t1_stuck_t2_passes
+    ram -> entity 202 at 75 km/h damage 10.500
+    ram -> entity 200 at 74 km/h damage 10.359
+    ram -> entity 201 at 74 km/h damage 10.359
+    ram -> entity 201 at 20 km/h damage 2.799
+    ram -> entity 100 at 65 km/h damage 9.099
+    ram -> entity 200 at 8 km/h damage 1.119
+[ OK ] ram_emits_damage_event
+    0-100: T1 12.300 s, engine T3 7.800 s (design 8.041), armour T3 13.750 s, +600 kg 17.450 s (design 17.142); tyres T2 only in mud: max z 131.655 m
+[ OK ] parts_and_cargo_change_handling
+[ OK ] course_log_left_rolls_left_up_and_settles
+[ OK ] course_log_right_mirrors_log_left
+[ OK ] course_speed_bump_pitches_then_settles
+[ OK ] course_kerb_climbs_without_tunnelling
+[ OK ] course_washboard_pothole_camber
+[ OK ] course_jump_airtime_and_landing
+[ OK ] course_brake_in_turn_weight_transfer
+    coast over bump: max per-tick gain 0.000 J, lost 12378.2 J
+[ OK ] course_coast_over_bump_never_gains_energy
+    jump fast bump-stop ticks T1/T2/T3 24/20/10, log roll T1 0.989 deg T3 1.038 deg
+[ OK ] suspension_tiers_change_the_response
+    golden log_left_slow ticks=559 chain=0xbc1f3f1d57615379
+    golden log_left_fast ticks=441 chain=0x3e9342da46d9028e
+    golden log_right_slow ticks=559 chain=0x6f82eb565e9f9778
+    golden log_right_fast ticks=441 chain=0x37614ed88fba4f6e
+    golden speed_bump_slow ticks=568 chain=0x73c5f03e5697372b
+    golden speed_bump_fast ticks=446 chain=0xf53cb12a688733b9
+    golden kerb_slow ticks=851 chain=0x06ed8b36c1960f96
+    golden kerb_fast ticks=597 chain=0xe53abef6ebcfe0dd
+    golden washboard_slow ticks=953 chain=0x64e1956e7f7d4d81
+    golden washboard_fast ticks=653 chain=0x13272f75c6354cfd
+    golden pothole_slow ticks=570 chain=0x493f4b4e640f1931
+    golden pothole_fast ticks=447 chain=0xfcdc53ef57563b9b
+    golden camber_slow ticks=1043 chain=0x49ce12556dff4874
+    golden camber_fast ticks=699 chain=0xfdbcd71ce8e98da5
+    golden jump_slow ticks=638 chain=0x5a6907de6dff9a78
+    golden jump_fast ticks=568 chain=0xc5b1a9a13db5a4ee
+    golden brake_turn_slow ticks=615 chain=0x05a9dc62ed03fb4d
+    golden brake_turn_fast ticks=591 chain=0x16c599e078f6ffc2
+[ OK ] course_golden_chains
+    suspension T1: ride 0.300 m, travel 0.270 m (bump 0.140, rebound 0.130), spring 26000 N/m, min wheel-body gap 0.050 m
+    suspension T2: ride 0.340 m, travel 0.310 m (bump 0.160, rebound 0.150), spring 30000 N/m, min wheel-body gap 0.050 m
+    suspension T3: ride 0.380 m, travel 0.350 m (bump 0.180, rebound 0.170), spring 34000 N/m, min wheel-body gap 0.050 m
+[ OK ] chassis_geometry_wheels_clear_body_all_tiers
+    mud T1 tyre: p 63.2 kPa, A 0.0543 m2, sink 0.177 m, resist 8239 N; T3 tyre: p 36.1 kPa, A 0.0957 m2, sink 0.082 m, resist 2981 N; asphalt resist 206 N
+[ OK ] soil_wide_tyre_floats_in_mud_and_asphalt_is_unaffected
+    right wheels in mud, left on grass, no steering: heading -2.99 deg (negative = towards the mud side)
+[ OK ] soil_split_surface_pulls_toward_the_mud
+    mud T1 full throttle max z 56.1 (stuck 13.5 s), T1 gentle 120.9, T1 gentle +600 kg 52.2, T2 full 131.6; T1 full throttle on dry dirt reaches z 121.0
+[ OK ] mud_outcome_is_emergent_driver_cargo_tyres
+    steer right at 20 km/h: heading 0.00 -> -61.19 deg (clockwise from above), a point 30 m ahead moves to view x -22.73 m (left on screen)
+[ OK ] steering_right_turns_clockwise_and_scene_moves_left
+    reverse with steer right: gear -1, speed -17.5 km/h, heading 171.35 deg (nose swings left like a real car)
+[ OK ] steering_right_in_reverse_swings_the_nose_left
+    asphalt: max lateral 0.628 g, full steer at 20/40/60 km/h = 0.546/0.628/0.597 g
+    dirt: max lateral 0.459 g, full steer at 20/40/60 km/h = 0.433/0.459/0.424 g
+    grass: max lateral 0.461 g, full steer at 20/40/60 km/h = 0.433/0.461/0.425 g
+    mud (tyres T2): max lateral 0.351 g, full steer at 20/40/60 km/h = 0.291/0.337/0.351 g
+[ OK ] lateral_steady_state_cornering_per_surface
+    asphalt 40 km/h full lock: steer 10.7 deg, front slip 7.9 deg, rear slip 6.1 deg, body slip max 2.0 deg, 0.628 g, min up_y 0.998
+    asphalt 60 km/h full lock: steer 5.4 deg, front slip 7.2 deg, rear slip 5.6 deg, body slip max 4.7 deg, 0.597 g, min up_y 0.998
+[ OK ] lateral_keyboard_full_lock_asphalt_no_rollover_no_plow
+    mud T2 30 km/h full steer: sidewall share of the lateral force 18.0 %, asphalt 0
+[ OK ] lateral_sidewall_bites_in_mud
+    step steer 0.5 at 40 km/h asphalt: steady yaw 18.65 deg/s, t90 0.350 s, overshoot 2.2 %, max body slip 0.58 deg
+[ OK ] lateral_step_steer_response
+    double lane change 3.5 m on dirt at 50 km/h: max path error 0.74 m, max body slip 0.42 deg, peak 0.234 g, back in lane within 0.19 m, heading 0.56 deg
+[ OK ] lateral_lane_change_on_dirt
+    5 km/h full lock circle radius 5.50 m (kinematic 5.4 m), rear axle slip max 0.26 deg, braked stop drift 2.5 mm; 10 % side slope, no input, 5 s: lateral drift 0.3 mm asphalt, 0.2 mm dirt
+[ OK ] lateral_low_speed_manoeuvre_no_creep
+    park brake on 10 % grade, 5 s: drift 0.1 mm asphalt, 0.5 mm dirt, 0.1 mm nose down (neutral, gear 0); without it rolls 18.16 m; holds up to 80 % asphalt, 40 % dirt
+[ OK ] park_brake_holds_on_grade
+    brake held 7 s from 20 km/h: min forward speed -0.010 m/s, gear stays 1; release 1/6 s and press again: reverse at -19.9 km/h
+[ OK ] brake_held_at_standstill_does_not_reverse_until_repress
+    braked + parked truck, slide onset grade: asphalt 94.2 %, dirt 55.8 %, grass 63.7 %, mud 40.3 %, wet mud 23.3 %; cross slope: grass 53.2 %, wet mud 20.9 %
+[ OK ] physics_slope_slide_onset_falls_with_wetness_and_surface
+    max climbable grade from standstill: mud T1 11.3 %, wet mud T1 0.0 %, mud T2 30.5 %, wet mud T2 16.0 %, grass T1 46.5 %; wet mud T1 with a 30 km/h run-up 10.5 %
+[ OK ] physics_mud_slope_climb_depends_on_wetness_tyres_and_momentum
+    cross slope 40 m at 10 km/h, downhill drift: 25 % grass 2.60 m, wet mud T1 1.56 m; 35 % grass 3.95 m, wet mud T1 211.66 m (yaw 179.7 deg), wet mud T2 439.01 m
+[ OK ] physics_mud_cross_slope_slides_the_truck_sideways
+    hummock field 0.4 m / 2.4 m at 8 km/h: wheel off the ground T1 11.6 % of ticks, T3 11.8 %; max axle twist T1 0.334 m, T3 0.342 m; free-spinning lifted wheel T1 11.6 %; body roll max T1 12.6 deg
+[ OK ] physics_hummocks_lift_wheels_and_articulate
+    diagonal bumps (cross-axle): open diffs T1 progress 0.08 m (stuck, hanging wheel spin 25.0 m/s), rear LSD T2 2.81 m, lockers T3 8.89 m
+[ OK ] physics_cross_axle_open_diffs_stall_lockers_climb
+    ford crossing at 5 km/h, flow 1.5 m/s: downstream drift 0.3 m deep 1.14 m, 0.6 m 7.16 m, 0.9 m 36.09 m; 0.6 m calm 0.00 m, 2.5 m/s 36.66 m; wheel load share 0.3/0.6/0.9 m: 0.89/0.72/0.24; parked in 1.1 m at 2 m/s drifts 17.1 m (load share 0.02, intake wet 0)
+[ OK ] physics_water_current_pushes_and_lifts_the_truck
+    mud T1 parked: sink 169 mm at 1 s -> 215 mm at 20 s; spinning against a wall: 248 -> 300 mm (cap 300); sand 130 -> 168 mm; takyr crust holds empty (14 mm), breaks with 1200 kg (133 mm)
+[ OK ] physics_progressive_sinking_standing_and_spinning
+    dug in on wet mud: full throttle 10 s progress 0.56 m (sink 300 mm); rocking forward/reverse 3.05 m
+[ OK ] physics_rocking_gets_a_dug_in_truck_out
+    mud rut depth after 1/2/3/4 passes: T1 tyre 130/160/180/198 mm (width 0.34 m), T3 tyre 64/79/89/97 mm (width 0.42 m)
+[ OK ] physics_ruts_deepen_with_passes_and_depend_on_tyre_width
+    T2 tyres at 15 km/h in a 3-pass mud rut: steer 0.12 -> lateral offset after 1.5 s 0.075 m (fresh mud 0.565 m), front wheels leave the rut after 2.10 s as the rear swings; steer 0.6 -> out after 1.37 s
+[ OK ] physics_ruts_guide_the_wheels
+    coast-down decel at 40 km/h (m/s2) / vertical vibration rms (m/s2) / 0-30 km/h (s): asphalt 0.24/0.11/1.68, broken 0.31/0.52/1.70, gravel 0.66/0.60/1.87, grass 0.69/0.32/1.90, sand 1.88/0.24/20.00, mud 2.45/0.65/20.00
+[ OK ] physics_surface_feel_differs
+    full lock at 40 km/h, peak lateral g / slide m / yaw deg / end km/h / scuff mm: grass 0.550 / 0.90 / 114 / 22.1 / 16.1, wet grass 0.333 / 0.34 / 63 / 27.5 / 16.5, dirt 0.573 / 1.12 / 120 / 18.9 / 9.9, wet dirt 0.356; steady 30 km/h steer 0.5: grass 0.326 g, dirt 0.319 g
+[ OK ] physics_grass_turf_breaks_and_bites_like_soil
+    rut field: 24 presses over 72 m with 4 hot chunks -> 8 cold chunks; restore and save/load keep every depth (55.0 mm), save blob 18292 bytes
+[ OK ] physics_rut_field_streams_and_persists
+    map soil layer: dirt parked 20 s sinks 38 mm; with bearing x0.4, max sink x2 154 mm
+[ OK ] physics_map_soil_scale_softens_ground
+    rain (ground wetness 0 -> 1), 40 km/h braking decel m/s2: asphalt 8.45 -> 7.57 (-10 %), grass 5.77 -> 4.59 (-21 %), dirt 5.79 -> 4.92 (-15 %); parked 20 s on dirt sinks 38 -> 73 mm; rain_effect 0: 5.79 m/s2, 38 mm; ground wetness after 1 min of rain 0.250, after 1 more dry min 0.230
+[ OK ] physics_rain_makes_ground_slipperier_and_softer
+    spray: 32 tread emissions forward/reverse below the axle, behind the tread, thrown back and up; slide pushes sideways; 0.35 m water, r 0.5: spray rises at the waterline behind (z -0.48), entry splash ahead (z 0.48), bow wave at z 0.58, mirrored in reverse; asphalt and submerged tyres throw no mud
+[ OK ] spray_leaves_the_contact_patch_along_the_tread_and_the_waterline
+    parked (no brake pedal) 10 s drift: dirt 40 % 0.1 cm, grass 45 % 0.4 cm, grass across 40 % 0.4 cm, asphalt 60 % 0.6 cm, wet mud 40 % 2.1 m (beyond grip)
+[ OK ] physics_park_holds_all_four_wheels_within_grip
+[ OK ] physics_lab_is_deterministic
+[done] 50/50 passed, 662 checks

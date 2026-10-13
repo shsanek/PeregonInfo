@@ -1,0 +1,4 @@
+metal unlit_textured hash=d369c1c5 expected=d369c1c5 mismatches=0 max_delta=0 margin_milli_lsb=500 PASS
+metal vertex_lit_fog hash=f5bb01c5 expected=f5bb01c5 mismatches=0 max_delta=0 margin_milli_lsb=22 PASS
+d3d9 unlit_textured hash=d369c1c5 expected=d369c1c5 mismatches=0 max_delta=0 margin_milli_lsb=500 PASS
+d3d9 vertex_lit_fog hash=f5bb01c5 expected=f5bb01c5 mismatches=0 max_delta=0 margin_milli_lsb=22 PASS

@@ -1,0 +1,2 @@
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/run_executor.sh: line 89: 45989 Killed: 9               "$RUN_BIN" "$GUEST_COMMAND" "$HOST_DIR" 2> "$STDERR_LOG"
+run_executor: peregon_headless.exe exited with status 137 (emulator log: /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/scene-runs/scene_w1_world/007/win32-host.stderr.log)

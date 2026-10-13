@@ -1,0 +1,30 @@
+{
+ "bed": {
+  "exit": 0,
+  "shots": [
+   "bed_bed_from_tailgate.jpg"
+  ],
+  "start": "cargo_grid_bed"
+ },
+ "carry_sack": {
+  "exit": 0,
+  "shots": [
+   "carry_sack_carry_sack.jpg"
+  ],
+  "start": "cargo_grid_carry"
+ },
+ "carry_thermos": {
+  "exit": 0,
+  "shots": [
+   "carry_thermos_carry_thermos.jpg"
+  ],
+  "start": "cargo_grid_carry_light"
+ },
+ "screen": {
+  "exit": 0,
+  "shots": [
+   "screen_cargo_screen.jpg"
+  ],
+  "start": "cargo_grid_bed"
+ }
+}

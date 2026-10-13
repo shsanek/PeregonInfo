@@ -1,0 +1,19 @@
+{
+  "scene": "scene_w2_vehicle",
+  "run": "012",
+  "date": "2026-10-07T12:42:09Z",
+  "commit": "aa6cf0be1",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--ticks",
+    "1200",
+    "--capture",
+    "200,330,600",
+    "--rhi",
+    "d3d9",
+    "--replay",
+    "replay.txt"
+  ]
+}

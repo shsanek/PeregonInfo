@@ -1,0 +1,13 @@
+Test project /Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/build/native-release
+    Start 15: play_care_tests
+1/4 Test #15: play_care_tests ..................   Passed   86.35 sec
+    Start 20: inventory_tests
+2/4 Test #20: inventory_tests ..................   Passed   24.97 sec
+    Start 53: nature_tests
+3/4 Test #53: nature_tests .....................   Passed    0.69 sec
+    Start 54: light_tests
+4/4 Test #54: light_tests ......................   Passed    0.54 sec
+
+100% tests passed out of 4
+
+Total Test time (real) = 112.57 sec

@@ -1,0 +1,45 @@
+{
+ "id": "raider_young",
+ "targets_used": 32,
+ "bones": 43,
+ "cloth_s": 4.3,
+ "mask_s": 0.2,
+ "body_faces_hidden": 5560,
+ "garment_verts_hidden": {
+  "trousers": 510,
+  "boots": 0,
+  "jacket": 174
+ },
+ "tris_before": {
+  "body": 15636,
+  "eyes": 172,
+  "eyebrows": 192,
+  "hair": 1050,
+  "trousers": 4972,
+  "boots": 5164,
+  "jacket": 10584,
+  "scarf": 964
+ },
+ "tris_after": {
+  "body": 2101,
+  "eyes": 172,
+  "eyebrows": 192,
+  "hair": 1050,
+  "trousers": 1499,
+  "boots": 700,
+  "jacket": 2299,
+  "scarf": 500
+ },
+ "tris_total": 8513,
+ "bake_diffuse_s": 2.4,
+ "bake_rough_s": 2.5,
+ "bake_normal_s": 2.3,
+ "bake_s": 7.4,
+ "final_objects": {
+  "raider_young": 7271,
+  "raider_young_alpha": 1242
+ },
+ "final_tris": 8513,
+ "materials": 3,
+ "seconds": 17.8
+}

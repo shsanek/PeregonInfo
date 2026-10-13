@@ -1,0 +1,90 @@
+economy rules hash 0xf58caec6 content 0x3771e36b balance 0xdef57e0c
+start coupons 0 reputation 0 (-5..5)
+trader sell x1.000 buy x1.000 rep step sell 0.030 buy 0.030
+price nail_box sell r-5=17 r0=20 r5=23 buy r-5=40 r0=35 r5=30
+price shell_box sell r-5=13 r0=15 r5=17 buy r-5=29 r0=25 r5=21
+price mg_belt sell r-5=26 r0=30 r5=34 buy r-5=69 r0=60 r5=51
+price crowbar sell r-5=9 r0=10 r5=11 buy r-5=0 r0=0 r5=0
+price sawn_off sell r-5=102 r0=120 r5=138 buy r-5=287 r0=250 r5=213
+price nailgun sell r-5=153 r0=180 r5=207 buy r-5=460 r0=400 r5=340
+price spare_parts sell r-5=34 r0=40 r5=46 buy r-5=0 r0=0 r5=0 kept
+price scrap sell r-5=7 r0=8 r5=9 buy r-5=0 r0=0 r5=0
+price chemicals sell r-5=21 r0=25 r5=29 buy r-5=0 r0=0 r5=0
+price electronics sell r-5=68 r0=80 r5=92 buy r-5=0 r0=0 r5=0
+price supply_crate sell r-5=0 r0=0 r5=0 buy r-5=0 r0=0 r5=0
+price fuel_canister sell r-5=0 r0=0 r5=0 buy r-5=0 r0=0 r5=0
+price grain_sack sell r-5=0 r0=0 r5=0 buy r-5=0 r0=0 r5=0
+part engine_t1 cost 0+0
+part engine_t2 cost 300+2
+part engine_t3 cost 900+5
+part suspension_t1 cost 0+0
+part suspension_t2 cost 300+2
+part suspension_t3 cost 900+5
+part tires_t1 cost 0+0
+part tires_t2 cost 300+2
+part tires_t3 cost 900+5
+part armor_t1 cost 0+0
+part armor_t2 cost 300+2
+part armor_t3 cost 900+5
+contract c1_empty_station coupons 310 xp 238 (cargo 30 kg 300, road 8 km 48) items spare_parts:2
+contract c2_elevator_cargo coupons 270 xp 258 (cargo 30 kg 300, road 8 km 48) items spare_parts:3
+contract c3_double_run coupons 150 xp 286 (cargo 38 kg 380, road 8 km 48) items spare_parts:3
+loot arena.elevator: scrap 3-6 chemicals 2-3 spare_parts 2-3 electronics 0-1 | rolls [scrap:5 chemicals:2 spare_parts:2 ] [scrap:4 chemicals:3 spare_parts:3 ] [scrap:4 chemicals:3 spare_parts:2 ]
+loot arena.gas_station: scrap 3-6 chemicals 3-4 spare_parts 1-2 | rolls [scrap:6 chemicals:3 spare_parts:1 ] [scrap:6 chemicals:4 spare_parts:2 ] [scrap:5 chemicals:4 spare_parts:2 ]
+loot wreck.buggy: scrap 1-2 spare_parts 0-1 | rolls [scrap:1 spare_parts:1 ] [scrap:1 ] [scrap:2 spare_parts:1 ]
+leg camp_elevator_long 170s 4km
+leg camp_elevator_short 90s 2km needs tires_t2 mud
+leg camp_gas_station 200s 5km
+leg gas_station_elevator 150s 3km
+rank xp 0 -> 1
+rank xp 350 -> 2
+rank xp 700 -> 3
+rank xp 1050 -> 4
+rank xp 1400 -> 4
+rank xp 1750 -> 5
+session route hash 0x7fbad08a rows 38 coupons 8 parts 13 xp 1132 rank 4
+session tank hash 0x0d95d857 rows 38 coupons 881 parts 19 xp 1168 rank 4
+session speed hash 0xfc6745f8 rows 38 coupons 16 parts 14 xp 1168 rank 4
+session handling hash 0x63ec0423 rows 38 coupons 604 parts 17 xp 1156 rank 4
+session balanced hash 0x2df31a7c rows 38 coupons 272 parts 15 xp 1168 rank 4
+session saver hash 0xeec8be79 rows 38 coupons 1230 parts 21 xp 1168 rank 4
+population hash 0x65c80c6e
+0:00 run 0 start coupons 0 parts 0 xp 0 bed 0c 0kg 0cells balanced
+3:00 run 1 brief coupons 0 parts 0 xp 0 bed 0c 240kg 16cells c1_empty_station
+6:26 run 1 drive coupons 0 parts 0 xp 0 bed 0c 240kg 16cells camp_gas_station 206s
+6:56 run 1 ambush coupons 0 parts 0 xp 0 bed 56c 455kg 21cells 2 buggies
+6:56 run 1 deliver coupons 0 parts 0 xp 0 bed 56c 215kg 5cells 
+11:26 run 1 arena coupons 0 parts 0 xp 50 bed 56c 215kg 5cells gas_station
+12:26 run 1 loot coupons 0 parts 0 xp 50 bed 260c 735kg 23cells 
+16:04 run 1 drive coupons 0 parts 0 xp 50 bed 260c 735kg 23cells camp_gas_station 218s
+17:04 run 1 camp coupons 350 parts 5 xp 300 bed 0c 0kg 0cells c1_empty_station +310
+17:04 run 1 mechanic coupons 50 parts 3 xp 300 bed 0c 0kg 0cells bought armor_t2 saving_for engine_t2 (no_coupons)
+17:04 run 2 brief coupons 50 parts 3 xp 300 bed 0c 0kg 0cells c2_elevator_cargo
+19:54 run 2 drive coupons 50 parts 3 xp 300 bed 0c 0kg 0cells camp_elevator_long 170s
+23:54 run 2 arena coupons 50 parts 3 xp 350 bed 0c 0kg 0cells elevator
+24:54 run 2 loot coupons 50 parts 3 xp 350 bed 259c 733kg 24cells 
+28:00 run 2 drive coupons 50 parts 3 xp 350 bed 259c 733kg 24cells camp_elevator_long 186s
+29:00 run 2 camp coupons 443 parts 8 xp 608 bed 0c 0kg 0cells c2_elevator_cargo +270
+29:00 run 2 mechanic coupons 143 parts 6 xp 608 bed 0c 0kg 0cells bought engine_t2 saving_for tires_t2 (no_coupons)
+29:00 run 3 brief coupons 143 parts 6 xp 608 bed 0c 0kg 0cells c3_double_run
+32:07 run 3 drive coupons 143 parts 6 xp 608 bed 0c 0kg 0cells camp_gas_station 187s
+36:37 run 3 arena coupons 143 parts 6 xp 608 bed 0c 0kg 0cells gas_station
+37:37 run 3 loot coupons 143 parts 6 xp 608 bed 204c 760kg 24cells 
+40:10 run 3 drive coupons 143 parts 6 xp 608 bed 204c 760kg 24cells gas_station_elevator 153s
+44:10 run 3 arena coupons 143 parts 6 xp 608 bed 204c 760kg 24cells elevator
+45:10 run 3 loot coupons 143 parts 6 xp 608 bed 204c 760kg 24cells 
+48:04 run 3 drive coupons 143 parts 6 xp 608 bed 204c 760kg 24cells camp_elevator_long 174s
+48:34 run 3 ambush coupons 143 parts 6 xp 608 bed 204c 760kg 24cells 3 buggies
+49:34 run 3 camp coupons 240 parts 11 xp 918 bed 0c 0kg 0cells c3_double_run +150
+49:34 run 3 mechanic coupons 240 parts 11 xp 918 bed 0c 0kg 0cells saving_for tires_t2 (no_coupons)
+49:34 run 4 brief coupons 240 parts 11 xp 918 bed 0c 240kg 16cells c1_empty_station
+52:47 run 4 drive coupons 240 parts 11 xp 918 bed 0c 240kg 16cells camp_gas_station 193s
+53:17 run 4 ambush coupons 240 parts 11 xp 918 bed 104c 580kg 24cells 2 buggies
+53:17 run 4 deliver coupons 240 parts 11 xp 918 bed 104c 340kg 8cells 
+57:47 run 4 arena coupons 240 parts 11 xp 918 bed 104c 340kg 8cells gas_station
+58:47 run 4 loot coupons 240 parts 11 xp 918 bed 300c 770kg 24cells 
+62:12 run 4 drive coupons 240 parts 11 xp 918 bed 300c 770kg 24cells camp_gas_station 205s
+63:12 run 4 camp coupons 572 parts 17 xp 1168 bed 0c 0kg 0cells c1_empty_station +310
+63:12 run 4 mechanic coupons 272 parts 15 xp 1168 bed 0c 0kg 0cells bought tires_t2 saving_for suspension_t2 (no_coupons)
+63:12 run 4 end coupons 272 parts 15 xp 1168 bed 0c 0kg 0cells 
+report hash 0xd866b400 flagged 0

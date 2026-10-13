@@ -1,0 +1,4642 @@
+{
+ "bury": {
+  "bind_error": 1.080514013188082e-06,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.741
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.841
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.182
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.199
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.199
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.217
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.244
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.182
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.029
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.021
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.08695860952138901,
+   "R": 0.0869591161608696
+  }
+ },
+ "efim": {
+  "bind_error": 7.106839515034452e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.629
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.412
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.002
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.203
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.214
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.204
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.217
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.801
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.013
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.005
+   }
+  },
+  "splay_m": {
+   "L": 0.05945518612861633,
+   "R": 0.05945517122745514
+  }
+ },
+ "egor": {
+  "bind_error": 5.170509687929592e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.645
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.474
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.028
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.201
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.211
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.205
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.22
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.821
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.016
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.005
+   }
+  },
+  "splay_m": {
+   "L": 0.06268463283777237,
+   "R": 0.0626843050122261
+  }
+ },
+ "foma": {
+  "bind_error": 3.919883500923486e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.632
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.424
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.007
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.197
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.204
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.204
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.222
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.805
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.015
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.014
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.0655115470290184,
+   "R": 0.06551150232553482
+  }
+ },
+ "fyodor": {
+  "bind_error": 6.159084819958581e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.703
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.695
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.121
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.201
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.206
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.212
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.233
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.121
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.023
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.017
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.005
+   }
+  },
+  "splay_m": {
+   "L": 0.07501261681318283,
+   "R": 0.0750126913189888
+  }
+ },
+ "galina": {
+  "bind_error": 8.601468616522529e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.57
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.185
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.908
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.159
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.147
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.194
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.232
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.908
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.016
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.014
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.07798529416322708,
+   "R": 0.0779852345585823
+  }
+ },
+ "genka": {
+  "bind_error": 7.737132898418409e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.71
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.721
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.132
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.19
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.186
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.213
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.244
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.132
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.027
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.022
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.08772891014814377,
+   "R": 0.08772892504930496
+  }
+ },
+ "gurov": {
+  "bind_error": 6.563280685408485e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.799
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.003
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 3.06
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.273
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.227
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.243
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.224
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.236
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.017
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.029
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.017
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.006
+   }
+  },
+  "splay_m": {
+   "L": 0.07454963028430939,
+   "R": 0.07454957067966461
+  }
+ },
+ "klava": {
+  "bind_error": 5.609747911715826e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.514
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 1.971
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.818
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.161
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.152
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.192
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.226
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.654
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.008
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.014
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.07631970942020416,
+   "R": 0.07631970942020416
+  }
+ },
+ "kolya": {
+  "bind_error": 6.009188865448348e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.731
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.8
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.165
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.191
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.188
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.214
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.243
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.165
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.031
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.023
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.09101961553096771,
+   "R": 0.09101967513561249
+  }
+ },
+ "kostya": {
+  "bind_error": 7.202056630608185e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.809
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 3.098
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.289
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.208
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.21
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.225
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.25
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.289
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.038
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.024
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.09474464505910873,
+   "R": 0.09474468976259232
+  }
+ },
+ "lida": {
+  "bind_error": 5.997601687162551e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.589
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.257
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.938
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.162
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.15
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.199
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.239
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.938
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.017
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.07527883350849152,
+   "R": 0.07527890801429749
+  }
+ },
+ "lyokha": {
+  "bind_error": 3.625656844801649e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.708
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.711
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.128
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.194
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.193
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.213
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.239
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.128
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.026
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.02
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.08314305543899536,
+   "R": 0.08314302563667297
+  }
+ },
+ "lyuda": {
+  "bind_error": 4.097141946812725e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.573
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.195
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.912
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.159
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.146
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.199
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.242
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.912
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.014
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.06871288269758224,
+   "R": 0.0687127336859703
+  }
+ },
+ "masha": {
+  "bind_error": 3.6540883611353095e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.355
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 1.361
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.566
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.113
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.113
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.123
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.138
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.566
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.004
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.017
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.05367938429117203,
+   "R": 0.05367938429117203
+  }
+ },
+ "mironov": {
+  "bind_error": 7.410612789309894e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.67
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.569
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.068
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.196
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.199
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.209
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.231
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.068
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.02
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.017
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.07202932238578796,
+   "R": 0.07202930748462677
+  }
+ },
+ "nadezhda": {
+  "bind_error": 5.607273495860928e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.569
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.18
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.906
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.164
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.153
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.198
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.235
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.906
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.014
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.07758921384811401,
+   "R": 0.07758918404579163
+  }
+ },
+ "oleg": {
+  "bind_error": 6.004192650836548e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.81
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 3.102
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.291
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.206
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.206
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.225
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.252
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.291
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.039
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.025
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.09713878482580185,
+   "R": 0.09713882952928543
+  }
+ },
+ "olga": {
+  "bind_error": 5.031211082975308e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.59
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.262
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.941
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.154
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.141
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.193
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.234
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.941
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.021
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.07721495628356934,
+   "R": 0.07721497118473053
+  }
+ },
+ "palych": {
+  "bind_error": 8.107108180961277e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.734
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.815
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.17
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.211
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.221
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.216
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.233
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.935
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.025
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.017
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.005
+   }
+  },
+  "splay_m": {
+   "L": 0.07325312495231628,
+   "R": 0.07325311005115509
+  }
+ },
+ "pashka": {
+  "bind_error": 9.70338013815769e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.636
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.437
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.014
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.173
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.169
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.194
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.223
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.014
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.024
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.022
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.08286777883768082,
+   "R": 0.08286803215742111
+  }
+ },
+ "petrovich": {
+  "bind_error": 8.046416847601233e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.701
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.686
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.116
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.207
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.215
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.212
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.229
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.892
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.021
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.016
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.005
+   }
+  },
+  "splay_m": {
+   "L": 0.06918933987617493,
+   "R": 0.06918898224830627
+  }
+ },
+ "rinat": {
+  "bind_error": 6.088301852435396e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.626
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.4
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.997
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.187
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.191
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.197
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.217
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.997
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.018
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.017
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.07205592095851898,
+   "R": 0.07205568253993988
+  }
+ },
+ "stepanych": {
+  "bind_error": 6.976544803809897e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.668
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.561
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.064
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.2
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.206
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.208
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.227
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.851
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.019
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.005
+   }
+  },
+  "splay_m": {
+   "L": 0.06763080507516861,
+   "R": 0.0676308199763298
+  }
+ },
+ "sveta": {
+  "bind_error": 3.491453681546444e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.477
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 1.827
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.76
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.135
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.129
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.158
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.184
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.76
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.009
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.018
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.06597523391246796,
+   "R": 0.06597523391246796
+  }
+ },
+ "sych": {
+  "bind_error": 3.2782554626464844e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.706
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.705
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.125
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.197
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.198
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.212
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.237
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.125
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.025
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.018
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.07986311614513397,
+   "R": 0.07986310124397278
+  }
+ },
+ "tamara": {
+  "bind_error": 6.951260931222736e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.585
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.243
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.932
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.167
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.157
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.198
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.234
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.745
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.016
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.08271472901105881,
+   "R": 0.08271481841802597
+  }
+ },
+ "tanya": {
+  "bind_error": 4.915124923727108e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.556
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.132
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.886
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.156
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.143
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.195
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.236
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.886
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.012
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.012
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.06374835222959518,
+   "R": 0.06374835222959518
+  }
+ },
+ "tolik": {
+  "bind_error": 5.342320301161685e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.486
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 1.864
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.775
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.148
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.144
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.166
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.191
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.775
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.013
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.021
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.002
+   }
+  },
+  "splay_m": {
+   "L": 0.0707046315073967,
+   "R": 0.07070467621088028
+  }
+ },
+ "valentina": {
+  "bind_error": 3.03925246810483e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.552
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.115
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.879
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.156
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.145
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.19
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.228
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.879
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.015
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.014
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.07904551178216934,
+   "R": 0.07904543727636337
+  }
+ },
+ "zakhar": {
+  "bind_error": 8.09065816432132e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.669
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.565
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.066
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.198
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.203
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.209
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.229
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.066
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.019
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.016
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "splay_m": {
+   "L": 0.06951668113470078,
+   "R": 0.06951669603586197
+  }
+ },
+ "zina": {
+  "bind_error": 5.057621821307283e-07,
+  "clips": {
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.532
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.04
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.848
+   },
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.158
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.149
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.189
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.224
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.677
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.012
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.014
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "splay_m": {
+   "L": 0.08001365512609482,
+   "R": 0.0800137147307396
+  }
+ }
+}

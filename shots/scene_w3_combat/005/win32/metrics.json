@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "scene": "scene_w3_combat",
+  "seed": 4,
+  "ticks": 1034,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 360, "frames": 1034, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 65, "primitives": 9338, "vertices": 28014, "state_binds": 47, "texture_binds": 65, "bytes_uploaded": 8448, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": {"file": "C:\\Test\\scene_w3_roof_mg_overheat.txt", "format": "text1", "hash": "87044586", "length_ticks": 1034},
+  "wall_time_ms": 1501.705,
+  "frame_time_ms": {"avg": 1.450, "min": 0.906, "max": 189.582},
+  "final_state_hash": "b8e0231e",
+  "captures": [
+    {"tick": 32, "state_hash": "1d2ee42a", "image_hash": "b1346235", "width": 640, "height": 360, "file": "tick_000032.bmp"},
+    {"tick": 68, "state_hash": "98f2e171", "image_hash": "66f932f9", "width": 640, "height": 360, "file": "tick_000068.bmp"},
+    {"tick": 135, "state_hash": "fb4ea96c", "image_hash": "ac89c13b", "width": 640, "height": 360, "file": "tick_000135.bmp"},
+    {"tick": 265, "state_hash": "685f24ff", "image_hash": "5b6d3ad1", "width": 640, "height": 360, "file": "tick_000265.bmp"},
+    {"tick": 312, "state_hash": "c12a23be", "image_hash": "bdf706c6", "width": 640, "height": 360, "file": "tick_000312.bmp"},
+    {"tick": 433, "state_hash": "715914fc", "image_hash": "17e7afec", "width": 640, "height": 360, "file": "tick_000433.bmp"}
+  ],
+  "scene_metrics": {"stream": "W3", "contracts_version": 1, "content_hash": "0xa6cfa1c0", "bus": {"published": 11, "delivered": 11, "dropped": 0, "handler_calls": 6, "max_pending": 2, "stream_hash_hi": "0x3fb448d7", "stream_hash_lo": "0xd2089db4"}, "render": {"frames": 1034, "draws_last": 66195, "path": "fixed-function", "size": "640x360"}, "combat": {"scenario": "roof_mg_overheat", "scenario_id": 4, "tick": 1034, "player": {"health": 100.000, "armor": 0.000, "damage_taken": 0.000, "hits_taken": 0, "dodges": 0, "dodged_hits": 0, "weapon": "roof_mg", "mounted": 1}, "weapons": {"crowbar": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 0, "reserve": 0}, "sawn_off": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 0, "reserve": 0}, "nailgun": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 50, "reserve": 0}, "roof_mg": {"shots": 40, "ammo_used": 40, "hits": 6, "kills": 3, "damage": 180.000, "window_ticks": 777, "dps": 13.899, "reloads": 1, "overheats": 4, "interrupts": 0, "mag": 200, "reserve": 0}}, "kills": [{"tick": 32, "entity": 1, "enemy": "buggy", "weapon": "roof_mg", "ttk_ticks": 8, "ttk_s": 0.133, "executed": 0}, {"tick": 53, "entity": 3, "enemy": "buggy", "weapon": "roof_mg", "ttk_ticks": 8, "ttk_s": 0.133, "executed": 0}, {"tick": 68, "entity": 2, "enemy": "buggy", "weapon": "roof_mg", "ttk_ticks": 8, "ttk_s": 0.133, "executed": 0}], "ttk": {"roof_mg/buggy": {"count": 3, "avg_s": 0.133, "min_s": 0.133, "max_s": 0.133}}, "brute": {"charges": 0, "interrupted": 0, "charge_hits": 0, "hits_during_charge": 0}, "executions": 0, "execution_ammo": 0, "ammo_trips": 0, "boxes_taken": 1, "bed_entries": 9, "mg": {"first_overheat_shots": 15, "lock_ticks": 122, "heat": 0.000}, "wave": 0, "cleared_tick": 68, "damage_events": 6, "cargo_events": 2, "kill_events": 3, "moments": [{"tick": 20, "kind": "mount", "weapon": "roof_mg", "value": 0, "entity": 0}, {"tick": 32, "kind": "kill", "weapon": "roof_mg", "value": 8, "entity": 1}, {"tick": 53, "kind": "kill", "weapon": "roof_mg", "value": 8, "entity": 3}, {"tick": 68, "kind": "kill", "weapon": "roof_mg", "value": 8, "entity": 2}, {"tick": 68, "kind": "cleared", "weapon": "none", "value": 0, "entity": 0}, {"tick": 135, "kind": "overheat", "weapon": "roof_mg", "value": 15, "entity": 0}, {"tick": 265, "kind": "cooled", "weapon": "roof_mg", "value": 130, "entity": 0}, {"tick": 312, "kind": "overheat", "weapon": "roof_mg", "value": 7, "entity": 0}, {"tick": 433, "kind": "cooled", "weapon": "roof_mg", "value": 121, "entity": 0}, {"tick": 479, "kind": "overheat", "weapon": "roof_mg", "value": 7, "entity": 0}, {"tick": 601, "kind": "cooled", "weapon": "roof_mg", "value": 122, "entity": 0}, {"tick": 647, "kind": "overheat", "weapon": "roof_mg", "value": 7, "entity": 0}, {"tick": 769, "kind": "cooled", "weapon": "roof_mg", "value": 122, "entity": 0}]}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

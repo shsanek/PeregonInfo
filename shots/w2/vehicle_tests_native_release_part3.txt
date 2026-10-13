@@ -1,0 +1,8 @@
+[suite] vehicle_tests
+    golden accel ticks=2400 chain=0x78fa99e9e46970e1 final=0xbece7115e03282ed
+    golden mud_t1 ticks=1200 chain=0x410e1c193191b19e final=0xec2d76c4d58fd3b8
+    golden mud_t2 ticks=1200 chain=0x46256030efb776a4 final=0x036d7d33cac32ac1
+    golden ram ticks=600 chain=0x24aee98f32092d63 final=0xb353e11758666317
+    golden ramp ticks=600 chain=0x0e373e0ba24a4ceb final=0x0535429cac054125
+[ OK ] determinism_hash_per_tick
+[done] 1/1 passed, 7 checks

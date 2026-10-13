@@ -1,0 +1,61 @@
+contracts_taken: 2
+contracts_done: 1
+outposts_cleared: 2
+fights_lost: 0
+kills: 0
+items_looted: 4
+items_sold: 1
+upgrades: 0
+saves: 0
+loads: 0
+truck_resets: 0
+drive_m: 55
+tiers: [1, 1, 2, 1]
+coupons: 130
+xp: 205
+mode: drive
+nature: cells 80, colliders skipped on road beds 0, foot boxes 0
+bot steps:
+      32 step unload_cargo
+     839 cargo lift supply_crate bed 9
+    1597 cargo put supply_crate bed 9
+    1936 cargo lift supply_crate bed 8
+    2674 cargo put supply_crate bed 8
+    3016 cargo lift supply_crate bed 7
+    3774 cargo put supply_crate bed 7
+    4121 cargo lift supply_crate bed 6
+    4858 cargo put supply_crate bed 6
+    4936 cargo lift fuel_canister bed 6
+    5374 cargo put fuel_canister bed 7
+    5701 cargo lift fuel_canister bed 7
+    6134 cargo put fuel_canister bed 8
+    6293 step loot
+    6802 cargo lift spare_parts bed 8
+    8099 cargo put spare_parts bed 9
+    8595 cargo lift spare_parts bed 9
+    9892 cargo put spare_parts bed 10
+   10388 cargo lift chemicals bed 10
+   11641 cargo put chemicals bed 11
+   12137 cargo lift chemicals bed 11
+   13388 step stop_wait
+   13389 cargo put chemicals bed 12
+   13397 step drive_on
+   13398 step drive_home
+moments:
+  0:00 new game at the Sawmill
+  0:00 contract taken: w5e0_000_grain_haul
+  0:00 stage: elevator cleared
+  0:00 contract stop done at elevator
+  0:00 stage: 5 cargo items loaded into the bed
+  0:00 stage: 5 cargo items carried to the receiving point
+  0:00 cargo received: 5 x grain_sack
+  0:00 contract done +350 coupons +205 xp
+  0:00 stage: 2 cargo items loaded into the bed
+  0:00 stage: 1 items sold to the trader
+  0:00 contract taken: w5e0_005_supply_run
+  0:00 stage: 4 cargo items loaded into the bed
+  0:00 stage: gas_station cleared
+  0:00 stage start: outpost_cleared
+  1:20 cargo received: 4 x supply_crate
+  1:20 contract stop done at gas_station
+  3:42 autosave

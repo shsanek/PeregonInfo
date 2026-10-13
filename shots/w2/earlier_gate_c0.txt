@@ -1,0 +1,151 @@
+PASS header arena.h compiles alone: native C11
+PASS header arena.h compiles alone: native C++17
+PASS header arena.h compiles alone: win32 C11
+PASS header arena.h compiles alone: win32 C++17
+PASS header common.h compiles alone: native C11
+PASS header common.h compiles alone: native C++17
+PASS header common.h compiles alone: win32 C11
+PASS header common.h compiles alone: win32 C++17
+PASS header content.h compiles alone: native C11
+PASS header content.h compiles alone: native C++17
+PASS header content.h compiles alone: win32 C11
+PASS header content.h compiles alone: win32 C++17
+PASS header contract_def.h compiles alone: native C11
+PASS header contract_def.h compiles alone: native C++17
+PASS header contract_def.h compiles alone: win32 C11
+PASS header contract_def.h compiles alone: win32 C++17
+PASS header damage.h compiles alone: native C11
+PASS header damage.h compiles alone: native C++17
+PASS header damage.h compiles alone: win32 C11
+PASS header damage.h compiles alone: win32 C++17
+PASS header enemy.h compiles alone: native C11
+PASS header enemy.h compiles alone: native C++17
+PASS header enemy.h compiles alone: win32 C11
+PASS header enemy.h compiles alone: win32 C++17
+PASS header events.h compiles alone: native C11
+PASS header events.h compiles alone: native C++17
+PASS header events.h compiles alone: win32 C11
+PASS header events.h compiles alone: win32 C++17
+PASS header game_state.h compiles alone: native C11
+PASS header game_state.h compiles alone: native C++17
+PASS header game_state.h compiles alone: win32 C11
+PASS header game_state.h compiles alone: win32 C++17
+PASS header inventory.h compiles alone: native C11
+PASS header inventory.h compiles alone: native C++17
+PASS header inventory.h compiles alone: win32 C11
+PASS header inventory.h compiles alone: win32 C++17
+PASS header item.h compiles alone: native C11
+PASS header item.h compiles alone: native C++17
+PASS header item.h compiles alone: win32 C11
+PASS header item.h compiles alone: win32 C++17
+PASS header save.h compiles alone: native C11
+PASS header save.h compiles alone: native C++17
+PASS header save.h compiles alone: win32 C11
+PASS header save.h compiles alone: win32 C++17
+PASS header surface.h compiles alone: native C11
+PASS header surface.h compiles alone: native C++17
+PASS header surface.h compiles alone: win32 C11
+PASS header surface.h compiles alone: win32 C++17
+PASS header vehicle.h compiles alone: native C11
+PASS header vehicle.h compiles alone: native C++17
+PASS header vehicle.h compiles alone: win32 C11
+PASS header vehicle.h compiles alone: win32 C++17
+PASS header weapon.h compiles alone: native C11
+PASS header weapon.h compiles alone: native C++17
+PASS header weapon.h compiles alone: win32 C11
+PASS header weapon.h compiles alone: win32 C++17
+PASS native contracts_tests all passed
+PASS executor contracts_tests all passed
+PASS executor event_bus_delivers_in_publish_and_subscription_order
+PASS executor event_bus_rejects_bad_payloads_and_drops_on_overflow
+PASS executor event_bus_unsubscribe_during_dispatch_and_stream_hash
+PASS executor content_hot_reload_from_dir
+PASS executor contract_headers_compile_as_c
+PASS executor contract_layouts_are_fixed
+PASS executor content_reports_errors_and_keeps_old_data
+PASS content_check embedded RESULT PASS (EXEcutor)
+PASS content_check dir RESULT PASS (EXEcutor)
+PASS content hash 0xa6cfa1c0 in executor_debug_contracts_tests.stdout.txt
+PASS content hash 0xa6cfa1c0 in executor_release_contracts_tests.stdout.txt
+PASS content hash 0xa6cfa1c0 in native_debug_contracts_tests.stdout.txt
+PASS content hash 0xa6cfa1c0 in native_release_contracts_tests.stdout.txt
+PASS content hash 0xa6cfa1c0 in executor_debug_content_check_dir.stdout.txt
+PASS content hash 0xa6cfa1c0 in executor_debug_content_check_embedded.stdout.txt
+PASS content hash 0xa6cfa1c0 in executor_release_content_check_dir.stdout.txt
+PASS content hash 0xa6cfa1c0 in executor_release_content_check_embedded.stdout.txt
+PASS content hash 0xa6cfa1c0 in native_debug_content_check_dir.stdout.txt
+PASS content hash 0xa6cfa1c0 in native_debug_content_check_embedded.stdout.txt
+PASS content hash 0xa6cfa1c0 in native_release_content_check_dir.stdout.txt
+PASS content hash 0xa6cfa1c0 in native_release_content_check_embedded.stdout.txt
+PASS scene_w1_world native vs EXEcutor identical
+PASS scene_w1_world exit codes 0
+PASS scene_w1_world reports content hash 0xa6cfa1c0
+PASS scene_w1_world bus delivered every event
+PASS scene_w2_vehicle native vs EXEcutor identical
+PASS scene_w2_vehicle exit codes 0
+PASS scene_w2_vehicle reports content hash 0xa6cfa1c0
+PASS scene_w2_vehicle bus delivered every event
+PASS scene_w3_combat native vs EXEcutor identical
+PASS scene_w3_combat exit codes 0
+PASS scene_w3_combat reports content hash 0xa6cfa1c0
+PASS scene_w3_combat bus delivered every event
+PASS scene_w4_ai native vs EXEcutor identical
+PASS scene_w4_ai exit codes 0
+PASS scene_w4_ai reports content hash 0xa6cfa1c0
+PASS scene_w4_ai bus delivered every event
+PASS scene_w8_economy native vs EXEcutor identical
+PASS scene_w8_economy exit codes 0
+PASS scene_w8_economy reports content hash 0xa6cfa1c0
+PASS scene_w8_economy bus delivered every event
+PASS scene_w9_cargo native vs EXEcutor identical
+PASS scene_w9_cargo exit codes 0
+PASS scene_w9_cargo reports content hash 0xa6cfa1c0
+PASS scene_w9_cargo bus delivered every event
+PASS scene_w10_ui native vs EXEcutor identical
+PASS scene_w10_ui exit codes 0
+PASS scene_w10_ui reports content hash 0xa6cfa1c0
+PASS scene_w10_ui bus delivered every event
+PASS prior gate 0a still passes
+PASS prior gate 0b still passes
+PASS prior gate 0c still passes
+PASS prior gate 0f still passes
+PASS prior gate 0g still passes
+native contracts_tests release rc=0
+native content_check embedded release rc=0
+native content_check dir release rc=0
+executor contracts_tests.exe win32-release rc=0
+executor content_check embedded win32-release rc=0
+executor content_check dir win32-release rc=0
+native contracts_tests debug rc=0
+native content_check embedded debug rc=0
+native content_check dir debug rc=0
+executor contracts_tests.exe win32-debug rc=0
+executor content_check embedded win32-debug rc=0
+executor content_check dir win32-debug rc=0
+IDENTICAL native_release_contracts_tests.stdout.txt == executor_release_contracts_tests.stdout.txt
+IDENTICAL native_release_contracts_tests.stdout.txt == executor_debug_contracts_tests.stdout.txt
+IDENTICAL native_release_contracts_tests.stdout.txt == native_debug_contracts_tests.stdout.txt
+IDENTICAL native_release_content_check_embedded.stdout.txt == executor_release_content_check_embedded.stdout.txt
+IDENTICAL native_release_content_check_embedded.stdout.txt == executor_debug_content_check_embedded.stdout.txt
+IDENTICAL native_release_content_check_embedded.stdout.txt == native_debug_content_check_embedded.stdout.txt
+IDENTICAL native_release_content_check_dir.stdout.txt == executor_release_content_check_dir.stdout.txt
+IDENTICAL native_release_content_check_dir.stdout.txt == executor_debug_content_check_dir.stdout.txt
+IDENTICAL native_release_content_check_dir.stdout.txt == native_debug_content_check_dir.stdout.txt
+content hash: 0xa6cfa1c0
+contracts_tests: [done] 21/21 passed, 421 checks
+header checks: 56 passed, 0 failed
+scenes identical: 7 checked, 0 failing checks
+stub/nodll lines: 0
+native contracts_tests release ms=478
+native content_check embedded release ms=466
+native content_check dir release ms=49
+executor contracts_tests.exe win32-release ms=1339
+executor content_check embedded win32-release ms=2451
+executor content_check dir win32-release ms=3480
+native contracts_tests debug ms=587
+native content_check embedded debug ms=485
+native content_check dir debug ms=58
+executor contracts_tests.exe win32-debug ms=4623
+executor content_check embedded win32-debug ms=574
+executor content_check dir win32-debug ms=586
+GATE c0 PASS

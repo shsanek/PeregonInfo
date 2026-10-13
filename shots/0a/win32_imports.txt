@@ -1,0 +1,14 @@
+asset_tests.exe: kernel32.dll msvcrt.dll
+contracts_tests.exe: core.dll kernel32.dll msvcrt.dll
+core_tests.exe: core.dll kernel32.dll msvcrt.dll
+peregon.exe: core.dll kernel32.dll msvcrt.dll user32.dll
+peregon_content_check.exe: core.dll kernel32.dll msvcrt.dll
+peregon_headless.exe: core.dll kernel32.dll msvcrt.dll user32.dll
+rhi_d3d9_tests.exe: kernel32.dll msvcrt.dll
+rhi_tests.exe: kernel32.dll msvcrt.dll
+scene_core_replay.exe: core.dll kernel32.dll msvcrt.dll
+scene_rhi_cube.exe: kernel32.dll msvcrt.dll
+shader_d3d9_test.exe: d3d9.dll kernel32.dll msvcrt.dll user32.dll
+ui_tests.exe: kernel32.dll msvcrt.dll
+core.dll: kernel32.dll msvcrt.dll
+render_d3d9.dll: d3d9.dll kernel32.dll msvcrt.dll user32.dll

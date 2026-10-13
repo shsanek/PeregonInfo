@@ -1,0 +1,81 @@
+sawmill vis 582 (part 73 board_shed_6x12) / vis 584 (part 73 board_shed_6x12) face zmin at -2.400, overlap 0.07 m2
+sawmill vis 582 (part 73 board_shed_6x12) / vis 584 (part 73 board_shed_6x12) face zmax at 8.400, overlap 0.07 m2
+sawmill vis 582 (part 73 board_shed_6x12) / vis 586 (part 73 board_shed_6x12) face zmin at -2.400, overlap 0.07 m2
+sawmill vis 582 (part 73 board_shed_6x12) / vis 586 (part 73 board_shed_6x12) face zmax at 8.400, overlap 0.07 m2
+sawmill vis 583 (part 73 board_shed_6x12) / vis 585 (part 73 board_shed_6x12) face zmin at -2.400, overlap 0.07 m2
+sawmill vis 583 (part 73 board_shed_6x12) / vis 585 (part 73 board_shed_6x12) face zmax at 8.400, overlap 0.07 m2
+sawmill vis 583 (part 73 board_shed_6x12) / vis 587 (part 73 board_shed_6x12) face zmin at -2.400, overlap 0.07 m2
+sawmill vis 583 (part 73 board_shed_6x12) / vis 587 (part 73 board_shed_6x12) face zmax at 8.400, overlap 0.07 m2
+sawmill vis 634 (part 80 fuel_tank_h) / vis 635 (part 80 fuel_tank_h) face xmin at -24.100, overlap 1.21 m2 (same colour)
+sawmill vis 634 (part 80 fuel_tank_h) / vis 635 (part 80 fuel_tank_h) face xmax at -19.900, overlap 1.21 m2 (same colour)
+sawmill vis 686 (part 88 cargo_pallets) / vis 771 (part 104 puddle) face ymax at 0.020, overlap 0.14 m2
+sawmill: 775 vis boxes, 52 coplanar same-facing overlaps
+outpost vis 44 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face xmin at 16.500, overlap 0.07 m2 (same colour)
+outpost vis 44 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face ymax at 4.000, overlap 0.06 m2 (same colour)
+outpost vis 44 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face zmin at 13.500, overlap 0.07 m2 (same colour)
+outpost vis 45 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face xmax at 19.500, overlap 0.07 m2 (same colour)
+outpost vis 45 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face ymax at 4.000, overlap 0.06 m2 (same colour)
+outpost vis 45 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face zmin at 13.500, overlap 0.07 m2 (same colour)
+outpost vis 46 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face xmin at 16.500, overlap 0.07 m2 (same colour)
+outpost vis 46 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face ymax at 4.000, overlap 0.06 m2 (same colour)
+outpost vis 46 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face zmax at 16.500, overlap 0.07 m2 (same colour)
+outpost vis 47 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face xmax at 19.500, overlap 0.07 m2 (same colour)
+outpost vis 47 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face ymax at 4.000, overlap 0.06 m2 (same colour)
+outpost vis 47 (part 7 watchtower_3) / vis 48 (part 7 watchtower_3) face zmax at 16.500, overlap 0.07 m2 (same colour)
+outpost vis 49 (part 7 watchtower_3) / vis 51 (part 7 watchtower_3) face xmin at 16.500, overlap 0.10 m2 (same colour)
+outpost vis 49 (part 7 watchtower_3) / vis 51 (part 7 watchtower_3) face zmax at 16.500, overlap 0.10 m2 (same colour)
+outpost vis 49 (part 7 watchtower_3) / vis 52 (part 7 watchtower_3) face xmin at 16.500, overlap 0.10 m2 (same colour)
+outpost vis 49 (part 7 watchtower_3) / vis 52 (part 7 watchtower_3) face zmin at 13.500, overlap 0.10 m2 (same colour)
+outpost vis 50 (part 7 watchtower_3) / vis 51 (part 7 watchtower_3) face xmax at 19.500, overlap 0.10 m2 (same colour)
+outpost vis 50 (part 7 watchtower_3) / vis 51 (part 7 watchtower_3) face zmax at 16.500, overlap 0.10 m2 (same colour)
+outpost vis 50 (part 7 watchtower_3) / vis 53 (part 7 watchtower_3) face xmax at 19.500, overlap 0.10 m2 (same colour)
+outpost vis 50 (part 7 watchtower_3) / vis 53 (part 7 watchtower_3) face zmin at 13.500, overlap 0.10 m2 (same colour)
+outpost vis 157 (part 51 fuel_tank_h) / vis 158 (part 51 fuel_tank_h) face zmin at -8.100, overlap 1.21 m2 (same colour)
+outpost vis 157 (part 51 fuel_tank_h) / vis 158 (part 51 fuel_tank_h) face zmax at -3.900, overlap 1.21 m2 (same colour)
+outpost vis 180 (part 59 hedgehog) / vis 181 (part 59 hedgehog) face ymax at 1.200, overlap 0.09 m2 (same colour)
+outpost vis 182 (part 60 hedgehog) / vis 183 (part 60 hedgehog) face ymax at 1.200, overlap 0.09 m2 (same colour)
+outpost vis 263 (part 73 car_wreck) / vis 265 (part 73 car_wreck) face xmax at -20.200, overlap 0.50 m2
+outpost: 266 vis boxes, 51 coplanar same-facing overlaps
+elevator vis 171 (part 71 grain_store_14x30) / vis 173 (part 71 grain_store_14x30) face xmax at 18.000, overlap 0.15 m2 (same colour)
+elevator vis 171 (part 71 grain_store_14x30) / vis 173 (part 71 grain_store_14x30) face zmax at 29.000, overlap 0.15 m2 (same colour)
+elevator vis 171 (part 71 grain_store_14x30) / vis 178 (part 71 grain_store_14x30) face xmin at 4.000, overlap 0.15 m2 (same colour)
+elevator vis 171 (part 71 grain_store_14x30) / vis 178 (part 71 grain_store_14x30) face zmax at 29.000, overlap 0.15 m2 (same colour)
+elevator vis 172 (part 71 grain_store_14x30) / vis 174 (part 71 grain_store_14x30) face xmin at 4.000, overlap 0.15 m2 (same colour)
+elevator vis 172 (part 71 grain_store_14x30) / vis 174 (part 71 grain_store_14x30) face zmin at -1.000, overlap 0.15 m2 (same colour)
+elevator vis 173 (part 71 grain_store_14x30) / vis 175 (part 71 grain_store_14x30) face xmax at 18.000, overlap 0.15 m2 (same colour)
+elevator vis 173 (part 71 grain_store_14x30) / vis 175 (part 71 grain_store_14x30) face zmin at -1.000, overlap 0.15 m2 (same colour)
+elevator vis 184 (part 73 stair_tower_8) / vis 186 (part 73 stair_tower_8) face xmin at -3.500, overlap 0.08 m2 (same colour)
+elevator vis 184 (part 73 stair_tower_8) / vis 186 (part 73 stair_tower_8) face zmax at 17.000, overlap 0.08 m2 (same colour)
+elevator vis 185 (part 73 stair_tower_8) / vis 186 (part 73 stair_tower_8) face xmax at -0.500, overlap 0.08 m2 (same colour)
+elevator vis 185 (part 73 stair_tower_8) / vis 186 (part 73 stair_tower_8) face zmax at 17.000, overlap 0.08 m2 (same colour)
+elevator vis 243 (part 89 conveyor_gallery_24) / vis 244 (part 89 conveyor_gallery_24) face zmin at -14.600, overlap 1.68 m2
+elevator vis 243 (part 89 conveyor_gallery_24) / vis 244 (part 89 conveyor_gallery_24) face zmax at 9.400, overlap 1.68 m2
+elevator vis 245 (part 89 conveyor_gallery_24) / vis 247 (part 89 conveyor_gallery_24) face xmin at -25.900, overlap 0.06 m2 (same colour)
+elevator vis 245 (part 89 conveyor_gallery_24) / vis 247 (part 89 conveyor_gallery_24) face zmin at -11.600, overlap 0.06 m2 (same colour)
+elevator vis 245 (part 89 conveyor_gallery_24) / vis 247 (part 89 conveyor_gallery_24) face zmax at -11.300, overlap 0.06 m2 (same colour)
+elevator vis 245 (part 89 conveyor_gallery_24) / vis 248 (part 89 conveyor_gallery_24) face xmin at -25.900, overlap 0.06 m2 (same colour)
+elevator vis 245 (part 89 conveyor_gallery_24) / vis 248 (part 89 conveyor_gallery_24) face zmin at -11.600, overlap 0.06 m2 (same colour)
+elevator vis 245 (part 89 conveyor_gallery_24) / vis 248 (part 89 conveyor_gallery_24) face zmax at -11.300, overlap 0.06 m2 (same colour)
+elevator vis 246 (part 89 conveyor_gallery_24) / vis 247 (part 89 conveyor_gallery_24) face xmax at -23.500, overlap 0.06 m2 (same colour)
+elevator vis 246 (part 89 conveyor_gallery_24) / vis 247 (part 89 conveyor_gallery_24) face zmin at -11.600, overlap 0.06 m2 (same colour)
+elevator vis 246 (part 89 conveyor_gallery_24) / vis 247 (part 89 conveyor_gallery_24) face zmax at -11.300, overlap 0.06 m2 (same colour)
+elevator vis 246 (part 89 conveyor_gallery_24) / vis 248 (part 89 conveyor_gallery_24) face xmax at -23.500, overlap 0.06 m2 (same colour)
+elevator vis 246 (part 89 conveyor_gallery_24) / vis 248 (part 89 conveyor_gallery_24) face zmin at -11.600, overlap 0.06 m2 (same colour)
+elevator vis 246 (part 89 conveyor_gallery_24) / vis 248 (part 89 conveyor_gallery_24) face zmax at -11.300, overlap 0.06 m2 (same colour)
+elevator vis 249 (part 89 conveyor_gallery_24) / vis 251 (part 89 conveyor_gallery_24) face xmin at -25.900, overlap 0.06 m2 (same colour)
+elevator vis 249 (part 89 conveyor_gallery_24) / vis 251 (part 89 conveyor_gallery_24) face zmin at 0.400, overlap 0.06 m2 (same colour)
+elevator vis 249 (part 89 conveyor_gallery_24) / vis 251 (part 89 conveyor_gallery_24) face zmax at 0.700, overlap 0.06 m2 (same colour)
+elevator vis 249 (part 89 conveyor_gallery_24) / vis 252 (part 89 conveyor_gallery_24) face xmin at -25.900, overlap 0.06 m2 (same colour)
+elevator vis 249 (part 89 conveyor_gallery_24) / vis 252 (part 89 conveyor_gallery_24) face zmin at 0.400, overlap 0.06 m2 (same colour)
+elevator vis 249 (part 89 conveyor_gallery_24) / vis 252 (part 89 conveyor_gallery_24) face zmax at 0.700, overlap 0.06 m2 (same colour)
+elevator vis 250 (part 89 conveyor_gallery_24) / vis 251 (part 89 conveyor_gallery_24) face xmax at -23.500, overlap 0.06 m2 (same colour)
+elevator vis 250 (part 89 conveyor_gallery_24) / vis 251 (part 89 conveyor_gallery_24) face zmin at 0.400, overlap 0.06 m2 (same colour)
+elevator vis 250 (part 89 conveyor_gallery_24) / vis 251 (part 89 conveyor_gallery_24) face zmax at 0.700, overlap 0.06 m2 (same colour)
+elevator vis 250 (part 89 conveyor_gallery_24) / vis 252 (part 89 conveyor_gallery_24) face xmax at -23.500, overlap 0.06 m2 (same colour)
+elevator vis 250 (part 89 conveyor_gallery_24) / vis 252 (part 89 conveyor_gallery_24) face zmin at 0.400, overlap 0.06 m2 (same colour)
+elevator vis 250 (part 89 conveyor_gallery_24) / vis 252 (part 89 conveyor_gallery_24) face zmax at 0.700, overlap 0.06 m2 (same colour)
+elevator vis 329 (part 97 hopper_wagon) / vis 332 (part 97 hopper_wagon) face ymax at 1.200, overlap 1.68 m2
+elevator vis 330 (part 97 hopper_wagon) / vis 333 (part 97 hopper_wagon) face ymax at 1.200, overlap 1.68 m2
+elevator vis 340 (part 98 hopper_wagon) / vis 343 (part 98 hopper_wagon) face ymax at 1.200, overlap 1.68 m2
+elevator vis 341 (part 98 hopper_wagon) / vis 344 (part 98 hopper_wagon) face ymax at 1.200, overlap 1.68 m2
+elevator: 437 vis boxes, 56 coplanar same-facing overlaps

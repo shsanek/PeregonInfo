@@ -1,0 +1,42 @@
+AFTER (new truck V8, fx, limiter): session.wav, 51.7 s, overall peak -5.99 dBFS, samples at full scale 0
+  key in / ON (clicks)                 1.20-  2.60 s  peak  -24.6 dBFS  rms  -55.6 dBFS
+  starter cranking                     3.30-  4.05 s  peak  -22.2 dBFS  rms  -32.7 dBFS
+  catch + flare                        4.05-  5.50 s  peak  -17.4 dBFS  rms  -29.9 dBFS
+  idle in cab                          6.00- 11.60 s  peak  -17.9 dBFS  rms  -31.2 dBFS
+  full-throttle pull, gear 1          12.00- 14.50 s  peak   -6.0 dBFS  rms  -20.1 dBFS
+  upshift 1->2                        14.50- 15.00 s  peak   -8.5 dBFS  rms  -21.4 dBFS
+  pull in gear 2 + downshift          15.00- 21.60 s  peak   -6.0 dBFS  rms  -19.5 dBFS
+  coast off-load                      21.70- 23.60 s  peak  -12.1 dBFS  rms  -33.6 dBFS
+  brake / reverse                     23.70- 31.60 s  peak   -7.1 dBFS  rms  -20.9 dBFS
+  brake -> throttle (reverse->1)      31.60- 35.00 s  peak   -7.3 dBFS  rms  -22.4 dBFS
+  brake to stop                       36.00- 40.00 s  peak  -13.4 dBFS  rms  -31.2 dBFS
+  door open                           40.50- 42.00 s  peak  -13.1 dBFS  rms  -30.9 dBFS
+  door close (slam)                   42.90- 44.00 s  peak   -7.1 dBFS  rms  -24.7 dBFS
+  window down / up                    45.00- 49.00 s  peak  -17.6 dBFS  rms  -31.3 dBFS
+  key OFF, spin-down                  49.40- 51.60 s  peak  -19.4 dBFS  rms  -42.4 dBFS
+
+OLD ENGINE SYNTH on the same session (for comparison): session.wav, 51.7 s, overall peak -5.63 dBFS, samples at full scale 0
+  key in / ON (clicks)                 1.20-  2.60 s  peak  -24.6 dBFS  rms  -55.6 dBFS
+  starter cranking                     3.30-  4.05 s  peak  -28.8 dBFS  rms  -58.0 dBFS
+  catch + flare                        4.05-  5.50 s  peak  -17.9 dBFS  rms  -28.9 dBFS
+  idle in cab                          6.00- 11.60 s  peak  -18.0 dBFS  rms  -29.1 dBFS
+  full-throttle pull, gear 1          12.00- 14.50 s  peak   -7.6 dBFS  rms  -20.0 dBFS
+  upshift 1->2                        14.50- 15.00 s  peak   -8.5 dBFS  rms  -21.1 dBFS
+  pull in gear 2 + downshift          15.00- 21.60 s  peak   -7.1 dBFS  rms  -19.8 dBFS
+  coast off-load                      21.70- 23.60 s  peak  -13.1 dBFS  rms  -26.6 dBFS
+  brake / reverse                     23.70- 31.60 s  peak   -8.5 dBFS  rms  -20.8 dBFS
+  brake -> throttle (reverse->1)      31.60- 35.00 s  peak   -7.0 dBFS  rms  -22.2 dBFS
+  brake to stop                       36.00- 40.00 s  peak  -12.6 dBFS  rms  -28.8 dBFS
+  door open                           40.50- 42.00 s  peak  -14.9 dBFS  rms  -28.9 dBFS
+  door close (slam)                   42.90- 44.00 s  peak   -5.6 dBFS  rms  -24.0 dBFS
+  window down / up                    45.00- 49.00 s  peak  -18.0 dBFS  rms  -28.9 dBFS
+  key OFF, spin-down                  49.40- 51.60 s  peak  -18.0 dBFS  rms  -42.5 dBFS
+
+OFFLINE SYNTH PROFILE (audio_bench --wav): sweep.wav, 29.0 s, overall peak -5.53 dBFS, samples at full scale 0
+  crank                                0.30-  1.50 s  peak  -23.3 dBFS  rms  -33.5 dBFS
+  idle                                 2.20-  5.00 s  peak  -18.5 dBFS  rms  -32.1 dBFS
+  free revs                            5.00-  8.00 s  peak  -14.9 dBFS  rms  -27.2 dBFS
+  pull gears 1-4 with shifts           8.00- 20.00 s  peak   -9.8 dBFS  rms  -21.3 dBFS
+  overrun                             20.00- 24.00 s  peak  -14.6 dBFS  rms  -36.4 dBFS
+  doors                               24.40- 27.00 s  peak   -5.5 dBFS  rms  -26.3 dBFS
+  stop                                27.00- 29.00 s  peak  -21.6 dBFS  rms  -44.2 dBFS

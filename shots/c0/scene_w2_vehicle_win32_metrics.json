@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scene": "scene_w2_vehicle",
+  "seed": 7,
+  "ticks": 600,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "rhi": null,
+  "replay": null,
+  "wall_time_ms": 173.763,
+  "frame_time_ms": {"avg": 0.287, "min": 0.163, "max": 35.315},
+  "final_state_hash": "4a62cf90",
+  "captures": [
+    {"tick": 0, "state_hash": "74342bcc", "image_hash": "b9d660da", "width": 320, "height": 240, "file": "tick_000000.bmp"},
+    {"tick": 300, "state_hash": "34b364ab", "image_hash": "b9d660da", "width": 320, "height": 240, "file": "tick_000300.bmp"},
+    {"tick": 600, "state_hash": "4a62cf90", "image_hash": "b9d660da", "width": 320, "height": 240, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": {"stream": "W2", "scenario": "free", "content_hash": "0x3771e36b", "vehicle_hash64": "0x9d6a321ba2e4e63a", "loadout": {"engine": 1, "suspension": 1, "tires": 1, "armor": 1}, "mass_kg": 1400.000, "power_hp": 110, "max_speed_kmh": 140, "clearance_mm": 180, "design_0_100_s": 12.000, "durability": 400.000, "durability_max": 400, "wear": [0.000, 0.000, 0.000, 0.000], "gear": 1, "accel_0_100_s": null, "top_speed_kmh": 0.000, "max_z_m": 0.000, "distance_m": 0.000, "stuck_time_s": 0.000, "stuck_events": 0, "belly_ticks": 0, "mud_passed": null, "ram_events": 0, "wall_hits": 0, "damage_dealt": 0.000, "max_ram_damage": 0.000, "max_ram_kmh": 0, "damage_taken": 0.000, "bus": {"published": 1, "delivered": 1, "dropped": 0, "damage": 0, "stuck": 0, "stats": 1}, "bodies": 16, "render_path": "map-fallback", "chassis": {"source": "embedded", "reloads": 0, "ride_height_m": 0.300, "travel_m": 0.270, "wheel_body_gap_m": 0.050, "tire_width_m": 0.260}, "rhi_errors": 0},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

@@ -1,0 +1,24 @@
+{
+  "scene": "scene_s1_surfaces",
+  "run": "003",
+  "date": "2026-10-07T15:33:25Z",
+  "commit": "180fbf8786",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "1",
+    "--ticks",
+    "600",
+    "--capture",
+    "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
+    "--render-captures"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9"
+    ]
+  }
+}

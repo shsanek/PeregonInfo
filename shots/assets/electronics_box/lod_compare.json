@@ -1,0 +1,31 @@
+{
+ "asset": "electronics_box",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1964677
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 12
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 12
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.902,
+   "side": 0.8774,
+   "q34": 0.8824,
+   "top": 0.914
+  },
+  "LOD1 (after)": {
+   "front": 0.902,
+   "side": 0.8774,
+   "q34": 0.8824,
+   "top": 0.914
+  }
+ }
+}

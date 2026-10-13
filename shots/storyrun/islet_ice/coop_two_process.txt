@@ -1,0 +1,19 @@
+tools/net/world_loopback.sh 2 --replay build/storyrun_shots/idle.txt --ticks 4800 --join-at 900 --client-bot person:kolya:fish --out build/net-world/islet_coop -- --start "sq:r3_islet:haul:kolya:1100:flag.r3_islet_found:flag.r3_islet_help"
+world loopback: 2 instances, host ticks 4800, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (155 chunks), 0.01 MB on the wire, 0.7 s, complete at tick 1080 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 6 ms, max 7 ms
+host: layer stream after join: avg 11.9 KB/s, max 13.8 KB/s (cap 48); wire avg 48.4 KB/s, max 56.4 KB/s; collect max 3.45 ms  PASS
+p1: bot person:kolya:fish, participant True, moved 0.0 m  PASS
+p1: joined at host tick 1080 in 0.7 s, 0.01 MB of frames, 74 chunks, first check equal, apply max 4.5 ms
+p1: 63 complete checks, 63 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":2610
+"what":"person_screen","tick":2610,"holder":255
+"what":"person_topic","tick":2700,"ok":1
+"what":"person_press","tick":2610
+"r3_islet": {"status": 1, "stage": "haul"}
+"r3_islet": {"status": 1, "stage": "haul"}
+"r3_islet_pallet:7@273~273,4900,711"
+"r3_islet_pallet:7@273~273,4900,711"
+"story": {"serial": 5, "hash": 898455651
+"story": {"serial": 5, "hash": 898455651

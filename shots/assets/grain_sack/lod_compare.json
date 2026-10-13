@@ -1,0 +1,31 @@
+{
+ "asset": "grain_sack",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1045629
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 999
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 399
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9932,
+   "side": 0.9943,
+   "q34": 0.9931,
+   "top": 0.9931
+  },
+  "LOD1 (after)": {
+   "front": 0.9759,
+   "side": 0.9806,
+   "q34": 0.9801,
+   "top": 0.9836
+  }
+ }
+}

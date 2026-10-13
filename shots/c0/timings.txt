@@ -1,0 +1,12 @@
+native contracts_tests release ms=371
+native content_check embedded release ms=248
+native content_check dir release ms=51
+executor contracts_tests.exe win32-release ms=9455
+executor content_check embedded win32-release ms=4751
+executor content_check dir win32-release ms=4556
+native contracts_tests debug ms=717
+native content_check embedded debug ms=262
+native content_check dir debug ms=50
+executor contracts_tests.exe win32-debug ms=10692
+executor content_check embedded win32-debug ms=711
+executor content_check dir win32-debug ms=714

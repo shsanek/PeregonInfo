@@ -1,0 +1,4 @@
+[suite] vehicle_tests
+    park brake on 10 % grade, 5 s: drift 0.3 mm asphalt, 0.2 mm dirt, 0.3 mm nose down (neutral, gear 0); without it rolls 18.16 m; holds up to 65 % asphalt, 30 % dirt
+[ OK ] park_brake_holds_on_grade
+[done] 1/1 passed, 5 checks

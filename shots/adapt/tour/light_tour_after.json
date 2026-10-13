@@ -1,0 +1,181 @@
+{
+ "face/night": {
+  "frame_ms_avg": 8.355,
+  "frames": 39,
+  "shot": "after_face_night.jpg",
+  "state_hash": "a0dcefe5",
+  "tick": 809
+ },
+ "face/noon": {
+  "frame_ms_avg": 9.136,
+  "frames": 139,
+  "shot": "after_face_noon.jpg",
+  "state_hash": "8f27394b",
+  "tick": 729
+ },
+ "face/sunset": {
+  "frame_ms_avg": 9.154,
+  "frames": 39,
+  "shot": "after_face_sunset.jpg",
+  "state_hash": "cb18489b",
+  "tick": 769
+ },
+ "face_profile/night": {
+  "frame_ms_avg": 8.902,
+  "frames": 39,
+  "shot": "after_face_profile_night.jpg",
+  "state_hash": "4e3eb3b1",
+  "tick": 1249
+ },
+ "face_profile/noon": {
+  "frame_ms_avg": 10.889,
+  "frames": 139,
+  "shot": "after_face_profile_noon.jpg",
+  "state_hash": "69639e86",
+  "tick": 1169
+ },
+ "face_profile/sunset": {
+  "frame_ms_avg": 10.757,
+  "frames": 39,
+  "shot": "after_face_profile_sunset.jpg",
+  "state_hash": "f8fd5148",
+  "tick": 1209
+ },
+ "face_q34/night": {
+  "frame_ms_avg": 8.41,
+  "frames": 39,
+  "shot": "after_face_q34_night.jpg",
+  "state_hash": "6ce04511",
+  "tick": 1029
+ },
+ "face_q34/noon": {
+  "frame_ms_avg": 9.421,
+  "frames": 139,
+  "shot": "after_face_q34_noon.jpg",
+  "state_hash": "7faf3d8d",
+  "tick": 949
+ },
+ "face_q34/sunset": {
+  "frame_ms_avg": 9.428,
+  "frames": 39,
+  "shot": "after_face_q34_sunset.jpg",
+  "state_hash": "9d8642f8",
+  "tick": 989
+ },
+ "front/night": {
+  "frame_ms_avg": 8.501,
+  "frames": 39,
+  "shot": "after_front_night.jpg",
+  "state_hash": "d9521407",
+  "tick": 369
+ },
+ "front/noon": {
+  "frame_ms_avg": 13.461,
+  "frames": 139,
+  "shot": "after_front_noon.jpg",
+  "state_hash": "c080502c",
+  "tick": 289
+ },
+ "front/sunset": {
+  "frame_ms_avg": 9.375,
+  "frames": 39,
+  "shot": "after_front_sunset.jpg",
+  "state_hash": "112c4a34",
+  "tick": 329
+ },
+ "q34/night": {
+  "frame_ms_avg": 8.544,
+  "frames": 39,
+  "shot": "after_q34_night.jpg",
+  "state_hash": "9b37dd1f",
+  "tick": 589
+ },
+ "q34/noon": {
+  "frame_ms_avg": 9.569,
+  "frames": 139,
+  "shot": "after_q34_noon.jpg",
+  "state_hash": "a5ab5863",
+  "tick": 509
+ },
+ "q34/sunset": {
+  "frame_ms_avg": 9.543,
+  "frames": 39,
+  "shot": "after_q34_sunset.jpg",
+  "state_hash": "e5a815c1",
+  "tick": 549
+ },
+ "run": {
+  "final_state_hash": "a4168ff4",
+  "frame_time_ms": {
+   "avg": 16.886,
+   "max": 4431.551,
+   "min": 7.17
+  },
+  "launches": 1,
+  "ticks": 1911,
+  "wall_time_ms": 32274.061
+ },
+ "talk/night": {
+  "frame_ms_avg": 8.525,
+  "frames": 39,
+  "shot": "after_talk_night.jpg",
+  "state_hash": "9885a439",
+  "tick": 1469
+ },
+ "talk/noon": {
+  "frame_ms_avg": 9.697,
+  "frames": 139,
+  "shot": "after_talk_noon.jpg",
+  "state_hash": "96a6dc39",
+  "tick": 1389
+ },
+ "talk/sunset": {
+  "frame_ms_avg": 9.74,
+  "frames": 39,
+  "shot": "after_talk_sunset.jpg",
+  "state_hash": "9d6742f1",
+  "tick": 1429
+ },
+ "walk/night": {
+  "frame_ms_avg": 9.251,
+  "frames": 39,
+  "shot": "after_walk_night.jpg",
+  "state_hash": "1fd648b4",
+  "tick": 1909
+ },
+ "walk/noon": {
+  "frame_ms_avg": 11.003,
+  "frames": 139,
+  "shot": "after_walk_noon.jpg",
+  "state_hash": "9a71edcb",
+  "tick": 1829
+ },
+ "walk/sunset": {
+  "frame_ms_avg": 10.963,
+  "frames": 39,
+  "shot": "after_walk_sunset.jpg",
+  "state_hash": "df0f9310",
+  "tick": 1869
+ },
+ "yard/night": {
+  "frame_ms_avg": 8.708,
+  "frames": 39,
+  "shot": "after_yard_night.jpg",
+  "state_hash": "5adc43cf",
+  "tick": 1689
+ },
+ "yard/noon": {
+  "frame_ms_avg": 10.316,
+  "frames": 139,
+  "shot": "after_yard_noon.jpg",
+  "state_hash": "1536146f",
+  "tick": 1609
+ },
+ "yard/sunset": {
+  "frame_ms_avg": 10.279,
+  "frames": 39,
+  "shot": "after_yard_sunset.jpg",
+  "state_hash": "4ad439f6",
+  "tick": 1649
+ }
+}

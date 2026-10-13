@@ -1,0 +1,4 @@
+native ui_tests release rc=0
+executor ui_tests.exe release rc=0
+native ui_tests debug rc=0
+executor ui_tests.exe debug rc=0

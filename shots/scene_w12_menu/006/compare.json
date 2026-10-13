@@ -1,0 +1,41 @@
+{
+  "status": "identical",
+  "scene": "scene_w12_menu",
+  "seed": 2,
+  "ticks": {
+    "native": 40,
+    "win32": 40
+  },
+  "final_state_hash": {
+    "native": "25a13214",
+    "win32": "25a13214",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 36,
+      "state_hash": {
+        "native": "fd5e01cf",
+        "win32": "fd5e01cf"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "e16a1a4e",
+        "win32": "e16a1a4e"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "59a11494cf977e3d98bc89532b1df5dc767963c6756d76cab42f4b49985ea463",
+        "win32": "59a11494cf977e3d98bc89532b1df5dc767963c6756d76cab42f4b49985ea463"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_000036.jpg",
+        "win32": "win32/tick_000036.jpg"
+      },
+      "status": "identical"
+    }
+  ]
+}

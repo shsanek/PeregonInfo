@@ -1,0 +1,77 @@
+{
+  "seat_front_world_x_m": -1.1401666402816772,
+  "gear_lever": {
+    "poses_checked": 6461,
+    "seat_separation_lower_bound_m": 0.0748251143115175,
+    "continuous_between_samples_bound_m": 0.001670086084066626,
+    "pivot": [
+      -0.8880407810211182,
+      0.05999999865889549,
+      0.925000011920929
+    ]
+  },
+  "HERO_interior_fittings_transfer": {
+    "poses_checked": 181,
+    "seat_separation_lower_bound_m": 0.07426147671494299,
+    "continuous_between_samples_bound_m": 0.0002970346614379871,
+    "pivot": [
+      -0.8700000047683716,
+      -0.05999999865889549,
+      0.9249999523162842
+    ]
+  },
+  "doors": {
+    "door.L": {
+      "z": [
+        0.6269999742507935,
+        1.8149999380111694
+      ],
+      "open_deg": -65.00000067042492
+    },
+    "door.R": {
+      "z": [
+        0.6269999742507935,
+        1.8149999380111694
+      ],
+      "open_deg": 65.00000067042492
+    },
+    "door.rear.L": {
+      "z": [
+        0.6269999742507935,
+        1.815000057220459
+      ],
+      "open_deg": -65.00000067042492
+    },
+    "door.rear.R": {
+      "z": [
+        0.6269999742507935,
+        1.815000057220459
+      ],
+      "open_deg": 65.00000067042492
+    }
+  },
+  "sills": {
+    "HERO_sills": [
+      0.5640000104904175,
+      0.6230000257492065
+    ],
+    "crew_rear_step.L": [
+      0.5640000104904175,
+      0.6230000257492065
+    ],
+    "crew_rear_step.R": [
+      0.5640000104904175,
+      0.6230000257492065
+    ]
+  },
+  "rear_base_y_m": 0.6600000262260437,
+  "preserved": {
+    "floor_unchanged": true,
+    "front_upholstery_unchanged": true,
+    "chassis_unchanged": true,
+    "powertrain_unchanged": true,
+    "bed_unchanged": true,
+    "crew_rear_locker_lid.L_unchanged": true,
+    "crew_rear_locker_lid.R_unchanged": true
+  }
+}

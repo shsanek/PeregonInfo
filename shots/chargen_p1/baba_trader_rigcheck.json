@@ -1,0 +1,149 @@
+{
+ "clip_checks": {
+  "idle": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 150,
+   "hand_inside_depth_mm": -28.9,
+   "hand_inside_frames": 27,
+   "hand_inside_verts_max": 3,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 29.4,
+   "knee_flex_min_deg": 18.5,
+   "planted_slide_mm": 0.0
+  },
+  "talk": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 120,
+   "hand_inside_depth_mm": -22.8,
+   "hand_inside_frames": 1,
+   "hand_inside_verts_max": 2,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 46.5,
+   "knee_flex_min_deg": 10.6,
+   "planted_slide_mm": 0.0
+  },
+  "turn_l45": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 27,
+   "hand_inside_depth_mm": -17.9,
+   "hand_inside_frames": 6,
+   "hand_inside_verts_max": 1,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 39.5,
+   "knee_flex_min_deg": 10.6
+  },
+  "turn_l90": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 36,
+   "hand_inside_depth_mm": -12.4,
+   "hand_inside_frames": 5,
+   "hand_inside_verts_max": 2,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 42.2,
+   "knee_flex_min_deg": 10.6
+  },
+  "turn_r45": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 27,
+   "hand_inside_depth_mm": -25.7,
+   "hand_inside_frames": 7,
+   "hand_inside_verts_max": 2,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 39.5,
+   "knee_flex_min_deg": 10.6
+  },
+  "turn_r90": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 36,
+   "hand_inside_depth_mm": -11.4,
+   "hand_inside_frames": 6,
+   "hand_inside_verts_max": 2,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 38.2,
+   "knee_flex_min_deg": 10.6
+  },
+  "use_tool": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 60,
+   "hand_inside_depth_mm": 0.0,
+   "hand_inside_frames": 0,
+   "hand_inside_verts_max": 0,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 42.2,
+   "knee_flex_min_deg": 10.6,
+   "planted_slide_mm": 0.0
+  },
+  "walk": {
+   "ankle_below_rest_mm": -0.0,
+   "frames": 38,
+   "hand_inside_depth_mm": -28.1,
+   "hand_inside_frames": 18,
+   "hand_inside_verts_max": 13,
+   "knee_bad_frames": 0,
+   "knee_flex_max_deg": 65.7,
+   "knee_flex_min_deg": 2.0,
+   "period_s": 1.267,
+   "stance_speed_mps": 0.5,
+   "stance_speed_std": 0.0
+  }
+ },
+ "joint_checks": {
+  "elbow_120": {
+   "collapsed_verts": 24,
+   "radius_p5_ratio": 0.264,
+   "verts": 189,
+   "volume_loss_pct": 39.0
+  },
+  "elbow_90": {
+   "collapsed_verts": 13,
+   "radius_p5_ratio": 0.418,
+   "verts": 189,
+   "volume_loss_pct": 27.2
+  },
+  "forearm_twist_90": {
+   "collapsed_verts": 0,
+   "radius_p5_ratio": 0.727,
+   "verts": 112,
+   "volume_loss_pct": 15.8
+  },
+  "hip_flex_90": {
+   "collapsed_verts": 5,
+   "radius_p5_ratio": 0.446,
+   "verts": 74,
+   "volume_loss_pct": 19.9
+  },
+  "knee_120": {
+   "collapsed_verts": 3,
+   "radius_p5_ratio": 0.363,
+   "verts": 17,
+   "volume_loss_pct": 26.8
+  },
+  "knee_60": {
+   "collapsed_verts": 2,
+   "radius_p5_ratio": 0.394,
+   "verts": 17,
+   "volume_loss_pct": 18.0
+  },
+  "shoulder_raise_90": {
+   "collapsed_verts": 0,
+   "radius_p5_ratio": 0.715,
+   "verts": 95,
+   "volume_loss_pct": 15.9
+  },
+  "spine_twist_30": {
+   "collapsed_verts": 0,
+   "radius_p5_ratio": 0.981,
+   "verts": 82,
+   "volume_loss_pct": 1.1
+  }
+ },
+ "skeleton": {
+  "bones": 44,
+  "deform": 43
+ },
+ "weights": {
+  "over4": 0,
+  "verts": 3883,
+  "weight_sum_off": 0
+ }
+}

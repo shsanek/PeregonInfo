@@ -1,0 +1,615 @@
+{
+  "file": "/Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/assets/truck_wb/stage38_base_inset_baked.blend",
+  "door_sweeps": {
+    "L": [
+      {
+        "degrees": 0.0,
+        "contacts": []
+      },
+      {
+        "degrees": 3.75,
+        "contacts": []
+      },
+      {
+        "degrees": 7.5,
+        "contacts": []
+      },
+      {
+        "degrees": 11.25,
+        "contacts": []
+      },
+      {
+        "degrees": 15.0,
+        "contacts": []
+      },
+      {
+        "degrees": 18.75,
+        "contacts": []
+      },
+      {
+        "degrees": 22.5,
+        "contacts": []
+      },
+      {
+        "degrees": 26.25,
+        "contacts": []
+      },
+      {
+        "degrees": 30.0,
+        "contacts": []
+      },
+      {
+        "degrees": 33.75,
+        "contacts": []
+      },
+      {
+        "degrees": 37.5,
+        "contacts": []
+      },
+      {
+        "degrees": 41.25,
+        "contacts": []
+      },
+      {
+        "degrees": 45.0,
+        "contacts": []
+      },
+      {
+        "degrees": 48.75,
+        "contacts": []
+      },
+      {
+        "degrees": 52.5,
+        "contacts": []
+      },
+      {
+        "degrees": 56.25,
+        "contacts": []
+      },
+      {
+        "degrees": 60.0,
+        "contacts": []
+      },
+      {
+        "degrees": 63.75,
+        "contacts": []
+      },
+      {
+        "degrees": 67.5,
+        "contacts": []
+      },
+      {
+        "degrees": 71.25,
+        "contacts": []
+      },
+      {
+        "degrees": 75.0,
+        "contacts": []
+      },
+      {
+        "degrees": 78.75,
+        "contacts": []
+      },
+      {
+        "degrees": 82.5,
+        "contacts": []
+      },
+      {
+        "degrees": 86.25,
+        "contacts": []
+      },
+      {
+        "degrees": 90.0,
+        "contacts": []
+      }
+    ],
+    "R": [
+      {
+        "degrees": 0.0,
+        "contacts": []
+      },
+      {
+        "degrees": 3.75,
+        "contacts": []
+      },
+      {
+        "degrees": 7.5,
+        "contacts": []
+      },
+      {
+        "degrees": 11.25,
+        "contacts": []
+      },
+      {
+        "degrees": 15.0,
+        "contacts": []
+      },
+      {
+        "degrees": 18.75,
+        "contacts": []
+      },
+      {
+        "degrees": 22.5,
+        "contacts": []
+      },
+      {
+        "degrees": 26.25,
+        "contacts": []
+      },
+      {
+        "degrees": 30.0,
+        "contacts": []
+      },
+      {
+        "degrees": 33.75,
+        "contacts": []
+      },
+      {
+        "degrees": 37.5,
+        "contacts": []
+      },
+      {
+        "degrees": 41.25,
+        "contacts": []
+      },
+      {
+        "degrees": 45.0,
+        "contacts": []
+      },
+      {
+        "degrees": 48.75,
+        "contacts": []
+      },
+      {
+        "degrees": 52.5,
+        "contacts": []
+      },
+      {
+        "degrees": 56.25,
+        "contacts": []
+      },
+      {
+        "degrees": 60.0,
+        "contacts": []
+      },
+      {
+        "degrees": 63.75,
+        "contacts": []
+      },
+      {
+        "degrees": 67.5,
+        "contacts": []
+      },
+      {
+        "degrees": 71.25,
+        "contacts": []
+      },
+      {
+        "degrees": 75.0,
+        "contacts": []
+      },
+      {
+        "degrees": 78.75,
+        "contacts": []
+      },
+      {
+        "degrees": 82.5,
+        "contacts": []
+      },
+      {
+        "degrees": 86.25,
+        "contacts": []
+      },
+      {
+        "degrees": 90.0,
+        "contacts": []
+      }
+    ]
+  },
+  "lid_sweep": [
+    {
+      "side": "L",
+      "degrees": 0.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 3.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 7.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 11.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 15.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 18.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 22.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 26.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 30.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 33.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 37.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 41.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 45.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 48.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 52.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 56.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 60.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 63.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 67.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 71.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 75.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 78.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 82.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 86.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": "L",
+      "degrees": 90.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 0.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 3.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 7.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 11.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 15.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 18.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 22.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 26.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 30.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 33.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 37.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 41.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 45.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 48.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 52.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 56.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 60.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 63.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 67.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 71.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 75.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 78.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 82.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 86.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    },
+    {
+      "side": ".R",
+      "degrees": 90.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_HERO_sills": 0
+      }
+    }
+  ],
+  "handles": [
+    "GAME_HERO_door_handle.L",
+    "GAME_HERO_door_handle.R"
+  ]
+}

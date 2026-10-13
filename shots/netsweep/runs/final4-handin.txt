@@ -1,0 +1,31 @@
+LOG line 6 host contract: 61192713
+LOG line 7 host coupons: 0
+LOG line 8 host stop: 1
+LOG line 13 host prompt.1: E / LMB — talk to the contract board
+LOG line 26 host coupons: 350
+LOG line 6 p1 contract: 61192713
+LOG line 7 p1 coupons: 0
+LOG line 8 p1 stop: 1
+LOG line 13 p1 prompt.1: E / LMB — talk to the contract board
+LOG line 26 p1 coupons: 350
+LOG line 6 p2 contract: 61192713
+LOG line 7 p2 coupons: 0
+LOG line 8 p2 stop: 1
+LOG line 13 p2 prompt.1: na
+LOG line 26 p2 coupons: 350
+PASS line 9 JOB-11 contract == x: host=61192713 p1=61192713@1 p2=61192713
+PASS line 10 JOB-11 stop == x: host=1 p1=1@1 p2=1
+PASS line 15 UI-06 mode.1 = 4: host=4@9 p1=4@9 p2=na(x)
+PASS line 17 JOB-10 contract = -: host=-@9 p1=-@16 p2=-@15
+PASS line 18 JOB-10 coupons > $c0: host=350@9 p1=350@16 p2=350@15
+PASS line 19 JOB-10 coupons == x: host=0 p1=0 p2=0@2
+PASS line 23 UI-06 mode.1 = 2: host=2@10 p1=2@2 p2=na(x)
+PASS line 24 JOB-10 coupons = $c1: host=350 p1=350 p2=350
+PASS line 25 JOB-10 coupons == x: host=350 p1=350 p2=350
+client layer checks: 60 equal, 0 differ
+acts 8, failed acts 0
+rows 3 pass 3 fail 0
+ROW JOB-10 PASS (5 checks)
+ROW JOB-11 PASS (2 checks)
+ROW UI-06 PASS (2 checks)
+RESULT PASS

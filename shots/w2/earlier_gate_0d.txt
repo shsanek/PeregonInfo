@@ -1,0 +1,69 @@
+ok   imports win32-release
+ok   imports win32-debug
+ok   rhi_d3d9_tests.exe in EXEcutor (release)
+     PASS caps
+     PASS clear_readback
+     PASS vertex_color_scissor_orientation
+     PASS texel_mapping_ff_halfpixel
+     PASS texel_mapping_sm2_halfpixel
+     PASS bilinear_subpixel_ff
+     PASS bilinear_subpixel_sm2
+     PASS dxt1_dxt5_upload
+     PASS mip_upload_selection
+     PASS ff_lighting_directional
+     PASS ff_table_fog_linear
+     PASS sm2_vertex_lit_fog
+     PASS render_to_texture_depth_target
+     PASS blend_alpha_test_write_mask_viewport
+     PASS dynamic_discard_nooverwrite_index32
+     PASS validation_passthrough
+     PASS resize
+     PASS live_object_counts
+     PASS force_fixed_function_device
+     checks=375 failed_tests=0
+ok   rhi_d3d9_tests.exe in EXEcutor (debug)
+ok   rhi_tests native (null validation-only hook)
+ok   g0_cube: d3d9 in EXEcutor vs rhi_null reference within 2 LSB on >= 99.5%
+     compare: within_tolerance (tolerance 2 LSB, min 99.50%, 3 captures, final hash equal)
+     compare: tick 0 max_diff(rgb)=[16, 12, 4] diff=17.251% within_tol=97.057% within_tol_edges=99.990% within_tolerance
+     compare: tick 30 max_diff(rgb)=[44, 32, 15] diff=19.491% within_tol=94.380% within_tol_edges=99.990% within_tolerance
+     compare: tick 60 max_diff(rgb)=[33, 25, 11] diff=18.919% within_tol=95.470% within_tol_edges=99.988% within_tolerance
+     run: reports/shots/scene_g0_cube/039
+ok   g0_cube: win32 backend=d3d9 path=sm2 rhi errors=0
+ok   rhi_cube_sm2: d3d9 in EXEcutor vs rhi_null reference within 2 LSB on >= 99.5%
+     compare: within_tolerance (tolerance 2 LSB, min 99.50%, 1 captures, final hash equal)
+     compare: tick 2 max_diff(rgb)=[57, 61, 50] diff=9.943% within_tol=95.066% within_tol_edges=99.848% within_tolerance
+     run: reports/shots/scene_rhi_cube/031
+ok   rhi_cube_sm2: win32 backend=d3d9 path=sm2 rhi errors=0
+ok   rhi_cube_ff: d3d9 in EXEcutor vs rhi_null reference within 2 LSB on >= 99.5%
+     compare: within_tolerance (tolerance 2 LSB, min 99.50%, 1 captures, final hash equal)
+     compare: tick 2 max_diff(rgb)=[57, 61, 50] diff=9.889% within_tol=95.121% within_tol_edges=99.848% within_tolerance
+     run: reports/shots/scene_rhi_cube/032
+ok   rhi_cube_ff: win32 backend=d3d9 path=fixed-function rhi errors=0
+ok   g0_cube_ff: d3d9 in EXEcutor vs rhi_null reference within 2 LSB on >= 99.5%
+     compare: within_tolerance (tolerance 2 LSB, min 99.50%, 1 captures, final hash equal)
+     compare: tick 60 max_diff(rgb)=[33, 25, 11] diff=18.982% within_tol=95.481% within_tol_edges=99.991% within_tolerance
+     run: reports/shots/scene_g0_cube/040
+ok   g0_cube_ff: win32 backend=d3d9 path=fixed-function rhi errors=0
+ok   scene_g0_cube rhi_null native == rhi_null EXEcutor (byte identical)
+ok   earlier gate 0a PASS
+ok   earlier gate 0c PASS
+ok   earlier gate 0f PASS
+ok   earlier gate 0g PASS
+     shot: 34_g0_cube_t0_reference.jpg
+     shot: 34_g0_cube_t30_diff.jpg
+     shot: 34_g0_cube_t30_executor.jpg
+     shot: 34_g0_cube_t30_reference.jpg
+     shot: 34_g0_cube_t60_diff.jpg
+     shot: 34_g0_cube_t60_executor.jpg
+     shot: 34_g0_cube_t60_reference.jpg
+     shot: 35_rhi_cube_sm2_t2_diff.jpg
+     shot: 35_rhi_cube_sm2_t2_executor.jpg
+     shot: 35_rhi_cube_sm2_t2_reference.jpg
+     shot: 36_rhi_cube_ff_t2_diff.jpg
+     shot: 36_rhi_cube_ff_t2_executor.jpg
+     shot: 36_rhi_cube_ff_t2_reference.jpg
+     shot: 37_g0_cube_ff_t60_diff.jpg
+     shot: 37_g0_cube_ff_t60_executor.jpg
+     shot: 37_g0_cube_ff_t60_reference.jpg
+GATE 0d PASS

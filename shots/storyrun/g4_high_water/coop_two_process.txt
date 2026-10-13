@@ -1,0 +1,17 @@
+tools/net/world_loopback.sh 2 --replay build/storyrun_shots/idle.txt --ticks 4800 --join-at 900 --client-bot person:gurov:readings -- --start "sq:s2_readings:report:gurov:0830:flag.s2_readings_1:flag.s2_readings_2:flag.s2_readings_3"
+world loopback: 2 instances, host ticks 4800, join at 900, sim 'off'
+host: join snapshot peer 1: 0.02 MB sent (169 chunks), 0.01 MB on the wire, 0.9 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 1 ms, max 1 ms
+host: layer stream after join: avg 7.3 KB/s, max 11.5 KB/s (cap 48); wire avg 44.2 KB/s, max 51.3 KB/s; collect max 0.43 ms  PASS
+p1: bot person:gurov:readings, participant True, moved 0.0 m  PASS
+p1: joined at host tick 1020 in 0.9 s, 0.02 MB of frames, 75 chunks, first check equal, apply max 3.1 ms
+p1: 64 complete checks, 64 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":2610
+"what":"person_screen","tick":2611,"holder":255
+"what":"person_topic","tick":2640,"ok":1
+"what":"person_press","tick":2610
+"s2_readings": {"status": 2, "stage": "report"}
+"s2_readings": {"status": 2, "stage": "report"}
+"story": {"serial": 14, "hash": 2111539279
+"story": {"serial": 14, "hash": 2111539279

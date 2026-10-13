@@ -1,0 +1,7 @@
+native rhi_tests rc=0
+native scene_rhi_cube rc=0
+native-debug scene_rhi_cube rc=0
+executor rhi_tests.exe win32-release rc=0
+executor scene_rhi_cube.exe win32-release rc=0
+executor rhi_tests.exe win32-debug rc=0
+executor scene_rhi_cube.exe win32-debug rc=0

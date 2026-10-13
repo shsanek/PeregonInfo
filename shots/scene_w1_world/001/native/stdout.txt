@@ -1,0 +1,5 @@
+scene=scene_w1_world seed=7 ticks=600 flavour=native
+capture tick=0 state=1d0482d2 image=963e8742 file=tick_000000.bmp
+capture tick=300 state=3a35a9b0 image=6c6ada9d file=tick_000300.bmp
+capture tick=600 state=c2992a8a image=f6c971e7 file=tick_000600.bmp
+final_state_hash=c2992a8a

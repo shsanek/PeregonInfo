@@ -1,0 +1,54 @@
+native vehicle_tests release rc=0
+executor vehicle_tests.exe release rc=0
+executor vehicle_tests.exe debug rc=0
+ok   vehicle_tests all passed in EXEcutor (equilibrium, energy, determinism goldens, 0-100, mud, ram, parts)
+ok   vehicle_tests stdout vehicle_tests_executor_release.txt == native release (bit-identical physics)
+ok   vehicle_tests stdout vehicle_tests_executor_debug.txt == native release (bit-identical physics)
+ok   EXEcutor re-records the scenario replays byte for byte (tools/replays/scene_w2_vehicle_*.prpl)
+ok   accel: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   accel: vehicle hash equals the recorder's final hash
+ok   mud_t1: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   mud_t1: vehicle hash equals the recorder's final hash
+ok   mud_t2: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   mud_t2: vehicle hash equals the recorder's final hash
+ok   ram: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   ram: vehicle hash equals the recorder's final hash
+ok   accel: 0-100 within 0.5 s of the design value (0.94 x mass / power)
+ok   mud_t1: T1 Kolymaga stuck in the mud pit (VEHICLE_STUCK, does not pass)
+ok   mud_t2: tyres + suspension T2 pass the mud pit
+ok   ram: DamageEvents emitted on the bus (crates and the wall), damage dealt > 0
+ok   run_scene accel win32 d3d9 (report captures)
+ok   run_scene accel win32 captures exist and are <= 300 KB
+ok   run_scene accel both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene accel compare.json identical
+ok   run_scene mud_t1 win32 d3d9 (report captures)
+ok   run_scene mud_t1 win32 captures exist and are <= 300 KB
+ok   run_scene mud_t1 both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene mud_t1 compare.json identical
+ok   run_scene mud_t2 win32 d3d9 (report captures)
+ok   run_scene mud_t2 win32 captures exist and are <= 300 KB
+ok   run_scene mud_t2 both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene mud_t2 compare.json identical
+ok   run_scene ram win32 d3d9 (report captures)
+ok   run_scene ram win32 captures exist and are <= 300 KB
+ok   run_scene ram both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene ram compare.json identical
+ok   RunGame present dump: w2_accel
+ok   RunGame present dump: w2_mud_t1
+ok   RunGame present dump: w2_mud_t2
+ok   RunGame present dump: w2_ram
+ok   present-dump JPGs <= 300 KB
+ok   report.py
+ok   progress.js untouched
+ok   earlier gate 0a still PASS
+ok   earlier gate 0b still PASS
+ok   earlier gate 0c still PASS
+ok   earlier gate 0d still PASS
+ok   earlier gate 0f still PASS
+ok   earlier gate 0g still PASS
+ok   earlier gate c0 still PASS
+ok   earlier gate w14a still PASS
+ok   earlier gate w10a still PASS
+ok   earlier gate g0 still PASS
+ok   earlier gate w1 still PASS
+GATE w2 PASS

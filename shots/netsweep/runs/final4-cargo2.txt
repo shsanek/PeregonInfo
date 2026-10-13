@@ -1,0 +1,63 @@
+LOG line 7 host gun.1: 2
+LOG line 11 host cargokg: 2
+LOG line 12 host comp.2: 17
+LOG line 16 host prompt.1: E / LMB — lift with both hands: Supply crate (too big for the rucksack)
+LOG line 17 host prompt.2: E / LMB — lift with both hands: Grain sack (too big for the rucksack)
+LOG line 24 host gun.1: 1
+LOG line 28 host prompt.2: E / LMB — lower the tailgate
+LOG line 32 host prompt.2: E / LMB — place in the bed · W + Space — climb into the bed
+LOG line 39 host prompt.1: E / LMB — place in the bed
+LOG line 43 host cargokg: 112
+LOG line 47 host comp.2: 20
+LOG line 7 p1 gun.1: 2
+LOG line 11 p1 cargokg: 2
+LOG line 12 p1 comp.2: 17
+LOG line 16 p1 prompt.1: E / LMB — lift with both hands: Supply crate (too big for the rucksack)
+LOG line 17 p1 prompt.2: na
+LOG line 24 p1 gun.1: 1
+LOG line 28 p1 prompt.2: na
+LOG line 32 p1 prompt.2: na
+LOG line 39 p1 prompt.1: E / LMB — place in the bed
+LOG line 43 p1 cargokg: 112
+LOG line 47 p1 comp.2: 20
+LOG line 7 p2 gun.1: 2
+LOG line 11 p2 cargokg: 2
+LOG line 12 p2 comp.2: 17
+LOG line 16 p2 prompt.1: na
+LOG line 17 p2 prompt.2: E / LMB — lift with both hands: Grain sack (too big for the rucksack)
+LOG line 24 p2 gun.1: 1
+LOG line 28 p2 prompt.2: E / LMB — lower the tailgate
+LOG line 32 p2 prompt.2: E / LMB — place in the bed · W + Space — climb into the bed
+LOG line 39 p2 prompt.1: na
+LOG line 43 p2 cargokg: 112
+LOG line 47 p2 comp.2: 20
+PASS line 8 CARGO-02 gun.1 = 2: host=2 p1=2@1 p2=2
+PASS line 13 CARGO-13 cargokg ~~ 2: host=2 p1=2@1 p2=2
+PASS line 20 CARGO-02 carry.1 = supply_crate: host=supply_crate@10 p1=supply_crate@10 p2=supply_crate@13
+PASS line 21 CARGO-02 carry.2 = grain_sack: host=grain_sack@11 p1=grain_sack@12 p2=grain_sack@11
+PASS line 22 CARGO-02 gun.1 != 2: host=1@10 p1=1@12 p2=1@13
+PASS line 23 CARGO-02 hand2.1 = -: host=- p1=- p2=-
+PASS line 30 CARGO-12 tailgate = 1: host=1@10 p1=1@12 p2=1@11
+PASS line 34 CARGO-03 bed.grain_sack >= 1: host=1@9 p1=1@15 p2=1@16
+PASS line 35 CARGO-03 carry.2 = -: host=-@9 p1=-@9 p2=-@9
+PASS line 41 CARGO-03 bed.supply_crate >= 1: host=1@9 p1=1@15 p2=1@15
+PASS line 42 CARGO-03 carry.1 = -: host=-@9 p1=-@9 p2=-@11
+PASS line 44 CARGO-13 cargokg >= $m0+100: host=112 p1=112 p2=112
+PASS line 45 CARGO-13 cargokg ~~ 2: host=112 p1=112 p2=112
+PASS line 46 DRIVE-11 cargokg ~~ 2: host=112 p1=112 p2=112
+PASS line 48 DRIVE-11 comp.2 > $c0: host=20 p1=20 p2=20
+PASS line 49 DRIVE-11 comp.2 ~~ 3: host=20 p1=20 p2=20
+PASS line 55 DRIVE-11 truck.x != $tx: host=575 p1=574 p2=574
+PASS line 56 DRIVE-11 truck.x ~~ 2: host=575 p1=574 p2=574
+PASS line 57 DRIVE-11 truck.z ~~ 2: host=1186 p1=1186 p2=1186
+PASS line 58 CARGO-13 bed.supply_crate >= 1: host=1 p1=1 p2=1
+PASS line 59 CARGO-13 bed.grain_sack >= 1: host=1 p1=1 p2=1
+client layer checks: 93 equal, 0 differ
+acts 24, failed acts 0
+rows 5 pass 5 fail 0
+ROW CARGO-02 PASS (5 checks)
+ROW CARGO-03 PASS (4 checks)
+ROW CARGO-12 PASS (1 checks)
+ROW CARGO-13 PASS (5 checks)
+ROW DRIVE-11 PASS (6 checks)
+RESULT PASS

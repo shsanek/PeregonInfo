@@ -1,0 +1,15 @@
+{
+ "LOD0": 6392,
+ "LOD1": 4000,
+ "LOD2": 1699,
+ "clips": {
+  "idle": 120,
+  "talk": 120
+ },
+ "bones": 43,
+ "classes": [
+  "skin",
+  "eye",
+  "cloth"
+ ]
+}

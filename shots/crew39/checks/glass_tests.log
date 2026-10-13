@@ -1,0 +1,20 @@
+[suite] glass_weather_tests
+[ OK ] weather_accumulates_gradually_and_survives_switch
+[ OK ] snow_persists_in_cold_and_melts_to_water_in_warmth
+[ OK ] blade_clears_only_its_progressive_swept_path
+[ OK ] wiper_parks_and_precipitation_reaccumulates
+[ OK ] wiper_power_loss_freezes_blade_and_preserves_progressive_clearing
+[ OK ] low_frame_rate_does_not_leave_gaps_in_the_sweep
+[ OK ] blade_rotation_matches_mesh_space_pivot_and_axis
+[ OK ] invalid_time_does_not_corrupt_glass
+[ OK ] transparent_glass_pass_on_validating_device
+[ OK ] dry_visual_maps_remain_cached_while_simulation_time_advances
+[ OK ] visual_relief_is_finer_than_coverage_grid_and_not_flat_tint
+[ OK ] large_drop_coalescence_spans_hash_cells_and_uses_physical_pane_aspect
+[ OK ] sustained_rain_keeps_small_beads_with_only_rare_large_running_drops
+[ OK ] airflow_changes_actual_drop_motion_and_panes_keep_their_own_water
+[ OK ] world_wind_has_longitudinal_flow_on_side_panes_while_parked
+[ OK ] high_resolution_snow_and_beads_follow_spatial_wipe_and_reaccumulate
+[ OK ] lowered_side_window_is_wiped_by_the_seal_and_comes_back_clean
+[done] 17/17 passed, 262316 checks
+rain drop radii: mean 1.36 px, over 3px 2.3%, max 4.50 px

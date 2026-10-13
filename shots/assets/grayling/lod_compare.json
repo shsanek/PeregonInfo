@@ -1,0 +1,31 @@
+{
+ "asset": "grayling",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 32730
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 900
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 360
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9604,
+   "side": 0.9879,
+   "q34": 0.9809,
+   "back34": 0.9818
+  },
+  "LOD1 (after)": {
+   "front": 0.9226,
+   "side": 0.9741,
+   "q34": 0.968,
+   "back34": 0.966
+  }
+ }
+}

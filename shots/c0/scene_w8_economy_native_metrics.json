@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scene": "scene_w8_economy",
+  "seed": 7,
+  "ticks": 600,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "rhi": null,
+  "replay": null,
+  "wall_time_ms": 1.734,
+  "frame_time_ms": {"avg": 0.002, "min": 0.000, "max": 0.929},
+  "final_state_hash": "040badc2",
+  "captures": [
+    {"tick": 0, "state_hash": "a5c3c1a4", "image_hash": "8181ec07", "width": 320, "height": 240, "file": "tick_000000.bmp"},
+    {"tick": 300, "state_hash": "fb2909fe", "image_hash": "8ebebcd2", "width": 320, "height": 240, "file": "tick_000300.bmp"},
+    {"tick": 600, "state_hash": "040badc2", "image_hash": "3db5ff8e", "width": 320, "height": 240, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": {"stream": "W8", "contracts_version": 2, "content_hash": "0x3771e36b", "bus": {"published": 20, "delivered": 20, "dropped": 0, "handler_calls": 20, "max_pending": 5, "stream_hash_hi": "0x5ed88034", "stream_hash_lo": "0x314aadc7"}, "policy": "balanced", "sim_seconds": 3732, "sim_hash": "0x769f1e4f", "rules_hash": "0xf58caec6", "coupons": 240, "parts": 11, "xp": 918, "rank": 3, "runs_completed": 3, "contracts_completed": 3, "income": 1173, "expenses": 318, "upgrades_spent": 600, "loot_left_value": 387, "purchases": ["17:04 armor T2", "29:00 engine T2"], "tiers": {"engine": 2, "suspension": 1, "tires": 1, "armor": 2}, "power_hp": 140, "durability": 550, "accel_0_100_s": 15.288, "dump": ["0:00 run 0 start coupons 0 parts 0 xp 0 bed 0 balanced", "3:00 run 1 brief coupons 0 parts 0 xp 0 bed 0 c1_empty_station", "6:26 run 1 drive coupons 0 parts 0 xp 0 bed 0 camp_gas_station 206s", "6:56 run 1 ambush coupons 0 parts 0 xp 0 bed 56 2 buggies", "6:56 run 1 deliver coupons 0 parts 0 xp 0 bed 56 ", "11:26 run 1 arena coupons 0 parts 0 xp 50 bed 56 gas_station", "12:26 run 1 loot coupons 0 parts 0 xp 50 bed 260 ", "16:04 run 1 drive coupons 0 parts 0 xp 50 bed 260 camp_gas_station 218s", "17:04 run 1 camp coupons 350 parts 5 xp 300 bed 0 c1_empty_station +310", "17:04 run 1 mechanic coupons 50 parts 3 xp 300 bed 0 bought armor_t2 saving_for engine_t2 (no_coupons)", "17:04 run 2 brief coupons 50 parts 3 xp 300 bed 0 c2_elevator_cargo", "19:54 run 2 drive coupons 50 parts 3 xp 300 bed 0 camp_elevator_long 170s", "23:54 run 2 arena coupons 50 parts 3 xp 350 bed 0 elevator", "24:54 run 2 loot coupons 50 parts 3 xp 350 bed 259 ", "28:00 run 2 drive coupons 50 parts 3 xp 350 bed 259 camp_elevator_long 186s", "29:00 run 2 camp coupons 443 parts 8 xp 608 bed 0 c2_elevator_cargo +270", "29:00 run 2 mechanic coupons 143 parts 6 xp 608 bed 0 bought engine_t2 saving_for tires_t2 (no_coupons)", "29:00 run 3 brief coupons 143 parts 6 xp 608 bed 0 c3_double_run", "32:07 run 3 drive coupons 143 parts 6 xp 608 bed 0 camp_gas_station 187s", "36:37 run 3 arena coupons 143 parts 6 xp 608 bed 0 gas_station", "37:37 run 3 loot coupons 143 parts 6 xp 608 bed 204 ", "40:10 run 3 drive coupons 143 parts 6 xp 608 bed 204 gas_station_elevator 153s", "44:10 run 3 arena coupons 143 parts 6 xp 608 bed 204 elevator", "45:10 run 3 loot coupons 143 parts 6 xp 608 bed 204 ", "48:04 run 3 drive coupons 143 parts 6 xp 608 bed 204 camp_elevator_long 174s", "48:34 run 3 ambush coupons 143 parts 6 xp 608 bed 204 3 buggies", "49:34 run 3 camp coupons 240 parts 11 xp 918 bed 0 c3_double_run +150", "49:34 run 3 mechanic coupons 240 parts 11 xp 918 bed 0 saving_for tires_t2 (no_coupons)", "49:34 run 4 brief coupons 240 parts 11 xp 918 bed 0 c1_empty_station", "52:47 run 4 drive coupons 240 parts 11 xp 918 bed 0 camp_gas_station 193s", "53:17 run 4 ambush coupons 240 parts 11 xp 918 bed 104 2 buggies", "53:17 run 4 deliver coupons 240 parts 11 xp 918 bed 104 ", "57:47 run 4 arena coupons 240 parts 11 xp 918 bed 104 gas_station", "58:47 run 4 loot coupons 240 parts 11 xp 918 bed 300 ", "62:12 run 4 drive coupons 240 parts 11 xp 918 bed 300 camp_gas_station 205s"]},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

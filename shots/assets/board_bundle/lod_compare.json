@@ -1,0 +1,31 @@
+{
+ "asset": "board_bundle",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 192
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 192
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 192
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 1.0,
+   "side": 1.0,
+   "q34": 1.0,
+   "top": 1.0
+  },
+  "LOD1 (after)": {
+   "front": 1.0,
+   "side": 1.0,
+   "q34": 1.0,
+   "top": 1.0
+  }
+ }
+}

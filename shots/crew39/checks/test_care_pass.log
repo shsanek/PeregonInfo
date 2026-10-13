@@ -1,0 +1,53 @@
+[suite] play_care_tests
+[ OK ] tyre_valve_toggle_card_on_the_dash_lets_the_air_out_and_pumps_it_back
+    -18 C: 142 start ticks with the choke out
+[ OK ] cold_start_without_choke_cranks_but_never_catches_and_the_choke_knob_starts_it
+    preheater: -33 -> -27 C in 36 s, then 150 start ticks
+[ OK ] frozen_oil_needs_the_preheater_first
+    hand crank at -22 C with a dead starter: running after 3.0 s of cranking
+[ OK ] hand_crank_starts_the_engine_when_the_battery_only_clicks
+[ OK ] hand_crank_without_ignition_gives_no_spark
+    settled drain reached from 2.0 0.0 crouch 0
+    drained: no crack; half a bucket-pair of hot water: engine -19.1 -> 19.2 C
+[ OK ] radiator_water_left_in_the_frost_cracks_the_block_draining_it_saves_the_engine
+[ OK ] antifreeze_from_the_shelf_keeps_the_block_whole
+[ OK ] care_state_survives_save_and_load
+    -12 C, wet clothes, heater off: fogged in 141 s; heater 3 on the glass clears it from the vents up in 86 s
+[ OK ] fogged_windscreen_wipes_by_hand_and_the_heater_on_the_glass_clears_it
+    sunny 14 -> 27 C, window down, soaked after the river: peak fog 0.00, outside RH at 27 C 38 %; +9 C morning, windows up, soaked: fog 0.4 in 162 s
+[ OK ] summer_sun_with_the_window_down_stays_clear_but_a_cool_wet_morning_fogs
+    night at -15 C: rime 0.90; heater on the glass frees the wipers and clears it in 716 s
+[ OK ] rime_freezes_the_wipers_until_the_heater_warms_the_glass
+    wet lock frozen after a night at -12 C; breath thaws it in 14 s, hot water in 1 s but it freezes again
+[ OK ] wet_door_lock_freezes_overnight_breath_or_hot_water_thaws_it
+    oil 4.200 l: low warning, power x1.0000; one can -> 5.20 l
+[ OK ] oil_burns_while_running_the_dipstick_reads_it_and_a_can_tops_it_up
+    2 min at -10 C: dry body 36.38, soaked 36.13 C; tea +0.36 C over a minute; dry in a 22 C cab in 310 s
+[ OK ] wet_clothes_from_the_river_chill_faster_dry_in_the_warm_cab_and_tea_warms
+    siphoned 20.0 l from the nearest wreck (tap 20.0 l); a full can adds 20.0 l to the tank
+[ OK ] siphon_a_wreck_into_the_jerrycan_and_pour_it_into_the_tank
+    wet lock, 40 frosty nights: seized 23 times
+[ OK ] a_wet_lock_seizes_only_on_some_frosty_nights_seeded
+    factory mix -34 C; half drained and topped up with water: -21 C
+[ OK ] a_water_top_up_dilutes_the_factory_mix
+[ OK ] the_passenger_locker_provides_real_access_to_the_existing_storage
+    seat box reached from the open passenger door at 1.27 m
+[ OK ] the_box_under_the_seat_is_a_small_storage_slot_with_the_winch_kit_behind
+    cable around 1 tree, 20.6 m out; winch 30 s: peak 8189 N, truck 15.4 -> 12.8 m from the tree
+[ OK ] winch_cable_walked_around_a_tree_and_hooked_back_pulls_the_truck
+    sprint 177 ticks used 23.5 (expected 23.6); exhausted: no sprint, jump 4.40 vs 6.28 m/s; recovered in 2.5 s more
+[ OK ] stamina_sprint_jump_exhaustion_and_rest_on_foot
+    sprint drain per s: 7.93 normal, 13.48 overheated, 8.88 with the gun; 4 s rest gains 15.0 / 6.0 hot / 7.5 frozen
+[ OK ] stamina_heat_cold_and_the_slung_gun_on_foot
+    stroke 48 ticks fresh, 80 exhausted; 3.5 stamina per stroke
+[ OK ] digging_spends_stamina_and_tired_strokes_are_slower
+    (no home in this map: the stove fill runs on R1 in home_stove_fills_the_thermos_on_the_r1_map)
+    tea 90 C in the locker cools to 61.7 C in 6 h at -10 C; two thermoses kept apart; cup restores 25 stamina
+[ OK ] thermos_fills_cools_is_drunk_goes_in_the_seat_locker_and_is_saved
+    one crowbar swing costs 2.50 stamina
+[ OK ] crowbar_swings_cost_stamina
+    120 ticks on the ladder, 6.4 m up, 3.97 stamina
+[ OK ] climbing_a_ladder_drains_stamina
+    stove fills 4 cups at 90 C; a cup restores 25.0 stamina
+[ OK ] home_stove_fills_the_thermos_on_the_r1_map
+[done] 27/27 passed, 345 checks

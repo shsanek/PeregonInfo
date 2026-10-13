@@ -1,0 +1,18 @@
+scene=scene_w1_world seed=20261007 ticks=1600 flavour=win32
+capture tick=0 state=816eb1d6 image=2d28a463 file=tick_000000.bmp
+capture tick=60 state=fd6b232f image=d4754c80 file=tick_000060.bmp
+capture tick=140 state=53496848 image=a1483871 file=tick_000140.bmp
+capture tick=200 state=f5a02a0b image=b08e5634 file=tick_000200.bmp
+capture tick=300 state=22fbba16 image=94b8370c file=tick_000300.bmp
+capture tick=420 state=46e9d857 image=d5696dd4 file=tick_000420.bmp
+capture tick=470 state=135a80b1 image=b50a4828 file=tick_000470.bmp
+capture tick=520 state=b96c4307 image=ac8cac5a file=tick_000520.bmp
+capture tick=880 state=17a0f59a image=1591c24b file=tick_000880.bmp
+capture tick=1010 state=ce6dc695 image=e7ef07b0 file=tick_001010.bmp
+capture tick=1060 state=58d93aab image=1d36497b file=tick_001060.bmp
+capture tick=1120 state=05ad291c image=00ece188 file=tick_001120.bmp
+capture tick=1250 state=193b0937 image=230540fe file=tick_001250.bmp
+capture tick=1315 state=8b045093 image=c68dbffa file=tick_001315.bmp
+capture tick=1450 state=3a3c0b60 image=2d302818 file=tick_001450.bmp
+capture tick=1600 state=d51b167a image=fe9ad333 file=tick_001600.bmp
+final_state_hash=d51b167a

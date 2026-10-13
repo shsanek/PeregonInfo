@@ -1,0 +1,26 @@
+{
+ "cab/default": {
+  "args": "",
+  "shot": null
+ },
+ "elevator/default": {
+  "args": "",
+  "shot": null
+ },
+ "floodplain/default": {
+  "args": "",
+  "shot": null
+ },
+ "ford/default": {
+  "args": "",
+  "shot": null
+ },
+ "hairpins/default": {
+  "args": "",
+  "shot": null
+ },
+ "sawmill/default": {
+  "args": "",
+  "shot": null
+ }
+}

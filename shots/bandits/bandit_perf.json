@@ -1,0 +1,51 @@
+{
+ "delta_avg_ms": -1.046,
+ "delta_avg_ms_load_normalised": 0.021,
+ "delta_draws": -10.0,
+ "delta_objects_ms": 0.135,
+ "delta_p95_ms": -2.568,
+ "delta_sim_tick_ms": -0.08,
+ "runs": {
+  "bandits1": {
+   "avg_ms": 25.584,
+   "draws": 303,
+   "final_state_hash": "f431ad02",
+   "frames": 3199,
+   "objects_ms": 2.782,
+   "p95_ms": 27.546,
+   "rhi_errors": 0,
+   "sim_tick_ms": 1.927
+  },
+  "bandits2": {
+   "avg_ms": 30.915,
+   "draws": 303,
+   "final_state_hash": "f431ad02",
+   "frames": 3199,
+   "objects_ms": 3.418,
+   "p95_ms": 34.142,
+   "rhi_errors": 0,
+   "sim_tick_ms": 2.31
+  },
+  "greybox1": {
+   "avg_ms": 28.646,
+   "draws": 313,
+   "final_state_hash": "f431ad02",
+   "frames": 3199,
+   "objects_ms": 2.848,
+   "p95_ms": 32.114,
+   "rhi_errors": 0,
+   "sim_tick_ms": 2.092
+  },
+  "greybox2": {
+   "avg_ms": 29.945,
+   "draws": 313,
+   "final_state_hash": "f431ad02",
+   "frames": 3199,
+   "objects_ms": 3.083,
+   "p95_ms": 34.711,
+   "rhi_errors": 0,
+   "sim_tick_ms": 2.305
+  }
+ },
+ "same_final_hash": true
+}

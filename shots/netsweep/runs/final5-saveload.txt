@@ -1,0 +1,43 @@
+LOG line 12 host banner.0: Game saved
+LOG line 13 host yard.oil_can: 1
+LOG line 24 host banner.0: Loaded from the main file
+LOG line 30 host place.1: foot
+LOG line 31 host place.2: foot
+LOG line 32 host pack.1.oil_can: 0
+LOG line 12 p1 banner.0: na
+LOG line 13 p1 yard.oil_can: 1
+LOG line 24 p1 banner.0: na
+LOG line 30 p1 place.1: foot
+LOG line 31 p1 place.2: foot
+LOG line 32 p1 pack.1.oil_can: 0
+LOG line 12 p2 banner.0: na
+LOG line 13 p2 yard.oil_can: 1
+LOG line 24 p2 banner.0: na
+LOG line 30 p2 place.1: foot
+LOG line 31 p2 place.2: foot
+LOG line 32 p2 pack.1.oil_can: na
+PASS line 9 SAVE-01 coupons = 120: host=120 p1=120 p2=120@1
+PASS line 10 SAVE-01 tailgate = 0: host=0 p1=0 p2=0@1
+PASS line 16 SAVE-03 pack.1.oil_can = 1: host=1@10 p1=1@10 p2=na(x)
+PASS line 17 SAVE-03 yard.oil_can = 0: host=0@10 p1=0@16 p2=0@15
+PASS line 21 SAVE-02 tailgate = 1: host=1 p1=1 p2=1@1
+PASS line 22 SAVE-02 door.0 = 1: host=1 p1=1 p2=1@1
+PASS line 25 SAVE-01 tailgate = 0: host=0 p1=0 p2=0
+PASS line 26 SAVE-04 coupons = 120: host=120 p1=120 p2=120
+PASS line 27 SAVE-03 yard.oil_can = 1: host=1 p1=1 p2=1
+PASS line 28 SAVE-09 pack.1.oil_can = 0: host=0 p1=0 p2=na(x)
+PASS line 29 SAVE-01 players = 3: host=3 p1=3 p2=3
+PASS line 33 SAVE-01 layer.cargo == x: host=6b61b5ec p1=6b61b5ec p2=6b61b5ec
+PASS line 34 SAVE-01 layer.world == x: host=f49dcdd2 p1=f49dcdd2 p2=f49dcdd2
+PASS line 37 SAVE-09 pack.1.oil_can = 1: host=1@9 p1=1@11 p2=na(x)
+PASS line 38 SAVE-09 yard.oil_can = 0: host=0@9 p1=0@15 p2=0@15
+links: peer 1 relay, peer 2 relay
+client layer checks: 61 equal, 0 differ
+acts 13, failed acts 0
+rows 5 pass 5 fail 0
+ROW SAVE-01 PASS (6 checks)
+ROW SAVE-02 PASS (2 checks)
+ROW SAVE-03 PASS (3 checks)
+ROW SAVE-04 PASS (1 checks)
+ROW SAVE-09 PASS (3 checks)
+RESULT PASS

@@ -1,0 +1,6 @@
+00:00.438  blend            | Read blend: "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/assets/truck_hero/kolymaga_hero_baked.blend"
+VALIDATION {"passed": true, "errors": [], "triangles": 74502, "parts": 114, "gltf_materials": ["Kolymaga_exterior", "Kolymaga_interior", "Kolymaga_detail", "Kolymaga_glass"], "gltf_animations": ["GaugeSweep_FUEL", "GaugeSweep_km_h", "GaugeSweep_OIL", "GaugeSweep_RPM", "GaugeSweep_TEMP"]}
+HERO_RUNTIME 122 parts 74502 triangles
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

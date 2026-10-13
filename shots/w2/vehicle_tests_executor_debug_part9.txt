@@ -1,0 +1,4 @@
+[suite] vehicle_tests
+    jump fast bump-stop ticks T1/T2/T3 23/19/11, log roll T1 0.979 deg T3 1.026 deg
+[ OK ] suspension_tiers_change_the_response
+[done] 1/1 passed, 4 checks

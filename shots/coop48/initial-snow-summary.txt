@@ -1,0 +1,8 @@
+world loopback: 2 instances, host ticks 1800, join at 300, sim 'latency=60,jitter=15,loss=2'
+host: join snapshot peer 1: 0.03 MB sent (373 chunks), 0.01 MB on the wire, 0.9 s, complete at tick 600 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 62 ms, max 73 ms
+host: layer stream after join: avg 23.7 KB/s, max 26.1 KB/s (cap 48); wire avg 40.0 KB/s, max 50.0 KB/s; collect max 0.96 ms  PASS
+p1: bot walk, participant True, moved 33.1 m  PASS
+p1: joined at host tick 600 in 1.0 s, 0.03 MB of frames, 235 chunks, first check equal, apply max 2.1 ms
+p1: 1 complete checks, 1 equal, 0 differ; after the replay end 0 checks, 0 differ  FAIL
+RESULT FAIL

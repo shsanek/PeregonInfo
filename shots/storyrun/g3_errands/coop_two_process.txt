@@ -1,0 +1,17 @@
+tools/net/world_loopback.sh 2 --replay build/storyrun_shots/idle.txt --ticks 4800 --join-at 900 --client-bot person:zakhar:klavdia -- --start "sq:s6_klavdia:letters:zakhar:1100:flag.s6_klavdia_house"
+world loopback: 2 instances, host ticks 4800, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (83 chunks), 0.00 MB on the wire, 0.1 s, complete at tick 960 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 6 ms, max 8 ms
+host: layer stream after join: avg 7.3 KB/s, max 8.5 KB/s (cap 48); wire avg 44.2 KB/s, max 51.8 KB/s; collect max 0.37 ms  PASS
+p1: bot person:zakhar:klavdia, participant True, moved 0.0 m  PASS
+p1: joined at host tick 960 in 0.1 s, 0.01 MB of frames, 74 chunks, first check equal, apply max 3.1 ms
+p1: 65 complete checks, 65 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":1530
+"what":"person_screen","tick":1531,"holder":255
+"what":"person_topic","tick":1560,"ok":1
+"what":"person_press","tick":1530
+"s6_klavdia": {"status": 1, "stage": "letters"}
+"s6_klavdia": {"status": 1, "stage": "letters"}
+"story": {"serial": 5, "hash": 1835305257
+"story": {"serial": 5, "hash": 1835305257

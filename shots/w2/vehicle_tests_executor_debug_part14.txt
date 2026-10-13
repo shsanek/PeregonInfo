@@ -1,0 +1,7 @@
+[suite] vehicle_tests
+    asphalt 40 km/h full lock: steer 10.7 deg, front slip 8.0 deg, rear slip 6.1 deg, body slip max 2.0 deg, 0.628 g, min up_y 0.998
+    asphalt 60 km/h full lock: steer 5.4 deg, front slip 7.2 deg, rear slip 5.6 deg, body slip max 4.7 deg, 0.597 g, min up_y 0.998
+[ OK ] lateral_keyboard_full_lock_asphalt_no_rollover_no_plow
+    mud T2 30 km/h full steer: sidewall share of the lateral force 18.8 %, asphalt 0
+[ OK ] lateral_sidewall_bites_in_mud
+[done] 2/2 passed, 12 checks

@@ -1,0 +1,70 @@
+[0/2] Re-checking globbed directories...
+[1/65] Generating shovel_data_embedded.cpp
+[2/65] Building CXX object src/view/CMakeFiles/peregon_view.dir/shovel_data_embedded.cpp.o
+[3/65] Building CXX object src/view/CMakeFiles/peregon_view.dir/shovel_view.cpp.o
+[4/65] Linking CXX static library lib/libperegon_view.a
+[5/65] Generating woodcut_embedded.cpp
+[6/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/woodcut_embedded.cpp.o
+[7/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bandits.cpp.o
+[8/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_save.cpp.o
+[9/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ui.cpp.o
+[10/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_render.cpp.o
+[11/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_foot.cpp.o
+[12/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/net_world.cpp.o
+[13/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seasons.cpp.o
+[14/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_env.cpp.o
+[15/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_atmos.cpp.o
+[16/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_river_ice.cpp.o
+[17/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net.cpp.o
+[18/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_winterplow.cpp.o
+[19/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_game.cpp.o
+[20/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot.cpp.o
+[21/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_truck_hero.cpp.o
+[22/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_pick.cpp.o
+[23/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_home.cpp.o
+[24/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_residents.cpp.o
+[25/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_shovel.cpp.o
+[26/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ruts.cpp.o
+[27/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_dig.cpp.o
+[28/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_lake.cpp.o
+[29/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_mudpass.cpp.o
+[30/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_survival.cpp.o
+[31/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water.cpp.o
+[32/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_scene.cpp.o
+[33/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_timewarp.cpp.o
+[34/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water_tools.cpp.o
+[35/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_boat.cpp.o
+[36/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care_rig.cpp.o
+[37/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_farm.cpp.o
+[38/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care.cpp.o
+[39/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_cargo.cpp.o
+[40/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_cargo.cpp.o
+[41/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_feel.cpp.o
+[42/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_detail.cpp.o
+[43/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_walk.cpp.o
+[44/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_contact.cpp.o
+[45/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_drive.cpp.o
+[46/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_region.cpp.o
+[47/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_nature.cpp.o
+[48/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_props.cpp.o
+[49/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_loadout.cpp.o
+[50/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_paper.cpp.o
+[51/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_static.cpp.o
+[52/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_torch.cpp.o
+[53/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_inventory.cpp.o
+[54/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_stamina.cpp.o
+[55/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_woodcut.cpp.o
+[56/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_slots.cpp.o
+[57/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seats.cpp.o
+[58/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net_client.cpp.o
+[59/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_command.cpp.o
+[60/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/paper_map_render.cpp.o
+[61/65] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_poi_showcase.cpp.o
+[62/65] Linking CXX static library lib/libperegon_game.a
+[63/65] Linking CXX executable bin/peregon_headless
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[64/65] Linking CXX executable bin/peregon
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_platform.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0

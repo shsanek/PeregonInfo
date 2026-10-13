@@ -1,0 +1,41 @@
+{
+ "asset": "plow_blade",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1958093
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 3999
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 1599
+  },
+  {
+   "row": "LOD2 (after)",
+   "tris": 799
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9983,
+   "side": 0.9867,
+   "q34": 0.9961,
+   "back34": 0.9954
+  },
+  "LOD1 (after)": {
+   "front": 0.9934,
+   "side": 0.9604,
+   "q34": 0.9884,
+   "back34": 0.99
+  },
+  "LOD2 (after)": {
+   "front": 0.9888,
+   "side": 0.9179,
+   "q34": 0.9633,
+   "back34": 0.9758
+  }
+ }
+}

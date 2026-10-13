@@ -1,0 +1,4 @@
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/run_executor.sh: line 92: 39972 Killed: 9               "$RUN_BIN" "$GUEST_COMMAND" "$HOST_DIR" > "$OUT_TMP" 2> "$STDERR_LOG"
+run_executor: peregon_headless.exe timed out (attempt 1, host load { 92.84 113.50 85.25 }), retrying
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/run_executor.sh: line 92: 41503 Killed: 9               "$RUN_BIN" "$GUEST_COMMAND" "$HOST_DIR" > "$OUT_TMP" 2> "$STDERR_LOG"
+run_executor: peregon_headless.exe exited with status 137 (emulator log: /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/scene-runs/scene_w1_world/014/win32-host.stderr.log)

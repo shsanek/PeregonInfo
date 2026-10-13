@@ -1,0 +1,12 @@
+native contracts_tests release rc=0
+native content_check embedded release rc=0
+native content_check dir release rc=0
+executor contracts_tests.exe win32-release rc=0
+executor content_check embedded win32-release rc=0
+executor content_check dir win32-release rc=0
+native contracts_tests debug rc=0
+native content_check embedded debug rc=0
+native content_check dir debug rc=0
+executor contracts_tests.exe win32-debug rc=0
+executor content_check embedded win32-debug rc=0
+executor content_check dir win32-debug rc=0

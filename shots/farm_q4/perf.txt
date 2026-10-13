@@ -1,0 +1,4 @@
+FARM Q4 perf: data/render/farm/perf.txt, --start farm_harvest --season autumn:0.12, native release Metal 1280x720, 300 frames per view, second run of two
+on2 {"behind/day": 3.41, "field_above/day": 3.177, "field_in/day": 3.274}
+off2 {"behind/day": 3.354, "field_above/day": 3.155, "field_in/day": 3.356}
+on = farm decals + grass filter; off = --perf-off 4096

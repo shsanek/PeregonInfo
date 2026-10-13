@@ -1,0 +1,31 @@
+{
+ "asset": "boat_bag",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1309680
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 1199
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 599
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9893,
+   "side": 0.9869,
+   "q34": 0.99,
+   "top": 0.9921
+  },
+  "LOD1 (after)": {
+   "front": 0.9809,
+   "side": 0.9709,
+   "q34": 0.9797,
+   "top": 0.9865
+  }
+ }
+}

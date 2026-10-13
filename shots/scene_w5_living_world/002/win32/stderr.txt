@@ -1,0 +1,1 @@
+run_executor: peregon_headless.exe exited with status 3 (emulator log: /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/scene-runs/scene_w5_living_world/002/win32-host.stderr.log)

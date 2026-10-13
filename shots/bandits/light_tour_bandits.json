@@ -1,0 +1,230 @@
+{
+ "b0_front/noon": {
+  "frame_ms_avg": 21.065,
+  "frames": 39,
+  "shot": "bandits_b0_front_noon.jpg",
+  "state_hash": "e40e90d2",
+  "tick": 859
+ },
+ "b0_q34/noon": {
+  "frame_ms_avg": 21.596,
+  "frames": 39,
+  "shot": "bandits_b0_q34_noon.jpg",
+  "state_hash": "d087280a",
+  "tick": 899
+ },
+ "b0_walk_side/noon": {
+  "frame_ms_avg": 21.072,
+  "frames": 39,
+  "shot": "bandits_b0_walk_side_noon.jpg",
+  "state_hash": "57486461",
+  "tick": 939
+ },
+ "b1_front/noon": {
+  "frame_ms_avg": 20.177,
+  "frames": 39,
+  "shot": "bandits_b1_front_noon.jpg",
+  "state_hash": "f04f54a9",
+  "tick": 979
+ },
+ "b1_q34/noon": {
+  "frame_ms_avg": 20.828,
+  "frames": 39,
+  "shot": "bandits_b1_q34_noon.jpg",
+  "state_hash": "fab79e40",
+  "tick": 1019
+ },
+ "b1_walk_side/noon": {
+  "frame_ms_avg": 21.565,
+  "frames": 39,
+  "shot": "bandits_b1_walk_side_noon.jpg",
+  "state_hash": "eb0a3c42",
+  "tick": 1059
+ },
+ "b2_face/noon": {
+  "frame_ms_avg": 20.327,
+  "frames": 39,
+  "shot": "bandits_b2_face_noon.jpg",
+  "state_hash": "a6610dac",
+  "tick": 1459
+ },
+ "b2_front/noon": {
+  "frame_ms_avg": 21.591,
+  "frames": 39,
+  "shot": "bandits_b2_front_noon.jpg",
+  "state_hash": "40a5412c",
+  "tick": 1099
+ },
+ "b2_q34/noon": {
+  "frame_ms_avg": 21.483,
+  "frames": 39,
+  "shot": "bandits_b2_q34_noon.jpg",
+  "state_hash": "97fb10a8",
+  "tick": 1139
+ },
+ "b2_walk_side/noon": {
+  "frame_ms_avg": 21.211,
+  "frames": 39,
+  "shot": "bandits_b2_walk_side_noon.jpg",
+  "state_hash": "288ed555",
+  "tick": 1179
+ },
+ "b3_face/noon": {
+  "frame_ms_avg": 20.191,
+  "frames": 39,
+  "shot": "bandits_b3_face_noon.jpg",
+  "state_hash": "e0657483",
+  "tick": 1499
+ },
+ "b3_front/noon": {
+  "frame_ms_avg": 19.771,
+  "frames": 39,
+  "shot": "bandits_b3_front_noon.jpg",
+  "state_hash": "fd0efe66",
+  "tick": 1219
+ },
+ "b3_q34/noon": {
+  "frame_ms_avg": 20.01,
+  "frames": 39,
+  "shot": "bandits_b3_q34_noon.jpg",
+  "state_hash": "09ba37cd",
+  "tick": 1259
+ },
+ "b3_walk_side/noon": {
+  "frame_ms_avg": 21.165,
+  "frames": 39,
+  "shot": "bandits_b3_walk_side_noon.jpg",
+  "state_hash": "6f1b3e3f",
+  "tick": 1299
+ },
+ "b4_front/noon": {
+  "frame_ms_avg": 20.018,
+  "frames": 39,
+  "shot": "bandits_b4_front_noon.jpg",
+  "state_hash": "f99832f1",
+  "tick": 1339
+ },
+ "b4_q34/noon": {
+  "frame_ms_avg": 21.09,
+  "frames": 39,
+  "shot": "bandits_b4_q34_noon.jpg",
+  "state_hash": "d886b59f",
+  "tick": 1379
+ },
+ "b4_walk_side/noon": {
+  "frame_ms_avg": 20.205,
+  "frames": 39,
+  "shot": "bandits_b4_walk_side_noon.jpg",
+  "state_hash": "90a103ff",
+  "tick": 1419
+ },
+ "lineup_aim/noon": {
+  "frame_ms_avg": 21.232,
+  "frames": 39,
+  "shot": "bandits_lineup_aim_noon.jpg",
+  "state_hash": "339685e7",
+  "tick": 419
+ },
+ "lineup_crouch/noon": {
+  "frame_ms_avg": 21.152,
+  "frames": 39,
+  "shot": "bandits_lineup_crouch_noon.jpg",
+  "state_hash": "f0a2a3e7",
+  "tick": 579
+ },
+ "lineup_death/noon": {
+  "frame_ms_avg": 22.123,
+  "frames": 39,
+  "shot": "bandits_lineup_death_noon.jpg",
+  "state_hash": "1ccab64d",
+  "tick": 779
+ },
+ "lineup_death_mid/noon": {
+  "frame_ms_avg": 20.944,
+  "frames": 39,
+  "shot": "bandits_lineup_death_mid_noon.jpg",
+  "state_hash": "59f7f985",
+  "tick": 819
+ },
+ "lineup_fire/noon": {
+  "frame_ms_avg": 22.259,
+  "frames": 39,
+  "shot": "bandits_lineup_fire_noon.jpg",
+  "state_hash": "1a146741",
+  "tick": 459
+ },
+ "lineup_hit/noon": {
+  "frame_ms_avg": 22.683,
+  "frames": 39,
+  "shot": "bandits_lineup_hit_noon.jpg",
+  "state_hash": "3773790c",
+  "tick": 659
+ },
+ "lineup_hit_head/noon": {
+  "frame_ms_avg": 22.859,
+  "frames": 39,
+  "shot": "bandits_lineup_hit_head_noon.jpg",
+  "state_hash": "b5e25828",
+  "tick": 699
+ },
+ "lineup_idle/noon": {
+  "frame_ms_avg": 23.804,
+  "frames": 39,
+  "shot": "bandits_lineup_idle_noon.jpg",
+  "state_hash": "8eb811fc",
+  "tick": 299
+ },
+ "lineup_peek/noon": {
+  "frame_ms_avg": 22.159,
+  "frames": 39,
+  "shot": "bandits_lineup_peek_noon.jpg",
+  "state_hash": "fc6bcb27",
+  "tick": 619
+ },
+ "lineup_reload/noon": {
+  "frame_ms_avg": 22.383,
+  "frames": 39,
+  "shot": "bandits_lineup_reload_noon.jpg",
+  "state_hash": "05c6cfc6",
+  "tick": 499
+ },
+ "lineup_run/noon": {
+  "frame_ms_avg": 22.513,
+  "frames": 39,
+  "shot": "bandits_lineup_run_noon.jpg",
+  "state_hash": "13ae5e92",
+  "tick": 539
+ },
+ "lineup_stagger/noon": {
+  "frame_ms_avg": 22.241,
+  "frames": 39,
+  "shot": "bandits_lineup_stagger_noon.jpg",
+  "state_hash": "baa04f43",
+  "tick": 739
+ },
+ "lineup_walk/noon": {
+  "frame_ms_avg": 21.797,
+  "frames": 39,
+  "shot": "bandits_lineup_walk_noon.jpg",
+  "state_hash": "6b5c4749",
+  "tick": 339
+ },
+ "lineup_walk_side/noon": {
+  "frame_ms_avg": 25.445,
+  "frames": 39,
+  "shot": "bandits_lineup_walk_side_noon.jpg",
+  "state_hash": "7e514a12",
+  "tick": 379
+ },
+ "run": {
+  "final_state_hash": "1cefaa27",
+  "frame_time_ms": {
+   "avg": 38.929,
+   "max": 6935.671,
+   "min": 7.407
+  },
+  "launches": 1,
+  "ticks": 1501,
+  "wall_time_ms": 58436.402
+ }
+}

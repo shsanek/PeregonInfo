@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "scene": "scene_w4_ai",
+  "seed": 2,
+  "ticks": 2130,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 360, "frames": 2130, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 52, "primitives": 3908, "vertices": 11724, "state_binds": 33, "texture_binds": 52, "bytes_uploaded": 11808, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": {"file": "C:\\Test\\scene_w4_elevator.txt", "format": "text1", "hash": "f0554c4d", "length_ticks": 2130},
+  "wall_time_ms": 3214.666,
+  "frame_time_ms": {"avg": 1.507, "min": 0.650, "max": 462.216},
+  "final_state_hash": "ef7c45d4",
+  "captures": [
+    {"tick": 1, "state_hash": "1831b181", "image_hash": "7feed57e", "width": 640, "height": 360, "file": "tick_000001.bmp"},
+    {"tick": 35, "state_hash": "30d463dc", "image_hash": "d5839828", "width": 640, "height": 360, "file": "tick_000035.bmp"},
+    {"tick": 122, "state_hash": "8d937792", "image_hash": "3d236ed7", "width": 640, "height": 360, "file": "tick_000122.bmp"},
+    {"tick": 409, "state_hash": "10d7ecb5", "image_hash": "febf8106", "width": 640, "height": 360, "file": "tick_000409.bmp"},
+    {"tick": 909, "state_hash": "e7771715", "image_hash": "25c0ed42", "width": 640, "height": 360, "file": "tick_000909.bmp"},
+    {"tick": 1019, "state_hash": "8c62062f", "image_hash": "33a8df40", "width": 640, "height": 360, "file": "tick_001019.bmp"}
+  ],
+  "scene_metrics": {"stream": "W4", "contracts_version": 1, "content_hash": "0x1508ed4c", "bus": {"published": 86, "delivered": 86, "dropped": 0, "handler_calls": 77, "max_pending": 8, "stream_hash_hi": "0x69638e18", "stream_hash_lo": "0x387435cb"}, "render": {"frames": 2130, "draws_last": 108137, "path": "fixed-function", "size": "640x360"}, "ai": {"scenario": "elevator", "scenario_id": 2, "ai_data_hash": "1051908707", "summary": {"time_to_clear_s": 34.500, "player_damage_taken": 80.000, "truck_damage_taken": 0.000, "cover_pct": 52.1, "flank_attempts": 4, "charges_interrupted": 1, "rams": 0}, "arena": {"id": "elevator", "raiders": 8, "brutes": 1, "waves": 2, "wave": 2, "cleared_tick": 2070, "player_down_tick": 0, "kills": 9, "cover_spots": 159}, "player": {"health": 20.000, "damage_taken": 80.000, "hits_taken": 10, "dodged_hits": 0, "dodges": 1, "ammo_trips": 0}, "ai": {"shots": 21, "hits": 10, "accuracy": 0.476, "damage_dealt": 80.000, "reaction_avg_s": 0.450, "spotted_sight": 2, "spotted_hearing": 0, "callouts": 2, "cover_pct": 52.1, "cover_s": 35.933, "active_s": 69.000, "cover_moves": 13, "cover_arrivals": 12, "peeks": 14, "flank_attempts": 4, "flank_arrivals": 1, "flank_shots": 3, "suppress_s": 2.700, "suppress_shots": 3, "retreats": 2, "staggers": 8}, "brute": {"charges": 1, "interrupted": 1, "charge_hits": 0, "blocked": 0, "melee_hits": 0}, "nav": {"paths": 17, "failures": 0, "expanded_max": 55, "expanded_avg": 11.176, "ground_cells": 10598, "brute_cells": 10351}, "weapons": {"crowbar": {"shots": 0, "hits": 0, "kills": 0, "interrupts": 0}, "sawn_off": {"shots": 6, "hits": 37, "kills": 1, "interrupts": 1}, "nailgun": {"shots": 57, "hits": 30, "kills": 8, "interrupts": 0}, "roof_mg": {"shots": 0, "hits": 0, "kills": 0, "interrupts": 0}}, "moments": [{"tick": 1, "what": "spotted", "group": 0, "value": 0, "entity": 3}, {"tick": 35, "what": "cover", "group": 0, "value": 0, "entity": 1}, {"tick": 122, "what": "suppress", "group": 0, "value": 0, "entity": 1}, {"tick": 260, "what": "first_hit", "group": 0, "value": 0, "entity": 4}, {"tick": 409, "what": "retreat", "group": 0, "value": 1, "entity": 0}, {"tick": 789, "what": "wave", "group": 1, "value": 2, "entity": 0}, {"tick": 887, "what": "windup", "group": 1, "value": 1, "entity": 5}, {"tick": 909, "what": "flank", "group": 2, "value": 5, "entity": 6}, {"tick": 939, "what": "suppress", "group": 2, "value": 0, "entity": 6}, {"tick": 1019, "what": "interrupt", "group": 1, "value": 1, "entity": 5}, {"tick": 1189, "what": "suppress", "group": 2, "value": 0, "entity": 9}, {"tick": 1209, "what": "flank", "group": 2, "value": 8, "entity": 9}, {"tick": 1229, "what": "flank", "group": 2, "value": 8, "entity": 9}, {"tick": 1249, "what": "flank", "group": 2, "value": 8, "entity": 9}, {"tick": 1290, "what": "suppress", "group": 2, "value": 0, "entity": 6}, {"tick": 1440, "what": "retreat", "group": 2, "value": 1, "entity": 0}, {"tick": 2070, "what": "cleared", "group": 0, "value": 0, "entity": 0}]}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

@@ -1,0 +1,18 @@
+b2_mix/tap.wav: peak -7.3 dBFS  rms -23.7 dBFS  clicks 177 (3.69/s)  centroid 298 Hz  bands% 20-150:52.0 150-500:27.8 500-1500:19.0 1500-4000:1.0 4000-22050:0.2 sub20:0.1
+f4_mix/tap.wav: peak -6.2 dBFS  rms -21.5 dBFS  clicks 1 (0.02/s)  centroid 160 Hz  bands% 20-150:74.9 150-500:20.8 500-1500:4.3 1500-4000:0.1 4000-22050:0.0 sub20:0.2
+b2_engine/tap.wav: peak -9.0 dBFS  rms -24.0 dBFS  clicks 13 (0.27/s)  centroid 298 Hz  bands% 20-150:50.7 150-500:28.8 500-1500:19.5 1500-4000:0.9 4000-22050:0.2 sub20:0.1
+f4_engine/tap.wav: peak -7.9 dBFS  rms -21.6 dBFS  clicks 0 (0.00/s)  centroid 164 Hz  bands% 20-150:73.7 150-500:21.7 500-1500:4.6 1500-4000:0.0 4000-22050:0.0 sub20:0.1
+b2_tyres/tap.wav: peak -17.9 dBFS  rms -41.3 dBFS  clicks 755 (15.72/s)  centroid 555 Hz  bands% 20-150:52.2 150-500:22.9 500-1500:15.2 1500-4000:7.5 4000-22050:2.1 sub20:2.9
+f4_tyres/tap.wav: peak -18.9 dBFS  rms -37.0 dBFS  clicks 4 (0.08/s)  centroid 242 Hz  bands% 20-150:68.4 150-500:14.7 500-1500:15.3 1500-4000:1.6 4000-22050:0.0 sub20:5.4
+au3/sweep_old.wav: peak -5.4 dBFS  rms -25.1 dBFS  clicks 1191 (21.27/s)  centroid 1178 Hz  bands% 20-150:44.2 150-500:13.9 500-1500:24.7 1500-4000:10.6 4000-22050:6.5 sub20:5.4
+au3/sweep_new.wav: peak -3.8 dBFS  rms -22.5 dBFS  clicks 3 (0.05/s)  centroid 383 Hz  bands% 20-150:51.0 150-500:16.7 500-1500:28.9 1500-4000:3.3 4000-22050:0.1 sub20:4.0
+b2_mix: backend=sdl3 underruns=0 glitches=0 overloads=0
+f4_mix: backend=coreaudio underruns=0 glitches=0 overloads=0
+b2_engine: backend=sdl3 underruns=0 glitches=0 overloads=0
+f4_engine: backend=coreaudio underruns=0 glitches=0 overloads=0
+b2_tyres: backend=sdl3 underruns=0 glitches=0 overloads=0
+f4_tyres: backend=coreaudio underruns=0 glitches=0 overloads=0
+a2_mix: backend=coreaudio underruns=0 glitches=0 overloads=0
+before_sdl: backend=sdl3 underruns=0 glitches=0 overloads=0
+f_lat_mix: backend=coreaudio underruns=0 glitches=0 overloads=0
+f_latsdl_mix: backend=sdl3 underruns=0 glitches=0 overloads=0

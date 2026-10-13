@@ -1,0 +1,16 @@
+PASS line 7 NET-08 pos.1.x ~~ 1: host=540 p1=540 p2=540
+PASS line 8 NET-08 pos.1.z ~~ 1: host=1203 p1=1203 p2=1203
+PASS line 9 NET-08 pos.2.z ~~ 1: host=1204 p1=1204 p2=1204
+PASS line 10 NET-04 pos.1.z != $x1: host=1203 p1=1203 p2=1203
+PASS line 14 NET-06 minute != $mn: host=480 p1=480 p2=480
+PASS line 15 NET-06 pos.2.z != $z2: host=1208 p1=1208 p2=1208
+PASS line 18 NET-06 pos.1.z != $z1: host=1206 p1=1206 p2=1206@1
+PASS line 19 NET-08 pos.1.z ~~ 1: host=1206 p1=1206 p2=1206@1
+links: peer 1 direct, peer 2 direct
+client layer checks: 76 equal, 0 differ
+acts 6, failed acts 0
+rows 3 pass 3 fail 0
+ROW NET-04 PASS (1 checks)
+ROW NET-06 PASS (3 checks)
+ROW NET-08 PASS (4 checks)
+RESULT PASS

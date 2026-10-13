@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "scene": "scene_w13_bot_camp",
+  "seed": 3,
+  "ticks": 360,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi_null+ui",
+  "rhi": null,
+  "replay": null,
+  "wall_time_ms": 44.097,
+  "frame_time_ms": {"avg": 0.122, "min": 0.000, "max": 34.116},
+  "final_state_hash": "3c75ebd9",
+  "captures": [
+    {"tick": 360, "state_hash": "3c75ebd9", "image_hash": "174ffd3b", "width": 960, "height": 540, "file": "tick_000360.bmp"}
+  ],
+  "scene_metrics": {"input": "bot", "phase": "finished", "chosen": 0, "presses": 170, "summary": "episode task=camp seed=3 ticks=339 success=1 hash=3c75ebd9 v=0,3,9,5,24,6,455,519,0,0,339,0", "bot_input": "bot_input.txt", "episode": {"task": "camp", "seed": 3, "success": true, "contract": "c1_empty_station", "board_s": 0.050, "done_s": 5.650, "placed": 9, "left_on_ground": 5, "cells_used": 24, "straps": 6, "packed_value": 455, "pile_value": 519, "contract_left": 0, "loose_contract": 0, "rotations": 0, "screen": {"moves": 0, "rotations": 0, "strap_toggles": 6, "placed": 9, "cursor": [4, 2], "holding": false}, "focus_trail": ["0:board.list", "1:board.take", "4:cargo.grid", "15:cargo.move", "17:cargo.secure", "19:cargo.drop", "21:cargo.loadout", "23:cargo.grid", "47:cargo.move", "49:cargo.secure", "51:cargo.drop", "53:cargo.loadout", "55:cargo.grid", "71:cargo.move", "73:cargo.secure", "75:cargo.drop", "77:cargo.loadout", "79:cargo.grid", "87:cargo.move", "89:cargo.secure", "91:cargo.drop", "93:cargo.loadout", "95:cargo.grid", "123:cargo.move", "125:cargo.secure", "127:cargo.drop", "129:cargo.loadout", "133:cargo.grid", "149:cargo.move", "151:cargo.secure", "153:cargo.drop", "155:cargo.loadout", "167:cargo.grid", "175:cargo.move", "177:cargo.secure", "179:cargo.drop", "181:cargo.loadout", "193:cargo.grid", "211:cargo.move", "213:cargo.secure", "215:cargo.drop", "217:cargo.loadout", "229:cargo.grid", "241:cargo.move", "243:cargo.secure", "245:cargo.drop", "247:cargo.loadout", "257:cargo.grid", "277:cargo.secure", "281:cargo.grid", "287:cargo.secure", "291:cargo.grid", "297:cargo.secure", "301:cargo.grid", "315:cargo.secure", "319:cargo.grid", "325:cargo.secure", "329:cargo.grid", "335:cargo.secure"], "episode_hash": "1014361049"}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": 5, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

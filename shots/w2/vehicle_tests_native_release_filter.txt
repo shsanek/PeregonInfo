@@ -1,0 +1,30 @@
+[suite] vehicle_tests
+[ OK ] course_log_left_rolls_left_up_and_settles
+[ OK ] course_log_right_mirrors_log_left
+[ OK ] course_speed_bump_pitches_then_settles
+[ OK ] course_kerb_climbs_without_tunnelling
+[ OK ] course_washboard_pothole_camber
+[ OK ] course_jump_airtime_and_landing
+[ OK ] course_brake_in_turn_weight_transfer
+    coast over bump: max per-tick gain 0.000 J, lost 13096.2 J
+[ OK ] course_coast_over_bump_never_gains_energy
+    golden log_left_slow ticks=557 chain=0x381f073eb0947bba
+    golden log_left_fast ticks=439 chain=0x8fad0742c4f14e7a
+    golden log_right_slow ticks=557 chain=0x6264e9c1ac111be7
+    golden log_right_fast ticks=439 chain=0x8d68805ee5b4080f
+    golden speed_bump_slow ticks=567 chain=0x1c432e7a8ac8f680
+    golden speed_bump_fast ticks=444 chain=0x2685d6ccd5a973e3
+    golden kerb_slow ticks=851 chain=0x1237708785c56a57
+    golden kerb_fast ticks=597 chain=0xf97fd5bd939d4178
+    golden washboard_slow ticks=952 chain=0xe9453f3a1cde0948
+    golden washboard_fast ticks=651 chain=0x53a2073d19f49f23
+    golden pothole_slow ticks=568 chain=0x35adf49267c2c5bd
+    golden pothole_fast ticks=445 chain=0xc7cb5101f0c7ebc7
+    golden camber_slow ticks=1041 chain=0xaeb9898f1c51f8ee
+    golden camber_fast ticks=697 chain=0xf1dfbc5b325734cc
+    golden jump_slow ticks=636 chain=0xa82d59c2af5013c9
+    golden jump_fast ticks=565 chain=0xecd7ace3e05cb236
+    golden brake_turn_slow ticks=622 chain=0xec593ef2206b411c
+    golden brake_turn_fast ticks=598 chain=0xe2477664f638e10f
+[ OK ] course_golden_chains
+[done] 9/9 passed, 109 checks

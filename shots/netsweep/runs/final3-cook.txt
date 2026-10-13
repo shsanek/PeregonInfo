@@ -1,0 +1,41 @@
+LOG line 7 host pot.0: v1w1n2r-3p0c0
+LOG line 8 host firestate.0: 1
+LOG line 17 host prompt.1: Campfire (burning, ~2.6 h of wood) · pot of water: Fish perch ×2, OnionE / LMB — put in: Potato · F / RMB — cook · Q — take out: Onion
+LOG line 20 host prompt.2: Campfire (burning, ~2.6 h of wood) · pot of water: Fish perch ×2, Onion, PotatoE / LMB — put in from the rucksack: Bread loaf (wheel — choose)F / RMB — cook · Q — take out: Potato
+LOG line 24 host pot.0: v1w1n3r3p2c1
+LOG line 27 host pot.0: v1w1n3r3p2c1
+LOG line 38 host pot.0: v1w0n0r-3p0c0
+LOG line 7 p1 pot.0: v1w1n2r-3p0c0
+LOG line 8 p1 firestate.0: 1
+LOG line 17 p1 prompt.1: Campfire (burning, ~2.6 h of wood) · pot of water: Fish perch ×2, OnionE / LMB — put in: Potato · F / RMB — cook · Q — take out: Onion
+LOG line 20 p1 prompt.2: na
+LOG line 24 p1 pot.0: v1w1n3r3p2c1
+LOG line 27 p1 pot.0: v1w1n3r3p2c1
+LOG line 38 p1 pot.0: v1w0n0r-3p0c0
+LOG line 7 p2 pot.0: v1w1n2r-3p0c0
+LOG line 8 p2 firestate.0: 1
+LOG line 17 p2 prompt.1: na
+LOG line 20 p2 prompt.2: Campfire (burning, ~2.6 h of wood) · pot of water: Fish perch ×2, Onion, PotatoE / LMB — put in from the rucksack: Bread loaf (wheel — choose)F / RMB — cook · Q — take out: Potato
+LOG line 24 p2 pot.0: v1w1n3r3p2c1
+LOG line 27 p2 pot.0: v1w1n3r3p2c1
+LOG line 38 p2 pot.0: v1w0n0r-3p0c0
+PASS line 9 FOOD-08 firestate.0 = 1: host=1 p1=1 p2=1
+PASS line 10 FOOD-08 pot.0 == x: host=v1w1n2r-3p0c0 p1=v1w1n2r-3p0c0 p2=v1w1n2r-3p0c0
+PASS line 19 FOOD-08 pot.0 ~ n3: host=v1w1n3r-3p0c0@9 p1=v1w1n3r-3p0c0@21 p2=v1w1n3r-3p0c0@20
+PASS line 22 FOOD-05 pot.0 ~ c1: host=v1w1n3r3p2c1@10 p1=v1w1n3r3p2c1@19 p2=v1w1n3r3p2c1@21
+PASS line 23 FOOD-05 pot.0 == x: host=v1w1n3r-3p0c0 p1=v1w1n3r-3p0c0 p2=v1w1n3r-3p0c0
+PASS line 26 FOOD-05 pot.0 ~ c0: host=v1w0n0r3p2c0@1 p1=v1w0n0r3p2c0@5 p2=v1w0n0r3p2c0@5
+PASS line 28 FOOD-09 recipes.1 > $r1: host=1 p1=1 p2=na(x)
+PASS line 29 FOOD-09 recipes.2 > $r2: host=1 p1=na(x) p2=1
+PASS line 30 FOOD-09 recipes.0 = $r0: host=3 p1=na p2=na
+PASS line 31 FOOD-06 note.1 > $n1: host=1 p1=1 p2=na(x)
+PASS line 35 FOOD-10 pot.0 != $p0: host=v1w0n0r3p1c0@9 p1=v1w0n0r3p1c0@20 p2=v1w0n0r3p1c0@20
+PASS line 37 FOOD-10 food.2 > $f2: host=100@10 p1=na(x) p2=100@10
+acts 11, failed acts 0
+rows 5 pass 5 fail 0
+ROW FOOD-05 PASS (3 checks)
+ROW FOOD-06 PASS (1 checks)
+ROW FOOD-08 PASS (3 checks)
+ROW FOOD-09 PASS (3 checks)
+ROW FOOD-10 PASS (2 checks)
+RESULT PASS

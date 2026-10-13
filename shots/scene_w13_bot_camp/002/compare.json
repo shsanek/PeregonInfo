@@ -1,0 +1,41 @@
+{
+  "status": "identical",
+  "scene": "scene_w13_bot_camp",
+  "seed": 3,
+  "ticks": {
+    "native": 360,
+    "win32": 360
+  },
+  "final_state_hash": {
+    "native": "3c75ebd9",
+    "win32": "3c75ebd9",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 360,
+      "state_hash": {
+        "native": "3c75ebd9",
+        "win32": "3c75ebd9"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "174ffd3b",
+        "win32": "174ffd3b"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "b24edc686d2d3493d10be4f30a16663adadfd7ae4e6f633fc0d2468513dabe62",
+        "win32": "b24edc686d2d3493d10be4f30a16663adadfd7ae4e6f633fc0d2468513dabe62"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_000360.jpg",
+        "win32": "win32/tick_000360.jpg"
+      },
+      "status": "identical"
+    }
+  ]
+}

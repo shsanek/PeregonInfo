@@ -1,0 +1,5 @@
+scene=scene_w2_vehicle seed=1 ticks=600 flavour=win32
+capture tick=420 state=db73290e image=fea3592c file=tick_000420.bmp
+capture tick=480 state=b7034491 image=14189ee0 file=tick_000480.bmp
+capture tick=520 state=cde68452 image=53cadec9 file=tick_000520.bmp
+final_state_hash=97244a4d

@@ -1,0 +1,312 @@
+{
+  "file": "/Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/assets/truck_wb/stage37_cab_rework_baked.blend",
+  "cushion_world_bounds_m": [
+    [
+      -1.7776055335998535,
+      -1.2324024438858032
+    ],
+    [
+      -0.6600000262260437,
+      0.6600000262260437
+    ],
+    [
+      0.8786760568618774,
+      1.0452935695648193
+    ]
+  ],
+  "cushion_dimensions_xyz_m": [
+    0.5452030897140503,
+    1.3200000524520874,
+    0.1666175127029419
+  ],
+  "clearances": {
+    "HERO_dashboard_details": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.3214286267757416
+    },
+    "HERO_door_trim.L": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.02165563404560089
+    },
+    "HERO_door_trim.R": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.02165563404560089
+    },
+    "HERO_pedals": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.42916139960289
+    },
+    "cockpit": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.2950130105018616
+    },
+    "door.L": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.0908321887254715
+    },
+    "door.L_cabin_paint": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.35597386956214905
+    },
+    "door.L_inside": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.0899999737739563
+    },
+    "door.R": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.0908321887254715
+    },
+    "door.R_cabin_paint": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.35597386956214905
+    },
+    "door.R_inside": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.0899999737739563
+    },
+    "gear_lever": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.490500807762146
+    },
+    "seat_box": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.035730715841054916
+    },
+    "seat_box_lid": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.04087013751268387
+    },
+    "steering_wheel": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.1129973903298378
+    },
+    "window_crank.L": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.05285783112049103
+    },
+    "window_crank.R": {
+      "contacts": 0,
+      "minimum_sampled_gap_m": 0.1392013430595398
+    }
+  },
+  "joints": [
+    {
+      "object": "GAME_body",
+      "triangles": 857,
+      "minimum_area_m2": 4.449841071618721e-06
+    },
+    {
+      "object": "GAME_body_inside",
+      "triangles": 662,
+      "minimum_area_m2": 4.800476745003834e-06
+    },
+    {
+      "object": "GAME_body_cabin_paint",
+      "triangles": 121,
+      "minimum_area_m2": 2.580968384791049e-06
+    }
+  ],
+  "joint_nonadjacent_intersections": [],
+  "lid_sweep": [
+    {
+      "fraction": 0.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.6685000061988831
+    },
+    {
+      "fraction": 0.041666666666666664,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.6782670617103577
+    },
+    {
+      "fraction": 0.08333333333333333,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.6879708766937256
+    },
+    {
+      "fraction": 0.125,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.6975699663162231
+    },
+    {
+      "fraction": 0.16666666666666666,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7070230841636658
+    },
+    {
+      "fraction": 0.20833333333333334,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7162898778915405
+    },
+    {
+      "fraction": 0.25,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7260880470275879
+    },
+    {
+      "fraction": 0.2916666666666667,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7364346385002136
+    },
+    {
+      "fraction": 0.3333333333333333,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7464689612388611
+    },
+    {
+      "fraction": 0.375,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7561479806900024
+    },
+    {
+      "fraction": 0.4166666666666667,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7654302716255188
+    },
+    {
+      "fraction": 0.4583333333333333,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.774276077747345
+    },
+    {
+      "fraction": 0.5,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7826475501060486
+    },
+    {
+      "fraction": 0.5416666666666666,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7905088067054749
+    },
+    {
+      "fraction": 0.5833333333333334,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.7978261709213257
+    },
+    {
+      "fraction": 0.625,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.804568350315094
+    },
+    {
+      "fraction": 0.6666666666666666,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8107064366340637
+    },
+    {
+      "fraction": 0.7083333333333334,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8162141442298889
+    },
+    {
+      "fraction": 0.75,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8210679292678833
+    },
+    {
+      "fraction": 0.7916666666666666,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8252469897270203
+    },
+    {
+      "fraction": 0.8333333333333334,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8287334442138672
+    },
+    {
+      "fraction": 0.875,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8315123319625854
+    },
+    {
+      "fraction": 0.9166666666666666,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.83357173204422
+    },
+    {
+      "fraction": 0.9583333333333334,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8349028825759888
+    },
+    {
+      "fraction": 1.0,
+      "contacts": {
+        "GAME_body": 0,
+        "GAME_body_inside": 0
+      },
+      "lid_max_y": 0.8355000615119934
+    }
+  ]
+}

@@ -1,0 +1,3188 @@
+{
+  "baseline_core": "d420e90ce0",
+  "baseline_binary_sha256": "4676de06660652582206ec8afb6ecfe34f62ef9c4c1c8158bd495fca4d488c33",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "memory_units": "bytes; macOS /usr/bin/time -l process maxima",
+  "memory": {
+    "start": {
+      "before": {
+        "max_rss": 993263616,
+        "peak_footprint": 1055851888,
+        "state_hash": "c14eec40"
+      },
+      "after": {
+        "max_rss": 940670976,
+        "peak_footprint": 1002407280,
+        "state_hash": "c14eec40"
+      }
+    },
+    "loaded": {
+      "before": {
+        "max_rss": 1323794432,
+        "peak_footprint": 1708836544,
+        "state_hash": "e95f0484"
+      },
+      "after": {
+        "max_rss": 1313177600,
+        "peak_footprint": 1682884288,
+        "state_hash": "e95f0484"
+      }
+    },
+    "loaded_r3": {
+      "before": {
+        "max_rss": 1391067136,
+        "peak_footprint": 1744733912,
+        "state_hash": "6688b04d"
+      },
+      "after": {
+        "max_rss": 1359609856,
+        "peak_footprint": 1712506608,
+        "state_hash": "6688b04d"
+      }
+    },
+    "memory_ford": {
+      "before": {
+        "max_rss": 1507459072,
+        "peak_footprint": 1927317328,
+        "state_hash": "f23290fb"
+      },
+      "after": {
+        "max_rss": 1488683008,
+        "peak_footprint": 1878591240,
+        "state_hash": "f23290fb"
+      }
+    }
+  },
+  "visual": [
+    {
+      "area": "r2",
+      "view": "border_r1_r2",
+      "w": 1280,
+      "h": 720,
+      "diff": 1,
+      "big": 0,
+      "edge": 1,
+      "components": 1,
+      "largest": [
+        [
+          1,
+          230,
+          375,
+          230,
+          375
+        ]
+      ]
+    },
+    {
+      "area": "r2",
+      "view": "scrapyard_yard",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r2",
+      "view": "village_lower_lane",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r2",
+      "view": "village_well",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r2",
+      "view": "mill_yard",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r2",
+      "view": "mill_approach",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r2",
+      "view": "sawmill",
+      "w": 1280,
+      "h": 720,
+      "diff": 13,
+      "big": 0,
+      "edge": 5,
+      "components": 2,
+      "largest": [
+        [
+          7,
+          436,
+          385,
+          437,
+          389
+        ],
+        [
+          6,
+          461,
+          386,
+          462,
+          389
+        ]
+      ]
+    },
+    {
+      "area": "r2",
+      "view": "overview_r1_r2",
+      "w": 1280,
+      "h": 720,
+      "diff": 1,
+      "big": 0,
+      "edge": 1,
+      "components": 1,
+      "largest": [
+        [
+          1,
+          687,
+          312,
+          687,
+          312
+        ]
+      ]
+    },
+    {
+      "area": "r2",
+      "view": "border_r1_r2_again",
+      "w": 1280,
+      "h": 720,
+      "diff": 1,
+      "big": 0,
+      "edge": 1,
+      "components": 1,
+      "largest": [
+        [
+          1,
+          230,
+          375,
+          230,
+          375
+        ]
+      ]
+    },
+    {
+      "area": "r2",
+      "view": "scrapyard_yard_again",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r3",
+      "view": "camp_gate",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r3",
+      "view": "camp_cabins",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r3",
+      "view": "beach_pier",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r3",
+      "view": "hydropost",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r3",
+      "view": "farmstead_yard",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r3",
+      "view": "border_r1_r3",
+      "w": 1280,
+      "h": 720,
+      "diff": 2,
+      "big": 0,
+      "edge": 0,
+      "components": 1,
+      "largest": [
+        [
+          2,
+          781,
+          380,
+          782,
+          381
+        ]
+      ]
+    },
+    {
+      "area": "r3",
+      "view": "aerial_lake",
+      "w": 1280,
+      "h": 720,
+      "diff": 1,
+      "big": 0,
+      "edge": 1,
+      "components": 1,
+      "largest": [
+        [
+          1,
+          255,
+          107,
+          255,
+          107
+        ]
+      ]
+    },
+    {
+      "area": "r3",
+      "view": "camp_gate_again",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "r3",
+      "view": "beach_pier_again",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "night",
+      "view": "yard",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "night",
+      "view": "sawmill",
+      "w": 1280,
+      "h": 720,
+      "diff": 7,
+      "big": 0,
+      "edge": 0,
+      "components": 2,
+      "largest": [
+        [
+          4,
+          436,
+          385,
+          437,
+          388
+        ],
+        [
+          3,
+          462,
+          386,
+          462,
+          388
+        ]
+      ]
+    },
+    {
+      "area": "night",
+      "view": "village_well",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "night",
+      "view": "mill_yard",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "night",
+      "view": "camp_cabins",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "night",
+      "view": "beach_pier",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "night",
+      "view": "village_well_again",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "night",
+      "view": "sawmill_again",
+      "w": 1280,
+      "h": 720,
+      "diff": 7,
+      "big": 0,
+      "edge": 0,
+      "components": 2,
+      "largest": [
+        [
+          4,
+          436,
+          385,
+          437,
+          388
+        ],
+        [
+          3,
+          462,
+          386,
+          462,
+          388
+        ]
+      ]
+    },
+    {
+      "area": "night",
+      "view": "yard_again",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "border",
+      "view": "border_tick_000700_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "border",
+      "view": "border_tick_001300_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "border",
+      "view": "border_tick_001900_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 1,
+      "big": 0,
+      "edge": 0,
+      "components": 1,
+      "largest": [
+        [
+          1,
+          41,
+          450,
+          41,
+          450
+        ]
+      ]
+    },
+    {
+      "area": "border",
+      "view": "border_tick_002500_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 1,
+      "big": 0,
+      "edge": 0,
+      "components": 1,
+      "largest": [
+        [
+          1,
+          41,
+          446,
+          41,
+          446
+        ]
+      ]
+    },
+    {
+      "area": "border",
+      "view": "border_tick_003100_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "ford",
+      "view": "ford_tick_000700_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "ford",
+      "view": "ford_tick_001500_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "ford",
+      "view": "ford_tick_002300_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "ford",
+      "view": "ford_tick_003100_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    },
+    {
+      "area": "ford",
+      "view": "ford_tick_003800_before",
+      "w": 1280,
+      "h": 720,
+      "diff": 0,
+      "big": 0,
+      "edge": 0,
+      "components": 0,
+      "largest": []
+    }
+  ],
+  "tests": {
+    "native_ctest": {
+      "passed": 67,
+      "total": 67,
+      "seconds": 359.59
+    },
+    "extended_night_region_static_check": {
+      "passed": true,
+      "seconds": 31.94,
+      "glow_pieces": 26,
+      "point_lights": 2
+    },
+    "world_tests": {
+      "passed": 31,
+      "checks": 17741
+    },
+    "region_lifecycle": {
+      "installs": 500,
+      "evictions": 436,
+      "revisits": 364,
+      "peak_resident_tiles": 64,
+      "peak_worker_map_tiles": 9,
+      "poi_objects": 6548,
+      "pole_objects": 2178,
+      "wire_vertices": 19690,
+      "added_moved_generated_pieces": 1161
+    }
+  },
+  "tour_final_hashes": {
+    "r2": "1f8f59b8",
+    "r3": "51e00682",
+    "night_2340": "a283521e"
+  },
+  "cpu_perf": {
+    "before": {
+      "border": {
+        "frames": 2949,
+        "work": {
+          "mean": 9.257923363852154,
+          "p95": 11.53,
+          "p99": 12.832,
+          "max": 14.88,
+          "over16": 0,
+          "over20": 0,
+          "over33": 0
+        },
+        "wall": {
+          "mean": 9.288824686334351,
+          "p95": 11.563,
+          "p99": 12.855,
+          "max": 14.904,
+          "over16": 0,
+          "over20": 0,
+          "over33": 0
+        },
+        "worst": [
+          {
+            "frame": 2768,
+            "work": 14.88,
+            "counters": {
+              "upload_kb": 1793,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.14
+              ],
+              [
+                "objects",
+                2.52
+              ],
+              [
+                "nature",
+                1.79
+              ],
+              [
+                "map",
+                1.62
+              ],
+              [
+                "light",
+                0.73
+              ],
+              [
+                "grass",
+                0.66
+              ]
+            ]
+          },
+          {
+            "frame": 2551,
+            "work": 14.854,
+            "counters": {
+              "upload_kb": 1336,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.87
+              ],
+              [
+                "map",
+                3.31
+              ],
+              [
+                "objects",
+                1.52
+              ],
+              [
+                "nature",
+                1.52
+              ],
+              [
+                "tick",
+                1.36
+              ],
+              [
+                "tick_physics",
+                0.9
+              ]
+            ]
+          },
+          {
+            "frame": 2825,
+            "work": 14.396,
+            "counters": {
+              "upload_kb": 1094,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.9
+              ],
+              [
+                "map",
+                1.79
+              ],
+              [
+                "tick",
+                1.39
+              ],
+              [
+                "tick_physics",
+                1.11
+              ],
+              [
+                "light",
+                0.94
+              ],
+              [
+                "objects",
+                0.89
+              ]
+            ]
+          },
+          {
+            "frame": 3051,
+            "work": 14.322,
+            "counters": {
+              "upload_kb": 1079,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.55
+              ],
+              [
+                "map",
+                2.58
+              ],
+              [
+                "objects",
+                0.97
+              ],
+              [
+                "nature",
+                0.95
+              ],
+              [
+                "grass",
+                0.94
+              ],
+              [
+                "cab",
+                0.78
+              ]
+            ]
+          },
+          {
+            "frame": 2648,
+            "work": 14.03,
+            "counters": {
+              "upload_kb": 1330,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.79
+              ],
+              [
+                "map",
+                1.96
+              ],
+              [
+                "nature",
+                1.87
+              ],
+              [
+                "light",
+                1.39
+              ],
+              [
+                "objects",
+                1.3
+              ],
+              [
+                "tick_physics",
+                0.64
+              ]
+            ]
+          },
+          {
+            "frame": 2711,
+            "work": 14.003,
+            "counters": {
+              "upload_kb": 1479,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.15
+              ],
+              [
+                "map",
+                2.1
+              ],
+              [
+                "nature",
+                1.28
+              ],
+              [
+                "objects",
+                1.07
+              ],
+              [
+                "tick_physics",
+                1.05
+              ],
+              [
+                "light",
+                0.94
+              ]
+            ]
+          },
+          {
+            "frame": 3043,
+            "work": 13.991,
+            "counters": {
+              "upload_kb": 1479,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.54
+              ],
+              [
+                "map",
+                1.27
+              ],
+              [
+                "light",
+                1.12
+              ],
+              [
+                "nature",
+                0.88
+              ],
+              [
+                "objects",
+                0.8
+              ]
+            ]
+          },
+          {
+            "frame": 1331,
+            "work": 13.842,
+            "counters": {
+              "upload_kb": 1337,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.29
+              ],
+              [
+                "map",
+                1.31
+              ],
+              [
+                "nature",
+                1.01
+              ],
+              [
+                "objects",
+                1.0
+              ],
+              [
+                "light",
+                0.79
+              ]
+            ]
+          },
+          {
+            "frame": 2227,
+            "work": 13.739,
+            "counters": {
+              "upload_kb": 1336,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.17
+              ],
+              [
+                "objects",
+                2.35
+              ],
+              [
+                "map",
+                1.86
+              ],
+              [
+                "nature",
+                1.42
+              ],
+              [
+                "cab",
+                0.63
+              ],
+              [
+                "light",
+                0.6
+              ]
+            ]
+          },
+          {
+            "frame": 315,
+            "work": 13.591,
+            "counters": {
+              "upload_kb": 1329,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                6.06
+              ],
+              [
+                "map",
+                1.74
+              ],
+              [
+                "nature",
+                1.28
+              ],
+              [
+                "light",
+                1.23
+              ],
+              [
+                "objects",
+                0.85
+              ],
+              [
+                "tick_physics",
+                0.54
+              ]
+            ]
+          },
+          {
+            "frame": 2603,
+            "work": 13.552,
+            "counters": {
+              "upload_kb": 2056,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.08
+              ],
+              [
+                "map",
+                2.07
+              ],
+              [
+                "nature",
+                1.44
+              ],
+              [
+                "tick",
+                1.13
+              ],
+              [
+                "objects",
+                0.98
+              ],
+              [
+                "grass",
+                0.79
+              ]
+            ]
+          },
+          {
+            "frame": 2465,
+            "work": 13.549,
+            "counters": {
+              "upload_kb": 1094,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.64
+              ],
+              [
+                "map",
+                1.35
+              ],
+              [
+                "grass",
+                1.13
+              ],
+              [
+                "nature",
+                1.02
+              ],
+              [
+                "light",
+                0.95
+              ],
+              [
+                "objects",
+                0.91
+              ]
+            ]
+          }
+        ],
+        "hash": "c02d56f0"
+      },
+      "ford": {
+        "frames": 3649,
+        "work": {
+          "mean": 9.009171827898054,
+          "p95": 12.256,
+          "p99": 14.116,
+          "max": 17.286,
+          "over16": 1,
+          "over20": 0,
+          "over33": 0
+        },
+        "wall": {
+          "mean": 9.041526993696904,
+          "p95": 12.292,
+          "p99": 14.151,
+          "max": 17.31,
+          "over16": 1,
+          "over20": 0,
+          "over33": 0
+        },
+        "worst": [
+          {
+            "frame": 423,
+            "work": 17.286,
+            "counters": {
+              "upload_kb": 5767,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.03
+              ],
+              [
+                "detail",
+                3.47
+              ],
+              [
+                "map",
+                1.65
+              ],
+              [
+                "nature",
+                1.17
+              ],
+              [
+                "light",
+                0.94
+              ],
+              [
+                "objects",
+                0.65
+              ]
+            ]
+          },
+          {
+            "frame": 1061,
+            "work": 16.531,
+            "counters": {
+              "upload_kb": 2408,
+              "builds": 1,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.86
+              ],
+              [
+                "sky_occlusion",
+                2.35
+              ],
+              [
+                "map",
+                2.25
+              ],
+              [
+                "nature_update",
+                1.16
+              ],
+              [
+                "grass",
+                0.8
+              ],
+              [
+                "nature",
+                0.79
+              ]
+            ]
+          },
+          {
+            "frame": 663,
+            "work": 16.251,
+            "counters": {
+              "upload_kb": 1371,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.11
+              ],
+              [
+                "map",
+                1.51
+              ],
+              [
+                "tick_physics",
+                1.48
+              ],
+              [
+                "nature",
+                1.32
+              ],
+              [
+                "light",
+                1.13
+              ],
+              [
+                "objects",
+                1.04
+              ]
+            ]
+          },
+          {
+            "frame": 1107,
+            "work": 16.176,
+            "counters": {
+              "upload_kb": 1365,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.69
+              ],
+              [
+                "map",
+                1.55
+              ],
+              [
+                "objects",
+                1.42
+              ],
+              [
+                "grass",
+                1.42
+              ],
+              [
+                "nature",
+                1.4
+              ],
+              [
+                "tick_physics",
+                1.31
+              ]
+            ]
+          },
+          {
+            "frame": 444,
+            "work": 16.071,
+            "counters": {
+              "upload_kb": 3158,
+              "builds": 2,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                6.42
+              ],
+              [
+                "map",
+                2.02
+              ],
+              [
+                "nature_update",
+                1.76
+              ],
+              [
+                "sky_occlusion",
+                1.22
+              ],
+              [
+                "nature",
+                0.95
+              ],
+              [
+                "light",
+                0.68
+              ]
+            ]
+          },
+          {
+            "frame": 1110,
+            "work": 16.044,
+            "counters": {
+              "upload_kb": 1437,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.55
+              ],
+              [
+                "map",
+                3.13
+              ],
+              [
+                "light",
+                0.9
+              ],
+              [
+                "nature",
+                0.75
+              ],
+              [
+                "tick",
+                0.72
+              ],
+              [
+                "objects",
+                0.68
+              ]
+            ]
+          },
+          {
+            "frame": 699,
+            "work": 15.828,
+            "counters": {
+              "upload_kb": 603,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.25
+              ],
+              [
+                "sky_occlusion",
+                3.03
+              ],
+              [
+                "objects",
+                1.7
+              ],
+              [
+                "map",
+                1.65
+              ],
+              [
+                "nature",
+                1.12
+              ],
+              [
+                "grass",
+                0.69
+              ]
+            ]
+          },
+          {
+            "frame": 575,
+            "work": 15.609,
+            "counters": {
+              "upload_kb": 338,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.88
+              ],
+              [
+                "sky_occlusion",
+                1.93
+              ],
+              [
+                "map",
+                1.4
+              ],
+              [
+                "nature",
+                1.4
+              ],
+              [
+                "tick",
+                1.22
+              ],
+              [
+                "tick_physics",
+                0.77
+              ]
+            ]
+          },
+          {
+            "frame": 459,
+            "work": 15.546,
+            "counters": {
+              "upload_kb": 1359,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                8.04
+              ],
+              [
+                "map",
+                1.4
+              ],
+              [
+                "light",
+                1.2
+              ],
+              [
+                "nature",
+                1.18
+              ],
+              [
+                "objects",
+                0.73
+              ],
+              [
+                "grass",
+                0.62
+              ]
+            ]
+          },
+          {
+            "frame": 679,
+            "work": 15.469,
+            "counters": {
+              "upload_kb": 1377,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                6.21
+              ],
+              [
+                "map",
+                2.23
+              ],
+              [
+                "nature",
+                1.79
+              ],
+              [
+                "objects",
+                1.04
+              ],
+              [
+                "tick_physics",
+                0.91
+              ],
+              [
+                "grass",
+                0.9
+              ]
+            ]
+          },
+          {
+            "frame": 943,
+            "work": 15.385,
+            "counters": {
+              "upload_kb": 1370,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                6.02
+              ],
+              [
+                "sky_occlusion",
+                1.63
+              ],
+              [
+                "map",
+                1.58
+              ],
+              [
+                "light",
+                1.46
+              ],
+              [
+                "nature",
+                0.92
+              ],
+              [
+                "cab",
+                0.71
+              ]
+            ]
+          },
+          {
+            "frame": 1080,
+            "work": 15.248,
+            "counters": {
+              "upload_kb": 871,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.07
+              ],
+              [
+                "map",
+                2.26
+              ],
+              [
+                "sky_occlusion",
+                1.65
+              ],
+              [
+                "grass",
+                1.04
+              ],
+              [
+                "objects",
+                0.98
+              ],
+              [
+                "light",
+                0.92
+              ]
+            ]
+          }
+        ],
+        "hash": "f23290fb"
+      }
+    },
+    "after": {
+      "border": {
+        "frames": 2949,
+        "work": {
+          "mean": 8.681179382841641,
+          "p95": 10.245,
+          "p99": 11.272,
+          "max": 13.188,
+          "over16": 0,
+          "over20": 0,
+          "over33": 0
+        },
+        "wall": {
+          "mean": 8.712579179382843,
+          "p95": 10.273,
+          "p99": 11.297,
+          "max": 13.212,
+          "over16": 0,
+          "over20": 0,
+          "over33": 0
+        },
+        "worst": [
+          {
+            "frame": 1339,
+            "work": 13.188,
+            "counters": {
+              "upload_kb": 1739,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.96
+              ],
+              [
+                "map",
+                1.8
+              ],
+              [
+                "objects",
+                1.12
+              ],
+              [
+                "nature",
+                1.1
+              ],
+              [
+                "light",
+                0.89
+              ],
+              [
+                "grass",
+                0.51
+              ]
+            ]
+          },
+          {
+            "frame": 1189,
+            "work": 13.178,
+            "counters": {
+              "upload_kb": 2277,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                6.89
+              ],
+              [
+                "map",
+                1.3
+              ],
+              [
+                "objects",
+                1.2
+              ],
+              [
+                "nature",
+                0.99
+              ],
+              [
+                "light",
+                0.63
+              ]
+            ]
+          },
+          {
+            "frame": 719,
+            "work": 13.031,
+            "counters": {
+              "upload_kb": 1101,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.91
+              ],
+              [
+                "map",
+                1.98
+              ],
+              [
+                "objects",
+                1.92
+              ],
+              [
+                "nature",
+                1.42
+              ],
+              [
+                "sky",
+                0.71
+              ],
+              [
+                "light",
+                0.6
+              ]
+            ]
+          },
+          {
+            "frame": 1387,
+            "work": 12.89,
+            "counters": {
+              "upload_kb": 1739,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.86
+              ],
+              [
+                "map",
+                2.03
+              ],
+              [
+                "light",
+                1.46
+              ],
+              [
+                "objects",
+                1.14
+              ],
+              [
+                "nature",
+                0.95
+              ]
+            ]
+          },
+          {
+            "frame": 2143,
+            "work": 12.637,
+            "counters": {
+              "upload_kb": 1084,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.25
+              ],
+              [
+                "map",
+                2.2
+              ],
+              [
+                "nature",
+                1.4
+              ],
+              [
+                "tick",
+                1.15
+              ],
+              [
+                "objects",
+                1.07
+              ],
+              [
+                "grass",
+                0.75
+              ]
+            ]
+          },
+          {
+            "frame": 2130,
+            "work": 12.377,
+            "counters": {
+              "upload_kb": 1334,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.12
+              ],
+              [
+                "objects",
+                1.85
+              ],
+              [
+                "nature",
+                1.72
+              ],
+              [
+                "map",
+                1.5
+              ],
+              [
+                "grass",
+                1.07
+              ],
+              [
+                "light",
+                0.84
+              ]
+            ]
+          },
+          {
+            "frame": 1501,
+            "work": 12.237,
+            "counters": {
+              "upload_kb": 1484,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.96
+              ],
+              [
+                "map",
+                1.41
+              ],
+              [
+                "objects",
+                1.17
+              ],
+              [
+                "light",
+                1.15
+              ],
+              [
+                "nature",
+                1.07
+              ],
+              [
+                "grass",
+                0.62
+              ]
+            ]
+          },
+          {
+            "frame": 1489,
+            "work": 12.215,
+            "counters": {
+              "upload_kb": 1497,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.54
+              ],
+              [
+                "map",
+                1.39
+              ],
+              [
+                "tick_physics",
+                1.05
+              ],
+              [
+                "nature",
+                0.96
+              ],
+              [
+                "objects",
+                0.94
+              ],
+              [
+                "light",
+                0.61
+              ]
+            ]
+          },
+          {
+            "frame": 721,
+            "work": 12.095,
+            "counters": {
+              "upload_kb": 1117,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.59
+              ],
+              [
+                "map",
+                1.76
+              ],
+              [
+                "objects",
+                1.6
+              ],
+              [
+                "nature",
+                1.53
+              ],
+              [
+                "grass",
+                0.75
+              ],
+              [
+                "light",
+                0.72
+              ]
+            ]
+          },
+          {
+            "frame": 955,
+            "work": 12.095,
+            "counters": {
+              "upload_kb": 6831,
+              "builds": 1,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.86
+              ],
+              [
+                "nature_update",
+                1.52
+              ],
+              [
+                "map",
+                1.24
+              ],
+              [
+                "objects",
+                0.9
+              ],
+              [
+                "nature",
+                0.88
+              ],
+              [
+                "sky_occlusion",
+                0.86
+              ]
+            ]
+          },
+          {
+            "frame": 657,
+            "work": 12.02,
+            "counters": {
+              "upload_kb": 1903,
+              "builds": 1,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.4
+              ],
+              [
+                "map",
+                1.49
+              ],
+              [
+                "nature",
+                1.08
+              ],
+              [
+                "objects",
+                0.69
+              ],
+              [
+                "light",
+                0.69
+              ],
+              [
+                "tick",
+                0.67
+              ]
+            ]
+          },
+          {
+            "frame": 1811,
+            "work": 11.912,
+            "counters": {
+              "upload_kb": 1340,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.67
+              ],
+              [
+                "map",
+                1.7
+              ],
+              [
+                "nature",
+                1.58
+              ],
+              [
+                "objects",
+                0.94
+              ],
+              [
+                "grass",
+                0.81
+              ],
+              [
+                "light",
+                0.63
+              ]
+            ]
+          }
+        ],
+        "hash": "c02d56f0"
+      },
+      "ford": {
+        "frames": 3649,
+        "work": {
+          "mean": 8.670019457385585,
+          "p95": 11.14,
+          "p99": 12.889,
+          "max": 18.99,
+          "over16": 4,
+          "over20": 0,
+          "over33": 0
+        },
+        "wall": {
+          "mean": 8.701170731707316,
+          "p95": 11.161,
+          "p99": 12.918,
+          "max": 19.009,
+          "over16": 4,
+          "over20": 0,
+          "over33": 0
+        },
+        "worst": [
+          {
+            "frame": 3663,
+            "work": 18.99,
+            "counters": {
+              "upload_kb": 1534,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.84
+              ],
+              [
+                "sky_occlusion",
+                4.41
+              ],
+              [
+                "map",
+                1.65
+              ],
+              [
+                "light",
+                1.36
+              ],
+              [
+                "nature",
+                0.67
+              ],
+              [
+                "tick_physics",
+                0.6
+              ]
+            ]
+          },
+          {
+            "frame": 2985,
+            "work": 17.184,
+            "counters": {
+              "upload_kb": 1880,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                10.03
+              ],
+              [
+                "map",
+                1.66
+              ],
+              [
+                "objects",
+                1.32
+              ],
+              [
+                "grass",
+                0.85
+              ],
+              [
+                "nature",
+                0.79
+              ],
+              [
+                "light",
+                0.51
+              ]
+            ]
+          },
+          {
+            "frame": 3741,
+            "work": 16.842,
+            "counters": {
+              "upload_kb": 1860,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                6.3
+              ],
+              [
+                "map",
+                3.35
+              ],
+              [
+                "tick_physics",
+                1.36
+              ],
+              [
+                "grass",
+                1.06
+              ],
+              [
+                "tick",
+                0.96
+              ],
+              [
+                "nature",
+                0.95
+              ]
+            ]
+          },
+          {
+            "frame": 3662,
+            "work": 16.706,
+            "counters": {
+              "upload_kb": 1038,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sky_occlusion",
+                4.26
+              ],
+              [
+                "sun_shadows",
+                3.86
+              ],
+              [
+                "map",
+                1.84
+              ],
+              [
+                "objects",
+                1.17
+              ],
+              [
+                "light",
+                1.17
+              ],
+              [
+                "grass",
+                0.93
+              ]
+            ]
+          },
+          {
+            "frame": 3661,
+            "work": 15.608,
+            "counters": {
+              "upload_kb": 1043,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.75
+              ],
+              [
+                "sky_occlusion",
+                2.65
+              ],
+              [
+                "map",
+                2.12
+              ],
+              [
+                "nature",
+                1.25
+              ],
+              [
+                "grass",
+                0.95
+              ],
+              [
+                "tick_physics",
+                0.84
+              ]
+            ]
+          },
+          {
+            "frame": 3675,
+            "work": 15.515,
+            "counters": {
+              "upload_kb": 1557,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.99
+              ],
+              [
+                "map",
+                2.26
+              ],
+              [
+                "light",
+                0.86
+              ],
+              [
+                "tick_physics",
+                0.81
+              ],
+              [
+                "nature",
+                0.77
+              ],
+              [
+                "objects",
+                0.68
+              ]
+            ]
+          },
+          {
+            "frame": 3729,
+            "work": 15.354,
+            "counters": {
+              "upload_kb": 1611,
+              "builds": 1,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                8.91
+              ],
+              [
+                "map",
+                1.45
+              ],
+              [
+                "tick_physics",
+                1.26
+              ],
+              [
+                "light",
+                0.69
+              ],
+              [
+                "nature",
+                0.69
+              ],
+              [
+                "grass",
+                0.55
+              ]
+            ]
+          },
+          {
+            "frame": 3549,
+            "work": 14.808,
+            "counters": {
+              "upload_kb": 5186,
+              "builds": 1,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.91
+              ],
+              [
+                "nature_update",
+                2.72
+              ],
+              [
+                "map",
+                2.19
+              ],
+              [
+                "detail",
+                1.19
+              ],
+              [
+                "objects",
+                1.04
+              ],
+              [
+                "nature",
+                0.72
+              ]
+            ]
+          },
+          {
+            "frame": 3659,
+            "work": 14.457,
+            "counters": {
+              "upload_kb": 1303,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.5
+              ],
+              [
+                "sky_occlusion",
+                1.89
+              ],
+              [
+                "map",
+                1.69
+              ],
+              [
+                "light",
+                1.22
+              ],
+              [
+                "nature",
+                1.05
+              ],
+              [
+                "sky",
+                0.79
+              ]
+            ]
+          },
+          {
+            "frame": 3748,
+            "work": 14.443,
+            "counters": {
+              "upload_kb": 1151,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.82
+              ],
+              [
+                "nature_update",
+                1.95
+              ],
+              [
+                "map",
+                1.7
+              ],
+              [
+                "tick_physics",
+                0.94
+              ],
+              [
+                "grass",
+                0.84
+              ],
+              [
+                "nature",
+                0.77
+              ]
+            ]
+          },
+          {
+            "frame": 3711,
+            "work": 14.349,
+            "counters": {
+              "upload_kb": 1603,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.55
+              ],
+              [
+                "map",
+                2.76
+              ],
+              [
+                "nature",
+                1.33
+              ],
+              [
+                "grass",
+                1.16
+              ],
+              [
+                "light",
+                0.69
+              ],
+              [
+                "tick_physics",
+                0.61
+              ]
+            ]
+          },
+          {
+            "frame": 3808,
+            "work": 14.309,
+            "counters": {
+              "upload_kb": 1204,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.67
+              ],
+              [
+                "nature_update",
+                3.22
+              ],
+              [
+                "tick_physics",
+                1.57
+              ],
+              [
+                "map",
+                1.27
+              ],
+              [
+                "light",
+                0.78
+              ],
+              [
+                "nature",
+                0.77
+              ]
+            ]
+          }
+        ],
+        "hash": "f23290fb"
+      }
+    },
+    "after_repeat": {
+      "ford": {
+        "frames": 3649,
+        "work": {
+          "mean": 9.116127432173199,
+          "p95": 11.475,
+          "p99": 12.84,
+          "max": 15.306,
+          "over16": 0,
+          "over20": 0,
+          "over33": 0
+        },
+        "wall": {
+          "mean": 9.148507262263633,
+          "p95": 11.502,
+          "p99": 12.87,
+          "max": 15.329,
+          "over16": 0,
+          "over20": 0,
+          "over33": 0
+        },
+        "worst": [
+          {
+            "frame": 507,
+            "work": 15.306,
+            "counters": {
+              "upload_kb": 1238,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                9.05
+              ],
+              [
+                "map",
+                1.23
+              ],
+              [
+                "nature",
+                1.07
+              ],
+              [
+                "grass",
+                0.87
+              ],
+              [
+                "objects",
+                0.63
+              ],
+              [
+                "tick_physics",
+                0.51
+              ]
+            ]
+          },
+          {
+            "frame": 846,
+            "work": 15.061,
+            "counters": {
+              "upload_kb": 6857,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 1
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.32
+              ],
+              [
+                "map",
+                1.62
+              ],
+              [
+                "nature",
+                1.21
+              ],
+              [
+                "objects",
+                1.19
+              ],
+              [
+                "grass",
+                0.71
+              ],
+              [
+                "light",
+                0.68
+              ]
+            ]
+          },
+          {
+            "frame": 2519,
+            "work": 15.045,
+            "counters": {
+              "upload_kb": 1725,
+              "builds": 2,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.96
+              ],
+              [
+                "map",
+                2.36
+              ],
+              [
+                "nature_update",
+                1.69
+              ],
+              [
+                "sky",
+                1.26
+              ],
+              [
+                "light",
+                1.25
+              ],
+              [
+                "objects",
+                0.79
+              ]
+            ]
+          },
+          {
+            "frame": 2518,
+            "work": 14.958,
+            "counters": {
+              "upload_kb": 1765,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.88
+              ],
+              [
+                "nature_update",
+                3.43
+              ],
+              [
+                "map",
+                2.03
+              ],
+              [
+                "light",
+                0.98
+              ],
+              [
+                "grass",
+                0.73
+              ],
+              [
+                "objects",
+                0.65
+              ]
+            ]
+          },
+          {
+            "frame": 1840,
+            "work": 14.823,
+            "counters": {
+              "upload_kb": 1385,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                3.69
+              ],
+              [
+                "map",
+                2.4
+              ],
+              [
+                "objects",
+                1.48
+              ],
+              [
+                "tick",
+                1.39
+              ],
+              [
+                "tick_physics",
+                1.35
+              ],
+              [
+                "light",
+                0.92
+              ]
+            ]
+          },
+          {
+            "frame": 2561,
+            "work": 14.72,
+            "counters": {
+              "upload_kb": 1325,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.01
+              ],
+              [
+                "map",
+                2.45
+              ],
+              [
+                "grass",
+                0.95
+              ],
+              [
+                "tick_physics",
+                0.88
+              ],
+              [
+                "objects",
+                0.79
+              ],
+              [
+                "light",
+                0.78
+              ]
+            ]
+          },
+          {
+            "frame": 575,
+            "work": 14.25,
+            "counters": {
+              "upload_kb": 339,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.54
+              ],
+              [
+                "sky_occlusion",
+                2.6
+              ],
+              [
+                "nature",
+                1.58
+              ],
+              [
+                "map",
+                1.58
+              ],
+              [
+                "objects",
+                0.87
+              ],
+              [
+                "grass",
+                0.64
+              ]
+            ]
+          },
+          {
+            "frame": 421,
+            "work": 14.139,
+            "counters": {
+              "upload_kb": 6279,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.17
+              ],
+              [
+                "detail",
+                3.86
+              ],
+              [
+                "map",
+                1.31
+              ],
+              [
+                "nature",
+                1.09
+              ],
+              [
+                "light",
+                0.8
+              ],
+              [
+                "objects",
+                0.61
+              ]
+            ]
+          },
+          {
+            "frame": 574,
+            "work": 14.081,
+            "counters": {
+              "upload_kb": 1356,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.04
+              ],
+              [
+                "map",
+                2.08
+              ],
+              [
+                "objects",
+                1.47
+              ],
+              [
+                "sky_occlusion",
+                1.44
+              ],
+              [
+                "light",
+                1.22
+              ],
+              [
+                "nature",
+                0.9
+              ]
+            ]
+          },
+          {
+            "frame": 536,
+            "work": 14.059,
+            "counters": {
+              "upload_kb": 1356,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                4.82
+              ],
+              [
+                "map",
+                2.54
+              ],
+              [
+                "tick",
+                1.09
+              ],
+              [
+                "objects",
+                0.88
+              ],
+              [
+                "nature",
+                0.84
+              ],
+              [
+                "tick_physics",
+                0.79
+              ]
+            ]
+          },
+          {
+            "frame": 571,
+            "work": 14.028,
+            "counters": {
+              "upload_kb": 854,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                5.42
+              ],
+              [
+                "sky_occlusion",
+                1.72
+              ],
+              [
+                "map",
+                1.33
+              ],
+              [
+                "objects",
+                1.3
+              ],
+              [
+                "light",
+                0.94
+              ],
+              [
+                "nature",
+                0.89
+              ]
+            ]
+          },
+          {
+            "frame": 2053,
+            "work": 14.003,
+            "counters": {
+              "upload_kb": 1827,
+              "builds": 0,
+              "cascades": 2,
+              "gi_builds": 0,
+              "map_uploads": 0
+            },
+            "top": [
+              [
+                "sun_shadows",
+                7.22
+              ],
+              [
+                "map",
+                2.09
+              ],
+              [
+                "light",
+                0.89
+              ],
+              [
+                "grass",
+                0.65
+              ],
+              [
+                "objects",
+                0.54
+              ],
+              [
+                "tick_physics",
+                0.53
+              ]
+            ]
+          }
+        ],
+        "hash": "f23290fb"
+      }
+    }
+  },
+  "residency": {
+    "before": {
+      "start": {
+        "static": {
+          "resident": 0,
+          "peak_resident": 0,
+          "unique_tiles": 0,
+          "builds": 0,
+          "installs": 0,
+          "evictions": 0,
+          "discarded": 0,
+          "waits": 0,
+          "build_us_max": 0,
+          "build_us_avg": 0,
+          "wait_us_max": 0,
+          "kb": 0,
+          "peak_kb": 0,
+          "worker_peak_tiles": 0,
+          "update_us_max": 0,
+          "prop_instances": 0,
+          "canopies": 0,
+          "sky_tiles": 1,
+          "init_ms": 481,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0
+        },
+        "static_batches": 885
+      },
+      "loaded": {
+        "static": {
+          "resident": 42,
+          "peak_resident": 42,
+          "unique_tiles": 42,
+          "builds": 42,
+          "installs": 42,
+          "evictions": 0,
+          "discarded": 0,
+          "waits": 1,
+          "build_us_max": 142530,
+          "build_us_avg": 22103,
+          "wait_us_max": 122312,
+          "kb": 4340,
+          "peak_kb": 4340,
+          "worker_peak_tiles": 9,
+          "update_us_max": 200805,
+          "prop_instances": 21317,
+          "canopies": 80689,
+          "sky_tiles": 222,
+          "init_ms": 439,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0
+        },
+        "static_batches": 885
+      },
+      "loaded_r3": {
+        "static": {
+          "resident": 39,
+          "peak_resident": 39,
+          "unique_tiles": 48,
+          "builds": 66,
+          "installs": 48,
+          "evictions": 9,
+          "discarded": 18,
+          "waits": 1,
+          "build_us_max": 221450,
+          "build_us_avg": 27195,
+          "wait_us_max": 259560,
+          "kb": 5222,
+          "peak_kb": 5222,
+          "worker_peak_tiles": 9,
+          "update_us_max": 367927,
+          "prop_instances": 41010,
+          "canopies": 62282,
+          "sky_tiles": 222,
+          "init_ms": 467,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0
+        },
+        "static_batches": 885
+      },
+      "memory_ford": {
+        "static": {
+          "resident": 42,
+          "peak_resident": 46,
+          "unique_tiles": 46,
+          "builds": 49,
+          "installs": 46,
+          "evictions": 4,
+          "discarded": 3,
+          "waits": 1,
+          "build_us_max": 209993,
+          "build_us_avg": 28491,
+          "wait_us_max": 160319,
+          "kb": 4420,
+          "peak_kb": 4844,
+          "worker_peak_tiles": 9,
+          "update_us_max": 284563,
+          "prop_instances": 24931,
+          "canopies": 77923,
+          "sky_tiles": 985,
+          "init_ms": 551,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0
+        },
+        "static_batches": 885
+      }
+    },
+    "after": {
+      "start": {
+        "static": {
+          "resident": 0,
+          "peak_resident": 0,
+          "unique_tiles": 0,
+          "builds": 0,
+          "installs": 0,
+          "evictions": 0,
+          "discarded": 0,
+          "waits": 0,
+          "build_us_max": 0,
+          "build_us_avg": 0,
+          "wait_us_max": 0,
+          "kb": 0,
+          "peak_kb": 0,
+          "worker_peak_tiles": 0,
+          "update_us_max": 0,
+          "prop_instances": 0,
+          "canopies": 0,
+          "sky_tiles": 1,
+          "init_ms": 469,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0,
+          "poi_objects": 0,
+          "pole_objects": 0,
+          "object_batches": 0,
+          "wire_vertices": 0,
+          "wire_batches": 0
+        },
+        "static_batches": 0
+      },
+      "loaded": {
+        "static": {
+          "resident": 40,
+          "peak_resident": 40,
+          "unique_tiles": 40,
+          "builds": 42,
+          "installs": 40,
+          "evictions": 0,
+          "discarded": 2,
+          "waits": 1,
+          "build_us_max": 187183,
+          "build_us_avg": 26959,
+          "wait_us_max": 206233,
+          "kb": 6491,
+          "peak_kb": 6491,
+          "worker_peak_tiles": 9,
+          "update_us_max": 327106,
+          "prop_instances": 21317,
+          "canopies": 79547,
+          "sky_tiles": 222,
+          "init_ms": 463,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0,
+          "poi_objects": 5421,
+          "pole_objects": 1725,
+          "object_batches": 720,
+          "wire_vertices": 15182,
+          "wire_batches": 32
+        },
+        "static_batches": 720
+      },
+      "loaded_r3": {
+        "static": {
+          "resident": 39,
+          "peak_resident": 39,
+          "unique_tiles": 61,
+          "builds": 66,
+          "installs": 61,
+          "evictions": 22,
+          "discarded": 5,
+          "waits": 1,
+          "build_us_max": 254424,
+          "build_us_avg": 33085,
+          "wait_us_max": 316622,
+          "kb": 5666,
+          "peak_kb": 5666,
+          "worker_peak_tiles": 9,
+          "update_us_max": 480372,
+          "prop_instances": 41010,
+          "canopies": 62282,
+          "sky_tiles": 222,
+          "init_ms": 448,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0,
+          "poi_objects": 1127,
+          "pole_objects": 360,
+          "object_batches": 113,
+          "wire_vertices": 3440,
+          "wire_batches": 11
+        },
+        "static_batches": 113
+      },
+      "memory_ford": {
+        "static": {
+          "resident": 41,
+          "peak_resident": 43,
+          "unique_tiles": 46,
+          "builds": 49,
+          "installs": 46,
+          "evictions": 5,
+          "discarded": 3,
+          "waits": 1,
+          "build_us_max": 177909,
+          "build_us_avg": 27365,
+          "wait_us_max": 221421,
+          "kb": 6154,
+          "peak_kb": 6492,
+          "worker_peak_tiles": 9,
+          "update_us_max": 322716,
+          "prop_instances": 24931,
+          "canopies": 77015,
+          "sky_tiles": 985,
+          "init_ms": 479,
+          "init_prime_loads": 52,
+          "init_resident": 52,
+          "init_missing_samples": 0,
+          "poi_objects": 4809,
+          "pole_objects": 1287,
+          "object_batches": 625,
+          "wire_vertices": 10896,
+          "wire_batches": 23
+        },
+        "static_batches": 625
+      }
+    }
+  },
+  "cpu_perf_note": "Single paired CPU-clock runs on shared host. Original ford has 4 >16.7 ms outliers (detail/update_static 0.026\u20130.066 ms); repeated ford has 0. Both retained; all hashes match."
+}

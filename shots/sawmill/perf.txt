@@ -1,0 +1,27 @@
+Sawmill tour frame time, ms per step (sunset and night steps, settled; day steps include streaming warm-up)
+view               after1     after2     after3    before1    before2    before3
+barracks_in         15.03      15.14      11.62      16.03      15.79      14.17
+barracks_yard       16.88      16.51      12.59      17.98      17.44      16.11
+cab                 16.54      14.40      14.83      18.80      18.07      15.56
+garden              15.97      15.26      11.43      15.94      14.49      13.47
+gate                19.72      18.65      16.24      22.41      21.03      18.95
+kitchen_in          16.07      15.63      13.37      17.12      16.54      14.61
+kitchen_yard        16.60      16.77      13.28      17.53      16.39      15.16
+overview            23.01      22.14      16.25      23.13      20.87      17.59
+shed_cubicles       14.78      15.15      10.92      15.86      14.96      14.11
+stall               17.41      17.33      12.64      16.82      16.84      15.07
+workshop            15.61      15.25      11.37      16.25      15.83      15.47
+yard                16.42      17.45      14.26      16.49      16.24      14.69
+mean                17.00      16.64      13.23      17.86      17.04      15.41
+before 16.77 ms, after 15.63 ms, delta -1.15 ms
+
+Steady frames of the whole run (perf probe, us): avg, draws, sections
+run             avg  draws     light   objects       map    nature footprints   outside
+after1        18489    348      1847      2525      2374      2722       800      1430
+after2        18071    348      1799      2417      2320      2674       782      1375
+after3        14422    348      1432      1948      1837      2095       621      1153
+before1       19389    393      1865      3379      2380      2737       794      1424
+before2       18508    393      1779      3188      2273      2648       768      1389
+before3       16863    393      1621      2883      2059      2397       700      1264
+before mean    18253    393      1755      3150      2237      2594       754      1359
+after mean    16994    348      1692      2296      2177      2497       734      1319

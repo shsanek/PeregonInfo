@@ -1,0 +1,36 @@
+contracts_taken: 2
+contracts_done: 1
+outposts_cleared: 1
+fights_lost: 0
+kills: 0
+items_looted: 0
+items_sold: 1
+upgrades: 0
+saves: 0
+loads: 0
+truck_resets: 0
+drive_m: 774
+tiers: [1, 1, 2, 1]
+coupons: 130
+xp: 205
+mode: drive
+nature: cells 180, colliders skipped on road beds 0, foot boxes 14
+bot steps:
+      32 step drive_out
+moments:
+  0:00 new game at the Sawmill
+  0:00 contract taken: w5e0_000_grain_haul
+  0:00 stage: elevator cleared
+  0:00 contract stop done at elevator
+  0:00 stage: 5 cargo items loaded into the bed
+  0:00 stage: 5 cargo items carried to the receiving point
+  0:00 cargo received: 5 x grain_sack
+  0:00 contract done +350 coupons +205 xp
+  0:00 stage: 2 cargo items loaded into the bed
+  0:00 stage: 1 items sold to the trader
+  0:00 contract taken: w5e0_005_supply_run
+  0:00 stage: 4 cargo items loaded into the bed
+  0:00 stage start: switchback
+  0:00 autosave
+  3:19 first visit map compound encounter at outpost_shelf
+  3:19 outpost gas_station manned: 6 raiders

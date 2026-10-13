@@ -1,0 +1,5 @@
+scene=scene_smoke seed=7 ticks=600 flavour=native
+capture tick=100 state=ada901f7 image=af22cb33 file=tick_000100.bmp
+capture tick=300 state=dd9cad31 image=5d6b7890 file=tick_000300.bmp
+capture tick=600 state=6d68069b image=041c0c77 file=tick_000600.bmp
+final_state_hash=6d68069b

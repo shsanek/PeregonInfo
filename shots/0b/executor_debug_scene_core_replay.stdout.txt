@@ -1,0 +1,39 @@
+scene_core_replay peregon-core 0.2.0
+fp_env ok=1
+balance hash=06536fb7 bodies=24 tick_hz=60
+tick 100 hash c4aee1bdc7a5a043 b0 c0cb9afb 3f79a116 40125b55
+tick 200 hash 214e530c89d5228b b0 c03a4062 3f4409a7 c08ed1a3
+tick 300 hash ab1e1edf47c539f3 b0 41956315 3f44679e c11a75e7
+tick 400 hash 37cced3676e88ed2 b0 4191a35d 3f19999a c0f7bf1b
+tick 500 hash 70764b9dd962a302 b0 41350de9 3fa62393 c0a94920
+tick 600 hash 0f8ce4b712cb0d70 b0 40dddd56 3fdcd9d6 3f97332b
+tick 700 hash 8556c401996e5b27 b0 3f06a3a4 3f8e88e4 4023c956
+tick 800 hash a5e96f480b6236d4 b0 c12d438e 3f4ca985 401d2f38
+tick 900 hash feca594578e4c878 b0 c17456c0 403b20cf 409d8598
+tick 1000 hash 2639f4783f5b87fd b0 c08f97a0 3fee99f9 41428549
+tick 1100 hash f4fa8fc2c5b00d67 b0 40c68473 3f82367d 41640739
+tick 1200 hash add1d71765a7e0e9 b0 4179a933 3f1b9237 413d78ee
+tick 1300 hash b459bc5ce464985e b0 417783e4 40581246 412ecc6c
+tick 1400 hash c56fafc434c07d89 b0 410a4040 3ff3157f 4108e1a9
+tick 1500 hash c8ed5d1ba76f32c4 b0 414d9aaf 3f8fee35 407d27aa
+tick 1600 hash d80b21c8fee8b55e b0 419483f9 3f2c6c4d c1087391
+tick 1700 hash 98b283928e9b8c4f b0 4082e422 3f19999a 40d32bbb
+tick 1800 hash 3bce408dc2e9ce0f b0 c19a2f28 3f1c4dd8 4181f99d
+tick 1900 hash 299ab80a1574a513 b0 c094a9f0 4058772c 41491082
+tick 2000 hash f757f3969a2a3282 b0 c160444d 3f4a17f4 3f97f9fd
+tick 2100 hash 27f3225934f9c97e b0 c142c586 3f1d274a c0454184
+tick 2200 hash 7dec6cbdc1403bed b0 413199de 4026dd33 406ed622
+tick 2300 hash 4139ad3bd10039c6 b0 41992fd6 40cce6ae c0cb6541
+tick 2400 hash 79469282c69cd0d7 b0 41703d18 40814591 c189506b
+tick 2500 hash 29f1175a3f63772b b0 4144758e 402b3e15 bec17de4
+tick 2600 hash 7491be980d037d5c b0 4186367b 3f23b88f 418d8f10
+tick 2700 hash e049caf46a64dd77 b0 419ac040 3f23c950 419b1f94
+tick 2800 hash d92a44406e0f7ec1 b0 418fd35f 3f19999a 418e9181
+tick 2900 hash 3efade12afa1292a b0 4183f8bf 40048cc5 4166780d
+tick 3000 hash eee4d01350e1d2bc b0 415858f5 400480d6 40e00d89
+record frames=2097 ticks=3000 clock_tick=3000 dropped=0 render_hash=fc743ab5d34e75d3
+final hash eee4d01350e1d2bc heading0 c0144b16
+replay file bytes=27930 fnv=467da48a
+replay ticks=3000 hashes_checked=3000 first_desync=none final_match=yes
+perturbed replay (restitution+0.001) first_desync=tick 23
+RESULT PASS

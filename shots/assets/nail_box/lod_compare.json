@@ -1,0 +1,31 @@
+{
+ "asset": "nail_box",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1945067
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 12
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 12
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9721,
+   "side": 0.9746,
+   "q34": 0.921,
+   "top": 0.9817
+  },
+  "LOD1 (after)": {
+   "front": 0.9721,
+   "side": 0.9746,
+   "q34": 0.921,
+   "top": 0.9817
+  }
+ }
+}

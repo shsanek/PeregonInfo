@@ -1,0 +1,31 @@
+{
+ "asset": "supply_crate",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1962967
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 36
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 36
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9611,
+   "side": 0.949,
+   "q34": 0.8746,
+   "top": 0.9452
+  },
+  "LOD1 (after)": {
+   "front": 0.9611,
+   "side": 0.949,
+   "q34": 0.8746,
+   "top": 0.9452
+  }
+ }
+}

@@ -1,0 +1,10 @@
+[suite] coop_seats_tests
+[ OK ] interaction41_map_primary_secondary_and_sill_walk
+[ OK ] interaction41_escape_and_physical_rocking
+[done] 2/2 passed, 52 checks
+    sill side -1: lift 0.000 distance 0.519
+    sill side 1: lift 0.000 distance 0.310
+    inspection side -1: base 0.000 peak 1.002 final 0.971
+    inspection side 1: base 0.000 peak 0.929 final 0.901
+    rescue 90 deg: 104 held ticks, up 0.906
+    rescue 180 deg: 219 held ticks, up 0.902

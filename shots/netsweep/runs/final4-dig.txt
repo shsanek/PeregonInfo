@@ -1,0 +1,35 @@
+LOG line 8 host prompt.1: LMB — dig · E — put the shovel down
+LOG line 10 host shovelload: 0
+LOG line 15 host layer.soil: 5cc38b82
+LOG line 20 host layer.soil: b0f0fc41
+LOG line 22 host layer.soil: e367f92a
+LOG line 23 host players: 3
+LOG line 8 p1 prompt.1: LMB — dig · E — put the shovel down
+LOG line 10 p1 shovelload: 0
+LOG line 15 p1 layer.soil: 5cc38b82
+LOG line 20 p1 layer.soil: 4eec9570
+LOG line 22 p1 layer.soil: d06655a8
+LOG line 23 p1 players: 3
+LOG line 8 p2 prompt.1: na
+LOG line 10 p2 shovelload: 0
+LOG line 15 p2 layer.soil: a4e72806
+LOG line 20 p2 layer.soil: a4e72806
+LOG line 22 p2 layer.soil: d06655a8
+LOG line 23 p2 players: 3
+PASS line 4 DIG-01 shovel = 1:1: host=1:1 p1=1:1
+PASS line 11 DIG-05 shovelload == x: host=0 p1=0
+PASS line 12 DIG-02 layer.soil != $soil0: host=5cc38b82 p1=5cc38b82
+PASS line 13 BODY-03 stamina.1 < $st0: host=68 p1=68
+PASS line 14 BODY-03 stamina.1 ~~ 4: host=68 p1=68
+PASS line 19 DIG-06 layer.soil != $soil1: host=b0f0fc41 p1=4eec9570
+PASS line 21 DIG-12 layer.soil != $soil0: host=e367f92a p1=d06655a8@1 p2=d06655a8
+client layer checks: 79 equal, 0 differ
+acts 6, failed acts 0
+rows 6 pass 6 fail 0
+ROW BODY-03 PASS (2 checks)
+ROW DIG-01 PASS (1 checks)
+ROW DIG-02 PASS (1 checks)
+ROW DIG-05 PASS (1 checks)
+ROW DIG-06 PASS (1 checks)
+ROW DIG-12 PASS (1 checks)
+RESULT PASS

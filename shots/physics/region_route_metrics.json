@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scene": "region_drive_auto",
+  "seed": 1,
+  "ticks": 36000,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "rhi": null,
+  "replay": null,
+  "wall_time_ms": 3638.966,
+  "frame_time_ms": {"avg": 0.101, "min": 0.071, "max": 3.553},
+  "final_state_hash": "bb7825e5",
+  "captures": [],
+  "scene_metrics": {"region": {"leg": 4, "route_index": 285, "route_points": 319, "route_m": 2512, "route_surfaces": "@0 dirt:47 @6 mud:7 @7 dirt:469 @66 mud:7 @67 dirt:47 @73 mud:7 @74 dirt:111 @88 mud:39 @93 dirt:7 @94 mud:7 @95 dirt:135 @112 mud:7 @113 dirt:39 @118 mud:7 @119 dirt:71 @128 mud:15 @130 dirt:7 @131 mud:15 @133 dirt:7 @134 mud:15 @136 dirt:31 @140 mud:63 @148 dirt:23 @151 mud:23 @154 dirt:532 @223 mud:7 @224 dirt:151 @243 mud:7 @244 dirt:500 @307 mud:7 @308 dirt:79", "route_hummocks": "", "truck_road_cm": 144, "wheels": "c1 s17 d0 sr1361 L0 sf2 wet35 sub0 bs0 cl0; c1 s43 d0 sr1 L5898 sf2 wet35 sub0 bs0 cl0; c1 s36 d36 sr474 L3615 sf2 wet20 sub0 bs0 cl0; c1 s45 d40 sr532 L3084 sf1 wet10 sub0 bs0 cl0; pitch 15 kmh 0 gear 1 rpm 4159 water 0 buoy 0 drag 0", "spawn_x": 35878, "spawn_z": 23112, "x": 36996, "z": 22417, "surface_ticks": {"dirt": 10975, "grass": 22948, "mud": 1788, "sand": 32, "ford": 257}, "water_ticks": 1123, "max_water_mm": 452, "max_buoyancy_n": 2673, "max_drift_cms": 37, "max_sink_mm": 164, "lift_wheel_ticks": 521, "stuck_ticks": 19408, "rut_chunks": 406, "distance_m": 1536, "vehicle_hash64": "0xed769144560eb4a1", "tiles": 25}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

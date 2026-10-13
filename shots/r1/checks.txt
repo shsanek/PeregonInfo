@@ -1,0 +1,25 @@
+PASS nature catalogue data/world/nature.txt matches nature.json + biomes.json
+PASS assetc tests (alpha-coverage mips, goldens, nature kit hashes)
+PASS shaderc golden (vegetation_card, vegetation_opaque and the earlier shaders)
+PASS shaderc unit tests (vertex-stage frac)
+PASS nature_tests native release
+PASS nature_tests EXEcutor release stdout == native (catalogue, kit, atlases, scatter hashes)
+PASS nature_tests native debug
+PASS nature_tests EXEcutor debug stdout == native (catalogue, kit, atlases, scatter hashes)
+PASS scene_r1_nature d3d9 SM2 in EXEcutor (run 003)
+PASS scene_r1_nature d3d9 fixed function in EXEcutor (run 004)
+PASS SM2 run: d3d9, 0 rhi errors, every grid built, all showcase habitats and categories scattered, 7 spots drawn
+PASS FF run: d3d9 fixed function, 0 rhi errors, same coverage
+FAIL SM2 run reproduces the golden captures (tools/goldens/scene_r1_nature.json)
+FAIL FF run reproduces the golden captures
+FAIL second SM2 run identical (image and state hashes)
+PASS SM2 and FF simulate the same states (scatter hashes in the state)
+PASS host build (rhi_null) simulates the same states as EXEcutor (scatter determinism across builds)
+PASS SM2 sway: static camera, tick 440 and 470 differ; FF (no sway) identical
+FAIL slice perf: 0 rhi errors, vegetation drawn, average frame <= 8.0 ms in EXEcutor d3d9
+PASS test window pak for the streamed-map scatter (19,22,21,24)
+PASS scene_r1_map: vegetation scattered over streamed tiles in EXEcutor d3d9, 0 rhi errors, >= 3 habitats (run 002)
+PASS scene_r1_map host (rhi_null) states == EXEcutor
+PASS RunGame window, SM2, present dumps at the camera spots
+PASS RunGame window, fixed function, present dumps
+PASS RunGame window, slice with vegetation

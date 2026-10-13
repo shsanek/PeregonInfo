@@ -1,0 +1,159 @@
+{
+ "source": "baba_trader.glb",
+ "rest_head_error_m": 4e-07,
+ "chain_alignment": 0.95066,
+ "clips": {
+  "idle": {
+   "seconds": 5.0,
+   "frames": 150,
+   "loop": true
+  },
+  "walk": {
+   "seconds": 1.25,
+   "frames": 38,
+   "loop": true
+  },
+  "talk": {
+   "seconds": 4.0,
+   "frames": 120,
+   "loop": true
+  },
+  "use_tool": {
+   "seconds": 2.0,
+   "frames": 60,
+   "loop": true
+  },
+  "turn_l90": {
+   "seconds": 1.2,
+   "frames": 36,
+   "loop": false
+  },
+  "turn_r90": {
+   "seconds": 1.2,
+   "frames": 36,
+   "loop": false
+  },
+  "turn_l45": {
+   "seconds": 0.9,
+   "frames": 27,
+   "loop": false
+  },
+  "turn_r45": {
+   "seconds": 0.9,
+   "frames": 27,
+   "loop": false
+  }
+ },
+ "motion_profile": {
+  "age": 74.0,
+  "old": true,
+  "canonical_arm_deg": 45.0,
+  "blink_deg": 32.3255,
+  "jaw_open_deg": 9.0,
+  "arm_out_deg": 0.0,
+  "stride_m": 0.375,
+  "lift_m": 0.0331,
+  "pelvis_drop_m": -0.0484
+ },
+ "arm_clearance_mm": 18.0,
+ "loop_seam_deg": {
+  "idle": 0.0,
+  "talk": 0.0,
+  "use_tool": 0.0,
+  "walk": 0.0
+ },
+ "clip_checks": {
+  "idle": {
+   "frames": 150,
+   "hand_inside_frames": 73,
+   "hand_inside_verts_max": 6,
+   "hand_inside_depth_mm": -28.9,
+   "ankle_below_rest_mm": -0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 18.5,
+   "knee_flex_max_deg": 29.4,
+   "planted_slide_mm": 0.0
+  },
+  "talk": {
+   "frames": 120,
+   "hand_inside_frames": 0,
+   "hand_inside_verts_max": 0,
+   "hand_inside_depth_mm": 0.0,
+   "ankle_below_rest_mm": 0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 10.6,
+   "knee_flex_max_deg": 10.6,
+   "planted_slide_mm": 0.0
+  },
+  "turn_l45": {
+   "frames": 27,
+   "hand_inside_frames": 8,
+   "hand_inside_verts_max": 11,
+   "hand_inside_depth_mm": -25.6,
+   "ankle_below_rest_mm": -0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 10.6,
+   "knee_flex_max_deg": 39.5
+  },
+  "turn_l90": {
+   "frames": 36,
+   "hand_inside_frames": 13,
+   "hand_inside_verts_max": 8,
+   "hand_inside_depth_mm": -27.3,
+   "ankle_below_rest_mm": -0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 10.6,
+   "knee_flex_max_deg": 38.2
+  },
+  "turn_r45": {
+   "frames": 27,
+   "hand_inside_frames": 8,
+   "hand_inside_verts_max": 11,
+   "hand_inside_depth_mm": -16.3,
+   "ankle_below_rest_mm": -0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 10.6,
+   "knee_flex_max_deg": 39.5
+  },
+  "turn_r90": {
+   "frames": 36,
+   "hand_inside_frames": 10,
+   "hand_inside_verts_max": 8,
+   "hand_inside_depth_mm": -27.4,
+   "ankle_below_rest_mm": -0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 10.6,
+   "knee_flex_max_deg": 38.2
+  },
+  "use_tool": {
+   "frames": 60,
+   "hand_inside_frames": 0,
+   "hand_inside_verts_max": 0,
+   "hand_inside_depth_mm": 0.0,
+   "ankle_below_rest_mm": -0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 42.2,
+   "knee_flex_max_deg": 42.2,
+   "planted_slide_mm": 0.0
+  },
+  "walk": {
+   "frames": 38,
+   "hand_inside_frames": 20,
+   "hand_inside_verts_max": 11,
+   "hand_inside_depth_mm": -26.1,
+   "ankle_below_rest_mm": -0.0,
+   "knee_bad_frames": 0,
+   "knee_flex_min_deg": 21.3,
+   "knee_flex_max_deg": 65.7,
+   "stance_speed_mps": 0.5,
+   "stance_speed_std": 0.0,
+   "period_s": 1.267
+  }
+ },
+ "hole_check": {
+  "renders": 384,
+  "hole_renders": 0,
+  "hole_pixels_max": 0,
+  "cm_per_px": 0.67
+ }
+}

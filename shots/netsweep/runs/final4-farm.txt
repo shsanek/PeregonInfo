@@ -1,0 +1,54 @@
+LOG line 9 host hitch: 0
+LOG line 10 host lowered: 0
+LOG line 11 host plough: 0
+LOG line 16 host truck.x: 979
+LOG line 17 host truck.z: 717
+LOG line 22 host kmh: 32
+LOG line 23 host truck.x: 1009
+LOG line 24 host plough: 0
+LOG line 25 host plough: 0
+LOG line 26 host truck.x: 1179
+LOG line 34 host prompt.2: E — unhitch: Plough · W + Space — climb up and look into the bed
+LOG line 38 host prompt.2: E — hitch: Plough · W + Space — climb up and look into the bed
+LOG line 9 p1 hitch: 0
+LOG line 10 p1 lowered: 0
+LOG line 11 p1 plough: 0
+LOG line 16 p1 truck.x: 979
+LOG line 17 p1 truck.z: 717
+LOG line 22 p1 kmh: 32
+LOG line 23 p1 truck.x: 1009
+LOG line 24 p1 plough: 0
+LOG line 25 p1 plough: 0
+LOG line 26 p1 truck.x: 1179
+LOG line 34 p1 prompt.2: na
+LOG line 38 p1 prompt.2: na
+LOG line 9 p2 hitch: 0
+LOG line 10 p2 lowered: 0
+LOG line 11 p2 plough: 0
+LOG line 16 p2 truck.x: 979
+LOG line 17 p2 truck.z: 717
+LOG line 22 p2 kmh: 32
+LOG line 23 p2 truck.x: 1009
+LOG line 24 p2 plough: 0
+LOG line 25 p2 plough: 0
+LOG line 26 p2 truck.x: 1179
+LOG line 34 p2 prompt.2: E — unhitch: Plough · W + Space — climb up and look into the bed
+LOG line 38 p2 prompt.2: E — hitch: Plough · W + Space — climb up and look into the bed
+PASS line 12 FARM-02 hitch == x: host=0 p1=0@1 p2=0
+PASS line 13 FARM-02 hitch >= 0: host=0 p1=0@1 p2=0
+PASS line 19 FARM-03 lowered = 1: host=1@9 p1=1@15 p2=1@16
+PASS line 20 FARM-03 lowered == x: host=0 p1=0 p2=0@1
+PASS line 27 FARM-05 plough == x: host=0 p1=0@1 p2=0@1
+PASS line 29 FARM-03 lowered = 0: host=0@12 p1=0@15 p2=0@15
+PASS line 36 FARM-13 hitch = -1: host=-1@9 p1=-1@15 p2=-1@16
+PASS line 37 FARM-13 hitch == x: host=0 p1=0@1 p2=0
+PASS line 40 FARM-02 hitch >= 0: host=0@9 p1=0@15 p2=0@15
+PASS line 41 FARM-02 hitch == x: host=-1 p1=-1 p2=-1
+client layer checks: 96 equal, 0 differ
+acts 15, failed acts 0
+rows 4 pass 4 fail 0
+ROW FARM-02 PASS (4 checks)
+ROW FARM-03 PASS (3 checks)
+ROW FARM-05 PASS (1 checks)
+ROW FARM-13 PASS (2 checks)
+RESULT PASS

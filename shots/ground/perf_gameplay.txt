@@ -1,0 +1,16 @@
+build/perf/tip_r1/out/perf_frames.csv (7099 frames)
+  total    avg  22.25  p50  20.04  p95  32.74
+  map      avg   2.36  p50   1.70  p95   2.50
+  outside  avg   0.24  p50   0.18  p95   0.27
+build/perf/ground_r1/out/perf_frames.csv (7099 frames)
+  total    avg  23.87  p50  21.23  p95  34.10
+  map      avg   3.59  p50   2.32  p95   3.36
+  outside  avg   0.24  p50   0.19  p95   0.29
+build/perf/tip_r2/out/perf_frames.csv (7099 frames)
+  total    avg  22.49  p50  20.29  p95  33.01
+  map      avg   2.51  p50   1.66  p95   2.64
+  outside  avg   0.22  p50   0.17  p95   0.27
+build/perf/ground_r2/out/perf_frames.csv (7099 frames)
+  total    avg  23.74  p50  21.11  p95  34.51
+  map      avg   3.49  p50   2.40  p95   3.27
+  outside  avg   0.21  p50   0.17  p95   0.26

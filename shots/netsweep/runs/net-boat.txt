@@ -1,0 +1,42 @@
+LOG line 8 host prompt.1: Boat: E get in · G take the bow rope · Q — drink from the river
+LOG line 9 host prompt.0: Boat: E get in · G take the bow rope · Q — drink from the river
+LOG line 14 host banner.0: Someone is already at the oars
+LOG line 21 host boatpos.x: -2488
+LOG line 22 host boatpos.z: 3925
+LOG line 24 host boatpos.x: -2488
+LOG line 25 host boatpos.z: 3925
+LOG line 34 host pos.1.x: -1244
+LOG line 8 p1 prompt.1: Boat: E get in · G take the bow rope · Q — drink from the river
+LOG line 9 p1 prompt.0: na
+LOG line 14 p1 banner.0: na
+LOG line 21 p1 boatpos.x: -2488
+LOG line 22 p1 boatpos.z: 3925
+LOG line 24 p1 boatpos.x: -2488
+LOG line 25 p1 boatpos.z: 3925
+LOG line 34 p1 pos.1.x: -1244
+LOG line 8 p2 prompt.1: na
+LOG line 9 p2 prompt.0: na
+LOG line 14 p2 banner.0: na
+LOG line 21 p2 boatpos.x: -2488
+LOG line 22 p2 boatpos.z: 3925
+LOG line 24 p2 boatpos.x: -2488
+LOG line 25 p2 boatpos.z: 3925
+LOG line 34 p2 pos.1.x: -1244
+PASS line 11 BOAT-07 inboat.1 = 1: host=1@9 p1=1@9 p2=1@9
+PASS line 13 BOAT-16 inboat.0 = 0: host=0 p1=0@1 p2=0@1
+PASS line 17 BOAT-15 holder = fishing_rod: host=fishing_rod@10 p1=fishing_rod@15 p2=fishing_rod@15
+PASS line 18 BOAT-15 carry.1 = -: host=-@10 p1=-@10 p2=-@12
+PASS line 26 BOAT-08 boatpos.x == x: host=-2488 p1=-2488@1 p2=-2488
+PASS line 27 BOAT-08 boatpos.z == x: host=3925 p1=3925@1 p2=3925
+PASS line 29 FISH-16 holder = -: host=-@10 p1=-@10 p2=-@10
+PASS line 30 FISH-16 carry.1 = fishing_rod: host=fishing_rod@10 p1=fishing_rod@10 p2=fishing_rod@10
+PASS line 33 BOAT-12 inboat.1 = 0: host=0@9 p1=0@9 p2=0@10
+acts 14, failed acts 0
+rows 6 pass 6 fail 0
+ROW BOAT-07 PASS (1 checks)
+ROW BOAT-08 PASS (2 checks)
+ROW BOAT-12 PASS (1 checks)
+ROW BOAT-15 PASS (2 checks)
+ROW BOAT-16 PASS (1 checks)
+ROW FISH-16 PASS (2 checks)
+RESULT PASS

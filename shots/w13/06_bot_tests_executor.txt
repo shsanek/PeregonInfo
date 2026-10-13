@@ -1,0 +1,40 @@
+[suite] bot_tests part 1
+  route length 849 m, mud samples 142
+[ OK ] p1_route_adapter_follows_the_forest_road
+  episode task=drive seed=7 ticks=600 success=0 hash=3cefd0a8 v=0,0,0,0,0,85,44,0,253,1,0,54
+  episode task=drive seed=7 ticks=600 success=0 hash=3cefd0a8 v=0,0,0,0,0,85,44,0,253,1,0,54
+  episode task=drive seed=8 ticks=600 success=0 hash=0d45235b v=0,0,0,0,0,87,44,0,114,1,0,52
+[ OK ] p1_drive_episode_is_deterministic_and_seed_sensitive
+[done] 2/2 passed, 14 checks
+[suite] bot_tests part 2
+  enemies 4, visible 2
+[ OK ] p2_arena_observation_marks_hidden_enemies
+  episode task=arena seed=1 ticks=937 success=1 hash=09288b5e v=1,937,0,66,8,8,0,1,0,0,1,0
+[ OK ] p2_arena_bot_clears_the_gas_station
+[done] 2/2 passed, 9 checks
+[suite] bot_tests part 3
+  episode task=arena seed=2 ticks=1343 success=1 hash=1e004cc5 v=1,1343,24,71,9,9,0,0,1,0,2,0
+[ OK ] p3_arena_bot_beats_the_brute_with_the_sawn_off
+[done] 1/1 passed, 5 checks
+[suite] bot_tests part 4
+[ OK ] p4_board_policy_scores_and_chooses
+  planned 7 of 8
+[ OK ] p4_packing_plan_puts_contract_cargo_first_without_overlap
+  episode task=camp seed=1 ticks=307 success=1 hash=6a786be6 v=2,7,9,0,16,6,484,484,0,0,307,1
+  episode task=camp seed=2 ticks=209 success=1 hash=f54bb606 v=2,7,6,0,7,6,315,315,0,0,209,0
+  episode task=camp seed=3 ticks=339 success=1 hash=3c75ebd9 v=0,3,9,5,24,6,455,519,0,0,339,0
+  episode task=camp seed=4 ticks=285 success=1 hash=dc6574b5 v=1,5,8,0,11,6,445,445,0,0,285,0
+[ OK ] p4_camp_bot_takes_a_contract_and_packs_through_the_screen
+  episode task=camp seed=5 ticks=333 success=1 hash=24ccfd48 v=0,3,9,4,23,6,295,333,0,0,333,0
+  api steps 333
+[ OK ] p4_c_api_matches_the_episode_runner
+[ OK ] p4_replay_text_holds_entries_until_change
+[done] 5/5 passed, 384 checks
+[suite] bot_tests part 5
+  episode task=drive seed=1 ticks=6532 success=1 hash=5999b00d v=6532,0,0,0,0,831,46,3125,125,0,0,3502
+[ OK ] p5_drive_bot_completes_the_mud_route_with_t2_tyres
+[done] 1/1 passed, 5 checks
+[suite] bot_tests part 6
+  episode task=drive seed=2 ticks=3000 success=0 hash=1e9d6b1a v=0,2,0,11,12,49,28,0,610,0,1404,492
+[ OK ] p6_drive_bot_reports_stuck_and_rocks_with_t1_tyres
+[done] 1/1 passed, 5 checks

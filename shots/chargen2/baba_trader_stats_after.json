@@ -1,0 +1,109 @@
+{
+ "id": "baba_trader",
+ "targets_used": 62,
+ "bones": 43,
+ "cloth_s": 35.3,
+ "mask_s": 0.6,
+ "body_faces_hidden": 5823,
+ "garment_verts_hidden": {
+  "skirt": 708,
+  "valenki": 0,
+  "cardigan": 619
+ },
+ "tris_before": {
+  "body": 15110,
+  "eyes": 172,
+  "eyebrows": 192,
+  "skirt": 2290,
+  "valenki": 3272,
+  "cardigan": 9868,
+  "headscarf": 7240
+ },
+ "detail_verts": 194835,
+ "detail_depth_mm": {
+  "forehead": 0.55,
+  "glabella": 0.49,
+  "crow": 0.45,
+  "undereye": 0.02,
+  "nasolabial": 1.6,
+  "marionette": 0.78,
+  "perioral": 0.22,
+  "cheek": 0.13,
+  "neck": 0.29,
+  "crepe": 0.1
+ },
+ "detail_s": 1.5,
+ "poke_before_verts_mm": {
+  "body": [
+   50,
+   20.0
+  ],
+  "skirt": [
+   155,
+   19.6
+  ],
+  "valenki": [
+   0,
+   0.0
+  ],
+  "cardigan": [
+   129,
+   19.8
+  ]
+ },
+ "poke_faces_removed": {
+  "body": 116,
+  "skirt": 281,
+  "cardigan": 283
+ },
+ "poke_after_verts_mm": {
+  "body": [
+   2,
+   19.4
+  ],
+  "skirt": [
+   0,
+   0.0
+  ],
+  "valenki": [
+   0,
+   0.0
+  ],
+  "cardigan": [
+   0,
+   0.0
+  ]
+ },
+ "poke_s": 0.1,
+ "tris_after": {
+  "body": 1984,
+  "eyes": 172,
+  "eyebrows": 192,
+  "skirt": 819,
+  "valenki": 600,
+  "cardigan": 1717,
+  "headscarf": 1100
+ },
+ "tris_total": 6584,
+ "face_uv_share_before": 0.0143,
+ "face_uv_scale": 4.789,
+ "face_islands": 18,
+ "face_loops": 4143,
+ "face_px_per_cm": 15.02,
+ "face_atlas_share": 0.1185,
+ "face_rest_px_per_cm": 3.17,
+ "bake_diffuse_s": 9.3,
+ "bake_rough_s": 6.2,
+ "bake_normal_s": 6.6,
+ "normal_flip_texels": 2989,
+ "normal_flip_ppm": 6023.5,
+ "atlas_coverage": 0.473,
+ "bake_s": 24.8,
+ "final_objects": {
+  "baba_trader": 6392,
+  "baba_trader_alpha": 192
+ },
+ "final_tris": 6584,
+ "materials": 2,
+ "seconds": 74.9
+}

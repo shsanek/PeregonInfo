@@ -1,0 +1,31 @@
+{
+ "asset": "winch_coil",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1872676
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 936
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 468
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9599,
+   "side": 0.9714,
+   "q34": 0.9828,
+   "top": 0.9485
+  },
+  "LOD1 (after)": {
+   "front": 0.9478,
+   "side": 0.9588,
+   "q34": 0.9699,
+   "top": 0.9205
+  }
+ }
+}

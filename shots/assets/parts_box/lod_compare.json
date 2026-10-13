@@ -1,0 +1,31 @@
+{
+ "asset": "parts_box",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1954830
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 1200
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 600
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9622,
+   "side": 0.9626,
+   "q34": 0.9695,
+   "top": 0.9752
+  },
+  "LOD1 (after)": {
+   "front": 0.9563,
+   "side": 0.9477,
+   "q34": 0.9582,
+   "top": 0.9357
+  }
+ }
+}

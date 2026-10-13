@@ -1,0 +1,78 @@
+LOG line 8 host place.1: seat0
+LOG line 11 host cargokg: 600
+LOG line 12 host tyre: 100
+LOG line 17 host prompt.1: -
+LOG line 20 host tyre: 76
+LOG line 25 host tyre: 97
+LOG line 27 host tyre: 74
+LOG line 38 host rpm: 42
+LOG line 39 host kmh: 28
+LOG line 40 host sink: 25
+LOG line 45 host truck.x: 1460
+LOG line 46 host truck.z: 684
+LOG line 47 host fuel: 594
+LOG line 8 p1 place.1: seat0
+LOG line 11 p1 cargokg: 2
+LOG line 12 p1 tyre: 100
+LOG line 17 p1 prompt.1: -
+LOG line 20 p1 tyre: 76
+LOG line 25 p1 tyre: 97
+LOG line 27 p1 tyre: 74
+LOG line 38 p1 rpm: 42
+LOG line 39 p1 kmh: 28
+LOG line 40 p1 sink: 26
+LOG line 45 p1 truck.x: 1460
+LOG line 46 p1 truck.z: 684
+LOG line 47 p1 fuel: 594
+LOG line 8 p2 place.1: seat0
+LOG line 11 p2 cargokg: 2
+LOG line 12 p2 tyre: 100
+LOG line 17 p2 prompt.1: na
+LOG line 20 p2 tyre: 76
+LOG line 25 p2 tyre: 97
+LOG line 27 p2 tyre: 74
+LOG line 38 p2 rpm: 42
+LOG line 39 p2 kmh: 28
+LOG line 40 p2 sink: 26
+LOG line 45 p2 truck.x: 1460
+LOG line 46 p2 truck.z: 684
+LOG line 47 p2 fuel: 594
+PASS line 9 SEAT-01 place.1 = seat0: host=seat0 p1=seat0 p2=seat0
+PASS line 10 POWER-02 engine = 1: host=1 p1=1 p2=1
+PASS line 13 DRIVE-06 contact = 4: host=4 p1=4 p2=4
+PASS line 14 DRIVE-06 comp.0 ~~ 4: host=15 p1=15 p2=15
+PASS line 15 DRIVE-06 comp.3 ~~ 4: host=23 p1=23 p2=23
+PASS line 18 DRIVE-05 tyre < 100: host=99@23 p1=99@24 p2=99@24
+PASS line 19 DRIVE-05 tyre ~~ 5: host=76 p1=76 p2=76
+PASS line 23 DRIVE-05 tyre > $ty0: host=77@57 p1=77@57 p2=77@57
+PASS line 24 DRIVE-05 tyre ~~ 3: host=76 p1=76 p2=76
+PASS line 32 DRIVE-03 gear = 1: host=1 p1=1 p2=1
+PASS line 33 DRIVE-03 gear ~~ 0: host=1 p1=1 p2=1
+PASS line 34 DRIVE-03 rpm >= 10: host=42 p1=42 p2=42
+PASS line 35 DRIVE-03 rpm ~~ 4: host=42 p1=42 p2=42
+PASS line 36 DRIVE-15 kmh ~~ 3: host=28 p1=28 p2=28
+PASS line 37 DRIVE-15 temp ~~ 2: host=24 p1=24 p2=24
+PASS line 41 DRIVE-09 sink >= 1: host=2 p1=2 p2=2
+PASS line 42 DRIVE-09 sink ~~ 3: host=2 p1=2 p2=2
+PASS line 43 DRIVE-07 truck.x ~~ 2: host=1460 p1=1460 p2=1460
+PASS line 44 DRIVE-07 truck.z ~~ 2: host=684 p1=684 p2=684
+PASS line 48 DRIVE-14 fuel < $f0: host=592 p1=592 p2=592
+PASS line 49 DRIVE-14 fuel ~~ 2: host=592 p1=592 p2=592
+PASS line 50 DRIVE-08 truck.y ~~ 1: host=242 p1=242 p2=242
+PASS line 52 DRIVE-02 kmh <= 1: host=1@180 p1=1@181 p2=1@181
+links: peer 1 relay, peer 2 relay
+client layer checks: 122 equal, 0 differ
+acts 11, failed acts 0
+rows 11 pass 11 fail 0
+ROW DRIVE-02 PASS (1 checks)
+ROW DRIVE-03 PASS (4 checks)
+ROW DRIVE-05 PASS (4 checks)
+ROW DRIVE-06 PASS (3 checks)
+ROW DRIVE-07 PASS (2 checks)
+ROW DRIVE-08 PASS (1 checks)
+ROW DRIVE-09 PASS (2 checks)
+ROW DRIVE-14 PASS (2 checks)
+ROW DRIVE-15 PASS (2 checks)
+ROW POWER-02 PASS (1 checks)
+ROW SEAT-01 PASS (1 checks)
+RESULT PASS

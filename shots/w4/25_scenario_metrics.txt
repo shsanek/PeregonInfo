@@ -1,0 +1,7 @@
+road_buggies time_to_clear_s = 33.633 (cleared in 5..120 s) OK
+road_buggies rams = 1 (>= 1) OK
+road_buggies strip_events == rams = 1 (one cargo strip event per ram) OK
+road_buggies truck_damage == 12 x rams = 12.0 (ram_damage 12) OK
+road_buggies kills == buggies = 6 (all buggies, >= 3) OK
+road_buggies waves = 3 (3) OK
+road_buggies mg accuracy = 0.48 (0.2..1.0) OK

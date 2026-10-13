@@ -1,0 +1,11 @@
+[suite] loc_tests
+[ OK ] russian_plural_rule
+[ OK ] named_arguments_and_escapes
+[ OK ] table_parses_plurals_quotes_and_escapes
+[ OK ] fallback_chain_and_misses
+[ OK ] broken_tables_report_lines_and_keep_old_data
+[ OK ] pseudo_localisation_expands_and_keeps_arguments
+[ OK ] embedded_tables_load_clean_and_cover_the_font
+[ OK ] global_catalog_drives_ui_tr
+[ OK ] hot_reload_from_directory
+[done] 9/9 passed, 102 checks

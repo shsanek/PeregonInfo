@@ -1,0 +1,91 @@
+{
+  "status": "identical",
+  "scene": "scene_w13_bot_arena",
+  "seed": 1,
+  "ticks": {
+    "native": 1000,
+    "win32": 1000
+  },
+  "final_state_hash": {
+    "native": "b59625bb",
+    "win32": "b59625bb",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 1,
+      "state_hash": {
+        "native": "ae4af24b",
+        "win32": "ae4af24b"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "989f57c7",
+        "win32": "989f57c7"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "633d05352be2ff7dd4e0cf74494478bafd6e8ab3e804c96b11d7fda5bc786994",
+        "win32": "633d05352be2ff7dd4e0cf74494478bafd6e8ab3e804c96b11d7fda5bc786994"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_000001.jpg",
+        "win32": "win32/tick_000001.jpg"
+      },
+      "status": "identical"
+    },
+    {
+      "tick": 500,
+      "state_hash": {
+        "native": "7065e548",
+        "win32": "7065e548"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "2b4babc0",
+        "win32": "2b4babc0"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "ff28099856f495c10164800403332e2e4ba91df308410ad655686352d335235e",
+        "win32": "ff28099856f495c10164800403332e2e4ba91df308410ad655686352d335235e"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_000500.jpg",
+        "win32": "win32/tick_000500.jpg"
+      },
+      "status": "identical"
+    },
+    {
+      "tick": 1000,
+      "state_hash": {
+        "native": "b59625bb",
+        "win32": "b59625bb"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "f24824ab",
+        "win32": "f24824ab"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "8c6533d484c9104270300af2f0e5173bfab37e229c638c3975b430468b7b98c4",
+        "win32": "8c6533d484c9104270300af2f0e5173bfab37e229c638c3975b430468b7b98c4"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_001000.jpg",
+        "win32": "win32/tick_001000.jpg"
+      },
+      "status": "identical"
+    }
+  ]
+}

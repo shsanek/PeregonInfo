@@ -1,0 +1,15 @@
+core_tests: [done] 44/44 passed, 1304 checks
+bit identity: fp results 106496 total 0xa8e6b5282e53e99f
+scene: record frames=2097 ticks=3000 clock_tick=3000 dropped=0 render_hash=fc743ab5d34e75d3
+scene: replay file bytes=27930 fnv=467da48a
+scene: replay ticks=3000 hashes_checked=3000 first_desync=none final_match=yes
+scene: perturbed replay (restitution+0.001) first_desync=tick 23
+stub/nodll lines: 0
+native core_tests release ms=310
+native scene_core_replay release ms=341
+executor core_tests.exe win32-release ms=1257
+executor scene_core_replay.exe win32-release ms=1713
+native core_tests debug ms=328
+native scene_core_replay debug ms=573
+executor core_tests.exe win32-debug ms=878
+executor scene_core_replay.exe win32-debug ms=4771

@@ -1,0 +1,21 @@
+[suite] rhi_tests
+[ OK ] header_compiles_as_c_and_abi_matches
+[ OK ] caps_report_sm2_or_fixed_function
+[ OK ] device_lifetime_and_limits
+[ OK ] frame_and_pass_state_machine
+[ OK ] handle_lifetime_generations_and_types
+[ OK ] buffer_validation_and_dynamic_rules
+[ OK ] texture_validation
+[ OK ] render_target_feedback_and_pass_targets
+[ OK ] vertex_layout_validation
+[ OK ] program_record_validation
+[ OK ] program_draw_contract
+[ OK ] draw_validation_counts_and_indices
+[ OK ] state_and_fixed_function_validation
+[ OK ] raster_clear_viewport_scissor
+[ OK ] raster_depth_test_and_culling
+[ OK ] raster_nearest_bilinear_alpha_blend
+[ OK ] raster_perspective_correct_texturing
+[ OK ] dxt_decode_matches_reference
+[ OK ] frame_stats_reset_per_frame
+[done] 19/19 passed, 509 checks

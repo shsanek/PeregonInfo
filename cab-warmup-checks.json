@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-13",
+  "platform": "native-release, macOS",
+  "task": "CABSECONDS",
+  "target": "30-40 real seconds in severe cold, faster in milder weather",
+  "conditions": "Engine already running at idle; initial coolant and cabin equal outside temperature; heater 3; doors/windows closed; one occupant; endpoint cabin +15 C. Cranking/frozen-oil preheat excluded.",
+  "cold_start_seconds": [
+    {
+      "outside_c": 5,
+      "seconds": 6.58
+    },
+    {
+      "outside_c": 0,
+      "seconds": 8.72
+    },
+    {
+      "outside_c": -10,
+      "seconds": 13
+    },
+    {
+      "outside_c": -20,
+      "seconds": 17.95
+    },
+    {
+      "outside_c": -30,
+      "seconds": 24.67
+    },
+    {
+      "outside_c": -40,
+      "seconds": 39.6
+    }
+  ],
+  "warm_engine_at_minus20_seconds": 7.3,
+  "previous_cold_engine_at_minus20_seconds": 360,
+  "tests": {
+    "play_care_tests": "33/33, 419 checks",
+    "play_cargo_tests": "55/55, 1947 checks",
+    "survival_tests": "33/33, 726864 checks",
+    "view_tests": "49/49, 23980 checks"
+  },
+  "command": "ctest --preset native-release -R '^(survival_tests|view_tests|play_care_tests|play_cargo_tests)$' -j 2 --output-on-failure",
+  "local_logs": [
+    "build/cab-seconds/build-final.log",
+    "build/cab-seconds/checks.log",
+    "build/cab-seconds/test-details.log"
+  ],
+  "notes": [
+    "Cold-range engine response 10 below 60 C, tapering to 0.2 at 80 C; hot and stopped response unchanged.",
+    "Cab heating response 12 with powered heater, running engine and positive temperature rate; same equilibrium, stable exponential step.",
+    "Existing off/low/unpowered heater, cold/stopped engine, windows, sleep, battery/fuel and hot-climb regressions pass.",
+    "No rendering or shader changes; no frame-time benchmark performed for this thermal tuning."
+  ]
+}

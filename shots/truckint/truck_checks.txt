@@ -1,0 +1,6 @@
+PASS view_tests native (tyres clear every body part T1..T3 over droop/bump/full lock, running gear follows the wheels, part budget, windscreen and driver window 0-3 % blocked, steering direction)
+PASS view_tests in EXEcutor (win32 build) prints the same as native
+PASS world_tests native (dynamic box/capsule meshes are bottom-pivoted)
+PASS truck_showcase headless: >= 300 parts, <= 20000 grey-box triangles, every tyre on the pad (-6..+1 cm), parts table written
+PASS EXEcutor RunGame truck_showcase: 18 views (cab, exterior, low, exploded) and the wheel float check
+PASS EXEcutor RunGame play showcase replay: driving cab, exit through the door, outside (6 frames, d3d9, 0 rhi errors)

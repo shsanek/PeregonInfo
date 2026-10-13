@@ -1,0 +1,25 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w5_living_world --rhi d3d9 --seed 20261007 --from-tick 16973 --ticks 17213 --replay C:\Peregon\scene_w5_living_world.txt --timescale 1 --window=borderless
+rc=3
+--- stdout
+error: unknown scene scene_w5_living_world
+  scene_smoke
+  scene_core_replay
+  scene_rhi_cube
+  scene_g0_cube
+  scene_w1_world
+  scene_s1_surfaces
+  scene_w2_vehicle
+  scene_w3_combat
+  scene_w4_ai
+  scene_w8_economy
+  scene_w9_cargo
+  scene_w10_ui
+  scene_w10_hud
+  scene_w10_cargo
+  scene_map_drive
+  scene_w10_board
+  scene_w11_audio
+  scene_w12_menu
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[RunResult] guest_exit_code=0x00000003

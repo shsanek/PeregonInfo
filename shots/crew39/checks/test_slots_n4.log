@@ -1,0 +1,8 @@
+[suite] coop_slots_tests
+[ OK ] n4_same_toggle_same_tick_is_one_change
+[ OK ] n4_seat_locker_one_owner_released_on_walk_away
+[ OK ] n4_winch_drum_lock_released_when_owner_walks_away
+[ OK ] n4_two_buyers_one_coupon_budget
+[ OK ] n4_pause_does_not_stop_a_shared_world
+[done] 5/5 passed, 43 checks
+    tailgate 0 -> 1, ok 1 same 1

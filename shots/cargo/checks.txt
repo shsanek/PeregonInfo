@@ -1,0 +1,20 @@
+PASS cargo_tests all passed natively
+PASS cargo_tests all passed in EXEcutor
+PASS cargo_tests EXEcutor stdout == native
+PASS play_cargo_tests all passed natively
+PASS play_cargo_tests all passed in EXEcutor
+PASS play_cargo_tests EXEcutor stdout == native
+PASS poi_tests all passed natively
+PASS poi_tests all passed in EXEcutor
+PASS poi_tests EXEcutor stdout == native
+PASS POI terrain stamps for MAP are up to date (cargo bays are loose props)
+PASS slice: right after taking a contract nothing is in the bed, every item lies on a loading bay
+PASS slice autoplay: the bot carries the crates in and out, the stop counts after 'cargo received', the contract is paid after the canisters are received
+PASS slice play_auto still re-records tools/replays/play_action_autoplay.txt
+PASS R1 elevator: the bot lifts all grain sacks from the loading bay by the weighbridge and puts them into the bed one by one
+PASS R1 camp: the sacks are carried out of the bed onto the receiving bay, received, the contract is paid, the rewards are loaded from the bay
+PASS R1 load replay is deterministic natively
+PASS R1 home replay is deterministic natively
+PASS EXEcutor RunGame d3d9 replay of the load run: 0 rhi errors, 6 captures, final state == native (402a5177)
+PASS EXEcutor RunGame d3d9 replay of the home run: 0 rhi errors, 6 captures, final state == native (d24c3b60)
+PASS 12 RunGame shots in /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a9a8094e308ee9d2a/games/peregon/reports/shots/cargo

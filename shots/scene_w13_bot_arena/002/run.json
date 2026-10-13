@@ -1,0 +1,18 @@
+{
+  "scene": "scene_w13_bot_arena",
+  "run": "002",
+  "date": "2026-10-07T17:00:18Z",
+  "commit": "33e2d1c483",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "1",
+    "--ticks",
+    "1000",
+    "--capture",
+    "1,500,1000"
+  ]
+}

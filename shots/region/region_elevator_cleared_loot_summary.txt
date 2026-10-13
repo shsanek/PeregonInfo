@@ -1,0 +1,48 @@
+contracts_taken: 1
+contracts_done: 0
+outposts_cleared: 1
+fights_lost: 0
+kills: 0
+items_looted: 4
+items_sold: 0
+upgrades: 0
+saves: 0
+loads: 0
+truck_resets: 0
+drive_m: 200
+tiers: [1, 1, 1, 1]
+coupons: 0
+xp: 0
+mode: drive
+nature: cells 103, colliders skipped on road beds 0, foot boxes 31
+bot steps:
+      32 step unload_cargo
+     596 cargo lift grain_sack bed 3
+    1209 cargo put grain_sack bed 4
+    1459 cargo lift grain_sack bed 4
+    2005 cargo put grain_sack bed 5
+    2277 cargo lift grain_sack bed 5
+    2815 cargo put grain_sack bed 6
+    3080 cargo lift grain_sack bed 6
+    3653 cargo put grain_sack bed 7
+    3922 cargo lift grain_sack bed 7
+    4466 cargo put grain_sack bed 8
+    4625 step loot
+    5230 cargo lift electronics bed 8
+    6192 cargo put electronics bed 9
+    6762 cargo lift spare_parts bed 9
+    8247 cargo put spare_parts bed 10
+    8815 cargo lift spare_parts bed 10
+   10265 cargo put spare_parts bed 11
+   10848 cargo lift spare_parts bed 11
+   12336 step stop_wait
+   12337 cargo put spare_parts bed 12
+   12345 step drive_on
+   12346 step drive_home
+moments:
+  0:00 new game at the Sawmill
+  0:00 contract taken: w5e0_000_grain_haul
+  0:00 stage: elevator cleared
+  0:00 stage start: elevator_cleared_loot
+  0:00 contract stop done at elevator
+  3:25 autosave

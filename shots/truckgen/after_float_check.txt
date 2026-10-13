@@ -1,0 +1,12 @@
+Each probe is a point on the bottom edge of a grounded box or cylinder, projected into the tour view.
+sky: the pixel 3 px below it is sky or fogged far terrain colour; under: the camera ray through that pixel hits the drawn
+terrain more than 0.3 m behind the object (we see ground behind it, i.e. a gap under it); above: the pixel 2 px above the
+bottom edge (which must be the object) is sky (the object is drawn somewhere else, e.g. lifted); silhouette corners of
+far low objects can hit the background, so up to 0.4 % of the probes may.
+view 11: 20 probes, sky 0 [], under 0 [], above 0 []
+view 12: 20 probes, sky 0 [], under 0 [], above 0 []
+view 13: 20 probes, sky 0 [], under 0 [], above 0 []
+view 14: 20 probes, sky 0 [], under 0 [], above 0 []
+view 15: 20 probes, sky 0 [], under 0 [], above 0 []
+truck wheels (warning only, physics stands on MapTerrain::base_height, the renderer draws the 2 m mesh): 0 gaps []
+total: 100 probes checked, 0 sky under a bottom edge, 0 gaps under a bottom edge, 0 sky where the object should be

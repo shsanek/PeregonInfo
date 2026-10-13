@@ -1,0 +1,24 @@
+{
+  "scene": "scene_map_drive",
+  "run": "003",
+  "date": "2026-10-07T17:41:00Z",
+  "commit": "45ce2c5971",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "20261007",
+    "--ticks",
+    "360",
+    "--capture",
+    "0,120,240,360"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9",
+      "--data-dir=C:\\Test"
+    ]
+  }
+}

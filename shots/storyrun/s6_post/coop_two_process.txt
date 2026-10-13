@@ -1,0 +1,16 @@
+world loopback: 2 instances, host ticks 3000, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (163 chunks), 0.01 MB on the wire, 0.9 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: join snapshot peer 1: 0.01 MB sent (145 chunks), 0.01 MB on the wire, 0.7 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: join snapshot peer 1: 0.01 MB sent (132 chunks), 0.01 MB on the wire, 0.6 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: join snapshot peer 1: 0.01 MB sent (158 chunks), 0.01 MB on the wire, 0.8 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 8 ms, max 10 ms
+host: layer stream after join: avg 6.8 KB/s, max 8.1 KB/s (cap 48); wire avg 44.0 KB/s, max 51.7 KB/s; collect max 23.06 ms  PASS
+p1: bot person:valentina:letter, participant True, moved 0.0 m  PASS
+p1: joined at host tick 1020 in 0.9 s, 0.01 MB of frames, 73 chunks, first check equal, apply max 7.2 ms
+p1: 34 complete checks, 34 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":1800
+"what":"person_screen","tick":1801,"holder":255
+"what":"person_topic","tick":1920,"ok":1
+"flags": ["s6_bag_found", "s6_letter_valentina_given"]
+"flags": ["s6_bag_found", "s6_letter_valentina_given"]

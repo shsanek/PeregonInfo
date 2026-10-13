@@ -1,0 +1,14 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w9_cargo --rhi d3d9 --seed 3 --ticks 2010 --replay C:\Peregon\scene_w9_cargo.txt --timescale 1.5 --window=borderless
+rc=0
+--- stdout
+scene=scene_w9_cargo seed=3 ticks=2010 flavour=win32
+final_state_hash=d0923ba8
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.bF4yLbnpW3/dump/present_000.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.bF4yLbnpW3/dump/present_001.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.bF4yLbnpW3/dump/present_002.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.bF4yLbnpW3/dump/present_003.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.bF4yLbnpW3/dump/present_004.bgra
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.bF4yLbnpW3/dump/present_005.bgra
+[RunResult] guest_exit_code=0x00000000

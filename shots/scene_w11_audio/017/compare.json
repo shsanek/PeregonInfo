@@ -1,0 +1,15 @@
+{
+  "status": "identical",
+  "scene": "scene_w11_audio",
+  "seed": 20261007,
+  "ticks": {
+    "native": 2540,
+    "win32": 2540
+  },
+  "final_state_hash": {
+    "native": "ff69a482",
+    "win32": "ff69a482",
+    "equal": true
+  },
+  "captures": []
+}

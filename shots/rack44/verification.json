@@ -1,0 +1,34 @@
+{
+  "stage": "RACK44",
+  "implementation": "1b6f3e773a",
+  "blender_source": "assets/truck_wb/stage41_crew_roof_rack_authoring.blend",
+  "baked": "assets/truck_wb/stage41_crew_roof_rack_baked.blend",
+  "rack_rows": 4,
+  "cradles_per_row": 2,
+  "row_pitch_m": 0.29,
+  "minimum_roof_gap_m": 0.011528690345585346,
+  "overlaps": {},
+  "runtime_parts": 125,
+  "runtime_triangles": 76394,
+  "native_build": [
+    "peregon",
+    "peregon_headless"
+  ],
+  "focused_test": {
+    "suite": "roof_rack_tests",
+    "scenarios": 1,
+    "checks": 57,
+    "passed": true
+  },
+  "visual_review": [
+    "Blender all-four roof overview",
+    "native Metal textured closeup"
+  ],
+  "full_suite": "not run",
+  "live_steam_two_accounts": "not rerun",
+  "package": {
+    "path": "dist/Peregon-steam480-rack44-macos.zip",
+    "bytes": 327440801,
+    "loader_check": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+ "asset": "thick_log",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 534479
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 899
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 359
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9788,
+   "side": 0.9879,
+   "q34": 0.9869,
+   "top": 0.9889
+  },
+  "LOD1 (after)": {
+   "front": 0.9669,
+   "side": 0.9816,
+   "q34": 0.9827,
+   "top": 0.9794
+  }
+ }
+}

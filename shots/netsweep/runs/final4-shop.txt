@@ -1,0 +1,71 @@
+LOG line 8 host bed.scrap_crate: 1
+LOG line 9 host fuel: 200
+LOG line 10 host tier.0: 1
+LOG line 13 host prompt.1: E / LMB — talk to the trader
+LOG line 21 host coupons: 300
+LOG line 28 host coupons: 314
+LOG line 29 host fuel: 200
+LOG line 35 host coupons: 214
+LOG line 36 host carry.1: -
+LOG line 37 host packn.1: 5
+LOG line 43 host prompt.2: E / LMB — talk to the mechanic
+LOG line 53 host tier.0: 1
+LOG line 54 host bed.spare_parts: 4
+LOG line 55 host coupons: 2000
+LOG line 8 p1 bed.scrap_crate: 1
+LOG line 9 p1 fuel: 200
+LOG line 10 p1 tier.0: 1
+LOG line 13 p1 prompt.1: E / LMB — talk to the trader
+LOG line 21 p1 coupons: 300
+LOG line 28 p1 coupons: 314
+LOG line 29 p1 fuel: 200
+LOG line 35 p1 coupons: 214
+LOG line 36 p1 carry.1: -
+LOG line 37 p1 packn.1: 5
+LOG line 43 p1 prompt.2: na
+LOG line 53 p1 tier.0: 1
+LOG line 54 p1 bed.spare_parts: 4
+LOG line 55 p1 coupons: 2000
+LOG line 8 p2 bed.scrap_crate: 1
+LOG line 9 p2 fuel: 200
+LOG line 10 p2 tier.0: 1
+LOG line 13 p2 prompt.1: na
+LOG line 21 p2 coupons: 300
+LOG line 28 p2 coupons: 314
+LOG line 29 p2 fuel: 200
+LOG line 35 p2 coupons: 214
+LOG line 36 p2 carry.1: -
+LOG line 37 p2 packn.1: 5
+LOG line 43 p2 prompt.2: E / LMB — talk to the mechanic
+LOG line 53 p2 tier.0: 1
+LOG line 54 p2 bed.spare_parts: 4
+LOG line 55 p2 coupons: 2000
+PASS line 11 SHOP-05 coupons = 300: host=300 p1=300@1 p2=300
+PASS line 15 UI-06 mode.1 = 5: host=5@10 p1=5@10 p2=na(x)
+PASS line 18 SHOP-01 bed.scrap_crate = 0: host=0@12 p1=0@15 p2=0@16
+PASS line 19 SHOP-01 coupons > $c0: host=314@12 p1=314@15 p2=314@16
+PASS line 20 SHOP-05 coupons ~~ 0: host=300 p1=300@1 p2=300
+PASS line 24 SHOP-04 fuel > 200: host=600@11 p1=600@12 p2=600@12
+PASS line 25 SHOP-04 fuel ~~ 0: host=200 p1=200 p2=200@1
+PASS line 26 SHOP-04 coupons < $c1: host=214@11 p1=214@15 p2=214@15
+PASS line 27 SHOP-05 coupons ~~ 0: host=314 p1=314 p2=314@1
+PASS line 33 SHOP-03 coupons < $c2: host=202@11 p1=202@15 p2=202@14
+PASS line 34 SHOP-03 coupons ~~ 0: host=214 p1=214 p2=214
+PASS line 39 UI-06 mode.1 = 2: host=2@11 p1=2@3 p2=na(x)
+PASS line 45 UI-06 mode.2 = 6: host=6@10 p1=na(x) p2=6@10
+PASS line 49 SHOP-06 tier.0 = 2: host=2@11 p1=2@16 p2=2@13
+PASS line 50 SHOP-07 coupons < $c3: host=1700@11 p1=1700@16 p2=1700@15
+PASS line 51 SHOP-07 bed.spare_parts < 4: host=2@11 p1=2@16 p2=2@15
+PASS line 52 SHOP-07 coupons ~~ 0: host=2000 p1=2000 p2=2000
+PASS line 57 UI-06 mode.2 = 2: host=2@9 p1=na(x) p2=2@1
+client layer checks: 65 equal, 0 differ
+acts 19, failed acts 0
+rows 7 pass 7 fail 0
+ROW SHOP-01 PASS (2 checks)
+ROW SHOP-03 PASS (2 checks)
+ROW SHOP-04 PASS (3 checks)
+ROW SHOP-05 PASS (3 checks)
+ROW SHOP-06 PASS (1 checks)
+ROW SHOP-07 PASS (3 checks)
+ROW UI-06 PASS (4 checks)
+RESULT PASS

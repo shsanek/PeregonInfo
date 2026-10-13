@@ -1,0 +1,27 @@
+LOG line 9 host plough: 339
+LOG line 10 host lowered: 1
+LOG line 14 host plough: 368
+LOG line 15 host kmh: 52
+LOG line 17 host plough: 368
+LOG line 9 p1 plough: 339
+LOG line 10 p1 lowered: 1
+LOG line 14 p1 plough: 368
+LOG line 15 p1 kmh: 52
+LOG line 17 p1 plough: 368
+LOG line 9 p2 plough: 339
+LOG line 10 p2 lowered: 1
+LOG line 14 p2 plough: 368
+LOG line 15 p2 kmh: 52
+LOG line 17 p2 plough: 368
+PASS line 11 FARM-03 lowered == x: host=1 p1=1 p2=1
+PASS line 16 FARM-05 plough > $c0: host=368 p1=368 p2=368
+PASS line 18 FARM-05 plough ~~ 8: host=368 p1=368 p2=368
+PASS line 19 FARM-05 lowered == x: host=1 p1=1 p2=1
+PASS line 20 FARM-05 truck.x ~~ 2: host=769 p1=769 p2=769
+links: peer 1 relay, peer 2 relay
+client layer checks: 100 equal, 0 differ
+acts 7, failed acts 0
+rows 2 pass 2 fail 0
+ROW FARM-03 PASS (1 checks)
+ROW FARM-05 PASS (4 checks)
+RESULT PASS

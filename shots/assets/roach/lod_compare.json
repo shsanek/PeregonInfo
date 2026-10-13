@@ -1,0 +1,31 @@
+{
+ "asset": "roach",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 32581
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 899
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 359
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9746,
+   "side": 0.9859,
+   "q34": 0.9865,
+   "back34": 0.9847
+  },
+  "LOD1 (after)": {
+   "front": 0.9343,
+   "side": 0.9754,
+   "q34": 0.9736,
+   "back34": 0.9731
+  }
+ }
+}

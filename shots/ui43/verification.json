@@ -1,0 +1,25 @@
+{
+  "stage": "UI43",
+  "implementation": "d60500eb7a",
+  "native_build": [
+    "peregon",
+    "peregon_headless"
+  ],
+  "steam_sdk": "1.65",
+  "app_id": 480,
+  "tests": {
+    "suite": "net_menu_tests",
+    "scenarios": 3,
+    "checks": 44,
+    "passed": true
+  },
+  "win32_input_compile": "passed (syntax only)",
+  "full_suite": "not run",
+  "live_windows_runtime": "not run",
+  "live_steam_two_accounts": "not rerun",
+  "package": {
+    "path": "dist/Peregon-steam480-ui43-macos.zip",
+    "bytes": 327391685,
+    "loader_check": true
+  }
+}

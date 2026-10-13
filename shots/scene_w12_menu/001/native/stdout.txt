@@ -1,0 +1,4 @@
+scene=scene_w12_menu seed=4 ticks=230 flavour=native
+capture tick=60 state=d1945f5c image=7be66447 file=tick_000060.bmp
+capture tick=212 state=e954ce45 image=5b186f44 file=tick_000212.bmp
+final_state_hash=d17c6999

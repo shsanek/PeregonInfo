@@ -1,0 +1,2 @@
+final_state_hash=5838ce3e
+light_tour: 5 steps, 5 shots, run {"frame_time_ms": {"avg": 12.646, "min": 0.321, "max": 316.368}, "final_state_hash": "5838ce3e", "wall_time_ms": 9118.177, "ticks": 721, "launches": 1, "backend": "native"}

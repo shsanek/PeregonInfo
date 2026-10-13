@@ -1,0 +1,31 @@
+ground_check: 892087 grass/ground cards in [35600,21600]-[37600,23600]
+  dominant ground layer under them: grass 697378 dirt 0 mud 454 gravel 688 rock 384 sand 95 asphalt 0 forest 193088 snow 0
+  not grass/forest/dirt: 1621 (0.18 %), of them on river/ford beds: 93
+    surface ford           53
+    surface forest_floor   99
+    surface grass          266
+    surface gravel         26
+    surface mud            309
+    surface puddle         2
+    surface rock           166
+    surface sand           60
+    surface scree          639
+    surface water          1
+    habitat none           311
+    habitat ridge_rock     166
+    habitat ridge_scree    639
+    habitat riverbank      146
+    habitat riverbed       58
+    habitat zarechye_forest 99
+    habitat zarechye_kolki 3
+    habitat zarechye_meadow 199
+    example none                     37560 21626
+    example ridge_rock               36255 21628
+    example ridge_scree              36227 21727
+    example riverbank                36287 22763
+    example riverbed                 37407 21689
+    example zarechye_field           37311 21622
+    example zarechye_forest          35699 23550
+    example zarechye_kolki           36885 21944
+    example zarechye_meadow          36620 23591
+ground_check: OK (limit 1.00 %)

@@ -1,0 +1,14 @@
+    braked + parked truck, slide onset grade: asphalt 94.2 %, dirt 55.8 %, grass 63.7 %, mud 40.3 %, wet mud 23.3 %; cross slope: grass 53.2 %, wet mud 20.9 %
+    max climbable grade from standstill: mud T1 11.3 %, wet mud T1 0.0 %, mud T2 30.5 %, wet mud T2 16.0 %, grass T1 46.5 %; wet mud T1 with a 30 km/h run-up 10.5 %
+    cross slope 40 m at 10 km/h, downhill drift: 25 % grass 2.60 m, wet mud T1 1.56 m; 35 % grass 3.95 m, wet mud T1 211.66 m (yaw 179.7 deg), wet mud T2 439.01 m
+    hummock field 0.4 m / 2.4 m at 8 km/h: wheel off the ground T1 11.6 % of ticks, T3 11.8 %; max axle twist T1 0.334 m, T3 0.342 m; free-spinning lifted wheel T1 11.6 %; body roll max T1 12.6 deg
+    diagonal bumps (cross-axle): open diffs T1 progress 0.08 m (stuck, hanging wheel spin 25.0 m/s), rear LSD T2 2.81 m, lockers T3 8.89 m
+    ford crossing at 5 km/h, flow 1.5 m/s: downstream drift 0.3 m deep 1.14 m, 0.6 m 7.16 m, 0.9 m 36.09 m; 0.6 m calm 0.00 m, 2.5 m/s 36.66 m; wheel load share 0.3/0.6/0.9 m: 0.89/0.72/0.24; parked in 1.1 m at 2 m/s drifts 17.1 m (load share 0.02, intake wet 0)
+    mud T1 parked: sink 169 mm at 1 s -> 215 mm at 20 s; spinning against a wall: 248 -> 300 mm (cap 300); sand 130 -> 168 mm; takyr crust holds empty (14 mm), breaks with 1200 kg (133 mm)
+    dug in on wet mud: full throttle 10 s progress 0.56 m (sink 300 mm); rocking forward/reverse 3.05 m
+    mud rut depth after 1/2/3/4 passes: T1 tyre 130/160/180/198 mm (width 0.34 m), T3 tyre 64/79/89/97 mm (width 0.42 m)
+    T2 tyres at 15 km/h in a 3-pass mud rut: steer 0.12 -> lateral offset after 1.5 s 0.075 m (fresh mud 0.565 m), front wheels leave the rut after 2.10 s as the rear swings; steer 0.6 -> out after 1.37 s
+    coast-down decel at 40 km/h (m/s2) / vertical vibration rms (m/s2) / 0-30 km/h (s): asphalt 0.24/0.11/1.68, broken 0.31/0.52/1.70, gravel 0.66/0.60/1.87, grass 0.69/0.32/1.90, sand 1.88/0.24/20.00, mud 2.45/0.65/20.00
+    map soil layer: dirt parked 20 s sinks 38 mm; with bearing x0.4, max sink x2 154 mm
+    rain (ground wetness 0 -> 1), 40 km/h braking decel m/s2: asphalt 8.45 -> 7.57 (-10 %), grass 5.77 -> 4.59 (-21 %), dirt 5.79 -> 4.92 (-15 %); parked 20 s on dirt sinks 38 -> 73 mm; rain_effect 0: 5.79 m/s2, 38 mm; ground wetness after 1 min of rain 0.250, after 1 more dry min 0.230
+    parked (no brake pedal) 10 s drift: dirt 40 % 0.1 cm, grass 45 % 0.4 cm, grass across 40 % 0.4 cm, asphalt 60 % 0.6 cm, wet mud 40 % 2.1 m (beyond grip)

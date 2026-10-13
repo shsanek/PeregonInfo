@@ -1,0 +1,12 @@
+LOG line 5 host prompt.2: E / LMB — close the hood
+LOG line 9 host prompt.2: E / LMB — open the hood
+LOG line 5 p1 prompt.2: na
+LOG line 9 p1 prompt.2: na
+LOG line 5 p2 prompt.2: E / LMB — close the hood
+LOG line 9 p2 prompt.2: E / LMB — open the hood
+PASS line 7 SEAT-13 hood = 0: host=0@10 p1=0@16 p2=0@12
+PASS line 11 SEAT-13 hood = 1: host=1@10 p1=1@12 p2=1@12
+acts 6, failed acts 0
+rows 1 pass 1 fail 0
+ROW SEAT-13 PASS (2 checks)
+RESULT PASS

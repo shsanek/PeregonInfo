@@ -1,0 +1,4 @@
+[suite] vehicle_tests
+[ OK ] course_log_left_rolls_left_up_and_settles
+[ OK ] course_log_right_mirrors_log_left
+[done] 2/2 passed, 30 checks

@@ -1,0 +1,24 @@
+Sawmill tour frame time, ms per step (sunset and night steps, settled; day steps include streaming warm-up)
+view               after1     after2    before1    before2
+back                15.05      17.17      15.34      16.02
+barracks_in         14.96      16.84      15.71      17.40
+barracks_yard       14.86      17.45      15.78      17.23
+canopy              14.97      17.70      15.00      17.03
+chop_shop           14.55      17.16      14.17      14.67
+fuel_yard           13.95      16.84      13.34      15.38
+gate                13.97      14.65      13.79      17.28
+overview            14.27      16.76      13.78      17.06
+perch               14.50      17.32      15.01      16.95
+road                13.35      16.68      12.95      16.76
+yard                14.11      17.17      14.19      16.88
+mean                14.41      16.88      14.46      16.61
+before 15.53 ms, after 15.65 ms, delta +0.11 ms
+
+Steady frames of the whole run (perf probe, us): avg, draws, sections
+run             avg  draws     light   objects       map    nature footprints   outside
+after1        15756    263      1709      1506      2345      1987       732      1427
+after2        18194    263      1896      1687      2597      2215       822      2239
+before1       15915    255      1737      1381      2404      2012       764      1377
+before2       18021    255      1945      1527      2637      2225       830      2025
+before mean    16968    255      1841      1454      2520      2118       797      1701
+after mean    16975    263      1802      1596      2471      2101       777      1833

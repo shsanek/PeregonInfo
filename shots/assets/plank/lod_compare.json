@@ -1,0 +1,31 @@
+{
+ "asset": "plank",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 12
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 12
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 12
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 1.0,
+   "side": 1.0,
+   "q34": 1.0,
+   "top": 1.0
+  },
+  "LOD1 (after)": {
+   "front": 1.0,
+   "side": 1.0,
+   "q34": 1.0,
+   "top": 1.0
+  }
+ }
+}

@@ -1,0 +1,12 @@
+ok   gate 0b
+ok   gate 0d
+ok   scene_g0_cube deterministic in EXEcutor (final_state_hash=b0ebd0ae)
+run_rungame: rc=0 frames=3 log=/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af1b2e523f46aa466/games/peregon/reports/shots/g0/07_g0_cube_d3d9.log
+scene=scene_g0_cube seed=1 ticks=480 flavour=win32
+final_state_hash=1549eb3c
+ok   RunGame window run + EXEcutor present dump
+run_rungame: rc=0 frames=3 log=/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af1b2e523f46aa466/games/peregon/reports/shots/g0/08_g0_cube_d3d9_ff.log
+scene=scene_g0_cube seed=1 ticks=480 flavour=win32
+final_state_hash=1549eb3c
+ok   RunGame fixed-function present dump
+GATE g0 PASS

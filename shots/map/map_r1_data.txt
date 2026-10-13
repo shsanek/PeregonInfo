@@ -1,0 +1,53 @@
+gate parking sawmill_terrace#0: node 1 at 35888, 23108, 2 edges, connected
+  parking sawmill_terrace#0 is 9.9 m out of the gate node 0, self-loop edges 0
+gate parking outpost_shelf#0: node 5 at 37268, 22978, 2 edges, connected
+  parking outpost_shelf#0 is 9.9 m out of the gate node 6, self-loop edges 0
+gate parking sawmill_terrace#1: node 8 at 35833, 23105, 2 edges, connected
+  parking sawmill_terrace#1 is 10.0 m out of the gate node 7, self-loop edges 0
+gate parking elevator#0: node 13 at 36230, 21792, 2 edges, connected
+  parking elevator#0 is 10.0 m out of the gate node 12, self-loop edges 0
+hazard rockfall rockfall_spur: 24 m, clear width 3.93 m, gap on the left
+places: sawmill_terrace (35860, 23140), floodplain_mud (36560, 22490), olkhovka_ford (36804, 22424), hairpins (37080, 22800), outpost_shelf (37300, 23010), elevator (36275, 21765)
+road r1_trunk         R4 2117 m, max grade 0.100, cut 0.93 fill 2.72, hairpins 1, fords 0, worst ratio 1.000
+road r1_field_track   R5 1371 m, max grade 0.136, cut 0.30 fill 0.27, hairpins 0, fords 1, worst ratio 0.727
+road r1_forest_track  R6 1667 m, max grade 0.150, cut 2.81 fill 1.45, hairpins 2, fords 0, worst ratio 1.125
+road r1_west_road     R4 271 m, max grade 0.040, cut 0.30 fill 0.29, hairpins 0, fords 0, worst ratio 0.402
+road r1_elevator_gate R4 62 m, max grade 0.000, cut 0.00 fill 0.00, hairpins 0, fords 0, worst ratio 0.000
+ford at 36805, 22424: depth 0.40 m, current 0.88 m/s towards 317 deg
+mapgen: pad elevator level 310.56 -> 308.63 so the gate lane of r1_elevator_gate stays within 10 %
+mapgen: rockfall_spur: rockfall moved onto road r1_forest_track at 36852, 22734 (steepest side slope 0.51 within 200 m)
+  r1_field_track   ford ramps (8 m, 2 m samples) worst 0.114 at 36783, 22415; mud cells near fords/junctions 0; deepest closed hollow 0.07 m at 36076, 22804
+baked grade r1_field_track   sustained (48 m) 0.136 at 35929, 22992 (limit 0.188 incl. fords); local (8 m) 0.147 at 35924, 22977 (step limit 0.30)
+  r1_field_track   wheel lines (8 m, inside/outside of curves) worst 0.159 at 35925, 22985 (limit 0.228); cross slope worst 0.135 at 35935, 23040; edge drop worst 0.53 m in 1.5 m at 35934, 23012 (hairpin no)
+  r1_field_track   roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.09 m at 35880, 23098
+  r1_forest_track  ford ramps (8 m, 2 m samples) worst 0.021 at 36840, 22472; mud cells near fords/junctions 0; deepest closed hollow 0.10 m at 36866, 22727
+baked grade r1_forest_track  sustained (48 m) 0.150 at 37009, 22453 (limit 0.150 incl. fords); local (8 m) 0.153 at 37017, 22454 (step limit 0.25)
+  r1_forest_track  wheel lines (8 m, inside/outside of curves) worst 0.166 at 37020, 22457 (limit 0.190); cross slope worst 0.131 at 37032, 22527; edge drop worst 0.97 m in 1.5 m at 36917, 22663 (hairpin no)
+  r1_forest_track  roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.08 m at 36799, 22526
+  r1_trunk         ford ramps (8 m, 2 m samples) worst 0.000 at 0, 0; mud cells near fords/junctions 0; deepest closed hollow 0.09 m at 35874, 22535
+baked grade r1_trunk         sustained (48 m) 0.098 at 36241, 22091 (limit 0.120 incl. fords); local (8 m) 0.103 at 36234, 21845 (step limit 0.25)
+  r1_trunk         wheel lines (8 m, inside/outside of curves) worst 0.130 at 36231, 21840 (limit 0.160); cross slope worst 0.071 at 36204, 21852; edge drop worst 1.01 m in 1.5 m at 36124, 22172 (hairpin no)
+  r1_trunk         roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.19 m at 36261, 21827
+  r1_west_road     ford ramps (8 m, 2 m samples) worst 0.000 at 0, 0; mud cells near fords/junctions 0; deepest closed hollow 0.10 m at 35809, 23132
+baked grade r1_west_road     sustained (48 m) 0.040 at 35623, 23251 (limit 0.120 incl. fords); local (8 m) 0.054 at 35650, 23234 (step limit 0.25)
+  r1_west_road     wheel lines (8 m, inside/outside of curves) worst 0.056 at 35648, 23238 (limit 0.160); cross slope worst 0.018 at 35718, 23191; edge drop worst 0.40 m in 1.5 m at 35697, 23204 (hairpin no)
+  r1_west_road     roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.21 m at 35620, 23260
+  r1_elevator_gate ford ramps (8 m, 2 m samples) worst 0.000 at 0, 0; mud cells near fords/junctions 0; deepest closed hollow 0.00 m at 0, 0
+baked grade r1_elevator_gate sustained (48 m) 0.098 at 36236, 21790 (limit 0.120 incl. fords); local (8 m) 0.103 at 36204, 21805 (step limit 0.25)
+  r1_elevator_gate wheel lines (8 m, inside/outside of curves) worst 0.138 at 36212, 21803 (limit 0.160); cross slope worst 0.036 at 36217, 21797; edge drop worst 0.35 m in 1.5 m at 36214, 21798 (hairpin no)
+  r1_elevator_gate roadside pockets (closed hollows within 12 m of the shoulder, 5 m rim) deepest 0.14 m at 36214, 21786
+gate elevator#0: walk step worst 0.13 m per m at local 48, -8; lane grade (8 m) worst 0.107; gate -0.00 m off the pad level
+gate outpost_shelf#0: walk step worst 0.19 m per m at local 2, -58; lane grade (8 m) worst 0.106; gate 0.00 m off the pad level
+gate sawmill_terrace#0: walk step worst 0.16 m per m at local -16, -42; lane grade (8 m) worst 0.063; gate 0.01 m off the pad level
+gate sawmill_terrace#1: walk step worst 0.18 m per m at local -45, 8; lane grade (8 m) worst 0.105; gate 0.01 m off the pad level
+pad elevator         -40..40 x -38..38 at yaw 200: level 308.63 m, max deviation 0.15 m at local 32, 34
+pad outpost_shelf    -30..30 x -30..30 at yaw 45: level 353.28 m, max deviation 0.16 m at local -10, -16
+pad sawmill_terrace  -38..34 x -34..38 at yaw 300: level 271.80 m, max deviation 0.14 m at local 30, -28
+stamps elevator         82 stamps: worst flatten/apron deviation 0.13 m (apron at local 36, -13); berms 74, below crest 0
+stamps outpost_shelf    40 stamps: worst flatten/apron deviation 0.05 m (flatten at local -9, -14); berms 36, below crest 0
+stamps sawmill_terrace  68 stamps: worst flatten/apron deviation 0.04 m (apron at local -11, -28); berms 60, below crest 0
+surfaces in the square (8 m sample): grass 61.2%, forest_floor 32.1%, field 1.4%, scree 1.3%, water 0.9%, gravel 0.7%, ford 0.7%, rock 0.6%, dirt 0.5%, mud 0.3%, sand 0.2%, concrete 0.1%, puddle 0.1%
+layers: SOIL in 25 tiles, FLOW in 10, HUMMOCK in 4; dead-flat dry samples 0.66 %
+water surface continuity: 28035 wet triples at 2 m, 122 kinks/steps > 5 cm (0.44 %), worst 0.42 m at 36912, 22310
+WARN road r1_forest_track earthworks over the class cut/fill limits (1.125): deep cutting or embankment
+map R1 checks -> OK

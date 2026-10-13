@@ -1,0 +1,16 @@
+native economy_tests release rc=0
+native economy_tests debug rc=0
+executor economy_tests.exe win32-release rc=0
+executor economy_tests.exe win32-debug rc=0
+native sim report rc=0
+executor sim report run 1 rc=0
+native sim csv rc=0
+executor sim csv run 1 rc=0
+native sim dump rc=0
+executor sim dump run 1 rc=0
+native sim hash rc=0
+executor sim hash run 1 rc=0
+executor sim report run 2 rc=0
+executor sim report debug rc=0
+executor sim report from data files rc=0
+executor sim seed+1 hash rc=0

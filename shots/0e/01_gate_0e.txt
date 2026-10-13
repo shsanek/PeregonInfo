@@ -1,0 +1,77 @@
+gate 0e run 01 2026-10-07T11:10:04Z commit deccfe796
+== rhi_metal_tests_release
+[suite] rhi_metal
+[ OK ] caps_and_device_creation
+[ OK ] contract_matches_null_reference
+    clear_viewport_scissor: max_diff=0 over2=0 (0.000000%)
+[ OK ] clear_viewport_scissor
+    depth_and_culling: max_diff=0 over2=0 (0.000000%)
+[ OK ] depth_and_culling
+    texture_point_wrap: max_diff=0 over2=0 (0.000000%)
+    texture_bilinear_mirror: max_diff=1 over2=0 (0.000000%)
+    texture_bilinear_clamp: max_diff=1 over2=0 (0.000000%)
+    texture_minified_mips: max_diff=0 over2=0 (0.000000%)
+[ OK ] texture_filtering_addressing_mips
+    dxt1_point: max_diff=2 over2=0 (0.000000%)
+    dxt5_alpha_blend: max_diff=2 over2=0 (0.000000%)
+[ OK ] dxt_textures
+    alpha_test_blend_mask: max_diff=0 over2=0 (0.000000%)
+[ OK ] alpha_test_blend_and_write_mask
+    stage_ops_0: max_diff=1 over2=0 (0.000000%)
+    stage_ops_1: max_diff=0 over2=0 (0.000000%)
+    stage_ops_2: max_diff=1 over2=0 (0.000000%)
+    stage_ops_3: max_diff=1 over2=0 (0.000000%)
+[ OK ] texture_stage_ops
+    render_to_texture: max_diff=0 over2=0 (0.000000%)
+[ OK ] render_to_texture_and_readback
+    dynamic_buffers: max_diff=0 over2=0 (0.000000%)
+[ OK ] dynamic_buffers_across_frames
+    index32_base_vertex: max_diff=0 over2=0 (0.000000%)
+[ OK ] index32_base_vertex_and_static_update
+    program_unlit: max_diff=0 over2=0
+[ OK ] program_unlit_matches_fixed_function_reference
+[ OK ] program_alpha_test_injected
+    vertex_lit_fog center=0xffdf6060
+[ OK ] program_vertex_lit_fog_draws
+    lit=0xff426bbd expected=0xff426bbd
+    fog=0xff00bf40 expected=0xff00bf40
+[ OK ] ff_lighting_and_fog_analytic
+[ OK ] line_list_rasterizes
+[ OK ] resize_stats_and_live_objects
+[done] 17/17 passed, 1035 checks
+== g0_sm2
+compare: within_tolerance (tolerance 2 LSB, min 99.50%, 2 captures, final hash equal)
+compare: tick 30 max_diff(rgb)=[2, 2, 1] diff=12.070% within_tol=100.000% within_tol_edges=100.000% within_tolerance
+compare: tick 60 max_diff(rgb)=[2, 2, 1] diff=11.704% within_tol=100.000% within_tol_edges=100.000% within_tolerance
+tick 30 max_diff=[2, 2, 1] differing=12.070% within_2lsb=100.000%
+tick 60 max_diff=[2, 2, 1] differing=11.704% within_2lsb=100.000%
+== g0_ff
+compare: within_tolerance (tolerance 2 LSB, min 99.50%, 2 captures, final hash equal)
+compare: tick 30 max_diff(rgb)=[2, 2, 2] diff=12.039% within_tol=100.000% within_tol_edges=100.000% within_tolerance
+compare: tick 60 max_diff(rgb)=[2, 2, 2] diff=11.675% within_tol=100.000% within_tol_edges=100.000% within_tolerance
+tick 30 max_diff=[2, 2, 2] differing=12.039% within_2lsb=100.000%
+tick 60 max_diff=[2, 2, 2] differing=11.675% within_2lsb=100.000%
+== cube_sm2
+compare: within_tolerance (tolerance 2 LSB, min 99.50%, 1 captures, final hash equal)
+compare: tick 1 max_diff(rgb)=[57, 61, 50] diff=5.198% within_tol=99.686% within_tol_edges=100.000% within_tolerance
+tick 1 max_diff=[57, 61, 50] differing=5.198% within_2lsb=99.686%
+== cube_ff
+compare: within_tolerance (tolerance 2 LSB, min 99.50%, 1 captures, final hash equal)
+compare: tick 1 max_diff(rgb)=[57, 61, 50] diff=5.189% within_tol=99.695% within_tol_edges=100.000% within_tolerance
+tick 1 max_diff=[57, 61, 50] differing=5.189% within_2lsb=99.695%
+== window
+platform_window: cocoa_window_number=11640 pixels=640x480 scale=2.00
+ok   windowed runs (not headless)
+ok   framebuffer rhi:metal, 0 rhi errors
+ok   high-DPI drawable 640x480 (window 320x240 points)
+ok   tick 60 identical before the key press
+ok   right arrow changes the cube rotation (12608 vs idle 21824)
+ok   window key input == text replay input (state cfb0347a)
+g0_sm2: reports/shots/scene_g0_cube/001
+g0_ff: reports/shots/scene_g0_cube/002
+cube_sm2: reports/shots/scene_rhi_cube/001
+cube_ff: reports/shots/scene_rhi_cube/002
+GATE 0a PASS
+GATE 0c PASS
+GATE 0f PASS
+GATE 0g PASS

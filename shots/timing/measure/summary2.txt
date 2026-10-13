@@ -1,0 +1,31 @@
+done fight2 rc 0 lines 119
+done load10 rc 0 lines 48
+done load30 rc 0 lines 50
+done load60 rc 0 lines 66
+done load100 rc 0 lines 88
+== fight2[all]  real=80.35s game=116.58s ratio=1.451  gtc/real=1.0000 tgt/real=1.0000
+   frames=2933 fps=36.5  frame_ms p50=19.7 p95=48.9 max=477.1  render_ms avg=17.6 p95=28.0  tick_ms avg=4.07
+   ticks/frame {1: 1741, 2: 233, 3: 3, 4: 1, 5: 955}  cap_hit_and_still_behind=955 (33%)
+   lag behind schedule ms: start=36265 end=38 max=37621
+   sleep: n=36 oversleep_ms p50=0.13 p95=7.18 max=12.62
+   ticks per real second: min=35 p50=61 max=155  [50, 35, 60, 55, 50, 40, 50, 60, 65, 65, 75, 115, 150, 135, 90, 115, 125, 125, 120, 120, 125, 115, 125, 125, 130, 125, 135, 130, 130, 125, 130, 145, 135, 105, 140, 140, 135, 125, 140, 140]
+== load10[all]  real=40.25s game=44.48s ratio=1.105  gtc/real=1.0000 tgt/real=1.0000
+   frames=844 fps=21.0  frame_ms p50=33.8 p95=110.3 max=779.3  render_ms avg=34.7 p95=95.0  tick_ms avg=4.09
+   ticks/frame {1: 83, 2: 393, 3: 19, 4: 2, 5: 347}  cap_hit_and_still_behind=347 (41%)
+   lag behind schedule ms: start=4263 end=37 max=8003
+   ticks per real second: min=25 p50=60 max=120  [25, 45, 45, 55, 45, 50, 55, 40, 30, 50, 35, 35, 45, 65, 60, 80, 105, 105, 110, 115, 115, 110, 120, 115, 97, 61, 60, 60, 60, 60, 60, 60, 59, 61, 59, 60, 60, 60, 61, 59]
+== load30[all]  real=42.29s game=44.48s ratio=1.052  gtc/real=1.0000 tgt/real=1.0000
+   frames=534 fps=12.6  frame_ms p50=64.0 p95=135.1 max=804.9  render_ms avg=59.4 p95=119.4  tick_ms avg=3.95
+   ticks/frame {4: 1, 5: 533}  cap_hit_and_still_behind=533 (100%)
+   lag behind schedule ms: start=4554 end=2361 max=10086
+   ticks per real second: min=25 p50=75 max=80  [25, 35, 40, 45, 40, 45, 40, 50, 35, 35, 30, 45, 30, 35, 50, 60, 55, 65, 80, 75, 80, 75, 80, 80, 80, 80, 80, 80, 80, 75, 80, 80, 80, 75, 80, 80, 75, 75, 80, 75]
+== load60[all]  real=58.28s game=44.48s ratio=0.763  gtc/real=1.0000 tgt/real=1.0000
+   frames=534 fps=9.2  frame_ms p50=93.6 p95=166.6 max=917.7  render_ms avg=89.2 p95=150.1  tick_ms avg=3.97
+   ticks/frame {4: 1, 5: 533}  cap_hit_and_still_behind=533 (100%)
+   lag behind schedule ms: start=4924 end=18726 max=18726
+   ticks per real second: min=5 p50=50 max=55  [20, 25, 35, 30, 40, 35, 30, 35, 35, 35, 30, 35, 5, 45, 30, 30, 25, 35, 45, 40, 40, 45, 55, 55, 50, 50, 55, 50, 55, 50, 55, 55, 55, 55, 50, 55, 55, 55, 55, 55]
+== load100[all]  real=79.75s game=44.48s ratio=0.558  gtc/real=1.0000 tgt/real=1.0000
+   frames=534 fps=6.7  frame_ms p50=133.9 p95=207.1 max=887.8  render_ms avg=129.5 p95=190.2  tick_ms avg=3.96
+   ticks/frame {4: 1, 5: 533}  cap_hit_and_still_behind=533 (100%)
+   lag behind schedule ms: start=5007 end=40278 max=40278
+   ticks per real second: min=10 p50=35 max=40  [15, 25, 25, 25, 25, 30, 25, 25, 30, 20, 30, 30, 25, 20, 30, 10, 30, 30, 20, 25, 20, 25, 35, 30, 30, 25, 35, 35, 40, 35, 40, 35, 35, 40, 35, 35, 40, 35, 40, 35]

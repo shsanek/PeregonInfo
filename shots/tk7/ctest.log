@@ -1,0 +1,163 @@
+Test project /Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/build/native-release
+      Start  1: net_tests
+      Start  2: economy_tests
+ 1/66 Test  #2: economy_tests ....................   Passed    0.87 sec
+      Start  3: rhi_tests
+ 2/66 Test  #3: rhi_tests ........................   Passed    0.55 sec
+      Start  4: scene_rhi_cube
+ 3/66 Test  #4: scene_rhi_cube ...................   Passed    0.38 sec
+      Start  5: ui_tests
+ 4/66 Test  #5: ui_tests .........................   Passed    0.44 sec
+      Start  6: cargo_tests
+ 5/66 Test  #6: cargo_tests ......................   Passed    0.47 sec
+      Start  7: farm_tests
+ 6/66 Test  #7: farm_tests .......................   Passed    0.95 sec
+      Start  8: audio_tests
+ 7/66 Test  #1: net_tests ........................   Passed   26.95 sec
+      Start  9: rhi_metal_tests
+ 8/66 Test  #9: rhi_metal_tests ..................   Passed    1.41 sec
+      Start 10: vehicle_tests
+ 9/66 Test  #8: audio_tests ......................   Passed   29.63 sec
+      Start 11: region_stream_check
+10/66 Test #11: region_stream_check ..............   Passed   10.51 sec
+      Start 12: play_cargo_tests
+11/66 Test #10: vehicle_tests ....................   Passed   25.96 sec
+      Start 13: timewarp_tests
+12/66 Test #12: play_cargo_tests .................   Passed   21.95 sec
+      Start 14: winterplow_tests
+13/66 Test #14: winterplow_tests .................   Passed    0.86 sec
+      Start 15: play_care_tests
+14/66 Test #13: timewarp_tests ...................   Passed   76.07 sec
+      Start 16: net_world_tests
+15/66 Test #15: play_care_tests ..................***Timeout 180.08 sec
+[suite] play_care_tests
+[ OK ] tyre_valve_toggle_card_on_the_dash_lets_the_air_out_and_pumps_it_back
+[ OK ] cold_start_without_choke_cranks_but_never_catches_and_the_choke_knob_starts_it
+[ OK ] frozen_oil_needs_the_preheater_first
+[ OK ] hand_crank_starts_the_engine_when_the_battery_only_clicks
+[ OK ] hand_crank_without_ignition_gives_no_spark
+[ OK ] radiator_water_left_in_the_frost_cracks_the_block_draining_it_saves_the_engine
+[ OK ] antifreeze_from_the_shelf_keeps_the_block_whole
+[ OK ] care_state_survives_save_and_load
+[ OK ] fogged_windscreen_wipes_by_hand_and_the_heater_on_the_glass_clears_it
+[ OK ] summer_sun_with_the_window_down_stays_clear_but_a_cool_wet_morning_fogs
+
+      Start 17: paper_map_tests
+16/66 Test #17: paper_map_tests ..................   Passed   12.93 sec
+      Start 18: loadout_tests
+17/66 Test #18: loadout_tests ....................   Passed   27.73 sec
+      Start 19: coop_slots_tests
+18/66 Test #16: net_world_tests ..................   Passed  220.39 sec
+      Start 20: inventory_tests
+19/66 Test #19: coop_slots_tests .................   Passed   70.24 sec
+      Start 21: woodcut_tests
+20/66 Test #21: woodcut_tests ....................   Passed   31.63 sec
+      Start 22: play_lake_tests
+21/66 Test #22: play_lake_tests ..................   Passed   19.11 sec
+      Start 23: play_water_tests
+22/66 Test #20: inventory_tests ..................***Timeout 120.03 sec
+[suite] inventory_tests
+[ OK ] new_game_wears_the_start_outfit_with_the_thermos_in_the_rucksack
+[ OK ] two_hands_hold_two_small_items_and_big_ones_need_both
+[ OK ] rucksack_takes_small_items_refuses_big_heavy_and_without_it_there_are_no_slots
+
+      Start 24: combat_tests
+23/66 Test #24: combat_tests .....................   Passed    0.80 sec
+      Start 25: gunplay_tests
+24/66 Test #25: gunplay_tests ....................   Passed    0.56 sec
+      Start 26: core_tests
+25/66 Test #26: core_tests .......................   Passed    0.39 sec
+      Start 27: scene_core_replay
+26/66 Test #27: scene_core_replay ................   Passed    0.42 sec
+      Start 28: contracts_tests
+27/66 Test #28: contracts_tests ..................   Passed    0.62 sec
+      Start 29: shader_metal_test
+28/66 Test #29: shader_metal_test ................   Passed    0.95 sec
+      Start 30: shaderc_tests
+29/66 Test #30: shaderc_tests ....................   Passed    9.66 sec
+      Start 31: asset_tests
+30/66 Test #31: asset_tests ......................   Passed    0.39 sec
+      Start 32: asset_tests_characters
+31/66 Test #32: asset_tests_characters ...........   Passed    0.12 sec
+      Start 33: asset_tests_characters_baba
+32/66 Test #33: asset_tests_characters_baba ......   Passed    0.17 sec
+      Start 34: diffuse_gi_tests
+33/66 Test #34: diffuse_gi_tests .................   Passed    1.87 sec
+      Start 35: cab_lighting_tests
+34/66 Test #35: cab_lighting_tests ...............   Passed   10.38 sec
+      Start 36: diffuse_gi_render_check
+35/66 Test #23: play_water_tests .................   Passed  111.23 sec
+      Start 37: cab_lighting_gpu_check
+36/66 Test #36: diffuse_gi_render_check ..........   Passed   22.97 sec
+      Start 38: spot_shadow_render_check
+37/66 Test #37: cab_lighting_gpu_check ...........   Passed    1.32 sec
+      Start 39: cloud_render_check
+38/66 Test #38: spot_shadow_render_check .........   Passed   11.24 sec
+      Start 40: sun_shadow_render_check
+39/66 Test #40: sun_shadow_render_check ..........   Passed    2.12 sec
+      Start 41: ground_normal_render_check
+40/66 Test #39: cloud_render_check ...............   Passed   13.75 sec
+      Start 42: far_terrain_render_check
+41/66 Test #42: far_terrain_render_check .........   Passed    1.50 sec
+      Start 43: aerial_render_check
+42/66 Test #41: ground_normal_render_check .......   Passed    2.67 sec
+      Start 44: cab_render_check
+43/66 Test #43: aerial_render_check ..............   Passed    8.98 sec
+      Start 45: glass_render_check
+44/66 Test #44: cab_render_check .................   Passed    9.61 sec
+      Start 46: sky_occlusion_tests
+45/66 Test #46: sky_occlusion_tests ..............   Passed    0.90 sec
+      Start 47: season_tests
+46/66 Test #45: glass_render_check ...............   Passed    1.81 sec
+      Start 48: leaf_tests
+47/66 Test #47: season_tests .....................   Passed    1.21 sec
+      Start 49: river_ice_tests
+48/66 Test #49: river_ice_tests ..................   Passed    2.63 sec
+      Start 50: atmos_fx_tests
+49/66 Test #48: leaf_tests .......................   Passed    3.70 sec
+      Start 51: glass_weather_tests
+50/66 Test #50: atmos_fx_tests ...................   Passed    0.80 sec
+      Start 52: world_tests
+51/66 Test #51: glass_weather_tests ..............   Passed   13.62 sec
+      Start 53: nature_tests
+52/66 Test #52: world_tests ......................   Passed   13.33 sec
+      Start 54: light_tests
+53/66 Test #53: nature_tests .....................***Timeout  30.02 sec
+
+      Start 55: character_tests
+54/66 Test #54: light_tests ......................***Timeout  30.03 sec
+
+      Start 56: ai_tests
+55/66 Test #56: ai_tests .........................   Passed   16.85 sec
+      Start 57: loc_tests
+56/66 Test #55: character_tests ..................   Passed   21.77 sec
+      Start 58: save_tests
+57/66 Test #57: loc_tests ........................   Passed    6.62 sec
+      Start 59: director_tests
+58/66 Test #58: save_tests .......................   Passed    2.87 sec
+      Start 60: bot_tests
+59/66 Test #59: director_tests ...................   Passed    2.54 sec
+      Start 61: view_tests
+60/66 Test #61: view_tests .......................   Passed    0.69 sec
+      Start 62: poi_tests
+61/66 Test #60: bot_tests ........................   Passed    2.73 sec
+      Start 63: survival_tests
+62/66 Test #62: poi_tests ........................   Passed    0.75 sec
+      Start 64: care_tests
+63/66 Test #63: survival_tests ...................   Passed    7.01 sec
+      Start 65: water_tests
+64/66 Test #65: water_tests ......................   Passed    8.57 sec
+      Start 66: lake_tests
+65/66 Test #66: lake_tests .......................   Passed    1.85 sec
+66/66 Test #64: care_tests .......................   Passed   25.97 sec
+
+94% tests passed, 4 tests failed out of 66
+
+Total Test time (real) = 648.12 sec
+
+The following tests FAILED:
+	 15 - play_care_tests (Timeout)
+	 20 - inventory_tests (Timeout)
+	 53 - nature_tests (Timeout)
+	 54 - light_tests (Timeout)
+Errors while running CTest

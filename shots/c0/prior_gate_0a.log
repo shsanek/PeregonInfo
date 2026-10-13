@@ -1,0 +1,43 @@
+native peregon rc=0
+native core_tests rc=0
+executor peregon.exe win32-release rc=0
+executor core_tests.exe win32-release rc=0
+executor peregon.exe win32-debug rc=0
+executor core_tests.exe win32-debug rc=0
+IDENTICAL native_peregon.stdout.txt == executor_peregon.stdout.txt
+IDENTICAL native_peregon.stdout.txt == executor_peregon_debug.stdout.txt
+IDENTICAL native_core_tests.stdout.txt == executor_core_tests.stdout.txt
+IDENTICAL native_core_tests.stdout.txt == executor_core_tests_debug.stdout.txt
+ai_tests.exe: core.dll kernel32.dll msvcrt.dll
+asset_tests.exe: kernel32.dll msvcrt.dll
+audio_tests.exe: core.dll kernel32.dll msvcrt.dll winmm.dll
+bot_tests.exe: core.dll kernel32.dll msvcrt.dll
+cargo_tests.exe: core.dll kernel32.dll msvcrt.dll
+combat_tests.exe: core.dll kernel32.dll msvcrt.dll
+contracts_tests.exe: core.dll kernel32.dll msvcrt.dll
+core_tests.exe: core.dll kernel32.dll msvcrt.dll
+economy_tests.exe: core.dll kernel32.dll msvcrt.dll
+loc_tests.exe: kernel32.dll msvcrt.dll
+map_tests.exe: core.dll kernel32.dll msvcrt.dll
+peregon.exe: core.dll kernel32.dll msvcrt.dll user32.dll winmm.dll
+peregon_bot.exe: core.dll kernel32.dll msvcrt.dll
+peregon_content_check.exe: core.dll kernel32.dll msvcrt.dll
+peregon_economy_sim.exe: core.dll kernel32.dll msvcrt.dll
+peregon_headless.exe: core.dll kernel32.dll msvcrt.dll user32.dll winmm.dll
+peregon_loc_check.exe: kernel32.dll msvcrt.dll
+rhi_d3d9_tests.exe: kernel32.dll msvcrt.dll
+rhi_tests.exe: kernel32.dll msvcrt.dll
+save_tests.exe: core.dll kernel32.dll msvcrt.dll
+scene_core_replay.exe: core.dll kernel32.dll msvcrt.dll
+scene_rhi_cube.exe: kernel32.dll msvcrt.dll
+shader_d3d9_test.exe: d3d9.dll kernel32.dll msvcrt.dll user32.dll
+ui_tests.exe: kernel32.dll msvcrt.dll
+vehicle_tests.exe: core.dll kernel32.dll msvcrt.dll
+w3_record.exe: core.dll kernel32.dll msvcrt.dll
+w4_record.exe: core.dll kernel32.dll msvcrt.dll
+window_tests.exe: kernel32.dll msvcrt.dll user32.dll
+world_tests.exe: core.dll kernel32.dll msvcrt.dll user32.dll
+core.dll: kernel32.dll msvcrt.dll
+render_d3d9.dll: d3d9.dll kernel32.dll msvcrt.dll user32.dll
+stub/nodll lines: 0
+GATE 0a PASS

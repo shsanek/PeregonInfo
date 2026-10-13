@@ -1,0 +1,42 @@
+LOG line 6 host elev.1: 0
+LOG line 7 host elev.2: 0
+LOG line 8 host pos.1.y: 237
+LOG line 14 host pos.1.y: 238
+LOG line 15 host elev.1: 0
+LOG line 16 host swim.1: 0
+LOG line 25 host truck.y: 238
+LOG line 26 host truck.x: 1161
+LOG line 6 p1 elev.1: 0
+LOG line 7 p1 elev.2: 0
+LOG line 8 p1 pos.1.y: 237
+LOG line 14 p1 pos.1.y: 238
+LOG line 15 p1 elev.1: 0
+LOG line 16 p1 swim.1: 0
+LOG line 25 p1 truck.y: 238
+LOG line 26 p1 truck.x: 1161
+LOG line 6 p2 elev.1: 0
+LOG line 7 p2 elev.2: 0
+LOG line 8 p2 pos.1.y: 237
+LOG line 14 p2 pos.1.y: 238
+LOG line 15 p2 elev.1: 0
+LOG line 16 p2 swim.1: 0
+LOG line 25 p2 truck.y: 238
+LOG line 26 p2 truck.x: 1161
+PASS line 9 ICE-04 layer.ice == x: host=2cb2502f p1=2cb2502f p2=2cb2502f
+PASS line 10 ICE-04 pos.1.y ~~ 0: host=237 p1=237 p2=237
+PASS line 11 ICE-04 elev.1 ~~ 10: host=0 p1=0 p2=0
+PASS line 17 ICE-06 pos.1.y ~~ 0: host=238 p1=238@1 p2=238@1
+PASS line 18 ICE-06 swim.1 == x: host=0 p1=0@1 p2=0@1
+PASS line 19 ICE-04 layer.ice == x: host=bb2fa1b6 p1=bb2fa1b6@1 p2=bb2fa1b6@1
+PASS line 27 ICE-10 truck.y ~~ 1: host=238 p1=238 p2=238
+PASS line 28 ICE-10 truck.x ~~ 2: host=1161 p1=1161 p2=1161
+PASS line 29 ICE-07 layer.ice == x: host=e9da2343 p1=e9da2343 p2=e9da2343
+links: peer 1 relay, peer 2 relay
+client layer checks: 78 equal, 0 differ
+acts 9, failed acts 0
+rows 4 pass 4 fail 0
+ROW ICE-04 PASS (4 checks)
+ROW ICE-06 PASS (2 checks)
+ROW ICE-07 PASS (1 checks)
+ROW ICE-10 PASS (2 checks)
+RESULT PASS

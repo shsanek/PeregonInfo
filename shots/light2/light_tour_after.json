@@ -1,0 +1,517 @@
+{
+ "cab/dawn": {
+  "frame_ms_avg": 29.548,
+  "frames": 123,
+  "shot": "after_cab_dawn.jpg",
+  "state_hash": "71b9ce0f",
+  "tick": 273
+ },
+ "cab/fog": {
+  "frame_ms_avg": 27.277,
+  "frames": 23,
+  "shot": "after_cab_fog.jpg",
+  "state_hash": "5bc1f4b6",
+  "tick": 441
+ },
+ "cab/night": {
+  "frame_ms_avg": 27.004,
+  "frames": 23,
+  "shot": "after_cab_night.jpg",
+  "state_hash": "36524ef1",
+  "tick": 345
+ },
+ "cab/noon": {
+  "frame_ms_avg": 27.218,
+  "frames": 23,
+  "shot": "after_cab_noon.jpg",
+  "state_hash": "454b53ed",
+  "tick": 297
+ },
+ "cab/overcast": {
+  "frame_ms_avg": 27.529,
+  "frames": 23,
+  "shot": "after_cab_overcast.jpg",
+  "state_hash": "f5bb5a90",
+  "tick": 369
+ },
+ "cab/rain": {
+  "frame_ms_avg": 29.083,
+  "frames": 23,
+  "shot": "after_cab_rain.jpg",
+  "state_hash": "fa14e560",
+  "tick": 393
+ },
+ "cab/snow": {
+  "frame_ms_avg": 27.477,
+  "frames": 23,
+  "shot": "after_cab_snow.jpg",
+  "state_hash": "a5d14f60",
+  "tick": 417
+ },
+ "cab/sunset": {
+  "frame_ms_avg": 27.105,
+  "frames": 23,
+  "shot": "after_cab_sunset.jpg",
+  "state_hash": "08db5c4e",
+  "tick": 321
+ },
+ "elevator/dawn": {
+  "frame_ms_avg": 28.741,
+  "frames": 123,
+  "shot": "after_elevator_dawn.jpg",
+  "state_hash": "842db41d",
+  "tick": 2609
+ },
+ "elevator/fog": {
+  "frame_ms_avg": 26.802,
+  "frames": 23,
+  "shot": "after_elevator_fog.jpg",
+  "state_hash": "4bf9474a",
+  "tick": 2777
+ },
+ "elevator/night": {
+  "frame_ms_avg": 27.168,
+  "frames": 23,
+  "shot": "after_elevator_night.jpg",
+  "state_hash": "e26b4df3",
+  "tick": 2681
+ },
+ "elevator/noon": {
+  "frame_ms_avg": 27.141,
+  "frames": 23,
+  "shot": "after_elevator_noon.jpg",
+  "state_hash": "26a94035",
+  "tick": 2633
+ },
+ "elevator/overcast": {
+  "frame_ms_avg": 27.219,
+  "frames": 23,
+  "shot": "after_elevator_overcast.jpg",
+  "state_hash": "dc6b69eb",
+  "tick": 2705
+ },
+ "elevator/rain": {
+  "frame_ms_avg": 27.426,
+  "frames": 23,
+  "shot": "after_elevator_rain.jpg",
+  "state_hash": "1a80f9ab",
+  "tick": 2729
+ },
+ "elevator/snow": {
+  "frame_ms_avg": 27.011,
+  "frames": 23,
+  "shot": "after_elevator_snow.jpg",
+  "state_hash": "da50af7e",
+  "tick": 2753
+ },
+ "elevator/sunset": {
+  "frame_ms_avg": 27.019,
+  "frames": 23,
+  "shot": "after_elevator_sunset.jpg",
+  "state_hash": "d506a5f7",
+  "tick": 2657
+ },
+ "floodplain/dawn": {
+  "frame_ms_avg": 29.22,
+  "frames": 123,
+  "shot": "after_floodplain_dawn.jpg",
+  "state_hash": "4c4778de",
+  "tick": 2025
+ },
+ "floodplain/fog": {
+  "frame_ms_avg": 28.529,
+  "frames": 23,
+  "shot": "after_floodplain_fog.jpg",
+  "state_hash": "be8039c7",
+  "tick": 2193
+ },
+ "floodplain/night": {
+  "frame_ms_avg": 28.375,
+  "frames": 23,
+  "shot": "after_floodplain_night.jpg",
+  "state_hash": "bad69354",
+  "tick": 2097
+ },
+ "floodplain/noon": {
+  "frame_ms_avg": 28.52,
+  "frames": 23,
+  "shot": "after_floodplain_noon.jpg",
+  "state_hash": "158b0c1b",
+  "tick": 2049
+ },
+ "floodplain/overcast": {
+  "frame_ms_avg": 28.648,
+  "frames": 23,
+  "shot": "after_floodplain_overcast.jpg",
+  "state_hash": "b2b63ab9",
+  "tick": 2121
+ },
+ "floodplain/rain": {
+  "frame_ms_avg": 28.758,
+  "frames": 23,
+  "shot": "after_floodplain_rain.jpg",
+  "state_hash": "ed067adf",
+  "tick": 2145
+ },
+ "floodplain/snow": {
+  "frame_ms_avg": 28.537,
+  "frames": 23,
+  "shot": "after_floodplain_snow.jpg",
+  "state_hash": "c2ff7bc6",
+  "tick": 2169
+ },
+ "floodplain/sunset": {
+  "frame_ms_avg": 28.408,
+  "frames": 23,
+  "shot": "after_floodplain_sunset.jpg",
+  "state_hash": "79d6d226",
+  "tick": 2073
+ },
+ "ford/dawn": {
+  "frame_ms_avg": 28.762,
+  "frames": 123,
+  "shot": "after_ford_dawn.jpg",
+  "state_hash": "c12142f3",
+  "tick": 1733
+ },
+ "ford/fog": {
+  "frame_ms_avg": 28.053,
+  "frames": 23,
+  "shot": "after_ford_fog.jpg",
+  "state_hash": "7ad81130",
+  "tick": 1901
+ },
+ "ford/night": {
+  "frame_ms_avg": 27.313,
+  "frames": 23,
+  "shot": "after_ford_night.jpg",
+  "state_hash": "b5009022",
+  "tick": 1805
+ },
+ "ford/noon": {
+  "frame_ms_avg": 27.344,
+  "frames": 23,
+  "shot": "after_ford_noon.jpg",
+  "state_hash": "f2dbf418",
+  "tick": 1757
+ },
+ "ford/overcast": {
+  "frame_ms_avg": 27.584,
+  "frames": 23,
+  "shot": "after_ford_overcast.jpg",
+  "state_hash": "94ae5bea",
+  "tick": 1829
+ },
+ "ford/rain": {
+  "frame_ms_avg": 27.847,
+  "frames": 23,
+  "shot": "after_ford_rain.jpg",
+  "state_hash": "46ba5fed",
+  "tick": 1853
+ },
+ "ford/snow": {
+  "frame_ms_avg": 28.032,
+  "frames": 23,
+  "shot": "after_ford_snow.jpg",
+  "state_hash": "b56707d7",
+  "tick": 1877
+ },
+ "ford/sunset": {
+  "frame_ms_avg": 26.982,
+  "frames": 23,
+  "shot": "after_ford_sunset.jpg",
+  "state_hash": "63323f0e",
+  "tick": 1781
+ },
+ "hairpins/dawn": {
+  "frame_ms_avg": 28.693,
+  "frames": 123,
+  "shot": "after_hairpins_dawn.jpg",
+  "state_hash": "a01a9e6d",
+  "tick": 2317
+ },
+ "hairpins/fog": {
+  "frame_ms_avg": 27.073,
+  "frames": 23,
+  "shot": "after_hairpins_fog.jpg",
+  "state_hash": "f77415d0",
+  "tick": 2485
+ },
+ "hairpins/night": {
+  "frame_ms_avg": 27.979,
+  "frames": 23,
+  "shot": "after_hairpins_night.jpg",
+  "state_hash": "fde765af",
+  "tick": 2389
+ },
+ "hairpins/noon": {
+  "frame_ms_avg": 27.784,
+  "frames": 23,
+  "shot": "after_hairpins_noon.jpg",
+  "state_hash": "464a3aad",
+  "tick": 2341
+ },
+ "hairpins/overcast": {
+  "frame_ms_avg": 27.369,
+  "frames": 23,
+  "shot": "after_hairpins_overcast.jpg",
+  "state_hash": "b38be189",
+  "tick": 2413
+ },
+ "hairpins/rain": {
+  "frame_ms_avg": 27.785,
+  "frames": 23,
+  "shot": "after_hairpins_rain.jpg",
+  "state_hash": "9f8b2462",
+  "tick": 2437
+ },
+ "hairpins/snow": {
+  "frame_ms_avg": 27.098,
+  "frames": 23,
+  "shot": "after_hairpins_snow.jpg",
+  "state_hash": "4fa86d84",
+  "tick": 2461
+ },
+ "hairpins/sunset": {
+  "frame_ms_avg": 27.641,
+  "frames": 23,
+  "shot": "after_hairpins_sunset.jpg",
+  "state_hash": "236d5016",
+  "tick": 2365
+ },
+ "run": {
+  "final_state_hash": "27841350",
+  "frame_time_ms": {
+   "avg": 30.447,
+   "max": 1500.945,
+   "min": 1.613
+  },
+  "launches": 1,
+  "ticks": 2779,
+  "wall_time_ms": 84617.934
+ },
+ "sawmill/dawn": {
+  "frame_ms_avg": 27.509,
+  "frames": 123,
+  "shot": "after_sawmill_dawn.jpg",
+  "state_hash": "9d6c899e",
+  "tick": 1441
+ },
+ "sawmill/fog": {
+  "frame_ms_avg": 27.713,
+  "frames": 23,
+  "shot": "after_sawmill_fog.jpg",
+  "state_hash": "d25c91ad",
+  "tick": 1609
+ },
+ "sawmill/night": {
+  "frame_ms_avg": 27.537,
+  "frames": 23,
+  "shot": "after_sawmill_night.jpg",
+  "state_hash": "cc3bdba5",
+  "tick": 1513
+ },
+ "sawmill/noon": {
+  "frame_ms_avg": 28.127,
+  "frames": 23,
+  "shot": "after_sawmill_noon.jpg",
+  "state_hash": "e0ada4ac",
+  "tick": 1465
+ },
+ "sawmill/overcast": {
+  "frame_ms_avg": 28.152,
+  "frames": 23,
+  "shot": "after_sawmill_overcast.jpg",
+  "state_hash": "5056b36f",
+  "tick": 1537
+ },
+ "sawmill/rain": {
+  "frame_ms_avg": 28.04,
+  "frames": 23,
+  "shot": "after_sawmill_rain.jpg",
+  "state_hash": "eea363df",
+  "tick": 1561
+ },
+ "sawmill/snow": {
+  "frame_ms_avg": 28.177,
+  "frames": 23,
+  "shot": "after_sawmill_snow.jpg",
+  "state_hash": "342da618",
+  "tick": 1585
+ },
+ "sawmill/sunset": {
+  "frame_ms_avg": 28.018,
+  "frames": 23,
+  "shot": "after_sawmill_sunset.jpg",
+  "state_hash": "8e42421f",
+  "tick": 1489
+ },
+ "truck_rear/dawn": {
+  "frame_ms_avg": 25.409,
+  "frames": 123,
+  "shot": "after_truck_rear_dawn.jpg",
+  "state_hash": "d57b61ae",
+  "tick": 857
+ },
+ "truck_rear/fog": {
+  "frame_ms_avg": 25.729,
+  "frames": 23,
+  "shot": "after_truck_rear_fog.jpg",
+  "state_hash": "286e5869",
+  "tick": 1025
+ },
+ "truck_rear/night": {
+  "frame_ms_avg": 26.186,
+  "frames": 23,
+  "shot": "after_truck_rear_night.jpg",
+  "state_hash": "d99f2753",
+  "tick": 929
+ },
+ "truck_rear/noon": {
+  "frame_ms_avg": 26.191,
+  "frames": 23,
+  "shot": "after_truck_rear_noon.jpg",
+  "state_hash": "1c125ef2",
+  "tick": 881
+ },
+ "truck_rear/overcast": {
+  "frame_ms_avg": 26.192,
+  "frames": 23,
+  "shot": "after_truck_rear_overcast.jpg",
+  "state_hash": "7199fba2",
+  "tick": 953
+ },
+ "truck_rear/rain": {
+  "frame_ms_avg": 26.558,
+  "frames": 23,
+  "shot": "after_truck_rear_rain.jpg",
+  "state_hash": "64b619e1",
+  "tick": 977
+ },
+ "truck_rear/snow": {
+  "frame_ms_avg": 26.148,
+  "frames": 23,
+  "shot": "after_truck_rear_snow.jpg",
+  "state_hash": "81b9149d",
+  "tick": 1001
+ },
+ "truck_rear/sunset": {
+  "frame_ms_avg": 26.207,
+  "frames": 23,
+  "shot": "after_truck_rear_sunset.jpg",
+  "state_hash": "79edf2b0",
+  "tick": 905
+ },
+ "truck_side/dawn": {
+  "frame_ms_avg": 27.042,
+  "frames": 123,
+  "shot": "after_truck_side_dawn.jpg",
+  "state_hash": "9058d7a5",
+  "tick": 565
+ },
+ "truck_side/fog": {
+  "frame_ms_avg": 27.286,
+  "frames": 23,
+  "shot": "after_truck_side_fog.jpg",
+  "state_hash": "91f12ad9",
+  "tick": 733
+ },
+ "truck_side/night": {
+  "frame_ms_avg": 27.811,
+  "frames": 23,
+  "shot": "after_truck_side_night.jpg",
+  "state_hash": "39e7005e",
+  "tick": 637
+ },
+ "truck_side/noon": {
+  "frame_ms_avg": 27.63,
+  "frames": 23,
+  "shot": "after_truck_side_noon.jpg",
+  "state_hash": "245b53f4",
+  "tick": 589
+ },
+ "truck_side/overcast": {
+  "frame_ms_avg": 27.956,
+  "frames": 23,
+  "shot": "after_truck_side_overcast.jpg",
+  "state_hash": "785e005b",
+  "tick": 661
+ },
+ "truck_side/rain": {
+  "frame_ms_avg": 27.964,
+  "frames": 23,
+  "shot": "after_truck_side_rain.jpg",
+  "state_hash": "59978323",
+  "tick": 685
+ },
+ "truck_side/snow": {
+  "frame_ms_avg": 27.997,
+  "frames": 23,
+  "shot": "after_truck_side_snow.jpg",
+  "state_hash": "8512589e",
+  "tick": 709
+ },
+ "truck_side/sunset": {
+  "frame_ms_avg": 27.76,
+  "frames": 23,
+  "shot": "after_truck_side_sunset.jpg",
+  "state_hash": "15ade708",
+  "tick": 613
+ },
+ "yard/dawn": {
+  "frame_ms_avg": 26.395,
+  "frames": 123,
+  "shot": "after_yard_dawn.jpg",
+  "state_hash": "0df37ffe",
+  "tick": 1149
+ },
+ "yard/fog": {
+  "frame_ms_avg": 27.056,
+  "frames": 23,
+  "shot": "after_yard_fog.jpg",
+  "state_hash": "864fe902",
+  "tick": 1317
+ },
+ "yard/night": {
+  "frame_ms_avg": 27.375,
+  "frames": 23,
+  "shot": "after_yard_night.jpg",
+  "state_hash": "4c846560",
+  "tick": 1221
+ },
+ "yard/noon": {
+  "frame_ms_avg": 27.329,
+  "frames": 23,
+  "shot": "after_yard_noon.jpg",
+  "state_hash": "050a5354",
+  "tick": 1173
+ },
+ "yard/overcast": {
+  "frame_ms_avg": 27.562,
+  "frames": 23,
+  "shot": "after_yard_overcast.jpg",
+  "state_hash": "97badc20",
+  "tick": 1245
+ },
+ "yard/rain": {
+  "frame_ms_avg": 27.2,
+  "frames": 23,
+  "shot": "after_yard_rain.jpg",
+  "state_hash": "a951b5a1",
+  "tick": 1269
+ },
+ "yard/snow": {
+  "frame_ms_avg": 27.334,
+  "frames": 23,
+  "shot": "after_yard_snow.jpg",
+  "state_hash": "9794964d",
+  "tick": 1293
+ },
+ "yard/sunset": {
+  "frame_ms_avg": 27.163,
+  "frames": 23,
+  "shot": "after_yard_sunset.jpg",
+  "state_hash": "68dd4a0e",
+  "tick": 1197
+ }
+}

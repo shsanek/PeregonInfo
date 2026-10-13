@@ -1,0 +1,222 @@
+{
+ "08_rig_shared": {
+  "blink_deg": 34.4,
+  "face_weights": {
+   "jaw_verts": 113,
+   "lid_verts": 93
+  },
+  "heat_seconds": 0.29,
+  "markers_centred_m": {
+   "ankle.L": 0.0163,
+   "ankle.R": 0.0163,
+   "elbow.L": 0.0268,
+   "elbow.R": 0.0268,
+   "knee.L": 0.0602,
+   "knee.R": 0.0602,
+   "shoulder.L": 0.0467,
+   "shoulder.R": 0.0467,
+   "wrist.L": 0.0205,
+   "wrist.R": 0.0205
+  },
+  "parent_result": [
+   "FINISHED"
+  ],
+  "seconds": 0.96,
+  "skeleton": {
+   "bones": 44,
+   "deform": 43
+  },
+  "time": "2026-10-08 21:05:23",
+  "weights": {
+   "grisha_LOD0": {
+    "groups": 44,
+    "over4": 0,
+    "unweighted": 0
+   },
+   "grisha_LOD1": {
+    "groups": 44,
+    "over4": 0,
+    "unweighted": 0
+   },
+   "grisha_LOD2": {
+    "groups": 44,
+    "over4": 0,
+    "unweighted": 0
+   }
+  }
+ },
+ "09_anim_shared": {
+  "arm_clearance_mm": 18.6,
+  "clip_checks": {
+   "idle": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 120,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0,
+    "planted_slide_mm": 0.0
+   },
+   "talk": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 120,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0,
+    "planted_slide_mm": 0.01
+   },
+   "turn_l45": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 27,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0
+   },
+   "turn_l90": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 36,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0
+   },
+   "turn_r45": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 27,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0
+   },
+   "turn_r90": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 36,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0
+   },
+   "use_tool": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 60,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0,
+    "planted_slide_mm": 0.0
+   },
+   "walk": {
+    "ankle_below_rest_mm": -0.0,
+    "frames": 33,
+    "hand_inside_depth_mm": 0.0,
+    "hand_inside_frames": 0,
+    "hand_inside_verts_max": 0,
+    "period_s": 1.1,
+    "stance_speed_mps": 1.081,
+    "stance_speed_std": 0.0
+   }
+  },
+  "clips": {
+   "idle": {
+    "frames": 120,
+    "loop": true,
+    "seconds": 4.0
+   },
+   "talk": {
+    "frames": 120,
+    "loop": true,
+    "seconds": 4.0
+   },
+   "turn_l45": {
+    "frames": 27,
+    "loop": false,
+    "seconds": 0.9
+   },
+   "turn_l90": {
+    "frames": 36,
+    "loop": false,
+    "seconds": 1.2
+   },
+   "turn_r45": {
+    "frames": 27,
+    "loop": false,
+    "seconds": 0.9
+   },
+   "turn_r90": {
+    "frames": 36,
+    "loop": false,
+    "seconds": 1.2
+   },
+   "use_tool": {
+    "frames": 60,
+    "loop": true,
+    "seconds": 2.0
+   },
+   "walk": {
+    "frames": 33,
+    "loop": true,
+    "seconds": 1.1
+   }
+  },
+  "fps": 30,
+  "joint_checks": {
+   "elbow_120": {
+    "collapsed_verts": 5,
+    "radius_p5_ratio": 0.269,
+    "verts": 44,
+    "volume_loss_pct": 44.4
+   },
+   "forearm_twist_90": {
+    "collapsed_verts": 0,
+    "radius_p5_ratio": 0.786,
+    "verts": 19,
+    "volume_loss_pct": 17.7
+   },
+   "hip_flex_90": {
+    "verts": 0
+   },
+   "knee_120": {
+    "collapsed_verts": 2,
+    "radius_p5_ratio": 0.259,
+    "verts": 21,
+    "volume_loss_pct": 49.9
+   },
+   "shoulder_raise_90": {
+    "collapsed_verts": 0,
+    "radius_p5_ratio": 0.696,
+    "verts": 38,
+    "volume_loss_pct": 23.1
+   },
+   "spine_twist_30": {
+    "verts": 0
+   }
+  },
+  "motion_profile": {
+   "age": 56.0,
+   "arm_out_deg": 12.0,
+   "blink_deg": 34.4054,
+   "canonical_arm_deg": 45.0,
+   "jaw_open_deg": 5.0,
+   "lift_m": 0.0691,
+   "old": false,
+   "pelvis_drop_m": -0.0911,
+   "stride_m": 0.7135
+  },
+  "seconds": 14.58,
+  "time": "2026-10-08 21:05:41",
+  "weights": {
+   "over4": 0,
+   "verts": 4335,
+   "weight_sum_off": 0
+  }
+ },
+ "10_export_shared": {
+  "bones": 44,
+  "glb": "assets/characters/grisha/gltf/grisha.glb",
+  "glb_bytes": 1796528,
+  "lods": {
+   "grisha_LOD0": 8599,
+   "grisha_LOD1": 4000,
+   "grisha_LOD2": 1699
+  },
+  "seconds": 5.75,
+  "spec_mask_mean": 0.4205,
+  "texture_size": 1024,
+  "time": "2026-10-08 21:05:49"
+ }
+}

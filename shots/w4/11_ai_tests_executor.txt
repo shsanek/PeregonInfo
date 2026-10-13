@@ -1,0 +1,34 @@
+[suite] ai_tests part 1
+    gas_station: boxes 32, platforms 1, spawn points 8
+    elevator: boxes 36, platforms 4, spawn points 9
+[ OK ] params_and_arena_layouts_load_from_data
+[ OK ] layout_parser_rejects_broken_boxes
+[ OK ] perception_sight_cone_range_and_hearing
+[ OK ] perception_line_of_sight_against_grey_box_cover
+    open field: expanded 40, walkable cells 5776
+[ OK ] astar_open_field_is_one_straight_segment
+    around wall: 3 waypoints, length 2907 cm, expanded 1162
+[ OK ] astar_routes_around_a_wall_deterministically
+    platform cells 112, ground cells 5776
+[ OK ] astar_fails_into_an_enclosed_room_and_platform_grid_stays_on_platforms
+    cover spots 20
+[ OK ] cover_choice_puts_the_box_between_agent_and_threat
+[ OK ] raiders_hear_a_shot_and_alert_the_group
+    cover 554/840 ticks, peeks 3, shots 8
+[ OK ] raiders_take_cover_crouch_and_peek
+    raider at 10 m, 6 s: shots 6, hits 6, reaction ticks 27
+[ OK ] raider_shoots_back_after_reaction_time_with_damage_events
+    flank attempts 2, arrivals 2, flank shots 2, suppress ticks 295
+[ OK ] raider_group_flanks_and_suppresses
+[ OK ] broken_group_retreats
+[done] 13/13 passed, 1077 checks
+[suite] ai_tests part 2
+    windup at 61, charge 97, hit/recover 129
+[ OK ] brute_winds_up_charges_and_hits
+[ OK ] brute_charge_interrupted_only_by_knockback
+    idle gunner, 16.7 s: rams 2, attempts 2, alongside ticks 102
+[ OK ] buggy_chases_aligns_and_rams_with_cargo_strip_events
+[ OK ] roof_mg_kills_a_buggy_with_matrix_damage
+    seed 1 hash 0x857e30422fe92cdb, seed 5 0x9d435900b7ed8073, seed 3 0x144dd57e3fd12c60
+[ OK ] scenarios_are_deterministic_and_seed_sensitive
+[done] 5/5 passed, 330 checks

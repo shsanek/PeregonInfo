@@ -1,0 +1,61 @@
+ok   two conversions are byte-identical (10 files)
+ok   golden sha256 albedo_spec_bc3.ptex
+ok   golden sha256 alpha_bc3.ptex
+ok   golden sha256 bump_n_bc1.ptex
+ok   golden sha256 bump_n_rgba8.ptex
+ok   golden sha256 fan.pmesh
+ok   golden sha256 grad_rgba8.ptex
+ok   golden sha256 hier.pmesh
+ok   golden sha256 large/large.pmesh
+ok   golden sha256 noisy_bc1.ptex
+ok   golden sha256 tri.pmesh
+ok   committed golden file albedo_spec_bc3.ptex byte-identical
+ok   committed golden file alpha_bc3.ptex byte-identical
+ok   committed golden file bump_n_bc1.ptex byte-identical
+ok   committed golden file bump_n_rgba8.ptex byte-identical
+ok   committed golden file fan.pmesh byte-identical
+ok   committed golden file grad_rgba8.ptex byte-identical
+ok   committed golden file hier.pmesh byte-identical
+ok   committed golden file noisy_bc1.ptex byte-identical
+ok   committed golden file tri.pmesh byte-identical
+ok   golden report.txt matches python report
+ok   png round trip: 3 colour types x 6 filter modes
+ok   png Adam7 interlaced decode
+ok   png rejects truncated file
+ok   png rejects bad CRC
+ok   png decode ffmpeg pal8 matches ffmpeg rgba (max diff 0)
+ok   png decode ffmpeg rgb48be matches ffmpeg rgba (max diff 1)
+ok   png decode ffmpeg gray16be matches ffmpeg rgba (max diff 1)
+ok   png decode ffmpeg ya8 matches ffmpeg rgba (max diff 0)
+ok   png decode ffmpeg monob matches ffmpeg rgba (max diff 0)
+ok   png decode ffmpeg rgba64be matches ffmpeg rgba (max diff 1)
+ok   png decode ffmpeg gray matches ffmpeg rgba (max diff 0)
+ok   jpeg input via ffmpeg -> bc1 23x17, deterministic
+ok   bc1 noisy gradient rmse 2.54 <= 5.0
+ok   bc3 gradient colour rmse 3.00 <= 4.0, alpha rmse 0.65 <= 1.5
+ok   bc1 solid block error 1 <= 4
+ok   bc1 four-colour blocks keep c0 > c1
+ok   bc3 alpha block keeps exact 0/255 with 6-value mode
+ok   hier: two LODs, LOD1 distance 12.5
+ok   hier: streams include uv1 and color
+ok   hier: node order parents first
+ok   hier: materials and flags
+ok   hier: sparse override + transforms reach (3,4,-3)
+ok   hier: aabb encloses LOD0
+ok   tri: default material and computed tangent
+ok   hier: COLOR_0 of the arm quad stored as D3DCOLOR BGRA8
+ok   hier: interleaved stride 60
+ok   tri: glTF CCW triangle written clockwise
+ok   tri: --winding ccw keeps glTF order
+ok   fan.glb: triangle fan -> 12 triangles
+ok   rejects glTF 1.0
+ok   rejects GLB v1
+ok   greybox runtime files match hashes.json (12 files)
+ok   greybox manifest.txt lists exactly the hashed files
+ok   map_kit runtime files match hashes.json (302 files)
+ok   map_kit manifest.txt lists exactly the hashed files
+ok   map_kit report.txt matches python report
+ok   nature_kit runtime files match hashes.json (202 files)
+ok   nature_kit manifest.txt lists exactly the hashed files
+ok   nature_kit report.txt matches python report
+assetc tests: 60/60 passed

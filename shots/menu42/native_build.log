@@ -1,0 +1,119 @@
+[0/2] Re-checking globbed directories...
+[1/111] Generating loc_embedded_en.cpp
+[2/111] Linking CXX shared library bin/libcore.dylib
+[3/111] Generating loc_embedded_ru.cpp
+[4/111] Building CXX object src/loc/CMakeFiles/peregon_loc.dir/loc_embedded_ru.cpp.o
+[5/111] Building CXX object src/loc/CMakeFiles/peregon_loc.dir/loc_embedded_en.cpp.o
+[6/111] Linking CXX static library lib/libperegon_loc.a
+[7/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/compress.cpp.o
+[8/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/crypto.cpp.o
+[9/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/linksim.cpp.o
+[10/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/portmap.cpp.o
+[11/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/layers.cpp.o
+[12/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/probe.cpp.o
+[13/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/session.cpp.o
+[14/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/relay.cpp.o
+[15/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/steam_transport.cpp.o
+[16/111] Building CXX object src/net/CMakeFiles/peregon_net.dir/transport.cpp.o
+[17/111] Linking CXX static library lib/libperegon_net.a
+[18/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_core_replay.cpp.o
+[19/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_g0_cube.cpp.o
+[20/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_map_drive.cpp.o
+[21/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_rhi_cube.cpp.o
+[22/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/runner.cpp.o
+[23/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_map.cpp.o
+[24/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_nature.cpp.o
+[25/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_smoke.cpp.o
+[26/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_table.cpp.o
+[27/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_slice.cpp.o
+[28/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_tree_overdraw.cpp.o
+[29/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_s1_surfaces.cpp.o
+[30/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w1_world.cpp.o
+[31/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w3_combat.cpp.o
+[32/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w8_economy.cpp.o
+[33/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w4_ai.cpp.o
+[34/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w2_vehicle.cpp.o
+[35/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w9_cargo.cpp.o
+[36/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_ui.cpp.o
+[37/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w5_living_world.cpp.o
+[38/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_board.cpp.o
+[39/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_cargo.cpp.o
+[40/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_common.cpp.o
+[41/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_hud.cpp.o
+[42/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w12_menu.cpp.o
+[43/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w11_audio.cpp.o
+[44/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_arena.cpp.o
+[45/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_camp.cpp.o
+[46/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_drive.cpp.o
+[47/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_save.cpp.o
+[48/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ui.cpp.o
+[49/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_foot.cpp.o
+[50/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/net_world.cpp.o
+[51/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_render.cpp.o
+[52/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bandits.cpp.o
+[53/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seasons.cpp.o
+[54/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_env.cpp.o
+[55/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_game.cpp.o
+[56/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_atmos.cpp.o
+[57/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net.cpp.o
+[58/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_river_ice.cpp.o
+[59/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_winterplow.cpp.o
+[60/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot.cpp.o
+[61/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_truck_hero.cpp.o
+[62/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_pick.cpp.o
+[63/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_home.cpp.o
+[64/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_residents.cpp.o
+[65/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_lake.cpp.o
+[66/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ruts.cpp.o
+[67/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_shovel.cpp.o
+[68/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_dig.cpp.o
+[69/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_mudpass.cpp.o
+[70/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_scene.cpp.o
+[71/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_survival.cpp.o
+[72/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water.cpp.o
+[73/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water_tools.cpp.o
+[74/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_boat.cpp.o
+[75/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_timewarp.cpp.o
+[76/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_farm.cpp.o
+[77/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care_rig.cpp.o
+[78/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_cargo.cpp.o
+[79/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_feel.cpp.o
+[80/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care.cpp.o
+[81/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_cargo.cpp.o
+[82/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_walk.cpp.o
+[83/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_detail.cpp.o
+[84/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_contact.cpp.o
+[85/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_nature.cpp.o
+[86/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_drive.cpp.o
+[87/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_region.cpp.o
+[88/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_loadout.cpp.o
+[89/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_paper.cpp.o
+[90/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_props.cpp.o
+[91/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_torch.cpp.o
+[92/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_static.cpp.o
+[93/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_inventory.cpp.o
+[94/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_stamina.cpp.o
+[95/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_slots.cpp.o
+[96/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seats.cpp.o
+[97/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_woodcut.cpp.o
+[98/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net_client.cpp.o
+[99/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_command.cpp.o
+[100/111] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.o
+[101/111] Building CXX object src/game/CMakeFiles/peregon_headless.dir/main_headless.cpp.o
+[102/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/paper_map_render.cpp.o
+[103/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_region_drive.cpp.o
+[104/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_truck_showcase.cpp.o
+[105/111] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_poi_showcase.cpp.o
+[106/111] Linking CXX static library lib/libperegon_game.a
+[107/111] Building CXX object src/game/CMakeFiles/coop_seats_tests.dir/play/tests/coop_seats_tests.cpp.o
+[108/111] Linking CXX executable bin/peregon
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_platform.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[109/111] Linking CXX executable bin/coop_seats_tests
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_assets.a', 'lib/libperegon_cargo.a', 'lib/libperegon_combat.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[110/111] Linking CXX executable bin/peregon_headless
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0

@@ -1,0 +1,3 @@
+gas_station reports/shots/scene_w4_ai/008
+elevator reports/shots/scene_w4_ai/009
+road_buggies reports/shots/scene_w4_ai/010

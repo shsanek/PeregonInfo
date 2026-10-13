@@ -1,0 +1,8 @@
+PASS rhi_tests native (validator draw-binding cache still catches destroyed and re-bound objects) + world_tests
+PASS simulation untouched: long headless hashes (region auto 80k, outpost 16k, perf replay, slice 40k) equal to the reference build
+PASS reference build: camera tour (9 views x 3 conditions) and gameplay replay in EXEcutor
+PASS camera tour: rendered state hashes equal, captures within 0.2% pixels changed by more than 3 levels and 0.05% changed by more than 24 levels
+PASS gameplay replay: rendered state hashes equal, captures within the same limits
+PASS rendered == headless: EXEcutor gameplay final hash equals the native headless hash of the same replay
+PASS camera tour steady frame <= 25 ms avg
+PASS gameplay replay frame <= 25 ms avg

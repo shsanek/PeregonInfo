@@ -1,0 +1,38 @@
+LOG line 31 host place.1: foot
+LOG line 32 host pos.1.x: 517
+LOG line 35 host place.1: foot
+LOG line 31 p1b1 place.1: foot
+LOG line 32 p1b1 pos.1.x: 517
+LOG line 31 p1b2 place.1: foot
+LOG line 32 p1b2 pos.1.x: 517
+LOG line 35 p1b2 place.1: foot
+LOG line 31 p2 place.1: foot
+LOG line 32 p2 pos.1.x: 517
+LOG line 35 p2 place.1: foot
+PASS line 8 INV-17 pack.1.oil_can = 1: host=1@9 p1=1@9
+PASS line 14 SEAT-16 place.1 = seat0: host=seat0@10 p1=seat0@10
+PASS line 15 NET-07 tailgate = 1: host=1 p1=1@1 p2=1@1
+PASS line 16 NET-07 door.0 = 1: host=1 p1=1@1 p2=1@1
+PASS line 17 NET-07 place.1 = seat0: host=seat0 p1=seat0@1 p2=seat0@1
+PASS line 18 NET-07 yard.oil_can = 0: host=0 p1=0@1 p2=0@1
+PASS line 19 NET-07 packn.1 >= 1: host=6 p1=6@1 p2=6@1
+PASS line 20 NET-07 players = 3: host=3 p1=3@1 p2=3@1
+PASS line 21 NET-10 players = 2: host=2@311 p2=2@313
+PASS line 22 NET-10 place.1 = absent: host=absent@311 p2=unseen(x)
+PASS line 25 NET-10 place.0 = seat0: host=seat0@1 p2=seat0@4
+PASS line 27 SEAT-17 place.0 = foot: host=foot@1 p2=foot@2
+PASS line 28 NET-17 players = 3: host=3 p1b1=3 p2=3
+PASS line 29 NET-17 pack.1.oil_can = 1: host=1 p1b1=1 p2=na(x)
+PASS line 30 SAVE-09 packn.1 >= 1: host=6 p1b1=6 p2=6
+PASS line 33 NET-17 players = 3: host=3 p1b2=3@1 p2=3@1
+PASS line 34 NET-17 pack.1.oil_can = 1: host=1 p1b2=1@1 p2=na(x)
+acts 13, failed acts 0
+rows 7 pass 7 fail 0
+ROW INV-17 PASS (1 checks)
+ROW NET-07 PASS (6 checks)
+ROW NET-10 PASS (3 checks)
+ROW NET-17 PASS (4 checks)
+ROW SAVE-09 PASS (1 checks)
+ROW SEAT-16 PASS (1 checks)
+ROW SEAT-17 PASS (1 checks)
+RESULT PASS

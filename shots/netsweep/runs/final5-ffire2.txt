@@ -1,0 +1,42 @@
+LOG line 9 host wpn.1: 1:0:2:0:0
+LOG line 11 host health.2: 0
+LOG line 12 host health.1: 100
+LOG line 13 host health.0: 100
+LOG line 16 host ffhits: 16
+LOG line 22 host place.2: down
+LOG line 23 host place.2: foot
+LOG line 24 host pos.2.x: 518
+LOG line 9 p1 wpn.1: 1:0:2:0:0
+LOG line 11 p1 health.2: na
+LOG line 12 p1 health.1: 100
+LOG line 13 p1 health.0: na
+LOG line 16 p1 ffhits: na
+LOG line 22 p1 place.2: down
+LOG line 23 p1 place.2: foot
+LOG line 24 p1 pos.2.x: 518
+LOG line 9 p2 wpn.1: na
+LOG line 11 p2 health.2: 0
+LOG line 12 p2 health.1: na
+LOG line 13 p2 health.0: na
+LOG line 16 p2 ffhits: na
+LOG line 22 p2 place.2: down
+LOG line 23 p2 place.2: foot
+LOG line 24 p2 pos.2.x: 518
+PASS line 5 AI-10 health.2 = 100: host=100 p1=na(x) p2=100
+PASS line 6 AI-10 health.1 = 100: host=100 p1=100 p2=na(x)
+PASS line 14 AI-10 health.2 < 100: host=0 p1=na p2=0
+PASS line 15 AI-10 ffhits >= 1: host=16 p1=na(x) p2=na(x)
+PASS line 17 AI-10 health.2 ~~ 3: host=0 p1=na p2=0
+PASS line 18 AI-10 health.1 = 100: host=100 p1=100 p2=na(x)
+PASS line 19 AI-10 health.0 = 100: host=100 p1=na(x) p2=na(x)
+PASS line 20 AI-09 place.2 = down: host=down p1=down p2=down
+PASS line 25 AI-09 place.2 = foot: host=foot p1=foot p2=foot
+PASS line 26 AI-09 pos.2.x ~~ 2: host=518 p1=518 p2=518
+PASS line 27 AI-09 health.2 > 0: host=100 p2=100
+links: peer 1 relay, peer 2 relay
+client layer checks: 74 equal, 0 differ
+acts 7, failed acts 0
+rows 2 pass 2 fail 0
+ROW AI-09 PASS (4 checks)
+ROW AI-10 PASS (7 checks)
+RESULT PASS

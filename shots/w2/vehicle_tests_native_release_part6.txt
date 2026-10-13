@@ -1,0 +1,4 @@
+[suite] vehicle_tests
+[ OK ] course_speed_bump_pitches_then_settles
+[ OK ] course_kerb_climbs_without_tunnelling
+[done] 2/2 passed, 22 checks

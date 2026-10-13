@@ -1,0 +1,5 @@
+scene=scene_g0_cube seed=1 ticks=60 flavour=win32
+capture tick=0 state=9be17165 image=75b4731e file=tick_000000.bmp
+capture tick=30 state=73b434f1 image=1f0c1dd2 file=tick_000030.bmp
+capture tick=60 state=2972315a image=4efed9b7 file=tick_000060.bmp
+final_state_hash=2972315a

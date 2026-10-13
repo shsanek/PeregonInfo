@@ -1,0 +1,10 @@
+PASS mapgen selftest (synthetic examples + 3x3 tiles of the real 49.152 km macro)
+PASS mapgen build of the R1 square (tiles 69,42,73,46 of the real map)
+PASS mapgen check: pak and tile hashes match the manifest
+PASS rebuild with unchanged sources rebuilds 0 tiles, manifest byte-identical
+PASS mapgen verify: R1 tiles re-baked from scratch are hash-identical
+PASS R1 data: places with entrances, roads within class limits, ford depth/current, 2 m patches, FLOW/SOIL/HUMMOCK layers, surface mix, no plateaus (map_r1_data.txt)
+PASS synthetic crossing map (river + creek confluence, fords on R5/R4/R6, gated pads): bake + generic road/ford/pad/water rules (map_crossing_data.txt)
+PASS nature stays off the roads: no big scatter instance footprint overlaps a road corridor, no tree within 2 m of one (map_nature_check)
+PASS R1 top-down preview (2 m relief, surfaces, wetness, water, flow, places)
+PASS scene_map_drive along the R1 contract route in an EXEcutor RunGame d3d9 window (present dumps)

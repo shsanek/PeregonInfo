@@ -1,0 +1,43 @@
+{
+ "id": "baba_trader",
+ "targets_used": 46,
+ "bones": 43,
+ "cloth_s": 7.3,
+ "mask_s": 0.3,
+ "body_faces_hidden": 5476,
+ "garment_verts_hidden": {
+  "skirt": 708,
+  "valenki": 0,
+  "cardigan": 748
+ },
+ "tris_before": {
+  "body": 15804,
+  "eyes": 172,
+  "eyebrows": 192,
+  "skirt": 2290,
+  "valenki": 3272,
+  "cardigan": 9660,
+  "headscarf": 6624
+ },
+ "tris_after": {
+  "body": 2100,
+  "eyes": 172,
+  "eyebrows": 192,
+  "skirt": 1100,
+  "valenki": 600,
+  "cardigan": 1999,
+  "headscarf": 1100
+ },
+ "tris_total": 7263,
+ "bake_diffuse_s": 2.3,
+ "bake_rough_s": 2.3,
+ "bake_normal_s": 1.9,
+ "bake_s": 6.7,
+ "final_objects": {
+  "baba_trader": 7071,
+  "baba_trader_alpha": 192
+ },
+ "final_tris": 7263,
+ "materials": 2,
+ "seconds": 19.3
+}

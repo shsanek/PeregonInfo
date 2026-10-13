@@ -1,0 +1,86 @@
+{
+  "status": "within_tolerance",
+  "mode": "tolerance",
+  "tolerance_lsb": 2,
+  "min_match_pct": 99.5,
+  "match_rule": "strict",
+  "labels": {
+    "native": "null",
+    "win32": "metal"
+  },
+  "scene": "scene_g0_cube",
+  "seed": 1,
+  "ticks": {
+    "native": 60,
+    "win32": 60
+  },
+  "final_state_hash": {
+    "native": "2972315a",
+    "win32": "2972315a",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 30,
+      "state_hash": {
+        "native": "73b434f1",
+        "win32": "73b434f1"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "ff0af3b8",
+        "win32": "a40c945f"
+      },
+      "image_hash_equal": false,
+      "pixels": 76800,
+      "diff_pixels": 9270,
+      "max_diff": [
+        2,
+        2,
+        1
+      ],
+      "over_tolerance_pixels": 0,
+      "over_tolerance_edge_pixels": 0,
+      "diff_image": "diff_000030.png",
+      "diff_pct": 12.0703,
+      "within_tolerance_pct": 100.0,
+      "within_tolerance_edge_pct": 100.0,
+      "jpg": {
+        "native": "native/tick_000030.jpg",
+        "win32": "metal/tick_000030.jpg"
+      },
+      "status": "within_tolerance"
+    },
+    {
+      "tick": 60,
+      "state_hash": {
+        "native": "2972315a",
+        "win32": "2972315a"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "3755119d",
+        "win32": "ebfd9037"
+      },
+      "image_hash_equal": false,
+      "pixels": 76800,
+      "diff_pixels": 8989,
+      "max_diff": [
+        2,
+        2,
+        1
+      ],
+      "over_tolerance_pixels": 0,
+      "over_tolerance_edge_pixels": 0,
+      "diff_image": "diff_000060.png",
+      "diff_pct": 11.7044,
+      "within_tolerance_pct": 100.0,
+      "within_tolerance_edge_pct": 100.0,
+      "jpg": {
+        "native": "native/tick_000060.jpg",
+        "win32": "metal/tick_000060.jpg"
+      },
+      "status": "within_tolerance"
+    }
+  ]
+}

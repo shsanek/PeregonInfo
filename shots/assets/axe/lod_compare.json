@@ -1,0 +1,31 @@
+{
+ "asset": "axe",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1586374
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 2000
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 800
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9973,
+   "side": 0.9977,
+   "q34": 0.996,
+   "back34": 0.9966
+  },
+  "LOD1 (after)": {
+   "front": 0.9937,
+   "side": 0.9949,
+   "q34": 0.9929,
+   "back34": 0.9928
+  }
+ }
+}

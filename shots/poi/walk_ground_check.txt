@@ -1,0 +1,15 @@
+Foot height vs drawn terrain on every on-ground tick (tolerance 5 cm), play_region_walk:
+native: 17805 probes, 0 violations, worst 0 cm
+EXEcutor RunGame: 17805 probes, 0 violations
+sawmill:road: 597 probes, worst 0 cm, reached 4/4, parked truck moved 1 cm (slope 7 %, grass wet 25)
+sawmill:sw: 1063 probes, worst 0 cm, reached 3/3, parked truck moved 0 cm (slope 2 %, grass wet 25)
+sawmill:se: 1072 probes, worst 0 cm, reached 3/3, parked truck moved 0 cm (slope 2 %, grass wet 25)
+sawmill:ne: 2137 probes, worst 0 cm, reached 2/3, parked truck moved 0 cm (slope 3 %, grass wet 25)
+sawmill:nw: 1065 probes, worst 0 cm, reached 3/3, parked truck moved 1 cm (slope 6 %, grass wet 25)
+outpost:road: 405 probes, worst 0 cm, reached 4/4, parked truck moved 1 cm (slope 11 %, dirt wet 10)
+outpost:sw: 1566 probes, worst 0 cm, reached 2/3, parked truck moved 0 cm (slope 18 %, grass wet 20)
+outpost:se: 920 probes, worst 0 cm, reached 3/3, parked truck moved 3 cm (slope 35 %, grass wet 20)
+outpost:ne: 2689 probes, worst 0 cm, reached 0/3, parked truck moved 362 cm (slope 18 %, grass wet 20, rolled over before parking)
+outpost:nw: 966 probes, worst 0 cm, reached 3/3, parked truck moved 6 cm (slope 14 %, rock wet 0)
+elevator:road: 619 probes, worst 0 cm, reached 4/4, parked truck moved 2 cm (slope 11 %, grass wet 35)
+elevator:sw: 3025 probes, worst 0 cm, reached 0/3, parked truck moved 463 cm (slope 16 %, grass wet 25, rolled over before parking)

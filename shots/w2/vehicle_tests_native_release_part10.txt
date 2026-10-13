@@ -1,0 +1,10 @@
+[suite] vehicle_tests
+    suspension T1: ride 0.300 m, travel 0.270 m (bump 0.140, rebound 0.130), spring 26000 N/m, min wheel-body gap 0.050 m
+    suspension T2: ride 0.340 m, travel 0.310 m (bump 0.160, rebound 0.150), spring 30000 N/m, min wheel-body gap 0.050 m
+    suspension T3: ride 0.380 m, travel 0.350 m (bump 0.180, rebound 0.170), spring 34000 N/m, min wheel-body gap 0.050 m
+[ OK ] chassis_geometry_wheels_clear_body_all_tiers
+    mud T1 tyre: p 63.2 kPa, A 0.0543 m2, sink 0.165 m, resist 5313 N; T3 tyre: p 36.1 kPa, A 0.0957 m2, sink 0.076 m, resist 1954 N; asphalt resist 206 N
+[ OK ] soil_wide_tyre_floats_in_mud_and_asphalt_is_unaffected
+    right wheels in mud, left on grass, no steering: heading -2.92 deg (negative = towards the mud side)
+[ OK ] soil_split_surface_pulls_toward_the_mud
+[done] 3/3 passed, 35 checks

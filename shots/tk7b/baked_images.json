@@ -1,0 +1,16 @@
+{
+  "file": "/Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/assets/truck_wb/stage38_base_inset_baked.blend",
+  "relinked": [
+    "detail_basecolor",
+    "detail_normal",
+    "detail_orm",
+    "exterior_Base Color",
+    "exterior_normal",
+    "exterior_orm",
+    "interior_Base Color",
+    "interior_normal",
+    "interior_orm"
+  ],
+  "missing_unpacked": [],
+  "evaluated_null_faces": {}
+}

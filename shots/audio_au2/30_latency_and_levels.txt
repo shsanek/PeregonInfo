@@ -1,0 +1,54 @@
+AU2 engine sound: latency, underruns and levels (native arm64 release, 2026-10-10)
+
+1. Pipeline latency on the real SDL device: audio_bench --latency <scenario> <latency_ticks> <seconds>
+   (60 Hz game loop with the runner's catch-up, real Playback + TruckEngineSound, master volume 0;
+   sched = throttle command push -> audio block that applied it; audible = sched + one device period)
+
+BEFORE (play scene settings: 9-tick schedule, SDL default device period)
+latency scenario=steady latency_ticks=9 events=11 sched_ms mean=181.4 p50=180.2 p90=191.6 max=194.1 | device_block=1024 frames (23.2 ms) buffers=2 device_queue_ms=23.2 | audible_ms mean=204.6 max=217.3 | callbacks=529 max_gap_ms=32.1 dry_callbacks=0 backend_underruns=0 late=0 resyncs=0
+latency scenario=hitch latency_ticks=9 events=10 sched_ms mean=375.2 p50=397.3 p90=404.8 max=407.7 | device_block=1024 frames (23.2 ms) buffers=2 device_queue_ms=23.2 | audible_ms mean=398.4 max=431.0 | callbacks=529 max_gap_ms=32.1 dry_callbacks=0 backend_underruns=0 late=13 resyncs=1
+latency scenario=slow latency_ticks=9 events=11 sched_ms mean=149.4 p50=147.0 p90=164.7 max=165.8 | device_block=1024 frames (23.2 ms) buffers=2 device_queue_ms=23.2 | audible_ms mean=172.7 max=189.0 | callbacks=531 max_gap_ms=32.1 dry_callbacks=0 backend_underruns=0 late=0 resyncs=0
+
+AFTER (0-tick target, two-way offset, 512-frame device period)
+latency scenario=steady latency_ticks=0 events=19 sched_ms mean=8.5 p50=7.6 p90=13.0 max=20.7 | device_block=512 frames (11.6 ms) buffers=2 device_queue_ms=11.6 | audible_ms mean=20.1 max=32.3 | callbacks=1748 max_gap_ms=21.7 dry_callbacks=0 backend_underruns=0 late=346 resyncs=346
+latency scenario=hitch latency_ticks=0 events=19 sched_ms mean=12.9 p50=10.2 p90=28.5 max=37.0 | device_block=512 frames (11.6 ms) buffers=2 device_queue_ms=11.6 | audible_ms mean=24.5 max=48.6 | callbacks=1748 max_gap_ms=21.4 dry_callbacks=0 backend_underruns=0 late=385 resyncs=296
+latency scenario=slow latency_ticks=0 events=19 sched_ms mean=10.5 p50=10.0 p90=15.8 max=21.1 | device_block=512 frames (11.6 ms) buffers=2 device_queue_ms=11.6 | audible_ms mean=22.1 max=32.7 | callbacks=1751 max_gap_ms=21.5 dry_callbacks=0 backend_underruns=0 late=402 resyncs=350
+(With a 0-tick target most commands arrive a few frames after their nominal frame; "late"/"resyncs" count those
+ small forward steps, which are applied at the next block. Underruns and dry callbacks: 0 in all runs.)
+
+2. Simulation: pedal -> EngineSpeed load >= 0.5 (headless traces)
+   truck_audio_session.txt, held press from a standstill (tick 700): before 350 ms, after 17 ms
+   au2_engine_session.txt, 0.2 s blip from a standstill (tick 640): before no change at all, after 17 ms
+   au2_engine_session.txt, rolling in 1st (ticks 760, 1060): before 83 ms, after 17 ms
+
+3. Full mix, au2_engine_session.txt (headless, tick-aligned deterministic mix; segments in seconds:
+   idle 8-10.6, blips 10.6-14.6, half 14.7-16.6, full_pull 17.8-26.6, coast 26.8-28.6, rev_throttle 28.8-30,
+   brake_thr 30.5-32.5, rev_pull 32.7-36.6, coast2 36.8-39; clicks = 5 ms blocks whose second-difference peak
+   exceeds 7x the local level)
+
+BEFORE: peak -5.9 dBFS, rms -23.6 dBFS, full-scale samples 0, click blocks 514
+  throttle onsets (tick: +3 dB ms, +6 dB ms): 640: 15/285, 760: 5/25, 880: 15/35, 1060: 55/85, 1830: 5/None
+  idle          peak  -17.9  rms  -31.2  >3kHz  0.24 %  centroid  2794 Hz  clicks/s   0.0
+  blips         peak   -8.8  rms  -29.1  >3kHz  1.03 %  centroid  3147 Hz  clicks/s  40.0
+  half          peak  -10.8  rms  -23.3  >3kHz  1.02 %  centroid  3164 Hz  clicks/s  28.9
+  full_pull     peak   -5.9  rms  -19.2  >3kHz  2.51 %  centroid  3188 Hz  clicks/s   3.1
+  coast         peak  -12.7  rms  -36.0  >3kHz  8.67 %  centroid  4673 Hz  clicks/s   2.8
+  rev_throttle  peak   -8.5  rms  -21.4  >3kHz  1.42 %  centroid  2575 Hz  clicks/s   3.3
+  brake_thr     peak  -10.9  rms  -30.8  >3kHz  5.53 %  centroid  5148 Hz  clicks/s  25.0
+  rev_pull      peak   -7.2  rms  -20.4  >3kHz  1.81 %  centroid  2887 Hz  clicks/s   5.4
+  coast2        peak  -11.8  rms  -32.4  >3kHz  4.67 %  centroid  4834 Hz  clicks/s  25.9
+AFTER: peak -6.5 dBFS, rms -24.0 dBFS, full-scale samples 0, click blocks 257
+  throttle onsets (tick: +3 dB ms, +6 dB ms): 640: 15/15, 760: 15/15, 880: 15/15, 1060: 5/25, 1830: 25/25
+  idle          peak  -18.1  rms  -30.4  >3kHz  0.20 %  centroid  2847 Hz  clicks/s   0.0
+  blips         peak   -9.2  rms  -26.4  >3kHz  0.15 %  centroid  1690 Hz  clicks/s  23.0
+  half          peak  -11.8  rms  -23.0  >3kHz  0.38 %  centroid  1974 Hz  clicks/s   3.2
+  full_pull     peak   -6.5  rms  -20.2  >3kHz  0.50 %  centroid  2215 Hz  clicks/s   0.1
+  coast         peak  -20.0  rms  -35.2  >3kHz  1.05 %  centroid  2752 Hz  clicks/s   0.0
+  rev_throttle  peak   -9.3  rms  -20.8  >3kHz  0.32 %  centroid  1816 Hz  clicks/s   0.0
+  brake_thr     peak  -15.4  rms  -29.5  >3kHz  0.40 %  centroid  2376 Hz  clicks/s   6.0
+  rev_pull      peak   -8.3  rms  -20.3  >3kHz  0.25 %  centroid  1716 Hz  clicks/s   0.3
+  coast2        peak  -17.9  rms  -35.6  >3kHz  2.44 %  centroid  3085 Hz  clicks/s  19.1
+
+Crackle attribution (after-code session with the tyre voice muted, not committed): click blocks 572 -> 86;
+blips 42 -> 0.8 per s, coast2 31 -> 0 per s: the remaining low-speed clicks are tyre gravel grains.
+Engine alone (audio_bench --trace-wav, cab): 0-1 click blocks per second in every segment, old and new synth.

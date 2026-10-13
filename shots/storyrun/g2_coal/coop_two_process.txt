@@ -1,0 +1,17 @@
+tools/net/world_loopback.sh 2 --replay build/storyrun_shots/idle.txt --ticks 4800 --join-at 900 --client-bot person:lyudmila:bear -- --start "sq:coal_bear:carry:lyudmila:1000:give.coal_bear.1"
+world loopback: 2 instances, host ticks 4800, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (173 chunks), 0.01 MB on the wire, 0.9 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 4 ms, max 6 ms
+host: layer stream after join: avg 7.2 KB/s, max 9.0 KB/s (cap 48); wire avg 44.2 KB/s, max 53.4 KB/s; collect max 0.40 ms  PASS
+p1: bot person:lyudmila:bear, participant True, moved 0.0 m  PASS
+p1: joined at host tick 1020 in 1.0 s, 0.01 MB of frames, 74 chunks, first check equal, apply max 3.3 ms
+p1: 64 complete checks, 64 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":1260
+"what":"person_screen","tick":1261,"holder":255
+"what":"person_topic","tick":1320,"ok":1
+"what":"person_press","tick":1260
+"coal_bear": {"status": 1, "stage": "tell"}
+"coal_bear": {"status": 1, "stage": "tell"}
+"story": {"serial": 6, "hash": 3290818775
+"story": {"serial": 6, "hash": 3290818775

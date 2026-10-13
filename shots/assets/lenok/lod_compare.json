@@ -1,0 +1,31 @@
+{
+ "asset": "lenok",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 31442
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 898
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 358
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.968,
+   "side": 0.9835,
+   "q34": 0.9838,
+   "back34": 0.9813
+  },
+  "LOD1 (after)": {
+   "front": 0.9154,
+   "side": 0.9571,
+   "q34": 0.9544,
+   "back34": 0.9491
+  }
+ }
+}

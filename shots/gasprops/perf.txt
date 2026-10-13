@@ -1,0 +1,24 @@
+GASPROPS tour (data/render/gasprops_tour.txt), EXEcutor RunGame d3d9 640x480, frame ms per view step (24 ticks settled).
+before = base bbd33ed716 data (props.txt/kit.txt) build, after = GASPROPS build; same pak and shadows (byte-identical); 7 interleaved pairs on a shared Mac (load 18-93).
+Final state hash equal in all runs (75595290): the props only draw.
+
+noon pair 1: before 14.28 after 15.77 delta +1.49
+noon pair 2: before 16.84 after 9.94 delta -6.90
+noon pair 3: before 17.28 after 17.26 delta -0.02
+noon pair 4: before 17.19 after 17.68 delta +0.50
+noon pair 5: before 17.39 after 17.54 delta +0.15
+noon pair 6: before 15.13 after 12.98 delta -2.15
+noon pair 7: before 12.41 after 17.40 delta +4.98
+noon mean delta -0.28 ms over 7 pairs, budget +1 ms
+
+night pair 1: before 13.43 after 14.25 delta +0.82
+night pair 2: before 14.45 after 9.08 delta -5.37
+night pair 3: before 15.56 after 16.08 delta +0.52
+night pair 4: before 15.76 after 16.50 delta +0.74
+night pair 5: before 15.71 after 16.38 delta +0.66
+night pair 6: before 13.34 after 11.33 delta -2.01
+night pair 7: before 11.09 after 16.34 delta +5.25
+night mean delta +0.09 ms over 7 pairs, budget +1 ms
+
+Steady frames of one pair (perf probe): avg 17.13 -> 17.47 ms, draws 295 -> 299, props draws avg 9 -> 13, prop triangles avg 13.9k -> 20.5k, objects section 1.167 -> 1.181 ms.
+Frame steps mostly sit on the 16.7 ms present cadence; single pairs swing -6.9..+5.3 ms with host load.

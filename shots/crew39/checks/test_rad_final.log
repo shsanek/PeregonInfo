@@ -1,0 +1,5 @@
+[suite] play_care_tests
+    settled drain reached from 2.0 0.0 crouch 0
+    drained: no crack; half a bucket-pair of hot water: engine -19.1 -> 19.2 C
+[ OK ] radiator_water_left_in_the_frost_cracks_the_block_draining_it_saves_the_engine
+[done] 1/1 passed, 23 checks

@@ -1,0 +1,56 @@
+ELEVATOR tour (data/render/elevator_tour.txt, 12 views x day/sunset/night, one EXEcutor RunGame launch per run);
+tip build + tip pak vs this build + this pak, two interleaved pairs per batch on a shared Mac
+
+== batch 1 (host load 8-35)
+Elevator tour frame time, ms per step (sunset and night steps, settled; day steps include streaming warm-up)
+view               after1     after2    before1    before2
+cabin_in             9.46       9.71       9.18       9.26
+cabin_yard           9.54       9.75       9.15       9.69
+commons              9.94      10.25       9.27       9.99
+gallery              9.71      10.02       9.23       9.27
+gate                 9.48       9.74       9.59       9.66
+hoist                9.96      10.28       9.34       9.34
+intake               9.58       9.84       9.22       9.59
+overview            10.01      10.40       9.51       9.98
+perch                9.55       9.79       9.22       9.57
+road                 9.88      10.07       9.94      10.05
+siding               9.84      10.20       9.26       9.34
+yard                 9.47       9.60       9.38       9.71
+mean                 9.70       9.97       9.36       9.62
+before 9.49 ms, after 9.84 ms, delta +0.35 ms
+
+Steady frames of the whole run (perf probe, us): avg, draws, sections
+run             avg  draws     light   objects       map    nature footprints   outside
+after1        10588    202      1615       752       672       770       155      2267
+after2        10804    202      1702       810       715       841       169      1975
+before1       10197    189      1439       614       600       681       137      2839
+before2       10398    189      1548       688       648       761       159      2321
+before mean    10297    189      1493       651       624       721       148      2580
+after mean    10696    202      1658       781       693       805       162      2121
+
+== batch 2, final tour views (host load 30-145)
+Elevator tour frame time, ms per step (sunset and night steps, settled; day steps include streaming warm-up)
+view               after1     after2    before1    before2
+cabin_in             9.97      10.06       9.59       9.72
+cabin_yard           9.90       9.93       9.83      10.32
+commons             11.62      10.99      10.30      10.58
+gallery              9.93       9.93       9.67       9.93
+gate                 9.93       9.84       9.93      10.29
+hoist               10.40      10.76      10.09      10.40
+intake              10.36       9.96       9.66      10.17
+overview            10.81      10.85      10.08      10.77
+perch               10.23      10.33      10.07      10.16
+road                10.62      10.34      10.17      11.35
+siding              10.80      10.74      10.65      10.35
+yard                10.22       9.98       9.93      10.26
+mean                10.40      10.31      10.00      10.36
+before 10.18 ms, after 10.35 ms, delta +0.18 ms
+
+Steady frames of the whole run (perf probe, us): avg, draws, sections
+run             avg  draws     light   objects       map    nature footprints   outside
+after1        11311    190      1868       809       713       853       164      1957
+after2        11205    190      1801       831       696       865       173      1917
+before1       10895    178      1711       750       677       860       172      2003
+before2       11360    178      1851       754       708       841       175      2071
+before mean    11127    178      1781       752       692       850       173      2037
+after mean    11258    190      1834       820       704       859       168      1937

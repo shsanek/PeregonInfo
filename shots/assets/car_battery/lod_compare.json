@@ -1,0 +1,31 @@
+{
+ "asset": "car_battery",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1967396
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 24
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 24
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.8603,
+   "side": 0.8353,
+   "q34": 0.8377,
+   "top": 0.9079
+  },
+  "LOD1 (after)": {
+   "front": 0.8603,
+   "side": 0.8353,
+   "q34": 0.8377,
+   "top": 0.9079
+  }
+ }
+}

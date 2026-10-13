@@ -1,0 +1,18 @@
+[suite] view_tests
+[ OK ] hero_seat_box_lid_sits_flush_in_the_seat_base_facing_the_driver_door
+[done] 1/1 passed, 17 checks
+    seat lid: deepest swept point 0.0173 m behind the panel, lowest 0.669 m, open top edge at x -0.836 y 0.671
+    closed door inner face 0.0666 m outboard of the closed lid
+[suite] view_tests
+[ OK ] hero_driver_door_waits_for_the_seat_lid_before_closing
+[done] 1/1 passed, 5 checks
+[suite] view_tests
+[ OK ] hero_passenger_locker_opens_outward_and_holds_its_door
+[done] 1/1 passed, 9 checks
+[suite] play_care_tests
+[ OK ] the_passenger_locker_provides_real_access_to_the_existing_storage
+[done] 1/1 passed, 11 checks
+[suite] play_care_tests
+[ OK ] the_box_under_the_seat_is_a_small_storage_slot_with_the_winch_kit_behind
+[done] 1/1 passed, 48 checks
+    seat box reached from the open driver door at 1.25 m

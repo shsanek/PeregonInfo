@@ -1,0 +1,10 @@
+settings after apply: {"applies": 1, "display": "borderless", "draw_distance_m": 800, "escape_pauses": true, "files_written": 1, "hash": "0x071c8667", "language": "en", "master": 80, "pause_keys": "escape", "quality": "medium", "radio": 90, "resolution": "1280x720", "reverts": 0, "vsync": true}
+bus volumes Q16: {"engine": 52429, "master": 47185, "radio": 47186, "sfx": 55706, "ui": 36045}
+save: {"autosave_requests": 2, "autosaves": 1, "backups": 1, "damaged": 1, "last_checksum": "0xd4b89eff", "last_write_bytes": 1764, "load_checks": [{"actual": "0xb12ce578", "checksum": "0xd4b89eff", "expected": "0xb12ce578", "identical": true, "source": "main"}, {"actual": "0xa11095c4", "checksum": "0xc49c4f4b", "expected": "0xa11095c4", "identical": true, "source": "backup"}], "load_failures": 0, "loads_backup": 1, "loads_main": 1, "quits": 1, "state_mismatches": 0, "writes": 2}
+persist hash after recovery: 0xa11095c4
+loc table ru keys 154 plural ru hash 753a7747
+loc plural keys 5
+loc table en keys 154 plural en hash 8a5a9088
+loc plural keys 5
+loc strings checked 477 in 3 faces
+loc catalog hash bc6f0221

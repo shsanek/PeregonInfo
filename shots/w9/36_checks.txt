@@ -1,0 +1,43 @@
+ok   cargo_tests all passed in EXEcutor
+ok   EXEcutor hold_places_rotates_and_rejects_overlaps
+ok   EXEcutor hold_move_keeps_item_and_straps_belong_to_cells
+ok   EXEcutor hold_publishes_cargo_events_with_mass
+ok   EXEcutor cargo_mass_moves_vehicle_mass_and_centre
+ok   EXEcutor full_bed_changes_handling_greed_bench
+ok   EXEcutor strapped_cargo_survives_the_course
+ok   EXEcutor washboard_keeps_loose_cargo_big_bump_throws_edge_items
+ok   EXEcutor ram_strip_event_throws_struck_side_and_pairs_damage
+ok   EXEcutor heavier_bed_loses_less_on_the_same_ram
+ok   EXEcutor lost_cargo_lands_and_is_picked_up_by_hand
+ok   EXEcutor screen_drag_and_drop_with_keyboard_gamepad_and_pointer
+ok   EXEcutor course_is_deterministic_and_data_sensitive
+ok   cargo_tests stdout native release == tests_native_debug.txt
+ok   cargo_tests stdout native release == tests_executor_release.txt
+ok   cargo_tests stdout native release == tests_executor_debug.txt
+ok   win32 imports allow-listed; cargo_tests.exe imports only core/kernel32/msvcrt
+ok   scene_w9_cargo both --seed 3 --ticks 300 --capture 300 (replay)
+ok   scene_w9_cargo t300 native == EXEcutor (state, image, BMP bytes)
+ok   scene_w9_cargo t300 zero rhi errors on both builds
+ok   scene_w9_cargo both --seed 3 --ticks 630 --capture 630 (replay)
+ok   scene_w9_cargo t630 native == EXEcutor (state, image, BMP bytes)
+ok   scene_w9_cargo t630 zero rhi errors on both builds
+ok   scene_w9_cargo both --seed 3 --ticks 962 --capture 962 (replay)
+ok   scene_w9_cargo t962 native == EXEcutor (state, image, BMP bytes)
+ok   scene_w9_cargo t962 zero rhi errors on both builds
+ok   scene_w9_cargo both --seed 3 --ticks 1090 --capture 1090 (replay)
+ok   scene_w9_cargo t1090 native == EXEcutor (state, image, BMP bytes)
+ok   scene_w9_cargo t1090 zero rhi errors on both builds
+ok   scene_w9_cargo both --seed 3 --ticks 1535 --capture 1535 (replay)
+ok   scene_w9_cargo t1535 native == EXEcutor (state, image, BMP bytes)
+ok   scene_w9_cargo t1535 zero rhi errors on both builds
+ok   scene_w9_cargo both --seed 3 --ticks 2010 --capture 2010 (replay)
+ok   scene_w9_cargo t2010 native == EXEcutor (state, image, BMP bytes)
+ok   scene_w9_cargo t2010 zero rhi errors on both builds
+ok   full run reached tick 2010
+ok   scene_w9_cargo deterministic across three EXEcutor runs (final hash, scene metrics)
+ok   scene_w9_cargo metrics: pack, losses per obstacle, mass change, CoM shift, pickup, events
+ok   RunGame windowed d3d9 run exit 0 with at least 4 present dumps
+ok   RunGame d3d9 final hash == headless EXEcutor hash
+ok   every screenshot under reports/shots/w9 is a JPG <= 300 KB
+ok   report.py
+ok   progress.js untouched

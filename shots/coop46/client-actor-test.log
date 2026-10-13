@@ -1,0 +1,29 @@
+[suite] coop_audit_tests
+[ OK ] actor_weapon_reload_holster_and_personal_state_reach_the_client
+[ OK ] shared_tools_do_not_duplicate_on_the_truck_or_move_to_host_hands
+[ OK ] all_four_identities_keep_separate_guns_and_wheel_input
+[ OK ] doors_windows_cargo_and_glass_converge_for_an_observer
+[ OK ] slot_packets_reject_truncation_without_changing_the_last_good_state
+net: {"event":"start","role":"host","sim":""}
+net: {"event":"start","role":"client","sim":"latency=100,jitter=20,loss=2,seed=46"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"contacting host 127.0.0.1:46875"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"hosting on udp port 46875"}
+net: {"event":"listen","direct":"LAN 192.168.68.61:46875/coop46"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connecting direct via 127.0.0.1:46875"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connected (direct)"}
+net: {"event":"session","type":0,"peer":1,"slot":1,"text":"actor"}
+net: {"event":"joined","peer":1,"slot":1,"name":"actor","tick":47}
+net: {"event":"session","type":2,"peer":1,"slot":1,"text":"observer"}
+net: {"event":"accepted","slot":1}
+net: {"event":"ready"}
+net: {"event":"ready","peer":1,"tick":54}
+net: {"event":"join_snapshot","peer":1,"tick":60,"raw_bytes":3639,"chunks":31,"wire_bytes":0,"seconds":0.08}
+net: {"event":"player_added","peer":1,"slot":1,"tick":60}
+net: {"event":"participant","slot":1,"tick":61}
+net: {"event":"joined_world","tick":60,"seconds":0.38,"frame_bytes":3745,"raw_bytes":3639,"mirror_bytes":17960,"chunks":28,"equal":true,"apply_us_max":2502}
+net: {"event":"tick","tick":300,"line":"tick=300 env=0xa3024676 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x455fdcbd soil=0x00000000 farm=0x00000000 ice=0x520ea4bd cargo=0x34921b31 truck=0x7f2fd6e5 physics=0x19ddaec4 care=0x62429960 director=0xc2e446a7 sites=0x9be17165 players=0x99b8b132 world=0x427dc5e4"}
+net: {"event":"tick","tick":600,"line":"tick=600 env=0xa3024676 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x2a601589 soil=0x00000000 farm=0x00000000 ice=0x520ea4bd cargo=0x34921b31 truck=0x7f2fd6e5 physics=0x9045ccbe care=0x94837bdf director=0x70899aad sites=0x9be17165 players=0x2978f14b world=0x427dc5e4"}
+net: {"event":"stop","checks_equal":14,"checks_differ":0}
+net: {"event":"stop","checks_equal":0,"checks_differ":0}
+[ OK ] remote_actor_inputs_and_private_state_cross_real_lossy_transports
+[done] 6/6 passed, 610 checks

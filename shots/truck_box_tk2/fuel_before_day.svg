@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" font-family="sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="60" y="20" font-size="14">before: 1.9 l over 24.0 in-game h, 4.1 km, 1.9 l per day, full tank 31.8 days</text>
+<line x1="60" x2="740" y1="320.0" y2="320.0" stroke="#ddd"/><text x="54" y="324.0" text-anchor="end">0 l</text>
+<line x1="60" x2="740" y1="272.7" y2="272.7" stroke="#ddd"/><text x="54" y="276.7" text-anchor="end">10 l</text>
+<line x1="60" x2="740" y1="225.3" y2="225.3" stroke="#ddd"/><text x="54" y="229.3" text-anchor="end">20 l</text>
+<line x1="60" x2="740" y1="178.0" y2="178.0" stroke="#ddd"/><text x="54" y="182.0" text-anchor="end">30 l</text>
+<line x1="60" x2="740" y1="130.7" y2="130.7" stroke="#ddd"/><text x="54" y="134.7" text-anchor="end">40 l</text>
+<line x1="60" x2="740" y1="83.3" y2="83.3" stroke="#ddd"/><text x="54" y="87.3" text-anchor="end">50 l</text>
+<line x1="60" x2="740" y1="36.0" y2="36.0" stroke="#ddd"/><text x="54" y="40.0" text-anchor="end">60 l</text>
+<text x="44.9" y="338" text-anchor="middle">07:00</text>
+<text x="101.6" y="338" text-anchor="middle">09:00</text>
+<text x="158.3" y="338" text-anchor="middle">11:00</text>
+<text x="214.9" y="338" text-anchor="middle">13:00</text>
+<text x="271.6" y="338" text-anchor="middle">15:00</text>
+<text x="328.3" y="338" text-anchor="middle">17:00</text>
+<text x="385.0" y="338" text-anchor="middle">19:00</text>
+<text x="441.7" y="338" text-anchor="middle">21:00</text>
+<text x="498.4" y="338" text-anchor="middle">23:00</text>
+<text x="555.1" y="338" text-anchor="middle">01:00</text>
+<text x="611.7" y="338" text-anchor="middle">03:00</text>
+<text x="668.4" y="338" text-anchor="middle">05:00</text>
+<text x="725.1" y="338" text-anchor="middle">07:00</text>
+<polyline points="60.0,36.0 73.2,36.3 101.6,37.0 129.9,37.8 158.3,38.1 186.6,38.2 214.9,38.2 243.3,38.6 271.6,39.3 300.0,39.9 328.3,40.3 356.7,40.5 385.0,40.5 413.3,40.7 441.7,41.5 470.0,42.1 498.4,42.6 526.7,42.7 555.1,42.7 583.4,43.1 611.7,43.8 640.1,44.4 668.4,44.8 696.8,44.9 725.1,44.9 740.0,44.9" fill="none" stroke="#b5532a" stroke-width="2"/>
+<polyline points="60.0,320.0 73.2,319.0 101.6,316.9 129.9,315.2 158.3,314.7 186.6,314.7 214.9,314.7 243.3,314.1 271.6,312.5 300.0,310.9 328.3,310.3 356.7,310.3 385.0,310.3 413.3,309.9 441.7,308.1 470.0,306.3 498.4,305.1 526.7,305.1 555.1,305.1 583.4,304.2 611.7,302.4 640.1,301.2 668.4,300.4 696.8,300.4 725.1,300.4 740.0,300.4" fill="none" stroke="#3a6ea5" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="70" y="50" fill="#b5532a">fuel in the tank, l</text><text x="240" y="50" fill="#3a6ea5">km driven (same scale)</text>
+</svg>

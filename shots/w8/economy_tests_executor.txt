@@ -1,0 +1,26 @@
+[suite] economy_tests
+    economy rules hash 0xf58caec6
+[ OK ] rules_load_from_embedded_data
+[ OK ] rules_report_broken_economy_data
+[ OK ] trader_prices_follow_reputation_without_arbitrage
+[ OK ] cargo_value_counts_mass_cells_and_contract_cargo
+    gas_station 1000 rolls seed 7: scrap 4507 hash 0x15a384626c7e3e67
+[ OK ] loot_rolls_are_seeded_and_order_independent
+[ OK ] upgrade_gating_by_tier_coupons_and_parts
+[ OK ] contract_rewards_ranks_and_repairs
+    ammo share gas 0x747a elevator 0x7444/0x516c
+[ OK ] ammo_check_against_arena_layouts
+[ OK ] kolymaga_keeps_twelve_seconds_empty
+    route hash 0x7fbad08a coupons 8 purchases 4
+    tank hash 0xd95d857 coupons 881 purchases 1
+    speed hash 0xfc6745f8 coupons 16 purchases 2
+    handling hash 0x63ec0423 coupons 604 purchases 2
+    balanced hash 0x2df31a7c coupons 272 purchases 3
+    saver hash 0xeec8be79 coupons 1230 purchases 0
+[ OK ] session_is_deterministic_and_stepwise_equal
+[ OK ] session_respects_gates_and_never_goes_negative
+[ OK ] session_shortcut_needs_tires_t2
+    report hash 0x3f6d9282
+[ OK ] report_is_deterministic
+[ OK ] economy_hot_reload_from_dir
+[done] 14/14 passed, 6325 checks

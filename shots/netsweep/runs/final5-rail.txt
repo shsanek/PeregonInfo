@@ -1,0 +1,73 @@
+LOG line 8 host truck.x: -1088
+LOG line 9 host truck.y: 228
+LOG line 10 host pos.1.y: 227
+LOG line 11 host elev.1: 0
+LOG line 12 host elev.2: 0
+LOG line 13 host elev.0: 0
+LOG line 14 host pos.1.x: -1080
+LOG line 15 host pos.1.z: 1763
+LOG line 16 host pos.0.y: 227
+LOG line 24 host layer.ruts: 076c5a43
+LOG line 25 host elev.1: 0
+LOG line 26 host pos.1.y: 227
+LOG line 32 host truck.x: -1051
+LOG line 33 host truck.z: 1767
+LOG line 34 host kmh: 41
+LOG line 39 host truck.x: -986
+LOG line 40 host truck.z: 1831
+LOG line 8 p1 truck.x: -1088
+LOG line 9 p1 truck.y: 228
+LOG line 10 p1 pos.1.y: 227
+LOG line 11 p1 elev.1: 0
+LOG line 12 p1 elev.2: 0
+LOG line 13 p1 elev.0: 0
+LOG line 14 p1 pos.1.x: -1080
+LOG line 15 p1 pos.1.z: 1763
+LOG line 16 p1 pos.0.y: 227
+LOG line 24 p1 layer.ruts: 076c5a43
+LOG line 25 p1 elev.1: 0
+LOG line 26 p1 pos.1.y: 227
+LOG line 32 p1 truck.x: -1051
+LOG line 33 p1 truck.z: 1767
+LOG line 34 p1 kmh: 41
+LOG line 39 p1 truck.x: -986
+LOG line 40 p1 truck.z: 1831
+LOG line 8 p2 truck.x: -1088
+LOG line 9 p2 truck.y: 228
+LOG line 10 p2 pos.1.y: 227
+LOG line 11 p2 elev.1: 0
+LOG line 12 p2 elev.2: 0
+LOG line 13 p2 elev.0: 0
+LOG line 14 p2 pos.1.x: -1080
+LOG line 15 p2 pos.1.z: 1763
+LOG line 16 p2 pos.0.y: 227
+LOG line 24 p2 layer.ruts: 076c5a43
+LOG line 25 p2 elev.1: 0
+LOG line 26 p2 pos.1.y: 227
+LOG line 32 p2 truck.x: -1051
+LOG line 33 p2 truck.z: 1767
+LOG line 34 p2 kmh: 41
+LOG line 39 p2 truck.x: -986
+LOG line 40 p2 truck.z: 1831
+PASS line 17 RAIL-01 pos.1.y ~~ 0: host=227 p1=227@1 p2=227@1
+PASS line 18 RAIL-01 pos.2.y ~~ 0: host=227 p1=227@1 p2=227@1
+PASS line 19 RAIL-01 elev.1 ~~ 12: host=0 p1=0@1 p2=0@1
+PASS line 20 RAIL-01 elev.2 ~~ 12: host=0 p1=0@1 p2=0@1
+PASS line 21 RAIL-02 truck.x ~~ 1: host=-1088 p1=-1088@1 p2=-1088@1
+PASS line 22 RAIL-02 truck.y ~~ 0: host=228 p1=228@1 p2=228@1
+PASS line 23 RAIL-02 truck.z ~~ 1: host=1763 p1=1763@1 p2=1763@1
+PASS line 29 RAIL-03 place.1 = seat0: host=seat0 p1=seat0 p2=seat0
+PASS line 35 RAIL-03 truck.x ~~ 2: host=-1051 p1=-1051@1 p2=-1051@1
+PASS line 36 RAIL-03 truck.z ~~ 2: host=1767 p1=1767@1 p2=1767@1
+PASS line 37 RAIL-03 truck.y ~~ 1: host=228 p1=228@1 p2=228@1
+PASS line 41 RAIL-03 truck.x ~~ 2: host=-986 p1=-986@1 p2=-986
+PASS line 42 RAIL-03 truck.z ~~ 2: host=1831 p1=1831@1 p2=1831
+PASS line 43 RAIL-03 truck.y ~~ 1: host=221 p1=221@1 p2=221
+links: peer 1 relay, peer 2 relay
+client layer checks: 88 equal, 0 differ
+acts 9, failed acts 0
+rows 3 pass 3 fail 0
+ROW RAIL-01 PASS (4 checks)
+ROW RAIL-02 PASS (3 checks)
+ROW RAIL-03 PASS (7 checks)
+RESULT PASS

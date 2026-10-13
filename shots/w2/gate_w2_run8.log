@@ -1,0 +1,112 @@
+native vehicle_tests release (all) rc=0
+executor vehicle_tests.exe release part 1 (suspension_equilibrium,energy,coast) rc=0
+executor vehicle_tests.exe debug part 1 (suspension_equilibrium,energy,coast) rc=0
+executor vehicle_tests.exe release part 2 (acceleration,ram) rc=0
+executor vehicle_tests.exe debug part 2 (acceleration,ram) rc=0
+executor vehicle_tests.exe release part 3 (determinism) rc=0
+executor vehicle_tests.exe debug part 3 (determinism) rc=0
+executor vehicle_tests.exe release part 4 (mud_) rc=0
+executor vehicle_tests.exe debug part 4 (mud_) rc=0
+executor vehicle_tests.exe release part 5 (course_log) rc=0
+executor vehicle_tests.exe debug part 5 (course_log) rc=0
+executor vehicle_tests.exe release part 6 (course_speed,course_kerb) rc=0
+executor vehicle_tests.exe debug part 6 (course_speed,course_kerb) rc=0
+executor vehicle_tests.exe release part 7 (course_washboard,course_jump) rc=0
+executor vehicle_tests.exe debug part 7 (course_washboard,course_jump) rc=0
+executor vehicle_tests.exe release part 8 (course_brake,course_coast) rc=0
+executor vehicle_tests.exe debug part 8 (course_brake,course_coast) rc=0
+executor vehicle_tests.exe release part 9 (suspension_tiers) rc=0
+executor vehicle_tests.exe debug part 9 (suspension_tiers) rc=0
+executor vehicle_tests.exe release part 10 (chassis,soil) rc=0
+executor vehicle_tests.exe debug part 10 (chassis,soil) rc=0
+executor vehicle_tests.exe release part 11 (parts) rc=0
+executor vehicle_tests.exe release part 12 (course_golden) rc=0
+ok   vehicle_tests: every test of the native run is covered by the EXEcutor parts
+ok   vehicle_tests all passed in EXEcutor release (equilibrium, energy, determinism goldens, 0-100, mud, ram, parts, obstacle course, tiers, chassis, soil)
+ok   vehicle_tests.exe release stdout == native release (bit-identical physics, per part)
+ok   vehicle_tests.exe debug part 1 stdout == native release
+ok   vehicle_tests.exe debug part 2 stdout == native release
+ok   vehicle_tests.exe debug part 3 stdout == native release
+ok   vehicle_tests.exe debug part 4 stdout == native release
+ok   vehicle_tests.exe debug part 5 stdout == native release
+ok   vehicle_tests.exe debug part 6 stdout == native release
+ok   vehicle_tests.exe debug part 7 stdout == native release
+ok   vehicle_tests.exe debug part 8 stdout == native release
+ok   vehicle_tests.exe debug part 9 stdout == native release
+ok   vehicle_tests.exe debug part 10 stdout == native release
+ok   EXEcutor re-records the scenario replays byte for byte (tools/replays/scene_w2_vehicle_*.prpl)
+ok   accel: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   accel: vehicle hash equals the recorder's final hash
+ok   mud_t1: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   mud_t1: vehicle hash equals the recorder's final hash
+ok   mud_t1_gentle: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   mud_t1_gentle: vehicle hash equals the recorder's final hash
+ok   mud_t2: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   mud_t2: vehicle hash equals the recorder's final hash
+ok   ram: d3d9 in EXEcutor, two runs identical (final state, capture state and image hashes)
+ok   ram: vehicle hash equals the recorder's final hash
+ok   accel: 0-100 within 0.5 s of the design value (0.94 x mass / power)
+ok   mud_t1: T1 Kolymaga stuck in the mud pit (VEHICLE_STUCK, does not pass)
+ok   mud_t1_gentle: the same T1 truck crawls through with gentle throttle (outcome emerges from wheel spin)
+ok   chassis: wheels never intersect the body over the full travel at full steering lock, all tiers (vehicle_tests)
+ok   soil: emergent mud outcome, wide tyre floats, split surface pull (vehicle_tests)
+ok   mud_t2: tyres + suspension T2 pass the mud pit
+ok   ram: DamageEvents emitted on the bus (crates and the wall), damage dealt > 0
+ok   telemetry: vehicle_tests.exe --telemetry in EXEcutor == native (18 course + 4 mud + 15 tier runs, 6 parts)
+ok   plots: telemetry CSV + PNG plots (numbered) from the EXEcutor telemetry
+ok   course brake_turn_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course camber_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course jump_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course kerb_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course log_left_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course log_right_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course pothole_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course speed_bump_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course washboard_slow: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course brake_turn_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course camber_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course jump_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course kerb_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course log_left_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course log_right_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course pothole_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course speed_bump_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   course washboard_fast: d3d9 in EXEcutor x2 identical, vehicle hash = recorder, upright and passed
+ok   run_scene accel win32 d3d9 (report captures)
+ok   run_scene accel win32 captures exist and are <= 300 KB
+ok   run_scene accel both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene accel compare.json identical
+ok   run_scene mud_t1 win32 d3d9 (report captures)
+ok   run_scene mud_t1 win32 captures exist and are <= 300 KB
+ok   run_scene mud_t1 both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene mud_t1 compare.json identical
+ok   run_scene mud_t1_gentle win32 d3d9 (report captures)
+ok   run_scene mud_t1_gentle win32 captures exist and are <= 300 KB
+ok   run_scene mud_t1_gentle both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene mud_t1_gentle compare.json identical
+ok   run_scene mud_t2 win32 d3d9 (report captures)
+ok   run_scene mud_t2 win32 captures exist and are <= 300 KB
+ok   run_scene mud_t2 both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene mud_t2 compare.json identical
+ok   run_scene ram win32 d3d9 (report captures)
+ok   run_scene ram win32 captures exist and are <= 300 KB
+ok   run_scene ram both on rhi_null (map fallback): native == EXEcutor
+ok   run_scene ram compare.json identical
+ok   RunGame present dump: w2_accel
+ok   RunGame present dump: w2_mud_t1
+ok   RunGame present dump: w2_mud_t2
+ok   RunGame present dump: w2_ram
+ok   RunGame present dump: chassis pose at rest, full bump (full steering lock), full droop
+ok   RunGame present dump: w2_log_left_side
+ok   RunGame present dump: w2_log_right_side
+ok   RunGame present dump: w2_speed_bump_side
+ok   RunGame present dump: w2_kerb_side
+ok   RunGame present dump: w2_washboard_side
+ok   RunGame present dump: w2_pothole_side
+ok   RunGame present dump: w2_camber_side
+ok   RunGame present dump: w2_jump_side
+ok   RunGame present dump: w2_brake_turn_side
+ok   present-dump JPGs <= 300 KB
+ok   report.py
+ok   progress.js untouched
+GATE w2 PASS

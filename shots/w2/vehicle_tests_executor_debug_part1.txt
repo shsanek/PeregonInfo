@@ -1,0 +1,14 @@
+[suite] vehicle_tests
+    equilibrium: load 13734.007 N of 13734.001 N, belly gap 0.299 m, clearance 0.300 m
+[ OK ] suspension_equilibrium_on_flat_asphalt
+    drop: max gain 0.000 J, dissipated 5621.531 J of 5493.600 J
+[ OK ] energy_never_grows_after_drop
+    coast: 20.000 m/s -> 16.064 m/s after 10 s, energy rises 0
+[ OK ] coast_down_loses_energy
+    coast over bump: max per-tick gain 0.000 J, lost 12386.7 J
+[ OK ] course_coast_over_bump_never_gains_energy
+    steer right at 20 km/h: heading 0.00 -> -61.74 deg (clockwise from above), a point 30 m ahead moves to view x -22.83 m (left on screen)
+[ OK ] steering_right_turns_clockwise_and_scene_moves_left
+    reverse with steer right: gear -1, speed -17.0 km/h, heading 177.47 deg (nose swings left like a real car)
+[ OK ] steering_right_in_reverse_swings_the_nose_left
+[done] 6/6 passed, 30 checks

@@ -1,0 +1,7 @@
+[suite] vehicle_tests
+    asphalt: max lateral 0.628 g, full steer at 20/40/60 km/h = 0.553/0.628/0.597 g
+    dirt: max lateral 0.465 g, full steer at 20/40/60 km/h = 0.436/0.465/0.439 g
+    grass: max lateral 0.422 g, full steer at 20/40/60 km/h = 0.394/0.422/0.412 g
+    mud (tyres T2): max lateral 0.343 g, full steer at 20/40/60 km/h = 0.314/0.343/0.339 g
+[ OK ] lateral_steady_state_cornering_per_surface
+[done] 1/1 passed, 136 checks

@@ -1,0 +1,32 @@
+[suite] nature_tests
+    count sway_pieces 0x2e
+    count billboard_lods 0x23
+    hash catalogue 0x4f91a2db
+[ OK ] catalogue_has_the_whole_kit
+[ OK ] catalogue_rejects_bad_text
+    count materials 0x34
+    count card_materials 0x1d
+    count kit_vertices 0x4a06
+    hash kit 0x3e9e02b
+[ OK ] kit_loads_every_piece_and_material
+    atlas cards 1024x1024 mips 6, opaque 2048x2048 mips 5
+    hash card_atlas 0xcaaf75e0
+    hash opaque_atlas 0x7a81b9b6
+[ OK ] atlases_pack_cards_and_tiled_opaque_slots
+    count coverage_levels_checked 0x74
+[ OK ] card_mips_keep_alpha_coverage
+[ OK ] habitats_on_the_w1_slice
+    count instances 0x2c6
+    hash scatter 0xfa6b9ae7
+[ OK ] scatter_is_deterministic_and_order_free
+    count forest_trees 0x41c
+    count forest_trees_half_density 0x294
+[ OK ] scatter_respects_spacing_and_slope
+    count sm2_draws 0x65
+    count sm2_triangles 0x9d62
+    count sm2_instances 0x4e32
+    count ff_draws 0x11c
+    count ff_triangles 0x6c29
+    count ff_instances 0x4e32
+[ OK ] renderer_on_rhi_null_sm2_and_ff
+[done] 9/9 passed, 17410 checks

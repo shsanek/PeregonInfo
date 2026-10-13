@@ -1,0 +1,28 @@
+PASS gunplay_tests all passed natively
+PASS gunplay_tests all passed in EXEcutor
+PASS gunplay_tests EXEcutor stdout == native
+PASS view_tests all passed natively
+PASS view_tests all passed in EXEcutor
+PASS view_tests EXEcutor stdout == native
+PASS combat_tests all passed natively
+PASS combat_tests all passed in EXEcutor
+PASS combat_tests EXEcutor stdout == native
+PASS poi_tests all passed natively
+PASS poi_tests all passed in EXEcutor
+PASS poi_tests EXEcutor stdout == native
+PASS legacy replay unchanged with gunplay off: scene_w3_crowbar_execution.txt
+PASS legacy replay unchanged with gunplay off: scene_w3_nail_raiders.txt
+PASS legacy replay unchanged with gunplay off: scene_w3_roof_mg_overheat.txt
+PASS legacy replay unchanged with gunplay off: scene_w3_sawn_off_brute.txt
+PASS legacy replay unchanged with gunplay off: scene_w4_elevator.txt
+PASS legacy replay unchanged with gunplay off: scene_w4_gas_station.txt
+PASS legacy replay unchanged with gunplay off: scene_w4_road_buggies.txt
+PASS POI terrain stamps for MAP are up to date (data/poi/stamps, poi_export --check)
+PASS box and capsule meshes are bottom-pivoted (POI and play render objects place their bottoms)
+PASS region arenas data matches MAP's place records (tools/map/region_arenas.py --check)
+PASS region elevator_gate: place cleared within 2500 ticks, no pushing into walls or props, no resets
+PASS region outpost_gate: place cleared within 2900 ticks, no pushing into walls or props, no resets
+PASS region fight stages: three POI complexes assembled on the real terrain with no gap > 0.1 m or burial (play.pois errors), first-visit elevator and outpost cleared without going down, fighters change floors (raiders climb or the player bot climbs to them)
+PASS EXEcutor region elevator fight stage: d3d9, 0 rhi errors, 8 captures, final state == native (894928a3)
+PASS EXEcutor region POI tour: ground-level shots along every wall, gate and yard of the three complexes
+PASS on foot the ground is the drawn terrain everywhere around the complexes (play_region_walk: road, gate, yard, pad edges; native == EXEcutor, 0 cm off)

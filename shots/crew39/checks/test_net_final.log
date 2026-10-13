@@ -1,0 +1,55 @@
+[suite] net_world_tests
+[ OK ] text_replay_carries_env_commands_and_reads_old_lines
+[ OK ] game_save_load_round_trips_cab_doors_and_env
+[ OK ] net_figures_and_resident_bodies_are_presentation_only
+[ OK ] old_save_without_env_and_cab_sections_still_loads
+    tick=1200 all=0xa7aa8270 env=0xdb39c65a snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x6e3d4336 soil=0x00000000 farm=0x00000000 ice=0x520ea4bd cargo=0x34921b31 truck=0x34e48150 physics=0xbec64c1b care=0x699afc94 director=0x166adf2e sites=0xd757d81e players=0xd3eaff4e world=0x427dc5e4
+[ OK ] env_commands_change_env_and_replay_identically
+    changed between save and load: env,ruts,truck,care,director
+[ OK ] scene_save_then_load_restores_saved_layers_and_continues_identically
+    tick=700 all=0x15a01a9b env=0x8be81168 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x44895ce8 soil=0x00000000 farm=0x4fb034e5 ice=0xd287b0a8 cargo=0x34921b31 truck=0x2f208e95 physics=0xca02c728 care=0x10341805 director=0xa955c737 sites=0x34537c86 players=0x0f90e0ea world=0x427dc5e4
+[ OK ] region_ice_hole_is_saved_hashed_and_replays_identically
+net: {"event":"start","role":"host","sim":""}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"hosting on udp port 43458"}
+net: {"event":"listen","direct":"LAN 192.168.68.61:43458/n2test"}
+net: {"event":"tick","tick":300,"line":"tick=300 env=0xf77682c4 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xf28d388a soil=0x0a40ab6c farm=0xf619e2bf ice=0x5bd93b54 cargo=0x34921b31 truck=0x192ea75f physics=0x4e0fcdd7 care=0x6a96a97a director=0x8dfd2977 sites=0x9be17165 players=0x78988380 world=0x427dc5e4"}
+net: {"event":"tick","tick":600,"line":"tick=600 env=0xacaad5b6 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x264a5ecb soil=0xbf958860 farm=0xdce54d09 ice=0x5bd93b54 cargo=0x34921b31 truck=0x8f1f81ff physics=0x408e0419 care=0x604786c4 director=0xd60969a7 sites=0x9be17165 players=0x78988380 world=0x427dc5e4"}
+net: {"event":"start","role":"client","sim":""}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"contacting host 127.0.0.1:43458"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connecting direct via 127.0.0.1:43458"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connected (direct)"}
+net: {"event":"session","type":0,"peer":1,"slot":1,"text":"p1"}
+net: {"event":"session","type":2,"peer":1,"slot":1,"text":"host"}
+net: {"event":"joined","peer":1,"slot":1,"name":"p1","tick":600}
+net: {"event":"accepted","slot":1}
+net: {"event":"ready"}
+net: {"event":"ready","peer":1,"tick":629}
+net: {"event":"join_snapshot","peer":1,"tick":660,"raw_bytes":9656,"chunks":82,"wire_bytes":9239,"seconds":0.50}
+net: {"event":"player_added","peer":1,"slot":1,"tick":660}
+net: {"event":"joined_world","tick":660,"seconds":0.54,"frame_bytes":9969,"raw_bytes":9656,"mirror_bytes":30932,"chunks":31,"equal":true,"apply_us_max":3833}
+net: {"event":"participant","slot":1,"tick":661}
+net: {"event":"place","tick":661,"place":1,"seat":0}
+net: {"event":"prediction","final":false,"samples":0,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":0,"interp_delay_ticks":6.0000,"rtt_ms":1,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":900,"line":"tick=900 env=0x660e1e29 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x0a4f6941 soil=0xd9ab26bf farm=0xc742ba81 ice=0x5bd93b54 cargo=0x34921b31 truck=0x57b7ea39 physics=0x314f1213 care=0x991366c8 director=0x72749f87 sites=0x9be17165 players=0xec66dcb7 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":273,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":5,"interp_delay_ticks":7.5746,"rtt_ms":4,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":1200,"line":"tick=1200 env=0xa3e3bb54 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x5779ea7c soil=0x96fec24f farm=0xd145a85f ice=0x5bd93b54 cargo=0x34921b31 truck=0x6dee92f9 physics=0x8c62cbf6 care=0xc07a7a3f director=0x1071b477 sites=0x9be17165 players=0xec66dcb7 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":553,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":5,"interp_delay_ticks":7.2768,"rtt_ms":4,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":1500,"line":"tick=1500 env=0x2a6394c2 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xce97d968 soil=0x886a8db5 farm=0x30e289c4 ice=0x5bd93b54 cargo=0x34921b31 truck=0x13b3d656 physics=0x4f1a916a care=0x30e9e242 director=0x6e7fa28a sites=0x9be17165 players=0xec66dcb7 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":835,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":5,"interp_delay_ticks":7.1849,"rtt_ms":4,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":1800,"line":"tick=1800 env=0x3bbfc8ff snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xa2d5282d soil=0x8cdc44db farm=0x4a7bf109 ice=0x5bd93b54 cargo=0x34921b31 truck=0xa052b478 physics=0x8d5aaf24 care=0x0486cf68 director=0xeb33d99c sites=0x9be17165 players=0xec66dcb7 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":1116,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":5,"interp_delay_ticks":7.2076,"rtt_ms":4,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":2100,"line":"tick=2100 env=0xccb90eb5 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x65d5263c soil=0x92dd5480 farm=0x3df47a4f ice=0x5bd93b54 cargo=0x34921b31 truck=0xb76f42b7 physics=0xf73e1f72 care=0xca5b57d8 director=0x485972e3 sites=0x9be17165 players=0xec66dcb7 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":1396,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":6,"interp_delay_ticks":7.1795,"rtt_ms":4,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":2400,"line":"tick=2400 env=0x536d184a snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xc4168426 soil=0xf64f0aae farm=0x921524ba ice=0x5bd93b54 cargo=0x34921b31 truck=0x3fc775f9 physics=0x5ed6a37e care=0xc2f28f76 director=0xf76c10b9 sites=0x9be17165 players=0xec66dcb7 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":1675,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":6,"interp_delay_ticks":7.2332,"rtt_ms":4,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":2700,"line":"tick=2700 env=0x9aa6b5cd snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x39ef85c8 soil=0x7edaa5cb farm=0xa67c05d7 ice=0x5bd93b54 cargo=0x34921b31 truck=0x8fb0637f physics=0x781b2d24 care=0xf1a01e60 director=0x7ffe6e14 sites=0x9be17165 players=0xec66dcb7 world=0x427dc5e4"}
+    host: CO-OP HOST  code: (waiting for relay)
+    host: hosting on udp port 43458
+    host: direct: LAN 192.168.68.61:43458/n2test
+    host: P1 p1  direct  RTT 8 ms  in world  layers 6.0 KB/s  check t2640 equal (34 ok, 0 diff)
+    client: layer checks: 34 equal, 0 differ
+net: {"event":"prediction","final":true,"samples":1895,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":6,"interp_delay_ticks":7.1921,"rtt_ms":4,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"stop","checks_equal":34,"checks_differ":0}
+net: {"event":"stop","checks_equal":0,"checks_differ":0}
+[ OK ] two_scenes_join_mid_game_and_replicate_every_layer
+[done] 8/8 passed, 76 checks

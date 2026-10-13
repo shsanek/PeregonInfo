@@ -1,0 +1,8 @@
+source dir
+table ru keys 154 plural ru hash 753a7747
+  plural keys 5
+table en keys 154 plural en hash 8a5a9088
+  plural keys 5
+strings checked 477 in 3 faces
+catalog hash bc6f0221
+RESULT PASS

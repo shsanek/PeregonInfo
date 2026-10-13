@@ -1,0 +1,11 @@
+{
+  "sampled_exterior_corner_faces": 936,
+  "zero_colour_centroid_samples": 0,
+  "minimum_rgb_sum": 1.184313803911209,
+  "channels_rebaked": [
+    "basecolor",
+    "orm",
+    "normal"
+  ],
+  "donor": "exterior body shell"
+}

@@ -1,0 +1,78 @@
+[suite] view_tests
+    closest body part to a tyre: bed_cross_bearer
+    closest tyre-to-body gap m (T1..T3, droop/static/bump, full lock) = 0.067 band [0.000, 1.000] OK
+[ OK ] truck_wheels_clear_every_body_part_over_travel_and_lock
+[ OK ] truck_running_gear_follows_the_wheels
+    parts 429, grey-box triangles 9168, labelled 88
+[ OK ] truck_part_budget_and_names
+    windscreen rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    driver window rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    windscreen spans deg below eye = 24.944 band [20.000, 35.000] OK
+    windscreen spans deg above eye = 15.732 band [10.000, 30.000] OK
+    door sill deg below eye looking sideways = 33.534 band [25.000, 45.000] OK
+    windscreen rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    driver window rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    windscreen spans deg below eye = 24.944 band [20.000, 35.000] OK
+    windscreen spans deg above eye = 15.732 band [10.000, 30.000] OK
+    door sill deg below eye looking sideways = 33.534 band [25.000, 45.000] OK
+    windscreen rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    driver window rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    windscreen spans deg below eye = 24.944 band [20.000, 35.000] OK
+    windscreen spans deg above eye = 15.732 band [10.000, 30.000] OK
+    door sill deg below eye looking sideways = 33.534 band [25.000, 45.000] OK
+[ OK ] cab_glass_is_big_and_unobstructed
+    bed floor above the static rear tyre top m = 0.350 band [0.300, 0.500] OK
+    bed side height above the floor m (UAZ-3303 0.4, GAZ-66 0.6) = 0.575 band [0.500, 0.700] OK
+    bed side top vs cab door sill m = 0.075 band [-0.100, 0.200] OK
+    wooden sub-frame between frame rail and bed m = 0.190 band [0.150, 0.400] OK
+    bed underside above the rear tyre at full bump m = 0.030 band [0.020, 0.400] OK
+    bed floor above the static rear tyre top m = 0.370 band [0.300, 0.500] OK
+    bed side height above the floor m (UAZ-3303 0.4, GAZ-66 0.6) = 0.575 band [0.500, 0.700] OK
+    bed side top vs cab door sill m = 0.075 band [-0.100, 0.200] OK
+    wooden sub-frame between frame rail and bed m = 0.190 band [0.150, 0.400] OK
+    bed underside above the rear tyre at full bump m = 0.030 band [0.020, 0.400] OK
+    bed floor above the static rear tyre top m = 0.390 band [0.300, 0.500] OK
+    bed side height above the floor m (UAZ-3303 0.4, GAZ-66 0.6) = 0.575 band [0.500, 0.700] OK
+    bed side top vs cab door sill m = 0.075 band [-0.100, 0.200] OK
+    wooden sub-frame between frame rail and bed m = 0.190 band [0.150, 0.400] OK
+    bed underside above the rear tyre at full bump m = 0.030 band [0.020, 0.400] OK
+[ OK ] truck_bed_proportions_match_the_references
+    bonnet rear top below the windscreen base m = 0.020 band [0.000, 0.060] OK
+    bonnet slopes forward m = 0.090 band [0.040, 0.150] OK
+    bonnet top / wheel diameter = 1.893 band [1.750, 2.000] OK
+    bonnet front edge seen above the windscreen base from the eye deg = 12.006 band [5.000, 16.000] OK
+    bonnet rear top below the windscreen base m = 0.020 band [0.000, 0.060] OK
+    bonnet slopes forward m = 0.090 band [0.040, 0.150] OK
+    bonnet top / wheel diameter = 1.916 band [1.750, 2.000] OK
+    bonnet front edge seen above the windscreen base from the eye deg = 12.006 band [5.000, 16.000] OK
+    bonnet rear top below the windscreen base m = 0.020 band [0.000, 0.060] OK
+    bonnet slopes forward m = 0.090 band [0.040, 0.150] OK
+    bonnet top / wheel diameter = 1.940 band [1.750, 2.000] OK
+    bonnet front edge seen above the windscreen base from the eye deg = 12.006 band [5.000, 16.000] OK
+[ OK ] bonnet_meets_the_windscreen_base_and_shows_from_the_seat
+    exit ticks = 45.000 band [30.000, 60.000] OK
+    exit max step m = 0.080 band [0.000, 0.150] OK
+    exit max turn rad = 0.003 band [0.000, 0.100] OK
+    enter ticks = 45.000 band [30.000, 60.000] OK
+    enter max step m = 0.080 band [0.000, 0.150] OK
+    enter max turn rad = 0.003 band [0.000, 0.100] OK
+[ OK ] exit_and_enter_are_continuous_through_the_door
+    interrupted max step m = 0.068 band [0.000, 0.150] OK
+    interrupted max turn rad = 0.001 band [0.000, 0.100] OK
+[ OK ] interrupted_transition_stays_continuous
+    cabin roll follows truck roll rad = 0.201 band [0.190, 0.210] OK
+[ OK ] chase_toggle_and_cabin_roll
+    right steer: front wheel x 0.479, hands shift 0.055 m
+[ OK ] steering_wheel_turns_the_same_way_as_the_front_wheels
+    closest viewmodel corner m = 0.123 band [0.030, 1.000] OK
+[ OK ] viewmodel_stays_beyond_its_near_plane
+[ OK ] fx_keeps_bounded_decals_and_particles
+    worst C++ vs Python sample error m = 0.000 band [0.000, 0.002] OK
+[ OK ] weapon_clips_match_the_python_evaluator
+    crowbar holster + equip s = 0.300 band [0.299, 0.301] OK
+    sawn_off third-person reload layer s = 2.200 band [2.199, 2.201] OK
+    sawn_off holster + equip s = 0.450 band [0.449, 0.451] OK
+    nailgun third-person reload layer s = 2.200 band [2.199, 2.201] OK
+    nailgun holster + equip s = 0.400 band [0.399, 0.401] OK
+[ OK ] weapon_clip_timings_follow_gameplay
+[done] 14/14 passed, 1553 checks

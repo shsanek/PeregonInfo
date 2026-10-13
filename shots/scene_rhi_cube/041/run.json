@@ -1,0 +1,28 @@
+{
+  "scene": "scene_rhi_cube",
+  "run": "041",
+  "date": "2026-10-07T17:23:15Z",
+  "commit": "f723d5eee8",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--ticks",
+    "2",
+    "--capture",
+    "2"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9"
+    ]
+  },
+  "compare_args": [
+    "--tolerance",
+    "2",
+    "--min-match",
+    "99.5"
+  ]
+}

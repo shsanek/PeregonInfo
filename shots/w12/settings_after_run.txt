@@ -1,0 +1,77 @@
+# Peregon settings (docs/save.md). Written by the game; unknown keys are reported and dropped.
+format = 1
+
+[graphics]
+width = 1280
+height = 720
+display = borderless
+vsync = true
+quality = medium
+
+[audio]
+master = 80
+sfx = 100
+engine = 100
+radio = 90
+ui = 100
+
+[game]
+language = en
+
+[bind.move_x]
+keys_pos = d, right
+keys_neg = a, left
+
+[bind.move_y]
+keys_pos = w, up
+keys_neg = s, down
+
+[bind.look_x]
+keys_pos = none
+keys_neg = none
+
+[bind.look_y]
+keys_pos = none
+keys_neg = none
+
+[bind.use]
+keys = enter, space
+
+[bind.back]
+keys = backspace
+
+[bind.boost]
+keys = shift
+
+[bind.map]
+keys = tab
+
+[bind.enter_exit]
+keys = f
+
+[bind.debug_camera]
+keys = c, f1
+
+[bind.save]
+keys = f5
+
+[bind.load]
+keys = f9
+
+[bind.fire]
+keys = none
+
+[bind.aim]
+keys = none
+
+[bind.rain]
+keys = f6
+
+[bind.fly_up]
+keys = e
+
+[bind.fly_down]
+keys = q
+
+[bind.pause]
+keys = escape

@@ -1,0 +1,51 @@
+LOG line 10 host prompt.1: E / LMB — lay the tent out here · F / RMB — put the roll down · Q — strap under the rucksack
+LOG line 14 host tentb: -
+LOG line 17 host prompt.1: Tent: E / LMB — hold: pitch the tent · Q — hold: strike the tent
+LOG line 24 host flaps: 0
+LOG line 25 host prompt.1: Tent: E / LMB — open the flaps · F / RMB — crawl in (open the flaps first) · Q — hold: strike the tent
+LOG line 30 host prompt.2: Tent: E / LMB — close the flaps · F / RMB — crawl in · Q — hold: strike the tent
+LOG line 39 host banner.2: Crawled into the tent. Q — sleep, F — out
+LOG line 10 p1 prompt.1: E / LMB — lay the tent out here · F / RMB — put the roll down · Q — strap under the rucksack
+LOG line 14 p1 tentb: -
+LOG line 17 p1 prompt.1: Tent: E / LMB — hold: pitch the tent · Q — hold: strike the tent
+LOG line 24 p1 flaps: 0
+LOG line 25 p1 prompt.1: Tent: E / LMB — open the flaps · F / RMB — crawl in (open the flaps first) · Q — hold: strike the tent
+LOG line 30 p1 prompt.2: na
+LOG line 39 p1 banner.2: na
+LOG line 10 p2 prompt.1: na
+LOG line 14 p2 tentb: -
+LOG line 17 p2 prompt.1: na
+LOG line 24 p2 flaps: 0
+LOG line 25 p2 prompt.1: na
+LOG line 30 p2 prompt.2: Tent: E / LMB — close the flaps · F / RMB — crawl in · Q — hold: strike the tent
+LOG line 39 p2 banner.2: Crawled into the tent. Q — sleep, F — out
+PASS line 8 TENT-01 carry.1 = tent_roll: host=tent_roll p1=tent_roll p2=tent_roll
+PASS line 12 TENT-05 tents = 1: host=1@10 p1=1@21 p2=1@20
+PASS line 13 TENT-05 carry.1 = -: host=-@10 p1=-@10 p2=-@11
+PASS line 19 TENT-02 tentb = 100: host=100@420 p1=100@426 p2=100@424
+PASS line 20 TENT-02 tentb == x: host=0 p1=0 p2=0
+PASS line 27 TENT-03 flaps = 1: host=1@10 p1=1@24 p2=1@20
+PASS line 28 TENT-03 flaps == x: host=0 p1=0@1 p2=0
+PASS line 32 TENT-04 tentin.2 >= 1: host=1@10 p1=na(x) p2=1@10
+PASS line 34 TENT-04 tentin.1 >= 1: host=1@10 p1=1@10 p2=na(x)
+PASS line 35 TENT-04 occ = 2: host=2@10 p1=2@21 p2=2@20
+PASS line 36 TENT-04 occ == x: host=1 p1=1 p2=1
+PASS line 38 TENT-06 asleep.2 = 1: host=1@10 p1=1@10 p2=1@10
+PASS line 40 TENT-06 asleep.2 = 1: host=1 p1=1 p2=1
+PASS line 42 TENT-04 tentin.1 = 0: host=0@10 p1=0@10 p2=na(x)
+PASS line 44 TENT-06 asleep.2 = 0: host=0@10 p1=0@21 p2=0@10
+PASS line 46 TENT-04 tentin.2 = 0: host=0@10 p1=na(x) p2=0@10
+PASS line 47 TENT-04 occ = 0: host=0 p1=0 p2=0
+PASS line 51 TENT-02 tents = 0: host=0@389 p1=0@396 p2=0@397
+PASS line 52 TENT-02 carry.1 = tent_roll: host=tent_roll@389 p1=tent_roll@389 p2=tent_roll@397
+links: peer 1 relay, peer 2 relay
+client layer checks: 92 equal, 0 differ
+acts 24, failed acts 0
+rows 6 pass 6 fail 0
+ROW TENT-01 PASS (1 checks)
+ROW TENT-02 PASS (4 checks)
+ROW TENT-03 PASS (2 checks)
+ROW TENT-04 PASS (7 checks)
+ROW TENT-05 PASS (2 checks)
+ROW TENT-06 PASS (3 checks)
+RESULT PASS

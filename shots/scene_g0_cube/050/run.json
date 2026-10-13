@@ -1,0 +1,16 @@
+{
+  "scene": "scene_g0_cube",
+  "run": "050",
+  "date": "2026-10-07T16:56:53Z",
+  "commit": "f723d5eee8",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--ticks",
+    "6",
+    "--capture",
+    "0,6"
+  ]
+}

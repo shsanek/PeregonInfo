@@ -1,0 +1,229 @@
+policy,t_s,clock,run,contract,activity,coupons,parts,xp,rank,income,expenses,upgrades_spent,bed_value,bed_kg,bed_cells,engine,suspension,tires,armor,note
+route,0,0:00,0,-,start,0,0,0,1,0,0,0,0,0.0,0,1,1,1,1,route
+route,180,3:00,1,c1_empty_station,brief,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,c1_empty_station
+route,386,6:26,1,c1_empty_station,drive,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,camp_gas_station 206s
+route,416,6:56,1,c1_empty_station,ambush,0,0,0,1,0,0,0,56,455.0,21,1,1,1,1,2 buggies
+route,416,6:56,1,c1_empty_station,deliver,0,0,0,1,0,0,0,56,215.0,5,1,1,1,1,
+route,686,11:26,1,c1_empty_station,arena,0,0,50,1,0,0,0,56,215.0,5,1,1,1,1,gas_station
+route,746,12:26,1,c1_empty_station,loot,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,
+route,964,16:04,1,c1_empty_station,drive,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,camp_gas_station 218s
+route,1024,17:04,1,c1_empty_station,camp,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,c1_empty_station +310
+route,1024,17:04,1,c1_empty_station,mechanic,50,3,300,1,450,100,300,0,0.0,0,1,1,2,1,bought tires_t2 saving_for suspension_t2 (no_coupons)
+route,1024,17:04,2,c2_elevator_cargo,brief,50,3,300,1,450,100,300,0,0.0,0,1,1,2,1,c2_elevator_cargo
+route,1159,19:19,2,c2_elevator_cargo,drive,50,3,300,1,450,100,300,0,0.0,0,1,1,2,1,camp_elevator_short 135s
+route,1399,23:19,2,c2_elevator_cargo,arena,50,3,350,1,450,100,300,0,0.0,0,1,1,2,1,elevator
+route,1459,24:19,2,c2_elevator_cargo,loot,50,3,350,1,450,100,300,259,733.0,24,1,1,2,1,
+route,1602,26:42,2,c2_elevator_cargo,drive,50,3,350,1,450,100,300,259,733.0,24,1,1,2,1,camp_elevator_short 143s
+route,1662,27:42,2,c2_elevator_cargo,camp,445,8,584,2,899,154,300,0,0.0,0,1,1,2,1,c2_elevator_cargo +270
+route,1662,27:42,2,c2_elevator_cargo,mechanic,145,6,584,2,899,154,600,0,0.0,0,1,2,2,1,bought suspension_t2 saving_for engine_t2 (no_coupons)
+route,1662,27:42,3,c3_double_run,brief,145,6,584,2,899,154,600,0,0.0,0,1,2,2,1,c3_double_run
+route,1862,31:02,3,c3_double_run,drive,145,6,584,2,899,154,600,0,0.0,0,1,2,2,1,camp_gas_station 200s
+route,2132,35:32,3,c3_double_run,arena,145,6,584,2,899,154,600,0,0.0,0,1,2,2,1,gas_station
+route,2192,36:32,3,c3_double_run,loot,145,6,584,2,899,154,600,204,760.0,24,1,2,2,1,
+route,2356,39:16,3,c3_double_run,drive,145,6,584,2,899,154,600,204,760.0,24,1,2,2,1,gas_station_elevator 164s
+route,2596,43:16,3,c3_double_run,arena,145,6,584,2,899,154,600,204,760.0,24,1,2,2,1,elevator
+route,2656,44:16,3,c3_double_run,loot,145,6,584,2,899,154,600,204,760.0,24,1,2,2,1,
+route,2755,45:55,3,c3_double_run,drive,145,6,584,2,899,154,600,204,760.0,24,1,2,2,1,camp_elevator_short 99s
+route,2785,46:25,3,c3_double_run,ambush,145,6,584,2,899,154,600,204,760.0,24,1,2,2,1,3 buggies
+route,2845,47:25,3,c3_double_run,camp,262,11,882,3,1173,311,600,0,0.0,0,1,2,2,1,c3_double_run +150
+route,2845,47:25,3,c3_double_run,mechanic,262,11,882,3,1173,311,600,0,0.0,0,1,2,2,1,saving_for engine_t2 (no_coupons)
+route,2845,47:25,4,c1_empty_station,brief,262,11,882,3,1173,311,600,0,240.0,16,1,2,2,1,c1_empty_station
+route,3051,50:51,4,c1_empty_station,drive,262,11,882,3,1173,311,600,0,240.0,16,1,2,2,1,camp_gas_station 206s
+route,3081,51:21,4,c1_empty_station,ambush,262,11,882,3,1173,311,600,104,580.0,24,1,2,2,1,2 buggies
+route,3081,51:21,4,c1_empty_station,deliver,262,11,882,3,1173,311,600,104,340.0,8,1,2,2,1,
+route,3351,55:51,4,c1_empty_station,arena,262,11,882,3,1173,311,600,104,340.0,8,1,2,2,1,gas_station
+route,3411,56:51,4,c1_empty_station,loot,262,11,882,3,1173,311,600,300,770.0,24,1,2,2,1,
+route,3630,60:30,4,c1_empty_station,drive,262,11,882,3,1173,311,600,300,770.0,24,1,2,2,1,camp_gas_station 219s
+route,3690,61:30,4,c1_empty_station,camp,608,17,1132,4,1623,415,600,0,0.0,0,1,2,2,1,c1_empty_station +310
+route,3690,61:30,4,c1_empty_station,mechanic,8,13,1132,4,1623,415,1200,0,0.0,0,2,2,2,2,bought engine_t2 bought armor_t2 saving_for engine_t3 (no_coupons)
+route,3690,61:30,4,c1_empty_station,end,8,13,1132,4,1623,415,1200,0,0.0,0,2,2,2,2,
+tank,0,0:00,0,-,start,0,0,0,1,0,0,0,0,0.0,0,1,1,1,1,tank
+tank,180,3:00,1,c1_empty_station,brief,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,c1_empty_station
+tank,386,6:26,1,c1_empty_station,drive,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,camp_gas_station 206s
+tank,416,6:56,1,c1_empty_station,ambush,0,0,0,1,0,0,0,56,455.0,21,1,1,1,1,2 buggies
+tank,416,6:56,1,c1_empty_station,deliver,0,0,0,1,0,0,0,56,215.0,5,1,1,1,1,
+tank,686,11:26,1,c1_empty_station,arena,0,0,50,1,0,0,0,56,215.0,5,1,1,1,1,gas_station
+tank,746,12:26,1,c1_empty_station,loot,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,
+tank,964,16:04,1,c1_empty_station,drive,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,camp_gas_station 218s
+tank,1024,17:04,1,c1_empty_station,camp,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,c1_empty_station +310
+tank,1024,17:04,1,c1_empty_station,mechanic,50,3,300,1,450,100,300,0,0.0,0,1,1,1,2,bought armor_t2 saving_for armor_t3 (no_coupons)
+tank,1024,17:04,2,c2_elevator_cargo,brief,50,3,300,1,450,100,300,0,0.0,0,1,1,1,2,c2_elevator_cargo
+tank,1194,19:54,2,c2_elevator_cargo,drive,50,3,300,1,450,100,300,0,0.0,0,1,1,1,2,camp_elevator_long 170s
+tank,1434,23:54,2,c2_elevator_cargo,arena,50,3,350,1,450,100,300,0,0.0,0,1,1,1,2,elevator
+tank,1494,24:54,2,c2_elevator_cargo,loot,50,3,350,1,450,100,300,259,733.0,24,1,1,1,2,
+tank,1680,28:00,2,c2_elevator_cargo,drive,50,3,350,1,450,100,300,259,733.0,24,1,1,1,2,camp_elevator_long 186s
+tank,1740,29:00,2,c2_elevator_cargo,camp,443,8,608,2,899,156,300,0,0.0,0,1,1,1,2,c2_elevator_cargo +270
+tank,1740,29:00,2,c2_elevator_cargo,mechanic,443,8,608,2,899,156,300,0,0.0,0,1,1,1,2,saving_for armor_t3 (no_coupons)
+tank,1740,29:00,3,c3_double_run,brief,443,8,608,2,899,156,300,0,0.0,0,1,1,1,2,c3_double_run
+tank,1940,32:20,3,c3_double_run,drive,443,8,608,2,899,156,300,0,0.0,0,1,1,1,2,camp_gas_station 200s
+tank,2210,36:50,3,c3_double_run,arena,443,8,608,2,899,156,300,0,0.0,0,1,1,1,2,gas_station
+tank,2270,37:50,3,c3_double_run,loot,443,8,608,2,899,156,300,204,760.0,24,1,1,1,2,
+tank,2434,40:34,3,c3_double_run,drive,443,8,608,2,899,156,300,204,760.0,24,1,1,1,2,gas_station_elevator 164s
+tank,2674,44:34,3,c3_double_run,arena,443,8,608,2,899,156,300,204,760.0,24,1,1,1,2,elevator
+tank,2734,45:34,3,c3_double_run,loot,443,8,608,2,899,156,300,204,760.0,24,1,1,1,2,
+tank,2920,48:40,3,c3_double_run,drive,443,8,608,2,899,156,300,204,760.0,24,1,1,1,2,camp_elevator_long 186s
+tank,2950,49:10,3,c3_double_run,ambush,443,8,608,2,899,156,300,204,760.0,24,1,1,1,2,3 buggies
+tank,3010,50:10,3,c3_double_run,camp,546,13,918,3,1173,327,300,0,0.0,0,1,1,1,2,c3_double_run +150
+tank,3010,50:10,3,c3_double_run,mechanic,546,13,918,3,1173,327,300,0,0.0,0,1,1,1,2,saving_for armor_t3 (no_coupons)
+tank,3010,50:10,4,c1_empty_station,brief,546,13,918,3,1173,327,300,0,240.0,16,1,1,1,2,c1_empty_station
+tank,3216,53:36,4,c1_empty_station,drive,546,13,918,3,1173,327,300,0,240.0,16,1,1,1,2,camp_gas_station 206s
+tank,3246,54:06,4,c1_empty_station,ambush,546,13,918,3,1173,327,300,104,580.0,24,1,1,1,2,2 buggies
+tank,3246,54:06,4,c1_empty_station,deliver,546,13,918,3,1173,327,300,104,340.0,8,1,1,1,2,
+tank,3516,58:36,4,c1_empty_station,arena,546,13,918,3,1173,327,300,104,340.0,8,1,1,1,2,gas_station
+tank,3576,59:36,4,c1_empty_station,loot,546,13,918,3,1173,327,300,300,770.0,24,1,1,1,2,
+tank,3795,63:15,4,c1_empty_station,drive,546,13,918,3,1173,327,300,300,770.0,24,1,1,1,2,camp_gas_station 219s
+tank,3855,64:15,4,c1_empty_station,camp,881,19,1168,4,1623,442,300,0,0.0,0,1,1,1,2,c1_empty_station +310
+tank,3855,64:15,4,c1_empty_station,mechanic,881,19,1168,4,1623,442,300,0,0.0,0,1,1,1,2,saving_for armor_t3 (no_coupons)
+tank,3855,64:15,4,c1_empty_station,end,881,19,1168,4,1623,442,300,0,0.0,0,1,1,1,2,
+speed,0,0:00,0,-,start,0,0,0,1,0,0,0,0,0.0,0,1,1,1,1,speed
+speed,180,3:00,1,c1_empty_station,brief,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,c1_empty_station
+speed,386,6:26,1,c1_empty_station,drive,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,camp_gas_station 206s
+speed,416,6:56,1,c1_empty_station,ambush,0,0,0,1,0,0,0,56,455.0,21,1,1,1,1,2 buggies
+speed,416,6:56,1,c1_empty_station,deliver,0,0,0,1,0,0,0,56,215.0,5,1,1,1,1,
+speed,686,11:26,1,c1_empty_station,arena,0,0,50,1,0,0,0,56,215.0,5,1,1,1,1,gas_station
+speed,746,12:26,1,c1_empty_station,loot,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,
+speed,964,16:04,1,c1_empty_station,drive,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,camp_gas_station 218s
+speed,1024,17:04,1,c1_empty_station,camp,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,c1_empty_station +310
+speed,1024,17:04,1,c1_empty_station,mechanic,50,3,300,1,450,100,300,0,0.0,0,2,1,1,1,bought engine_t2 saving_for engine_t3 (no_coupons)
+speed,1024,17:04,2,c2_elevator_cargo,brief,50,3,300,1,450,100,300,0,0.0,0,2,1,1,1,c2_elevator_cargo
+speed,1183,19:43,2,c2_elevator_cargo,drive,50,3,300,1,450,100,300,0,0.0,0,2,1,1,1,camp_elevator_long 159s
+speed,1423,23:43,2,c2_elevator_cargo,arena,50,3,350,1,450,100,300,0,0.0,0,2,1,1,1,elevator
+speed,1483,24:43,2,c2_elevator_cargo,loot,50,3,350,1,450,100,300,259,733.0,24,2,1,1,1,
+speed,1657,27:37,2,c2_elevator_cargo,drive,50,3,350,1,450,100,300,259,733.0,24,2,1,1,1,camp_elevator_long 174s
+speed,1717,28:37,2,c2_elevator_cargo,camp,442,8,608,2,899,157,300,0,0.0,0,2,1,1,1,c2_elevator_cargo +270
+speed,1717,28:37,2,c2_elevator_cargo,mechanic,442,8,608,2,899,157,300,0,0.0,0,2,1,1,1,saving_for engine_t3 (no_coupons)
+speed,1717,28:37,3,c3_double_run,brief,442,8,608,2,899,157,300,0,0.0,0,2,1,1,1,c3_double_run
+speed,1904,31:44,3,c3_double_run,drive,442,8,608,2,899,157,300,0,0.0,0,2,1,1,1,camp_gas_station 187s
+speed,2174,36:14,3,c3_double_run,arena,442,8,608,2,899,157,300,0,0.0,0,2,1,1,1,gas_station
+speed,2234,37:14,3,c3_double_run,loot,442,8,608,2,899,157,300,204,760.0,24,2,1,1,1,
+speed,2387,39:47,3,c3_double_run,drive,442,8,608,2,899,157,300,204,760.0,24,2,1,1,1,gas_station_elevator 153s
+speed,2627,43:47,3,c3_double_run,arena,442,8,608,2,899,157,300,204,760.0,24,2,1,1,1,elevator
+speed,2687,44:47,3,c3_double_run,loot,442,8,608,2,899,157,300,204,760.0,24,2,1,1,1,
+speed,2861,47:41,3,c3_double_run,drive,442,8,608,2,899,157,300,204,760.0,24,2,1,1,1,camp_elevator_long 174s
+speed,2891,48:11,3,c3_double_run,ambush,442,8,608,2,899,157,300,204,760.0,24,2,1,1,1,3 buggies
+speed,2951,49:11,3,c3_double_run,camp,564,13,918,3,1173,309,300,0,0.0,0,2,1,1,1,c3_double_run +150
+speed,2951,49:11,3,c3_double_run,mechanic,564,13,918,3,1173,309,300,0,0.0,0,2,1,1,1,saving_for engine_t3 (no_coupons)
+speed,2951,49:11,4,c1_empty_station,brief,564,13,918,3,1173,309,300,0,240.0,16,2,1,1,1,c1_empty_station
+speed,3144,52:24,4,c1_empty_station,drive,564,13,918,3,1173,309,300,0,240.0,16,2,1,1,1,camp_gas_station 193s
+speed,3174,52:54,4,c1_empty_station,ambush,564,13,918,3,1173,309,300,104,580.0,24,2,1,1,1,2 buggies
+speed,3174,52:54,4,c1_empty_station,deliver,564,13,918,3,1173,309,300,104,340.0,8,2,1,1,1,
+speed,3444,57:24,4,c1_empty_station,arena,564,13,918,3,1173,309,300,104,340.0,8,2,1,1,1,gas_station
+speed,3504,58:24,4,c1_empty_station,loot,564,13,918,3,1173,309,300,300,770.0,24,2,1,1,1,
+speed,3709,61:49,4,c1_empty_station,drive,564,13,918,3,1173,309,300,300,770.0,24,2,1,1,1,camp_gas_station 205s
+speed,3769,62:49,4,c1_empty_station,camp,916,19,1168,4,1623,407,300,0,0.0,0,2,1,1,1,c1_empty_station +310
+speed,3769,62:49,4,c1_empty_station,mechanic,16,14,1168,4,1623,407,1200,0,0.0,0,3,1,1,1,bought engine_t3 saving_for armor_t2 (no_coupons)
+speed,3769,62:49,4,c1_empty_station,end,16,14,1168,4,1623,407,1200,0,0.0,0,3,1,1,1,
+handling,0,0:00,0,-,start,0,0,0,1,0,0,0,0,0.0,0,1,1,1,1,handling
+handling,180,3:00,1,c1_empty_station,brief,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,c1_empty_station
+handling,386,6:26,1,c1_empty_station,drive,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,camp_gas_station 206s
+handling,416,6:56,1,c1_empty_station,ambush,0,0,0,1,0,0,0,56,455.0,21,1,1,1,1,2 buggies
+handling,416,6:56,1,c1_empty_station,deliver,0,0,0,1,0,0,0,56,215.0,5,1,1,1,1,
+handling,686,11:26,1,c1_empty_station,arena,0,0,50,1,0,0,0,56,215.0,5,1,1,1,1,gas_station
+handling,746,12:26,1,c1_empty_station,loot,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,
+handling,964,16:04,1,c1_empty_station,drive,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,camp_gas_station 218s
+handling,1024,17:04,1,c1_empty_station,camp,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,c1_empty_station +310
+handling,1024,17:04,1,c1_empty_station,mechanic,50,3,300,1,450,100,300,0,0.0,0,1,2,1,1,bought suspension_t2 saving_for tires_t2 (no_coupons)
+handling,1024,17:04,2,c2_elevator_cargo,brief,50,3,300,1,450,100,300,0,0.0,0,1,2,1,1,c2_elevator_cargo
+handling,1194,19:54,2,c2_elevator_cargo,drive,50,3,300,1,450,100,300,0,0.0,0,1,2,1,1,camp_elevator_long 170s
+handling,1434,23:54,2,c2_elevator_cargo,arena,50,3,350,1,450,100,300,0,0.0,0,1,2,1,1,elevator
+handling,1494,24:54,2,c2_elevator_cargo,loot,50,3,350,1,450,100,300,259,733.0,24,1,2,1,1,
+handling,1680,28:00,2,c2_elevator_cargo,drive,50,3,350,1,450,100,300,259,733.0,24,1,2,1,1,camp_elevator_long 186s
+handling,1740,29:00,2,c2_elevator_cargo,camp,441,8,608,2,899,158,300,0,0.0,0,1,2,1,1,c2_elevator_cargo +270
+handling,1740,29:00,2,c2_elevator_cargo,mechanic,141,6,608,2,899,158,600,0,0.0,0,1,2,2,1,bought tires_t2 saving_for suspension_t3 (no_coupons)
+handling,1740,29:00,3,c3_double_run,brief,141,6,608,2,899,158,600,0,0.0,0,1,2,2,1,c3_double_run
+handling,1940,32:20,3,c3_double_run,drive,141,6,608,2,899,158,600,0,0.0,0,1,2,2,1,camp_gas_station 200s
+handling,2210,36:50,3,c3_double_run,arena,141,6,608,2,899,158,600,0,0.0,0,1,2,2,1,gas_station
+handling,2270,37:50,3,c3_double_run,loot,141,6,608,2,899,158,600,204,760.0,24,1,2,2,1,
+handling,2434,40:34,3,c3_double_run,drive,141,6,608,2,899,158,600,204,760.0,24,1,2,2,1,gas_station_elevator 164s
+handling,2674,44:34,3,c3_double_run,arena,141,6,608,2,899,158,600,204,760.0,24,1,2,2,1,elevator
+handling,2734,45:34,3,c3_double_run,loot,141,6,608,2,899,158,600,204,760.0,24,1,2,2,1,
+handling,2833,47:13,3,c3_double_run,drive,141,6,608,2,899,158,600,204,760.0,24,1,2,2,1,camp_elevator_short 99s
+handling,2863,47:43,3,c3_double_run,ambush,141,6,608,2,899,158,600,204,760.0,24,1,2,2,1,3 buggies
+handling,2923,48:43,3,c3_double_run,camp,258,11,906,3,1173,315,600,0,0.0,0,1,2,2,1,c3_double_run +150
+handling,2923,48:43,3,c3_double_run,mechanic,258,11,906,3,1173,315,600,0,0.0,0,1,2,2,1,saving_for suspension_t3 (no_coupons)
+handling,2923,48:43,4,c1_empty_station,brief,258,11,906,3,1173,315,600,0,240.0,16,1,2,2,1,c1_empty_station
+handling,3129,52:09,4,c1_empty_station,drive,258,11,906,3,1173,315,600,0,240.0,16,1,2,2,1,camp_gas_station 206s
+handling,3159,52:39,4,c1_empty_station,ambush,258,11,906,3,1173,315,600,104,580.0,24,1,2,2,1,2 buggies
+handling,3159,52:39,4,c1_empty_station,deliver,258,11,906,3,1173,315,600,104,340.0,8,1,2,2,1,
+handling,3429,57:09,4,c1_empty_station,arena,258,11,906,3,1173,315,600,104,340.0,8,1,2,2,1,gas_station
+handling,3489,58:09,4,c1_empty_station,loot,258,11,906,3,1173,315,600,300,770.0,24,1,2,2,1,
+handling,3708,61:48,4,c1_empty_station,drive,258,11,906,3,1173,315,600,300,770.0,24,1,2,2,1,camp_gas_station 219s
+handling,3768,62:48,4,c1_empty_station,camp,604,17,1156,4,1623,419,600,0,0.0,0,1,2,2,1,c1_empty_station +310
+handling,3768,62:48,4,c1_empty_station,mechanic,604,17,1156,4,1623,419,600,0,0.0,0,1,2,2,1,saving_for suspension_t3 (no_coupons)
+handling,3768,62:48,4,c1_empty_station,end,604,17,1156,4,1623,419,600,0,0.0,0,1,2,2,1,
+balanced,0,0:00,0,-,start,0,0,0,1,0,0,0,0,0.0,0,1,1,1,1,balanced
+balanced,180,3:00,1,c1_empty_station,brief,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,c1_empty_station
+balanced,386,6:26,1,c1_empty_station,drive,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,camp_gas_station 206s
+balanced,416,6:56,1,c1_empty_station,ambush,0,0,0,1,0,0,0,56,455.0,21,1,1,1,1,2 buggies
+balanced,416,6:56,1,c1_empty_station,deliver,0,0,0,1,0,0,0,56,215.0,5,1,1,1,1,
+balanced,686,11:26,1,c1_empty_station,arena,0,0,50,1,0,0,0,56,215.0,5,1,1,1,1,gas_station
+balanced,746,12:26,1,c1_empty_station,loot,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,
+balanced,964,16:04,1,c1_empty_station,drive,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,camp_gas_station 218s
+balanced,1024,17:04,1,c1_empty_station,camp,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,c1_empty_station +310
+balanced,1024,17:04,1,c1_empty_station,mechanic,50,3,300,1,450,100,300,0,0.0,0,1,1,1,2,bought armor_t2 saving_for engine_t2 (no_coupons)
+balanced,1024,17:04,2,c2_elevator_cargo,brief,50,3,300,1,450,100,300,0,0.0,0,1,1,1,2,c2_elevator_cargo
+balanced,1194,19:54,2,c2_elevator_cargo,drive,50,3,300,1,450,100,300,0,0.0,0,1,1,1,2,camp_elevator_long 170s
+balanced,1434,23:54,2,c2_elevator_cargo,arena,50,3,350,1,450,100,300,0,0.0,0,1,1,1,2,elevator
+balanced,1494,24:54,2,c2_elevator_cargo,loot,50,3,350,1,450,100,300,259,733.0,24,1,1,1,2,
+balanced,1680,28:00,2,c2_elevator_cargo,drive,50,3,350,1,450,100,300,259,733.0,24,1,1,1,2,camp_elevator_long 186s
+balanced,1740,29:00,2,c2_elevator_cargo,camp,443,8,608,2,899,156,300,0,0.0,0,1,1,1,2,c2_elevator_cargo +270
+balanced,1740,29:00,2,c2_elevator_cargo,mechanic,143,6,608,2,899,156,600,0,0.0,0,2,1,1,2,bought engine_t2 saving_for tires_t2 (no_coupons)
+balanced,1740,29:00,3,c3_double_run,brief,143,6,608,2,899,156,600,0,0.0,0,2,1,1,2,c3_double_run
+balanced,1927,32:07,3,c3_double_run,drive,143,6,608,2,899,156,600,0,0.0,0,2,1,1,2,camp_gas_station 187s
+balanced,2197,36:37,3,c3_double_run,arena,143,6,608,2,899,156,600,0,0.0,0,2,1,1,2,gas_station
+balanced,2257,37:37,3,c3_double_run,loot,143,6,608,2,899,156,600,204,760.0,24,2,1,1,2,
+balanced,2410,40:10,3,c3_double_run,drive,143,6,608,2,899,156,600,204,760.0,24,2,1,1,2,gas_station_elevator 153s
+balanced,2650,44:10,3,c3_double_run,arena,143,6,608,2,899,156,600,204,760.0,24,2,1,1,2,elevator
+balanced,2710,45:10,3,c3_double_run,loot,143,6,608,2,899,156,600,204,760.0,24,2,1,1,2,
+balanced,2884,48:04,3,c3_double_run,drive,143,6,608,2,899,156,600,204,760.0,24,2,1,1,2,camp_elevator_long 174s
+balanced,2914,48:34,3,c3_double_run,ambush,143,6,608,2,899,156,600,204,760.0,24,2,1,1,2,3 buggies
+balanced,2974,49:34,3,c3_double_run,camp,240,11,918,3,1173,333,600,0,0.0,0,2,1,1,2,c3_double_run +150
+balanced,2974,49:34,3,c3_double_run,mechanic,240,11,918,3,1173,333,600,0,0.0,0,2,1,1,2,saving_for tires_t2 (no_coupons)
+balanced,2974,49:34,4,c1_empty_station,brief,240,11,918,3,1173,333,600,0,240.0,16,2,1,1,2,c1_empty_station
+balanced,3167,52:47,4,c1_empty_station,drive,240,11,918,3,1173,333,600,0,240.0,16,2,1,1,2,camp_gas_station 193s
+balanced,3197,53:17,4,c1_empty_station,ambush,240,11,918,3,1173,333,600,104,580.0,24,2,1,1,2,2 buggies
+balanced,3197,53:17,4,c1_empty_station,deliver,240,11,918,3,1173,333,600,104,340.0,8,2,1,1,2,
+balanced,3467,57:47,4,c1_empty_station,arena,240,11,918,3,1173,333,600,104,340.0,8,2,1,1,2,gas_station
+balanced,3527,58:47,4,c1_empty_station,loot,240,11,918,3,1173,333,600,300,770.0,24,2,1,1,2,
+balanced,3732,62:12,4,c1_empty_station,drive,240,11,918,3,1173,333,600,300,770.0,24,2,1,1,2,camp_gas_station 205s
+balanced,3792,63:12,4,c1_empty_station,camp,572,17,1168,4,1623,451,600,0,0.0,0,2,1,1,2,c1_empty_station +310
+balanced,3792,63:12,4,c1_empty_station,mechanic,272,15,1168,4,1623,451,900,0,0.0,0,2,1,2,2,bought tires_t2 saving_for suspension_t2 (no_coupons)
+balanced,3792,63:12,4,c1_empty_station,end,272,15,1168,4,1623,451,900,0,0.0,0,2,1,2,2,
+saver,0,0:00,0,-,start,0,0,0,1,0,0,0,0,0.0,0,1,1,1,1,saver
+saver,180,3:00,1,c1_empty_station,brief,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,c1_empty_station
+saver,386,6:26,1,c1_empty_station,drive,0,0,0,1,0,0,0,0,240.0,16,1,1,1,1,camp_gas_station 206s
+saver,416,6:56,1,c1_empty_station,ambush,0,0,0,1,0,0,0,56,455.0,21,1,1,1,1,2 buggies
+saver,416,6:56,1,c1_empty_station,deliver,0,0,0,1,0,0,0,56,215.0,5,1,1,1,1,
+saver,686,11:26,1,c1_empty_station,arena,0,0,50,1,0,0,0,56,215.0,5,1,1,1,1,gas_station
+saver,746,12:26,1,c1_empty_station,loot,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,
+saver,964,16:04,1,c1_empty_station,drive,0,0,50,1,0,0,0,260,735.0,23,1,1,1,1,camp_gas_station 218s
+saver,1024,17:04,1,c1_empty_station,camp,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,c1_empty_station +310
+saver,1024,17:04,1,c1_empty_station,mechanic,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,saves
+saver,1024,17:04,2,c2_elevator_cargo,brief,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,c2_elevator_cargo
+saver,1194,19:54,2,c2_elevator_cargo,drive,350,5,300,1,450,100,0,0,0.0,0,1,1,1,1,camp_elevator_long 170s
+saver,1434,23:54,2,c2_elevator_cargo,arena,350,5,350,1,450,100,0,0,0.0,0,1,1,1,1,elevator
+saver,1494,24:54,2,c2_elevator_cargo,loot,350,5,350,1,450,100,0,259,733.0,24,1,1,1,1,
+saver,1680,28:00,2,c2_elevator_cargo,drive,350,5,350,1,450,100,0,259,733.0,24,1,1,1,1,camp_elevator_long 186s
+saver,1740,29:00,2,c2_elevator_cargo,camp,747,10,608,2,899,152,0,0,0.0,0,1,1,1,1,c2_elevator_cargo +270
+saver,1740,29:00,2,c2_elevator_cargo,mechanic,747,10,608,2,899,152,0,0,0.0,0,1,1,1,1,saves
+saver,1740,29:00,3,c3_double_run,brief,747,10,608,2,899,152,0,0,0.0,0,1,1,1,1,c3_double_run
+saver,1940,32:20,3,c3_double_run,drive,747,10,608,2,899,152,0,0,0.0,0,1,1,1,1,camp_gas_station 200s
+saver,2210,36:50,3,c3_double_run,arena,747,10,608,2,899,152,0,0,0.0,0,1,1,1,1,gas_station
+saver,2270,37:50,3,c3_double_run,loot,747,10,608,2,899,152,0,204,760.0,24,1,1,1,1,
+saver,2434,40:34,3,c3_double_run,drive,747,10,608,2,899,152,0,204,760.0,24,1,1,1,1,gas_station_elevator 164s
+saver,2674,44:34,3,c3_double_run,arena,747,10,608,2,899,152,0,204,760.0,24,1,1,1,1,elevator
+saver,2734,45:34,3,c3_double_run,loot,747,10,608,2,899,152,0,204,760.0,24,1,1,1,1,
+saver,2920,48:40,3,c3_double_run,drive,747,10,608,2,899,152,0,204,760.0,24,1,1,1,1,camp_elevator_long 186s
+saver,2950,49:10,3,c3_double_run,ambush,747,10,608,2,899,152,0,204,760.0,24,1,1,1,1,3 buggies
+saver,3010,50:10,3,c3_double_run,camp,875,15,918,3,1173,298,0,0,0.0,0,1,1,1,1,c3_double_run +150
+saver,3010,50:10,3,c3_double_run,mechanic,875,15,918,3,1173,298,0,0,0.0,0,1,1,1,1,saves
+saver,3010,50:10,4,c1_empty_station,brief,875,15,918,3,1173,298,0,0,240.0,16,1,1,1,1,c1_empty_station
+saver,3216,53:36,4,c1_empty_station,drive,875,15,918,3,1173,298,0,0,240.0,16,1,1,1,1,camp_gas_station 206s
+saver,3246,54:06,4,c1_empty_station,ambush,875,15,918,3,1173,298,0,104,580.0,24,1,1,1,1,2 buggies
+saver,3246,54:06,4,c1_empty_station,deliver,875,15,918,3,1173,298,0,104,340.0,8,1,1,1,1,
+saver,3516,58:36,4,c1_empty_station,arena,875,15,918,3,1173,298,0,104,340.0,8,1,1,1,1,gas_station
+saver,3576,59:36,4,c1_empty_station,loot,875,15,918,3,1173,298,0,300,770.0,24,1,1,1,1,
+saver,3795,63:15,4,c1_empty_station,drive,875,15,918,3,1173,298,0,300,770.0,24,1,1,1,1,camp_gas_station 219s
+saver,3855,64:15,4,c1_empty_station,camp,1230,21,1168,4,1623,393,0,0,0.0,0,1,1,1,1,c1_empty_station +310
+saver,3855,64:15,4,c1_empty_station,mechanic,1230,21,1168,4,1623,393,0,0,0.0,0,1,1,1,1,saves
+saver,3855,64:15,4,c1_empty_station,end,1230,21,1168,4,1623,393,0,0,0.0,0,1,1,1,1,

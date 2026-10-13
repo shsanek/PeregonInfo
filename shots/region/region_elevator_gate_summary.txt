@@ -1,0 +1,36 @@
+contracts_taken: 1
+contracts_done: 0
+outposts_cleared: 1
+fights_lost: 0
+kills: 6
+items_looted: 0
+items_sold: 0
+upgrades: 0
+saves: 0
+loads: 0
+truck_resets: 0
+drive_m: 0
+tiers: [1, 1, 1, 1]
+coupons: 0
+xp: 0
+mode: foot
+nature: cells 76, colliders skipped on road beds 0, foot boxes 32
+bot steps:
+      32 step drive_out
+      33 step fight
+    2236 step unload_cargo
+    2684 cargo lift grain_sack bed 3
+    3282 cargo put grain_sack bed 4
+    3532 cargo lift grain_sack bed 4
+    4089 cargo put grain_sack bed 5
+    4351 cargo lift grain_sack bed 5
+moments:
+  0:00 new game at the Sawmill
+  0:00 contract taken: w5e0_000_grain_haul
+  0:00 stage start: elevator_gate
+  0:00 first visit map compound encounter at elevator
+  0:00 outpost elevator manned: 6 raiders
+  0:00 raiders alerted at elevator (player on foot)
+  0:36 outpost elevator cleared, 11 loot items
+  0:36 raiders climbed between floors 2 times at elevator
+  0:36 contract stop done at elevator

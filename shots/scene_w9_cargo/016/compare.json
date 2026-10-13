@@ -1,0 +1,41 @@
+{
+  "status": "identical",
+  "scene": "scene_w9_cargo",
+  "seed": 3,
+  "ticks": {
+    "native": 962,
+    "win32": 962
+  },
+  "final_state_hash": {
+    "native": "4059615d",
+    "win32": "4059615d",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 962,
+      "state_hash": {
+        "native": "4059615d",
+        "win32": "4059615d"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "3b4e5aa8",
+        "win32": "3b4e5aa8"
+      },
+      "image_hash_equal": true,
+      "bmp_sha256": {
+        "native": "970eabb221219800beade890360b2a5a390ae01fb601a9d28ce56342085437fc",
+        "win32": "970eabb221219800beade890360b2a5a390ae01fb601a9d28ce56342085437fc"
+      },
+      "bmp_equal": true,
+      "diff_pixels": 0,
+      "diff_image": null,
+      "jpg": {
+        "native": "native/tick_000962.jpg",
+        "win32": "win32/tick_000962.jpg"
+      },
+      "status": "identical"
+    }
+  ]
+}

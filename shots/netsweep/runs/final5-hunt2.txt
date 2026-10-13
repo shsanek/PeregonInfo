@@ -1,0 +1,87 @@
+LOG line 9 host carc: 1
+LOG line 12 host carc.0.kg: 32
+LOG line 14 host prompt.1: Roe buck: E / LMB — take it and drag · F / RMB — field-dress (hold)
+LOG line 21 host prompt.2: Roe buck: E / LMB — take it and drag · no knife
+LOG line 26 host carc.0.x: 512
+LOG line 27 host carc.0.z: 1201
+LOG line 31 host prompt.2: Dragging the Roe deer carcass, 32 kg (2 pulling) · E / LMB — lift it over the tailgate (hold) · F / RMB — let go
+LOG line 34 host prompt.1: Dragging the Roe deer carcass, 32 kg (1 pulling) · E / LMB — lift it over the tailgate (hold) · F / RMB — let goW + Space — climb into the bed
+LOG line 37 host prompt.1: Lifting it into the bed… 58%W + Space — climb into the bed
+LOG line 44 host prompt.2: E / LMB — pull the Roe deer carcass out over the tailgate (hold)
+LOG line 54 host prompt.1: Roe buck: E / LMB — take it and drag · F / RMB — field-dress (hold)
+LOG line 56 host prompt.1: Field-dressing… 29%
+LOG line 64 host pack.1.venison: 0
+LOG line 69 host pack.1.roe_antlers: 1
+LOG line 70 host yard.venison: 6
+LOG line 71 host yard.roe_hide: 1
+LOG line 72 host packn.1: 3
+LOG line 9 p1 carc: 1
+LOG line 12 p1 carc.0.kg: 32
+LOG line 14 p1 prompt.1: Roe buck: E / LMB — take it and drag · F / RMB — field-dress (hold)
+LOG line 21 p1 prompt.2: na
+LOG line 26 p1 carc.0.x: 512
+LOG line 27 p1 carc.0.z: 1201
+LOG line 31 p1 prompt.2: na
+LOG line 34 p1 prompt.1: Dragging the Roe deer carcass, 32 kg (1 pulling) · E / LMB — lift it over the tailgate (hold) · F / RMB — let goW + Space — climb into the bed
+LOG line 37 p1 prompt.1: Lifting it into the bed… 58%W + Space — climb into the bed
+LOG line 44 p1 prompt.2: na
+LOG line 54 p1 prompt.1: Roe buck: E / LMB — take it and drag · F / RMB — field-dress (hold)
+LOG line 56 p1 prompt.1: Field-dressing… 29%
+LOG line 64 p1 pack.1.venison: 0
+LOG line 69 p1 pack.1.roe_antlers: 1
+LOG line 70 p1 yard.venison: 6
+LOG line 71 p1 yard.roe_hide: 1
+LOG line 72 p1 packn.1: 3
+LOG line 9 p2 carc: 1
+LOG line 12 p2 carc.0.kg: 32
+LOG line 14 p2 prompt.1: na
+LOG line 21 p2 prompt.2: Roe buck: E / LMB — take it and drag · no knife
+LOG line 26 p2 carc.0.x: 512
+LOG line 27 p2 carc.0.z: 1201
+LOG line 31 p2 prompt.2: Dragging the Roe deer carcass, 32 kg (2 pulling) · E / LMB — lift it over the tailgate (hold) · F / RMB — let go
+LOG line 34 p2 prompt.1: na
+LOG line 37 p2 prompt.1: na
+LOG line 44 p2 prompt.2: E / LMB — pull the Roe deer carcass out over the tailgate (hold)
+LOG line 54 p2 prompt.1: na
+LOG line 56 p2 prompt.1: na
+LOG line 64 p2 pack.1.venison: na
+LOG line 69 p2 pack.1.roe_antlers: na
+LOG line 70 p2 yard.venison: 6
+LOG line 71 p2 yard.roe_hide: 1
+LOG line 72 p2 packn.1: 3
+PASS line 10 HUNT-04 carc = 1: host=1 p1=1@2 p2=1@2
+PASS line 11 HUNT-04 carc.0.place = 0: host=0 p1=0@2 p2=0@2
+PASS line 16 HUNT-04 carc.0.ndrag = 1: host=1@10 p1=1@12 p2=1@12
+PASS line 17 HUNT-04 carc.0.drag ~~ 0: host=0 p1=0 p2=0@1
+PASS line 18 HUNT-04 gun.1 != 2: host=0 p1=0 p2=0@1
+PASS line 23 HUNT-05 carc.0.ndrag = 2: host=2@9 p1=2@10 p2=2@9
+PASS line 28 HUNT-04 carc.0.x != $cx: host=512 p1=512 p2=512
+PASS line 29 HUNT-04 carc.0.x ~~ 1: host=512 p1=512 p2=512
+PASS line 30 HUNT-04 carc.0.z ~~ 1: host=1201 p1=1201 p2=1201
+PASS line 33 HUNT-05 carc.0.ndrag = 1: host=1@10 p1=1@11 p2=1@12
+PASS line 35 HUNT-06 prompt.1 ~ tailgate: host=Dragging the Roe deer carcass, 32 kg (1 pulling) · E / LMB — lift it over the tailgate (hold) · F / RMB — let goW + Space — climb into the bed p1=Dragging the Roe deer carcass, 32 kg (1 pulling) · E / LMB — lift it over the tailgate (hold) · F / RMB — let goW + Space — climb into the bed p2=na(x)
+PASS line 38 HUNT-06 carc.0.place = 1: host=1@81 p1=1@81 p2=1@81
+PASS line 39 HUNT-06 cargokg > $m0+20: host=34@82 p1=34@90 p2=34@90
+PASS line 40 HUNT-06 cargokg ~~ 2: host=2 p1=2 p2=2
+PASS line 46 HUNT-06 carc.0.place = 0: host=0@99 p1=0@101 p2=0@101
+PASS line 47 HUNT-06 carc.0.ndrag = 1: host=1@99 p1=1@101 p2=1@101
+PASS line 48 HUNT-06 cargokg ~~ 2: host=34 p1=34 p2=34
+PASS line 51 HUNT-04 carc.0.ndrag = 0: host=0@9 p1=0@11 p2=0@11
+PASS line 57 HUNT-07 prompt.1 ~ %: host=Field-dressing… 29% p1=Field-dressing… 29% p2=na(x)
+PASS line 58 HUNT-07 carc.0.stage = 1: host=1@273 p1=1@275 p2=1@275
+PASS line 59 HUNT-07 carc.0.kg ~~ 0: host=32 p1=32 p2=32
+PASS line 61 HUNT-07 carc.0.stage = 2: host=2@458 p1=2@458 p2=2@464
+PASS line 63 HUNT-07 carc = 0: host=0@458 p1=0@460 p2=0@461
+PASS line 65 HUNT-07 pack.1.roe_antlers = 1: host=1 p1=1 p2=na(x)
+PASS line 66 HUNT-07 yard.venison >= 5: host=6 p1=6 p2=6
+PASS line 67 HUNT-07 yard.venison ~~ 0: host=6 p1=6 p2=6
+PASS line 68 HUNT-07 yard.roe_hide ~~ 0: host=1 p1=1 p2=1
+links: peer 1 relay, peer 2 relay
+client layer checks: 204 equal, 0 differ
+acts 25, failed acts 0
+rows 4 pass 4 fail 0
+ROW HUNT-04 PASS (9 checks)
+ROW HUNT-05 PASS (2 checks)
+ROW HUNT-06 PASS (7 checks)
+ROW HUNT-07 PASS (9 checks)
+RESULT PASS

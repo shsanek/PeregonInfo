@@ -1,0 +1,13 @@
+Test project /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release
+    Start 17: net_world_tests
+    Start 21: coop_seats_tests
+1/4 Test #21: coop_seats_tests .................   Passed    8.61 sec
+    Start 24: coop_audit_tests
+2/4 Test #24: coop_audit_tests .................   Passed   23.42 sec
+    Start 66: view_tests
+3/4 Test #66: view_tests .......................   Passed    1.21 sec
+4/4 Test #17: net_world_tests ..................   Passed   72.10 sec
+
+100% tests passed out of 4
+
+Total Test time (real) =  72.11 sec

@@ -1,0 +1,8 @@
+PASS shaderc golden + limits (sky_dome, precip, terrain_lit, object_lit, vegetation_card/opaque within vs_2_0/ps_2_0)
+PASS light_tests native (sun at 52 N by season, sunrise/sunset, night moon/stars/headlights, overcast/rain/snow, transitions, mist, fog, horizon masks, hot reload)
+PASS world and nature tests native (lit TerrainVertex, legacy 32-byte terrain hash, horizon bake, renderers on rhi_null)
+PASS light_tests in EXEcutor (win32 build)
+PASS presentation only: play_region headless hash is the same at noon/clear and at night/snow/time-lapse
+PASS sun shadow cache baked or loaded for the R1 region (peregon_shadows.bin, key matches map + nature + POIs + buckets)
+PASS ONE EXEcutor RunGame D3D9 launch walks data/render/light_tour.txt (9 views x 8 conditions, in-guest readback), every shot present
+PASS rendered tour state hash == native headless hash of the same replay (with and without the tour)

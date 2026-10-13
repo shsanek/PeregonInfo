@@ -1,0 +1,42 @@
+LOG line 7 host pos.1.y: 293
+LOG line 8 host elev.1: 0
+LOG line 9 host poid.0.coal_dragline: 39
+LOG line 15 host poid.1.coal_dragline: 9
+LOG line 16 host pos.1.y: 291
+LOG line 20 host scrap: 0
+LOG line 23 host scrapnear.0: 420m @441,-1500 y3275 g3275 look1 poi46
+LOG line 25 host prompt.2: E / LMB — lift with both hands: Scrap crate (too big for the rucksack)
+LOG line 29 host pack.2: na
+LOG line 7 p1 pos.1.y: 293
+LOG line 8 p1 elev.1: 0
+LOG line 9 p1 poid.0.coal_dragline: 39
+LOG line 15 p1 poid.1.coal_dragline: 9
+LOG line 16 p1 pos.1.y: 291
+LOG line 20 p1 scrap: 0
+LOG line 23 p1 scrapnear.0: 420m @441,-1500 y3275 g3275 look1 poi46
+LOG line 25 p1 prompt.2: na
+LOG line 29 p1 pack.2: na
+LOG line 7 p2 pos.1.y: 293
+LOG line 8 p2 elev.1: 0
+LOG line 9 p2 poid.0.coal_dragline: 39
+LOG line 15 p2 poid.1.coal_dragline: 9
+LOG line 16 p2 pos.1.y: 291
+LOG line 20 p2 scrap: 0
+LOG line 23 p2 scrapnear.0: 420m @441,-1500 y3275 g3275 look1 poi46
+LOG line 25 p2 prompt.2: E / LMB — lift with both hands: Scrap crate (too big for the rucksack)
+LOG line 29 p2 pack.2: na
+PASS line 10 COAL-01 pos.1.y ~~ 1: host=293 p1=293 p2=293
+PASS line 11 COAL-01 pos.2.y ~~ 1: host=293 p1=293 p2=293
+PASS line 12 COAL-01 elev.1 ~~ 25: host=0 p1=0 p2=0
+PASS line 13 COAL-01 elev.2 ~~ 25: host=0 p1=0 p2=0
+PASS line 17 COAL-02 poid.1.coal_dragline > 3: host=9 p1=9 p2=9@1
+PASS line 18 COAL-02 poid.1.coal_dragline ~~ 1: host=9 p1=9 p2=9@1
+PASS line 19 COAL-02 pos.1.y ~~ 1: host=291 p1=291 p2=291@1
+PASS line 27 WORLD-12 scrap > $s0: host=1@10 p1=1@16 p2=1@16
+PASS line 28 WORLD-12 scrap == x: host=0 p1=0 p2=0
+acts 6, failed acts 0
+rows 3 pass 3 fail 0
+ROW COAL-01 PASS (4 checks)
+ROW COAL-02 PASS (3 checks)
+ROW WORLD-12 PASS (2 checks)
+RESULT PASS

@@ -1,0 +1,55 @@
+{
+  "status": "within_tolerance",
+  "mode": "tolerance",
+  "tolerance_lsb": 2,
+  "min_match_pct": 99.5,
+  "match_rule": "edge_aware",
+  "labels": {
+    "native": "native",
+    "win32": "win32"
+  },
+  "scene": "scene_g0_cube",
+  "seed": 1,
+  "ticks": {
+    "native": 60,
+    "win32": 60
+  },
+  "final_state_hash": {
+    "native": "2972315a",
+    "win32": "2972315a",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 60,
+      "state_hash": {
+        "native": "2972315a",
+        "win32": "2972315a"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "3755119d",
+        "win32": "5b6966f7"
+      },
+      "image_hash_equal": false,
+      "pixels": 76800,
+      "diff_pixels": 14578,
+      "max_diff": [
+        33,
+        25,
+        11
+      ],
+      "over_tolerance_pixels": 3471,
+      "over_tolerance_edge_pixels": 7,
+      "diff_image": "diff_000060.png",
+      "diff_pct": 18.9818,
+      "within_tolerance_pct": 95.4805,
+      "within_tolerance_edge_pct": 99.9909,
+      "jpg": {
+        "native": "native/tick_000060.jpg",
+        "win32": "win32/tick_000060.jpg"
+      },
+      "status": "within_tolerance"
+    }
+  ]
+}

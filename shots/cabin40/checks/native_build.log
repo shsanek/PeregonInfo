@@ -1,0 +1,37 @@
+[0/2] Re-checking globbed directories...
+[1/36] Generating prop_embedded_437.cpp
+[2/36] Generating prop_embedded_520.cpp
+[3/36] Generating prop_embedded_475.cpp
+[4/36] Generating prop_embedded_502.cpp
+[5/36] Generating prop_embedded_495.cpp
+[6/36] Generating prop_embedded_509.cpp
+[7/36] Generating prop_embedded_494.cpp
+[8/36] Generating prop_embedded_522.cpp
+[9/35] Generating prop_embedded_529.cpp
+[10/34] Generating prop_embedded_530.cpp
+[11/33] Generating prop_embedded_436.cpp
+[12/33] Generating prop_embedded_523.cpp
+[13/33] Generating prop_embedded_524.cpp
+[14/32] Generating prop_embedded_521.cpp
+[15/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_437.cpp.o
+[16/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_495.cpp.o
+[17/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_502.cpp.o
+[18/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_475.cpp.o
+[19/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_509.cpp.o
+[20/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_494.cpp.o
+[21/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_520.cpp.o
+[22/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_436.cpp.o
+[23/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_523.cpp.o
+[24/32] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_521.cpp.o
+[25/32] Linking CXX static library lib/libperegon_prop_data.a
+[26/32] Building CXX object src/view/CMakeFiles/peregon_view.dir/truck_hero.cpp.o
+[27/32] Linking CXX static library lib/libperegon_view.a
+[28/32] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care.cpp.o
+[29/32] Linking CXX static library lib/libperegon_game.a
+[30/32] Linking CXX executable bin/peregon
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_platform.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[31/32] Linking CXX executable bin/peregon_headless
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0

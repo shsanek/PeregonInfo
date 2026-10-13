@@ -1,0 +1,21 @@
+nail_raiders kills nailgun/raider sim=8 design=8 tol=+-0 OK
+nail_raiders cleared_tick sim=397 need>=1 OK
+nail_raiders ammo trips to the truck sim=1 need>=1 OK
+nail_raiders ttk nailgun/raider min s (3 nails at 10/s) sim=0.2 design=0.2 tol=+-0.017 OK
+nail_raiders nail ammo per raider (design 3 at 100% accuracy) sim=3.0 design=3.0 tol=+-0.5 OK
+sawn_off_brute brute killed by sawn_off sim=1 design=1 tol=+-0 OK
+sawn_off_brute sawn_off interrupts sim=1 need>=1 OK
+sawn_off_brute nailgun interrupts (x vs brute, no knockback interrupt) sim=0 design=0 tol=+-0 OK
+sawn_off_brute nail hits during a charge sim=27 need>=1 OK
+sawn_off_brute charge hit damage taken (brute charge 35) sim=35.0 design=35.0 tol=+-0.0 OK
+sawn_off_brute shells to kill after 25 nails (600 - 25x7) / 144 sim=3 design=3 tol=+-0 OK
+crowbar_execution executions sim=4 need>=3 OK
+crowbar_execution execution ammo = 5 per execution sim=20 design=20 tol=+-0 OK
+crowbar_execution ammo trips sim=1 design=1 tol=+-0 OK
+crowbar_execution nails used, at most 2 per execution (60 -> 39 -> 18 HP = stagger) sim=6 limit<=8 OK
+roof_mg_overheat buggies killed by roof_mg sim=3 design=3 tol=+-0 OK
+roof_mg_overheat ttk roof_mg/buggy s (2 x 30 dmg at 8/s) sim=0.133 design=0.133 tol=+-0.017 OK
+roof_mg_overheat overheats sim=4 need>=2 OK
+roof_mg_overheat shots to first overheat (heat 0.10/shot, cool 0.25/s, 8/s) sim=15 design=15 tol=+-1 OK
+roof_mg_overheat overheat lock s (heat back under 0.5 at 0.25/s) sim=2.033 design=2.0 tol=+-0.25 OK
+roof_mg_overheat belt reloaded from the bed (mag full at the end) sim=200 design=200 tol=+-0 OK

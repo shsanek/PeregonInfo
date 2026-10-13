@@ -1,0 +1,317 @@
+Start testing: Oct 11 20:09 EEST
+----------------------------------------------------------
+21/71 Testing: coop_seats_tests
+21/71 Test: coop_seats_tests
+Command: "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/bin/coop_seats_tests"
+Directory: /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/src/game
+"coop_seats_tests" start time: Oct 11 20:09 EEST
+Output:
+----------------------------------------------------------
+[suite] coop_seats_tests
+[ OK ] interaction41_map_primary_secondary_and_sill_walk
+[ OK ] interaction41_escape_and_physical_rocking
+[ OK ] crew_entry_requires_nearby_open_door_and_keeps_it_open
+[ OK ] crew_four_people_enter_their_nearest_seats_without_fallback
+[ OK ] crew_move_within_row_only_when_vacant_even_in_solo
+[ OK ] crew_seat_click_is_occluded_by_closed_door
+[ OK ] crew_passenger_can_operate_levers_but_cannot_drive
+[ OK ] crew_passenger_holds_the_ignition_independently_of_the_driver
+[ OK ] cabin40_each_exit_keeps_its_door_and_both_bed_ladders_work
+[done] 9/9 passed, 160 checks
+    sill side -1: lift 0.000 distance 0.519
+    sill side 1: lift 0.000 distance 0.310
+    inspection side -1: base 0.000 peak 1.002 final 0.971
+    inspection side 1: base 0.000 peak 0.929 final 0.901
+    rescue 90 deg: 104 held ticks, up 0.906
+    rescue 180 deg: 219 held ticks, up 0.902
+    inspection side -1: base 0.000 peak 1.002 final 0.971
+    inspection side 1: base 0.000 peak 0.929 final 0.901
+<end of output>
+Test time =   8.61 sec
+----------------------------------------------------------
+Test Passed.
+"coop_seats_tests" end time: Oct 11 20:10 EEST
+"coop_seats_tests" time elapsed: 00:00:08
+----------------------------------------------------------
+
+24/71 Testing: coop_audit_tests
+24/71 Test: coop_audit_tests
+Command: "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/bin/coop_audit_tests"
+Directory: /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/src/game
+"coop_audit_tests" start time: Oct 11 20:10 EEST
+Output:
+----------------------------------------------------------
+[suite] coop_audit_tests
+[ OK ] mouse_look_does_not_build_an_old_movement_queue_or_erase_action_edges
+[ OK ] host_clock_weather_and_season_reach_a_client_that_started_at_another_time
+[ OK ] observer_gets_walk_speed_and_seated_occupants_hide_their_backpack_and_gun
+[ OK ] shared_cabin_updates_keep_each_players_clothes_tea_fatigue_and_hold_progress
+[ OK ] actor_weapon_reload_holster_and_personal_state_reach_the_client
+[ OK ] shared_tools_do_not_duplicate_on_the_truck_or_move_to_host_hands
+[ OK ] all_four_identities_keep_separate_guns_and_wheel_input
+[ OK ] doors_windows_cargo_and_glass_converge_for_an_observer
+[ OK ] side_window_wipe_updates_only_its_changed_tile_and_rejects_a_broken_tile
+[ OK ] slot_packets_reject_truncation_without_changing_the_last_good_state
+net: {"event":"start","role":"host","sim":""}
+net: {"event":"start","role":"client","sim":"latency=100,jitter=20,loss=2,seed=46"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"hosting on udp port 44375"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"contacting host 127.0.0.1:44375"}
+net: {"event":"listen","direct":"LAN 192.168.68.61:44375/coop46"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connecting direct via 127.0.0.1:44375"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connected (direct)"}
+net: {"event":"session","type":0,"peer":1,"slot":1,"text":"actor"}
+net: {"event":"joined","peer":1,"slot":1,"name":"actor","tick":47}
+net: {"event":"session","type":2,"peer":1,"slot":1,"text":"observer"}
+net: {"event":"accepted","slot":1}
+net: {"event":"ready"}
+net: {"event":"ready","peer":1,"tick":53}
+net: {"event":"join_snapshot","peer":1,"tick":60,"raw_bytes":5080,"chunks":70,"wire_bytes":0,"seconds":0.04}
+net: {"event":"player_added","peer":1,"slot":1,"tick":60}
+net: {"event":"joined_world","tick":60,"seconds":0.20,"frame_bytes":5209,"raw_bytes":5080,"mirror_bytes":17515,"chunks":62,"equal":true,"apply_us_max":2320}
+net: {"event":"participant","slot":1,"tick":62}
+net: {"event":"tick","tick":300,"line":"tick=300 env=0xa3024676 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x455fdcbd soil=0x00000000 farm=0x00000000 ice=0x520ea4bd cargo=0x34921b31 truck=0x7f2fd6e5 physics=0x19ddaec4 care=0x62429960 director=0xc2e446a7 sites=0x9be17165 players=0x3accb2eb world=0x427dc5e4"}
+net: {"event":"tick","tick":600,"line":"tick=600 env=0xa3024676 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x2a601589 soil=0x00000000 farm=0x00000000 ice=0x520ea4bd cargo=0x34921b31 truck=0x7f2fd6e5 physics=0x9045ccbe care=0x94837bdf director=0x70899aad sites=0x9be17165 players=0xe2420cba world=0x427dc5e4"}
+net: {"event":"stop","checks_equal":14,"checks_differ":0}
+net: {"event":"stop","checks_equal":0,"checks_differ":0}
+[ OK ] remote_actor_inputs_and_private_state_cross_real_lossy_transports
+[done] 11/11 passed, 943 checks
+<end of output>
+Test time =  23.42 sec
+----------------------------------------------------------
+Test Passed.
+"coop_audit_tests" end time: Oct 11 20:10 EEST
+"coop_audit_tests" time elapsed: 00:00:23
+----------------------------------------------------------
+
+66/71 Testing: view_tests
+66/71 Test: view_tests
+Command: "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/bin/view_tests"
+Directory: /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/src/view
+"view_tests" start time: Oct 11 20:10 EEST
+Output:
+----------------------------------------------------------
+[suite] view_tests
+    closest body part to a tyre: wheel_hump_side
+    closest tyre-to-body gap m (T1..T3, droop/static/bump, full lock) = 0.060 band [0.000, 1.000] OK
+[ OK ] truck_wheels_clear_every_body_part_over_travel_and_lock
+[ OK ] truck_running_gear_follows_the_wheels
+[ OK ] generated_wheels_follow_the_grey_box_tyres
+[ OK ] generated_body_follows_the_suspension_and_doors_swing_on_hinges
+    replaced 215 kept 208
+[ OK ] generated_parts_replace_only_their_grey_boxes
+  driver T1 steer -1.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.022 L 0.019 dash max z 1.336
+  driver T1 steer -0.500 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.022 L 0.019 dash max z 1.334
+  driver T1 steer 0.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.021 L 0.021 dash max z 1.282
+  driver T1 steer 0.500 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.019 L 0.022 dash max z 1.334
+  driver T1 steer 1.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.019 L 0.022 dash max z 1.336
+  driver T2 steer -1.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.022 L 0.019 dash max z 1.336
+  driver T2 steer -0.500 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.022 L 0.019 dash max z 1.334
+  driver T2 steer 0.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.021 L 0.021 dash max z 1.282
+  driver T2 steer 0.500 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.019 L 0.022 dash max z 1.334
+  driver T2 steer 1.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.019 L 0.022 dash max z 1.336
+  driver T3 steer -1.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.022 L 0.019 dash max z 1.336
+  driver T3 steer -0.500 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.022 L 0.019 dash max z 1.334
+  driver T3 steer 0.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.021 L 0.021 dash max z 1.282
+  driver T3 steer 0.500 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.019 L 0.022 dash max z 1.334
+  driver T3 steer 1.000 verts 1143 tris 1241 arm to rim 0.033 hand rim R 0.019 L 0.022 dash max z 1.336
+[ OK ] driver_arms_grip_the_rim_without_clipping
+[ OK ] generated_dash_needles_follow_speed_and_fuel
+[ OK ] generated_steering_wheel_turns_under_the_hands
+    parts 423, grey-box triangles 8976, labelled 86
+[ OK ] truck_part_budget_and_names
+    windscreen rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    driver window rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    windscreen spans deg below eye = 24.944 band [20.000, 35.000] OK
+    windscreen spans deg above eye = 15.732 band [10.000, 30.000] OK
+    door sill deg below eye looking sideways = 33.534 band [25.000, 45.000] OK
+    windscreen rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    driver window rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    windscreen spans deg below eye = 24.944 band [20.000, 35.000] OK
+    windscreen spans deg above eye = 15.732 band [10.000, 30.000] OK
+    door sill deg below eye looking sideways = 33.534 band [25.000, 45.000] OK
+    windscreen rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    driver window rays blocked (share) = 0.000 band [0.000, 0.030] OK
+    windscreen spans deg below eye = 24.944 band [20.000, 35.000] OK
+    windscreen spans deg above eye = 15.732 band [10.000, 30.000] OK
+    door sill deg below eye looking sideways = 33.534 band [25.000, 45.000] OK
+[ OK ] cab_glass_is_big_and_unobstructed
+    bed floor above the static rear tyre top m = 0.350 band [0.300, 0.500] OK
+    bed side height above the floor m (UAZ-3303 0.4, GAZ-66 0.6) = 0.575 band [0.500, 0.700] OK
+    bed side top vs cab door sill m = 0.075 band [-0.100, 0.200] OK
+    wooden sub-frame between frame rail and bed m = 0.190 band [0.150, 0.400] OK
+    bed underside above the rear tyre at full bump m = 0.030 band [0.020, 0.400] OK
+    bed floor above the static rear tyre top m = 0.370 band [0.300, 0.500] OK
+    bed side height above the floor m (UAZ-3303 0.4, GAZ-66 0.6) = 0.575 band [0.500, 0.700] OK
+    bed side top vs cab door sill m = 0.075 band [-0.100, 0.200] OK
+    wooden sub-frame between frame rail and bed m = 0.190 band [0.150, 0.400] OK
+    bed underside above the rear tyre at full bump m = 0.030 band [0.020, 0.400] OK
+    bed floor above the static rear tyre top m = 0.390 band [0.300, 0.500] OK
+    bed side height above the floor m (UAZ-3303 0.4, GAZ-66 0.6) = 0.575 band [0.500, 0.700] OK
+    bed side top vs cab door sill m = 0.075 band [-0.100, 0.200] OK
+    wooden sub-frame between frame rail and bed m = 0.190 band [0.150, 0.400] OK
+    bed underside above the rear tyre at full bump m = 0.030 band [0.020, 0.400] OK
+[ OK ] truck_bed_proportions_match_the_references
+    bonnet rear top below the windscreen base m = 0.020 band [0.000, 0.060] OK
+    bonnet slopes forward m = 0.090 band [0.040, 0.150] OK
+    bonnet top / wheel diameter = 1.893 band [1.750, 2.000] OK
+    bonnet front edge seen above the windscreen base from the eye deg = 12.006 band [5.000, 16.000] OK
+    bonnet rear top below the windscreen base m = 0.020 band [0.000, 0.060] OK
+    bonnet slopes forward m = 0.090 band [0.040, 0.150] OK
+    bonnet top / wheel diameter = 1.916 band [1.750, 2.000] OK
+    bonnet front edge seen above the windscreen base from the eye deg = 12.006 band [5.000, 16.000] OK
+    bonnet rear top below the windscreen base m = 0.020 band [0.000, 0.060] OK
+    bonnet slopes forward m = 0.090 band [0.040, 0.150] OK
+    bonnet top / wheel diameter = 1.940 band [1.750, 2.000] OK
+    bonnet front edge seen above the windscreen base from the eye deg = 12.006 band [5.000, 16.000] OK
+[ OK ] bonnet_meets_the_windscreen_base_and_shows_from_the_seat
+    exit ticks = 45.000 band [30.000, 60.000] OK
+    exit max step m = 0.080 band [0.000, 0.150] OK
+    exit max turn rad = 0.003 band [0.000, 0.100] OK
+    enter ticks = 45.000 band [30.000, 60.000] OK
+    enter max step m = 0.080 band [0.000, 0.150] OK
+    enter max turn rad = 0.003 band [0.000, 0.100] OK
+[ OK ] exit_and_enter_are_continuous_through_the_door
+    interrupted max step m = 0.068 band [0.000, 0.150] OK
+    interrupted max turn rad = 0.001 band [0.000, 0.100] OK
+[ OK ] interrupted_transition_stays_continuous
+[ OK ] chase_toggle_and_horizon_stable_cabin
+[ OK ] cabin_reticle_stays_off_on_the_windscreen_and_marks_cabin_aim
+    right steer: front wheel x 0.479, hands shift 0.055 m
+[ OK ] steering_wheel_turns_the_same_way_as_the_front_wheels
+    closest viewmodel corner m = 0.127 band [0.030, 1.000] OK
+[ OK ] viewmodel_stays_beyond_its_near_plane
+[ OK ] fx_keeps_bounded_decals_and_particles
+    worst C++ vs Python sample error m = 0.000 band [0.000, 0.002] OK
+[ OK ] weapon_clips_match_the_python_evaluator
+    crowbar holster + equip s = 0.300 band [0.299, 0.301] OK
+    sawn_off third-person reload layer s = 2.200 band [2.199, 2.201] OK
+    sawn_off holster + equip s = 0.600 band [0.599, 0.601] OK
+    nailgun third-person reload layer s = 2.200 band [2.199, 2.201] OK
+    nailgun holster + equip s = 0.400 band [0.399, 0.401] OK
+[ OK ] weapon_clip_timings_follow_gameplay
+  fp arms crowbar.idle frames 193 right held 193 solve 0.000 touch 0.023 | left held 0 solve 0.000 touch 0.000
+  fp arms crowbar.holster frames 9 right held 9 solve 0.000 touch 0.023 | left held 0 solve 0.000 touch 0.000
+  fp arms crowbar.equip frames 12 right held 12 solve 0.000 touch 0.023 | left held 0 solve 0.000 touch 0.000
+  fp arms crowbar.swing_a frames 39 right held 39 solve 0.000 touch 0.023 | left held 0 solve 0.000 touch 0.000
+  fp arms crowbar.swing_b frames 39 right held 39 solve 0.000 touch 0.023 | left held 0 solve 0.000 touch 0.000
+  fp arms crowbar.swing_c frames 39 right held 39 solve 0.000 touch 0.023 | left held 0 solve 0.000 touch 0.000
+  fp arms sawn_off.idle frames 193 right held 193 solve 0.000 touch 0.030 | left held 193 solve 0.000 touch 0.030
+  fp arms sawn_off.holster frames 9 right held 9 solve 0.000 touch 0.030 | left held 9 solve 0.000 touch 0.030
+  fp arms sawn_off.equip frames 30 right held 30 solve 0.000 touch 0.030 | left held 30 solve 0.000 touch 0.030
+  fp arms sawn_off.fire frames 16 right held 16 solve 0.000 touch 0.030 | left held 16 solve 0.000 touch 0.030
+  fp arms sawn_off.reload frames 109 right held 109 solve 0.000 touch 0.030 | left held 109 solve 0.000 touch 0.030
+  fp arms nailgun.idle frames 193 right held 193 solve 0.000 touch 0.027 | left held 193 solve 0.000 touch 0.024
+  fp arms nailgun.holster frames 9 right held 9 solve 0.000 touch 0.027 | left held 9 solve 0.000 touch 0.024
+  fp arms nailgun.equip frames 18 right held 18 solve 0.000 touch 0.027 | left held 18 solve 0.000 touch 0.024
+  fp arms nailgun.fire frames 7 right held 7 solve 0.000 touch 0.027 | left held 7 solve 0.000 touch 0.024
+  fp arms nailgun.reload frames 121 right held 121 solve 0.000 touch 0.027 | left held 84 solve 0.000 touch 0.035
+[ OK ] fp_arms_stay_on_the_weapon_sockets
+[ OK ] hero_hood_and_tailgate_open_around_their_real_hinges
+[ OK ] hero_wheels_follow_suspension_without_rotating_chassis
+[ OK ] hero_controls_animate_instead_of_snapping_and_needles_use_live_values
+[ OK ] hero_controls_transfer_and_separate_key_have_animated_poses
+[ OK ] hero_tyre_toggle_replaces_the_choke_card_and_the_choke_is_a_pull_knob_under_the_lock
+[ OK ] hero_window_seal_line_tracks_the_sliding_pane
+[ OK ] hero_engine_load_answers_the_pedal_within_50ms
+[ OK ] hero_controls_all_gauges_park_without_ignition_power
+[ OK ] hero_gauges_never_jump_and_stay_on_their_pins
+[ OK ] hero_tach_brake_then_throttle_rises_smoothly_from_idle
+[ OK ] hero_tach_follows_shift_drop_and_downshift_blip
+[ OK ] hero_engine_catch_flares_then_settles_and_stop_spins_down
+[ OK ] hero_driver_has_one_tank_on_supports_and_no_storage_lid_or_straps
+[ OK ] hero_rear_locker_lids_hold_only_their_own_door
+[ OK ] hero_passenger_locker_opens_outward_and_holds_its_door
+[ OK ] hero_oil_and_coolant_follow_physical_models
+[ OK ] hero_speedometer_reads_magnitude_and_fuel_gauge_is_damped
+[ OK ] hero_gauge_engine_needles_quiver_but_stopped_and_unpowered_needles_are_stable
+[ OK ] shovel_data_parses_and_keys_cover_the_stroke
+  shovel fp: frames 49 solve 0.000 / 0.000 touch 0.025 / 0.025 m, nearest handle point 0.358 m, blade tip at the bite y -0.973 m
+[ OK ] shovel_first_person_hands_stay_on_the_handle_through_the_stroke
+  shovel tp (bandit_mikhalych): frames 98 errors 0, worst grip 0.000 m, hand skin to socket 0.028 m, handle into the body 0.000 m, nearest torso axis 0.276 m
+[ OK ] shovel_third_person_grip_check_hands_on_the_handle_and_shaft_clear_of_the_body
+[ OK ] crew_ray_tracks_all_four_doors_across_the_entire_swing
+[ OK ] crew_ray_depth_stops_at_closed_door_and_does_not_hit_its_old_pose
+[ OK ] crew_rear_window_and_crank_follow_their_parent_door
+[ OK ] crew_ray_tracks_hood_and_tailgate_through_every_pose
+[ OK ] crew_seat_body_stays_inside_the_cabin_and_above_the_floor
+[done] 48/48 passed, 23561 checks
+  crew seat skin: outside 0, floor -0.306 roof 0.806 rear toes -0.406 m
+<end of output>
+Test time =   1.21 sec
+----------------------------------------------------------
+Test Passed.
+"view_tests" end time: Oct 11 20:10 EEST
+"view_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/71 Testing: net_world_tests
+17/71 Test: net_world_tests
+Command: "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/bin/net_world_tests"
+Directory: /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/native-release/src/game
+"net_world_tests" start time: Oct 11 20:09 EEST
+Output:
+----------------------------------------------------------
+[suite] net_world_tests
+[ OK ] text_replay_carries_env_commands_and_reads_old_lines
+[ OK ] game_save_load_round_trips_cab_doors_and_env
+[ OK ] net_figures_and_resident_bodies_are_presentation_only
+[ OK ] old_save_without_env_and_cab_sections_still_loads
+    tick=1200 all=0xdb7b05c5 env=0xdb39c65a snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x6e3d4336 soil=0x00000000 farm=0x00000000 ice=0x520ea4bd cargo=0x34921b31 truck=0x10a074b7 physics=0xbec64c1b care=0x699afc94 director=0x166adf2e sites=0xd757d81e players=0xd3eaff4e world=0x427dc5e4
+[ OK ] env_commands_change_env_and_replay_identically
+    changed between save and load: env,ruts,truck,care,director
+[ OK ] scene_save_then_load_restores_saved_layers_and_continues_identically
+    tick=700 all=0xab17626d env=0x8be81168 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x44895ce8 soil=0x00000000 farm=0x4fb034e5 ice=0xd287b0a8 cargo=0x34921b31 truck=0xd1ccae63 physics=0xca02c728 care=0x10341805 director=0xa955c737 sites=0x34537c86 players=0x0f90e0ea world=0x427dc5e4
+[ OK ] region_ice_hole_is_saved_hashed_and_replays_identically
+net: {"event":"start","role":"host","sim":""}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"hosting on udp port 43875"}
+net: {"event":"listen","direct":"LAN 192.168.68.61:43875/n2test"}
+net: {"event":"tick","tick":300,"line":"tick=300 env=0xf77682c4 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xf28d388a soil=0x0a40ab6c farm=0xf619e2bf ice=0x5bd93b54 cargo=0x34921b31 truck=0x528771c0 physics=0x4e0fcdd7 care=0x6a96a97a director=0x8dfd2977 sites=0x9be17165 players=0xcb7f7a80 world=0x427dc5e4"}
+net: {"event":"tick","tick":600,"line":"tick=600 env=0xacaad5b6 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x264a5ecb soil=0xbf958860 farm=0xdce54d09 ice=0x5bd93b54 cargo=0x34921b31 truck=0x6bdba386 physics=0x408e0419 care=0x604786c4 director=0xd60969a7 sites=0x9be17165 players=0xcb7f7a80 world=0x427dc5e4"}
+net: {"event":"start","role":"client","sim":""}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"contacting host 127.0.0.1:43875"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connecting direct via 127.0.0.1:43875"}
+net: {"event":"session","type":5,"peer":0,"slot":0,"text":"connected (direct)"}
+net: {"event":"session","type":0,"peer":1,"slot":1,"text":"p1"}
+net: {"event":"session","type":2,"peer":1,"slot":1,"text":"host"}
+net: {"event":"joined","peer":1,"slot":1,"name":"p1","tick":600}
+net: {"event":"accepted","slot":1}
+net: {"event":"ready"}
+net: {"event":"ready","peer":1,"tick":603}
+net: {"event":"join_snapshot","peer":1,"tick":660,"raw_bytes":15369,"chunks":178,"wire_bytes":14120,"seconds":0.89}
+net: {"event":"player_added","peer":1,"slot":1,"tick":660}
+net: {"event":"joined_world","tick":660,"seconds":0.91,"frame_bytes":15889,"raw_bytes":15369,"mirror_bytes":30567,"chunks":66,"equal":true,"apply_us_max":2051}
+net: {"event":"participant","slot":1,"tick":661}
+net: {"event":"place","tick":661,"place":1,"seat":0}
+net: {"event":"prediction","final":false,"samples":0,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":0,"interp_delay_ticks":3.0000,"rtt_ms":1,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":900,"line":"tick=900 env=0x660e1e29 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x0a4f6941 soil=0xd9ab26bf farm=0xc742ba81 ice=0x5bd93b54 cargo=0x34921b31 truck=0x0e72b891 physics=0x314f1213 care=0x991366c8 director=0x72749f87 sites=0x9be17165 players=0x3e2a8e69 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":279,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":3,"interp_delay_ticks":4.1793,"rtt_ms":1,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":1200,"line":"tick=1200 env=0xa3e3bb54 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x5779ea7c soil=0x96fec24f farm=0xd145a85f ice=0x5bd93b54 cargo=0x34921b31 truck=0x56331bb2 physics=0x8c62cbf6 care=0xc07a7a3f director=0x1071b477 sites=0x9be17165 players=0x3e2a8e69 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":560,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":3,"interp_delay_ticks":4.1415,"rtt_ms":1,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":1500,"line":"tick=1500 env=0x2a6394c2 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xce97d968 soil=0x886a8db5 farm=0x30e289c4 ice=0x5bd93b54 cargo=0x34921b31 truck=0xf20b7a81 physics=0x4f1a916a care=0x30e9e242 director=0x6e7fa28a sites=0x9be17165 players=0x3e2a8e69 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":840,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":3,"interp_delay_ticks":4.1572,"rtt_ms":1,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":1800,"line":"tick=1800 env=0x3bbfc8ff snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xa2d5282d soil=0x8cdc44db farm=0x4a7bf109 ice=0x5bd93b54 cargo=0x34921b31 truck=0x2d5d25e7 physics=0x8d5aaf24 care=0x0486cf68 director=0xeb33d99c sites=0x9be17165 players=0x3e2a8e69 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":1119,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":3,"interp_delay_ticks":4.2207,"rtt_ms":1,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":2100,"line":"tick=2100 env=0xccb90eb5 snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x65d5263c soil=0x92dd5480 farm=0x3df47a4f ice=0x5bd93b54 cargo=0x34921b31 truck=0x64b95549 physics=0xf73e1f72 care=0xca5b57d8 director=0x485972e3 sites=0x9be17165 players=0x3e2a8e69 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":1398,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":3,"interp_delay_ticks":4.3041,"rtt_ms":1,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":2400,"line":"tick=2400 env=0x536d184a snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0xc4168426 soil=0xf64f0aae farm=0x921524ba ice=0x5bd93b54 cargo=0x34921b31 truck=0xc6468001 physics=0x5ed6a37e care=0xc2f28f76 director=0xf76c10b9 sites=0x9be17165 players=0x3e2a8e69 world=0x427dc5e4"}
+net: {"event":"prediction","final":false,"samples":1677,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":3,"interp_delay_ticks":4.4609,"rtt_ms":3,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"tick","tick":2700,"line":"tick=2700 env=0x9aa6b5cd snow=0x1a1acc2c drifts=0x811c9dc5 ruts=0x39ef85c8 soil=0x7edaa5cb farm=0xa67c05d7 ice=0x5bd93b54 cargo=0x34921b31 truck=0x19d3a71d physics=0x781b2d24 care=0xf1a01e60 director=0x7ffe6e14 sites=0x9be17165 players=0x3e2a8e69 world=0x427dc5e4"}
+    host: CO-OP HOST  code: (waiting for relay)
+    host: hosting on udp port 43875
+    host: direct: LAN 192.168.68.61:43875/n2test
+    host: P1 p1  direct  RTT 8 ms  in world  layers 8.3 KB/s  check t2640 equal (34 ok, 0 diff)
+    client: layer checks: 34 equal, 0 differ
+net: {"event":"prediction","final":true,"samples":1897,"err_p50":0.0000,"err_p95":0.0000,"err_max":0.0000,"fix_p95":0.0000,"fix_max":0.0000,"snaps":0,"replayed_max":3,"interp_delay_ticks":4.1711,"rtt_ms":3,"bot_m":0.0000,"ride_samples":0,"truck_jerk_p95_mm":0.0000,"truck_jerk_max_mm":0.0000,"seat_cam_p95_mm":0.0000,"seat_cam_p99_mm":0.0000,"seat_cam_max_mm":0.0000,"avatar_seat_p95_m":0.0000,"avatar_seat_max_m":0.0000,"clock_backsteps":0,"underruns":0}
+net: {"event":"stop","checks_equal":34,"checks_differ":0}
+net: {"event":"stop","checks_equal":0,"checks_differ":0}
+[ OK ] two_scenes_join_mid_game_and_replicate_every_layer
+[done] 8/8 passed, 76 checks
+<end of output>
+Test time =  72.10 sec
+----------------------------------------------------------
+Test Passed.
+"net_world_tests" end time: Oct 11 20:11 EEST
+"net_world_tests" time elapsed: 00:01:12
+----------------------------------------------------------
+
+End testing: Oct 11 20:11 EEST

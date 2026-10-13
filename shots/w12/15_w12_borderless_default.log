@@ -1,0 +1,9 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w12_menu --rhi d3d9 --seed 4 --ticks 330 --replay C:\Peregon\scene_w12_menu.txt --out C:\Peregon\out --window=borderless
+rc=0
+--- stdout
+scene=scene_w12_menu seed=4 ticks=330 flavour=win32
+final_state_hash=ca02e470
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 960x540 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.4T9Nm5BqVe/dump/present_000.bgra
+[RunResult] guest_exit_code=0x00000000

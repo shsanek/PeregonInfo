@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "scene": "play_proving_auto",
+  "seed": 1,
+  "ticks": 16000,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "rhi": null,
+  "replay": null,
+  "wall_time_ms": 1228.163,
+  "frame_time_ms": {"avg": 0.076, "min": 0.042, "max": 3.380},
+  "final_state_hash": "c3dc645c",
+  "captures": [],
+  "scene_metrics": {"play": {"mode": "drive", "play_ticks": 16000, "ticks_by_mode": {"menu": 0, "settings": 0, "foot": 0, "drive": 16000, "board": 0, "trader": 0, "mechanic": 0, "cargo": 0, "pause": 0, "down": 0}, "coupons": 0, "xp": 0, "tiers": [1, 2, 2, 1], "contract": null, "stop": 0, "contracts_taken": 0, "contracts_done": 0, "outposts_cleared": 0, "roadblocks_cleared": 0, "fights_lost": 0, "kills": 0, "items_lost": 0, "items_recovered": 0, "items_looted": 0, "items_sold": 0, "ammo_trips": 0, "upgrades": 0, "saves": 0, "loads": 0, "autosaves": 0, "truck_resets": 0, "enters": 0, "exits": 0, "drive_m": 728, "max_kmh": 29, "stuck_s": 24, "mud_s": 63, "bed_items": 3, "loose": 0, "truck": [716, 1327, 0], "player": [716, 1327], "day": 1, "minute": 583, "places": {"gas_station": "occupied", "elevator": "occupied"}, "met": {"ambush": 0, "traffic": 0, "convoy": 0, "breakdown": 0, "wreck": 0, "obstacle": 0}, "lang": "en", "pois": [], "sites": [], "sites_created": 0, "truck_hits": 0, "active_site": -1, "cargo": {"hops": 0, "max_hop_cm": 0, "lost": 0, "slides": 0, "min_dvy_mm": -173, "ridge_ticks": 0, "ridge_kmh": 0, "ridge0_mm": 294}, "fight": null, "fuel": 59, "weather": 0, "ground_wet_pct": 0, "moments": ["0:00 drove to the proving ground"]}, "proving": {"leg": 19, "lx": 16, "lz": 147, "feature_ticks": {"none": 6170, "strip": 969, "rut_track": 2435, "hummocks": 1809, "mud_hill": 572, "ford": 2309, "cross_axle": 1736}, "max_sink_mm": 300, "max_wheel_water_mm": 822, "max_water_mm": 728, "max_buoyancy_n": 7611, "max_ford_drift_cms": -81, "max_mud": 100, "hummock_lift_wheel_ticks": 465, "stuck_ticks": 1488, "rut_chunks": 147, "rut_writes": 689134}},
+  "playtest": {"time_road_s": 266, "time_arena_s": 0, "time_cargo_bed_s": 0, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": 0, "cargo_lost": 0, "cargo_recovered": 0, "stuck_time_by_surface_s": {"any": 24}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

@@ -1,0 +1,31 @@
+{
+ "asset": "water_bucket",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1938746
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 800
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 400
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9711,
+   "side": 0.9903,
+   "q34": 0.9883,
+   "top": 0.9912
+  },
+  "LOD1 (after)": {
+   "front": 0.9585,
+   "side": 0.9834,
+   "q34": 0.9678,
+   "top": 0.9741
+  }
+ }
+}

@@ -1,0 +1,14 @@
+LB1 NIGHTBAL performance (native Metal, 1280x720, data/render/perf_tour.txt: 9 views x noon/sunset/rain,
+mean of per-step frame_ms_avg, two runs each, shared Mac; before = claude/peregon-design a3d9d9c076, after = this branch)
+
+run   build   season system      mean frame ms
+0     before  off                5.704
+0     before  autumn:0.4         5.676
+0     after   off                5.646
+0     after   autumn:0.4         5.862
+1     before  off                5.738
+1     before  autumn:0.4         5.677
+1     after   off                5.500
+1     after   autumn:0.4         5.577
+
+best of two: before off 5.704, after off 5.500; before autumn 5.676, after autumn 5.577 (within run-to-run noise of about 0.3 ms)

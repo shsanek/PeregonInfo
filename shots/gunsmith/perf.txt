@@ -1,0 +1,12 @@
+B1 GUNSMITH perf, stage r2_scrapyard (truck at the gate parking, yard in view), 1500 ticks, native Metal 1280x720, last 1000 frames,
+interleaved tip (fd21fa6045) / this branch, shared Mac under load from other agents:
+
+tip  frame ms mean 14.26 p95 24.29 draws 1222 objects ms 0.81
+mine frame ms mean 16.94 p95 33.18 draws 1251 objects ms 1.10
+tip  frame ms mean 17.48 p95 31.24 draws 1222 objects ms 0.85
+mine frame ms mean 27.91 p95 59.33 draws 1251 objects ms 1.89
+tip  frame ms mean 15.67 p95 24.29 draws 1222 objects ms 0.66
+mine frame ms mean 13.16 p95 15.93 draws 1251 objects ms 0.62
+
++29 draws (Kuzmich, three bench props, the hut and lean-to pieces); frame and objects times are within the machine noise
+(best rounds 14.26 vs 13.16 ms), one outlier round on this branch.

@@ -1,0 +1,158 @@
+[0/2] Re-checking globbed directories...
+[1/101] Generating loc_embedded_en.cpp
+[2/101] Generating loc_embedded_ru.cpp
+[3/101] Building CXX object src/loc/CMakeFiles/peregon_loc.dir/loc_embedded_en.cpp.o
+[4/101] Building CXX object src/loc/CMakeFiles/peregon_loc.dir/loc_embedded_ru.cpp.o
+[5/101] Linking CXX static library lib/libperegon_loc.a
+[6/101] Building CXX object src/ui/CMakeFiles/peregon_ui.dir/tr.cpp.o
+[7/101] Building CXX object src/ui/CMakeFiles/peregon_ui.dir/render.cpp.o
+[8/101] Building CXX object src/ui/CMakeFiles/peregon_ui.dir/widgets.cpp.o
+[9/101] Building CXX object src/ui/CMakeFiles/peregon_ui.dir/draw.cpp.o
+[10/101] Building CXX object src/cargo/CMakeFiles/peregon_cargo_ui.dir/screen.cpp.o
+[11/101] Building CXX object src/ui/CMakeFiles/peregon_ui.dir/font.cpp.o
+[12/101] Linking CXX static library lib/libperegon_ui.a
+[13/101] Linking CXX static library lib/libperegon_cargo_ui.a
+[14/101] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/camp_agent.cpp.o
+[15/101] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/api.cpp.o
+[16/101] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/episode_arena.cpp.o
+[17/101] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/episode_drive.cpp.o
+[18/101] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/episode_camp.cpp.o
+[19/101] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/runner.cpp.o
+[20/101] Linking CXX static library lib/libperegon_bot.a
+[21/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_table.cpp.o
+[22/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_s1_surfaces.cpp.o
+[23/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w3_combat.cpp.o
+[24/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/runner.cpp.o
+[25/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_slice.cpp.o
+[26/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_nature.cpp.o
+[27/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w4_ai.cpp.o
+[28/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_board.cpp.o
+[29/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w9_cargo.cpp.o
+[30/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_cargo.cpp.o
+[31/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_common.cpp.o
+[32/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_hud.cpp.o
+[33/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w5_living_world.cpp.o
+[34/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_arena.cpp.o
+[35/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/net_glue.cpp.o
+[36/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_camp.cpp.o
+[37/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w11_audio.cpp.o
+[38/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w12_menu.cpp.o
+[39/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_drive.cpp.o
+[40/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_save.cpp.o
+[41/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ui.cpp.o
+[42/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_foot.cpp.o
+[43/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_render.cpp.o
+[44/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/net_world.cpp.o
+[45/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bandits.cpp.o
+[46/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seasons.cpp.o
+[47/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_env.cpp.o
+[48/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_game.cpp.o
+[49/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_atmos.cpp.o
+[50/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_river_ice.cpp.o
+[51/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net.cpp.o
+[52/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_winterplow.cpp.o
+[53/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot.cpp.o
+[54/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_truck_hero.cpp.o
+[55/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_pick.cpp.o
+[56/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_home.cpp.o
+[57/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_residents.cpp.o
+[58/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_lake.cpp.o
+[59/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ruts.cpp.o
+[60/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_shovel.cpp.o
+[61/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_dig.cpp.o
+[62/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_mudpass.cpp.o
+[63/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_scene.cpp.o
+[64/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_survival.cpp.o
+[65/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water.cpp.o
+[66/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water_tools.cpp.o
+[67/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_boat.cpp.o
+[68/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_timewarp.cpp.o
+[69/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care_rig.cpp.o
+[70/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_cargo.cpp.o
+[71/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_farm.cpp.o
+[72/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_cargo.cpp.o
+[73/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care.cpp.o
+[74/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_feel.cpp.o
+[75/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_detail.cpp.o
+[76/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_contact.cpp.o
+[77/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_walk.cpp.o
+[78/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_nature.cpp.o
+[79/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_drive.cpp.o
+[80/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_region.cpp.o
+[81/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_paper.cpp.o
+[82/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_props.cpp.o
+[83/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_loadout.cpp.o
+[84/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_torch.cpp.o
+[85/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_static.cpp.o
+[86/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_inventory.cpp.o
+[87/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_slots.cpp.o
+[88/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_stamina.cpp.o
+[89/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_woodcut.cpp.o
+[90/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seats.cpp.o
+[91/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_command.cpp.o
+[92/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net_client.cpp.o
+[93/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/paper_map_render.cpp.o
+[94/101] Building CXX object src/game/CMakeFiles/net_menu_tests.dir/play/tests/net_menu_tests.cpp.o
+FAILED: [code=1] src/game/CMakeFiles/net_menu_tests.dir/play/tests/net_menu_tests.cpp.o 
+/usr/bin/c++ -DPEREGON_STEAM_APP_ID=480 -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/game -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/farm/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/cargo/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/core/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/world/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/kern/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/rhi/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/data/shaders -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/platform/include -I/opt/homebrew/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/data/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/assets/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/economy/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/rhi_null/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/ui/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/loc/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/save/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/audio/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/vehicle/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/survival/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/water/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/lake/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/net/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/bot/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/ai/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/combat/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/director/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/view/include -I/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/poi/include -O3 -DNDEBUG -std=c++17 -arch arm64 -mmacosx-version-min=13.0 -fvisibility=hidden -fvisibility-inlines-hidden -ffp-contract=off -fno-fast-math -fno-exceptions -Wall -Wextra -Wpedantic -Werror -MD -MT src/game/CMakeFiles/net_menu_tests.dir/play/tests/net_menu_tests.cpp.o -MF src/game/CMakeFiles/net_menu_tests.dir/play/tests/net_menu_tests.cpp.o.d -o src/game/CMakeFiles/net_menu_tests.dir/play/tests/net_menu_tests.cpp.o -c /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/game/play/tests/net_menu_tests.cpp
+In file included from /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/game/play/tests/net_menu_tests.cpp:2:
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:91:15: error: call to 'to_text' is ambiguous
+   91 |               to_text(actual) + " expected=" + to_text(expected) + "\n");
+      |               ^~~~~~~
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/src/game/play/tests/net_menu_tests.cpp:162:5: note: in instantiation of function template specialization 'peregon_test::check_eq<float, float>' requested here
+  162 |     CHECK_EQ(p.foot_->player().pos.x, pos.x);
+      |     ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:140:21: note: expanded from macro 'CHECK_EQ'
+  140 |     ::peregon_test::check_eq((actual), (expected), #actual " == " #expected, __FILE_NAME__, __LINE__)
+      |                     ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:46:20: note: candidate function
+   46 | inline std::string to_text(uint64_t value) {
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:60:20: note: candidate function
+   60 | inline std::string to_text(int64_t value) {
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:67:20: note: candidate function
+   67 | inline std::string to_text(uint32_t value) { return to_text(static_cast<uint64_t>(value)); }
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:68:20: note: candidate function
+   68 | inline std::string to_text(int32_t value) { return to_text(static_cast<int64_t>(value)); }
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:69:20: note: candidate function
+   69 | inline std::string to_text(bool value) { return value ? "true" : "false"; }
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:91:48: error: call to 'to_text' is ambiguous
+   91 |               to_text(actual) + " expected=" + to_text(expected) + "\n");
+      |                                                ^~~~~~~
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:46:20: note: candidate function
+   46 | inline std::string to_text(uint64_t value) {
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:60:20: note: candidate function
+   60 | inline std::string to_text(int64_t value) {
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:67:20: note: candidate function
+   67 | inline std::string to_text(uint32_t value) { return to_text(static_cast<uint64_t>(value)); }
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:68:20: note: candidate function
+   68 | inline std::string to_text(int32_t value) { return to_text(static_cast<int64_t>(value)); }
+      |                    ^
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tests/peregon_test.h:69:20: note: candidate function
+   69 | inline std::string to_text(bool value) { return value ? "true" : "false"; }
+      |                    ^
+2 errors generated.
+[95/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_truck_showcase.cpp.o
+[96/101] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_poi_showcase.cpp.o
+ninja: build stopped: subcommand failed.
+[0/2] Re-checking globbed directories...
+[1/6] Linking CXX static library lib/libperegon_game.a
+[2/6] Linking CXX executable bin/peregon
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_platform.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[3/6] Linking CXX executable bin/peregon_headless
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[4/6] Building CXX object src/game/CMakeFiles/net_menu_tests.dir/play/tests/net_menu_tests.cpp.o
+[5/6] Linking CXX executable bin/net_menu_tests
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_assets.a', 'lib/libperegon_cargo.a', 'lib/libperegon_combat.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0

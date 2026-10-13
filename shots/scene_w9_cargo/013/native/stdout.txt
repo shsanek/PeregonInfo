@@ -1,0 +1,3 @@
+scene=scene_w9_cargo seed=3 ticks=2010 flavour=native
+capture tick=2010 state=d0923ba8 image=b04aa847 file=tick_002010.bmp
+final_state_hash=d0923ba8

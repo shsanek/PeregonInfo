@@ -1,0 +1,4 @@
+seed 7
+report hash 0xd866b400 flagged 0
+scene_w8_economy seed 7 final 040badc2 sim 0x769f1e4f rules 0xf58caec6 content 0x3771e36b coupons 240 purchases 17:04 armor T2, 29:00 engine T2
+[done] 14/14 passed, 6325 checks

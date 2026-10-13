@@ -1,0 +1,4 @@
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2d1aabae183369bf/games/peregon/tools/run_executor.sh: line 112:  4256 Killed: 9               "$RUN_BIN" "$GUEST_COMMAND" "$HOST_DIR" > "$OUT_TMP" 2> "$STDERR_LOG"
+run_executor: peregon_headless.exe timed out (attempt 1, host load { 25.08 30.44 29.91 }), retrying
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2d1aabae183369bf/games/peregon/tools/run_executor.sh: line 112:  5602 Killed: 9               "$RUN_BIN" "$GUEST_COMMAND" "$HOST_DIR" > "$OUT_TMP" 2> "$STDERR_LOG"
+run_executor: peregon_headless.exe exited with status 137 (emulator log: /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2d1aabae183369bf/games/peregon/build/scene-runs/scene_w4_ai/009/win32-host.stderr.log)

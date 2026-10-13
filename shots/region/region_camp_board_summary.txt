@@ -1,0 +1,30 @@
+contracts_taken: 1
+contracts_done: 0
+outposts_cleared: 0
+fights_lost: 0
+kills: 0
+items_looted: 0
+items_sold: 0
+upgrades: 0
+saves: 0
+loads: 0
+truck_resets: 0
+drive_m: 490
+tiers: [1, 1, 1, 1]
+coupons: 0
+xp: 0
+mode: drive
+nature: cells 104, colliders skipped on road beds 0, foot boxes 14
+bot steps:
+      32 step to_board
+      40 step take
+     242 step load_cargo
+     243 step cargo_look
+     501 step to_truck
+     509 step drive_out
+moments:
+  0:00 new game at the Sawmill
+  0:00 stage start: camp_board
+  0:00 autosave
+  0:02 contract taken: w5e0_000_grain_haul
+  0:30 autosave

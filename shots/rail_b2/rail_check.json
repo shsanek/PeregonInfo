@@ -1,0 +1,92 @@
+{
+ "bridge_points": 5,
+ "crossing_points": 2,
+ "fails": [],
+ "lines": [
+  {
+   "bridges": [],
+   "crossings": [
+    {
+     "angle_deg": 70.5,
+     "road": "r2_bystraya_road",
+     "road_h": 233.94,
+     "s": 2127.5
+    }
+   ],
+   "id": "zar_rail_berezovka",
+   "kind": "branch",
+   "length_m": 2262.9,
+   "max_cut_m": 1.14,
+   "max_fill_m": 2.74,
+   "max_grade": 0.02,
+   "min_radius_m": 283.9,
+   "objects": 6,
+   "radii_m": [
+    0.0,
+    250.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    0.0
+   ]
+  },
+  {
+   "bridges": [
+    {
+     "river": "creek_108_r2",
+     "s0": 3075.4,
+     "s1": 3102.6
+    }
+   ],
+   "crossings": [
+    {
+     "angle_deg": 49.5,
+     "road": "r2_ferry_track",
+     "road_h": 227.23,
+     "s": 2891.3
+    }
+   ],
+   "id": "zar_rail_main",
+   "kind": "main2",
+   "length_m": 4403.7,
+   "max_cut_m": 9.2,
+   "max_fill_m": 7.09,
+   "max_grade": 0.012,
+   "min_radius_m": 324.2,
+   "objects": 54,
+   "radii_m": [
+    0.0,
+    2000.0,
+    500.0,
+    350.0,
+    700.0,
+    800.0,
+    0.0
+   ]
+  }
+ ],
+ "objects": {
+  "1": 6,
+  "2": 40,
+  "3": 1,
+  "4": 4,
+  "5": 2,
+  "6": 2,
+  "7": 1,
+  "8": 2,
+  "9": 2
+ },
+ "owned_prism_points": 1661,
+ "points": 4885,
+ "runs": 44,
+ "tiles": 16,
+ "worst_crossing_m": 0.008,
+ "worst_formation_m": 0.366,
+ "worst_object_m": 0.015
+}

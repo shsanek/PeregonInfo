@@ -1,0 +1,30 @@
+LOG line 9 host prompt.1: Rod: hold LMB for power, release to cast · E — put down (look down or into the bed: LMB too)
+LOG line 22 host line.1: 2
+LOG line 23 host creel.1: 1
+LOG line 24 host line.1: 0
+LOG line 25 host banner.1: Perch 0.36 kg! In the creel: 1
+LOG line 9 p1 prompt.1: Rod: hold LMB for power, release to cast · E — put down (look down or into the bed: LMB too)
+LOG line 22 p1 line.1: 2
+LOG line 23 p1 creel.1: 1
+LOG line 24 p1 line.1: 0
+LOG line 25 p1 banner.1: -
+LOG line 9 p2 prompt.1: na
+LOG line 22 p2 line.1: 2
+LOG line 23 p2 creel.1: na
+LOG line 24 p2 line.1: 0
+LOG line 25 p2 banner.1: na
+PASS line 13 FISH-02 line.1 >= 1: host=1@9 p1=1@9 p2=2@62
+PASS line 14 FISH-04 line.1 >= 3: host=3@34 p1=3@34 p2=3@36
+PASS line 16 FISH-04 line.1 >= 4: host=4@869 p1=4@869 p2=4@869
+PASS line 17 FISH-05 line.1 = 6: host=6@960 p1=6@960 p2=6@960
+PASS line 19 FISH-06 creel.1 == x: host=0 p1=0@4 p2=na@4
+PASS line 20 FISH-08 creel.1 > $c1: host=1@1867 p1=1@1868 p2=na(x)
+PASS line 21 FISH-08 creel.0 = $c0: host=0 p1=na@4 p2=na@4
+acts 8, failed acts 0
+rows 5 pass 5 fail 0
+ROW FISH-02 PASS (1 checks)
+ROW FISH-04 PASS (2 checks)
+ROW FISH-05 PASS (1 checks)
+ROW FISH-06 PASS (1 checks)
+ROW FISH-08 PASS (2 checks)
+RESULT PASS

@@ -1,0 +1,53 @@
+LOG line 8 host prompt.1: Tree: LMB — fell it (it falls away from you)
+LOG line 16 host felled: 1
+LOG line 19 host prompt.1: Felled tree: LMB — strip the branches
+LOG line 22 host yard.log: 0
+LOG line 23 host yard.thick_log: 1
+LOG line 27 host prompt.2: E / LMB — lift with both hands: Thick log (too big for the rucksack)
+LOG line 37 host prompt.2: LMB — dig · E — put the shovel down
+LOG line 40 host layer.soil: 6dc80d72
+LOG line 44 host prompt.0: Tree: LMB — fell it (it falls away from you)
+LOG line 8 p1 prompt.1: Tree: LMB — fell it (it falls away from you)
+LOG line 16 p1 felled: 1
+LOG line 19 p1 prompt.1: Felled tree: LMB — strip the branches
+LOG line 22 p1 yard.log: 0
+LOG line 23 p1 yard.thick_log: 1
+LOG line 27 p1 prompt.2: na
+LOG line 37 p1 prompt.2: na
+LOG line 40 p1 layer.soil: 6dc80d72
+LOG line 44 p1 prompt.0: na
+LOG line 8 p2 prompt.1: na
+LOG line 16 p2 felled: 1
+LOG line 19 p2 prompt.1: na
+LOG line 22 p2 yard.log: 0
+LOG line 23 p2 yard.thick_log: 1
+LOG line 27 p2 prompt.2: E / LMB — lift with both hands: Thick log (too big for the rucksack)
+LOG line 37 p2 prompt.2: LMB — dig · E — put the shovel down
+LOG line 40 p2 layer.soil: 6dc80d72
+LOG line 44 p2 prompt.0: na
+PASS line 6 WOOD-01 axe = 1:1: host=1:1 p1=1:1 p2=1:1
+PASS line 12 WOOD-02 stamina.1 < $st1: host=96@32 p1=96@38 p2=na(x)
+PASS line 13 WOOD-06 felled = $felled0+1: host=1@32 p1=1@46 p2=1@48
+PASS line 14 WOOD-13 treestage >= 1: host=1@482 p1=1@494 p2=1@495
+PASS line 15 WOOD-14 treestage >= 2: host=2 p1=2@1 p2=2
+PASS line 24 WOOD-09 yardn > 3: host=8 p1=8@1 p2=8
+PASS line 29 WOOD-10 carry.2 = thick_log: host=thick_log@10 p1=thick_log@12 p2=thick_log@10
+PASS line 30 CARGO-17 carry.2 = thick_log: host=thick_log@10 p1=thick_log@12 p2=thick_log@10
+PASS line 32 WOOD-10 carry.2 = -: host=-@11 p1=-@11 p2=-@11
+PASS line 34 DIG-01 shovel = 1:2: host=1:2 p1=1:2 p2=1:2
+PASS line 39 DIG-04 layer.soil != $soil0: host=6dc80d72 p1=6dc80d72@1 p2=6dc80d72@1
+PASS line 47 WOOD-06 felled = $felled1+1: host=2@25 p1=2@30 p2=2@30
+client layer checks: 185 equal, 26 differ (world 26)
+acts 20, failed acts 0
+rows 10 pass 10 fail 0
+ROW CARGO-17 PASS (1 checks)
+ROW DIG-01 PASS (1 checks)
+ROW DIG-04 PASS (1 checks)
+ROW WOOD-01 PASS (1 checks)
+ROW WOOD-02 PASS (1 checks)
+ROW WOOD-06 PASS (2 checks)
+ROW WOOD-09 PASS (1 checks)
+ROW WOOD-10 PASS (2 checks)
+ROW WOOD-13 PASS (1 checks)
+ROW WOOD-14 PASS (1 checks)
+RESULT PASS

@@ -1,0 +1,111 @@
+{
+ "back_corner/noon": {
+  "frame_ms_avg": 9.016,
+  "frames": 123,
+  "shot": "before_back_corner_noon.jpg",
+  "state_hash": "97b45ee5",
+  "tick": 717
+ },
+ "back_corner/sunset": {
+  "frame_ms_avg": 9.312,
+  "frames": 23,
+  "shot": "before_back_corner_sunset.jpg",
+  "state_hash": "0e8596f9",
+  "tick": 741
+ },
+ "fascia_close/noon": {
+  "frame_ms_avg": 8.657,
+  "frames": 123,
+  "shot": "before_fascia_close_noon.jpg",
+  "state_hash": "5c3640ef",
+  "tick": 421
+ },
+ "fascia_close/sunset": {
+  "frame_ms_avg": 8.861,
+  "frames": 23,
+  "shot": "before_fascia_close_sunset.jpg",
+  "state_hash": "b103347a",
+  "tick": 445
+ },
+ "fbs_blocks/noon": {
+  "frame_ms_avg": 8.689,
+  "frames": 123,
+  "shot": "before_fbs_blocks_noon.jpg",
+  "state_hash": "aa79cc12",
+  "tick": 1013
+ },
+ "fbs_blocks/sunset": {
+  "frame_ms_avg": 9.062,
+  "frames": 23,
+  "shot": "before_fbs_blocks_sunset.jpg",
+  "state_hash": "b88940b3",
+  "tick": 1037
+ },
+ "front/noon": {
+  "frame_ms_avg": 21.366,
+  "frames": 123,
+  "shot": "before_front_noon.jpg",
+  "state_hash": "a9876f27",
+  "tick": 273
+ },
+ "front/sunset": {
+  "frame_ms_avg": 9.137,
+  "frames": 23,
+  "shot": "before_front_sunset.jpg",
+  "state_hash": "c7ea7e94",
+  "tick": 297
+ },
+ "interior/noon": {
+  "frame_ms_avg": 8.42,
+  "frames": 123,
+  "shot": "before_interior_noon.jpg",
+  "state_hash": "26373915",
+  "tick": 865
+ },
+ "interior/sunset": {
+  "frame_ms_avg": 8.98,
+  "frames": 23,
+  "shot": "before_interior_sunset.jpg",
+  "state_hash": "bc0fcf16",
+  "tick": 889
+ },
+ "roof/noon": {
+  "frame_ms_avg": 8.441,
+  "frames": 123,
+  "shot": "before_roof_noon.jpg",
+  "state_hash": "f5c28fa2",
+  "tick": 1161
+ },
+ "roof/sunset": {
+  "frame_ms_avg": 8.972,
+  "frames": 23,
+  "shot": "before_roof_sunset.jpg",
+  "state_hash": "8d529e7f",
+  "tick": 1185
+ },
+ "run": {
+  "final_state_hash": "39f0dda8",
+  "frame_time_ms": {
+   "avg": 28.742,
+   "max": 4906.025,
+   "min": 1.992
+  },
+  "launches": 1,
+  "ticks": 1187,
+  "wall_time_ms": 34120.457
+ },
+ "side/noon": {
+  "frame_ms_avg": 8.613,
+  "frames": 123,
+  "shot": "before_side_noon.jpg",
+  "state_hash": "d0d29e36",
+  "tick": 569
+ },
+ "side/sunset": {
+  "frame_ms_avg": 8.86,
+  "frames": 23,
+  "shot": "before_side_sunset.jpg",
+  "state_hash": "2c962070",
+  "tick": 593
+ }
+}

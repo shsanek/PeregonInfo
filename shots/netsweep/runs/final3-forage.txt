@@ -1,0 +1,40 @@
+LOG line 9 host fleft.0.m: 3/0
+LOG line 19 host prompt.1: Unknown mushroom (a grey-brown cap, a slim whitish stem with dark scales) (grown)E / LMB — pick into the rucksackF / RMB — pick into the handsQ — look closer
+LOG line 20 host prompt.2: Unknown mushroom (a grey-brown cap, a slim whitish stem with dark scales) (grown)E / LMB — pick into the rucksackF / RMB — pick into the handsQ — look closer
+LOG line 27 host pack.1.birch_bolete: 0
+LOG line 28 host pack.2.birch_bolete: 0
+LOG line 29 host banner.2: Gone.
+LOG line 39 host banner.2: Gone.
+LOG line 9 p1 fleft.0.m: 3/0
+LOG line 19 p1 prompt.1: Unknown mushroom (a grey-brown cap, a slim whitish stem with dark scales) (grown)E / LMB — pick into the rucksackF / RMB — pick into the handsQ — look closer
+LOG line 20 p1 prompt.2: na
+LOG line 27 p1 pack.1.birch_bolete: 0
+LOG line 28 p1 pack.2.birch_bolete: na
+LOG line 29 p1 banner.2: na
+LOG line 39 p1 banner.2: na
+LOG line 9 p2 fleft.0.m: 3/0
+LOG line 19 p2 prompt.1: na
+LOG line 20 p2 prompt.2: Unknown mushroom (a grey-brown cap, a slim whitish stem with dark scales) (grown)E / LMB — pick into the rucksackF / RMB — pick into the handsQ — look closer
+LOG line 27 p2 pack.1.birch_bolete: na
+LOG line 28 p2 pack.2.birch_bolete: 0
+LOG line 29 p2 banner.2: Gone.
+LOG line 39 p2 banner.2: -
+PASS line 10 FORAGE-01 fleft.0.m == x: host=3/0 p1=3/0 p2=3/0
+PASS line 11 FORAGE-01 picks == x: host=0 p1=0 p2=0
+PASS line 23 FORAGE-02 picks = $p0+1: host=1@56 p1=1@60 p2=1@61
+PASS line 24 FORAGE-02 picks = $p0+1: host=1 p1=1 p2=1@1
+PASS line 25 FORAGE-02 picks == x: host=1 p1=1 p2=1@1
+PASS line 26 FORAGE-02 packall.birch_bolete >= 1: host=3 p1=na(x) p2=na(x)
+PASS line 30 FORAGE-03 known.1 > $k1: host=1 p1=1 p2=na(x)
+PASS line 31 FORAGE-03 known.2 > $k2: host=1 p1=na(x) p2=1@1
+PASS line 32 FORAGE-03 known.0 = $k0: host=0 p1=na p2=na@1
+PASS line 36 FORAGE-04 poison.2 >= 1: host=1@9 p1=na(x) p2=1@9
+PASS line 37 FORAGE-04 poison.0 = $f0: host=0 p1=na p2=na
+PASS line 38 FORAGE-04 carry.2 = -: host=-@9 p1=-@9 p2=-@9
+acts 12, failed acts 0
+rows 4 pass 4 fail 0
+ROW FORAGE-01 PASS (2 checks)
+ROW FORAGE-02 PASS (4 checks)
+ROW FORAGE-03 PASS (3 checks)
+ROW FORAGE-04 PASS (3 checks)
+RESULT PASS

@@ -1,0 +1,201 @@
+{
+ "bridge_points": 20,
+ "bridges": [
+  {
+   "bed_max_m": -0.22,
+   "deck_bend_m": 0.0,
+   "deck_over_water_m": 6.86,
+   "girder_clear_m": 2.89,
+   "length_m": 49.5,
+   "level_m": 234.76,
+   "line": "zar_rail_main",
+   "piers": 2,
+   "river": "creek_287",
+   "span_m": 16.5,
+   "spans": 3
+  },
+  {
+   "bed_max_m": -0.39,
+   "deck_bend_m": 0.0,
+   "deck_over_water_m": 6.76,
+   "girder_clear_m": 1.21,
+   "length_m": 49.5,
+   "level_m": 222.35,
+   "line": "zar_rail_main",
+   "piers": 2,
+   "river": "creek_108_r2",
+   "span_m": 16.5,
+   "spans": 3
+  }
+ ],
+ "crossing_points": 3,
+ "fails": [],
+ "fill_cliffs": 0,
+ "lines": [
+  {
+   "bridges": [
+    {
+     "level": 234.76,
+     "river": "creek_287",
+     "s0": 1268.1,
+     "s1": 1317.6,
+     "spans": 3
+    },
+    {
+     "level": 222.35,
+     "river": "creek_108_r2",
+     "s0": 6362.0,
+     "s1": 6411.5,
+     "spans": 3
+    }
+   ],
+   "crossings": [
+    {
+     "angle_deg": 49.5,
+     "road": "r2_ferry_track",
+     "road_h": 227.23,
+     "s": 6189.0
+    }
+   ],
+   "id": "zar_rail_main",
+   "kind": "main2",
+   "length_m": 7701.3,
+   "max_cut_m": 12.76,
+   "max_fill_m": 9.25,
+   "max_grade": 0.012,
+   "min_radius_m": 332.1,
+   "objects": 297,
+   "radii_m": [
+    0.0,
+    800.0,
+    600.0,
+    700.0,
+    700.0,
+    684.7,
+    684.7,
+    1000.0,
+    1100.0,
+    500.0,
+    1500.0,
+    1500.0,
+    350.0,
+    700.0,
+    800.0,
+    0.0
+   ],
+   "trackside": {
+    "pier": 4,
+    "snow_fence": 100,
+    "telegraph": 103
+   },
+   "turnout": null
+  },
+  {
+   "bridges": [],
+   "crossings": [],
+   "id": "coal_siding",
+   "kind": "branch",
+   "length_m": 498.2,
+   "max_cut_m": 0.44,
+   "max_fill_m": 2.2,
+   "max_grade": 0.0196,
+   "min_radius_m": 241.0,
+   "objects": 3,
+   "radii_m": [
+    0.0,
+    299.9,
+    250.0,
+    400.0,
+    0.0
+   ],
+   "trackside": {
+    "pier": 0,
+    "snow_fence": 0,
+    "telegraph": 0
+   },
+   "turnout": {
+    "line": "zar_rail_main",
+    "parent_li": 0,
+    "parent_track": 1,
+    "reach": 150.0,
+    "x": 35203.5802515942,
+    "yaw": 2.861747931436529,
+    "z": 19047.20622314996
+   }
+  },
+  {
+   "bridges": [],
+   "crossings": [
+    {
+     "angle_deg": 70.5,
+     "road": "r2_bystraya_road",
+     "road_h": 233.94,
+     "s": 3189.1
+    }
+   ],
+   "id": "zar_rail_berezovka",
+   "kind": "branch",
+   "length_m": 3324.5,
+   "max_cut_m": 7.74,
+   "max_fill_m": 5.58,
+   "max_grade": 0.02,
+   "min_radius_m": 177.4,
+   "objects": 9,
+   "radii_m": [
+    0.0,
+    300.0,
+    250.0,
+    260.0,
+    300.0,
+    183.8,
+    183.8,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    0.0
+   ],
+   "trackside": {
+    "pier": 0,
+    "snow_fence": 0,
+    "telegraph": 0
+   },
+   "turnout": {
+    "line": "zar_rail_main",
+    "parent_li": 0,
+    "parent_track": 1,
+    "reach": 130.0,
+    "x": 34115.054256671116,
+    "yaw": -1.01922327789991,
+    "z": 20156.985987572858
+   }
+  }
+ ],
+ "objects": {
+  "1": 10,
+  "10": 4,
+  "11": 4,
+  "12": 100,
+  "13": 103,
+  "14": 2,
+  "2": 69,
+  "3": 2,
+  "4": 4,
+  "5": 2,
+  "6": 2,
+  "7": 1,
+  "8": 2,
+  "9": 4
+ },
+ "owned_prism_points": 2861,
+ "points": 8411,
+ "runs": 81,
+ "tiles": 27,
+ "worst_crossing_m": 0.008,
+ "worst_formation_m": 0.436,
+ "worst_object_m": 0.014
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "object": "HERO_interior_fittings",
+    "y_m": -0.6399999856948853,
+    "old_centerline_x_m": [
+      -1.7400000095367432,
+      -1.399999976158142
+    ],
+    "new_centerline_x_m": [
+      -1.7400000095367432,
+      -1.299999976158142
+    ],
+    "vertices": 198,
+    "max_surface_gap_m": 0.003397586289793253,
+    "max_radius_m": 0.0030003316289348983
+  },
+  {
+    "object": "HERO_interior_fittings",
+    "y_m": -0.05000000447034836,
+    "old_centerline_x_m": [
+      -1.7400000095367432,
+      -1.399999976158142
+    ],
+    "new_centerline_x_m": [
+      -1.7400000095367432,
+      -1.299999976158142
+    ],
+    "vertices": 198,
+    "max_surface_gap_m": 0.003397374413907528,
+    "max_radius_m": 0.003000325873842199
+  },
+  {
+    "object": "HERO_interior_fittings",
+    "y_m": 0.6399999856948853,
+    "old_centerline_x_m": [
+      -1.7400001287460327,
+      -1.399999976158142
+    ],
+    "new_centerline_x_m": [
+      -1.7400001287460327,
+      -1.299999976158142
+    ],
+    "vertices": 198,
+    "max_surface_gap_m": 0.003427867777645588,
+    "max_radius_m": 0.0030003316645110367
+  }
+]

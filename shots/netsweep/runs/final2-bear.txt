@@ -1,0 +1,31 @@
+LOG line 6 host sp.2: 1
+LOG line 7 host spx.2: 1840
+LOG line 8 host health.1: 100
+LOG line 14 host health.1: 100
+LOG line 15 host spx.2: 1814
+LOG line 16 host banner.1: -
+LOG line 20 host place.1: foot
+LOG line 6 p1 sp.2: 1
+LOG line 7 p1 spx.2: 1839
+LOG line 8 p1 health.1: 100
+LOG line 14 p1 health.1: 100
+LOG line 15 p1 spx.2: 1814
+LOG line 16 p1 banner.1: -
+LOG line 20 p1 place.1: foot
+LOG line 6 p2 sp.2: 1
+LOG line 7 p2 spx.2: 1839
+LOG line 8 p2 health.1: na
+LOG line 14 p2 health.1: na
+LOG line 15 p2 spx.2: 1814
+LOG line 16 p2 banner.1: na
+LOG line 20 p2 place.1: foot
+PASS line 9 FAUNA-05 sp.2 == x: host=1 p1=1 p2=1
+PASS line 10 FAUNA-05 spx.2 ~~ 4: host=1840 p1=1839 p2=1839
+PASS line 11 FAUNA-05 spz.2 ~~ 4: host=1222 p1=1222 p2=1222
+PASS line 18 FAUNA-06 health.1 == x: host=100 p1=100 p2=na
+PASS line 19 FAUNA-05 spx.2 ~~ 4: host=1814 p1=1814 p2=1814
+acts 3, failed acts 0
+rows 2 pass 2 fail 0
+ROW FAUNA-05 PASS (4 checks)
+ROW FAUNA-06 PASS (1 checks)
+RESULT PASS

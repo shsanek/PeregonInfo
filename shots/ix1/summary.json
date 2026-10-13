@@ -1,0 +1,65 @@
+{
+ "cab_down": {
+  "exit": 0,
+  "shots": [
+   "cab_down_cab_look_down.jpg"
+  ],
+  "start": "care_preheat"
+ },
+ "cab_up": {
+  "exit": 0,
+  "shots": [
+   "cab_up_cab_look_up.jpg"
+  ],
+  "start": "care_preheat"
+ },
+ "carry_down": {
+  "exit": 0,
+  "shots": [
+   "carry_down_carry_look_down.jpg"
+  ],
+  "start": "cargo_grid_carry"
+ },
+ "foot_down": {
+  "exit": 0,
+  "shots": [
+   "foot_down_look_at_feet.jpg"
+  ],
+  "start": "cargo_grid_bed"
+ },
+ "foot_up": {
+  "exit": 0,
+  "shots": [
+   "foot_up_look_up.jpg"
+  ],
+  "start": "cargo_grid_bed"
+ },
+ "ghost": {
+  "exit": 0,
+  "shots": [
+   "ghost_bed_ghost_green.jpg"
+  ],
+  "start": "cargo_grid_interact_ghost"
+ },
+ "ghost_ground": {
+  "exit": 0,
+  "shots": [
+   "ghost_ground_ground_ghost.jpg"
+  ],
+  "start": "cargo_grid_interact_ghost_ground"
+ },
+ "ghost_red": {
+  "exit": 0,
+  "shots": [
+   "ghost_red_bed_ghost_red.jpg"
+  ],
+  "start": "cargo_grid_interact_ghost_red"
+ },
+ "pick": {
+  "exit": 0,
+  "shots": [
+   "pick_bed_item_under_crosshair.jpg"
+  ],
+  "start": "cargo_grid_interact_pick"
+ }
+}

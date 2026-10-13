@@ -1,0 +1,9 @@
+Test project /Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/build/native-release
+    Start 32: asset_tests
+1/2 Test #32: asset_tests ......................   Passed    0.03 sec
+    Start 62: view_tests
+2/2 Test #62: view_tests .......................   Passed   15.69 sec
+
+100% tests passed out of 2
+
+Total Test time (real) =  15.73 sec

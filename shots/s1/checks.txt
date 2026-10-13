@@ -1,0 +1,40 @@
+PASS contracts_tests EXEcutor release all passed
+PASS contracts_tests EXEcutor release stdout == native
+PASS EXEcutor release contracts surface_set_s1_has_all_fourteen
+PASS EXEcutor release contracts surface_climb_rule_matches_map_brief
+PASS EXEcutor release contracts surface_wetness_and_depth
+PASS EXEcutor release contracts surface_soil_sinkage_and_shear
+PASS EXEcutor release contracts surface_data_backward_compatible
+PASS EXEcutor release contracts vehicle_stats_cover_new_surfaces
+PASS EXEcutor release contracts content_reports_errors_and_keeps_old_data
+PASS EXEcutor release contracts contract_layouts_are_fixed
+PASS EXEcutor release contracts contract_headers_compile_as_c
+PASS contracts_tests EXEcutor debug all passed
+PASS contracts_tests EXEcutor debug stdout == native
+PASS EXEcutor debug contracts surface_set_s1_has_all_fourteen
+PASS EXEcutor debug contracts surface_climb_rule_matches_map_brief
+PASS EXEcutor debug contracts surface_wetness_and_depth
+PASS EXEcutor debug contracts surface_soil_sinkage_and_shear
+PASS EXEcutor debug contracts surface_data_backward_compatible
+PASS EXEcutor debug contracts vehicle_stats_cover_new_surfaces
+PASS EXEcutor debug contracts content_reports_errors_and_keeps_old_data
+PASS EXEcutor debug contracts contract_layouts_are_fixed
+PASS EXEcutor debug contracts contract_headers_compile_as_c
+PASS contracts version 2 and content hash printed
+PASS world_tests EXEcutor stdout == native
+PASS EXEcutor world surface_detail_and_new_types_in_the_grid
+PASS EXEcutor world surface_pattern_textures_are_zero_mean
+PASS EXEcutor world renderer_sm2_binds_surface_patterns
+PASS peregon_content_check PASS in EXEcutor, 14 surfaces dumped
+PASS peregon_content_check EXEcutor == native
+PASS shaderc golden (terrain_detail with surface patterns)
+PASS scene_s1_surfaces d3d9 SM2 in EXEcutor (run 003)
+PASS scene_s1_surfaces d3d9 fixed function in EXEcutor (run 004)
+PASS SM2 run: d3d9, 0 rhi errors, 14 lanes painted and probed, labels drawn
+PASS FF run: d3d9 fixed function, 0 rhi errors, 14 lanes
+PASS second SM2 run identical (image and state hashes)
+PASS SM2 and FF simulate the same states
+PASS host build (rhi_null) simulates the same states as EXEcutor
+PASS SM2 patterns differ from fixed function on the new surfaces (tick 375)
+PASS RunGame window, SM2, present dumps
+PASS RunGame window, fixed function, present dumps

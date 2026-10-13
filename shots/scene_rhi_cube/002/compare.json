@@ -1,0 +1,55 @@
+{
+  "status": "within_tolerance",
+  "mode": "tolerance",
+  "tolerance_lsb": 2,
+  "min_match_pct": 99.5,
+  "match_rule": "strict",
+  "labels": {
+    "native": "null",
+    "win32": "metal"
+  },
+  "scene": "scene_rhi_cube",
+  "seed": 1,
+  "ticks": {
+    "native": 1,
+    "win32": 1
+  },
+  "final_state_hash": {
+    "native": "52c0be00",
+    "win32": "52c0be00",
+    "equal": true
+  },
+  "captures": [
+    {
+      "tick": 1,
+      "state_hash": {
+        "native": "52c0be00",
+        "win32": "52c0be00"
+      },
+      "state_equal": true,
+      "image_hash": {
+        "native": "40ac2a37",
+        "win32": "14824064"
+      },
+      "image_hash_equal": false,
+      "pixels": 76800,
+      "diff_pixels": 3985,
+      "max_diff": [
+        57,
+        61,
+        50
+      ],
+      "over_tolerance_pixels": 234,
+      "over_tolerance_edge_pixels": 0,
+      "diff_image": "diff_000001.png",
+      "diff_pct": 5.1888,
+      "within_tolerance_pct": 99.6953,
+      "within_tolerance_edge_pct": 100.0,
+      "jpg": {
+        "native": "native/tick_000001.jpg",
+        "win32": "metal/tick_000001.jpg"
+      },
+      "status": "within_tolerance"
+    }
+  ]
+}

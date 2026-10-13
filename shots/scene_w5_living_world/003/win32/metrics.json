@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "scene": "scene_w5_living_world",
+  "seed": 20261007,
+  "ticks": 36000,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 480, "frames": 9, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 137, "primitives": 20572, "vertices": 61716, "state_binds": 33, "texture_binds": 5, "bytes_uploaded": 19872, "pixels_written": 0, "unrasterized_draws": 0}, "window": null},
+  "replay": {"file": "C:\\Test\\scene_w5_living_world.txt", "format": "text1", "hash": "2e42464f", "length_ticks": 35723},
+  "wall_time_ms": 745.252,
+  "frame_time_ms": {"avg": 0.020, "min": 0.005, "max": 212.978},
+  "final_state_hash": "747722a5",
+  "captures": [
+    {"tick": 1900, "state_hash": "0bd871df", "image_hash": "a237bc8b", "width": 640, "height": 480, "file": "tick_001900.bmp"},
+    {"tick": 2117, "state_hash": "8908500b", "image_hash": "dfb033b0", "width": 640, "height": 480, "file": "tick_002117.bmp"},
+    {"tick": 6383, "state_hash": "f10d2322", "image_hash": "e449915a", "width": 640, "height": 480, "file": "tick_006383.bmp"},
+    {"tick": 10242, "state_hash": "ff342700", "image_hash": "1c449ca5", "width": 640, "height": 480, "file": "tick_010242.bmp"},
+    {"tick": 15127, "state_hash": "dc1f6396", "image_hash": "bc4f9a23", "width": 640, "height": 480, "file": "tick_015127.bmp"},
+    {"tick": 17013, "state_hash": "0c9f27fe", "image_hash": "21b36c59", "width": 640, "height": 480, "file": "tick_017013.bmp"},
+    {"tick": 19404, "state_hash": "964ff478", "image_hash": "988f5edb", "width": 640, "height": 480, "file": "tick_019404.bmp"},
+    {"tick": 23210, "state_hash": "a928f5ce", "image_hash": "180013c4", "width": 640, "height": 480, "file": "tick_023210.bmp"},
+    {"tick": 36000, "state_hash": "747722a5", "image_hash": "cd36b1b7", "width": 640, "height": 480, "file": "tick_036000.bmp"}
+  ],
+  "scene_metrics": {"stream": "W5", "contracts_version": 2, "content_hash": "0x2207e6ed", "bus": {"published": 76, "delivered": 76, "dropped": 0, "handler_calls": 0, "max_pending": 8, "stream_hash_hi": "0xedc9e012", "stream_hash_lo": "0xe97229c2"}, "session_hash": "0x14e9ecc8", "log_lines": 79, "log_hash": "0x52d8e36b", "render_frames": 9, "w5": {"session_hash": "14e9ecc8", "data_hash": "a46dd6e0", "roads": {"backend": "w1_slice", "length_m": 4142.444, "hash": "605c1f5d"}, "time": {"day": 2, "minute": 527, "emissions": 1, "emission_warnings": 1, "next_emission_ms": 359940000}, "drive": {"distance_m": 7057.555, "drive_s": 480.400, "stopped_s": 117.433, "combat_s": 49.967, "rest_ticks": 1228, "phase": "home"}, "encounters": {"ambush": {"spawned": 2, "met": 2, "per_km": 0.283}, "traffic": {"spawned": 4, "met": 4, "per_km": 0.567}, "convoy": {"spawned": 1, "met": 1, "per_km": 0.142}, "breakdown": {"spawned": 2, "met": 2, "per_km": 0.283}, "wreck": {"spawned": 1, "met": 1, "per_km": 0.142}, "obstacle": {"spawned": 1, "met": 1, "per_km": 0.142}, "total": 11, "total_per_km": 1.559, "vehicles": 7, "hostile_vehicles": 0, "forced_micro": 0}, "pacing": {"beats": 18, "place_beats": 7, "something": {"count": 17, "mean_s": 25.761, "min_s": 1.517, "max_s": 40.950, "budget_s": [30.000, 45.000], "within_budget_pct": 100.000, "over_budget": 0}, "place_or_moment": {"count": 9, "mean_s": 45.200, "min_s": 1.517, "max_s": 111.600, "budget_s": [90.000, 150.000], "within_budget_pct": 100.000, "over_budget": 0}}, "contracts": {"offered": 10, "board_errors": 0, "distinct_jobs": 6, "distinct_factions": 3, "distinct_conditions": 4, "distinct_biomes": 2, "distinct_combos": 7, "coupons": {"min": 280, "mean": 322.000, "max": 350, "hist5": [0, 0, 0, 4, 6]}, "xp": {"min": 160, "mean": 186.000, "max": 200}, "accepted": 2, "completed": 1, "arenas_visited": 4, "wallet_coupons": 340, "wallet_xp": 260, "rewards": [340], "board": ["w5e1_005_grain_haul", "w5e1_006_fuel_requisition", "w5e1_008_supply_run", "w5e1_009_black_market"]}, "territories": [{"id": "sawmill", "faction": "carriers", "cx": 354.646, "cz": 1483.086, "radius": 580.064}, {"id": "field", "faction": "garrison", "cx": 1315.116, "cz": 501.676, "radius": 489.752}, {"id": "elevator", "faction": "rusty", "cx": 1743.112, "cz": 1362.704, "radius": 471.517}], "places": [{"id": "gas_station", "status": "cleared", "owner": "garrison", "cleared": 2, "reoccupied": 1}, {"id": "elevator", "status": "cleared", "owner": "rusty", "cleared": 2, "reoccupied": 1}], "roadblocks": {"cleared": 2, "raiders_on_foot": 8, "fight_s": 49.967, "truck_damage": 0.000, "cargo_lost": 0}, "wrecks": {"on_road": 0, "looted": 3, "items_looted": 7, "items_left": 0, "swept_by_emission": 0}, "bed": {"entries": 10, "cells": 17, "hash": "7ea1cc37"}, "reloads": 0}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

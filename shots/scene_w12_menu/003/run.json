@@ -1,0 +1,18 @@
+{
+  "scene": "scene_w12_menu",
+  "run": "003",
+  "date": "2026-10-07T16:02:09Z",
+  "commit": "54f1c0403c",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "2",
+    "--ticks",
+    "40",
+    "--capture",
+    "36"
+  ]
+}

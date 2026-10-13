@@ -1,0 +1,21 @@
+native rhi_tests rc=0
+native scene_rhi_cube rc=0
+native-debug scene_rhi_cube rc=0
+executor rhi_tests.exe win32-release rc=0
+executor scene_rhi_cube.exe win32-release rc=0
+executor rhi_tests.exe win32-debug rc=0
+executor scene_rhi_cube.exe win32-debug rc=0
+IDENTICAL native_rhi_tests.stdout.txt == executor_rhi_tests.stdout.txt
+IDENTICAL native_rhi_tests.stdout.txt == executor_rhi_tests_debug.stdout.txt
+IDENTICAL native_scene_rhi_cube.stdout.txt == native_debug_scene_rhi_cube.stdout.txt
+IDENTICAL native_scene_rhi_cube.stdout.txt == executor_scene_rhi_cube.stdout.txt
+IDENTICAL native_scene_rhi_cube.stdout.txt == executor_scene_rhi_cube_debug.stdout.txt
+IDENTICAL native.ppm == executor.ppm
+IDENTICAL native.ppm == executor_debug.ppm
+image: 320x240 rgba8 fnv1a64=0x6972857f29725bb6
+image: 320x240 rgba8 fnv1a64=0x6972857f29725bb6
+58584d82d8e3ee5ff3571acf100b651a43205ddb52b92539b423a2ad7c464090  native.ppm
+58584d82d8e3ee5ff3571acf100b651a43205ddb52b92539b423a2ad7c464090  executor.ppm
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2d1aabae183369bf/games/peregon/build/gate-c0/gate-0c/01_scene_rhi_cube_executor.jpg
+/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2d1aabae183369bf/games/peregon/build/gate-c0/gate-0c/01_scene_rhi_cube_native.jpg
+GATE 0c PASS

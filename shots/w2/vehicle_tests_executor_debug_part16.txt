@@ -1,0 +1,6 @@
+[suite] vehicle_tests
+    5 km/h full lock circle radius 5.48 m (kinematic 5.4 m), rear axle slip max 0.20 deg, braked stop drift 2.6 mm; 10 % side slope, no input, 5 s: lateral drift 0.3 mm asphalt, 0.2 mm dirt
+[ OK ] lateral_low_speed_manoeuvre_no_creep
+    brake held 7 s from 20 km/h: min forward speed -0.011 m/s, gear stays 1; release 1/6 s and press again: reverse at -19.9 km/h
+[ OK ] brake_held_at_standstill_does_not_reverse_until_repress
+[done] 2/2 passed, 9 checks

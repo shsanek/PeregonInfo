@@ -1,0 +1,8 @@
+[suite] coop_seats_tests
+[ OK ] crew_entry_requires_nearby_open_door_and_keeps_it_open
+[ OK ] crew_four_people_enter_their_nearest_seats_without_fallback
+[ OK ] crew_move_within_row_only_when_vacant_even_in_solo
+[ OK ] crew_seat_click_is_occluded_by_closed_door
+[ OK ] crew_passenger_can_operate_levers_but_cannot_drive
+[ OK ] crew_passenger_holds_the_ignition_independently_of_the_driver
+[done] 6/6 passed, 67 checks

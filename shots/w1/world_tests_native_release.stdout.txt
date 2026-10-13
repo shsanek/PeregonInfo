@@ -1,0 +1,31 @@
+[suite] world_tests
+    hash slice_text 0x7367d56d
+[ OK ] slice_layout_loads
+[ OK ] slice_layout_rejects_bad_data
+    hash heightfield 0x7d243704
+[ OK ] heightfield_is_seeded_and_shaped
+    hash surfaces 0x321d01a2
+[ OK ] surface_map_paints_slice
+    hash terrain 0x7ca32bb3
+[ OK ] terrain_tiles_and_lods
+    shed x 0xf y 0x5 z 0xc
+[ OK ] props_are_placed_at_scale
+[ OK ] terrain_culling_and_lod_selection
+[ OK ] cameras_follow_and_interpolate
+    hash input_map 0x76fb9d04
+[ OK ] input_map_from_data
+[ OK ] win32_messages_reach_the_input_frame
+    hash sim_transitions 0xe105f845
+[ OK ] game_state_transitions_through_the_bus
+[ OK ] mud_needs_better_tyres
+    hash save_image 0x7fc0027b
+[ OK ] save_round_trip
+[ OK ] renderer_on_validating_null_device
+    hash detail_texture 0x4ac61188
+[ OK ] detail_texture_is_tileable
+[ OK ] renderer_sm2_binds_surface_patterns
+    hash pattern_a 0x57733bc7
+    hash pattern_b 0x1e24ef7f
+[ OK ] surface_pattern_textures_are_zero_mean
+[ OK ] surface_detail_and_new_types_in_the_grid
+[done] 18/18 passed, 16199 checks

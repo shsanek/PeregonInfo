@@ -1,0 +1,9 @@
+host (native, rhi_null): 2540 ticks in 189 ms wall (avg 0.074 ms/tick incl. 0 captures), WAV 7467644 bytes fnv32 0x9457127e, output hash 0x8332bb809e9c9b77
+  mixer {"voices_started": 87, "voices_finished": 83, "voices_stolen": 0, "voices_rejected": 0, "voices_peak": 9, "limited_samples": 66, "duck_min_q16": 29491}
+  peak per bus {"master": 30916, "sfx": 32767, "engine": 25861, "radio": 19560, "ui": 4964}
+  events {"gear_changes": 8, "whooshes": 2, "shots": [2, 8, 20], "impacts": [20, 2, 8, 1, 2], "reloads": 1, "overheats": 1, "ui_clicks": [3, 2, 1], "radio_toggles": 2, "surfaces_seen": 16383} radio {"syllables": 13, "crackles": 50, "final_tuning_x10": 1015}
+EXEcutor headless: 2540 ticks in 4685 ms wall (avg 1.843 ms/tick incl. 0 captures), WAV 7467644 bytes fnv32 0x9457127e, output hash 0x8332bb809e9c9b77
+  mixer {"voices_started": 87, "voices_finished": 83, "voices_stolen": 0, "voices_rejected": 0, "voices_peak": 9, "limited_samples": 66, "duck_min_q16": 29491}
+  peak per bus {"master": 30916, "sfx": 32767, "engine": 25861, "radio": 19560, "ui": 4964}
+  events {"gear_changes": 8, "whooshes": 2, "shots": [2, 8, 20], "impacts": [20, 2, 8, 1, 2], "reloads": 1, "overheats": 1, "ui_clicks": [3, 2, 1], "radio_toggles": 2, "surfaces_seen": 16383} radio {"syllables": 13, "crackles": 50, "final_tuning_x10": 1015}
+RunGame windowed d3d9 + waveOut: w11_audio wav=w11_audio.wav written=1 bytes=7467644 fnv32=0x9457127e backend=waveout open_error="" buffers_written=2598 buffers_done=2598 underruns=0 overrun_frames=0 errors=0 min_in_flight=4 max_in_flight=6 wakeups=2592 last_error="" playback_frames=1909530 commands=12890 applied=12890 late=0 resyncs=0 slip_ms=0 max_queue=60

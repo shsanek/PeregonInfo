@@ -1,0 +1,27 @@
+{
+ "front/noon": {
+  "frame_ms_avg": 13.341,
+  "frames": 139,
+  "shot": "before_front_noon.jpg",
+  "state_hash": "c080502c",
+  "tick": 289
+ },
+ "run": {
+  "final_state_hash": "eadce265",
+  "frame_time_ms": {
+   "avg": 40.357,
+   "max": 4302.614,
+   "min": 6.891
+  },
+  "launches": 1,
+  "ticks": 431,
+  "wall_time_ms": 17394.764
+ },
+ "yard/noon": {
+  "frame_ms_avg": 10.287,
+  "frames": 139,
+  "shot": "before_yard_noon.jpg",
+  "state_hash": "3a2353c8",
+  "tick": 429
+ }
+}

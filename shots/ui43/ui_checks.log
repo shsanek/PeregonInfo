@@ -1,0 +1,5 @@
+[suite] net_menu_tests
+[ OK ] steam_menu_mouse_join_edit_cancel_and_host
+[ OK ] ui_mouse_navigation_cargo_and_modal_input
+[ OK ] physical_keys_and_shared_cursor
+[done] 3/3 passed, 44 checks

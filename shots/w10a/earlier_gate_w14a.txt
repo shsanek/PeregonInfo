@@ -1,0 +1,31 @@
+ok   assetc golden tests (formats, PNG, BC1/BC3, glTF, determinism)
+ok   grey-box kit builds headless (blender --background --factory-startup)
+ok   kit .blend saved
+ok   kit textures byte-identical to committed
+ok   kit .glb byte-identical to committed
+ok   kit runtime .pmesh/.ptex byte-identical to committed
+ok   fresh preview greybox_cube.jpg <= 300 KB
+ok   published preview reports/shots/assets/greybox_cube/NN_blender.jpg <= 300 KB
+ok   fresh preview greybox_capsule.jpg <= 300 KB
+ok   published preview reports/shots/assets/greybox_capsule/NN_blender.jpg <= 300 KB
+ok   fresh preview greybox_wheel.jpg <= 300 KB
+ok   published preview reports/shots/assets/greybox_wheel/NN_blender.jpg <= 300 KB
+ok   fresh preview greybox_ramp.jpg <= 300 KB
+ok   published preview reports/shots/assets/greybox_ramp/NN_blender.jpg <= 300 KB
+ok   fresh preview greybox_crate.jpg <= 300 KB
+ok   published preview reports/shots/assets/greybox_crate/NN_blender.jpg <= 300 KB
+ok   fresh preview greybox_barrel.jpg <= 300 KB
+ok   published preview reports/shots/assets/greybox_barrel/NN_blender.jpg <= 300 KB
+ok   fresh preview greybox_wall_slab.jpg <= 300 KB
+ok   published preview reports/shots/assets/greybox_wall_slab/NN_blender.jpg <= 300 KB
+ok   published previews unchanged in git (never overwritten)
+native asset_tests release rc=0
+executor asset_tests.exe win32-release rc=0
+executor asset_tests.exe win32-debug rc=0
+ok   native asset_tests passed
+ok   loader stdout native == EXEcutor (release)
+ok   loader stdout native == EXEcutor (debug)
+ok   loader report == assetc python report (BC decode, layout, hashes)
+ok   asset_tests.exe imports only kernel32/msvcrt
+stub/nodll lines: 0
+GATE w14a PASS

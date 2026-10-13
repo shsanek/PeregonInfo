@@ -1,0 +1,19 @@
+peregon-replay-text 1
+# W10a contract board: list down/down/up, confirm to TAKE, take, right to BACK, pointer hovers TAKE, pointer clicks row 1
+0 0
+30 2
+36 0
+70 2
+76 0
+90 1
+96 0
+110 10
+116 0
+160 10
+166 0
+180 8
+186 0
+210 80 0 0 36700160 26214400
+250 c0 0 0 13107200 9175040
+256 80 0 0 13107200 9175040
+300 0

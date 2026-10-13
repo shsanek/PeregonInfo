@@ -1,0 +1,74 @@
+== win32-debug
+[1/13] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_common.cpp.obj
+[2/13] Building CXX object src/rhi_d3d9/CMakeFiles/peregon_render_d3d9.dir/rhi_d3d9.cpp.obj
+[3/13] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.obj
+[4/13] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.obj
+[5/13] Linking CXX shared library bin/render_d3d9.dll
+[6/13] Linking CXX shared library bin/core.dll
+[7/13] Linking CXX static library lib/libperegon_rhi_null.a
+[8/13] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.obj
+[9/13] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_win32.cpp.obj
+[10/13] Linking CXX static library lib/libperegon_platform.a
+[11/13] Linking CXX executable bin/peregon.exe
+[12/13] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.obj
+[13/13] Linking CXX executable bin/core_tests.exe
+core_tests.exe: core.dll kernel32.dll msvcrt.dll
+peregon.exe: core.dll kernel32.dll msvcrt.dll
+core.dll: kernel32.dll msvcrt.dll
+render_d3d9.dll: kernel32.dll msvcrt.dll
+== win32-release
+[1/13] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_common.cpp.obj
+[2/13] Building CXX object src/rhi_d3d9/CMakeFiles/peregon_render_d3d9.dir/rhi_d3d9.cpp.obj
+[3/13] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.obj
+[4/13] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.obj
+[5/13] Linking CXX shared library bin/render_d3d9.dll
+[6/13] Linking CXX shared library bin/core.dll
+[7/13] Linking CXX static library lib/libperegon_rhi_null.a
+[8/13] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_win32.cpp.obj
+[9/13] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.obj
+[10/13] Linking CXX static library lib/libperegon_platform.a
+[11/13] Linking CXX executable bin/peregon.exe
+[12/13] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.obj
+[13/13] Linking CXX executable bin/core_tests.exe
+core_tests.exe: core.dll kernel32.dll msvcrt.dll
+peregon.exe: core.dll kernel32.dll msvcrt.dll
+core.dll: kernel32.dll msvcrt.dll
+render_d3d9.dll: kernel32.dll msvcrt.dll
+== native-debug
+[1/11] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_common.cpp.o
+[2/11] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.o
+[3/11] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_posix.cpp.o
+[4/11] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.o
+[5/11] Linking CXX shared library bin/libcore.dylib
+[6/11] Linking CXX static library lib/libperegon_platform.a
+[7/11] Linking CXX static library lib/libperegon_rhi_null.a
+[8/11] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.o
+[9/11] Linking CXX executable bin/peregon
+[10/11] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.o
+[11/11] Linking CXX executable bin/core_tests
+Test project /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/games/peregon/build/native-debug
+    Start 1: core_tests
+1/1 Test #1: core_tests .......................   Passed    0.79 sec
+
+100% tests passed out of 1
+
+Total Test time (real) =   0.79 sec
+== native-release
+[1/11] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_common.cpp.o
+[2/11] Building CXX object src/core/CMakeFiles/peregon_core.dir/core.cpp.o
+[3/11] Building CXX object src/platform/CMakeFiles/peregon_platform.dir/platform_posix.cpp.o
+[4/11] Building CXX object src/rhi_null/CMakeFiles/peregon_rhi_null.dir/rhi_null.cpp.o
+[5/11] Linking CXX shared library bin/libcore.dylib
+[6/11] Linking CXX static library lib/libperegon_platform.a
+[7/11] Linking CXX static library lib/libperegon_rhi_null.a
+[8/11] Building CXX object src/game/CMakeFiles/peregon.dir/main.cpp.o
+[9/11] Linking CXX executable bin/peregon
+[10/11] Building CXX object tests/CMakeFiles/core_tests.dir/core_tests.cpp.o
+[11/11] Linking CXX executable bin/core_tests
+Test project /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/games/peregon/build/native-release
+    Start 1: core_tests
+1/1 Test #1: core_tests .......................   Passed    0.57 sec
+
+100% tests passed out of 1
+
+Total Test time (real) =   0.57 sec

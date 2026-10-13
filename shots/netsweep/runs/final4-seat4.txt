@@ -1,0 +1,20 @@
+LOG line 19 host place.0: seat4
+LOG line 19 p1 place.0: seat4
+LOG line 19 p2 place.0: seat4
+LOG line 19 p3 place.0: seat4
+PASS line 10 SEAT-05 place.1 = seat0: host=seat0@35 p1=seat0@35 p2=seat0@38 p3=seat0@37
+PASS line 11 SEAT-05 place.2 = seat1: host=seat1@6 p1=seat1@6 p2=seat1@11 p3=seat1@11
+PASS line 12 SEAT-05 place.3 = seat5: host=seat5@4 p1=seat5@6 p2=seat5@11 p3=seat5@11
+PASS line 13 SEAT-05 place.0 = seat4: host=seat4@1 p1=seat4@2 p2=seat4@5 p3=seat4@11
+PASS line 14 NET-05 players = 4: host=4 p1=4 p2=4 p3=4
+PASS line 16 SEAT-17 place.3 = foot: host=foot@20 p1=foot@29 p2=foot@29 p3=foot@30
+PASS line 23 SEAT-17 place.1 = foot: host=foot@9 p1=foot@33 p2=foot@33 p3=foot@11
+PASS line 24 SEAT-17 place.2 = foot: host=foot@8 p1=foot@33 p2=foot@33 p3=foot@11
+PASS line 25 SEAT-17 place.0 = foot: host=foot@1 p1=foot@6 p2=foot@6 p3=foot@3
+client layer checks: 91 equal, 0 differ
+acts 14, failed acts 0
+rows 3 pass 3 fail 0
+ROW NET-05 PASS (1 checks)
+ROW SEAT-05 PASS (4 checks)
+ROW SEAT-17 PASS (4 checks)
+RESULT PASS

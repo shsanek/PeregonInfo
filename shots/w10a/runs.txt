@@ -1,0 +1,3 @@
+scene_w10_hud reports/shots/scene_w10_hud/004
+scene_w10_cargo reports/shots/scene_w10_cargo/005
+scene_w10_board reports/shots/scene_w10_board/004

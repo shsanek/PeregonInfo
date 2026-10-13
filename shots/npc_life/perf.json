@@ -1,0 +1,37 @@
+{
+ "stage": "folk_look_lyokha__eve",
+ "runs": {
+  "folk1": {
+   "frames": 1499,
+   "avg_ms": 46.896,
+   "p95_ms": 144.583,
+   "objects_ms": 9.076,
+   "draws": 2247,
+   "folk": null
+  },
+  "off1": {
+   "frames": 1499,
+   "avg_ms": 35.355,
+   "p95_ms": 99.703,
+   "objects_ms": 6.735,
+   "draws": 2231,
+   "folk": null
+  },
+  "folk2": {
+   "frames": 1499,
+   "avg_ms": 28.173,
+   "p95_ms": 62.459,
+   "objects_ms": 5.395,
+   "draws": 2247,
+   "folk": null
+  },
+  "off2": {
+   "frames": 1499,
+   "avg_ms": 32.329,
+   "p95_ms": 73.331,
+   "objects_ms": 5.888,
+   "draws": 2231,
+   "folk": null
+  }
+ }
+}

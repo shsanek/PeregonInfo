@@ -1,0 +1,5 @@
+[suite] play_cargo_tests
+[ OK ] interaction41_receiving_pallet_beside_truck_uses_the_shown_drop
+[done] 1/1 passed, 16 checks
+    pallet: ghost 1 bed 0 at 450.80 106.26 1487.20 zone 452.00 106.12 1488.00
+    pallet: ghost 1 bed 0 at 451.60 106.26 1487.20 zone 452.00 106.12 1488.00

@@ -1,0 +1,2 @@
+truck wheels (warning only, physics stands on MapTerrain::base_height, the renderer draws the 2 m mesh): 0 gaps []
+total: 6746 probes checked, 0 sky under a bottom edge, 2 gaps under a bottom edge, 0 sky where the object should be

@@ -1,0 +1,17 @@
+LOG line 9 host asleep.1: 1
+LOG line 12 host place.1: seat1
+LOG line 14 host asleep.1: 0
+LOG line 22 host wpn.1: 1:0:2:0:2229
+LOG line 23 host place.1: foot
+LOG line 9 p1 asleep.1: 1
+LOG line 12 p1 place.1: seat1
+LOG line 14 p1 asleep.1: 0
+LOG line 22 p1 wpn.1: 1:0:2:0:2229
+LOG line 23 p1 place.1: foot
+PASS line 10 SEAT-18 asleep.1 = 1: host=1 p1=1@1
+PASS line 11 SEAT-18 asleep.1 == x: host=1 p1=1@1
+client layer checks: 47 equal, 0 differ
+acts 14, failed acts 0
+rows 1 pass 1 fail 0
+ROW SEAT-18 PASS (2 checks)
+RESULT PASS

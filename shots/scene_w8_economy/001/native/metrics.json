@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "scene": "scene_w8_economy",
+  "seed": 7,
+  "ticks": 600,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "replay": null,
+  "wall_time_ms": 1.099,
+  "frame_time_ms": {"avg": 0.001, "min": 0.000, "max": 0.549},
+  "final_state_hash": "be902ae7",
+  "captures": [
+    {"tick": 0, "state_hash": "da876e30", "image_hash": "de2f5756", "width": 320, "height": 240, "file": "tick_000000.bmp"},
+    {"tick": 300, "state_hash": "d8632a02", "image_hash": "2c921bd2", "width": 320, "height": 240, "file": "tick_000300.bmp"},
+    {"tick": 600, "state_hash": "be902ae7", "image_hash": "257d2e86", "width": 320, "height": 240, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": {"stream": "W8", "contracts_version": 1, "content_hash": "0xa6cfa1c0", "bus": {"published": 41, "delivered": 41, "dropped": 0, "handler_calls": 41, "max_pending": 2, "stream_hash_hi": "0x62d0dfd8", "stream_hash_lo": "0x7e458708"}, "coupons": 83, "xp": 1040, "contracts_started": 6, "completed": 6, "purchases": 5, "tiers": {"engine": 2, "suspension": 2, "tires": 3, "armor": 2}, "spare_parts": 7, "road_seconds": 540, "shortcuts": 2, "loot_sold": 383, "power_hp": 140, "durability": 550},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

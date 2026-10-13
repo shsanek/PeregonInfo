@@ -1,0 +1,71 @@
+LOG line 11 host gunof.0: 0
+LOG line 12 host bandit.0: 1/0 hp60 f0 @1695,353,1417 a0
+LOG line 13 host bandit.1: 1/1 hp60 f0 @1714,353,1410 a0
+LOG line 14 host bandit.2: 1/2 hp60 f0 @1680,353,1418 a0
+LOG line 23 host wpn.1: 1:0:2:0:0
+LOG line 24 host wpn.0: 0:1:0:0:0
+LOG line 25 host look.1: 71,-5
+LOG line 26 host banditd.1: 6
+LOG line 30 host bandit.0: 1/0 hp60 f80 @1696,353,1412 a3
+LOG line 31 host wpn.1: 1:0:0:0:1523
+LOG line 32 host wpn.0: 0:1:0:0:0
+LOG line 33 host bandithp: 120
+LOG line 38 host bandits: 1
+LOG line 39 host health.1: 100
+LOG line 40 host health.0: 100
+LOG line 41 host health.2: 100
+LOG line 44 host bandit.0: 1/0 hp0 f113 @1697,353,1410 a3
+LOG line 45 host bandit.1: 1/1 hp60 f80 @1696,353,1410 a3
+LOG line 46 host bandit.2: 1/2 hp0 f113 @1682,353,1423 a3
+LOG line 11 p1 gunof.0: 0
+LOG line 12 p1 bandit.0: 1/0 hp60 f0 @1695,353,1417 a0
+LOG line 13 p1 bandit.1: 1/1 hp60 f0 @1714,353,1410 a0
+LOG line 14 p1 bandit.2: 1/2 hp60 f0 @1680,353,1418 a0
+LOG line 23 p1 wpn.1: 1:0:2:0:0
+LOG line 24 p1 wpn.0: na
+LOG line 25 p1 look.1: 68,-4
+LOG line 26 p1 banditd.1: 6
+LOG line 30 p1 bandit.0: 1/0 hp60 f80 @1696,353,1412 a3
+LOG line 31 p1 wpn.1: 1:0:0:0:1523
+LOG line 32 p1 wpn.0: na
+LOG line 33 p1 bandithp: 120
+LOG line 38 p1 bandits: 1
+LOG line 39 p1 health.1: 100
+LOG line 40 p1 health.0: na
+LOG line 41 p1 health.2: na
+LOG line 44 p1 bandit.0: 1/0 hp0 f113 @1697,353,1410 a3
+LOG line 45 p1 bandit.1: 1/1 hp60 f80 @1696,353,1410 a3
+LOG line 46 p1 bandit.2: 1/2 hp0 f113 @1682,353,1423 a3
+LOG line 11 p2 gunof.0: 0
+LOG line 12 p2 bandit.0: 1/0 hp60 f0 @1695,353,1417 a0
+LOG line 13 p2 bandit.1: 1/1 hp60 f0 @1714,353,1410 a0
+LOG line 14 p2 bandit.2: 1/2 hp60 f0 @1680,353,1418 a0
+LOG line 23 p2 wpn.1: na
+LOG line 24 p2 wpn.0: na
+LOG line 25 p2 look.1: na
+LOG line 26 p2 banditd.1: 5
+LOG line 30 p2 bandit.0: 1/0 hp60 f80 @1696,353,1412 a3
+LOG line 31 p2 wpn.1: na
+LOG line 32 p2 wpn.0: na
+LOG line 33 p2 bandithp: 120
+LOG line 38 p2 bandits: 1
+LOG line 39 p2 health.1: na
+LOG line 40 p2 health.0: na
+LOG line 41 p2 health.2: 100
+LOG line 44 p2 bandit.0: 1/0 hp0 f113 @1697,353,1410 a3
+LOG line 45 p2 bandit.1: 1/1 hp60 f80 @1696,353,1410 a3
+LOG line 46 p2 bandit.2: 1/2 hp0 f113 @1682,353,1423 a3
+PASS line 8 GUN-02 gun.1 = 2: host=2 p1=2 p2=2
+PASS line 9 GUN-03 gunof.1 = 1: host=1 p1=1 p2=1
+PASS line 10 GUN-03 gunof.2 = 2: host=2 p1=2 p2=2
+PASS line 37 GUN-06 bandithp < $hp0: host=60 p1=60 p2=60
+PASS line 42 AI-03 health.1 < 100: host=84 p1=84 p2=na
+PASS line 43 AI-06 bandits < $alive0: host=1 p1=1 p2=1
+acts 18, failed acts 0
+rows 5 pass 5 fail 0
+ROW AI-03 PASS (1 checks)
+ROW AI-06 PASS (1 checks)
+ROW GUN-02 PASS (1 checks)
+ROW GUN-03 PASS (2 checks)
+ROW GUN-06 PASS (1 checks)
+RESULT PASS

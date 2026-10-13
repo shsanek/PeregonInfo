@@ -1,0 +1,3 @@
+w11_audio wav=w11_audio.wav written=1 bytes=4939244 fnv32=0x1f98c876 backend=none
+scene=scene_w11_audio seed=20261007 ticks=1680 flavour=win32
+final_state_hash=dccfce2d

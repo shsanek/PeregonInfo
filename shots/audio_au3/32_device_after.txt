@@ -1,0 +1,14 @@
+backend=coreaudio
+device=MacBook Pro Speakers
+device_rate=48000
+device_io_frames=256
+device_latency_frames=70
+safety_frames=74
+stream_latency_frames=690
+transport=0x626c746e
+sdl_device_frames=256
+buffers=1
+downstream_ms=23.07
+underruns=0
+glitches=0
+overloads=0

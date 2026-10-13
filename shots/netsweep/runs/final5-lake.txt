@@ -1,0 +1,11 @@
+LOG line 5 host prompt.1: E — Lukich: tackle and boats
+LOG line 5 p1 prompt.1: E — Lukich: tackle and boats
+PASS line 7 LAKE-12 talkui = 1: host=na(x) p1=1@2
+PASS line 9 LAKE-12 talkui = 0: host=na(x) p1=0@1
+PASS line 10 LAKE-12 mode.1 = 2: host=2 p1=2
+links: peer 1 relay
+client layer checks: 27 equal, 0 differ
+acts 5, failed acts 0
+rows 1 pass 1 fail 0
+ROW LAKE-12 PASS (3 checks)
+RESULT PASS

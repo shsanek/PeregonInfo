@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "scene": "scene_map_drive",
+  "seed": 20261007,
+  "ticks": 360,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 480, "frames": 361, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 1, "draw_calls": 95, "primitives": 50176, "vertices": 150528, "state_binds": 16, "texture_binds": 3, "bytes_uploaded": 1088, "pixels_written": 0, "unrasterized_draws": 0}, "window": null},
+  "replay": null,
+  "wall_time_ms": 435.485,
+  "frame_time_ms": {"avg": 1.209, "min": 0.513, "max": 14.335},
+  "final_state_hash": "8eaf00f0",
+  "captures": [
+    {"tick": 0, "state_hash": "5e6a122b", "image_hash": "0f1ff33e", "width": 640, "height": 480, "file": "tick_000000.bmp"},
+    {"tick": 120, "state_hash": "f2af9d43", "image_hash": "169703ef", "width": 640, "height": 480, "file": "tick_000120.bmp"},
+    {"tick": 240, "state_hash": "899e9af5", "image_hash": "51987ce3", "width": 640, "height": 480, "file": "tick_000240.bmp"},
+    {"tick": 360, "state_hash": "8eaf00f0", "image_hash": "b380e45d", "width": 640, "height": 480, "file": "tick_000360.bmp"}
+  ],
+  "scene_metrics": {"stream": "MAP", "contracts_version": 2, "content_hash": "0x3771e36b", "bus": {"published": 0, "delivered": 0, "dropped": 0, "handler_calls": 0, "max_pending": 0, "stream_hash_hi": "0xefd01f60", "stream_hash_lo": "0xba992926"}, "pak": "C:\\Test\\peregon_map.pak", "pak_bytes": 5279224, "route": {"points": 3781, "length_m": 30203.027, "driven_m": 360.000, "complete": false, "moving_ticks": 360, "legs": 5, "start_leg": 0, "teleports": 0, "x": 66.881, "z": 576.047, "y": 514.872}, "streaming": {"loads": 11, "prime_loads": 9, "evictions": 0, "unique_tiles": 11, "map_tiles": 160, "empty_tiles": 0, "resident": 11, "peak_resident": 11, "max_loads_in_tick": 1, "deferred_ticks": 0, "load_failures": 0, "checksum_failures": 0, "bytes_read": 376287, "rebases": 0, "load_ms_max": 34.176, "load_ms_avg": 4.424, "prime_ms": 52.730}, "memory": {"budget_mb": 300.000, "tiles_mb": 2.013, "tiles_peak_mb": 2.013, "gpu_mb": 14.839, "gpu_peak_mb": 14.839, "far_mb": 0.592, "mesh_scratch_mb": 2.000, "peak_total_mb": 18.851, "within_budget": true}, "precision": {"local_error_mm_max": 0.004, "float_world_error_mm_max": 0.004, "origin": [0, 0]}, "surface_samples": {"asphalt": 360, "dirt": 0, "grass": 0, "mud": 0, "puddle": 0, "broken_asphalt": 0, "gravel": 0, "sand": 0, "snow": 0, "ice": 0, "rock": 0, "scree": 0, "takyr": 0, "ford": 0}, "frames": {"count": 361, "avg_ms": 1.192, "p50_ms": 0.805, "p95_ms": 1.392, "p99_ms": 12.794, "max_ms": 52.458, "hitches_over_50ms": 1, "step_ms_max": 1.878}, "render": {"path": "sm2", "frames": 361, "draws": 95, "triangles": 50176, "avg_draws": 87.269, "max_draws": 128, "avg_triangles": 51357.452, "max_triangles": 61976, "last": {"chunk": 78, "patch": 6, "tile": 3, "far": 8, "water": 0, "props": 0}, "uploads": 11, "releases": 0, "upload_mb": 14.247, "mesh_frame_ms_max": 13.212, "mesh_ms_per_tile": 7.139, "jobs_dropped": 0, "prebuilt": 9, "prebuild_ms": 353.614, "tiles_ready": 11, "tiles_pending": 0, "frames_far_fallback": 0}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

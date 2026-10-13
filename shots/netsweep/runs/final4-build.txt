@@ -1,0 +1,63 @@
+LOG line 9 host build: 14
+LOG line 10 host bhave.4: 1
+LOG line 14 host prompt.1: Log wall (blueprint): logs 1/4 · E / LMB — add the Log · hold Q — dismantle
+LOG line 15 host prompt.0: Log wall (blueprint): logs 1/4 · E / LMB — add the Log · hold Q — dismantle
+LOG line 24 host prompt.1: Log wall (blueprint): material in, work 49 % · hold E / LMB — caulk the seams with moss · hold Q — dismantle
+LOG line 25 host bstage.1: 2
+LOG line 27 host bwork.1: 58
+LOG line 28 host bwork.1: 71
+LOG line 29 host bwork.1: 83
+LOG line 30 host bwork.1: 96
+LOG line 31 host prompt.1: Log wall (blueprint): material in, work 96 % · hold E / LMB — caulk the seams with moss · hold Q — dismantle
+LOG line 32 host carry.1: -
+LOG line 35 host bwork.1: 96
+LOG line 36 host banner.1: Log wall: logs 3/4, split 0/0
+LOG line 37 host stamina.1: 98
+LOG line 41 host prompt.1: Log wall (blueprint): logs 0/4 · hold Q — dismantle
+LOG line 52 host banner.1: Dismantled: some logs are on the ground
+LOG line 55 host prompt.1: Blueprint: Log wall: E / LMB — mark out a new site here · F / RMB — put the blueprint away · Q — turn
+LOG line 60 host banner.1: Dismantled: some logs are on the ground
+LOG line 9 p1 build: 14
+LOG line 10 p1 bhave.4: 1
+LOG line 14 p1 prompt.1: Log wall (blueprint): logs 1/4 · E / LMB — add the Log · hold Q — dismantle
+LOG line 15 p1 prompt.0: na
+LOG line 24 p1 prompt.1: Log wall (blueprint): material in, work 49 % · hold E / LMB — caulk the seams with moss · hold Q — dismantle
+LOG line 25 p1 bstage.1: 2
+LOG line 27 p1 bwork.1: 58
+LOG line 28 p1 bwork.1: 64
+LOG line 29 p1 bwork.1: 83
+LOG line 30 p1 bwork.1: 96
+LOG line 31 p1 prompt.1: Log wall (blueprint): material in, work 96 % · hold E / LMB — caulk the seams with moss · hold Q — dismantle
+LOG line 32 p1 carry.1: -
+LOG line 35 p1 bwork.1: 96
+LOG line 36 p1 banner.1: -
+LOG line 37 p1 stamina.1: 98
+LOG line 41 p1 prompt.1: Log wall (blueprint): logs 0/4 · hold Q — dismantle
+LOG line 52 p1 banner.1: Dismantled: some logs are on the ground
+LOG line 55 p1 prompt.1: Blueprint: Log wall: E / LMB — mark out a new site here · F / RMB — put the blueprint away · Q — turn
+LOG line 60 p1 banner.1: Dismantled: some logs are on the ground
+PASS line 8 BUILD-01 build == x: host=14 p1=14
+PASS line 18 BUILD-02 bhave.4 >= $b4+2: host=3@10 p1=3@15
+PASS line 19 BUILD-02 bhave.4 == x: host=1 p1=1@1
+PASS line 20 BUILD-02 carry.1 = -: host=-@10 p1=-@10
+PASS line 21 BUILD-02 carry.0 = -: host=-@1 p1=-@3
+PASS line 33 BUILD-03 bstage.1 = 3: host=3@10 p1=3@16
+PASS line 34 BUILD-03 bstage.1 == x: host=2 p1=2@1
+PASS line 43 BUILD-04 build < $n0: host=13@128 p1=13@136
+PASS line 44 BUILD-04 build == x: host=14 p1=14
+PASS line 46 BUILD-06 build == x: host=14 p1=14
+PASS line 47 BUILD-06 bstage.0 == x: host=3 p1=3
+PASS line 49 BUILD-05 book.1 = 1: host=na(x) p1=1
+PASS line 51 BUILD-05 bpick.1 != 0: host=1@10 p1=1@11
+PASS line 58 BUILD-05 build > $n1: host=14@10 p1=14@16
+PASS line 59 BUILD-05 build == x: host=13 p1=13
+client layer checks: 36 equal, 0 differ
+acts 19, failed acts 0
+rows 6 pass 6 fail 0
+ROW BUILD-01 PASS (1 checks)
+ROW BUILD-02 PASS (4 checks)
+ROW BUILD-03 PASS (2 checks)
+ROW BUILD-04 PASS (2 checks)
+ROW BUILD-05 PASS (4 checks)
+ROW BUILD-06 PASS (2 checks)
+RESULT PASS

@@ -1,0 +1,11 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w3_combat --seed 2 --rhi d3d9 --ticks 715 --replay C:\Peregon\scene_w3_sawn_off_brute.txt
+rc=0
+--- stdout
+scene=scene_w3_combat seed=2 ticks=715 flavour=win32
+final_state_hash=8868ff0e
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.W2Lo27DuVh/dump/present_000.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.W2Lo27DuVh/dump/present_001.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.W2Lo27DuVh/dump/present_002.bgra
+[RunResult] guest_exit_code=0x00000000

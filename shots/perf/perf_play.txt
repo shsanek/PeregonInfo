@@ -1,0 +1,17 @@
+perf_tour play: steady avg 18.7 ms p95 30.0 ms (7199 frames), all avg 18.7 ms, final hash 23b36711
+  sections ms: map 2.3, tick_physics 2.3, objects 2.3, footprints 1.8, nature 1.8, detail 1.5, outside 1.0, light 0.9, tick 0.9, cab 0.9, game_frame 0.8, layers 0.7, nature_update 0.6, tick_ui 0.4, water 0.2, sky 0.2, hud 0.1, tick_director 0.1, hands 0.0, tick_sites 0.0, precip 0.0
+  counters/frame: {"draws": 395, "state_binds": 364, "texture_binds": 109, "upload_kb": 600, "objects_drawn": 0}
+  play/t1200             avg      - p95      - draws  None  5f76f6fd
+  play/t2400             avg      - p95      - draws  None  b6ec74ad
+  play/t3600             avg      - p95      - draws  None  03d05ab7
+  play/t4800             avg      - p95      - draws  None  fd597db0
+  play/t6000             avg      - p95      - draws  None  794d0b97
+  play/t7100             avg      - p95      - draws  None  c40cdb7a
+compare with ref_play: final state hash same
+  play/t1200: 1318 pixels differ, 68 by more than 3 levels (0.013%), 6 by more than 24 (0.0012%), max delta 57
+  play/t2400: 2365 pixels differ, 337 by more than 3 levels (0.065%), 142 by more than 24 (0.0274%), max delta 143
+  play/t3600: 2637 pixels differ, 186 by more than 3 levels (0.036%), 36 by more than 24 (0.0069%), max delta 65
+  play/t4800: 2606 pixels differ, 46 by more than 3 levels (0.009%), 10 by more than 24 (0.0019%), max delta 50
+  play/t6000: 2100 pixels differ, 17 by more than 3 levels (0.003%), 6 by more than 24 (0.0012%), max delta 31
+  play/t7100: 2231 pixels differ, 20 by more than 3 levels (0.004%), 4 by more than 24 (0.0008%), max delta 77
+  captures changed: 6/6, worst channel delta 143; steady avg 23.0 -> 18.7 ms, p95 35.9 -> 30.0 ms

@@ -1,0 +1,23 @@
+[suite] play_cargo_tests
+[ OK ] hero_cargo_is_hidden_by_closed_gate_and_reachable_after_opening
+[ OK ] hero_rear_sill_is_solid_and_bed_remains_open_above_floor
+[ OK ] hero_hood_and_tailgate_controls_toggle_their_targets
+[ OK ] hero_cabin_controls_cannot_be_clicked_through_the_other_closed_door
+    HERO wheel 1 flat tyre-bottom gap -0.000358 m, sink 0.000000 m
+    HERO wheel 0 flat tyre-bottom gap 0.000460 m, sink 0.000000 m
+    HERO wheel 3 flat tyre-bottom gap 0.000030 m, sink 0.000000 m
+    HERO wheel 2 flat tyre-bottom gap 0.000966 m, sink 0.000000 m
+[ OK ] hero_physical_wheels_match_mesh_dimensions_and_flat_contact
+[ OK ] hero_driver_camera_uses_new_cab_after_world_reset
+    driver eye vs cab seat with 0-1560 kg at the tailgate, flat / 20 deg nose-up / 17 deg roll: worst 0.000000 m
+[ OK ] hero_driver_eye_stays_in_the_cab_when_the_bed_is_loaded_and_the_truck_tilts
+[ OK ] hero_transfer_lever_toggles_low_range_from_the_cabin
+[ OK ] hero_gauges_identify_each_dial_without_turning_readouts_into_switches
+[ OK ] hero_headlights_use_light_knob_and_persist_independently_of_ignition
+[ OK ] hero_new_game_starts_with_key_removed_engine_off_and_lights_off
+[ OK ] hero_ignition_separates_key_power_and_held_start_with_spring_return
+[ OK ] hero_ignition_cold_worn_engine_needs_longer_hold_and_missing_fuel_cannot_start
+[ OK ] hero_ignition_engine_keeps_idling_after_exit_and_stops_only_at_off
+[ OK ] hero_ignition_save_restores_key_states_but_never_restores_a_start_hold
+[ OK ] hero_gauges_follow_real_drive_without_jumps
+[done] 16/16 passed, 273 checks

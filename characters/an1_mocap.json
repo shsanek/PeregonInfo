@@ -1,0 +1,1397 @@
+{
+ "baba_trader": {
+  "bind_error": 6.939846886512648e-07,
+  "clips": {
+   "idle": {
+    "keys": 95,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.125,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "talk": {
+    "keys": 105,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.451,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.166
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.164
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.184
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.209
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.625
+   }
+  },
+  "splay_m": {
+   "L": 0.0763995572924614,
+   "R": 0.07639945298433304
+  }
+ },
+ "bandit_kolyan": {
+  "bind_error": 5.306152646173494e-07,
+  "clips": {
+   "aim": {
+    "keys": 91,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 3.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "crouch": {
+    "keys": 89,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.9333,
+    "source": "Crouch_Idle_Loop",
+    "stance_speed_mps": 0.012
+   },
+   "fire": {
+    "keys": 10,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.3,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_l": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_r": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_head": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_l": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_r": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_torso": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "peek": {
+    "keys": 49,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.6,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_nailgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_rifle": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_shotgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "run": {
+    "keys": 21,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 0.6667,
+    "source": "Sprint_Loop",
+    "stance_speed_mps": 3.268
+   },
+   "stagger": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_l": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_r": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.19
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.226
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.029
+   },
+   "walk_back": {
+    "keys": 45,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.4815,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.925
+   }
+  },
+  "hits": {
+   "head_err_m": 6.8e-05,
+   "old_walk_key1_err_m": 8.7e-05,
+   "poses": {
+    "aim": {
+     "clip": "aim",
+     "period_ticks": 0
+    },
+    "crouch": {
+     "clip": "crouch",
+     "period_ticks": 0
+    },
+    "idle": {
+     "clip": "idle",
+     "period_ticks": 0
+    },
+    "reload": {
+     "clip": "reload_rifle",
+     "period_ticks": 0
+    },
+    "run": {
+     "clip": "run",
+     "period_ticks": 40
+    },
+    "stagger": {
+     "clip": "stagger",
+     "period_ticks": 0
+    },
+    "walk": {
+     "clip": "walk",
+     "period_ticks": 80
+    }
+   },
+   "speed_run": 3.268,
+   "speed_walk": 1.029
+  },
+  "splay_m": {
+   "L": 0.0748797059059143,
+   "R": 0.07487969100475311
+  }
+ },
+ "bandit_mikhalych": {
+  "bind_error": 6.258487701416016e-07,
+  "clips": {
+   "aim": {
+    "keys": 91,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 3.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.607
+   },
+   "crouch": {
+    "keys": 89,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.9333,
+    "source": "Crouch_Idle_Loop",
+    "stance_speed_mps": 0.011
+   },
+   "fire": {
+    "keys": 10,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.3,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.326
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.966
+   },
+   "hit_arm_l": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_r": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_head": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_l": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_r": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_torso": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "peek": {
+    "keys": 49,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.6,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_nailgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_rifle": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_shotgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "run": {
+    "keys": 21,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 0.6667,
+    "source": "Sprint_Loop",
+    "stance_speed_mps": 3.07
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "stagger": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_l": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_r": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.2
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.209
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.966
+   },
+   "walk_back": {
+    "keys": 45,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.4815,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.869
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.015
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.015
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.004
+   }
+  },
+  "hits": {
+   "head_err_m": 6.6e-05,
+   "old_walk_key1_err_m": 9.3e-05,
+   "poses": {
+    "aim": {
+     "clip": "aim",
+     "period_ticks": 0
+    },
+    "crouch": {
+     "clip": "crouch",
+     "period_ticks": 0
+    },
+    "idle": {
+     "clip": "idle",
+     "period_ticks": 0
+    },
+    "reload": {
+     "clip": "reload_shotgun",
+     "period_ticks": 0
+    },
+    "run": {
+     "clip": "run",
+     "period_ticks": 40
+    },
+    "stagger": {
+     "clip": "stagger",
+     "period_ticks": 0
+    },
+    "walk": {
+     "clip": "walk",
+     "period_ticks": 80
+    }
+   },
+   "speed_run": 3.07,
+   "speed_walk": 0.966
+  },
+  "splay_m": {
+   "L": 0.06467503309249878,
+   "R": 0.06467509269714355
+  }
+ },
+ "bandit_serega": {
+  "bind_error": 8.95039758093364e-07,
+  "clips": {
+   "aim": {
+    "keys": 91,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 3.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "crouch": {
+    "keys": 89,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.9333,
+    "source": "Crouch_Idle_Loop",
+    "stance_speed_mps": 0.013
+   },
+   "fire": {
+    "keys": 10,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.3,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_l": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_r": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_head": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_l": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_r": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_torso": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "peek": {
+    "keys": 49,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.6,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_nailgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_rifle": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_shotgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "run": {
+    "keys": 21,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 0.6667,
+    "source": "Sprint_Loop",
+    "stance_speed_mps": 3.672
+   },
+   "stagger": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_l": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_r": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.197
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.235
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.158
+   },
+   "walk_back": {
+    "keys": 45,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.4815,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.041
+   }
+  },
+  "hits": {
+   "head_err_m": 7.4e-05,
+   "old_walk_key1_err_m": 0.000112,
+   "poses": {
+    "aim": {
+     "clip": "aim",
+     "period_ticks": 0
+    },
+    "crouch": {
+     "clip": "crouch",
+     "period_ticks": 0
+    },
+    "idle": {
+     "clip": "idle",
+     "period_ticks": 0
+    },
+    "reload": {
+     "clip": "reload_rifle",
+     "period_ticks": 0
+    },
+    "run": {
+     "clip": "run",
+     "period_ticks": 40
+    },
+    "stagger": {
+     "clip": "stagger",
+     "period_ticks": 0
+    },
+    "walk": {
+     "clip": "walk",
+     "period_ticks": 80
+    }
+   },
+   "speed_run": 3.672,
+   "speed_walk": 1.158
+  },
+  "splay_m": {
+   "L": 0.08592022955417633,
+   "R": 0.08591972291469574
+  }
+ },
+ "bandit_vadik": {
+  "bind_error": 5.968637051065755e-07,
+  "clips": {
+   "aim": {
+    "keys": 91,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 3.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "crouch": {
+    "keys": 89,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.9333,
+    "source": "Crouch_Idle_Loop",
+    "stance_speed_mps": 0.012
+   },
+   "fire": {
+    "keys": 10,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.3,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_l": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_r": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_head": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_l": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_r": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_torso": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "peek": {
+    "keys": 49,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.6,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_nailgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_rifle": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_shotgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "run": {
+    "keys": 21,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 0.6667,
+    "source": "Sprint_Loop",
+    "stance_speed_mps": 3.418
+   },
+   "stagger": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_l": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_r": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.181
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.223
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.078
+   },
+   "walk_back": {
+    "keys": 45,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.4815,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.969
+   }
+  },
+  "hits": {
+   "head_err_m": 7.3e-05,
+   "old_walk_key1_err_m": 9.4e-05,
+   "poses": {
+    "aim": {
+     "clip": "aim",
+     "period_ticks": 0
+    },
+    "crouch": {
+     "clip": "crouch",
+     "period_ticks": 0
+    },
+    "idle": {
+     "clip": "idle",
+     "period_ticks": 0
+    },
+    "reload": {
+     "clip": "reload_shotgun",
+     "period_ticks": 0
+    },
+    "run": {
+     "clip": "run",
+     "period_ticks": 40
+    },
+    "stagger": {
+     "clip": "stagger",
+     "period_ticks": 0
+    },
+    "walk": {
+     "clip": "walk",
+     "period_ticks": 80
+    }
+   },
+   "speed_run": 3.418,
+   "speed_walk": 1.078
+  },
+  "splay_m": {
+   "L": 0.0847453624010086,
+   "R": 0.08474533259868622
+  }
+ },
+ "bandit_zhenya": {
+  "bind_error": 5.908080220699015e-07,
+  "clips": {
+   "aim": {
+    "keys": 91,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 3.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "carry": {
+    "keys": 61,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.0,
+    "source": "Walk_Carry_Loop",
+    "stance_speed_mps": 0.67
+   },
+   "crouch": {
+    "keys": 89,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.9333,
+    "source": "Crouch_Idle_Loop",
+    "stance_speed_mps": 0.012
+   },
+   "fire": {
+    "keys": 10,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.3,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "fold_arms": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_FoldArms_Loop",
+    "stance_speed_mps": 0.002
+   },
+   "free_idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "free_run": {
+    "keys": 29,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9333,
+    "source": "Jog_Fwd_Loop",
+    "stance_speed_mps": 2.569
+   },
+   "free_walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.068
+   },
+   "hit_arm_l": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_arm_r": {
+    "keys": 13,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_head": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "hit_leg_l": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_leg_r": {
+    "keys": 16,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.5,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "hit_torso": {
+    "keys": 15,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.4667,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "peek": {
+    "keys": 49,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.6,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_nailgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_rifle": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "reload_shotgun": {
+    "keys": 67,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 2.2,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "run": {
+    "keys": 21,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 0.6667,
+    "source": "Sprint_Loop",
+    "stance_speed_mps": 3.39
+   },
+   "sit": {
+    "keys": 51,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.6667,
+    "source": "Sitting_Idle_Loop",
+    "stance_speed_mps": 0.0
+   },
+   "stagger": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "strafe_l": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.001
+   },
+   "strafe_r": {
+    "keys": 28,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.18
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.236
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.068
+   },
+   "walk_back": {
+    "keys": 45,
+    "loop": true,
+    "mode": "legs",
+    "seconds": 1.4815,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 0.96
+   },
+   "work_chop": {
+    "keys": 30,
+    "loop": true,
+    "mode": "full",
+    "seconds": 0.9667,
+    "source": "TreeChopping_Loop",
+    "stance_speed_mps": 0.024
+   },
+   "work_harvest": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Farm_Harvest",
+    "stance_speed_mps": 0.021
+   },
+   "work_water": {
+    "keys": 115,
+    "loop": true,
+    "mode": "full",
+    "seconds": 3.8,
+    "source": "Farm_Watering",
+    "stance_speed_mps": 0.003
+   }
+  },
+  "hits": {
+   "head_err_m": 6.4e-05,
+   "old_walk_key1_err_m": 8.3e-05,
+   "poses": {
+    "aim": {
+     "clip": "aim",
+     "period_ticks": 0
+    },
+    "crouch": {
+     "clip": "crouch",
+     "period_ticks": 0
+    },
+    "idle": {
+     "clip": "idle",
+     "period_ticks": 0
+    },
+    "reload": {
+     "clip": "reload_shotgun",
+     "period_ticks": 0
+    },
+    "run": {
+     "clip": "run",
+     "period_ticks": 40
+    },
+    "stagger": {
+     "clip": "stagger",
+     "period_ticks": 0
+    },
+    "walk": {
+     "clip": "walk",
+     "period_ticks": 80
+    }
+   },
+   "speed_run": 3.39,
+   "speed_walk": 1.068
+  },
+  "splay_m": {
+   "L": 0.083428755402565,
+   "R": 0.0834287703037262
+  }
+ },
+ "grisha": {
+  "bind_error": 2.9461299993645987e-06,
+  "clips": {
+   "idle": {
+    "keys": 76,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.5,
+    "source": "Idle_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "talk": {
+    "keys": 89,
+    "loop": true,
+    "mode": "full",
+    "seconds": 2.9333,
+    "source": "Idle_Talking_Loop",
+    "stance_speed_mps": 0.001
+   },
+   "turn_l45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.24
+   },
+   "turn_l90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.343
+   },
+   "turn_r45": {
+    "keys": 28,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 0.9,
+    "source": null,
+    "stance_speed_mps": 0.122
+   },
+   "turn_r90": {
+    "keys": 37,
+    "loop": false,
+    "mode": "narrow",
+    "seconds": 1.2,
+    "source": null,
+    "stance_speed_mps": 0.093
+   },
+   "use_tool": {
+    "keys": 61,
+    "loop": true,
+    "mode": "narrow",
+    "seconds": 2.0,
+    "source": null,
+    "stance_speed_mps": 0.0
+   },
+   "walk": {
+    "keys": 41,
+    "loop": true,
+    "mode": "full",
+    "seconds": 1.3333,
+    "source": "Walk_Loop",
+    "stance_speed_mps": 1.054
+   }
+  },
+  "splay_m": {
+   "L": 0.09528852254152298,
+   "R": 0.09528853744268417
+  }
+ }
+}

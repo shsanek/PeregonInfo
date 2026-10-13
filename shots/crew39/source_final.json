@@ -1,0 +1,35 @@
+{
+  "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/assets/truck_wb/stage39_crew_cab_authoring.blend",
+  "doors": {
+    "door.L": {
+      "bottom": 0.6269999742507935,
+      "top": 1.8149999380111694,
+      "height": 1.187999963760376
+    },
+    "door.R": {
+      "bottom": 0.6269999742507935,
+      "top": 1.8149999380111694,
+      "height": 1.187999963760376
+    },
+    "door.rear.L": {
+      "bottom": 0.6269999742507935,
+      "top": 1.8149999380111694,
+      "height": 1.187999963760376
+    },
+    "door.rear.R": {
+      "bottom": 0.6269999742507935,
+      "top": 1.8149999380111694,
+      "height": 1.187999963760376
+    }
+  },
+  "saved_open_degrees": {
+    "door.L": -65.00000067042492,
+    "door.R": 65.00000067042492,
+    "door.rear.L": -65.00000067042492,
+    "door.rear.R": 65.00000067042492
+  },
+  "tank_count": 1,
+  "fuel_straps": [],
+  "supports_present": true,
+  "support_welds_present": true
+}

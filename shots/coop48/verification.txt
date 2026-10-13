@@ -1,0 +1,44 @@
+COOP48 — paused at the owner's requested checkpoint, 2026-10-11
+
+Gameplay commit: 6977ac2b43 (work/peregon-coop-audit)
+Mainline pulled first: 17b34f9aa3, including Windows build/package fix 9fe79d3f7e.
+Merge into audit branch: 2a18213826. Gameplay is not merged into claude/peregon-design.
+
+Changed
+- Compact redundant held movement inputs even while mouse aim changes. Preserve action edges, commands and wheel events.
+- Send authoritative walking speed and advance avatar animation with the local presentation clock after hitches.
+- Fit the sit clip to all four cabin seats: hips forward, boots above the floor, driver hands on the wheel; follow the full truck rotation.
+- Hide visible backpack and gun only while the avatar is seated in the truck. Standing/exiting restores their display; inventory is retained.
+- Send authoritative clock, season and blizzard parameters with private state and rebuild client lighting/weather presentation.
+- Dedicated shared care wire state no longer loads the host's offline survival save over the client's clothes, tea, stamina or hold progress.
+- Live shared care includes crank, cable, punctures, planks and four wipe animations. Private care comes from its own authoritative slot.
+- Shared care and glass update at 20 Hz. Glass changes use 16x16 tiles: a local side wipe changes a 512-byte tile, not every pane.
+- Finish world checks using the compressed-byte allowance; raw snowfall chunks previously prevented complete checks despite spare wire budget.
+- The loopback report now requires an actual participant when a client bot is requested, plus movement for the walking bot.
+
+Validation
+Native Release build: PASS.
+Four selected CTest targets: PASS, 76 scenarios / 24,740 assertions (ctest.txt and test-results.txt).
+Targets: coop_audit_tests (11), coop_seats_tests (9), net_world_tests (8), view_tests (48).
+Cabin test skins all body vertices in four seats across 12 clip/steering samples per seat. No vertex outside the cabin envelope, below its floor or beyond the rear-row foot-space limit.
+Equipment check covers standing -> each seat -> standing, including observer flags on both transitions.
+Clock test begins with different client/host seasons and hours; checks host time, winter and blizzard state after transfer.
+Private-care test uses four different slot states; shared snapshots preserve each slot's wetness, tea, fatigue and action progress.
+Glass test checks a one-tile side-window update, unchanged other panes and atomic rejection of a truncated tile.
+
+Two native Metal processes, host actor and walking participant, winter/snow:
+--net-sim latency=60,jitter=15,loss=2; late join at host tick 600.
+21/21 complete world checks equal; 6 late checks equal; no apply/patch errors.
+Observed relay RTT avg 61 ms, max 66 ms. Layer traffic avg 22.3 KiB/s, max 23.4 (48 cap).
+Client walked 35.3 m. No corrections above the 0.5 m snap threshold.
+The prediction log retains startup corrections and interpolation underruns; this does not certify behavior at the owner's 118 ms Steam RTT.
+Winter light and snow were inspected in both captures. Images are at different simulation ticks/cameras, not a pixel-equality test.
+The first snowfall run lacked final complete checks (initial-snow-summary.txt); after the compressed-budget fix the repeat passes (relay-summary.txt).
+
+Limits / resume point
+The full 32-group / 394-row multiplayer inventory is NOT accepted. Annotated rows contain partial evidence only.
+No real two-account Steam or Windows/macOS session was run in this checkpoint. Windows fixes were pulled, not revalidated on Windows here.
+The network protocol is now 5: rebuild both host and client for the next Steam session. Distributable ZIPs were not regenerated.
+Still open: client inventory/map/shop/job interfaces, full driver prediction, sleep/time-warp agreement, reconnect/persistence, remaining shared-object ownership and all other catalog actions in both actor roles.
+Four seat mesh envelopes and equipment transitions passed automated checks; live four-person Steam seating/animation review remains open.
+Do not resume the global audit automatically: the owner explicitly asked to stop at this checkpoint.

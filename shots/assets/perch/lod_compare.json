@@ -1,0 +1,31 @@
+{
+ "asset": "perch",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 32802
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 899
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 359
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9666,
+   "side": 0.967,
+   "q34": 0.9638,
+   "back34": 0.9652
+  },
+  "LOD1 (after)": {
+   "front": 0.8878,
+   "side": 0.9001,
+   "q34": 0.8991,
+   "back34": 0.9051
+  }
+ }
+}

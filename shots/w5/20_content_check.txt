@@ -1,0 +1,292 @@
+peregon content check
+contracts version 2, content format 1
+source dir
+balance hash 0x06536fb7
+file surfaces.txt text hash 0x411f4812
+file items.txt text hash 0x2ecf9938
+file weapons.txt text hash 0xb26fa0e9
+file enemies.txt text hash 0x60b34d13
+file vehicle.txt text hash 0xf80e730e
+file contracts.txt text hash 0xb128e35e
+file arenas.txt text hash 0xfeec539d
+count surface 14
+count item 13
+count weapon 4
+count enemy 3
+count frame 1
+count part 12
+count contract 203
+count arena 2
+surface asphalt type=asphalt grip=1.000 wet_loss=0.250 rr=0.015 min_grip=0.000 rut_mm=0 wetness=0.000 lat=1.000 wet_loss_lat=0.300 sink_mm=0 crust_kg=0 depth_mm=0 studs=0.850 rain=0.700 drain_s=300 grade=48.500/38.499/98.500/41.000 fx=128 helps=0 sound=hard soil_k=0 n=1.000 c=0.000 phi=0.000 max_sink_mm=0 compaction=0.000 recovery_s=0 crust_kpa=0
+surface dirt type=dirt grip=0.800 wet_loss=0.350 rr=0.040 min_grip=0.200 rut_mm=40 wetness=0.100 lat=0.760 wet_loss_lat=0.400 sink_mm=30 crust_kg=0 depth_mm=0 studs=1.000 rain=0.730 drain_s=900 grade=34.601/24.800/73.201/34.601 fx=25 helps=1 sound=soft soil_k=800 n=0.700 c=1.700 phi=29.000 max_sink_mm=80 compaction=0.500 recovery_s=0 crust_kpa=0
+surface grass type=grass grip=0.700 wet_loss=0.400 rr=0.060 min_grip=0.250 rut_mm=20 wetness=0.200 lat=0.595 wet_loss_lat=0.450 sink_mm=20 crust_kg=0 depth_mm=0 studs=1.000 rain=0.760 drain_s=600 grade=26.199/17.799/58.400/26.199 fx=24 helps=65 sound=grass soil_k=718 n=0.600 c=6.000 phi=28.000 max_sink_mm=60 compaction=0.300 recovery_s=0 crust_kpa=0
+surface mud type=mud grip=0.450 wet_loss=0.300 rr=0.180 min_grip=0.550 rut_mm=220 wetness=0.800 lat=0.337 wet_loss_lat=0.350 sink_mm=150 crust_kg=0 depth_mm=0 studs=1.000 rain=0.940 drain_s=1800 grade=0.000/0.000/16.200/0.000 fx=26 helps=25 sound=mud soil_k=313 n=0.800 c=4.000 phi=10.000 max_sink_mm=300 compaction=0.800 recovery_s=0 crust_kpa=0
+surface puddle type=puddle grip=0.550 wet_loss=0.200 rr=0.100 min_grip=0.350 rut_mm=120 wetness=1.000 lat=0.440 wet_loss_lat=0.300 sink_mm=40 crust_kg=0 depth_mm=150 studs=1.000 rain=1.000 drain_s=3600 grade=11.1000/11.1000/33.1000/11.1000 fx=194 helps=8 sound=water soil_k=902 n=0.800 c=3.000 phi=15.000 max_sink_mm=200 compaction=0.700 recovery_s=120 crust_kpa=0
+surface broken_asphalt type=broken_asphalt grip=0.850 wet_loss=0.300 rr=0.023 min_grip=0.000 rut_mm=0 wetness=0.050 lat=0.807 wet_loss_lat=0.320 sink_mm=0 crust_kg=0 depth_mm=0 studs=0.850 rain=0.750 drain_s=420 grade=39.612/30.049/81.474/33.331 fx=1 helps=16 sound=rough soil_k=0 n=1.000 c=0.000 phi=0.000 max_sink_mm=0 compaction=0.000 recovery_s=0 crust_kpa=0
+surface gravel type=gravel grip=0.700 wet_loss=0.250 rr=0.050 min_grip=0.150 rut_mm=30 wetness=0.050 lat=0.595 wet_loss_lat=0.250 sink_mm=20 crust_kg=0 depth_mm=0 studs=1.000 rain=0.600 drain_s=240 grade=29.561/22.1000/64.124/29.561 fx=13 helps=72 sound=gravel soil_k=1571 n=0.800 c=1.000 phi=38.000 max_sink_mm=40 compaction=0.300 recovery_s=0 crust_kpa=0
+surface sand type=sand grip=0.550 wet_loss=0.000 rr=0.220 min_grip=0.300 rut_mm=150 wetness=0.050 lat=0.440 wet_loss_lat=0.000 sink_mm=120 crust_kg=0 depth_mm=0 studs=1.000 rain=0.400 drain_s=180 grade=5.499/5.499/33.000/5.499 fx=25 helps=392 sound=sand soil_k=708 n=1.100 c=1.000 phi=28.000 max_sink_mm=400 compaction=0.600 recovery_s=900 crust_kpa=0
+surface snow type=snow grip=0.500 wet_loss=0.200 rr=0.120 min_grip=0.250 rut_mm=80 wetness=0.100 lat=0.450 wet_loss_lat=0.250 sink_mm=60 crust_kg=0 depth_mm=0 studs=1.300 rain=0.800 drain_s=1200 grade=12.500/8.1000/37.001/19.850 fx=24 helps=12 sound=snow soil_k=1145 n=1.000 c=1.000 phi=20.000 max_sink_mm=350 compaction=0.900 recovery_s=0 crust_kpa=40
+surface ice type=ice grip=0.200 wet_loss=0.400 rr=0.014 min_grip=0.000 rut_mm=0 wetness=0.000 lat=0.160 wet_loss_lat=0.400 sink_mm=0 crust_kg=0 depth_mm=0 studs=2.500 rain=0.900 drain_s=1200 grade=8.649/5.449/18.649/23.648 fx=128 helps=12 sound=ice soil_k=0 n=1.000 c=0.000 phi=0.000 max_sink_mm=0 compaction=0.000 recovery_s=0 crust_kpa=0
+surface rock type=rock grip=0.750 wet_loss=0.300 rr=0.030 min_grip=0.000 rut_mm=0 wetness=0.050 lat=0.712 wet_loss_lat=0.300 sink_mm=0 crust_kg=0 depth_mm=0 studs=0.900 rain=0.700 drain_s=300 grade=33.937/25.500/70.874/30.243 fx=0 helps=40 sound=rough soil_k=0 n=1.000 c=0.000 phi=0.000 max_sink_mm=0 compaction=0.000 recovery_s=0 crust_kpa=0
+surface scree type=scree grip=0.450 wet_loss=0.150 rr=0.120 min_grip=0.300 rut_mm=60 wetness=0.050 lat=0.337 wet_loss_lat=0.150 sink_mm=50 crust_kg=0 depth_mm=0 studs=1.000 rain=0.600 drain_s=240 grade=10.332/7.800/32.663/10.332 fx=21 helps=40 sound=gravel soil_k=1018 n=0.900 c=0.000 phi=36.000 max_sink_mm=120 compaction=0.400 recovery_s=0 crust_kpa=0
+surface takyr type=takyr grip=0.850 wet_loss=0.650 rr=0.040 min_grip=0.200 rut_mm=20 wetness=0.000 lat=0.807 wet_loss_lat=0.650 sink_mm=10 crust_kg=2400 depth_mm=0 studs=1.000 rain=0.850 drain_s=1500 grade=38.501/16.400/81.001/38.501 fx=41 helps=128 sound=rough soil_k=313 n=0.800 c=4.000 phi=13.000 max_sink_mm=250 compaction=0.700 recovery_s=0 crust_kpa=118
+surface ford type=ford grip=0.500 wet_loss=0.000 rr=0.200 min_grip=0.300 rut_mm=0 wetness=1.000 lat=0.350 wet_loss_lat=0.000 sink_mm=30 crust_kg=0 depth_mm=350 studs=1.000 rain=1.000 drain_s=0 grade=5.000/5.000/30.000/5.000 fx=194 helps=40 sound=water soil_k=1136 n=0.800 c=0.500 phi=35.000 max_sink_mm=100 compaction=0.200 recovery_s=30 crust_kpa=0
+item nail_box id=0xcd6eb19b type=ammo size=1x1 kg=2.000 price=20 buy=40 rounds=100 flags=4
+item shell_box id=0x4aa208a7 type=ammo size=1x1 kg=1.500 price=15 buy=30 rounds=20 flags=4
+item mg_belt id=0xcae7fd93 type=ammo size=2x1 kg=12.000 price=30 buy=60 rounds=200 flags=0
+item crowbar id=0x61dc7ec7 type=weapon size=1x2 kg=2.500 price=10 buy=0 rounds=0 flags=0
+item sawn_off id=0xea72ed6e type=weapon size=2x1 kg=3.000 price=120 buy=250 rounds=0 flags=0
+item nailgun id=0x1f882475 type=weapon size=2x1 kg=4.000 price=180 buy=400 rounds=0 flags=0
+item spare_parts id=0x62846b3d type=part size=1x1 kg=15.000 price=40 buy=0 rounds=0 flags=0
+item scrap id=0x48fb22b2 type=loot size=2x1 kg=10.000 price=8 buy=0 rounds=0 flags=0
+item chemicals id=0x7245cbf6 type=loot size=1x1 kg=8.000 price=25 buy=0 rounds=0 flags=0
+item electronics id=0xa1f0e48c type=loot size=1x1 kg=3.000 price=80 buy=0 rounds=0 flags=2
+item supply_crate id=0x57977a82 type=loot size=2x2 kg=60.000 price=0 buy=0 rounds=0 flags=1
+item fuel_canister id=0xdf7e64a7 type=loot size=1x2 kg=20.000 price=0 buy=0 rounds=0 flags=1
+item grain_sack id=0x9bbad1a3 type=loot size=2x1 kg=50.000 price=0 buy=0 rounds=0 flags=1
+weapon crowbar dmg=35.000x1 type=melee rate=1.600 mag=0 reserve=0 reload=0.000 knock=1.000 ammo=- flags=1 strong=- weak=brute,buggy
+weapon sawn_off dmg=12.000x8 type=pellet rate=4.000 mag=2 reserve=20 reload=1.800 knock=8.000 ammo=shell_box flags=2 strong=brute weak=buggy
+weapon nailgun dmg=14.000x1 type=nail rate=10.000 mag=50 reserve=100 reload=2.000 knock=0.500 ammo=nail_box flags=0 strong=raider weak=brute,buggy
+weapon roof_mg dmg=20.000x1 type=bullet rate=8.000 mag=200 reserve=0 reload=3.000 knock=1.000 ammo=mg_belt flags=4 strong=buggy weak=-
+enemy raider class=infantry hp=60 dmg=8.000 charge=0.000 speed=4.500 group=3..6 flags=1
+enemy brute class=heavy hp=600 dmg=20.000 charge=35.000 speed=3.000 group=1..1 flags=6
+enemy buggy class=vehicle hp=40 dmg=8.000 charge=0.000 speed=22.000 group=1..3 flags=24
+frame kolymaga_t1 tier=1 kg=1400.000 capacity=1200 grid=6x4 straps=6 durability=400 overload=0.300
+part engine_t1 slot=engine tier=1 cost=0+0xspare_parts kg=90.000 hp=110 vmax=140 noise=250 clearance=0 stability=0.000 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=0 ram=0.000
+part engine_t2 slot=engine tier=2 cost=300+2xspare_parts kg=110.000 hp=140 vmax=150 noise=270 clearance=0 stability=0.000 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=0 ram=0.000
+part engine_t3 slot=engine tier=3 cost=900+5xspare_parts kg=140.000 hp=170 vmax=165 noise=290 clearance=0 stability=0.000 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=0 ram=0.000
+part suspension_t1 slot=suspension tier=1 cost=0+0xspare_parts kg=40.000 hp=0 vmax=0 noise=0 clearance=180 stability=1.000 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=0 ram=0.000
+part suspension_t2 slot=suspension tier=2 cost=300+2xspare_parts kg=50.000 hp=0 vmax=0 noise=0 clearance=240 stability=1.150 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=0 ram=0.000
+part suspension_t3 slot=suspension tier=3 cost=900+5xspare_parts kg=60.000 hp=0 vmax=0 noise=0 clearance=280 stability=1.300 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=0 ram=0.000
+part tires_t1 slot=tires tier=1 cost=0+0xspare_parts kg=40.000 hp=0 vmax=0 noise=0 clearance=0 stability=0.000 grip=1.000,1.000,1.000,0.900,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000,1.000 durability=0 ram=0.000
+part tires_t2 slot=tires tier=2 cost=300+2xspare_parts kg=44.000 hp=0 vmax=0 noise=0 clearance=0 stability=0.000 grip=0.950,1.150,1.250,1.700,1.200,0.950,1.100,1.150,1.150,1.000,1.050,1.150,1.050,1.150 durability=0 ram=0.000
+part tires_t3 slot=tires tier=3 cost=900+5xspare_parts kg=48.000 hp=0 vmax=0 noise=0 clearance=0 stability=0.000 grip=0.950,1.250,1.400,2.000,1.350,0.950,1.200,1.250,1.250,1.050,1.100,1.250,1.100,1.250 durability=0 ram=0.000
+part armor_t1 slot=armor tier=1 cost=0+0xspare_parts kg=80.000 hp=0 vmax=0 noise=0 clearance=0 stability=0.000 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=150 ram=1.000
+part armor_t2 slot=armor tier=2 cost=300+2xspare_parts kg=160.000 hp=0 vmax=0 noise=0 clearance=0 stability=0.000 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=300 ram=1.000
+part armor_t3 slot=armor tier=3 cost=900+5xspare_parts kg=260.000 hp=0 vmax=0 noise=0 clearance=0 stability=0.000 grip=0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000 durability=500 ram=1.000
+contract c1_empty_station order=1 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=buggy:2 shortcut=- reward=250c+160xp+spare_parts:2 flags=5
+contract c2_elevator_cargo order=2 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=300c+180xp+spare_parts:3 flags=1
+contract c3_double_run order=3 arenas=gas_station,elevator deliver=- pickup=grain_sack:6,fuel_canister:4 ambush=buggy:3 shortcut=- reward=350c+200xp+spare_parts:3 flags=6
+contract w5e0_000_double_run order=20 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e0_001_supply_run order=21 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:4 ambush=- shortcut=- reward=310c+160xp+spare_parts:2 flags=0
+contract w5e0_002_depot_resupply order=22 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:2 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e0_003_black_market order=23 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=raider:5 shortcut=- reward=350c+200xp+spare_parts:3 flags=4
+contract w5e0_004_supply_run order=24 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=- shortcut=- reward=250c+160xp+spare_parts:1 flags=0
+contract w5e0_005_fuel_requisition order=25 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=raider:5 shortcut=- reward=290c+170xp+spare_parts:1 flags=4
+contract w5e0_006_supply_run order=26 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:2 ambush=- shortcut=- reward=290c+180xp+spare_parts:1 flags=2
+contract w5e0_007_supply_run order=27 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=raider:4 shortcut=- reward=300c+180xp+spare_parts:1 flags=4
+contract w5e0_008_fuel_requisition order=28 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=300c+150xp+spare_parts:2 flags=0
+contract w5e0_009_depot_resupply order=29 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:2 ambush=- shortcut=- reward=320c+190xp+spare_parts:2 flags=2
+contract w5e0_010_depot_resupply order=30 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:4 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e0_011_supply_run order=31 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:3 ambush=- shortcut=- reward=250c+160xp+spare_parts:1 flags=0
+contract w5e0_012_fuel_requisition order=32 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=2
+contract w5e0_013_black_market order=33 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e0_014_supply_run order=34 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:3 ambush=raider:4 shortcut=- reward=300c+180xp+spare_parts:2 flags=4
+contract w5e0_015_depot_resupply order=35 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:4 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e1_016_fuel_requisition order=36 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=raider:4 shortcut=- reward=290c+170xp+spare_parts:1 flags=4
+contract w5e1_017_supply_run order=37 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:4 ambush=- shortcut=- reward=250c+160xp+spare_parts:2 flags=0
+contract w5e1_018_depot_resupply order=38 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:4 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=0
+contract w5e1_019_fuel_requisition order=39 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=raider:3 shortcut=- reward=290c+170xp+spare_parts:1 flags=4
+contract w5e1_020_double_run order=40 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=330c+200xp+spare_parts:2 flags=0
+contract w5e1_021_depot_resupply order=41 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=0
+contract w5e1_022_supply_run order=42 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:2 ambush=- shortcut=- reward=250c+160xp+spare_parts:2 flags=0
+contract w5e1_023_black_market order=43 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e1_024_depot_resupply order=44 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:4 ambush=- shortcut=- reward=350c+170xp+spare_parts:2 flags=0
+contract w5e1_025_double_run order=45 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=0
+contract w5e1_026_fuel_requisition order=46 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=300c+150xp+spare_parts:2 flags=0
+contract w5e1_027_double_run order=47 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e1_028_double_run order=48 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e1_029_fuel_requisition order=49 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=300c+150xp+spare_parts:1 flags=0
+contract w5e1_030_fuel_requisition order=50 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=raider:3 shortcut=- reward=290c+170xp+spare_parts:1 flags=4
+contract w5e1_031_double_run order=51 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=raider:5 shortcut=- reward=350c+200xp+spare_parts:2 flags=4
+contract w5e2_032_supply_run order=52 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:3 ambush=- shortcut=- reward=290c+180xp+spare_parts:1 flags=2
+contract w5e2_033_black_market order=53 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e2_034_black_market order=54 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e2_035_grain_haul order=55 arenas=elevator deliver=- pickup=grain_sack:5 ambush=- shortcut=tires_t2 reward=300c+180xp+spare_parts:2 flags=0
+contract w5e2_036_fuel_requisition order=56 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=raider:5 shortcut=- reward=290c+170xp+spare_parts:2 flags=4
+contract w5e2_037_double_run order=57 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=0
+contract w5e2_038_black_market order=58 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e2_039_double_run order=59 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=0
+contract w5e2_040_fuel_requisition order=60 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=2
+contract w5e2_041_fuel_requisition order=61 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=2
+contract w5e2_042_grain_haul order=62 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=350c+200xp+spare_parts:2 flags=2
+contract w5e2_043_depot_resupply order=63 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:2 ambush=- shortcut=- reward=320c+190xp+spare_parts:2 flags=2
+contract w5e2_044_double_run order=64 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e2_045_grain_haul order=65 arenas=elevator deliver=- pickup=grain_sack:5 ambush=- shortcut=tires_t2 reward=350c+200xp+spare_parts:3 flags=2
+contract w5e2_046_double_run order=66 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e2_047_double_run order=67 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=330c+200xp+spare_parts:2 flags=0
+contract w5e3_048_depot_resupply order=68 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:3 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=0
+contract w5e3_049_black_market order=69 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e3_050_black_market order=70 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e3_051_supply_run order=71 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:2 ambush=- shortcut=- reward=290c+180xp+spare_parts:2 flags=2
+contract w5e3_052_grain_haul order=72 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=350c+200xp+spare_parts:3 flags=2
+contract w5e3_053_fuel_requisition order=73 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=- shortcut=- reward=240c+150xp+spare_parts:2 flags=0
+contract w5e3_054_fuel_requisition order=74 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=2
+contract w5e3_055_double_run order=75 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=2
+contract w5e3_056_fuel_requisition order=76 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=240c+150xp+spare_parts:1 flags=0
+contract w5e3_057_depot_resupply order=77 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=0
+contract w5e3_058_grain_haul order=78 arenas=elevator deliver=- pickup=grain_sack:5 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:2 flags=0
+contract w5e3_059_black_market order=79 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=raider:3 shortcut=- reward=350c+200xp+spare_parts:2 flags=4
+contract w5e3_060_black_market order=80 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=0
+contract w5e3_061_double_run order=81 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=raider:3 shortcut=- reward=350c+200xp+spare_parts:3 flags=4
+contract w5e3_062_depot_resupply order=82 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=350c+170xp+spare_parts:1 flags=0
+contract w5e3_063_depot_resupply order=83 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:4 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=0
+contract w5e4_064_double_run order=84 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e4_065_depot_resupply order=85 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e4_066_grain_haul order=86 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=350c+200xp+spare_parts:3 flags=2
+contract w5e4_067_fuel_requisition order=87 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=- shortcut=- reward=240c+150xp+spare_parts:1 flags=0
+contract w5e4_068_grain_haul order=88 arenas=elevator deliver=- pickup=grain_sack:5 ambush=- shortcut=tires_t2 reward=300c+180xp+spare_parts:2 flags=0
+contract w5e4_069_supply_run order=89 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=- shortcut=- reward=290c+180xp+spare_parts:1 flags=2
+contract w5e4_070_fuel_requisition order=90 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=240c+150xp+spare_parts:2 flags=0
+contract w5e4_071_supply_run order=91 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:4 ambush=- shortcut=- reward=310c+160xp+spare_parts:2 flags=0
+contract w5e4_072_supply_run order=92 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=raider:5 shortcut=- reward=300c+180xp+spare_parts:1 flags=4
+contract w5e4_073_depot_resupply order=93 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:4 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=0
+contract w5e4_074_depot_resupply order=94 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:2 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=0
+contract w5e4_075_double_run order=95 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=330c+200xp+spare_parts:2 flags=0
+contract w5e4_076_double_run order=96 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=2
+contract w5e4_077_fuel_requisition order=97 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=raider:4 shortcut=- reward=290c+170xp+spare_parts:1 flags=4
+contract w5e4_078_depot_resupply order=98 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e4_079_supply_run order=99 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:3 ambush=- shortcut=- reward=310c+160xp+spare_parts:2 flags=0
+contract w5e5_080_double_run order=100 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e5_081_supply_run order=101 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=- shortcut=- reward=310c+160xp+spare_parts:1 flags=0
+contract w5e5_082_black_market order=102 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e5_083_black_market order=103 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=0
+contract w5e5_084_black_market order=104 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e5_085_supply_run order=105 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:2 ambush=- shortcut=- reward=250c+160xp+spare_parts:2 flags=0
+contract w5e5_086_supply_run order=106 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=- shortcut=- reward=250c+160xp+spare_parts:2 flags=0
+contract w5e5_087_fuel_requisition order=107 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=2
+contract w5e5_088_grain_haul order=108 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=350c+200xp+spare_parts:3 flags=2
+contract w5e5_089_grain_haul order=109 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:3 flags=0
+contract w5e5_090_fuel_requisition order=110 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=240c+150xp+spare_parts:2 flags=0
+contract w5e5_091_depot_resupply order=111 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:3 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=0
+contract w5e5_092_depot_resupply order=112 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:2 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=0
+contract w5e5_093_supply_run order=113 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:3 ambush=- shortcut=- reward=250c+160xp+spare_parts:2 flags=0
+contract w5e5_094_black_market order=114 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=raider:5 shortcut=- reward=350c+200xp+spare_parts:3 flags=4
+contract w5e5_095_supply_run order=115 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:2 ambush=- shortcut=- reward=310c+160xp+spare_parts:2 flags=0
+contract w5e6_096_grain_haul order=116 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=350c+200xp+spare_parts:3 flags=2
+contract w5e6_097_depot_resupply order=117 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:2 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=0
+contract w5e6_098_black_market order=118 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e6_099_supply_run order=119 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:4 ambush=raider:4 shortcut=- reward=300c+180xp+spare_parts:2 flags=4
+contract w5e6_100_double_run order=120 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=330c+200xp+spare_parts:2 flags=0
+contract w5e6_101_depot_resupply order=121 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:2 ambush=- shortcut=- reward=350c+170xp+spare_parts:2 flags=0
+contract w5e6_102_double_run order=122 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=2
+contract w5e6_103_grain_haul order=123 arenas=elevator deliver=- pickup=grain_sack:5 ambush=- shortcut=tires_t2 reward=300c+180xp+spare_parts:2 flags=0
+contract w5e6_104_black_market order=124 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e6_105_fuel_requisition order=125 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=240c+150xp+spare_parts:1 flags=0
+contract w5e6_106_supply_run order=126 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=- shortcut=- reward=290c+180xp+spare_parts:1 flags=2
+contract w5e6_107_black_market order=127 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e6_108_supply_run order=128 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:4 ambush=- shortcut=- reward=310c+160xp+spare_parts:1 flags=0
+contract w5e6_109_fuel_requisition order=129 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=2
+contract w5e6_110_fuel_requisition order=130 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=240c+150xp+spare_parts:2 flags=0
+contract w5e6_111_depot_resupply order=131 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=0
+contract w5e7_112_black_market order=132 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=0
+contract w5e7_113_double_run order=133 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e7_114_black_market order=134 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e7_115_grain_haul order=135 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=300c+180xp+spare_parts:3 flags=0
+contract w5e7_116_fuel_requisition order=136 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=300c+150xp+spare_parts:2 flags=0
+contract w5e7_117_black_market order=137 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=raider:3 shortcut=- reward=350c+200xp+spare_parts:3 flags=4
+contract w5e7_118_grain_haul order=138 arenas=elevator deliver=- pickup=grain_sack:5 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:2 flags=0
+contract w5e7_119_depot_resupply order=139 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=0
+contract w5e7_120_double_run order=140 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e7_121_double_run order=141 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e7_122_double_run order=142 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=330c+200xp+spare_parts:2 flags=0
+contract w5e7_123_double_run order=143 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e7_124_fuel_requisition order=144 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=2
+contract w5e7_125_double_run order=145 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=330c+200xp+spare_parts:2 flags=0
+contract w5e7_126_supply_run order=146 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=raider:5 shortcut=- reward=300c+180xp+spare_parts:2 flags=4
+contract w5e7_127_double_run order=147 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=raider:4 shortcut=- reward=350c+200xp+spare_parts:3 flags=4
+contract w5e8_128_supply_run order=148 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:4 ambush=- shortcut=- reward=250c+160xp+spare_parts:1 flags=0
+contract w5e8_129_black_market order=149 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e8_130_black_market order=150 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=raider:5 shortcut=- reward=350c+200xp+spare_parts:2 flags=4
+contract w5e8_131_depot_resupply order=151 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:4 ambush=- shortcut=- reward=350c+170xp+spare_parts:2 flags=0
+contract w5e8_132_grain_haul order=152 arenas=elevator deliver=- pickup=grain_sack:5 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:3 flags=0
+contract w5e8_133_black_market order=153 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e8_134_fuel_requisition order=154 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=2
+contract w5e8_135_supply_run order=155 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:4 ambush=raider:3 shortcut=- reward=300c+180xp+spare_parts:2 flags=4
+contract w5e8_136_depot_resupply order=156 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:2 ambush=- shortcut=- reward=320c+190xp+spare_parts:2 flags=2
+contract w5e8_137_black_market order=157 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e8_138_double_run order=158 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=raider:3 shortcut=- reward=350c+200xp+spare_parts:2 flags=4
+contract w5e8_139_black_market order=159 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e8_140_fuel_requisition order=160 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=- shortcut=- reward=280c+170xp+spare_parts:2 flags=2
+contract w5e8_141_fuel_requisition order=161 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=2
+contract w5e8_142_black_market order=162 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e8_143_fuel_requisition order=163 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=240c+150xp+spare_parts:2 flags=0
+contract w5e9_144_double_run order=164 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e9_145_black_market order=165 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=raider:5 shortcut=- reward=350c+200xp+spare_parts:2 flags=4
+contract w5e9_146_grain_haul order=166 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:2 flags=0
+contract w5e9_147_supply_run order=167 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:3 ambush=- shortcut=- reward=250c+160xp+spare_parts:1 flags=0
+contract w5e9_148_black_market order=168 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e9_149_black_market order=169 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=2
+contract w5e9_150_fuel_requisition order=170 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=240c+150xp+spare_parts:1 flags=0
+contract w5e9_151_black_market order=171 arenas=gas_station,elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e9_152_supply_run order=172 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:3 ambush=raider:5 shortcut=- reward=300c+180xp+spare_parts:2 flags=4
+contract w5e9_153_fuel_requisition order=173 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=300c+150xp+spare_parts:2 flags=0
+contract w5e9_154_supply_run order=174 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:3 ambush=- shortcut=- reward=250c+160xp+spare_parts:2 flags=0
+contract w5e9_155_depot_resupply order=175 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:4 ambush=- shortcut=- reward=350c+170xp+spare_parts:2 flags=0
+contract w5e9_156_supply_run order=176 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:2 ambush=raider:5 shortcut=- reward=300c+180xp+spare_parts:2 flags=4
+contract w5e9_157_double_run order=177 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=2
+contract w5e9_158_double_run order=178 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e9_159_supply_run order=179 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:2 ambush=- shortcut=- reward=310c+160xp+spare_parts:1 flags=0
+contract w5e10_160_black_market order=180 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=0
+contract w5e10_161_black_market order=181 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e10_162_depot_resupply order=182 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:2 ambush=- shortcut=- reward=350c+170xp+spare_parts:2 flags=0
+contract w5e10_163_depot_resupply order=183 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:4 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e10_164_supply_run order=184 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:2 ambush=- shortcut=- reward=250c+160xp+spare_parts:1 flags=0
+contract w5e10_165_grain_haul order=185 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:3 flags=0
+contract w5e10_166_depot_resupply order=186 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:2 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e10_167_double_run order=187 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=raider:4 shortcut=- reward=350c+200xp+spare_parts:3 flags=4
+contract w5e10_168_double_run order=188 arenas=gas_station,elevator deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=0
+contract w5e10_169_black_market order=189 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=350c+200xp+spare_parts:3 flags=2
+contract w5e10_170_depot_resupply order=190 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:4 ambush=- shortcut=- reward=320c+190xp+spare_parts:2 flags=2
+contract w5e10_171_depot_resupply order=191 arenas=elevator deliver=supply_crate:2 pickup=grain_sack:3 ambush=- shortcut=- reward=320c+190xp+spare_parts:1 flags=2
+contract w5e10_172_supply_run order=192 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:2 ambush=- shortcut=- reward=250c+160xp+spare_parts:1 flags=0
+contract w5e10_173_fuel_requisition order=193 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=240c+150xp+spare_parts:1 flags=0
+contract w5e10_174_supply_run order=194 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:4 ambush=- shortcut=- reward=250c+160xp+spare_parts:2 flags=0
+contract w5e10_175_grain_haul order=195 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:2 flags=0
+contract w5e11_176_supply_run order=196 arenas=gas_station deliver=supply_crate:4 pickup=fuel_canister:2 ambush=raider:3 shortcut=- reward=300c+180xp+spare_parts:1 flags=4
+contract w5e11_177_grain_haul order=197 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:3 flags=0
+contract w5e11_178_grain_haul order=198 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:3 flags=0
+contract w5e11_179_fuel_requisition order=199 arenas=gas_station deliver=- pickup=fuel_canister:6 ambush=raider:5 shortcut=- reward=290c+170xp+spare_parts:2 flags=4
+contract w5e11_180_supply_run order=200 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:3 ambush=- shortcut=- reward=290c+180xp+spare_parts:1 flags=2
+contract w5e11_181_black_market order=201 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=raider:3 shortcut=- reward=350c+200xp+spare_parts:2 flags=4
+contract w5e11_182_grain_haul order=202 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=350c+180xp+spare_parts:2 flags=0
+contract w5e11_183_fuel_requisition order=203 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=240c+150xp+spare_parts:2 flags=0
+contract w5e11_184_fuel_requisition order=204 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=raider:3 shortcut=- reward=290c+170xp+spare_parts:2 flags=4
+contract w5e11_185_fuel_requisition order=205 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=raider:5 shortcut=- reward=290c+170xp+spare_parts:2 flags=4
+contract w5e11_186_black_market order=206 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:3 flags=0
+contract w5e11_187_depot_resupply order=207 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:3 ambush=- shortcut=- reward=350c+170xp+spare_parts:2 flags=0
+contract w5e11_188_double_run order=208 arenas=gas_station,elevator deliver=- pickup=fuel_canister:3 ambush=raider:3 shortcut=- reward=350c+200xp+spare_parts:3 flags=4
+contract w5e11_189_double_run order=209 arenas=gas_station,elevator deliver=- pickup=fuel_canister:5 ambush=- shortcut=- reward=330c+200xp+spare_parts:3 flags=0
+contract w5e11_190_fuel_requisition order=210 arenas=gas_station deliver=- pickup=fuel_canister:5 ambush=raider:4 shortcut=- reward=290c+170xp+spare_parts:2 flags=4
+contract w5e11_191_grain_haul order=211 arenas=elevator deliver=- pickup=grain_sack:4 ambush=- shortcut=tires_t2 reward=300c+180xp+spare_parts:3 flags=0
+contract w5e12_192_supply_run order=212 arenas=gas_station deliver=supply_crate:2 pickup=fuel_canister:4 ambush=raider:5 shortcut=- reward=300c+180xp+spare_parts:2 flags=4
+contract w5e12_193_supply_run order=213 arenas=gas_station deliver=supply_crate:3 pickup=fuel_canister:4 ambush=raider:5 shortcut=- reward=300c+180xp+spare_parts:1 flags=4
+contract w5e12_194_black_market order=214 arenas=gas_station,elevator deliver=- pickup=grain_sack:2 ambush=- shortcut=- reward=350c+200xp+spare_parts:2 flags=2
+contract w5e12_195_black_market order=215 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e12_196_black_market order=216 arenas=gas_station,elevator deliver=- pickup=grain_sack:3 ambush=- shortcut=- reward=340c+200xp+spare_parts:2 flags=0
+contract w5e12_197_fuel_requisition order=217 arenas=gas_station deliver=- pickup=fuel_canister:4 ambush=- shortcut=- reward=280c+170xp+spare_parts:1 flags=2
+contract w5e12_198_depot_resupply order=218 arenas=elevator deliver=supply_crate:3 pickup=grain_sack:2 ambush=- shortcut=- reward=320c+190xp+spare_parts:2 flags=2
+contract w5e12_199_grain_haul order=219 arenas=elevator deliver=- pickup=grain_sack:6 ambush=- shortcut=tires_t2 reward=300c+180xp+spare_parts:2 flags=0
+arena gas_station half=30.000x30.000 heights=2 groups=2 points=8 vehicle=0.000,-34.000,0.000
+  spawn raider group=1 pos=-12.000,0.000,10.000 yaw=180.000
+  spawn raider group=1 pos=-6.000,0.000,14.000 yaw=180.000
+  spawn raider group=1 pos=4.000,0.000,12.000 yaw=200.000
+  spawn raider group=1 pos=10.000,3.500,6.000 yaw=225.000
+  spawn raider group=1 pos=14.000,0.000,16.000 yaw=190.000
+  spawn raider group=2 pos=-18.000,0.000,22.000 yaw=150.000
+  spawn raider group=2 pos=0.000,3.500,4.000 yaw=180.000
+  spawn raider group=2 pos=18.000,0.000,24.000 yaw=210.000
+arena elevator half=25.000x25.000 heights=3 groups=3 points=9 vehicle=0.000,-30.000,0.000
+  spawn raider group=1 pos=-10.000,6.000,8.000 yaw=180.000
+  spawn raider group=1 pos=10.000,6.000,8.000 yaw=180.000
+  spawn raider group=1 pos=-6.000,12.000,14.000 yaw=170.000
+  spawn raider group=1 pos=6.000,12.000,14.000 yaw=190.000
+  spawn raider group=1 pos=0.000,6.000,18.000 yaw=180.000
+  spawn brute group=2 pos=0.000,0.000,10.000 yaw=180.000
+  spawn raider group=3 pos=-14.000,0.000,16.000 yaw=160.000
+  spawn raider group=3 pos=14.000,0.000,16.000 yaw=200.000
+  spawn raider group=3 pos=0.000,12.000,20.000 yaw=180.000
+rules strong=1.500 normal=1.000 weak=0.500 swap=0.200/2.000s health=100.000 armor=100.000@0.500 rig=4x2 rig_weapons=2
+errors 0
+content hash 0x788d44d2
+RESULT PASS

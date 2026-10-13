@@ -1,0 +1,72 @@
+ok   build all both (native ctest incl. ui_tests, win32 imports)
+ok   fontc regenerates data/ui/ui_font.pfnt byte for byte
+ok   font licence shipped next to the atlas
+native ui_tests release rc=0
+executor ui_tests.exe release rc=0
+native ui_tests debug rc=0
+executor ui_tests.exe debug rc=0
+ok   ui_tests all passed (layout, UTF-8, wrap, focus navigation, renderer)
+ok   ui_tests stdout ui_tests_executor_release.txt == native release
+ok   ui_tests stdout ui_tests_native_debug.txt == native release
+ok   ui_tests stdout ui_tests_executor_debug.txt == native release
+ok   win32 imports allow-listed; ui_tests.exe imports only kernel32/msvcrt
+ok   run_scene scene_w10_hud both (replay tools/replays/scene_w10_hud_nav.txt, captures 1,152,240)
+     run dir: reports/shots/scene_w10_hud/001
+ok   scene_w10_hud compare.json identical (state, image hash, BMP bytes)
+ok   scene_w10_hud native rhi_errors 0, fixed-function path
+ok   scene_w10_hud native focus moved by replay: 40:hud.cargo 80:hud.radio 200:hud.cargo
+ok   scene_w10_hud native tick 1 jpg <= 300 KB
+ok   scene_w10_hud native tick 152 jpg <= 300 KB
+ok   scene_w10_hud native tick 240 jpg <= 300 KB
+ok   scene_w10_hud win32 rhi_errors 0, fixed-function path
+ok   scene_w10_hud win32 focus moved by replay: 40:hud.cargo 80:hud.radio 200:hud.cargo
+ok   scene_w10_hud win32 tick 1 jpg <= 300 KB
+ok   scene_w10_hud win32 tick 152 jpg <= 300 KB
+ok   scene_w10_hud win32 tick 240 jpg <= 300 KB
+ok   scene_w10_hud metal-ref: Metal (unlit_textured SM2 path) vs rhi_null within tolerance
+ok   scene_w10_hud metal-ref compare within_tolerance
+ok   scene_w10_hud captures differ from each other (focus visible)
+ok   run_scene scene_w10_cargo both (replay tools/replays/scene_w10_cargo_nav.txt, captures 100,160,320)
+     run dir: reports/shots/scene_w10_cargo/001
+ok   scene_w10_cargo compare.json identical (state, image hash, BMP bytes)
+ok   scene_w10_cargo native rhi_errors 0, fixed-function path
+ok   scene_w10_cargo native focus moved by replay: 120:cargo.secure 190:cargo.drop 240:cargo.loadout
+ok   scene_w10_cargo native tick 100 jpg <= 300 KB
+ok   scene_w10_cargo native tick 160 jpg <= 300 KB
+ok   scene_w10_cargo native tick 320 jpg <= 300 KB
+ok   scene_w10_cargo win32 rhi_errors 0, fixed-function path
+ok   scene_w10_cargo win32 focus moved by replay: 120:cargo.secure 190:cargo.drop 240:cargo.loadout
+ok   scene_w10_cargo win32 tick 100 jpg <= 300 KB
+ok   scene_w10_cargo win32 tick 160 jpg <= 300 KB
+ok   scene_w10_cargo win32 tick 320 jpg <= 300 KB
+ok   scene_w10_cargo metal-ref: Metal (unlit_textured SM2 path) vs rhi_null within tolerance
+ok   scene_w10_cargo metal-ref compare within_tolerance
+ok   scene_w10_cargo captures differ from each other (focus visible)
+ok   run_scene scene_w10_board both (replay tools/replays/scene_w10_board_nav.txt, captures 150,240,280)
+     run dir: reports/shots/scene_w10_board/001
+ok   scene_w10_board compare.json identical (state, image hash, BMP bytes)
+ok   scene_w10_board native rhi_errors 0, fixed-function path
+ok   scene_w10_board native focus moved by replay: 110:board.take 180:board.back 250:board.list
+ok   scene_w10_board native tick 150 jpg <= 300 KB
+ok   scene_w10_board native tick 240 jpg <= 300 KB
+ok   scene_w10_board native tick 280 jpg <= 300 KB
+ok   scene_w10_board win32 rhi_errors 0, fixed-function path
+ok   scene_w10_board win32 focus moved by replay: 110:board.take 180:board.back 250:board.list
+ok   scene_w10_board win32 tick 150 jpg <= 300 KB
+ok   scene_w10_board win32 tick 240 jpg <= 300 KB
+ok   scene_w10_board win32 tick 280 jpg <= 300 KB
+ok   scene_w10_board metal-ref: Metal (unlit_textured SM2 path) vs rhi_null within tolerance
+ok   scene_w10_board metal-ref compare within_tolerance
+ok   scene_w10_board captures differ from each other (focus visible)
+ok   report.py
+ok   progress.js untouched
+ok   earlier gate 0a still PASS
+ok   earlier gate 0b still PASS
+ok   earlier gate 0c still PASS
+ok   earlier gate 0d still PASS
+ok   earlier gate 0e still PASS
+ok   earlier gate 0f still PASS
+ok   earlier gate 0g still PASS
+ok   earlier gate c0 still PASS
+ok   earlier gate w14a still PASS
+GATE w10a PASS

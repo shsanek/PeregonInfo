@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-11",
+  "stage": 40,
+  "authoring": "assets/truck_wb/stage40_cabin_fit_authoring.blend",
+  "baked": "assets/truck_wb/stage40_cabin_fit_baked.blend",
+  "source_stage39_preserved": true,
+  "parts": 122,
+  "triangles": 74502,
+  "checks": [
+    {
+      "name": "four_exits_posed_side_glass_and_both_ladders",
+      "passed": 1,
+      "checks": 41,
+      "log": "checks/cabin.log"
+    },
+    {
+      "name": "independent_side_wipes_refog_and_four_openings",
+      "passed": 1,
+      "checks": 16,
+      "log": "checks/care.log"
+    },
+    {
+      "name": "progressive_wiper_coverage",
+      "passed": 1,
+      "checks": 7,
+      "log": "checks/wiper.log"
+    }
+  ],
+  "native_build": [
+    "peregon",
+    "peregon_headless"
+  ],
+  "full_suite_repeated": false,
+  "visuals": [
+    "game/after_panel_day.jpg",
+    "game/after_corner_day.jpg"
+  ],
+  "wiper_coverage": [
+    512,
+    512
+  ],
+  "side_condensation_per_window": [
+    96,
+    64
+  ],
+  "inspection_step_source_m": 0.96,
+  "plate_displacement_m": 0.02,
+  "corner_trim_per_axis_m": 0.004,
+  "atlas_count": 3,
+  "control_detail": "Original switch_plaques_v02 artwork and steel/black material swatches occupy previously unused pixels of the existing detail atlas.",
+  "merged_commit": "02c73e258907a9f84fff4051ec702a43e337965d",
+  "merged_sdk_free_build_log": "checks/native_build_merged.log",
+  "steam_friend_kit": {
+    "base_commit": "02c73e258907a9f84fff4051ec702a43e337965d",
+    "worktree": "peregon-steam480",
+    "path": "games/peregon/dist/Peregon-steam480-macos.zip",
+    "bytes": 327387397,
+    "build_and_loader_passed": true,
+    "live_two_account_check_performed": false
+  }
+}

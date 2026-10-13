@@ -1,0 +1,46 @@
+{
+  "body": {
+    "before": 20,
+    "after": 7,
+    "evaluated_null_faces": 0
+  },
+  "glass": {
+    "before": 3,
+    "after": 2
+  },
+  "powertrain": {
+    "before": 7,
+    "after": 6
+  },
+  "cockpit": {
+    "before": 16,
+    "after": 4,
+    "evaluated_null_faces": 0
+  },
+  "gear_lever": {
+    "before": 6,
+    "after": 5
+  },
+  "door.L": {
+    "before": 20,
+    "after": 8,
+    "evaluated_null_faces": 0
+  },
+  "door_glass.L": {
+    "before": 3,
+    "after": 2
+  },
+  "door.R": {
+    "before": 20,
+    "after": 8,
+    "evaluated_null_faces": 0
+  },
+  "door_glass.R": {
+    "before": 3,
+    "after": 2
+  },
+  "hood": {
+    "before": 7,
+    "after": 6
+  }
+}

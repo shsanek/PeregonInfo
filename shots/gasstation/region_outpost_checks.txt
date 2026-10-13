@@ -1,0 +1,20 @@
+PASS stage outpost_board: goal within 3900 ticks (nominal 2850), goal=1 cargo_put=4
+PASS stage outpost_board: no pushing into walls or props (contact <= 2% of the stage, no contact > 1 s), no truck reset
+PASS stage outpost_board: the recorded bot input replayed natively reaches the stage goal at the same tick 2828
+PASS stage outpost_board in EXEcutor RunGame d3d9: 0 rhi errors, 6 captures, final state == native a1b1a874
+PASS stage outpost_gate: goal within 2900 ticks (nominal 2050), goal=1 first_visit=outpost_shelf raiders=6 fights_lost=0 bot_climb=1 cleared=gas_station
+PASS stage outpost_gate: no pushing into walls or props (contact <= 2% of the stage, no contact > 1 s), no truck reset
+PASS stage outpost_gate: the recorded bot input replayed natively reaches the stage goal at the same tick 2557
+PASS stage outpost_gate in EXEcutor RunGame d3d9: 0 rhi errors, 6 captures, final state == native 3fb58e1f
+PASS stage outpost_unload: goal within 3300 ticks (nominal 2400), goal=1 stop_done=gas_station
+PASS stage outpost_unload: no pushing into walls or props (contact <= 2% of the stage, no contact > 1 s), no truck reset
+PASS stage outpost_unload: the recorded bot input replayed natively reaches the stage goal at the same tick 2322
+PASS stage outpost_unload in EXEcutor RunGame d3d9: 0 rhi errors, 6 captures, final state == native 05c8f4fa
+PASS stage outpost_load: goal within 6800 ticks (nominal 5200), goal=1
+PASS stage outpost_load: no pushing into walls or props (contact <= 2% of the stage, no contact > 1 s), no truck reset
+PASS stage outpost_load: the recorded bot input replayed natively reaches the stage goal at the same tick 6174
+PASS stage outpost_load in EXEcutor RunGame d3d9: 0 rhi errors, 6 captures, final state == native 633e099f
+PASS stage outpost_handin: goal within 500 ticks (nominal 140), goal=1 contracts_done=2
+PASS stage outpost_handin: no pushing into walls or props (contact <= 2% of the stage, no contact > 1 s), no truck reset
+PASS stage outpost_handin: the recorded bot input replayed natively reaches the stage goal at the same tick 131
+PASS stage outpost_handin in EXEcutor RunGame d3d9: 0 rhi errors, 3 captures, final state == native be9a8dd1

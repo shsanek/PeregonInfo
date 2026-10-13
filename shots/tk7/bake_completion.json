@@ -1,0 +1,13 @@
+{
+  "file": "/Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/assets/truck_wb/stage37_cab_rework_authoring.blend",
+  "bake_job": false,
+  "maps": {
+    "interior_normal.png": 1791716887.5107195,
+    "exterior_normal.png": 1791717880.95583,
+    "exterior_basecolor.png": 1791716508.359432,
+    "interior_orm.png": 1791717021.2643855,
+    "interior_basecolor.png": 1791716753.4558082,
+    "exterior_orm.png": 1791716653.2941115
+  },
+  "bake_targets": []
+}

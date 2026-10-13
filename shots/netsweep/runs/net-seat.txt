@@ -1,0 +1,26 @@
+PASS line 8 SEAT-01 door.0 = 1: host=1@11 p1=1@12 p2=1@13
+PASS line 10 SEAT-16 place.1 = seat0: host=seat0@10 p1=seat0@10 p2=seat0@12
+PASS line 11 SEAT-07 door.0 = 1: host=1 p1=1 p2=1
+PASS line 14 SEAT-01 door.1 = 1: host=1@9 p1=1@9 p2=1@9
+PASS line 16 SEAT-16 place.2 = seat1: host=seat1@11 p1=seat1@22 p2=seat1@12
+PASS line 20 SEAT-01 door.2 = 1: host=1@1 p1=1@1 p2=1@2
+PASS line 22 SEAT-16 place.0 = seat4: host=seat4@1 p1=seat4@4 p2=seat4@4
+PASS line 23 SEAT-05 players = 3: host=3 p1=3@1 p2=3
+PASS line 25 SEAT-17 place.1 = foot: host=foot@9 p1=foot@10 p2=foot@8
+PASS line 27 SEAT-17 place.0 = foot: host=foot@1 p1=foot@3 p2=foot@2
+PASS line 29 SEAT-17 place.2 = foot: host=foot@9 p1=foot@9 p2=foot@9
+PASS line 34 SEAT-04 place.0 = seat0: host=seat0@1 p1=seat0@4 p2=seat0@2
+PASS line 35 SEAT-04 place.1 = seat4: host=seat4@10 p1=seat4@10 p2=seat4@12
+PASS line 39 SEAT-17 place.1 = seat4: host=seat4 p1=seat4 p2=seat4
+PASS line 41 SEAT-17 place.1 = seat4: host=seat4 p1=seat4 p2=seat4@1
+PASS line 44 SEAT-17 place.1 = foot: host=foot@12 p1=foot@13 p2=foot@17
+PASS line 47 SEAT-17 place.0 = foot: host=foot@1 p1=foot@3 p2=foot@3
+acts 28, failed acts 0
+rows 6 pass 6 fail 0
+ROW SEAT-01 PASS (3 checks)
+ROW SEAT-04 PASS (2 checks)
+ROW SEAT-05 PASS (1 checks)
+ROW SEAT-07 PASS (1 checks)
+ROW SEAT-16 PASS (3 checks)
+ROW SEAT-17 PASS (7 checks)
+RESULT PASS

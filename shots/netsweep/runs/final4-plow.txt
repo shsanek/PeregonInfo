@@ -1,0 +1,27 @@
+LOG line 8 host blade: 1:0
+LOG line 21 host truck.x: 254
+LOG line 22 host truck.z: 1523
+LOG line 8 p1 blade: 1:0
+LOG line 21 p1 truck.x: 254
+LOG line 22 p1 truck.z: 1523
+LOG line 8 p2 blade: 1:0
+LOG line 21 p2 truck.x: 254
+LOG line 22 p2 truck.z: 1523
+PASS line 9 PLOW-03 blade == x: host=1:0 p1=1:0 p2=1:0@1
+PASS line 10 PLOW-03 blade = 1:0: host=1:0 p1=1:0 p2=1:0@1
+PASS line 13 PLOW-05 blade = 1:1: host=1:1@9 p1=1:1@9 p2=1:1@8
+PASS line 14 PLOW-05 blade == x: host=1:0 p1=1:0 p2=1:0
+PASS line 16 PLOW-05 blade = 1:2: host=1:2@9 p1=1:2@9 p2=1:2@9
+PASS line 17 PLOW-05 blade == x: host=1:1 p1=1:1 p2=1:1
+PASS line 19 PLOW-05 blade = 1:1: host=1:1@9 p1=1:1@9 p2=1:1@8
+PASS line 23 PLOW-06 truck.x ~~ 2: host=254 p1=254@2 p2=254
+PASS line 24 PLOW-06 truck.z ~~ 2: host=1523 p1=1523@2 p2=1523
+PASS line 25 PLOW-06 blade == x: host=1:1 p1=1:1@2 p2=1:1
+PASS line 27 PLOW-05 blade = 1:0: host=1:0@15 p1=1:0@20 p2=1:0@20
+client layer checks: 57 equal, 0 differ
+acts 10, failed acts 0
+rows 3 pass 3 fail 0
+ROW PLOW-03 PASS (2 checks)
+ROW PLOW-05 PASS (6 checks)
+ROW PLOW-06 PASS (3 checks)
+RESULT PASS

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "scene": "scene_w10_board",
+  "seed": 3,
+  "ticks": 300,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi_null+ui",
+  "rhi": null,
+  "replay": {"file": "C:\\Test\\scene_w10_board_nav.txt", "format": "text1", "hash": "d57a5630", "length_ticks": 300},
+  "wall_time_ms": 4012.072,
+  "frame_time_ms": {"avg": 13.371, "min": 0.339, "max": 1377.897},
+  "final_state_hash": "dd62825e",
+  "captures": [
+    {"tick": 150, "state_hash": "4dbae041", "image_hash": "c76a8cb1", "width": 960, "height": 540, "file": "tick_000150.bmp"},
+    {"tick": 240, "state_hash": "7f6452b8", "image_hash": "5981f90a", "width": 960, "height": 540, "file": "tick_000240.bmp"},
+    {"tick": 280, "state_hash": "b8396416", "image_hash": "82c7a5a9", "width": 960, "height": 540, "file": "tick_000280.bmp"}
+  ],
+  "scene_metrics": {"backend": "null", "own_null_device": true, "render_path": "fixed-function", "language": "en", "focus": "board.list", "focus_trail": ["0:board.list", "110:board.take", "180:board.back", "250:board.list"], "ui_quads": 497, "ui_batches": 3, "ui_draws": 3, "rhi_errors": 0, "atlas_hash": "0xfbc3c590", "board": {"selected": 0, "taken": [false, true, false], "back": 0}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

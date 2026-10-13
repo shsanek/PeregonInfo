@@ -1,0 +1,258 @@
+{
+ "creek_foot/night": {
+  "frame_ms_avg": 41.968,
+  "frames": 23,
+  "shot": "before_creek_foot_night.jpg",
+  "state_hash": "1da9b640",
+  "tick": 1469
+ },
+ "creek_foot/noon": {
+  "frame_ms_avg": 45.625,
+  "frames": 123,
+  "shot": "before_creek_foot_noon.jpg",
+  "state_hash": "9e97bb79",
+  "tick": 1373
+ },
+ "creek_foot/overcast": {
+  "frame_ms_avg": 44.649,
+  "frames": 23,
+  "shot": "before_creek_foot_overcast.jpg",
+  "state_hash": "67bd474b",
+  "tick": 1445
+ },
+ "creek_foot/rain": {
+  "frame_ms_avg": 41.841,
+  "frames": 23,
+  "shot": "before_creek_foot_rain.jpg",
+  "state_hash": "40b2abc3",
+  "tick": 1421
+ },
+ "creek_foot/sunset": {
+  "frame_ms_avg": 41.841,
+  "frames": 23,
+  "shot": "before_creek_foot_sunset.jpg",
+  "state_hash": "a6544d16",
+  "tick": 1397
+ },
+ "ford_cab/night": {
+  "frame_ms_avg": 43.442,
+  "frames": 23,
+  "shot": "before_ford_cab_night.jpg",
+  "state_hash": "d81cb57c",
+  "tick": 369
+ },
+ "ford_cab/noon": {
+  "frame_ms_avg": 52.478,
+  "frames": 123,
+  "shot": "before_ford_cab_noon.jpg",
+  "state_hash": "c8424860",
+  "tick": 273
+ },
+ "ford_cab/overcast": {
+  "frame_ms_avg": 46.558,
+  "frames": 23,
+  "shot": "before_ford_cab_overcast.jpg",
+  "state_hash": "55a06dd9",
+  "tick": 345
+ },
+ "ford_cab/rain": {
+  "frame_ms_avg": 46.134,
+  "frames": 23,
+  "shot": "before_ford_cab_rain.jpg",
+  "state_hash": "06db1282",
+  "tick": 321
+ },
+ "ford_cab/sunset": {
+  "frame_ms_avg": 43.848,
+  "frames": 23,
+  "shot": "before_ford_cab_sunset.jpg",
+  "state_hash": "92a285ca",
+  "tick": 297
+ },
+ "ford_foot/night": {
+  "frame_ms_avg": 43.193,
+  "frames": 23,
+  "shot": "before_ford_foot_night.jpg",
+  "state_hash": "4047a807",
+  "tick": 589
+ },
+ "ford_foot/noon": {
+  "frame_ms_avg": 46.932,
+  "frames": 123,
+  "shot": "before_ford_foot_noon.jpg",
+  "state_hash": "a31cf3da",
+  "tick": 493
+ },
+ "ford_foot/overcast": {
+  "frame_ms_avg": 45.777,
+  "frames": 23,
+  "shot": "before_ford_foot_overcast.jpg",
+  "state_hash": "05c8897b",
+  "tick": 565
+ },
+ "ford_foot/rain": {
+  "frame_ms_avg": 43.199,
+  "frames": 23,
+  "shot": "before_ford_foot_rain.jpg",
+  "state_hash": "45a5b464",
+  "tick": 541
+ },
+ "ford_foot/sunset": {
+  "frame_ms_avg": 43.498,
+  "frames": 23,
+  "shot": "before_ford_foot_sunset.jpg",
+  "state_hash": "4ac3d5c7",
+  "tick": 517
+ },
+ "mouth_foot/night": {
+  "frame_ms_avg": 42.307,
+  "frames": 23,
+  "shot": "before_mouth_foot_night.jpg",
+  "state_hash": "1fbe1d06",
+  "tick": 1249
+ },
+ "mouth_foot/noon": {
+  "frame_ms_avg": 46.373,
+  "frames": 123,
+  "shot": "before_mouth_foot_noon.jpg",
+  "state_hash": "888bc064",
+  "tick": 1153
+ },
+ "mouth_foot/overcast": {
+  "frame_ms_avg": 44.594,
+  "frames": 23,
+  "shot": "before_mouth_foot_overcast.jpg",
+  "state_hash": "20a34fc1",
+  "tick": 1225
+ },
+ "mouth_foot/rain": {
+  "frame_ms_avg": 42.039,
+  "frames": 23,
+  "shot": "before_mouth_foot_rain.jpg",
+  "state_hash": "dae3b5ca",
+  "tick": 1201
+ },
+ "mouth_foot/sunset": {
+  "frame_ms_avg": 41.946,
+  "frames": 23,
+  "shot": "before_mouth_foot_sunset.jpg",
+  "state_hash": "cc428681",
+  "tick": 1177
+ },
+ "pool_bend/night": {
+  "frame_ms_avg": 42.594,
+  "frames": 23,
+  "shot": "before_pool_bend_night.jpg",
+  "state_hash": "be129f6a",
+  "tick": 1029
+ },
+ "pool_bend/noon": {
+  "frame_ms_avg": 46.637,
+  "frames": 123,
+  "shot": "before_pool_bend_noon.jpg",
+  "state_hash": "6e1de1d7",
+  "tick": 933
+ },
+ "pool_bend/overcast": {
+  "frame_ms_avg": 45.163,
+  "frames": 23,
+  "shot": "before_pool_bend_overcast.jpg",
+  "state_hash": "3d4c0c00",
+  "tick": 1005
+ },
+ "pool_bend/rain": {
+  "frame_ms_avg": 42.313,
+  "frames": 23,
+  "shot": "before_pool_bend_rain.jpg",
+  "state_hash": "e464fc36",
+  "tick": 981
+ },
+ "pool_bend/sunset": {
+  "frame_ms_avg": 42.167,
+  "frames": 23,
+  "shot": "before_pool_bend_sunset.jpg",
+  "state_hash": "30313ca1",
+  "tick": 957
+ },
+ "pool_foot/night": {
+  "frame_ms_avg": 0.0,
+  "frames": 0,
+  "shot": "before_pool_foot_night.jpg",
+  "state_hash": "3062eac4",
+  "tick": 1689
+ },
+ "pool_foot/noon": {
+  "frame_ms_avg": 0.0,
+  "frames": 0,
+  "shot": "before_pool_foot_noon.jpg",
+  "state_hash": "6d315a67",
+  "tick": 1593
+ },
+ "pool_foot/overcast": {
+  "frame_ms_avg": 0.0,
+  "frames": 0,
+  "shot": "before_pool_foot_overcast.jpg",
+  "state_hash": "9c8a2879",
+  "tick": 1665
+ },
+ "pool_foot/rain": {
+  "frame_ms_avg": 0.0,
+  "frames": 0,
+  "shot": "before_pool_foot_rain.jpg",
+  "state_hash": "5cee9c07",
+  "tick": 1641
+ },
+ "pool_foot/sunset": {
+  "frame_ms_avg": 0.0,
+  "frames": 0,
+  "shot": "before_pool_foot_sunset.jpg",
+  "state_hash": "d6b12d8a",
+  "tick": 1617
+ },
+ "riffle_foot/night": {
+  "frame_ms_avg": 41.82,
+  "frames": 23,
+  "shot": "before_riffle_foot_night.jpg",
+  "state_hash": "da2f8705",
+  "tick": 809
+ },
+ "riffle_foot/noon": {
+  "frame_ms_avg": 44.884,
+  "frames": 123,
+  "shot": "before_riffle_foot_noon.jpg",
+  "state_hash": "55f4228a",
+  "tick": 713
+ },
+ "riffle_foot/overcast": {
+  "frame_ms_avg": 44.605,
+  "frames": 23,
+  "shot": "before_riffle_foot_overcast.jpg",
+  "state_hash": "ac3764f4",
+  "tick": 785
+ },
+ "riffle_foot/rain": {
+  "frame_ms_avg": 41.82,
+  "frames": 23,
+  "shot": "before_riffle_foot_rain.jpg",
+  "state_hash": "35be81a0",
+  "tick": 761
+ },
+ "riffle_foot/sunset": {
+  "frame_ms_avg": 41.821,
+  "frames": 23,
+  "shot": "before_riffle_foot_sunset.jpg",
+  "state_hash": "75df3971",
+  "tick": 737
+ },
+ "run": {
+  "final_state_hash": "4362f991",
+  "frame_time_ms": {
+   "avg": 46.275,
+   "max": 4562.445,
+   "min": 1.847
+  },
+  "launches": 1,
+  "ticks": 1691,
+  "wall_time_ms": 78255.52
+ }
+}

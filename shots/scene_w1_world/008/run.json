@@ -1,0 +1,25 @@
+{
+  "scene": "scene_w1_world",
+  "run": "008",
+  "date": "2026-10-07T12:13:54Z",
+  "commit": "3a5ae10ba",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "20261007",
+    "--ticks",
+    "1600",
+    "--capture",
+    "0,60,140,200,300,420,470,520,880,1010,1060,1120,1250,1315,1450,1600",
+    "--replay",
+    "replay.txt"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9"
+    ]
+  }
+}

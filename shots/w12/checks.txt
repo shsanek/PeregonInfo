@@ -1,0 +1,55 @@
+PASS win32 imports allow-listed
+PASS loc_tests.exe, peregon_loc_check.exe, ui_tests.exe import only kernel32/msvcrt; save_tests.exe adds core.dll
+PASS save_tests native release: all passed
+PASS save_tests EXEcutor release: all passed
+PASS save_tests EXEcutor release stdout == native (hashes, errors, recovery paths)
+PASS loc_tests native release: all passed
+PASS loc_tests EXEcutor release: all passed
+PASS loc_tests EXEcutor release stdout == native (hashes, errors, recovery paths)
+PASS peregon_loc_check native release: tables, plurals, arguments, glyph coverage PASS
+PASS peregon_loc_check EXEcutor release stdout == native (full table dump)
+PASS save_tests native debug: all passed
+PASS save_tests EXEcutor debug: all passed
+PASS save_tests EXEcutor debug stdout == native (hashes, errors, recovery paths)
+PASS loc_tests native debug: all passed
+PASS loc_tests EXEcutor debug: all passed
+PASS loc_tests EXEcutor debug stdout == native (hashes, errors, recovery paths)
+PASS peregon_loc_check native debug: tables, plurals, arguments, glyph coverage PASS
+PASS peregon_loc_check EXEcutor debug stdout == native (full table dump)
+PASS hot-reload path: data/loc read from disk gives the embedded catalog hash (native and EXEcutor)
+PASS tools/loc_check.py: no missing, unused, one-language or inline keys across src and data
+PASS replay matches its generator
+PASS display replay matches its generator
+PASS window_tests EXEcutor release: borderless covers the monitor, windowed caption, Alt+Enter (message and keyboard queue), fullscreen ignores it
+PASS window_tests EXEcutor debug: borderless covers the monitor, windowed caption, Alt+Enter (message and keyboard queue), fullscreen ignores it
+PASS run_scene scene_w12_menu both A ru->en (--seed 4 --ticks 230 --replay tools/replays/scene_w12_menu.txt --capture 60,212)
+PASS A ru->en: compare.json identical (state, image hash, BMP bytes)
+PASS A ru->en native: rhi_errors 0, no missing loc keys
+PASS A ru->en win32: rhi_errors 0, no missing loc keys
+PASS A: language switched RU -> EN and applied (settings, loc, ui)
+PASS A: volumes 80/90 applied to the mixer buses (Q16 = mix default x percent)
+PASS A: pause rebound to Escape through the input map, settings.txt written once
+PASS A: captures differ (RU vs EN)
+PASS run_scene scene_w12_menu both B save-quit-load-recover (--seed 4 --ticks 520 --replay tools/replays/scene_w12_menu.txt --capture 376,500)
+PASS B save-quit-load-recover: compare.json identical (state, image hash, BMP bytes)
+PASS B save-quit-load-recover native: rhi_errors 0, no missing loc keys
+PASS B save-quit-load-recover win32: rhi_errors 0, no missing loc keys
+PASS B: save, autosave at the camp, backup, quit, continue: state after load identical
+PASS B: profile files (settings.txt, peregon.psav damaged on purpose, peregon.psav.bak) byte-identical native == EXEcutor
+PASS run_scene scene_w12_menu both C pseudo (--seed 2 --ticks 40 --capture 36)
+PASS C pseudo: compare.json identical (state, image hash, BMP bytes)
+PASS C pseudo native: rhi_errors 0, no missing loc keys
+PASS C pseudo win32: rhi_errors 0, no missing loc keys
+PASS C: pseudo-localisation active
+PASS numbered EXEcutor screenshots <= 300 KB
+PASS RunGame d3d9 borderless (default): present dumps written
+PASS RunGame borderless: window mode borderless from the command line, no fallback
+PASS RunGame borderless: no caption or frame in the presented screen
+PASS RunGame --window=windowed --res 800x450: framed debugging window (caption visible)
+PASS RunGame --window=fullscreen: D3D9 exclusive (Windowed=FALSE, 960x540 mode), no fallback, 0 rhi errors
+PASS RunGame exclusive fullscreen: no caption
+PASS RunGame live switch: settings Display mode -> windowed + Apply re-styles the window (1 mode change)
+PASS RunGame live switch: caption visible after Apply
+info EXEcutor MoveFileExA follows the Windows contract (repro clean)
+PASS report.py
+PASS progress.js untouched

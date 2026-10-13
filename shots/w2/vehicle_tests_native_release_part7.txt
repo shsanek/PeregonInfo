@@ -1,0 +1,4 @@
+[suite] vehicle_tests
+[ OK ] course_washboard_pothole_camber
+[ OK ] course_jump_airtime_and_landing
+[done] 2/2 passed, 28 checks

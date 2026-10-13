@@ -1,0 +1,97 @@
+{
+ "back/noon": {
+  "frame_ms_avg": 16.639,
+  "frames": 123,
+  "shot": "before_back_noon.jpg",
+  "state_hash": "97b45ee5",
+  "tick": 717
+ },
+ "back/sunset": {
+  "frame_ms_avg": 16.598,
+  "frames": 23,
+  "shot": "before_back_sunset.jpg",
+  "state_hash": "0e8596f9",
+  "tick": 741
+ },
+ "canopy/noon": {
+  "frame_ms_avg": 16.692,
+  "frames": 123,
+  "shot": "before_canopy_noon.jpg",
+  "state_hash": "d0d29e36",
+  "tick": 569
+ },
+ "canopy/sunset": {
+  "frame_ms_avg": 16.423,
+  "frames": 23,
+  "shot": "before_canopy_sunset.jpg",
+  "state_hash": "2c962070",
+  "tick": 593
+ },
+ "chop_shop/noon": {
+  "frame_ms_avg": 26.689,
+  "frames": 123,
+  "shot": "before_chop_shop_noon.jpg",
+  "state_hash": "a9876f27",
+  "tick": 273
+ },
+ "chop_shop/sunset": {
+  "frame_ms_avg": 16.189,
+  "frames": 23,
+  "shot": "before_chop_shop_sunset.jpg",
+  "state_hash": "c7ea7e94",
+  "tick": 297
+ },
+ "fuel_yard/noon": {
+  "frame_ms_avg": 16.775,
+  "frames": 123,
+  "shot": "before_fuel_yard_noon.jpg",
+  "state_hash": "5c3640ef",
+  "tick": 421
+ },
+ "fuel_yard/sunset": {
+  "frame_ms_avg": 16.611,
+  "frames": 23,
+  "shot": "before_fuel_yard_sunset.jpg",
+  "state_hash": "b103347a",
+  "tick": 445
+ },
+ "perch/noon": {
+  "frame_ms_avg": 17.089,
+  "frames": 123,
+  "shot": "before_perch_noon.jpg",
+  "state_hash": "26373915",
+  "tick": 865
+ },
+ "perch/sunset": {
+  "frame_ms_avg": 16.422,
+  "frames": 23,
+  "shot": "before_perch_sunset.jpg",
+  "state_hash": "bc0fcf16",
+  "tick": 889
+ },
+ "run": {
+  "final_state_hash": "3e98d1cd",
+  "frame_time_ms": {
+   "avg": 40.542,
+   "max": 5433.171,
+   "min": 2.393
+  },
+  "launches": 1,
+  "ticks": 1039,
+  "wall_time_ms": 42130.49
+ },
+ "yard/noon": {
+  "frame_ms_avg": 16.614,
+  "frames": 123,
+  "shot": "before_yard_noon.jpg",
+  "state_hash": "aa79cc12",
+  "tick": 1013
+ },
+ "yard/sunset": {
+  "frame_ms_avg": 17.195,
+  "frames": 23,
+  "shot": "before_yard_sunset.jpg",
+  "state_hash": "b88940b3",
+  "tick": 1037
+ }
+}

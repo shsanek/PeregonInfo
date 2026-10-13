@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-11",
+  "stage": 39,
+  "authoring": "assets/truck_wb/stage39_crew_cab_authoring.blend",
+  "game_model": "assets/truck_hero/kolymaga_hero_baked.blend",
+  "original_two_seat_source_preserved": "assets/truck_wb/stage38_base_inset_authoring.blend",
+  "runtime_parts": 122,
+  "runtime_triangles": 74502,
+  "door_and_tank_audit": "source_final.json",
+  "static_battery_removal": {
+    "authoring": {
+      "object": "powertrain",
+      "faces_removed": 78,
+      "triangles_removed": 180
+    },
+    "baked": {
+      "object": "GAME_powertrain",
+      "faces_removed": 40,
+      "triangles_removed": 40,
+      "remaining_battery_faces": 0
+    },
+    "external_interactive_battery_retained": true
+  },
+  "minimal_final_checks": [
+    "Updated blend/GLB export validation and runtime export",
+    "Incremental native game build",
+    "Existing battery removal, carrying, placement, save/load and refitting scenario"
+  ],
+  "earlier_checks_not_repeated": true,
+  "checks": [
+    {
+      "name": "moving_geometry_rays",
+      "passed": 4,
+      "total": 4,
+      "assertions": 391,
+      "log": "checks/test_ray3.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "hero_render_animation",
+      "passed": 18,
+      "total": 18,
+      "assertions": 19993,
+      "log": "checks/test_view2.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "four_seat_coop",
+      "passed": 6,
+      "total": 6,
+      "assertions": 67,
+      "log": "checks/test_coop_final.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "cabin_controls",
+      "passed": 16,
+      "total": 16,
+      "assertions": 273,
+      "log": "checks/test_cargo_final.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "service_interactions",
+      "passed": 27,
+      "total": 27,
+      "assertions": 345,
+      "log": "checks/test_care_pass.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "vehicle_physics",
+      "passed": 102,
+      "total": 102,
+      "assertions": 1423,
+      "log": "checks/test_vehicle2.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "network",
+      "passed": 8,
+      "total": 8,
+      "assertions": 76,
+      "log": "checks/test_net_final.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "four_player_commands",
+      "passed": 5,
+      "total": 5,
+      "assertions": 43,
+      "log": "checks/test_slots_n4.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "two_player_manual_entry",
+      "passed": 1,
+      "total": 1,
+      "assertions": 25,
+      "log": "checks/test_slots_final.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "glass_weather",
+      "passed": 17,
+      "total": 17,
+      "assertions": 262316,
+      "log": "checks/glass_tests.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "oil_depth_picking",
+      "passed": 1,
+      "total": 1,
+      "assertions": 13,
+      "log": "checks/test_oil_final.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "radiator_depth_picking",
+      "passed": 1,
+      "total": 1,
+      "assertions": 23,
+      "log": "checks/test_rad_final.log",
+      "run_after_static_battery_removal": false
+    },
+    {
+      "name": "battery_remove_save_refit",
+      "passed": 1,
+      "total": 1,
+      "assertions": 24,
+      "log": "checks/test_battery_final.log",
+      "run_after_static_battery_removal": true
+    }
+  ],
+  "earlier_native_game_captures": "game/",
+  "capture_note": "Native game views predate the final static battery deletion and axe mount correction. Cabin, doors, tank and running gear are unchanged since those views.",
+  "tool_mount_followup": {
+    "axe_mount_runtime_m": [
+      1.025,
+      1.48,
+      -1.485
+    ],
+    "shovel_mount_runtime_m": [
+      -1.045,
+      1.3,
+      -1.455
+    ],
+    "bed_rearward_shift_m": 0.66,
+    "cargo_grid_already_shifted_m": 0.66,
+    "cargo_bed_centre_z_m": -2.285,
+    "implementation": "Shared mount data and matching defaults drive drawing and interaction positions. Removed the separate shovel-only shift.",
+    "tests_rerun": false,
+    "build_targets": [
+      "peregon",
+      "peregon_headless"
+    ]
+  }
+}

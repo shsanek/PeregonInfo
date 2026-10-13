@@ -1,0 +1,20 @@
+{
+  "scene": "scene_w10_board",
+  "run": "004",
+  "date": "2026-10-07T16:10:01Z",
+  "commit": "947c58d4fe",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "3",
+    "--ticks",
+    "300",
+    "--capture",
+    "150,240,280",
+    "--replay",
+    "replay.txt"
+  ]
+}

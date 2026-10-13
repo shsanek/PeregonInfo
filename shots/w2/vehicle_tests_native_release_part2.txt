@@ -1,0 +1,9 @@
+[suite] vehicle_tests
+    0-100 12.216 s (design 11.999 s), top 135.513 km/h (stat 140)
+[ OK ] acceleration_0_100_matches_design
+    ram -> entity 202 at 75 km/h damage 10.500
+    ram -> entity 200 at 75 km/h damage 10.500
+    ram -> entity 201 at 75 km/h damage 10.500
+    ram -> entity 100 at 59 km/h damage 8.259
+[ OK ] ram_emits_damage_event
+[done] 2/2 passed, 23 checks

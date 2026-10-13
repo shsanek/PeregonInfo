@@ -1,0 +1,18 @@
+{
+  "scene": "scene_w11_audio",
+  "run": "017",
+  "date": "2026-10-07T16:21:30Z",
+  "commit": "3713530526",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "20261007",
+    "--ticks",
+    "2540",
+    "--replay",
+    "replay.txt"
+  ]
+}

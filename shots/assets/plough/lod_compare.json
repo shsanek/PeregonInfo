@@ -1,0 +1,41 @@
+{
+ "asset": "plough",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 689248
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 6000
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 3000
+  },
+  {
+   "row": "LOD2 (after)",
+   "tris": 1500
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "side": 0.9827,
+   "front": 0.9835,
+   "q34": 0.9853,
+   "back34": 0.9851
+  },
+  "LOD1 (after)": {
+   "side": 0.9521,
+   "front": 0.9498,
+   "q34": 0.9598,
+   "back34": 0.9504
+  },
+  "LOD2 (after)": {
+   "side": 0.8844,
+   "front": 0.881,
+   "q34": 0.8863,
+   "back34": 0.8812
+  }
+ }
+}

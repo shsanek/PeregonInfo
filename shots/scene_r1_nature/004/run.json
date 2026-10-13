@@ -1,0 +1,24 @@
+{
+  "scene": "scene_r1_nature",
+  "run": "004",
+  "date": "2026-10-07T17:18:24Z",
+  "commit": "1a5d799a49",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "1",
+    "--ticks",
+    "480",
+    "--capture",
+    "0,35,105,175,245,315,385,440,470"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9",
+      "--ff"
+    ]
+  }
+}

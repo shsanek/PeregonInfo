@@ -1,0 +1,17 @@
+{
+  "file": "/Users/alex/.superset/worktrees/EXEcutor/peregon-truck-tk7/games/peregon/assets/truck_wb/stage38_base_inset_authoring.blend",
+  "relinked": [
+    "interior_basecolor.png",
+    "interior_normal.png",
+    "interior_orm.png",
+    "paper_map_cover_v01.png",
+    "switch_plaques_v02.png"
+  ],
+  "missing_unpacked": [],
+  "evaluated_null_faces": {
+    "body": 0,
+    "door.L": 0,
+    "door.R": 0,
+    "cockpit": 0
+  }
+}

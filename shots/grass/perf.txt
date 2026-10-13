@@ -1,0 +1,31 @@
+GRASS perf, EXEcutor RunGame, tools/perf_tour.py, steady frames, shared Mac (other agents running).
+old = same build with --perf-off 128 (grass layer off, old ground-cover clumps = tip picture).
+
+R1 gameplay replay (tools/replays/play_region_perf.txt, 7200 ticks, 1280x720)
+  run 1 (5 clumps/m2):  old 23.3 ms p95 36.5, draws 404  | grass 23.8 ms p95 36.0, draws 409 (grass section 0.4 ms)  delta +0.5 ms, +5 draws
+  run 2 (final 6/m2):   old 24.3 ms p95 36.5, draws 404  | grass 25.0 ms p95 38.1, draws 409 (grass section 0.4 ms)  delta +0.7 ms, +5 draws
+  final state hash 86d5bace in all runs
+
+Camera tour (data/render/perf_tour.txt, 27 views, 960x540)
+  old 18.5 ms p95 25.4, draws 443 | grass (5/m2) 18.8 ms p95 23.4, draws 449 | grass (6/m2) 18.9 ms p95 22.2, draws 449
+  grass section 0.3-0.4 ms; final state hash 4a7a99e0 in all runs
+
+Grass tour (data/render/grass_tour.txt, --grass-stats, 960x540): grass draws 5-11, triangles 27k-83k,
+estimated card raster 0.6-9.6 Mpix per frame (x4 at 1080p: 2-38 Mpix; docs/trees.md: 66 Mpix alpha-tested = +0.4 ms).
+
+Shell prototype (--grass-shells 4) vs off, shells tour per-step frame avg (ms):
+  off: meadow 24.1/16.9, cab 16.8/16.9, roadside 19.1/17.0   on: meadow 23.4/17.0, cab 16.8/16.8, roadside 18.2/16.5  (noon/sunset) -> noise
+
+Sim hashes (tools/perf_sim_hashes.sh, native): region_auto_80k e90892a9, region_outpost_16k a62bb42a,
+region_perf_replay 86d5bace, slice_auto_40k 610331e4 (= tip).
+Sway: static camera, two captures 20 ticks apart: 27 % of the lower-half pixels change by more than 8 levels.
+
+--- Density curve + far cells (owner remark, 2026-10-08 late; host load 20-110, so +-1 ms noise) ---
+R1 gameplay replay 1280x720, old = --perf-off 128:
+  pair c: old 28.7 ms / grass 28.5 ms (draws 416 -> 438)
+  pair d: old 27.4 ms / grass 28.5 ms (draws 416 -> 437), grass section 1.0 ms; final state hash 86d5bace
+Camera tour 960x540: grass 18.5 ms (draws 472, grass section 0.9 ms), old 20.7 ms (an earlier run; the paired old run failed to launch)
+Static A/B (meadow + wide view, 90 frames each, two pairs, far cells 128 m): off 22.7/15.3, on 21.9/14.8, off 24.3/16.2, on 23.4/16.4 ms
+Grass tour (--grass-stats, noon): look_down 5 draws 83k tris 8.3 Mpix; meadow 21 / 192k / 7.9; cab 21 / 192k / 6.2;
+  forest_edge 19 / 114k / 4.2; riverbank 20 / 194k / 2.2; roadside 22 / 233k / 9.8; wide 20 / 218k / 3.4; shrub meadow 22 / 217k / 9.8
+  (--grass-stats itself costs tens of ms in the emulator: the raster estimate walks every drawn clump; never time with it)

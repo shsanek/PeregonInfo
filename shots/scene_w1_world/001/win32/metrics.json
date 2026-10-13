@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "scene": "scene_w1_world",
+  "seed": 7,
+  "ticks": 600,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "replay": null,
+  "wall_time_ms": 8.494,
+  "frame_time_ms": {"avg": 0.013, "min": 0.000, "max": 3.100},
+  "final_state_hash": "c2992a8a",
+  "captures": [
+    {"tick": 0, "state_hash": "1d0482d2", "image_hash": "963e8742", "width": 320, "height": 240, "file": "tick_000000.bmp"},
+    {"tick": 300, "state_hash": "3a35a9b0", "image_hash": "6c6ada9d", "width": 320, "height": 240, "file": "tick_000300.bmp"},
+    {"tick": 600, "state_hash": "c2992a8a", "image_hash": "f6c971e7", "width": 320, "height": 240, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": {"stream": "W1", "contracts_version": 1, "content_hash": "0xa6cfa1c0", "bus": {"published": 16, "delivered": 16, "dropped": 0, "handler_calls": 16, "max_pending": 2, "stream_hash_hi": "0x89180680", "stream_hash_lo": "0x9366bd1d"}, "surface_samples": {"asphalt": 28, "dirt": 236, "grass": 274, "mud": 20, "puddle": 42}, "mode_ticks": {"drive": 150, "on_foot": 150, "cargo": 75, "camp": 150, "pause": 75}, "mode": "drive", "transitions": 8, "rain": 1, "wetness_sum": 277.801},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

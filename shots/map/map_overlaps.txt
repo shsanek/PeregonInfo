@@ -1,0 +1,2 @@
+OVERLAP rect_railway (roads/rect_railway.json) ~ rect_trunk (roads/rect_trunk.json): 800 m within corridor
+mapgen overlaps: 5 roads, 1 overlapping pairs over 500 m

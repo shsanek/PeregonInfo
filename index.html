@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peregon Progress</title>
+<style>
+:root {
+  --bg: #f4f2ee; --panel: #ffffff; --ink: #1f1d1a; --muted: #6b665e; --line: #ddd8cf;
+  --accent: #8a5a2b; --todo: #b8b2a7; --wip: #c98a1b; --done: #4f7a3a; --fail: #a8432f;
+  --shadow: 0 1px 2px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161513; --panel: #1f1d1a; --ink: #ece7de; --muted: #9a948a; --line: #34312c;
+    --accent: #d39a5c; --todo: #5a564f; --wip: #e0a43a; --done: #7aab5f; --fail: #d06a52;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161513; --panel: #1f1d1a; --ink: #ece7de; --muted: #9a948a; --line: #34312c;
+  --accent: #d39a5c; --todo: #5a564f; --wip: #e0a43a; --done: #7aab5f; --fail: #d06a52;
+  --shadow: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 24px; }
+h1 { font-size: 28px; margin: 0; letter-spacing: .02em; }
+h2 { font-size: 18px; margin: 32px 0 12px; }
+.muted { color: var(--muted); }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; box-shadow: var(--shadow); }
+.bar { height: 8px; background: var(--line); border-radius: 4px; overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--done); }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.stat b { display: block; font-size: 24px; }
+.groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.group h3 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.stage { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; padding: 8px 0; border-top: 1px solid var(--line); }
+.stage:first-of-type { border-top: 0; }
+.dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 6px; background: var(--todo); }
+.dot.wip { background: var(--wip); } .dot.done { background: var(--done); } .dot.fail { background: var(--fail); }
+.streams { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px 16px; }
+.stream { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.stream .dot { margin-top: 0; flex: 0 0 10px; }
+.stage .gate { grid-column: 2; font-size: 13px; color: var(--muted); }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+th { font-size: 13px; color: var(--muted); font-weight: 600; }
+.table-wrap { overflow-x: auto; }
+.entry { margin-bottom: 16px; }
+.entry .meta { font-size: 13px; color: var(--muted); }
+.entry h3 { margin: 4px 0 8px; font-size: 17px; }
+.shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; margin-top: 10px; }
+figure { margin: 0; }
+figure img { width: 100%; border-radius: 6px; border: 1px solid var(--line); display: block; cursor: zoom-in; }
+figcaption { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.agroup { margin: 8px 0 14px; }
+.agroup > summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+.tile { background: var(--panel, #1b1b1b); border: 1px solid var(--line); border-radius: 8px; padding: 6px; }
+.tile .tname { font-size: 12px; margin: 0 0 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.quad { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; }
+.quad figure { margin: 0; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 4px; position: relative; }
+.quad img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; }
+.quad .slot { border: 1px dashed var(--line); display: flex; align-items: center; justify-content: center; font-size: 10px; color: var(--muted); text-align: center; }
+.quad figcaption { position: absolute; left: 0; right: 0; bottom: 0; font-size: 9px; background: rgba(0,0,0,.55); color: #fff; padding: 1px 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chain { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; }
+.chain figure { flex: 0 0 200px; }
+.chain .arrow { align-self: center; color: var(--muted); font-size: 20px; }
+.tag { white-space: nowrap; display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 10px; border: 1px solid var(--line); color: var(--muted); }
+.empty { color: var(--muted); font-style: italic; }
+.run { border-top: 1px solid var(--line); padding-top: 12px; margin-top: 12px; }
+.run:first-of-type { border-top: 0; margin-top: 0; padding-top: 0; }
+.run .meta { font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
+.tag.ok { color: var(--done); border-color: var(--done); } .tag.bad { color: var(--fail); border-color: var(--fail); }
+.cap { margin-top: 10px; }
+.cap h4 { margin: 0 0 6px; font-size: 13px; font-weight: 600; }
+.pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.pair img { image-rendering: pixelated; }
+details.older > summary { cursor: pointer; color: var(--muted); font-size: 13px; margin-top: 12px; }
+code { font: 12px/1.4 ui-monospace, Menlo, monospace; }
+#lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.85); display: none; align-items: center; justify-content: center; padding: 16px; }
+#lightbox img { max-width: 100%; max-height: 100%; }
+#lightbox.on { display: flex; }
+.mechanics-tools { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; align-items: end; }
+.mechanics-tools label { display: grid; gap: 4px; flex: 1 1 170px; font-size: 13px; }
+.mechanics-tools input, .mechanics-tools select, .mechanics-tools button { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 5px; padding: 8px; }
+.mechanics-tools button { cursor: pointer; }
+.mechanics-group { margin: 10px 0; }
+.mechanics-group > summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+.mechanics-group table { min-width: 600px; }
+.mechanics-group td { vertical-align: top; }
+.mechanics-group td:first-child { white-space: nowrap; }
+.mechanics-group a, #mechanics a, header a { color: var(--accent); }
+.mechanics-sources { font-size: 12px; overflow-wrap: anywhere; }
+.mechanics-group tr:target { background: var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Peregon</h1>
+    <span class="muted">game progress · updated <span id="updated"></span></span>
+  </header>
+
+  <div hidden>
+  <section class="panel summary" id="summary"></section>
+
+  <section id="mechanics" lang="ru" aria-labelledby="mechanics-title">
+    <h2 id="mechanics-title">Полный рабочий список механик</h2>
+    <div class="panel">
+      <p id="mechanics-note"></p>
+      <p class="muted" id="mechanics-baseline"></p>
+      <p><a href="../docs/coop-audit.md">Предыдущая точечная проверка COOP46</a> · <a href="../docs/mechanics-inventory.md">Границы реестра и правила дальнейшего аудита</a></p>
+      <div class="mechanics-tools">
+        <label>Поиск по механике, ID или источнику<input type="search" id="mechanics-search" placeholder="Например: термос, дверь, лебёдка"></label>
+        <label>Состояние реализации<select id="mechanics-status"><option value="">Все состояния</option></select></label>
+        <label>Чьё состояние<select id="mechanics-scope"><option value="">Все области</option></select></label>
+        <button type="button" id="mechanics-expand">Раскрыть всё</button>
+        <button type="button" id="mechanics-collapse">Свернуть всё</button>
+      </div>
+      <p id="mechanics-count" role="status" aria-live="polite"></p>
+      <details>
+        <summary>Что проверять у каждой механики вдвоём, затем вчетвером</summary>
+        <ol id="mechanics-axes"></ol>
+      </details>
+    </div>
+    <div id="mechanics-groups"></div>
+    <noscript>Для поиска и отображения реестра нужен JavaScript. Полный исходный список находится в mechanics.js рядом с этой страницей.</noscript>
+  </section>
+
+  <h2>Phases</h2>
+  <section class="groups" id="phases"></section>
+
+  <h2>Workstreams</h2>
+  <section class="panel streams" id="streams"></section>
+
+  <h2>Generation budget</h2>
+  <section class="panel table-wrap"><table id="budget"></table></section>
+
+  <h2>Generation spend log</h2>
+  <section class="panel table-wrap"><table id="spend"></table></section>
+
+  </div>
+
+  <h2>Work log (merge order)</h2>
+  <section id="entries"></section>
+
+  <h2>Element evolution</h2>
+  <section id="elements"></section>
+
+</main>
+<div id="lightbox"><img alt=""></div>
+<script src="progress.js"></script>
+<script src="assets.js"></script>
+<script src="entry_order.js"></script>
+<script src="mechanics.js"></script>
+<script src="mechanics-view.js"></script>
+<script>
+(function () {
+  var D = window.PEREGON || {};
+  ["phases","streams","budget","spend","entries","elements"].forEach(function (k) { D[k] = D[k] || []; });
+  var STATUS = { todo: "not started", wip: "in progress", done: "done", fail: "problem" };
+  function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+  document.getElementById("updated").textContent = D.updated || "—";
+
+  var all = D.phases.concat(D.streams);
+  var done = all.filter(function (s) { return s.status === "done"; }).length;
+  var wip = all.filter(function (s) { return s.status === "wip"; }).length;
+  var pct = all.length ? Math.round(done * 100 / all.length) : 0;
+  document.getElementById("summary").innerHTML =
+    '<div class="stat"><b>' + pct + '%</b><span class="muted">phases + streams done</span><div class="bar"><span style="width:' + pct + '%"></span></div></div>' +
+    '<div class="stat"><b>' + D.phases.filter(function (s) { return s.status === "done"; }).length + ' / ' + D.phases.length + '</b><span class="muted">phases done</span></div>' +
+    '<div class="stat"><b>' + wip + '</b><span class="muted">in progress</span></div>' +
+    '<div class="stat"><b>' + D.entries.length + '</b><span class="muted">log entries</span></div>';
+
+  var phEl = document.getElementById("phases");
+  D.phases.forEach(function (s) {
+    var box = el("div", "panel group");
+    var row = el("div", "stage");
+    row.appendChild(el("span", "dot " + s.status, ""));
+    row.appendChild(el("div", null, "<b>" + esc(s.id) + "</b> " + esc(s.name) + ' <span class="tag">' + (STATUS[s.status] || s.status) + "</span>"));
+    row.appendChild(el("div", "gate", "Gate: " + esc(s.gate)));
+    box.appendChild(row);
+    phEl.appendChild(box);
+  });
+
+  var stEl = document.getElementById("streams");
+  D.streams.forEach(function (s) {
+    var row = el("div", "stream");
+    row.innerHTML = '<span class="dot ' + s.status + '"></span><b>' + esc(s.id) + "</b> " + esc(s.name) + ' <span class="tag">' + (STATUS[s.status] || s.status) + "</span>";
+    stEl.appendChild(row);
+  });
+
+  var b = '<tr><th>Service</th><th>Spent</th><th>Left</th><th>Reserve</th><th style="width:30%"></th></tr>';
+  D.budget.forEach(function (x) {
+    var left = x.total == null ? "plan limit" : (x.total - x.spent) + " " + x.unit;
+    var used = x.total ? Math.min(100, Math.round(x.spent * 100 / x.total)) : 0;
+    var warn = x.reserve != null && x.total != null && x.total - x.spent < x.reserve;
+    b += "<tr><td>" + esc(x.service) + "</td><td>" + x.spent + " " + x.unit + "</td><td" + (warn ? ' style="color:var(--fail)"' : "") + ">" + left +
+      "</td><td>" + (x.reserve == null ? "—" : "≥ " + x.reserve) + '</td><td><div class="bar"><span style="width:' + used + '%;background:var(--accent)"></span></div></td></tr>';
+  });
+  document.getElementById("budget").innerHTML = b;
+  var sp = "<tr><th>When</th><th>Service</th><th>Asset</th><th>Mode</th><th>Cost</th><th>Balance after</th><th>Result</th></tr>";
+  D.spend.slice().reverse().forEach(function (x) {
+    sp += "<tr><td>" + esc(x.date + " " + x.time) + "</td><td>" + esc(x.service) + "</td><td>" + esc(x.asset) + "</td><td>" + esc(x.mode) + "</td><td>" + esc(x.cost) + "</td><td>" + esc(x.balance) + "</td><td>" + esc(x.result) + "</td></tr>";
+  });
+  document.getElementById("spend").innerHTML = sp;
+
+  var elemEl = document.getElementById("elements");
+  var SLOTS = ["concept", "generation", "low-poly / Blender", "in game"];
+  function tile(name, steps, cls) {
+    var t = el("div", "tile");
+    t.appendChild(el("div", "tname", esc(name) + (cls ? ' <span class="tag">' + esc(cls) + "</span>" : "")));
+    var q = el("div", "quad");
+    for (var i = 0; i < 4; i++) {
+      var st = steps[i];
+      if (st && st.src) {
+        var f = el("figure");
+        f.innerHTML = '<img loading="lazy" src="' + esc(st.src) + '" alt=""><figcaption>' + esc((st.n != null ? st.n + " " : "") + (st.label || "")) + "</figcaption>";
+        q.appendChild(f);
+      } else {
+        q.appendChild(el("figure", "slot", esc(SLOTS[i])));
+      }
+    }
+    t.appendChild(q);
+    return t;
+  }
+  var groups = {}, order = [];
+  function add(g, node) { if (!groups[g]) { groups[g] = []; order.push(g); } groups[g].push(node); }
+  var seen = {};
+  D.elements.forEach(function (x) {
+    (x.steps || []).forEach(function (st) { if (st.src) seen[st.src] = 1; });
+    add(x.group || "Generated and authored", tile(x.name, x.steps || [], "class " + (x["class"] || "—")));
+  });
+  (window.PEREGON_ASSETS || []).forEach(function (a) {
+    if (a.steps.some(function (st) { return seen[st.src]; })) return;
+    add(a.group, tile(a.name, a.steps, ""));
+  });
+  if (!order.length) elemEl.appendChild(el("p", "empty", "Empty for now."));
+  order.forEach(function (g) {
+    var d = document.createElement("details");
+    d.className = "agroup";
+    d.open = true;
+    d.innerHTML = "<summary>" + esc(g) + " · " + groups[g].length + "</summary>";
+    var grid = el("div", "tiles");
+    groups[g].forEach(function (n) { grid.appendChild(n); });
+    d.appendChild(grid);
+    elemEl.appendChild(d);
+  });
+
+  var entEl = document.getElementById("entries");
+  if (!D.entries.length) entEl.appendChild(el("p", "empty", "Empty for now. The first entry arrives when F0 starts."));
+  D.entries.slice().forEach(function (x, i) {
+    var box = el("article", "panel entry");
+    box.appendChild(el("div", "meta", "#" + (i + 1) + (x.branch ? " · branch " + esc(x.branch) + " · " : " · merged ") + esc(x.date) + (x.time ? " " + esc(x.time) : "") + " · " + esc(x.stage) + (x.commit ? " · <code>" + esc(x.commit) + "</code>" : "")));
+    box.appendChild(el("h3", null, esc(x.title)));
+    if (x.text) box.appendChild(el("p", null, esc(x.text)));
+    if (x.checks && x.checks.length) {
+      var ul = el("ul");
+      x.checks.forEach(function (c) { ul.appendChild(el("li", null, (c.ok ? "✔ " : "✘ ") + esc(c.name) + (c.value ? " — " + esc(c.value) : ""))); });
+      box.appendChild(ul);
+    }
+    if (x.table && x.table.rows && x.table.rows.length) {
+      var th = "<table>" + (x.table.head ? "<tr>" + x.table.head.map(function (c) { return "<th>" + esc(c) + "</th>"; }).join("") + "</tr>" : "");
+      x.table.rows.forEach(function (r) { th += "<tr>" + r.map(function (c) { return "<td>" + esc(c) + "</td>"; }).join("") + "</tr>"; });
+      box.appendChild(el("div", "table-wrap", th + "</table>"));
+    }
+    if (x.shots && x.shots.length) {
+      var g = el("div", "shots");
+      x.shots.forEach(function (s) {
+        var f = el("figure");
+        var media = /\.(ogg|wav|mp3)$/i.test(s.src) ? '<audio controls preload="none" style="width:100%" src="' + esc(s.src) + '"></audio>' : '<img loading="lazy" src="' + esc(s.src) + '" alt="">';
+        f.innerHTML = media + '<figcaption>' + esc(s.caption || "") + (s.platform ? ' <span class="tag">' + esc(s.platform) + "</span>" : "") + "</figcaption>";
+        g.appendChild(f);
+      });
+      box.appendChild(g);
+    }
+    entEl.appendChild(box);
+  });
+
+  var lb = document.getElementById("lightbox");
+  document.addEventListener("click", function (e) {
+    if (e.target.tagName === "IMG" && e.target.closest("figure")) { lb.querySelector("img").src = e.target.src; lb.classList.add("on"); }
+    else if (e.target.closest("#lightbox")) lb.classList.remove("on");
+  });
+})();
+</script>
+</body>
+</html>

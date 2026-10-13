@@ -1,0 +1,31 @@
+{
+ "asset": "firewood_bundle",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1929438
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 962
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 624
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9615,
+   "side": 0.9732,
+   "q34": 0.971,
+   "top": 0.975
+  },
+  "LOD1 (after)": {
+   "front": 0.9364,
+   "side": 0.9615,
+   "q34": 0.9383,
+   "top": 0.9613
+  }
+ }
+}

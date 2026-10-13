@@ -1,0 +1,9 @@
+EXEcutor d3d9 SM2: frames 1601, frame time avg 2.720 ms min 0.621 max 81.336, wall 4396 ms, world build 1713.813 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 193.761 max 236, draws avg 205.008, triangles avg 23122.521
+EXEcutor d3d9 fixed function: frames 1601, frame time avg 3.111 ms min 0.588 max 227.641, wall 5026 ms, world build 1798.145 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 193.761 max 236, draws avg 205.008, triangles avg 23122.521
+host rhi_null (captures only): frames 16, frame time avg 0.153 ms min 0.000 max 19.617, wall 246 ms, world build 82.004 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 178.188 max 233, draws avg 188.625, triangles avg 22011.25

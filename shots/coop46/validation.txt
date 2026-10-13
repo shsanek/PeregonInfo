@@ -1,0 +1,21 @@
+COOP46 native validation, 2026-10-11
+All nine selected targets pass after updating the obsolete inventory assertion.
+The combined run first passed 8/9; only inventory_tests was rebuilt/re-run after its fixture update.
+See docs/coop-audit.md for coverage limits.
+
+coop_slots_tests: [done] 13/13 passed, 259 checks
+net_world_tests: [done] 8/8 passed, 76 checks
+coop_seats_tests: [done] 9/9 passed, 160 checks
+net_menu_tests: [done] 3/3 passed, 44 checks
+loadout_tests: [done] 9/9 passed, 168 checks
+roof_rack_tests: [done] 1/1 passed, 57 checks
+net_tests: [done] 16/16 passed, 12652 checks
+coop_audit_tests: [done] 6/6 passed, 610 checks
+inventory_tests (updated avatar privacy assertion): [done] 10/10 passed, 189 checks
+
+Native peregon + peregon_headless with Steam enabled: build passed.
+Two Metal instances, relay, latency=100,jitter=20,loss=2: 31 complete checks, 0 differ.
+The longer hold/holster run: 39 complete checks, 0 differ.
+Steam with two real accounts and Windows/macOS cross-play: NOT exercised.
+Observer screenshots: local tick 900 / host 1404 = held closed; local tick 1080 / host 1584 = reload open.
+The hand remains in the current hold pose while the barrels open; complete remote reload hand/shell animation is still pending.

@@ -1,0 +1,28 @@
+LOG line 4 host core.1: 366
+LOG line 5 host core.2: 366
+LOG line 6 host wet.2: 0
+LOG line 7 host core.2: 365
+LOG line 15 host core.2: 363
+LOG line 4 p1 core.1: 366
+LOG line 5 p1 core.2: na
+LOG line 6 p1 wet.2: na
+LOG line 7 p1 core.2: na
+LOG line 15 p1 core.2: na
+LOG line 4 p2 core.1: na
+LOG line 5 p2 core.2: 366
+LOG line 6 p2 wet.2: 0
+LOG line 7 p2 core.2: 365
+LOG line 15 p2 core.2: 363
+PASS line 8 BODY-06 core.2 < $k2: host=365 p1=na(x) p2=365
+PASS line 9 BODY-06 core.2 ~~ 1: host=365 p1=na p2=365
+PASS line 10 BODY-13 core.1 ~~ 1: host=365 p1=365 p2=na
+PASS line 14 SEAT-01 place.2 = seat1: host=seat1@1 p1=seat1@3 p2=seat1@1
+PASS line 16 BODY-06 core.2 ~~ 1: host=363 p1=na p2=363
+links: peer 1 relay, peer 2 relay
+client layer checks: 228 equal, 0 differ
+acts 3, failed acts 0
+rows 3 pass 3 fail 0
+ROW BODY-06 PASS (3 checks)
+ROW BODY-13 PASS (1 checks)
+ROW SEAT-01 PASS (1 checks)
+RESULT PASS

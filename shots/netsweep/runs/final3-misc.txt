@@ -1,0 +1,35 @@
+LOG line 10 host pos.1.x: -1263
+LOG line 11 host pos.1.z: 1970
+LOG line 32 host tea.2: 4
+LOG line 35 host swim.1: 1
+LOG line 10 p1 pos.1.x: -1263
+LOG line 11 p1 pos.1.z: 1970
+LOG line 32 p1 tea.2: na
+LOG line 35 p1 swim.1: 1
+LOG line 10 p2 pos.1.x: -1263
+LOG line 11 p2 pos.1.z: 1970
+LOG line 32 p2 tea.2: 4
+LOG line 35 p2 swim.1: 1
+PASS line 4 SWIM-02 swim.0 = 1: host=1 p1=1 p2=1
+PASS line 5 SWIM-02 swim.1 = 1: host=1 p1=1 p2=1
+PASS line 9 SWIM-02 pos.1.z != $sz: host=1970 p1=1970@1 p2=1970
+PASS line 15 MOVE-01 pos.2.z != $wz: host=1939 p1=1939 p2=1939
+PASS line 16 MOVE-01 pos.2.x == x: host=-1259 p1=-1259 p2=-1259
+PASS line 17 MOVE-01 pos.2.z == x: host=1939 p1=1939 p2=1939
+PASS line 19 MOVE-04 crouch.2 = 1: host=1 p1=1@1 p2=1@1
+PASS line 20 MOVE-04 crouch.2 = 0: host=0 p1=0 p2=0
+PASS line 22 MOVE-03 elev.2 >= 15: host=20@10 p1=38@11 p2=20@2
+PASS line 26 CLOTH-02 wears.2.ushanka = 1: host=1@9 p1=na(x) p2=1@9
+PASS line 27 CLOTH-02 carry.2 = flat_cap: host=flat_cap@9 p1=flat_cap@8 p2=flat_cap@9
+PASS line 31 BODY-11 tea.2 < $tea0: host=3@9 p1=na(x) p2=3@10
+PASS line 36 SWIM-12 swim.1 = 1: host=1 p1=1@1 p2=1
+acts 13, failed acts 0
+rows 7 pass 7 fail 0
+ROW BODY-11 PASS (1 checks)
+ROW CLOTH-02 PASS (2 checks)
+ROW MOVE-01 PASS (3 checks)
+ROW MOVE-03 PASS (1 checks)
+ROW MOVE-04 PASS (2 checks)
+ROW SWIM-02 PASS (3 checks)
+ROW SWIM-12 PASS (1 checks)
+RESULT PASS

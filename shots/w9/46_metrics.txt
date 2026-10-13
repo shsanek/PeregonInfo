@@ -1,0 +1,25 @@
+scene_w9_cargo seed 3 ticks 2010 final_state_hash d0923ba8 content 0x2207e6ed cargo_params 0x8efee06e
+pile: supply_crate, supply_crate, supply_crate, supply_crate, electronics, shell_box, electronics, scrap, scrap, scrap, scrap
+packed    tick  633 cargo  276.0 kg loose  23.0 kg total  1676.0 kg entries 9 cells 24 CoM x -0.0016 z -0.1967 m 0-100 14.37 s
+stopped   tick 1327 cargo  253.0 kg loose   0.0 kg total  1653.0 kg entries 6 cells 19 CoM x -0.0028 z -0.1864 m 0-100 14.17 s
+recovered tick 2010 cargo  273.0 kg loose  20.0 kg total  1673.0 kg entries 8 cells 23 CoM x -0.0028 z -0.1938 m 0-100 14.34 s
+mass change: packed -> stopped -23.0 kg, stopped -> recovered +20.0 kg
+CoM shift z: packed -> stopped +0.0103 m, stopped -> recovered -0.0074 m
+items lost per obstacle:
+  other      0 (0.0 kg)
+  washboard  0 (0.0 kg)
+  bump_1     0 (0.0 kg)
+  bump_2     1 (3.0 kg)
+  bump_3     0 (0.0 kg)
+  ram_1      1 (10.0 kg)
+  ram_2      1 (10.0 kg)
+lost 3 (23.0 kg), recovered 2 (20.0 kg), left on the ground 3, hops 5, max hop 0.280 m, slides 0, strip events 2
+drive 694 ticks, 0-40 km/h 2.633 s, max 44.5 km/h, walked 32.0 m
+ground: shell_box (pile) x -1.80 z -3.90; scrap (pile) x -1.80 z -4.80; electronics (bump_2) x 0.67 z 68.16
+moments: 633:depart 958:lost_bump_2 1083:ram_1 1151:ram_2 1327:stop 1431:pick 1541:stowed 1761:pick 1981:stowed
+screen: {"cursor": [0, 0], "holding": false, "moves": 1, "placed": 11, "rotations": 3, "strap_toggles": 6}
+cargo_tests:    load: empty 0-100 12.000 s, rear 150 kg com_z -0.174 m, 0-100 13.286 s; left sack com_x 0.023 m
+cargo_tests:    bench 0-60 km/h: empty 0.000 kg 0 cells, rear sag 0.124 m, 5.067 s (design 0-100 12.000 s); grain_sack 600.000 kg 24 cells, rear sag 0.218 m, 7.267 s (design 0-100 17.143 s); scrap 120.000 kg 24 cells, rear sag 0.143 m, 5.500 s (design 0-100 13.029 s); supply_crate 360.000 kg 24 cells, rear sag 0.181 m, 6.367 s (design 0-100 15.086 s);
+cargo_tests:    bump 0.26 m: lost 5 of 14, max hop 0.285 m, 41.500 kg
+cargo_tests:    course loose bed: lost 14 (by obstacle 0 0 0 4 3 2 5), 259.500 kg, hops 57, slides 0, hash 0xdc8f5ff1
+cargo_tests:[done] 14/14 passed, 224 checks

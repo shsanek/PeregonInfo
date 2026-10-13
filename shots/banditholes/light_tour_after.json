@@ -1,0 +1,139 @@
+{
+ "b0_death_back_back/noon": {
+  "frame_ms_avg": 11.015,
+  "frames": 39,
+  "shot": "after_b0_death_back_back_noon.jpg",
+  "state_hash": "7e514a12",
+  "tick": 379
+ },
+ "b0_hit_head_back/noon": {
+  "frame_ms_avg": 10.726,
+  "frames": 39,
+  "shot": "after_b0_hit_head_back_noon.jpg",
+  "state_hash": "6b5c4749",
+  "tick": 339
+ },
+ "b0_idle_back/noon": {
+  "frame_ms_avg": 12.085,
+  "frames": 39,
+  "shot": "after_b0_idle_back_noon.jpg",
+  "state_hash": "8eb811fc",
+  "tick": 299
+ },
+ "b1_death_forward_front/noon": {
+  "frame_ms_avg": 9.326,
+  "frames": 39,
+  "shot": "after_b1_death_forward_front_noon.jpg",
+  "state_hash": "1a146741",
+  "tick": 459
+ },
+ "b1_hit_head_q/noon": {
+  "frame_ms_avg": 16.052,
+  "frames": 39,
+  "shot": "after_b1_hit_head_q_noon.jpg",
+  "state_hash": "339685e7",
+  "tick": 419
+ },
+ "b2_hit_head_back/noon": {
+  "frame_ms_avg": 10.436,
+  "frames": 39,
+  "shot": "after_b2_hit_head_back_noon.jpg",
+  "state_hash": "13ae5e92",
+  "tick": 539
+ },
+ "b2_idle_back/noon": {
+  "frame_ms_avg": 9.716,
+  "frames": 39,
+  "shot": "after_b2_idle_back_noon.jpg",
+  "state_hash": "05c6cfc6",
+  "tick": 499
+ },
+ "b3_death_back_a/noon": {
+  "frame_ms_avg": 8.441,
+  "frames": 39,
+  "shot": "after_b3_death_back_a_noon.jpg",
+  "state_hash": "1ccab64d",
+  "tick": 779
+ },
+ "b3_death_back_b/noon": {
+  "frame_ms_avg": 10.76,
+  "frames": 39,
+  "shot": "after_b3_death_back_b_noon.jpg",
+  "state_hash": "59f7f985",
+  "tick": 819
+ },
+ "b3_death_forward_back/noon": {
+  "frame_ms_avg": 9.81,
+  "frames": 39,
+  "shot": "after_b3_death_forward_back_noon.jpg",
+  "state_hash": "baa04f43",
+  "tick": 739
+ },
+ "b3_death_left_a/noon": {
+  "frame_ms_avg": 8.307,
+  "frames": 39,
+  "shot": "after_b3_death_left_a_noon.jpg",
+  "state_hash": "f0a2a3e7",
+  "tick": 579
+ },
+ "b3_death_left_b/noon": {
+  "frame_ms_avg": 8.552,
+  "frames": 39,
+  "shot": "after_b3_death_left_b_noon.jpg",
+  "state_hash": "fc6bcb27",
+  "tick": 619
+ },
+ "b3_death_right_a/noon": {
+  "frame_ms_avg": 8.54,
+  "frames": 39,
+  "shot": "after_b3_death_right_a_noon.jpg",
+  "state_hash": "3773790c",
+  "tick": 659
+ },
+ "b3_death_right_b/noon": {
+  "frame_ms_avg": 8.499,
+  "frames": 39,
+  "shot": "after_b3_death_right_b_noon.jpg",
+  "state_hash": "b5e25828",
+  "tick": 699
+ },
+ "b4_death_back_back/noon": {
+  "frame_ms_avg": 9.611,
+  "frames": 39,
+  "shot": "after_b4_death_back_back_noon.jpg",
+  "state_hash": "57486461",
+  "tick": 939
+ },
+ "b4_hit_head_back/noon": {
+  "frame_ms_avg": 9.858,
+  "frames": 39,
+  "shot": "after_b4_hit_head_back_noon.jpg",
+  "state_hash": "d087280a",
+  "tick": 899
+ },
+ "b4_idle_back/noon": {
+  "frame_ms_avg": 9.106,
+  "frames": 39,
+  "shot": "after_b4_idle_back_noon.jpg",
+  "state_hash": "e40e90d2",
+  "tick": 859
+ },
+ "b4_turn_back/noon": {
+  "frame_ms_avg": 10.125,
+  "frames": 39,
+  "shot": "after_b4_turn_back_noon.jpg",
+  "state_hash": "f04f54a9",
+  "tick": 979
+ },
+ "run": {
+  "final_state_hash": "8908f887",
+  "frame_time_ms": {
+   "avg": 31.419,
+   "max": 3843.402,
+   "min": 1.604
+  },
+  "launches": 1,
+  "ticks": 981,
+  "wall_time_ms": 30824.924
+ }
+}

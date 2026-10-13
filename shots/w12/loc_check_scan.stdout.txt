@@ -1,0 +1,7 @@
+loc check: ru 154 keys, en 154 keys, 154 referenced
+table_errors: 0
+missing: 0
+one_language_only: 0
+unused: 0
+inline_translations: 0
+RESULT CLEAN

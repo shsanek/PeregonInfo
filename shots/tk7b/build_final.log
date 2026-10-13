@@ -1,0 +1,264 @@
+[0/2] Re-checking globbed directories...
+[1/270] Generating prop_embedded_424.cpp
+[2/269] Generating prop_embedded_436.cpp
+[3/268] Generating prop_embedded_449.cpp
+[4/267] Generating prop_embedded_450.cpp
+[5/266] Generating prop_embedded_452.cpp
+[6/265] Generating prop_embedded_453.cpp
+[7/264] Generating prop_embedded_438.cpp
+[8/263] Generating prop_embedded_435.cpp
+[9/262] Generating prop_embedded_473.cpp
+[10/261] Generating prop_embedded_475.cpp
+[11/260] Generating prop_embedded_491.cpp
+[12/259] Generating prop_embedded_400.cpp
+[13/258] Generating prop_embedded_478.cpp
+[14/257] Generating prop_embedded_492.cpp
+[15/257] Generating prop_embedded_495.cpp
+[16/257] Generating prop_embedded_496.cpp
+[17/257] Generating prop_embedded_493.cpp
+[18/257] Generating prop_embedded_498.cpp
+[19/257] Generating prop_embedded_499.cpp
+[20/257] Generating prop_embedded_490.cpp
+[21/257] Generating prop_embedded_501.cpp
+[22/257] Generating prop_embedded_502.cpp
+[23/257] Generating prop_embedded_497.cpp
+[24/257] Generating prop_embedded_504.cpp
+[25/257] Generating prop_embedded_503.cpp
+[26/257] Generating prop_embedded_506.cpp
+[27/257] Generating prop_embedded_507.cpp
+[28/257] Generating prop_embedded_505.cpp
+[29/257] Generating prop_embedded_508.cpp
+[30/257] Generating prop_embedded_510.cpp
+[31/257] Generating prop_embedded_509.cpp
+[32/257] Generating prop_embedded_512.cpp
+[33/257] Generating prop_embedded_513.cpp
+[34/257] Generating prop_embedded_511.cpp
+[35/257] Generating prop_embedded_515.cpp
+[36/257] Generating prop_embedded_514.cpp
+[37/257] Generating prop_embedded_517.cpp
+[38/257] Generating prop_embedded_516.cpp
+[39/257] Generating prop_embedded_518.cpp
+[40/257] Generating prop_embedded_520.cpp
+[41/257] Generating prop_embedded_521.cpp
+[42/257] Generating prop_embedded_522.cpp
+[43/257] Generating prop_embedded_519.cpp
+[44/257] Generating prop_embedded_523.cpp
+[45/257] Generating prop_embedded_524.cpp
+[46/257] Generating prop_embedded_525.cpp
+[47/257] Generating prop_embedded_527.cpp
+[48/257] Generating prop_embedded_526.cpp
+[49/257] Generating prop_embedded_528.cpp
+[50/257] Generating prop_embedded_529.cpp
+[51/257] Generating prop_embedded_530.cpp
+[52/257] Generating prop_embedded_532.cpp
+[53/257] Generating prop_embedded_533.cpp
+[54/257] Generating prop_embedded_531.cpp
+[55/257] Generating prop_embedded_535.cpp
+[56/257] Generating prop_embedded_536.cpp
+[57/257] Generating prop_embedded_537.cpp
+[58/257] Generating prop_embedded_538.cpp
+[59/257] Generating prop_embedded_534.cpp
+[60/257] Generating prop_embedded_539.cpp
+[61/257] Generating loc_embedded_en.cpp
+[62/257] Generating loc_embedded_ru.cpp
+[63/257] Building CXX object src/loc/CMakeFiles/peregon_loc.dir/loc_embedded_ru.cpp.o
+[64/257] Building CXX object src/loc/CMakeFiles/peregon_loc.dir/loc_embedded_en.cpp.o
+[65/257] Linking CXX static library lib/libperegon_loc.a
+[66/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/ruts.cpp.o
+[67/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/vehicle.cpp.o
+[68/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/spray.cpp.o
+[69/257] Generating prop_embedded_494.cpp
+[70/257] Generating prop_embedded_500.cpp
+[71/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/physics_lab.cpp.o
+[72/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/handling.cpp.o
+[73/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_492.cpp.o
+[74/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_493.cpp.o
+[75/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_495.cpp.o
+[76/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/mudpass.cpp.o
+[77/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_496.cpp.o
+[78/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_498.cpp.o
+[79/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_499.cpp.o
+[80/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_490.cpp.o
+[81/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_501.cpp.o
+[82/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_502.cpp.o
+[83/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_497.cpp.o
+[84/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_504.cpp.o
+[85/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_503.cpp.o
+[86/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_506.cpp.o
+[87/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_507.cpp.o
+[88/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_505.cpp.o
+[89/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_508.cpp.o
+[90/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_510.cpp.o
+[91/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_509.cpp.o
+[92/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_512.cpp.o
+[93/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_511.cpp.o
+[94/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_513.cpp.o
+[95/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_515.cpp.o
+[96/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_514.cpp.o
+[97/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_517.cpp.o
+[98/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_516.cpp.o
+[99/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_518.cpp.o
+[100/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_520.cpp.o
+[101/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_521.cpp.o
+[102/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_522.cpp.o
+[103/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_519.cpp.o
+[104/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_524.cpp.o
+[105/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_523.cpp.o
+[106/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_525.cpp.o
+[107/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_527.cpp.o
+[108/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_526.cpp.o
+[109/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_528.cpp.o
+[110/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_529.cpp.o
+[111/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_530.cpp.o
+[112/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_532.cpp.o
+[113/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_533.cpp.o
+[114/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_531.cpp.o
+[115/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_535.cpp.o
+[116/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_536.cpp.o
+[117/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_534.cpp.o
+[118/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_537.cpp.o
+[119/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_538.cpp.o
+[120/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_539.cpp.o
+[121/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_table.cpp.o
+[122/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/polygon.cpp.o
+[123/257] Building CXX object src/vehicle/CMakeFiles/peregon_vehicle.dir/course.cpp.o
+[124/257] Linking CXX static library lib/libperegon_vehicle.a
+[125/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_494.cpp.o
+[126/257] Building CXX object src/net/CMakeFiles/peregon_net.dir/layers.cpp.o
+[127/257] Building CXX object src/net/CMakeFiles/peregon_net.dir/probe.cpp.o
+[128/257] Building CXX object src/world/CMakeFiles/peregon_prop_data.dir/prop_embedded_500.cpp.o
+[129/257] Building CXX object src/net/CMakeFiles/peregon_net.dir/session.cpp.o
+[130/257] Building CXX object src/survival/CMakeFiles/peregon_survival.dir/survival.cpp.o
+[131/257] Linking CXX static library lib/libperegon_net.a
+[132/257] Building CXX object src/survival/CMakeFiles/peregon_survival.dir/stamina.cpp.o
+[133/257] Building CXX object src/survival/CMakeFiles/peregon_survival.dir/care.cpp.o
+[134/257] Linking CXX static library lib/libperegon_survival.a
+[135/257] Linking CXX static library lib/libperegon_prop_data.a
+[136/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/ice_render.cpp.o
+[137/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/ground.cpp.o
+[138/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/sky_occlusion.cpp.o
+[139/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/water_render.cpp.o
+[140/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/powerlines.cpp.o
+[141/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/wire_render.cpp.o
+[142/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/map_render.cpp.o
+[143/257] Building CXX object src/world/CMakeFiles/peregon_world.dir/world_render.cpp.o
+[144/257] Linking CXX static library lib/libperegon_world.a
+[145/257] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/api.cpp.o
+[146/257] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/episode_arena.cpp.o
+[147/257] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/episode_drive.cpp.o
+[148/257] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/episode_camp.cpp.o
+[149/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/fx.cpp.o
+[150/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/view.cpp.o
+[151/257] Building CXX object src/bot/CMakeFiles/peregon_bot.dir/runner.cpp.o
+[152/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/view_geometry.cpp.o
+[153/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/truck_hero.cpp.o
+[154/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/driver_arms.cpp.o
+[155/257] Linking CXX static library lib/libperegon_bot.a
+[156/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/fp_arms.cpp.o
+[157/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/truck_parts.cpp.o
+[158/257] Building CXX object src/view/CMakeFiles/peregon_view.dir/shovel_view.cpp.o
+[159/257] Linking CXX static library lib/libperegon_view.a
+[160/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_core_replay.cpp.o
+[161/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_g0_cube.cpp.o
+[162/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/runner.cpp.o
+[163/257] Building CXX object src/view/CMakeFiles/view_tests.dir/tests/view_tests.cpp.o
+[164/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_map_drive.cpp.o
+[165/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_map.cpp.o
+[166/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_rhi_cube.cpp.o
+[167/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_nature.cpp.o
+[168/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_r1_slice.cpp.o
+[169/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_s1_surfaces.cpp.o
+[170/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_smoke.cpp.o
+[171/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_table.cpp.o
+[172/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_tree_overdraw.cpp.o
+[173/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w1_world.cpp.o
+[174/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w3_combat.cpp.o
+[175/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w2_vehicle.cpp.o
+[176/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w4_ai.cpp.o
+[177/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w8_economy.cpp.o
+[178/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w9_cargo.cpp.o
+[179/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w5_living_world.cpp.o
+[180/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_ui.cpp.o
+[181/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_board.cpp.o
+[182/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_cargo.cpp.o
+[183/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_common.cpp.o
+[184/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w10_hud.cpp.o
+[185/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w11_audio.cpp.o
+[186/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_arena.cpp.o
+[187/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_camp.cpp.o
+[188/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w12_menu.cpp.o
+[189/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/net_glue.cpp.o
+[190/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_w13_bot_drive.cpp.o
+[191/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/vehicle_model.cpp.o
+[192/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/net_world.cpp.o
+[193/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_save.cpp.o
+[194/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_foot.cpp.o
+[195/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bandits.cpp.o
+[196/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_game.cpp.o
+[197/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ui.cpp.o
+[198/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_render.cpp.o
+[199/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seasons.cpp.o
+[200/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_env.cpp.o
+[201/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net.cpp.o
+[202/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_atmos.cpp.o
+[203/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_river_ice.cpp.o
+[204/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_winterplow.cpp.o
+[205/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_truck_hero.cpp.o
+[206/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot.cpp.o
+[207/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_pick.cpp.o
+[208/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_home.cpp.o
+[209/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_residents.cpp.o
+[210/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_scene.cpp.o
+[211/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_lake.cpp.o
+[212/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_shovel.cpp.o
+[213/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_dig.cpp.o
+[214/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_ruts.cpp.o
+[215/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_mudpass.cpp.o
+[216/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_survival.cpp.o
+[217/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water.cpp.o
+[218/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_water_tools.cpp.o
+[219/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_timewarp.cpp.o
+[220/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_boat.cpp.o
+[221/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_farm.cpp.o
+[222/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care.cpp.o
+[223/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_care_rig.cpp.o
+[224/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_cargo.cpp.o
+[225/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_cargo.cpp.o
+[226/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/proving.cpp.o
+[227/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_feel.cpp.o
+[228/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_detail.cpp.o
+[229/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_walk.cpp.o
+[230/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_contact.cpp.o
+[231/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_region.cpp.o
+[232/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_bot_drive.cpp.o
+[233/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_nature.cpp.o
+[234/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_props.cpp.o
+[235/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_paper.cpp.o
+[236/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_loadout.cpp.o
+[237/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_static.cpp.o
+[238/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_torch.cpp.o
+[239/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_inventory.cpp.o
+[240/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_stamina.cpp.o
+[241/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_woodcut.cpp.o
+[242/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_slots.cpp.o
+[243/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_seats.cpp.o
+[244/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_net_client.cpp.o
+[245/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/play_command.cpp.o
+[246/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/map_terrain.cpp.o
+[247/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/play/paper_map_render.cpp.o
+[248/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_region_drive.cpp.o
+[249/257] Building CXX object src/game/CMakeFiles/peregon_headless.dir/main_headless.cpp.o
+[250/257] Linking CXX executable bin/view_tests
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_data.a', 'lib/libperegon_platform.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[251/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_truck_showcase.cpp.o
+[252/257] Building CXX object src/game/CMakeFiles/peregon_game.dir/scene_poi_showcase.cpp.o
+[253/257] Linking CXX static library lib/libperegon_game.a
+[254/257] Linking CXX executable bin/peregon_headless
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+[255/257] Building CXX object src/game/CMakeFiles/play_care_tests.dir/play/tests/play_care_tests.cpp.o
+[256/257] Linking CXX executable bin/play_care_tests
+ld: warning: ignoring duplicate libraries: 'lib/libperegon_assets.a', 'lib/libperegon_cargo.a', 'lib/libperegon_combat.a'
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0
+ld: warning: building for macOS-13.0, but linking with dylib '/opt/homebrew/opt/sdl3/lib/libSDL3.0.dylib' which was built for newer version 26.0

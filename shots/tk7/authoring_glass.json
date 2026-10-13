@@ -1,0 +1,15 @@
+{
+  "L": {
+    "travel_m": 0.387,
+    "contacts": [],
+    "min_gap_to_inner_skin_m": 0.0162,
+    "min_gap_to_outer_plane_m": 0.0158
+  },
+  "R": {
+    "travel_m": 0.389,
+    "contacts": [],
+    "min_gap_to_inner_skin_m": 0.0171,
+    "min_gap_to_outer_plane_m": 0.0198
+  },
+  "ok": true
+}

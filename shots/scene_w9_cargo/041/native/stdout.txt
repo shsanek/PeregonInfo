@@ -1,0 +1,3 @@
+scene=scene_w9_cargo seed=3 ticks=1090 flavour=native
+capture tick=1090 state=d2ed9930 image=fa043fda file=tick_001090.bmp
+final_state_hash=d2ed9930

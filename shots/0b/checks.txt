@@ -1,0 +1,11 @@
+PASS native core_tests all passed
+PASS executor core_tests all passed
+PASS executor math_bit_identity_hash
+PASS executor balance_hot_reload_polls_file
+PASS executor scene_core_replay RESULT PASS
+PASS recorded replay equals committed tools/replays/scene_core_replay_bot.prpl
+PASS run_scene scene_core_replay native vs EXEcutor identical
+run_scene native world hash eee4d01350e1d2bc recorded eee4d01350e1d2bc
+PASS run_scene native reproduces recorded final world hash
+run_scene win32 world hash eee4d01350e1d2bc recorded eee4d01350e1d2bc
+PASS run_scene win32 reproduces recorded final world hash

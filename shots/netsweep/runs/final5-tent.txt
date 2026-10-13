@@ -1,0 +1,21 @@
+LOG line 4 host tents: 1
+LOG line 6 host prompt.1: Tent: E / LMB — close the flaps · F / RMB — crawl in · Q — hold: strike the tent
+LOG line 9 host place.1: foot
+LOG line 10 host prompt.1: Tent: E / LMB — close the flaps · F / RMB — crawl out · Q — sleep
+LOG line 4 p1 tents: 1
+LOG line 6 p1 prompt.1: Tent: E / LMB — close the flaps · F / RMB — crawl in · Q — hold: strike the tent
+LOG line 9 p1 place.1: foot
+LOG line 10 p1 prompt.1: Tent: E / LMB — close the flaps · F / RMB — crawl out · Q — sleep
+LOG line 4 p2 tents: 1
+LOG line 6 p2 prompt.1: na
+LOG line 9 p2 place.1: foot
+LOG line 10 p2 prompt.1: na
+PASS line 8 TENT-04 tentin.1 >= 1: host=1@8 p1=1@9 p2=na(x)
+PASS line 12 TENT-04 tentin.1 = 0: host=0@9 p1=0@10 p2=na(x)
+PASS line 13 TENT-04 tents == x: host=1 p1=1 p2=1
+links: peer 1 relay, peer 2 relay
+client layer checks: 54 equal, 0 differ
+acts 5, failed acts 0
+rows 1 pass 1 fail 0
+ROW TENT-04 PASS (3 checks)
+RESULT PASS

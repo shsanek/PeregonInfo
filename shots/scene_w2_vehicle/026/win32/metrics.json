@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scene": "scene_w2_vehicle",
+  "seed": 1,
+  "ticks": 1200,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 480, "frames": 1200, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 1, "draw_calls": 3, "primitives": 11818, "vertices": 35454, "state_binds": 8, "texture_binds": 0, "bytes_uploaded": 84672, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": {"file": "C:\\Test\\scene_w2_vehicle_mud_t2.prpl", "format": "prpl1", "hash": "cfb76f5a", "length_ticks": 1200},
+  "wall_time_ms": 3041.403,
+  "frame_time_ms": {"avg": 2.532, "min": 1.600, "max": 367.463},
+  "final_state_hash": "dd119f6b",
+  "captures": [
+    {"tick": 200, "state_hash": "707707b3", "image_hash": "30996400", "width": 640, "height": 480, "file": "tick_000200.bmp"},
+    {"tick": 330, "state_hash": "944826b1", "image_hash": "e5e7585e", "width": 640, "height": 480, "file": "tick_000330.bmp"},
+    {"tick": 600, "state_hash": "c6f8a8fd", "image_hash": "5685d5a0", "width": 640, "height": 480, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": {"stream": "W2", "scenario": "mud_t2", "content_hash": "0x2207e6ed", "vehicle_hash64": "0xd1efd600391f8a45", "loadout": {"engine": 1, "suspension": 2, "tires": 2, "armor": 1}, "mass_kg": 1414.000, "power_hp": 110, "max_speed_kmh": 140, "clearance_mm": 240, "design_0_100_s": 12.120, "durability": 400.000, "durability_max": 400, "wear": [0.000, 0.000, 0.000, 0.000], "gear": 1, "accel_0_100_s": null, "top_speed_kmh": 62.456, "max_z_m": 132.720, "distance_m": 100.748, "stuck_time_s": 0.000, "stuck_events": 0, "belly_ticks": 0, "mud_passed": true, "ram_events": 0, "wall_hits": 0, "damage_dealt": 0.000, "max_ram_damage": 0.000, "max_ram_kmh": 0, "damage_taken": 0.000, "bus": {"published": 1, "delivered": 1, "dropped": 0, "damage": 0, "stuck": 0, "stats": 1}, "bodies": 16, "render_path": "fixed-function", "chassis": {"source": "embedded", "reloads": 0, "ride_height_m": 0.340, "travel_m": 0.310, "wheel_body_gap_m": 0.050, "tire_width_m": 0.320}, "rhi_errors": 0},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

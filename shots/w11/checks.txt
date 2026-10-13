@@ -1,0 +1,22 @@
+PASS win32 imports allowed (winmm for the audio backend)
+PASS audio_tests host release
+PASS audio_tests EXEcutor release (mixer, voices, 3D, synth determinism, waveOut backend)
+PASS audio_tests EXEcutor release stdout == host (synth hashes identical)
+PASS audio_tests host debug
+PASS audio_tests EXEcutor debug (mixer, voices, 3D, synth determinism, waveOut backend)
+PASS audio_tests EXEcutor debug stdout == host (synth hashes identical)
+PASS replay matches its generator
+PASS scene_w11_audio host and EXEcutor: compare.json identical (run 017)
+PASS EXEcutor run exit 0
+PASS WAV written by the host build
+PASS WAV written in EXEcutor
+PASS WAV byte-identical host == EXEcutor
+PASS second EXEcutor run: WAV byte-identical to the first
+PASS second EXEcutor run: same final state hash
+PASS WAV header and size: 44.1 kHz 16-bit stereo, 2540 ticks x 735 frames
+PASS script covered: gears, all 14 surfaces, all weapons and impacts, overheat, reload, radio tuned, ui clicks, ducking
+PASS RunGame windowed d3d9 run exit 0 with present dumps (15_w11_audio_d3d9.log)
+PASS RunGame: audio thread played through waveOut, all buffers done, 0 underruns, 0 overruns, 0 errors, all commands applied
+PASS RunGame: windowed mix hash == headless EXEcutor WAV FNV-1a (0x9457127e)
+PASS RunGame: no audio errors in the emulator log
+PASS evidence WAV + spectrogram (evidence 16_w11_audio_mix.wav sha256=b28a52b5c1209a2a0b2f6157bef1049ea10c7a004adc5032b7cecbaf58cfb563 new)

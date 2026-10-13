@@ -1,0 +1,39 @@
+{
+  "joints": {
+    "GAME_body": {
+      "selected_faces": 136,
+      "old_faces": 2345,
+      "new_faces": 3255,
+      "moved_vertices": 546,
+      "max_morph_m": 0.03624734116252379
+    },
+    "GAME_body_inside": {
+      "selected_faces": 102,
+      "old_faces": 1307,
+      "new_faces": 1907,
+      "moved_vertices": 370,
+      "max_morph_m": 0.03474032908962044
+    }
+  },
+  "cushion": {
+    "GAME_body": null,
+    "GAME_body_inside": {
+      "x_before": [
+        -1.7776055335998535,
+        -1.3324024677276611
+      ],
+      "x_after": [
+        -1.7776055335998535,
+        -1.232402467727661
+      ],
+      "depth_before": 0.4452030658721924,
+      "depth_after": 0.5452030658721924,
+      "vertices": 120
+    }
+  },
+  "migrated": {
+    "GAME_body_cabin_paint": 413,
+    "GAME_door.L_cabin_paint": 14,
+    "GAME_door.R_cabin_paint": 14
+  }
+}

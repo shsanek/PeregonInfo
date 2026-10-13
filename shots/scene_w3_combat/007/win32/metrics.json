@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "scene": "scene_w3_combat",
+  "seed": 2,
+  "ticks": 715,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 360, "frames": 715, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 40, "primitives": 5086, "vertices": 15258, "state_binds": 21, "texture_binds": 40, "bytes_uploaded": 12096, "pixels_written": 0, "unrasterized_draws": 0}},
+  "replay": {"file": "C:\\Test\\scene_w3_sawn_off_brute.txt", "format": "text1", "hash": "705a0714", "length_ticks": 715},
+  "wall_time_ms": 979.136,
+  "frame_time_ms": {"avg": 1.367, "min": 0.562, "max": 276.810},
+  "final_state_hash": "9a8689e5",
+  "captures": [
+    {"tick": 208, "state_hash": "e5413019", "image_hash": "6780ba6a", "width": 640, "height": 360, "file": "tick_000208.bmp"},
+    {"tick": 530, "state_hash": "714b2cd4", "image_hash": "a9d82062", "width": 640, "height": 360, "file": "tick_000530.bmp"},
+    {"tick": 654, "state_hash": "5a89ba2d", "image_hash": "e4338b23", "width": 640, "height": 360, "file": "tick_000654.bmp"}
+  ],
+  "scene_metrics": {"stream": "W3", "contracts_version": 1, "content_hash": "0xa6cfa1c0", "bus": {"published": 51, "delivered": 51, "dropped": 0, "handler_calls": 50, "max_pending": 8, "stream_hash_hi": "0x8504817d", "stream_hash_lo": "0x65d78f86"}, "render": {"frames": 715, "draws_last": 27885, "path": "fixed-function", "size": "640x360"}, "combat": {"scenario": "sawn_off_brute", "scenario_id": 2, "tick": 715, "player": {"health": 65.000, "armor": 0.000, "damage_taken": 35.000, "hits_taken": 1, "dodges": 0, "dodged_hits": 0, "weapon": "sawn_off", "mounted": 0}, "weapons": {"crowbar": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 0, "reserve": 0}, "sawn_off": {"shots": 3, "ammo_used": 3, "hits": 24, "kills": 1, "damage": 432.000, "window_ticks": 139, "dps": 186.474, "reloads": 1, "overheats": 0, "interrupts": 1, "mag": 1, "reserve": 18}, "nailgun": {"shots": 25, "ammo_used": 25, "hits": 25, "kills": 0, "damage": 175.000, "window_ticks": 150, "dps": 70.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 25, "reserve": 0}, "roof_mg": {"shots": 0, "ammo_used": 0, "hits": 0, "kills": 0, "damage": 0.000, "window_ticks": 0, "dps": 0.000, "reloads": 0, "overheats": 0, "interrupts": 0, "mag": 0, "reserve": 0}}, "kills": [{"tick": 654, "entity": 1, "enemy": "brute", "weapon": "sawn_off", "ttk_ticks": 593, "ttk_s": 9.883, "executed": 0}], "ttk": {"sawn_off/brute": {"count": 1, "avg_s": 9.883, "min_s": 9.883, "max_s": 9.883}}, "brute": {"charges": 2, "interrupted": 1, "charge_hits": 1, "hits_during_charge": 27}, "executions": 0, "execution_ammo": 0, "ammo_trips": 0, "boxes_taken": 0, "bed_entries": 10, "mg": {"first_overheat_shots": 0, "lock_ticks": 0, "heat": 0.000}, "wave": 0, "cleared_tick": 654, "damage_events": 50, "cargo_events": 0, "kill_events": 1, "moments": [{"tick": 208, "kind": "charge_hit", "weapon": "none", "value": 0, "entity": 1}, {"tick": 530, "kind": "interrupt", "weapon": "sawn_off", "value": 0, "entity": 1}, {"tick": 654, "kind": "kill", "weapon": "sawn_off", "value": 593, "entity": 1}, {"tick": 654, "kind": "cleared", "weapon": "none", "value": 0, "entity": 0}]}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

@@ -1,0 +1,25 @@
+[suite] director_tests part 1
+    director.txt hash a46dd6e0
+[ OK ] data_loads_from_embedded_text
+[ OK ] data_errors_name_the_key_and_keep_nothing
+    director.txt: encounter.traffic_carriers.weight: expected an integer
+[ OK ] hot_reload_from_file_keeps_old_data_on_errors
+    backend w1_slice, length 4142 m, hash 605c1f5d
+[ OK ] slice_road_network_is_a_closed_route
+[ OK ] territories_owners_and_region_scaling
+    200 contracts: 22 job/faction/condition combos, coupons 240..350 mean 309
+    first: [contract.w5e0_000_double_run]
+[ OK ] contract_generator_makes_valid_c0_contracts
+    40 contracts: zarechye 12320, ridge 19650 coupons
+[ OK ] contract_rewards_scale_with_region_difficulty
+    after 9 days: emissions 3, next at minute 14633
+[ OK ] emission_moves_territories_and_reshuffles_the_board
+[done] 8/8 passed, 1249 checks
+[suite] director_tests part 2
+    24000 ticks: hash 251ef5ef, beats 12, mean gap 1537 ticks, max 2419, raiders on foot 5, looted 4, coupons 340
+[ OK ] session_drives_the_living_world_deterministically
+    obstacle run: obstacles 1, breakdowns 1, slowest 700 cm/s, hash 6831ddb6
+[ OK ] road_obstacles_and_breakdowns_slow_the_truck
+    roadblock: raiders 5 (x1.0), 8 (wasteland x2.5), fight 1499 ticks, looted 4
+[ OK ] roadblock_ambush_stops_the_truck_for_an_on_foot_fight
+[done] 3/3 passed, 39 checks

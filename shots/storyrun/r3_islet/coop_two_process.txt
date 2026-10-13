@@ -1,0 +1,13 @@
+world loopback: 2 instances, host ticks 3000, join at 900, sim 'off'
+host: join snapshot peer 1: 0.01 MB sent (132 chunks), 0.01 MB on the wire, 0.6 s, complete at tick 1020 (target <= 8 MB, <= 20 s) PASS
+host: link relay, ENet RTT avg 8 ms, max 11 ms
+host: layer stream after join: avg 7.2 KB/s, max 8.0 KB/s (cap 48); wire avg 44.2 KB/s, max 50.8 KB/s; collect max 6.27 ms  PASS
+p1: bot person:stepanych:nets, participant True, moved 0.0 m  PASS
+p1: joined at host tick 1020 in 0.6 s, 0.01 MB of frames, 73 chunks, first check equal, apply max 10.8 ms
+p1: 34 complete checks, 34 equal, 0 differ; after the replay end 6 checks, 0 differ  PASS
+RESULT PASS
+"what":"person_press","tick":2250
+"what":"person_screen","tick":2251,"holder":255
+"what":"person_topic","tick":2280,"ok":1
+"sites": ["r3_cairn:4@273~273,4896,714", "r3_camp_frame:29@274~274,3969,1096"]
+"sites": ["r3_cairn:4@273~273,4896,714", "r3_camp_frame:29@274~274,3969,1096"]

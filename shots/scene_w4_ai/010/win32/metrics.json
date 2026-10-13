@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "scene": "scene_w4_ai",
+  "seed": 3,
+  "ticks": 2078,
+  "from_tick": 0,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "win32",
+  "build": "win32-i686-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "rhi:d3d9",
+  "rhi": {"backend": "d3d9", "backend_name": "d3d9", "shader_model": 512, "fixed_function": false, "width": 640, "height": 360, "frames": 2078, "lost_frames": 0, "errors": 0, "last_error": null, "last_frame": {"passes": 2, "draw_calls": 50, "primitives": 11544, "vertices": 34632, "state_binds": 25, "texture_binds": 50, "bytes_uploaded": 9216, "pixels_written": 0, "unrasterized_draws": 0}, "window": null},
+  "replay": {"file": "C:\\Test\\scene_w4_road_buggies.txt", "format": "text1", "hash": "49c0e789", "length_ticks": 2078},
+  "wall_time_ms": 2484.242,
+  "frame_time_ms": {"avg": 1.194, "min": 0.525, "max": 296.560},
+  "final_state_hash": "729a2c8e",
+  "captures": [
+    {"tick": 429, "state_hash": "8c809a9b", "image_hash": "0e1b029b", "width": 640, "height": 360, "file": "tick_000429.bmp"},
+    {"tick": 488, "state_hash": "c2c2ff57", "image_hash": "69ad14fd", "width": 640, "height": 360, "file": "tick_000488.bmp"},
+    {"tick": 608, "state_hash": "8ff98f8a", "image_hash": "8eb4ff0a", "width": 640, "height": 360, "file": "tick_000608.bmp"},
+    {"tick": 2018, "state_hash": "ad273610", "image_hash": "aca892ae", "width": 640, "height": 360, "file": "tick_002018.bmp"}
+  ],
+  "scene_metrics": {"stream": "W4", "contracts_version": 2, "content_hash": "0x3771e36b", "bus": {"published": 20, "delivered": 20, "dropped": 0, "handler_calls": 13, "max_pending": 2, "stream_hash_hi": "0x9b632a2c", "stream_hash_lo": "0x9720ad2b"}, "render": {"frames": 2078, "draws_last": 97032, "path": "fixed-function", "size": "640x360"}, "ai": {"scenario": "road_buggies", "scenario_id": 3, "ai_data_hash": "1051908707", "summary": {"time_to_clear_s": 33.633, "player_damage_taken": 0.000, "truck_damage_taken": 12.000, "cover_pct": null, "flank_attempts": 0, "charges_interrupted": 0, "rams": 1}, "road": {"truck_s": 1833.609, "waves": 3, "buggies": 6, "alive": 0, "kills": 6, "cleared_tick": 2018, "rams": 1, "ram_attempts": 3, "strip_events": 1, "truck_damage": 12.000, "chase_s": 27.633, "align_s": 11.517, "alongside_s": 2.550, "mg": {"shots": 25, "hits": 12, "accuracy": 0.480, "overheats": 0}}, "moments": [{"tick": 0, "what": "wave", "group": 0, "value": 1, "entity": 0}, {"tick": 429, "what": "ram", "group": 0, "value": 1, "entity": 1}, {"tick": 488, "what": "buggy_down", "group": 0, "value": 8, "entity": 1}, {"tick": 608, "what": "wave", "group": 0, "value": 2, "entity": 0}, {"tick": 717, "what": "buggy_down", "group": 0, "value": 8, "entity": 2}, {"tick": 1172, "what": "buggy_down", "group": 0, "value": 118, "entity": 3}, {"tick": 1292, "what": "wave", "group": 0, "value": 3, "entity": 0}, {"tick": 1404, "what": "buggy_down", "group": 0, "value": 8, "entity": 4}, {"tick": 1737, "what": "buggy_down", "group": 0, "value": 190, "entity": 5}, {"tick": 2018, "what": "buggy_down", "group": 0, "value": 220, "entity": 6}, {"tick": 2018, "what": "cleared", "group": 0, "value": 0, "entity": 0}]}},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

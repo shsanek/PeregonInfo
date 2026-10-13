@@ -1,0 +1,41 @@
+{
+ "asset": "shovel",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1553756
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 2500
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 1000
+  },
+  {
+   "row": "LOD2 (after)",
+   "tris": 374
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "top": 0.9974,
+   "side": 0.9959,
+   "q34": 0.9965,
+   "back34": 0.9968
+  },
+  "LOD1 (after)": {
+   "top": 0.992,
+   "side": 0.9877,
+   "q34": 0.9924,
+   "back34": 0.9941
+  },
+  "LOD2 (after)": {
+   "top": 0.9765,
+   "side": 0.9695,
+   "q34": 0.9843,
+   "back34": 0.986
+  }
+ }
+}

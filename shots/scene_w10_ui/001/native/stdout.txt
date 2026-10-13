@@ -1,0 +1,5 @@
+scene=scene_w10_ui seed=7 ticks=600 flavour=native
+capture tick=0 state=ffb16e99 image=2f8f3a3c file=tick_000000.bmp
+capture tick=300 state=c69f1c7b image=68bc3164 file=tick_000300.bmp
+capture tick=600 state=90d1f464 image=31776431 file=tick_000600.bmp
+final_state_hash=90d1f464

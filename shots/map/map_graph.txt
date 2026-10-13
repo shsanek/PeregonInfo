@@ -1,0 +1,10 @@
+road graph: 28 nodes, 40 edges, 3836 samples, 7 hazards, 30.2 km, 99024 bytes
+node kinds: {"border": 0, "bridge": 4, "end": 4, "ford": 2, "gate": 1, "junction": 14, "place": 3, "tunnel": 0}
+capabilities: garrison_pass, tyres_t3, studded_tyres, suspension_t3, tyres_t2, dust_filters, shielding
+components per region: {"east": 1, "west": 1}
+places without entrance: none
+advisory speed m/s: {"max": 33.33, "mean": 19.93, "min": 3.0}
+camp route rect_camp_b -> rect_camp_c: all parts 50.6 s, stock truck 50.6 s
+camp route rect_camp_b -> rect_camp_a: all parts 329.8 s, stock truck None s
+camp route rect_camp_c -> rect_camp_a: all parts 345.8 s, stock truck None s
+road graph checks -> OK

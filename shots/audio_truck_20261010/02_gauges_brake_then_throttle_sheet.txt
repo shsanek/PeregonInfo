@@ -1,0 +1,13 @@
+Tiles left to right, top to bottom (3 per row):
+tile 1: tick 584  ---  gear 0  rpm 800  0 km/h
+tile 2: tick 626  BRK  gear 1  rpm 800  0 km/h
+tile 3: tick 716  BRK  gear 1  rpm 800  0 km/h
+tile 4: tick 722  THR  gear 1  rpm 973  1 km/h
+tile 5: tick 728  THR  gear 1  rpm 1233  2 km/h
+tile 6: tick 734  THR  gear 1  rpm 1493  4 km/h
+tile 7: tick 740  THR  gear 1  rpm 1730  6 km/h
+tile 8: tick 746  THR  gear 1  rpm 1835  7 km/h
+tile 9: tick 758  THR  gear 1  rpm 1890  10 km/h
+tile 10: tick 782  THR  gear 1  rpm 2052  16 km/h
+tile 11: tick 806  THR  gear 1  rpm 2725  23 km/h
+tile 12: tick 830  THR  gear 1  rpm 3303  30 km/h

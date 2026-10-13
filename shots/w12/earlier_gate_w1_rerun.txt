@@ -1,0 +1,55 @@
+PASS world_tests native release
+PASS world_tests native release: no failures
+PASS world_tests EXEcutor release exit 0
+PASS world_tests EXEcutor release stdout == native
+PASS world_tests native debug
+PASS world_tests native debug: no failures
+PASS world_tests EXEcutor debug exit 0
+PASS world_tests EXEcutor debug stdout == native
+PASS shaderc golden (terrain_detail, vertex_lit_fog, unlit_textured)
+PASS shaderc unit tests
+PASS replay matches its generator
+w1_segments: ticks 0..400 in 7s rc=0
+w1_segments: ticks 400..800 in 7s rc=0
+w1_segments: ticks 800..1200 in 8s rc=0
+w1_segments: ticks 1200..1600 in 7s rc=0
+w1_segments: run 020 -> reports/shots/scene_w1_world/020
+PASS scene_w1_world d3d9 SM2 in EXEcutor (run 020)
+w1_segments: ticks 0..400 in 7s rc=0
+w1_segments: ticks 400..800 in 6s rc=0
+w1_segments: ticks 800..1200 in 8s rc=0
+w1_segments: ticks 1200..1600 in 8s rc=0
+w1_segments: run 021 -> reports/shots/scene_w1_world/021
+PASS scene_w1_world d3d9 fixed function in EXEcutor (run 021)
+w1_segments: ticks 0..400 in 7s rc=0
+w1_segments: ticks 400..800 in 7s rc=0
+w1_segments: ticks 800..1200 in 7s rc=0
+w1_segments: ticks 1200..1600 in 7s rc=0
+w1_segments: run 001 -> /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a7a8c2608881b903b/games/peregon/build/gate-w1/shots/scene_w1_world/001
+PASS SM2 path on d3d9, 0 rhi errors
+PASS fixed-function path on d3d9, 0 rhi errors
+PASS SM2 run reproduces the golden captures (tools/goldens/scene_w1_world.json)
+PASS FF run reproduces the golden captures
+PASS second SM2 run identical (image and state hashes)
+PASS SM2 and FF simulate the same states
+PASS host build (rhi_null) simulates the same states as EXEcutor
+PASS save file written by the replay (EXEcutor)
+PASS save file byte-identical host vs EXEcutor
+PASS save round-trip in the scene (1 save, 1 load, 0 mismatches, state restored)
+PASS replay covers Drive, OnFoot, Pause and all three cameras
+EXEcutor d3d9 SM2: frames 1601, frame time avg 4.946 ms min 2.009 max 76.873, wall 7954 ms, world build 1546.291 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 193.761 max 236, draws avg 205.008, triangles avg 23122.521
+EXEcutor d3d9 fixed function: frames 1601, frame time avg 5.022 ms min 1.907 max 164.024, wall 8076 ms, world build 1583.022 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 193.761 max 236, draws avg 205.008, triangles avg 23122.521
+host rhi_null (captures only): frames 16, frame time avg 0.153 ms min 0.000 max 24.164, wall 246 ms, world build 64.689 ms
+  last frame: draw calls 245, primitives 26444, vertices 79332; scene: tiles visible 233 lod [12, 24, 54, 143], culled frustum 442 distance 349, ribbons 9, prop batches 0, dynamic 3
+  per frame over the run: tiles visible avg 178.188 max 233, draws avg 188.625, triangles avg 22011.25
+PASS performance metrics recorded
+PASS RunGame window, SM2, present dumps
+PASS RunGame window, fixed function, present dumps
+PASS earlier gate c0
+PASS earlier gate g0
+PASS earlier gate w14a
+GATE w1 PASS

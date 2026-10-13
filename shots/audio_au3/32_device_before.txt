@@ -1,0 +1,14 @@
+backend=sdl3
+device=MacBook Pro Speakers
+device_rate=48000
+device_io_frames=512
+device_latency_frames=70
+safety_frames=74
+stream_latency_frames=690
+transport=0x626c746e
+sdl_device_frames=512
+buffers=4
+downstream_ms=62.87
+underruns=0
+glitches=0
+overloads=0

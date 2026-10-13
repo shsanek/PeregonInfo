@@ -1,0 +1,66 @@
+[
+ {
+  "article": "Cumulus humilis cloud",
+  "file": "Cumulus_humilis.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Rasbak\" title=\"User:Rasbak\">Rasbak</a>",
+  "page": "https://commons.wikimedia.org/wiki/File:Cumulus_humilis.jpg",
+  "local": "cumulus_humilis.jpg"
+ },
+ {
+  "article": "Cumulus mediocris cloud",
+  "file": "Mt_Eden,_Auckland2.jpg",
+  "license": "Public domain",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gadfium\" title=\"User:Gadfium\">Gadfium</a>",
+  "page": "https://commons.wikimedia.org/wiki/File:Mt_Eden,_Auckland2.jpg",
+  "local": "cumulus_mediocris.jpg"
+ },
+ {
+  "article": "Cumulus congestus cloud",
+  "file": "Cumulus_congestus_cloud.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Bidgee\" title=\"User:Bidgee\">Bidgee</a>",
+  "page": "https://commons.wikimedia.org/wiki/File:Cumulus_congestus_cloud.jpg",
+  "local": "cumulus_congestus.jpg"
+ },
+ {
+  "article": "Cumulonimbus cloud",
+  "file": "Cumulonimbus_incus_over_Warsaw,_Poland.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:767kamil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:767kamil (page does not exist)\">Kamil Nowacki</a>",
+  "page": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_incus_over_Warsaw,_Poland.jpg",
+  "local": "cumulonimbus.jpg"
+ },
+ {
+  "article": "Stratocumulus cloud",
+  "file": "Above_the_Clouds.jpg",
+  "license": "CC BY 3.0 us",
+  "artist": "Arun Kulshreshtha",
+  "page": "https://commons.wikimedia.org/wiki/File:Above_the_Clouds.jpg",
+  "local": "stratocumulus.jpg"
+ },
+ {
+  "article": "Altostratus cloud",
+  "file": "2020-12-31_16_06_58_Altostratus_with_a_wavy_undulating_base_above_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Famartin\" title=\"User:Famartin\">Famartin</a>",
+  "page": "https://commons.wikimedia.org/wiki/File:2020-12-31_16_06_58_Altostratus_with_a_wavy_undulating_base_above_the_Dulles_section_of_Sterling,_Loudoun_County,_Virginia.jpg",
+  "local": "altostratus.jpg"
+ },
+ {
+  "article": "Nimbostratus cloud",
+  "file": "Ns1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "?",
+  "page": "https://commons.wikimedia.org/wiki/File:Ns1.jpg",
+  "local": "nimbostratus.jpg"
+ },
+ {
+  "article": "Cumulonimbus incus",
+  "file": "A_Classic_Anvil_Cloud_Over_Europe.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:HusseinKefel\" title=\"User:HusseinKefel\">Hussein Kefel</a>",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Classic_Anvil_Cloud_Over_Europe.jpg",
+  "local": "cumulonimbus_incus.jpg"
+ }
+]

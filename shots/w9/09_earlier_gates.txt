@@ -1,0 +1,2 @@
+GATE c0 PASS
+GATE w10a PASS

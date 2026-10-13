@@ -1,0 +1,7 @@
+IDENTICAL native_rhi_tests.stdout.txt == executor_rhi_tests.stdout.txt
+IDENTICAL native_rhi_tests.stdout.txt == executor_rhi_tests_debug.stdout.txt
+IDENTICAL native_scene_rhi_cube.stdout.txt == native_debug_scene_rhi_cube.stdout.txt
+IDENTICAL native_scene_rhi_cube.stdout.txt == executor_scene_rhi_cube.stdout.txt
+IDENTICAL native_scene_rhi_cube.stdout.txt == executor_scene_rhi_cube_debug.stdout.txt
+IDENTICAL native.ppm == executor.ppm
+IDENTICAL native.ppm == executor_debug.ppm

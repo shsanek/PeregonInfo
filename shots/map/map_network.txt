@@ -1,0 +1,6 @@
+network R1   roads  1   10.58 km  max cut  0.42 m fill  4.58 m grade 0.060  worst ratio 1.000 (rect_trunk)
+network R10  roads  1    0.72 km  max cut  0.21 m fill  0.02 m grade 0.065  worst ratio 0.432 (rect_steppe)
+network R4   roads  1    6.32 km  max cut  0.18 m fill  0.17 m grade 0.084  worst ratio 0.839 (rect_main)
+network R5   roads  1    2.42 km  max cut  0.19 m fill  0.02 m grade 0.121  worst ratio 0.644 (rect_spur)
+network RW   roads  1   10.18 km  max cut  4.90 m fill 11.45 m grade 0.020  worst ratio 1.000 (rect_railway)
+mapgen network: 5 roads, 0 over the class limits -> OK

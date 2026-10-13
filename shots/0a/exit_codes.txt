@@ -1,0 +1,6 @@
+native peregon rc=0
+native core_tests rc=0
+executor peregon.exe win32-release rc=0
+executor core_tests.exe win32-release rc=0
+executor peregon.exe win32-debug rc=0
+executor core_tests.exe win32-debug rc=0

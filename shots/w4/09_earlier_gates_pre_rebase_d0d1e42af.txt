@@ -1,0 +1,11 @@
+ok   earlier gate 0a still PASS
+ok   earlier gate 0b still PASS
+ok   earlier gate 0c still PASS
+ok   earlier gate 0d still PASS
+ok   earlier gate 0f still PASS
+ok   earlier gate 0g still PASS
+FAIL earlier gate c0 still PASS
+ok   earlier gate w14a still PASS
+FAIL earlier gate w10a still PASS
+ok   earlier gate g0 still PASS
+c0 FAIL = scene_w1_world EXEcutor timeout (host load 80); w10a FAIL = scene_w10_board EXEcutor timeout (exit 137, host load); run stopped at the coordinator's request before w1 w3 w8

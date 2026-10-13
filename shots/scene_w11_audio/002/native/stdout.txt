@@ -1,0 +1,5 @@
+w11_audio wav=w11_audio.wav written=1 bytes=4939244 fnv32=0x1f98c876 backend=none
+scene=scene_w11_audio seed=20261007 ticks=1680 flavour=native
+capture tick=1180 state=100c856f image=a9ab7212 file=tick_001180.bmp
+capture tick=1560 state=e717ed5f image=7cb1c23b file=tick_001560.bmp
+final_state_hash=dccfce2d

@@ -1,0 +1,2 @@
+[font] provisioned 33 system font files in /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-af9db09e0f98c709d/games/peregon/build/executor-run/peregon/Windows/Fonts
+[STUB] No implementation: msvcrt.dll!__p__iob (name=0x0042d804)

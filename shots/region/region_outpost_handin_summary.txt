@@ -1,0 +1,63 @@
+contracts_taken: 3
+contracts_done: 2
+outposts_cleared: 2
+fights_lost: 0
+kills: 0
+items_looted: 0
+items_sold: 1
+upgrades: 1
+saves: 1
+loads: 1
+truck_resets: 0
+drive_m: 0
+tiers: [2, 1, 2, 1]
+coupons: 25
+xp: 413
+mode: foot
+nature: cells 36, colliders skipped on road beds 0, foot boxes 14
+bot steps:
+      32 step hand_in
+     182 cargo lift fuel_canister bed 9
+     271 cargo put fuel_canister bed 9
+     361 cargo lift fuel_canister bed 8
+     460 cargo put fuel_canister bed 8
+     732 step load_rewards
+     781 cargo lift spare_parts bed 8
+     985 cargo put spare_parts bed 9
+     985 step trader
+    1631 step mechanic
+    2317 step trader
+    3039 step save
+    3160 step load
+    3341 step to_board
+    3432 step take
+    3634 step load_cargo
+    3821 cargo lift supply_crate bed 10
+moments:
+  0:00 new game at the Sawmill
+  0:00 contract taken: w5e0_000_grain_haul
+  0:00 stage: elevator cleared
+  0:00 contract stop done at elevator
+  0:00 stage: 5 cargo items loaded into the bed
+  0:00 stage: 5 cargo items carried to the receiving point
+  0:00 cargo received: 5 x grain_sack
+  0:00 contract done +350 coupons +205 xp
+  0:00 stage: 2 cargo items loaded into the bed
+  0:00 stage: 1 items sold to the trader
+  0:00 contract taken: w5e0_005_supply_run
+  0:00 stage: 4 cargo items loaded into the bed
+  0:00 stage: gas_station cleared
+  0:00 stage: 4 cargo items carried to the receiving point
+  0:00 cargo received: 4 x supply_crate
+  0:00 contract stop done at gas_station
+  0:00 stage: 2 cargo items loaded into the bed
+  0:00 stage start: outpost_handin
+  0:08 autosave
+  0:09 cargo received: 2 x fuel_canister
+  0:09 contract done +290 coupons +208 xp
+  0:34 upgrade engine to T2
+  0:38 autosave
+  0:50 saved
+  0:52 loaded save
+  0:52 load check: restored [director places board ruts wetness weather cleared loot wallet bed tiers contract] differ []
+  0:59 contract taken: w5e0_006_supply_run

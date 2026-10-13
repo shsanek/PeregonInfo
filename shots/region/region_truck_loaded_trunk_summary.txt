@@ -1,0 +1,50 @@
+contracts_taken: 1
+contracts_done: 1
+outposts_cleared: 1
+fights_lost: 0
+kills: 0
+items_looted: 0
+items_sold: 1
+upgrades: 0
+saves: 0
+loads: 0
+truck_resets: 1
+drive_m: 1082
+tiers: [1, 1, 1, 1]
+coupons: 430
+xp: 211
+mode: mechanic
+nature: cells 202, colliders skipped on road beds 0, foot boxes 31
+bot steps:
+      32 step drive_home
+    7798 step hand_in
+    7825 cargo lift grain_sack bed 11
+    7974 cargo put grain_sack bed 11
+    8063 cargo lift grain_sack bed 10
+    8252 cargo put grain_sack bed 10
+    8355 cargo lift grain_sack bed 9
+    8516 cargo put grain_sack bed 9
+    8606 cargo lift grain_sack bed 8
+    8787 cargo put grain_sack bed 8
+    8907 cargo lift grain_sack bed 7
+    9113 cargo put grain_sack bed 7
+    9388 step load_rewards
+    9433 cargo lift spare_parts bed 7
+    9711 cargo put spare_parts bed 8
+    9803 cargo lift spare_parts bed 8
+    9967 cargo put spare_parts bed 9
+    9967 step trader
+   10612 step mechanic
+moments:
+  0:00 new game at the Sawmill
+  0:00 contract taken: w5e0_000_grain_haul
+  0:00 stage: elevator cleared
+  0:00 contract stop done at elevator
+  0:00 stage: 5 cargo items loaded into the bed
+  0:00 stage start: truck_loaded_trunk
+  0:00 autosave
+  2:09 truck reset to the camp parking from 35849, 23120 s46/sr0/sf1/c1 s45/sr0/sf1/c1 s33/sr0/sf6/c1 s48/sr0/sf1/c1 ahead_cm 2 1 3 water_cm 0 road_dm 11 obstacles_6m 2
+  2:32 autosave
+  2:34 cargo received: 5 x grain_sack
+  2:34 contract done +350 coupons +211 xp
+  3:02 autosave

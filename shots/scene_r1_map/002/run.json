@@ -1,0 +1,22 @@
+{
+  "scene": "scene_r1_map",
+  "run": "002",
+  "date": "2026-10-07T17:20:24Z",
+  "commit": "1a5d799a49",
+  "flavours": [
+    "win32"
+  ],
+  "args": [
+    "--ticks",
+    "300",
+    "--capture",
+    "0,150,300"
+  ],
+  "flavour_args": {
+    "native": [],
+    "win32": [
+      "--rhi=d3d9",
+      "--data-dir=C:\\Test"
+    ]
+  }
+}

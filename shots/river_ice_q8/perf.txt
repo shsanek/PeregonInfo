@@ -1,0 +1,14 @@
+River ice performance (native Metal, 1280x720, data/render/river_ice_tour.txt: 3 river views x 7 ice stages = 21 steps,
+headless replay --timescale 0, shared Mac under load). Same binary, data/world/river_ice.txt [debug] enabled = 1 / 0,
+two runs each, mean frame time of the steps:
+
+run            all steps   winter steps
+ice on  #1     5.880 ms    6.577 ms
+ice on  #2     5.918 ms    6.628 ms
+ice off #1     5.791 ms    6.517 ms
+ice off #2     5.678 ms    6.390 ms
+
+best of two: all steps 5.880 vs 5.678 ms (+0.20 ms), winter steps 6.577 vs 6.390 ms (+0.19 ms).
+Cost: one ice_sheet draw per visible water chunk on the existing water vertex buffers
+(vs_2_0 183 slots, ps_2_0 46 arith + 5 tex), two 256x256 procedural textures, the hourly climate
+integration once per game minute, and ice samples in the terrain height queries (mouth factor cached per 2 m cell).

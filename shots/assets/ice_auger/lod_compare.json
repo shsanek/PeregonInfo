@@ -1,0 +1,31 @@
+{
+ "asset": "ice_auger",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 127642
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 1200
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 600
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9616,
+   "side": 0.9529,
+   "q34": 0.9599,
+   "top": 0.9684
+  },
+  "LOD1 (after)": {
+   "front": 0.9509,
+   "side": 0.9357,
+   "q34": 0.9254,
+   "top": 0.932
+  }
+ }
+}

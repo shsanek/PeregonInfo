@@ -1,0 +1,4 @@
+[suite] play_care_tests
+    oil 4.200 l: low warning, power x1.0000; one can -> 5.20 l
+[ OK ] oil_burns_while_running_the_dipstick_reads_it_and_a_can_tops_it_up
+[done] 1/1 passed, 13 checks

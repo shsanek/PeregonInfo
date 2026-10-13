@@ -1,0 +1,28 @@
+run_scene: scene_core_replay run 001 -> /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-0b/shots/scene_core_replay/001
+run_scene: native rc=0 in 1s
+run_scene: win32 rc=0 in 1s
+compare: identical (2 captures, final hash equal)
+run_scene: outputs in /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-0b/shots/scene_core_replay/001
+  /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-0b/shots/scene_core_replay/001:
+  compare.json
+  native
+  replay.txt
+  run.json
+  win32
+  
+  /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-0b/shots/scene_core_replay/001/native/:
+  exit_code.txt
+  metrics.json
+  stderr.txt
+  stdout.txt
+  tick_001000.jpg
+  tick_003000.jpg
+  
+  /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-0b/shots/scene_core_replay/001/win32/:
+  executor.stderr.log
+  exit_code.txt
+  metrics.json
+  stderr.txt
+  stdout.txt
+  tick_001000.jpg
+  tick_003000.jpg

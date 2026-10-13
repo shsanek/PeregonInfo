@@ -1,0 +1,9 @@
+command: "C:\Peregon\peregon.exe" --scene scene_r1_map --rhi d3d9 --seed 1 --ticks 400 --timescale 1 --data-dir C:\Peregon --window=borderless
+rc=0
+--- stdout
+scene=scene_r1_map seed=1 ticks=400 flavour=win32
+final_state_hash=2571b243
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.mqm9C9Jbrr/dump/present_000.bgra
+[RunResult] guest_exit_code=0x00000000

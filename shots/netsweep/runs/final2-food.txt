@@ -1,0 +1,20 @@
+LOG line 8 host food.1: 84
+LOG line 9 host prompt.1: E / LMB — put down: Bread loaf · Q — eat: Bread loaf
+LOG line 14 host prompt.2: E / LMB — put down: Firewood · Q — lay a campfire here
+LOG line 8 p1 food.1: 84
+LOG line 9 p1 prompt.1: E / LMB — put down: Bread loaf · Q — eat: Bread loaf
+LOG line 14 p1 prompt.2: na
+LOG line 8 p2 food.1: na
+LOG line 9 p2 prompt.1: na
+LOG line 14 p2 prompt.2: E / LMB — put down: Firewood · Q — lay a campfire here
+PASS line 11 FOOD-01 carry.1 = -: host=-@9 p1=-@9 p2=-@9
+PASS line 12 FOOD-01 food.1 > $f1: host=100@9 p1=100@9 p2=na(x)
+PASS line 16 FOOD-02 spots > $s0: host=2@9 p1=2@16 p2=2@14
+PASS line 17 FOOD-02 spots == x: host=1 p1=1 p2=1
+PASS line 18 FOOD-02 carry.2 = -: host=-@9 p1=-@10 p2=-@9
+PASS line 22 FOOD-01 food.0 > $f0: host=45@1 p1=na(x) p2=na(x)
+acts 9, failed acts 0
+rows 2 pass 2 fail 0
+ROW FOOD-01 PASS (3 checks)
+ROW FOOD-02 PASS (3 checks)
+RESULT PASS

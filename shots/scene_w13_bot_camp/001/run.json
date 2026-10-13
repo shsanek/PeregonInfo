@@ -1,0 +1,18 @@
+{
+  "scene": "scene_w13_bot_camp",
+  "run": "001",
+  "date": "2026-10-07T16:31:58Z",
+  "commit": "af6579f100",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "3",
+    "--ticks",
+    "360",
+    "--capture",
+    "360"
+  ]
+}

@@ -1,0 +1,2252 @@
+# Prototype contracts (contract ContractDef). Format: docs/contracts.md.
+# Source: design/02-prototype.md CONTRACTS and SESSION; rewards from design/04-progression-balance.md
+# 10.2 (contract xp 120-200 in Zarechye) and 10.3 (contract reward 150-350 coupons).
+# Item lists are id:count. arenas list arena ids from arenas.txt; ambush lists enemy ids.
+# shortcut_part: the part that opens the short route (forest road through mud needs tires T2).
+# flags: repeatable, night, scripted_ambush.
+
+format = 1
+
+[contract.c1_empty_station]
+name_ru = "Пустая заправка"
+order = 1
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+ambush = buggy:2
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+flags = repeatable, scripted_ambush
+
+[contract.c2_elevator_cargo]
+name_ru = "Груз с элеватора"
+order = 2
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:3
+flags = repeatable
+
+[contract.c3_double_run]
+name_ru = "Двойной заход"
+order = 3
+arenas = gas_station, elevator
+pickup = grain_sack:6, fuel_canister:4
+ambush = buggy:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night, scripted_ambush
+
+[contract.w5e0_000_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 20
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e0_001_supply_run]
+name_ru = "Снабжение заправки, срочно"
+order = 21
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:4
+reward_coupons = 310
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e0_002_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 22
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:2
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e0_003_black_market]
+name_ru = "Чёрный рынок, через засаду"
+order = 23
+arenas = gas_station, elevator
+pickup = grain_sack:4
+ambush = raider:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = scripted_ambush
+# w5: job black_market, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e0_004_supply_run]
+name_ru = "Снабжение заправки"
+order = 24
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e0_005_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 25
+arenas = gas_station
+pickup = fuel_canister:5
+ambush = raider:5
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e0_006_supply_run]
+name_ru = "Снабжение заправки, ночью"
+order = 26
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:2
+reward_coupons = 290
+reward_xp = 180
+reward_items = spare_parts:1
+flags = night
+# w5: job supply_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e0_007_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 27
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+ambush = raider:4
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e0_008_fuel_requisition]
+name_ru = "Реквизиция топлива, срочно"
+order = 28
+arenas = gas_station
+pickup = fuel_canister:4
+reward_coupons = 300
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e0_009_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 29
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:2
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:2
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e0_010_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 30
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:4
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e0_011_supply_run]
+name_ru = "Снабжение заправки"
+order = 31
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:3
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e0_012_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 32
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e0_013_black_market]
+name_ru = "Чёрный рынок"
+order = 33
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e0_014_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 34
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:3
+ambush = raider:4
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e0_015_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 35
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:4
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e1_016_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 36
+arenas = gas_station
+pickup = fuel_canister:5
+ambush = raider:4
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e1_017_supply_run]
+name_ru = "Снабжение заправки"
+order = 37
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:4
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e1_018_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 38
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:4
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e1_019_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 39
+arenas = gas_station
+pickup = fuel_canister:6
+ambush = raider:3
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e1_020_double_run]
+name_ru = "Двойной рейс"
+order = 40
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e1_021_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 41
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e1_022_supply_run]
+name_ru = "Снабжение заправки"
+order = 42
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:2
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e1_023_black_market]
+name_ru = "Чёрный рынок"
+order = 43
+arenas = gas_station, elevator
+pickup = grain_sack:4
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e1_024_depot_resupply]
+name_ru = "Склад Гарнизона, срочно"
+order = 44
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:4
+reward_coupons = 350
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e1_025_double_run]
+name_ru = "Двойной рейс, срочно"
+order = 45
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e1_026_fuel_requisition]
+name_ru = "Реквизиция топлива, срочно"
+order = 46
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 300
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e1_027_double_run]
+name_ru = "Двойной рейс"
+order = 47
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e1_028_double_run]
+name_ru = "Двойной рейс"
+order = 48
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e1_029_fuel_requisition]
+name_ru = "Реквизиция топлива, срочно"
+order = 49
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 300
+reward_xp = 150
+reward_items = spare_parts:1
+# w5: job fuel_requisition, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e1_030_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 50
+arenas = gas_station
+pickup = fuel_canister:6
+ambush = raider:3
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e1_031_double_run]
+name_ru = "Двойной рейс, через засаду"
+order = 51
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+ambush = raider:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job double_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e2_032_supply_run]
+name_ru = "Снабжение заправки, ночью"
+order = 52
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:3
+reward_coupons = 290
+reward_xp = 180
+reward_items = spare_parts:1
+flags = night
+# w5: job supply_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e2_033_black_market]
+name_ru = "Чёрный рынок"
+order = 53
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e2_034_black_market]
+name_ru = "Чёрный рынок"
+order = 54
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e2_035_grain_haul]
+name_ru = "Зерно с элеватора"
+order = 55
+arenas = elevator
+pickup = grain_sack:5
+shortcut_part = tires_t2
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e2_036_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 56
+arenas = gas_station
+pickup = fuel_canister:5
+ambush = raider:5
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e2_037_double_run]
+name_ru = "Двойной рейс, срочно"
+order = 57
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e2_038_black_market]
+name_ru = "Чёрный рынок"
+order = 58
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e2_039_double_run]
+name_ru = "Двойной рейс, срочно"
+order = 59
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e2_040_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 60
+arenas = gas_station
+pickup = fuel_canister:6
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e2_041_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 61
+arenas = gas_station
+pickup = fuel_canister:4
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e2_042_grain_haul]
+name_ru = "Зерно с элеватора, ночью"
+order = 62
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = night
+# w5: job grain_haul, faction carriers, biome forest_edge, condition night, region zarechye
+
+[contract.w5e2_043_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 63
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:2
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:2
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e2_044_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 64
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e2_045_grain_haul]
+name_ru = "Зерно с элеватора, ночью"
+order = 65
+arenas = elevator
+pickup = grain_sack:5
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job grain_haul, faction carriers, biome forest_edge, condition night, region zarechye
+
+[contract.w5e2_046_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 66
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e2_047_double_run]
+name_ru = "Двойной рейс"
+order = 67
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e3_048_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 68
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:3
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e3_049_black_market]
+name_ru = "Чёрный рынок"
+order = 69
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e3_050_black_market]
+name_ru = "Чёрный рынок"
+order = 70
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e3_051_supply_run]
+name_ru = "Снабжение заправки, ночью"
+order = 71
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:2
+reward_coupons = 290
+reward_xp = 180
+reward_items = spare_parts:2
+flags = night
+# w5: job supply_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e3_052_grain_haul]
+name_ru = "Зерно с элеватора, ночью"
+order = 72
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job grain_haul, faction carriers, biome forest_edge, condition night, region zarechye
+
+[contract.w5e3_053_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 73
+arenas = gas_station
+pickup = fuel_canister:6
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e3_054_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 74
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e3_055_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 75
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e3_056_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 76
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:1
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e3_057_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 77
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e3_058_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 78
+arenas = elevator
+pickup = grain_sack:5
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e3_059_black_market]
+name_ru = "Чёрный рынок, через засаду"
+order = 79
+arenas = gas_station, elevator
+pickup = grain_sack:2
+ambush = raider:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job black_market, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e3_060_black_market]
+name_ru = "Чёрный рынок, срочно"
+order = 80
+arenas = gas_station, elevator
+pickup = grain_sack:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e3_061_double_run]
+name_ru = "Двойной рейс, через засаду"
+order = 81
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+ambush = raider:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = scripted_ambush
+# w5: job double_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e3_062_depot_resupply]
+name_ru = "Склад Гарнизона, срочно"
+order = 82
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 350
+reward_xp = 170
+reward_items = spare_parts:1
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e3_063_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 83
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:4
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e4_064_double_run]
+name_ru = "Двойной рейс"
+order = 84
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e4_065_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 85
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e4_066_grain_haul]
+name_ru = "Зерно с элеватора, ночью"
+order = 86
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job grain_haul, faction carriers, biome forest_edge, condition night, region zarechye
+
+[contract.w5e4_067_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 87
+arenas = gas_station
+pickup = fuel_canister:6
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:1
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e4_068_grain_haul]
+name_ru = "Зерно с элеватора"
+order = 88
+arenas = elevator
+pickup = grain_sack:5
+shortcut_part = tires_t2
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e4_069_supply_run]
+name_ru = "Снабжение заправки, ночью"
+order = 89
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+reward_coupons = 290
+reward_xp = 180
+reward_items = spare_parts:1
+flags = night
+# w5: job supply_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e4_070_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 90
+arenas = gas_station
+pickup = fuel_canister:4
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e4_071_supply_run]
+name_ru = "Снабжение заправки, срочно"
+order = 91
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:4
+reward_coupons = 310
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e4_072_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 92
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+ambush = raider:5
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e4_073_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 93
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:4
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e4_074_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 94
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:2
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e4_075_double_run]
+name_ru = "Двойной рейс"
+order = 95
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e4_076_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 96
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e4_077_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 97
+arenas = gas_station
+pickup = fuel_canister:4
+ambush = raider:4
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e4_078_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 98
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e4_079_supply_run]
+name_ru = "Снабжение заправки, срочно"
+order = 99
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:3
+reward_coupons = 310
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e5_080_double_run]
+name_ru = "Двойной рейс"
+order = 100
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e5_081_supply_run]
+name_ru = "Снабжение заправки, срочно"
+order = 101
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+reward_coupons = 310
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e5_082_black_market]
+name_ru = "Чёрный рынок, ночью"
+order = 102
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job black_market, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e5_083_black_market]
+name_ru = "Чёрный рынок, срочно"
+order = 103
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e5_084_black_market]
+name_ru = "Чёрный рынок"
+order = 104
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e5_085_supply_run]
+name_ru = "Снабжение заправки"
+order = 105
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:2
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e5_086_supply_run]
+name_ru = "Снабжение заправки"
+order = 106
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e5_087_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 107
+arenas = gas_station
+pickup = fuel_canister:6
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e5_088_grain_haul]
+name_ru = "Зерно с элеватора, ночью"
+order = 108
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job grain_haul, faction carriers, biome forest_edge, condition night, region zarechye
+
+[contract.w5e5_089_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 109
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:3
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e5_090_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 110
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e5_091_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 111
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:3
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e5_092_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 112
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:2
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e5_093_supply_run]
+name_ru = "Снабжение заправки"
+order = 113
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:3
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e5_094_black_market]
+name_ru = "Чёрный рынок, через засаду"
+order = 114
+arenas = gas_station, elevator
+pickup = grain_sack:3
+ambush = raider:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = scripted_ambush
+# w5: job black_market, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e5_095_supply_run]
+name_ru = "Снабжение заправки, срочно"
+order = 115
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:2
+reward_coupons = 310
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e6_096_grain_haul]
+name_ru = "Зерно с элеватора, ночью"
+order = 116
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job grain_haul, faction carriers, biome forest_edge, condition night, region zarechye
+
+[contract.w5e6_097_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 117
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:2
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e6_098_black_market]
+name_ru = "Чёрный рынок"
+order = 118
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e6_099_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 119
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:4
+ambush = raider:4
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e6_100_double_run]
+name_ru = "Двойной рейс"
+order = 120
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e6_101_depot_resupply]
+name_ru = "Склад Гарнизона, срочно"
+order = 121
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:2
+reward_coupons = 350
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e6_102_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 122
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e6_103_grain_haul]
+name_ru = "Зерно с элеватора"
+order = 123
+arenas = elevator
+pickup = grain_sack:5
+shortcut_part = tires_t2
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e6_104_black_market]
+name_ru = "Чёрный рынок"
+order = 124
+arenas = gas_station, elevator
+pickup = grain_sack:4
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e6_105_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 125
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:1
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e6_106_supply_run]
+name_ru = "Снабжение заправки, ночью"
+order = 126
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+reward_coupons = 290
+reward_xp = 180
+reward_items = spare_parts:1
+flags = night
+# w5: job supply_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e6_107_black_market]
+name_ru = "Чёрный рынок, ночью"
+order = 127
+arenas = gas_station, elevator
+pickup = grain_sack:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job black_market, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e6_108_supply_run]
+name_ru = "Снабжение заправки, срочно"
+order = 128
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:4
+reward_coupons = 310
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e6_109_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 129
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e6_110_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 130
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e6_111_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 131
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e7_112_black_market]
+name_ru = "Чёрный рынок, срочно"
+order = 132
+arenas = gas_station, elevator
+pickup = grain_sack:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e7_113_double_run]
+name_ru = "Двойной рейс"
+order = 133
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e7_114_black_market]
+name_ru = "Чёрный рынок"
+order = 134
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e7_115_grain_haul]
+name_ru = "Зерно с элеватора"
+order = 135
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:3
+# w5: job grain_haul, faction carriers, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e7_116_fuel_requisition]
+name_ru = "Реквизиция топлива, срочно"
+order = 136
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 300
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e7_117_black_market]
+name_ru = "Чёрный рынок, через засаду"
+order = 137
+arenas = gas_station, elevator
+pickup = grain_sack:3
+ambush = raider:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = scripted_ambush
+# w5: job black_market, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e7_118_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 138
+arenas = elevator
+pickup = grain_sack:5
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e7_119_depot_resupply]
+name_ru = "Склад Гарнизона"
+order = 139
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e7_120_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 140
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e7_121_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 141
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e7_122_double_run]
+name_ru = "Двойной рейс"
+order = 142
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e7_123_double_run]
+name_ru = "Двойной рейс"
+order = 143
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e7_124_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 144
+arenas = gas_station
+pickup = fuel_canister:4
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e7_125_double_run]
+name_ru = "Двойной рейс"
+order = 145
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e7_126_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 146
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+ambush = raider:5
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e7_127_double_run]
+name_ru = "Двойной рейс, через засаду"
+order = 147
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+ambush = raider:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = scripted_ambush
+# w5: job double_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e8_128_supply_run]
+name_ru = "Снабжение заправки"
+order = 148
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:4
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e8_129_black_market]
+name_ru = "Чёрный рынок"
+order = 149
+arenas = gas_station, elevator
+pickup = grain_sack:4
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e8_130_black_market]
+name_ru = "Чёрный рынок, через засаду"
+order = 150
+arenas = gas_station, elevator
+pickup = grain_sack:4
+ambush = raider:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job black_market, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e8_131_depot_resupply]
+name_ru = "Склад Гарнизона, срочно"
+order = 151
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:4
+reward_coupons = 350
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e8_132_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 152
+arenas = elevator
+pickup = grain_sack:5
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:3
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e8_133_black_market]
+name_ru = "Чёрный рынок"
+order = 153
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e8_134_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 154
+arenas = gas_station
+pickup = fuel_canister:6
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e8_135_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 155
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:4
+ambush = raider:3
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e8_136_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 156
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:2
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:2
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e8_137_black_market]
+name_ru = "Чёрный рынок"
+order = 157
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e8_138_double_run]
+name_ru = "Двойной рейс, через засаду"
+order = 158
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+ambush = raider:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job double_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e8_139_black_market]
+name_ru = "Чёрный рынок"
+order = 159
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e8_140_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 160
+arenas = gas_station
+pickup = fuel_canister:6
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:2
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e8_141_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 161
+arenas = gas_station
+pickup = fuel_canister:6
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e8_142_black_market]
+name_ru = "Чёрный рынок"
+order = 162
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e8_143_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 163
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e9_144_double_run]
+name_ru = "Двойной рейс"
+order = 164
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e9_145_black_market]
+name_ru = "Чёрный рынок, через засаду"
+order = 165
+arenas = gas_station, elevator
+pickup = grain_sack:2
+ambush = raider:5
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job black_market, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e9_146_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 166
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e9_147_supply_run]
+name_ru = "Снабжение заправки"
+order = 167
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:3
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e9_148_black_market]
+name_ru = "Чёрный рынок"
+order = 168
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e9_149_black_market]
+name_ru = "Чёрный рынок, ночью"
+order = 169
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = night
+# w5: job black_market, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e9_150_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 170
+arenas = gas_station
+pickup = fuel_canister:4
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:1
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e9_151_black_market]
+name_ru = "Чёрный рынок"
+order = 171
+arenas = gas_station, elevator
+pickup = grain_sack:4
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e9_152_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 172
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:3
+ambush = raider:5
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e9_153_fuel_requisition]
+name_ru = "Реквизиция топлива, срочно"
+order = 173
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 300
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e9_154_supply_run]
+name_ru = "Снабжение заправки"
+order = 174
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:3
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e9_155_depot_resupply]
+name_ru = "Склад Гарнизона, срочно"
+order = 175
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:4
+reward_coupons = 350
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e9_156_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 176
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:2
+ambush = raider:5
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e9_157_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 177
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e9_158_double_run]
+name_ru = "Двойной рейс, ночью"
+order = 178
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job double_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e9_159_supply_run]
+name_ru = "Снабжение заправки, срочно"
+order = 179
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:2
+reward_coupons = 310
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e10_160_black_market]
+name_ru = "Чёрный рынок, срочно"
+order = 180
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition urgent, region zarechye
+
+[contract.w5e10_161_black_market]
+name_ru = "Чёрный рынок"
+order = 181
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e10_162_depot_resupply]
+name_ru = "Склад Гарнизона, срочно"
+order = 182
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:2
+reward_coupons = 350
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e10_163_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 183
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:4
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e10_164_supply_run]
+name_ru = "Снабжение заправки"
+order = 184
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:2
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e10_165_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 185
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:3
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e10_166_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 186
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:2
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e10_167_double_run]
+name_ru = "Двойной рейс, через засаду"
+order = 187
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+ambush = raider:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = scripted_ambush
+# w5: job double_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e10_168_double_run]
+name_ru = "Двойной рейс, срочно"
+order = 188
+arenas = gas_station, elevator
+pickup = fuel_canister:4
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition urgent, region zarechye
+
+[contract.w5e10_169_black_market]
+name_ru = "Чёрный рынок, ночью"
+order = 189
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = night
+# w5: job black_market, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e10_170_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 190
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:4
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:2
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e10_171_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 191
+arenas = elevator
+deliver = supply_crate:2
+pickup = grain_sack:3
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:1
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e10_172_supply_run]
+name_ru = "Снабжение заправки"
+order = 192
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:2
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:1
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e10_173_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 193
+arenas = gas_station
+pickup = fuel_canister:4
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:1
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e10_174_supply_run]
+name_ru = "Снабжение заправки"
+order = 194
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:4
+reward_coupons = 250
+reward_xp = 160
+reward_items = spare_parts:2
+# w5: job supply_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e10_175_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 195
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e11_176_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 196
+arenas = gas_station
+deliver = supply_crate:4
+pickup = fuel_canister:2
+ambush = raider:3
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e11_177_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 197
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:3
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e11_178_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 198
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:3
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e11_179_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 199
+arenas = gas_station
+pickup = fuel_canister:6
+ambush = raider:5
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e11_180_supply_run]
+name_ru = "Снабжение заправки, ночью"
+order = 200
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:3
+reward_coupons = 290
+reward_xp = 180
+reward_items = spare_parts:1
+flags = night
+# w5: job supply_run, faction carriers, biome field, condition night, region zarechye
+
+[contract.w5e11_181_black_market]
+name_ru = "Чёрный рынок, через засаду"
+order = 201
+arenas = gas_station, elevator
+pickup = grain_sack:3
+ambush = raider:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job black_market, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e11_182_grain_haul]
+name_ru = "Зерно с элеватора, срочно"
+order = 202
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 350
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e11_183_fuel_requisition]
+name_ru = "Реквизиция топлива"
+order = 203
+arenas = gas_station
+pickup = fuel_canister:5
+reward_coupons = 240
+reward_xp = 150
+reward_items = spare_parts:2
+# w5: job fuel_requisition, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e11_184_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 204
+arenas = gas_station
+pickup = fuel_canister:5
+ambush = raider:3
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e11_185_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 205
+arenas = gas_station
+pickup = fuel_canister:4
+ambush = raider:5
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e11_186_black_market]
+name_ru = "Чёрный рынок"
+order = 206
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e11_187_depot_resupply]
+name_ru = "Склад Гарнизона, срочно"
+order = 207
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:3
+reward_coupons = 350
+reward_xp = 170
+reward_items = spare_parts:2
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition urgent, region zarechye
+
+[contract.w5e11_188_double_run]
+name_ru = "Двойной рейс, через засаду"
+order = 208
+arenas = gas_station, elevator
+pickup = fuel_canister:3
+ambush = raider:3
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:3
+flags = scripted_ambush
+# w5: job double_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e11_189_double_run]
+name_ru = "Двойной рейс"
+order = 209
+arenas = gas_station, elevator
+pickup = fuel_canister:5
+reward_coupons = 330
+reward_xp = 200
+reward_items = spare_parts:3
+# w5: job double_run, faction carriers, biome field, condition plain, region zarechye
+
+[contract.w5e11_190_fuel_requisition]
+name_ru = "Реквизиция топлива, через засаду"
+order = 210
+arenas = gas_station
+pickup = fuel_canister:5
+ambush = raider:4
+reward_coupons = 290
+reward_xp = 170
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job fuel_requisition, faction rusty, biome field, condition ambush, region zarechye
+
+[contract.w5e11_191_grain_haul]
+name_ru = "Зерно с элеватора"
+order = 211
+arenas = elevator
+pickup = grain_sack:4
+shortcut_part = tires_t2
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:3
+# w5: job grain_haul, faction carriers, biome forest_edge, condition plain, region zarechye
+
+[contract.w5e12_192_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 212
+arenas = gas_station
+deliver = supply_crate:2
+pickup = fuel_canister:4
+ambush = raider:5
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e12_193_supply_run]
+name_ru = "Снабжение заправки, через засаду"
+order = 213
+arenas = gas_station
+deliver = supply_crate:3
+pickup = fuel_canister:4
+ambush = raider:5
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:1
+flags = scripted_ambush
+# w5: job supply_run, faction carriers, biome field, condition ambush, region zarechye
+
+[contract.w5e12_194_black_market]
+name_ru = "Чёрный рынок, ночью"
+order = 214
+arenas = gas_station, elevator
+pickup = grain_sack:2
+reward_coupons = 350
+reward_xp = 200
+reward_items = spare_parts:2
+flags = night
+# w5: job black_market, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e12_195_black_market]
+name_ru = "Чёрный рынок"
+order = 215
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e12_196_black_market]
+name_ru = "Чёрный рынок"
+order = 216
+arenas = gas_station, elevator
+pickup = grain_sack:3
+reward_coupons = 340
+reward_xp = 200
+reward_items = spare_parts:2
+# w5: job black_market, faction rusty, biome field, condition plain, region zarechye
+
+[contract.w5e12_197_fuel_requisition]
+name_ru = "Реквизиция топлива, ночью"
+order = 217
+arenas = gas_station
+pickup = fuel_canister:4
+reward_coupons = 280
+reward_xp = 170
+reward_items = spare_parts:1
+flags = night
+# w5: job fuel_requisition, faction rusty, biome field, condition night, region zarechye
+
+[contract.w5e12_198_depot_resupply]
+name_ru = "Склад Гарнизона, ночью"
+order = 218
+arenas = elevator
+deliver = supply_crate:3
+pickup = grain_sack:2
+reward_coupons = 320
+reward_xp = 190
+reward_items = spare_parts:2
+flags = night
+# w5: job depot_resupply, faction garrison, biome forest_edge, condition night, region zarechye
+
+[contract.w5e12_199_grain_haul]
+name_ru = "Зерно с элеватора"
+order = 219
+arenas = elevator
+pickup = grain_sack:6
+shortcut_part = tires_t2
+reward_coupons = 300
+reward_xp = 180
+reward_items = spare_parts:2
+# w5: job grain_haul, faction carriers, biome forest_edge, condition plain, region zarechye

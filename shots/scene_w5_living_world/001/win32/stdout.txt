@@ -1,0 +1,11 @@
+scene=scene_w5_living_world seed=20261007 ticks=36000 flavour=win32
+capture tick=1900 state=0bd871df image=a237bc8b file=tick_001900.bmp
+capture tick=2117 state=8908500b image=dfb033b0 file=tick_002117.bmp
+capture tick=6383 state=f10d2322 image=e449915a file=tick_006383.bmp
+capture tick=10242 state=ff342700 image=1c449ca5 file=tick_010242.bmp
+capture tick=15127 state=dc1f6396 image=bc4f9a23 file=tick_015127.bmp
+capture tick=17013 state=0c9f27fe image=21b36c59 file=tick_017013.bmp
+capture tick=19404 state=964ff478 image=988f5edb file=tick_019404.bmp
+capture tick=23210 state=a928f5ce image=180013c4 file=tick_023210.bmp
+capture tick=36000 state=747722a5 image=cd36b1b7 file=tick_036000.bmp
+final_state_hash=747722a5

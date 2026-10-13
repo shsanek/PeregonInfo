@@ -1,0 +1,20 @@
+{
+  "scene": "scene_w10_hud",
+  "run": "002",
+  "date": "2026-10-07T11:29:28Z",
+  "commit": "e11bc23ac",
+  "flavours": [
+    "native",
+    "win32"
+  ],
+  "args": [
+    "--seed",
+    "2",
+    "--ticks",
+    "260",
+    "--capture",
+    "1,152,240",
+    "--replay",
+    "replay.txt"
+  ]
+}

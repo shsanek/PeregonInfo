@@ -1,0 +1,12 @@
+command: "C:\Peregon\peregon.exe" --scene scene_s1_surfaces --rhi d3d9 --ff --seed 1 --ticks 600 --timescale 1
+rc=0
+--- stdout
+scene=scene_s1_surfaces seed=1 ticks=600 flavour=win32
+final_state_hash=7d684ed6
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.YKcJqS2L3i/dump/present_000.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.YKcJqS2L3i/dump/present_001.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.YKcJqS2L3i/dump/present_002.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.YKcJqS2L3i/dump/present_003.bgra
+[RunResult] guest_exit_code=0x00000000

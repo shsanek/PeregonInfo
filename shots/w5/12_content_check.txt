@@ -1,0 +1,29 @@
+peregon content check
+contracts version 2, content format 1
+source dir
+balance hash 0x06536fb7
+file surfaces.txt text hash 0x00000000
+file items.txt text hash 0x00000000
+file weapons.txt text hash 0x00000000
+file enemies.txt text hash 0x00000000
+file vehicle.txt text hash 0x00000000
+file contracts.txt text hash 0x00000000
+file arenas.txt text hash 0x00000000
+count surface 0
+count item 0
+count weapon 0
+count enemy 0
+count frame 0
+count part 0
+count contract 0
+count arena 0
+error surfaces.txt: cannot read '/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/gate-w5/content-native/surfaces.txt'
+error items.txt: cannot read '/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/gate-w5/content-native/items.txt'
+error weapons.txt: cannot read '/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/gate-w5/content-native/weapons.txt'
+error enemies.txt: cannot read '/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/gate-w5/content-native/enemies.txt'
+error vehicle.txt: cannot read '/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/gate-w5/content-native/vehicle.txt'
+error contracts.txt: cannot read '/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/gate-w5/content-native/contracts.txt'
+error arenas.txt: cannot read '/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/build/gate-w5/content-native/arenas.txt'
+errors 7
+content hash 0x00000000
+RESULT FAIL

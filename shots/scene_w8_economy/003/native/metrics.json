@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "scene": "scene_w8_economy",
+  "seed": 7,
+  "ticks": 600,
+  "tick_rate": 60,
+  "timescale": 0.000,
+  "headless": true,
+  "flavour": "native",
+  "build": "macos-arm64-Release",
+  "core": "peregon-core 0.2.0",
+  "framebuffer": "fallback",
+  "rhi": null,
+  "replay": null,
+  "wall_time_ms": 1.146,
+  "frame_time_ms": {"avg": 0.001, "min": 0.000, "max": 0.548},
+  "final_state_hash": "544530a7",
+  "captures": [
+    {"tick": 0, "state_hash": "94b9cd58", "image_hash": "8181ec07", "width": 320, "height": 240, "file": "tick_000000.bmp"},
+    {"tick": 300, "state_hash": "68bae8f2", "image_hash": "f7848fac", "width": 320, "height": 240, "file": "tick_000300.bmp"},
+    {"tick": 600, "state_hash": "544530a7", "image_hash": "e81297fe", "width": 320, "height": 240, "file": "tick_000600.bmp"}
+  ],
+  "scene_metrics": {"stream": "W8", "contracts_version": 1, "content_hash": "0x1508ed4c", "bus": {"published": 16, "delivered": 16, "dropped": 0, "handler_calls": 16, "max_pending": 5, "stream_hash_hi": "0x313213f7", "stream_hash_lo": "0x1d923c8b"}, "policy": "balanced", "sim_seconds": 3651, "sim_hash": "0x5e37c030", "rules_hash": "0x822103b4", "coupons": 159, "parts": 6, "xp": 660, "rank": 2, "runs_completed": 2, "contracts_completed": 2, "income": 966, "expenses": 207, "upgrades_spent": 600, "loot_left_value": 323, "purchases": ["20:13 armor T2", "36:55 tires T2"], "tiers": {"engine": 1, "suspension": 1, "tires": 2, "armor": 2}, "power_hp": 110, "durability": 550, "accel_0_100_s": 16.149, "dump": ["0:00 run 0 start coupons 0 parts 0 xp 0 bed 0 balanced", "3:00 run 1 brief coupons 0 parts 0 xp 0 bed 0 c1_empty_station", "7:07 run 1 drive coupons 0 parts 0 xp 0 bed 0 camp_gas_station 247s", "7:37 run 1 ambush coupons 0 parts 0 xp 0 bed 81 2 buggies", "7:37 run 1 deliver coupons 0 parts 0 xp 0 bed 81 ", "12:37 run 1 arena coupons 0 parts 0 xp 50 bed 81 gas_station", "15:07 run 1 loot coupons 0 parts 0 xp 50 bed 357 ", "19:13 run 1 drive coupons 0 parts 0 xp 50 bed 357 camp_gas_station 246s", "20:13 run 1 camp coupons 333 parts 5 xp 320 bed 0 c1_empty_station +250", "20:13 run 1 mechanic coupons 33 parts 3 xp 320 bed 0 bought armor_t2 saving_for tires_t2 (no_coupons)", "20:13 run 2 brief coupons 33 parts 3 xp 320 bed 0 c2_elevator_cargo", "24:13 run 2 drive coupons 33 parts 3 xp 320 bed 0 camp_elevator_long 240s", "29:13 run 2 arena coupons 33 parts 3 xp 370 bed 0 elevator", "31:43 run 2 loot coupons 33 parts 3 xp 370 bed 259 ", "35:55 run 2 drive coupons 33 parts 3 xp 370 bed 259 camp_elevator_long 252s", "36:55 run 2 camp coupons 459 parts 8 xp 660 bed 0 c2_elevator_cargo +300", "36:55 run 2 mechanic coupons 159 parts 6 xp 660 bed 0 bought tires_t2 saving_for engine_t2 (no_coupons)", "36:55 run 3 brief coupons 159 parts 6 xp 660 bed 0 c3_double_run", "40:55 run 3 drive coupons 159 parts 6 xp 660 bed 0 camp_gas_station 240s", "45:55 run 3 arena coupons 159 parts 6 xp 660 bed 0 gas_station", "48:25 run 3 loot coupons 159 parts 6 xp 660 bed 276 ", "51:02 run 3 drive coupons 159 parts 6 xp 660 bed 276 gas_station_elevator 157s", "56:02 run 3 arena coupons 159 parts 6 xp 660 bed 276 elevator", "58:32 run 3 loot coupons 159 parts 6 xp 660 bed 316 ", "60:51 run 3 drive coupons 159 parts 6 xp 660 bed 316 camp_elevator_short 139s"]},
+  "playtest": {"time_road_s": null, "time_arena_s": null, "time_cargo_bed_s": null, "damage_by_weapon": {}, "damage_by_enemy": {}, "ammo_trips": null, "cargo_lost": null, "cargo_recovered": null, "stuck_time_by_surface_s": {}, "upgrades_chosen": [], "deaths": [], "quit_tick": null}
+}

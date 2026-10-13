@@ -1,0 +1,22 @@
+ok   rhi_metal_tests release
+ok   rhi_metal_tests debug
+ok   scene_g0_cube metal sm2 vs rhi_null
+ok   scene_g0_cube metal --ff vs rhi_null
+ok   scene_rhi_cube metal sm2 vs rhi_null
+ok   scene_rhi_cube metal --ff vs rhi_null
+ok   interactive window: SDL3 window + arrow keys rotate the cube
+ok   gate 0a still passes
+ok   gate 0c still passes
+ok   gate 0f still passes
+ok   gate 0g still passes
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_gate_0e.txt
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_scene_g0_cube_ff_metal.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_scene_g0_cube_metal.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_scene_g0_cube_reference.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_scene_rhi_cube_ff_metal.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_scene_rhi_cube_metal.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_scene_rhi_cube_reference.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_window_g0_cube_arrow_keys_metal.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_window_g0_cube_arrow_keys_reference.jpg
+/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/reports/shots/0e/07_window_g0_cube_idle_metal.jpg
+GATE 0e PASS

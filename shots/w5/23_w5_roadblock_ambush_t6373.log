@@ -1,0 +1,12 @@
+command: "C:\Peregon\peregon.exe" --scene scene_w5_living_world --rhi d3d9 --seed 20261007 --from-tick 6373 --ticks 6613 --replay C:\Peregon\scene_w5_living_world.txt --timescale 1 --window=borderless
+rc=0
+--- stdout
+scene=scene_w5_living_world seed=20261007 ticks=6613 flavour=win32
+final_state_hash=891654a7
+--- stderr
+[InputMTKView] host input disabled; scripted input remains enabled
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.riistlPtiU/dump/present_000.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.riistlPtiU/dump/present_001.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.riistlPtiU/dump/present_002.bgra
+[PRESENT-DUMP] 640x480 -> /var/folders/tz/nlccdpzj1832fb1pvb783v2w0000gn/T/peregon-rungame.riistlPtiU/dump/present_003.bgra
+[RunResult] guest_exit_code=0x00000000

@@ -1,0 +1,31 @@
+{
+ "asset": "oil_can",
+ "rows": [
+  {
+   "row": "high (before decimation)",
+   "tris": 1881646
+  },
+  {
+   "row": "LOD0 (after)",
+   "tris": 399
+  },
+  {
+   "row": "LOD1 (after)",
+   "tris": 199
+  }
+ ],
+ "iou": {
+  "LOD0 (after)": {
+   "front": 0.9849,
+   "side": 0.9345,
+   "q34": 0.9538,
+   "top": 0.893
+  },
+  "LOD1 (after)": {
+   "front": 0.842,
+   "side": 0.8681,
+   "q34": 0.9024,
+   "top": 0.8487
+  }
+ }
+}

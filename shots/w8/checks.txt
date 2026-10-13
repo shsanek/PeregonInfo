@@ -1,0 +1,24 @@
+ok   economy_tests all passed in EXEcutor
+ok   EXEcutor trader_prices_follow_reputation_without_arbitrage
+ok   EXEcutor loot_rolls_are_seeded_and_order_independent
+ok   EXEcutor upgrade_gating_by_tier_coupons_and_parts
+ok   EXEcutor session_is_deterministic_and_stepwise_equal
+ok   EXEcutor economy_hot_reload_from_dir
+ok   EXEcutor kolymaga_keeps_twelve_seconds_empty
+ok   economy_tests stdout native release == tests_native_debug.txt
+ok   economy_tests stdout native release == tests_executor_release.txt
+ok   economy_tests stdout native release == tests_executor_debug.txt
+ok   sim report: native == EXEcutor
+ok   sim csv: native == EXEcutor
+ok   sim dump: native == EXEcutor
+ok   sim hash: native == EXEcutor
+ok   sim report deterministic across EXEcutor runs
+ok   sim report release == debug
+ok   sim report from data files == embedded
+ok   a different seed changes the report hash
+ok   report has the design checks table
+ok   csv has the header and rows
+ok   scene_w8_economy both (report run)
+ok   scene_w8_economy native == EXEcutor
+ok   scene_w8_economy deterministic across EXEcutor runs
+FAIL content validation: gate c0

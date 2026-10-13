@@ -1,0 +1,34 @@
+gas_station time_to_clear_s = 12.45 (cleared in 5..60 s) OK
+gas_station player_damage_taken = 24.0 (raiders hurt the bot, bot survives) OK
+gas_station player_down_tick = 0 (0) OK
+gas_station ai accuracy = 0.375 (0.05..0.75) OK
+gas_station reaction_avg_s = 0.45 (data reaction_s 0.45) OK
+gas_station cover_pct = 21.9 (>= 40 elevator, >= 10 gas station) OK
+gas_station cover_arrivals = 4 (>= 3) OK
+gas_station peeks = 4 (>= 3) OK
+gas_station retreats (broken groups) = 2 (>= 1) OK
+gas_station flank_attempts = 1 (>= 1) OK
+gas_station kills == enemies = 8 (all) OK
+gas_station nav failures = 0 (0) OK
+elevator time_to_clear_s = 34.5 (cleared in 5..60 s) OK
+elevator player_damage_taken = 80.0 (raiders hurt the bot, bot survives) OK
+elevator player_down_tick = 0 (0) OK
+elevator ai accuracy = 0.476 (0.05..0.75) OK
+elevator reaction_avg_s = 0.45 (data reaction_s 0.45) OK
+elevator cover_pct = 52.1 (>= 40 elevator, >= 10 gas station) OK
+elevator cover_arrivals = 12 (>= 3) OK
+elevator peeks = 14 (>= 3) OK
+elevator retreats (broken groups) = 2 (>= 1) OK
+elevator flank_attempts = 4 (>= 1) OK
+elevator kills == enemies = 9 (all) OK
+elevator nav failures = 0 (0) OK
+elevator brute charges = 1 (>= 1) OK
+elevator charges_interrupted = 1 (sawn-off knockback interrupts) OK
+elevator nailgun interrupts = 0 (nails never interrupt) OK
+road_buggies time_to_clear_s = 33.633 (cleared in 5..60 s) OK
+road_buggies rams = 1 (>= 1) OK
+road_buggies strip_events == rams = 1 (one cargo strip event per ram) OK
+road_buggies truck_damage == 12 x rams = 12.0 (ram_damage 12) OK
+road_buggies kills == buggies = 6 (all buggies, >= 3) OK
+road_buggies waves = 3 (3) OK
+road_buggies mg accuracy = 0.48 (0.2..1.0) OK

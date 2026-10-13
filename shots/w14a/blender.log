@@ -1,0 +1,67 @@
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+20:28:46 | INFO: Starting glTF 2.0 export
+20:28:46 | INFO: Extracting primitive: cube
+20:28:46 | INFO: Primitives created: 1
+20:28:46 | INFO: Finished glTF 2.0 export in 0.020305156707763672 s
+
+greybox: exported /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/gltf/cube.glb
+20:28:46 | INFO: Starting glTF 2.0 export
+20:28:46 | INFO: Extracting primitive: capsule
+20:28:46 | INFO: Primitives created: 1
+20:28:46 | INFO: Finished glTF 2.0 export in 0.003320932388305664 s
+
+greybox: exported /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/gltf/capsule.glb
+20:28:46 | INFO: Starting glTF 2.0 export
+20:28:46 | INFO: Extracting primitive: wheel
+20:28:46 | INFO: Primitives created: 2
+20:28:46 | INFO: Extracting primitive: wheel_LOD1
+20:28:46 | INFO: Primitives created: 2
+20:28:46 | INFO: Finished glTF 2.0 export in 0.010727167129516602 s
+
+greybox: exported /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/gltf/wheel.glb
+20:28:46 | INFO: Starting glTF 2.0 export
+20:28:46 | INFO: Extracting primitive: ramp
+20:28:46 | INFO: Primitives created: 1
+20:28:46 | INFO: Finished glTF 2.0 export in 0.0026559829711914062 s
+
+greybox: exported /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/gltf/ramp.glb
+20:28:46 | INFO: Starting glTF 2.0 export
+20:28:46 | INFO: Extracting primitive: crate
+20:28:46 | INFO: Primitives created: 2
+20:28:46 | INFO: Finished glTF 2.0 export in 0.009268999099731445 s
+
+greybox: exported /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/gltf/crate.glb
+20:28:46 | INFO: Starting glTF 2.0 export
+20:28:46 | INFO: Extracting primitive: barrel
+20:28:46 | INFO: Primitives created: 2
+20:28:46 | INFO: Extracting primitive: barrel_LOD1
+20:28:46 | INFO: Primitives created: 2
+20:28:46 | INFO: Finished glTF 2.0 export in 0.011275053024291992 s
+
+greybox: exported /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/gltf/barrel.glb
+20:28:46 | INFO: Starting glTF 2.0 export
+20:28:46 | INFO: Extracting primitive: wall_slab
+20:28:46 | INFO: Primitives created: 1
+20:28:46 | INFO: Finished glTF 2.0 export in 0.0029058456420898438 s
+00:02.077  render           | Saved: '/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_cube.jpg'
+00:02.099  render           | Saved: '/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_capsule.jpg'
+00:02.121  render           | Saved: '/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_wheel.jpg'
+00:02.147  render           | Saved: '/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_ramp.jpg'
+00:02.163  render           | Saved: '/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_crate.jpg'
+00:02.184  render           | Saved: '/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_barrel.jpg'
+00:02.201  render           | Saved: '/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_wall_slab.jpg'
+
+greybox: exported /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/gltf/wall_slab.glb
+greybox: preview /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_cube.jpg
+greybox: preview /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_capsule.jpg
+greybox: preview /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_wheel.jpg
+greybox: preview /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_ramp.jpg
+greybox: preview /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_crate.jpg
+greybox: preview /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_barrel.jpg
+greybox: preview /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/previews/greybox_wall_slab.jpg
+Info: Saved as "greybox_kit.blend"
+greybox: saved /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ae2633fe1f200a880/games/peregon/build/gate-w14a/kit/greybox_kit.blend
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit
