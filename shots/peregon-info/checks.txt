@@ -1,15 +1,5 @@
-...F
-======================================================================
-FAIL: test_render_keeps_curated_checkpoint_and_is_deterministic (__main__.ReportPublicationTests.test_render_keeps_curated_checkpoint_and_is_deterministic)
+....
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/test_report_github.py", line 61, in test_render_keeps_curated_checkpoint_and_is_deterministic
-    self.assertEqual(hashes, {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in pages})
-    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: {Posi[1280 chars]'): '5c4a16ea225fe1e0ec5325bd24af6f44ca3887977[64297 chars]b54'} != {Posi[1280 chars]'): 'c843c8fb82fbd3029c19d94155f1c8c090146eb89[64297 chars]b54'}
-Diff is 67574 characters long. Set self.maxDiff to None to see it.
+Ran 4 tests in 3.357s
 
-----------------------------------------------------------------------
-Ran 4 tests in 3.520s
-
-FAILED (failures=1)
+OK
