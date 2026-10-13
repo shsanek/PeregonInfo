@@ -57,7 +57,7 @@
       var sources = node("p", "Источники: ", "mechanics-sources");
       g.sources.forEach(function (path, i) {
         if (i) sources.appendChild(document.createTextNode(" · "));
-        var a = node("a", path); a.href = "../" + path; sources.appendChild(a);
+        var a = node("a", path); a.href = "https://github.com/shsanek/EXEcutor/blob/claude/peregon-design/games/peregon/" + path; sources.appendChild(a);
       });
       box.appendChild(sources);
       var wrap = node("div", null, "table-wrap"), table = node("table"), head = node("thead"), row = node("tr");

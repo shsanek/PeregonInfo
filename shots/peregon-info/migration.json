@@ -1,0 +1,10 @@
+{
+  "source_before_migration": "d1c2d88db3e59496c7784d1e68cfd15b32fe4840",
+  "archive_commit": "8725def1aa829e2cbfdcf7ad94904e81f0b8ec60",
+  "original_files": 14539,
+  "archived_files": 14552,
+  "missing_original_files": 0,
+  "changed_original_blobs": 0,
+  "restored_historical_images": 13,
+  "image_files": 9468
+}
