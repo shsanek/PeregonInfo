@@ -1,0 +1,14 @@
+{
+  "comparison.json": {
+    "bytes": 165102,
+    "sha256": "f43860ff3eb32e592e42752a731aaa18d368b5e05079941f69733e89184686c2"
+  },
+  "comparison.csv": {
+    "bytes": 552,
+    "sha256": "a8faa54fa468c556a049c2caefb08ddf577e95fb1c29e4d66ffd76e6c20ee85e"
+  },
+  "raw-evidence.tar.gz": {
+    "bytes": 27401217,
+    "sha256": "a5a4eed8e5322ea79106fde9ba2aed649ed1c89408854fed95ee67aba6c4494e"
+  }
+}

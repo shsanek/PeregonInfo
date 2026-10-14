@@ -275,7 +275,9 @@ code { font: 12px/1.4 ui-monospace, Menlo, monospace; }
       x.shots.forEach(function (s) {
         if (typeof s === "string") s = {src: s.replace(/^reports\//, "")};
         var f = el("figure");
-        var media = /\.(ogg|wav|mp3)$/i.test(s.src) ? '<audio controls preload="none" style="width:100%" src="' + esc(s.src) + '"></audio>' : '<img loading="lazy" src="' + esc(s.src) + '" alt="">';
+        var media = /\.(ogg|wav|mp3)$/i.test(s.src) ? '<audio controls preload="none" style="width:100%" src="' + esc(s.src) + '"></audio>' :
+          /\.(jpg|jpeg|png|gif|webp|bmp|svg)$/i.test(s.src) ? '<img loading="lazy" src="' + esc(s.src) + '" alt="">' :
+          '<a href="' + esc(s.src) + '" download>Скачать данные</a>';
         f.innerHTML = media + '<figcaption>' + esc(s.caption || "") + (s.platform ? ' <span class="tag">' + esc(s.platform) + "</span>" : "") + "</figcaption>";
         g.appendChild(f);
       });
