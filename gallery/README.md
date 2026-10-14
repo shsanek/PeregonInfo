@@ -235,6 +235,7 @@
 - [storyrun · 1](storyrun-2e48b8dd-001.md) — 60
 - [storyrun · 2](storyrun-2e48b8dd-002.md) — 59
 - [surface-streaming-2026-10-14 · 1](surface-streaming-2026-10-14-e6f700f8-001.md) — 48
+- [survival-fixes · 1](survival-fixes-45dacafa-001.md) — 8
 - [survival2_q7 · 1](survival2-q7-aa7788ae-001.md) — 60
 - [survival2_q7 · 2](survival2-q7-aa7788ae-002.md) — 7
 - [survival_q6 · 1](survival-q6-8c66f5e7-001.md) — 33
