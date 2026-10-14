@@ -144,6 +144,7 @@
 - [night_balance_lb1 · 2](night-balance-lb1-eae70a57-002.md) — 42
 - [npc_life · 1](npc-life-774a5404-001.md) — 30
 - [perf · 1](perf-342edb77-001.md) — 8
+- [perf2 · 1](perf2-b32c94ed-001.md) — 5
 - [pf1_spikes · 1](pf1-spikes-153d6c1f-001.md) — 11
 - [physics · 1](physics-742b2745-001.md) — 60
 - [physics · 2](physics-742b2745-002.md) — 15

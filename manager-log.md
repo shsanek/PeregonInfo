@@ -807,3 +807,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 00:56 CAB merged (b5608eebb4), report entry + changelog; push to PeregonInfo hangs in git-credential-manager (owner sign-in needed). SURV merged (2046f05972), report entry. CAB broke two play_cargo lever tests → CABFIX started. QUESTS started in the CAB slot.
 - 2026-10-15 01:27 CABFIX merged (0479a26dea): lever tests were stale (game OK), woodcut axe+log bug fixed; FUEL started.
 - 2026-10-15 01:40 QUESTS merged (03aa869aac); MAPNAV started. Push still waiting for owner's GitHub sign-in.
+- 2026-10-15 02:19 PERF pass 1 merged (8afd1b1639): freezes fixed, blizzard 1.53x / winter traversal 2.02x at 4K, summer/autumn ~1.0x (GPU-bound stationary, main-thread traversal). Started PERFB pass 2 (single perf agent). FUEL and MAPNAV hit API timeouts and were resumed. PHYSICS next slot.
