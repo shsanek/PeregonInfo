@@ -805,3 +805,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-14 22:15 owner: HEAD includes the prematurely merged surface streaming (regressed perf); PERF told to treat HEAD numbers as degraded-current (no commit jumping) and target 1.5-2x faster frame time at 4K with stable p95/p99, no quality cuts.
 - 2026-10-14 22:16 owner: fill the report guide (reports/UPDATING.md) on every merge; continue autonomously with the loop.
 - 2026-10-15 00:56 CAB merged (b5608eebb4), report entry + changelog; push to PeregonInfo hangs in git-credential-manager (owner sign-in needed). SURV merged (2046f05972), report entry. CAB broke two play_cargo lever tests → CABFIX started. QUESTS started in the CAB slot.
+- 2026-10-15 01:27 CABFIX merged (0479a26dea): lever tests were stale (game OK), woodcut axe+log bug fixed; FUEL started.
