@@ -160,6 +160,7 @@
 - [props · 1](props-b2648077-001.md) — 15
 - [props2 · 1](props2-c1f64f29-001.md) — 51
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
+- [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36
 - [r2_area · 1](r2-area-0df3f151-001.md) — 47
 - [rack44 · 1](rack44-a695512a-001.md) — 3

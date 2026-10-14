@@ -806,3 +806,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-14 22:16 owner: fill the report guide (reports/UPDATING.md) on every merge; continue autonomously with the loop.
 - 2026-10-15 00:56 CAB merged (b5608eebb4), report entry + changelog; push to PeregonInfo hangs in git-credential-manager (owner sign-in needed). SURV merged (2046f05972), report entry. CAB broke two play_cargo lever tests → CABFIX started. QUESTS started in the CAB slot.
 - 2026-10-15 01:27 CABFIX merged (0479a26dea): lever tests were stale (game OK), woodcut axe+log bug fixed; FUEL started.
+- 2026-10-15 01:40 QUESTS merged (03aa869aac); MAPNAV started. Push still waiting for owner's GitHub sign-in.
