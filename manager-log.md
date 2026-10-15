@@ -810,3 +810,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 02:19 PERF pass 1 merged (8afd1b1639): freezes fixed, blizzard 1.53x / winter traversal 2.02x at 4K, summer/autumn ~1.0x (GPU-bound stationary, main-thread traversal). Started PERFB pass 2 (single perf agent). FUEL and MAPNAV hit API timeouts and were resumed. PHYSICS next slot.
 - 2026-10-15 03:09 FUEL merged (57eda16555); play_journal 18/19 from QUESTS data → UI agent. PHYSICS started. UI silent since 23:05 → status requested.
 - 2026-10-15 03:18 MAPNAV merged (36ad24c6bd), fixed the journal labels too; HUNT started; UI told to rebase on 36ad24c6bd.
+- 2026-10-15 04:59 Published: PeregonInfo pushed via SSH (HTTPS credential helper failed; push URL set to SSH), parent pushed 6e43ffe37a after merging the owner's remote doc commit bf977f8c73 (surface-streaming handoff). Handoff says CPU snow-mesh reconstruction was rejected; PERF pass 1 kept it on D3D12 → PERFB redirected to the D3D12 GPU path per handoff §3; PHYSICS told to use Field APIs only.
+- 2026-10-15 05:29 HUNT merged (4bf466a1d7). PHYSICS finished (21d72cc4db) — rebasing onto HUNT. RADIO started. Disk 46 GB.
