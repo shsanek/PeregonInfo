@@ -893,3 +893,15 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 22:05 tick: no locks; REGRESS investigating (no new status yet, 23 min). Disk 61 GB.
 - 2026-10-15 22:25 tick: REGRESS fixed lodfade (map_tests 54/54, in ctest), D3D9 starts and renders (shaderc SM2 bytecode + water binding), boar winch (spawn hold in save); full ctest next. Disk 63 GB.
 - 2026-10-15 22:30 REGRESS merged (bdbc35cd92, ctest 96/98); ps_2_x accepted; PERFBENCH started alone; REGRESS2 queued.
+- 2026-10-15 22:45 tick: no locks; PERFBENCH designing the 15-min session (alone). Disk 82 GB.
+- 2026-10-15 23:05 tick: PERFBENCH holds perf-measure (valid, until 02:35); harness committed; note: GI probes at max cap frames ~30 ms on main thread. Disk 75 GB.
+- 2026-10-15 23:25 tick: PERFBENCH lock valid (agent alive, end 02:35), no game running at this moment (analysis between runs), no new status for 20 min. Disk 75 GB.
+- 2026-10-15 23:45 tick: PERFBENCH silent 40 min → status requested (GI guidance sent). Lock valid until 02:35. Disk 74 GB.
+- 2026-10-16 00:05 tick: PERFBENCH 8 runs started 23:48 (max incl. GI probes; GI costs 24–28 ms main thread on both builds → ~30 fps), + 4 short GI-off FPS runs; lock valid until ~02:02–02:15.
+- 2026-10-16 00:25 tick: PERFBENCH matrix running (game process active), lock valid until ~02:02.
+- 2026-10-16 00:45 tick: PERFBENCH 3/8 runs done (all segments rc=0), expected end ~02:20; lock valid.
+- 2026-10-16 01:05 tick: PERFBENCH matrix running (≈4/8), lock valid.
+- 2026-10-16 01:26 tick: PERFBENCH matrix running (≈5/8), lock valid.
+- 2026-10-16 01:46 tick: PERFBENCH 6/8 runs done, lock valid, end ~02:20.
+- 2026-10-16 02:06 tick: PERFBENCH last main run (lock until 02:09), then GI-off extras.
+- 2026-10-16 02:20 PERFBENCH merged (c3dea4c73d) + report; phase 2 started: GRASSCRUSH, CABWHEEL, NORTHSTART, DROWSY; GIPERF queued as priority 5.
