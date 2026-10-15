@@ -126,6 +126,7 @@
 - [map · 3](map-60be9861-003.md) — 60
 - [map · 4](map-60be9861-004.md) — 49
 - [map_polish_mp1 · 1](map-polish-mp1-51414b89-001.md) — 27
+- [mapnav · 1](mapnav-b626bd59-001.md) — 8
 - [mapstream1 · 1](mapstream1-83d1738b-001.md) — 18
 - [mapstream2 · 1](mapstream2-5b02a2d4-001.md) — 60
 - [mapstream2 · 2](mapstream2-5b02a2d4-002.md) — 16

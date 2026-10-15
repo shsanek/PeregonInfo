@@ -809,3 +809,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 01:40 QUESTS merged (03aa869aac); MAPNAV started. Push still waiting for owner's GitHub sign-in.
 - 2026-10-15 02:19 PERF pass 1 merged (8afd1b1639): freezes fixed, blizzard 1.53x / winter traversal 2.02x at 4K, summer/autumn ~1.0x (GPU-bound stationary, main-thread traversal). Started PERFB pass 2 (single perf agent). FUEL and MAPNAV hit API timeouts and were resumed. PHYSICS next slot.
 - 2026-10-15 03:09 FUEL merged (57eda16555); play_journal 18/19 from QUESTS data → UI agent. PHYSICS started. UI silent since 23:05 → status requested.
+- 2026-10-15 03:18 MAPNAV merged (36ad24c6bd), fixed the journal labels too; HUNT started; UI told to rebase on 36ad24c6bd.
