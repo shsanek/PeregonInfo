@@ -843,3 +843,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 14:54 SHADOWBAKE stopped: docs commit landed as daf7dc649d (bake ≈6 min, 231 tiles; cause: map window grew 12.10 + spline height in bake since TERRAINLIGHT); untested draft fix 8a4a58ff74 kept only on work/peregon-shadowbake, not merged.
 - 2026-10-15 15:02 GRASS merged (575654a441) after manager look at close-up/boundary shots.
 - 2026-10-15 15:04 TYREVIS cherry-picked as 89bc6ceeff (clean, no rebuild on the combined tip yet — WHEEL2's final build covers it); realistic closed pressure handed to WHEEL2.
+- 2026-10-15 15:22 owner: wheel spray effects per surface → FX; flat surfaces / normal maps / modern relief → SURFDETAIL.
+- 2026-10-15 15:23 owner: SURFDETAIL to study Death Stranding (Decima) terrain detail first.
+- 2026-10-15 15:25 WHEEL2 merged (ac87ccb00a); owner decision pending on mud difficulty at road pressure (VALVE3 proposed).
