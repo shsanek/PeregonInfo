@@ -832,3 +832,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 10:33 owner: PERFB to stop long runs, give interim/interpolated table, finish branch for merge; full matrix overnight.
 - 2026-10-15 10:46 owner: radial-spoke tyre model with 3 lateral sectors, internal pressure, configurable wheel, skinned tyre in Blender → WHEEL started.
 - 2026-10-15 10:52 PERFB GPU surface path merged (4ca1036e2e), interim table published; overnight matrix via tools/render_matrix.sh (PERFNIGHT queued).
+- 2026-10-15 11:03 owner: WHEEL also gets sidewall sectors (bulge) and lateral pressure/contact — sent to WHEEL.
+- 2026-10-15 11:53 VISUAL2 merged (5f66df0dbe) after manager review of the sun triptychs.
