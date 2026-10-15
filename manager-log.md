@@ -882,3 +882,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 20:04 tick: owner viewing GRASSBEND iter2 (copied build); WATERREFL perf done (+0.25–0.32 ms 4K high); TYRERING silent 53 min → status requested. Disk 62 GB.
 - 2026-10-15 20:17 owner: keep grass, no measuring → GRASSBEND (04b20519cb..f2eb4565f1) and WATERREFL (6767046d3f..c85f507eee) cherry-picked, build OK, launched for owner; agents told to stop timing.
 - 2026-10-15 20:24 tick: owner playing c85f507eee (grass iter2 + water + drops); GRASSBEND/WATERREFL finishing tails (no timing); TYRERING D1 tests. Disk 56 GB.
+- 2026-10-15 20:27 WATERREFL and GRASSBEND reported; GRASSBEND docs cherry-picked.
