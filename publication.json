@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "9d236ad2b37e372b7a9ed9dc84bd21051a471852",
-  "changes_covered_commit": "9d236ad2b37e372b7a9ed9dc84bd21051a471852",
-  "entries": 287,
+  "source_commit": "4ca1036e2e3f5c7452c93e2d4e7ba1ae8f8f15d3",
+  "changes_covered_commit": "4ca1036e2e3f5c7452c93e2d4e7ba1ae8f8f15d3",
+  "entries": 288,
   "model_groups": 8,
-  "images": 9634,
+  "images": 9638,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -173,6 +173,7 @@
     "gallery/npc-life-774a5404-001.md",
     "gallery/ownerfix-5d48d8d7-001.md",
     "gallery/perf-342edb77-001.md",
+    "gallery/perf-gpu-surface-e5e617fb-001.md",
     "gallery/perf2-b32c94ed-001.md",
     "gallery/perf3-pass2-03d8f5ee-001.md",
     "gallery/pf1-spikes-153d6c1f-001.md",
