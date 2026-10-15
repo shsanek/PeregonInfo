@@ -813,3 +813,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 04:59 Published: PeregonInfo pushed via SSH (HTTPS credential helper failed; push URL set to SSH), parent pushed 6e43ffe37a after merging the owner's remote doc commit bf977f8c73 (surface-streaming handoff). Handoff says CPU snow-mesh reconstruction was rejected; PERF pass 1 kept it on D3D12 → PERFB redirected to the D3D12 GPU path per handoff §3; PHYSICS told to use Field APIs only.
 - 2026-10-15 05:29 HUNT merged (4bf466a1d7). PHYSICS finished (21d72cc4db) — rebasing onto HUNT. RADIO started. Disk 46 GB.
 - 2026-10-15 05:33 PHYSICS merged (21324921a7, protocol 20); SKI started.
+- 2026-10-15 06:25 disk 40 GB → removed stale compile trees win64-debug/shovel/res (Oct 10-12) in the main checkout; release builds, crash dump and maps kept.
+- 2026-10-15 06:26 RADIO merged (17f823c3e5, protocol 21). SKILLS started. PERFB pass 2 cumulative vs HEAD at 4K ≥1.5x in all seasons (summer 1.63, autumn 1.73, winter 1.82, blizzard road 2.60) — asked to land it separately before the GPU path.
