@@ -79,6 +79,7 @@
 - [forage · 1](forage-c39e5817-001.md) — 22
 - [forage2 · 1](forage2-0c8250ed-001.md) — 19
 - [forest_b10 · 1](forest-b10-d0819246-001.md) — 33
+- [fuel-loan · 1](fuel-loan-87b5a7cc-001.md) — 8
 - [g0 · 1](g0-f21b0ef8-001.md) — 42
 - [gasprops · 1](gasprops-2161b651-001.md) — 46
 - [gasstation · 1](gasstation-dd5e01d5-001.md) — 31
