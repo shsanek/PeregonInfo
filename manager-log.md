@@ -849,3 +849,9 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 15:32 owner: during playtest agents may build and capture, but no timed perf measurements.
 - 2026-10-15 16:13 owner: grass hard cut-off at x3 → adaptive curve with same amount and 1.5–2x distance; plus step 1 of GPU grass (persistent cell pool, instancing) → GRASSGPU.
 - 2026-10-15 16:26 FX merged (76f52f4ebb); GPU timing deferred (FXPERF queued).
+- 2026-10-15 16:39 owner: grass random sway → coherent GPU Perlin wind bend (straight by default, height curve × flexibility, gust waves, small tremble) added to GRASSGPU as part C.
+- 2026-10-15 16:46 owner playtest: FX stones good; water spray bad (flat plates, wrong direction) → FX agent resumed as FXWATER.
+- 2026-10-15 17:04 tick (owner asked why monitoring stopped): old cron never fired visibly → recreated cron 4d0ad4cd (:07/:27/:47) + 20-min background timer. SURFDETAIL 8 commits, final matrix (+0.26 ms overlay +0.04 debris at 4K); GRASSGPU part A done (slope burial + coverage step, range 0–200 %), B+C in progress; FXWATER baseline built. Owner game closed. Disk 50 GB.
+- 2026-10-15 17:08 owner: animal notes spam → HUNTNOTES (one line per species, 2-day expiry).
+- 2026-10-15 17:16 owner: spoke force normal should follow deformed neighbours → WHEEL3 queued (vehicle.cpp ~1573 uses undeformed radial + cross-slope tilt only).
+- 2026-10-15 17:22 SURFDETAIL merged (bc97cec706) after manager look at before/after; WHEEL3 started; REGRESS queued (map_tests lodfade 6 fails, D3D9 spot_cookie startup fail).

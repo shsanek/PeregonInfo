@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "76f52f4ebb163cadfb723935279c3c1f15aa232a",
-  "changes_covered_commit": "76f52f4ebb163cadfb723935279c3c1f15aa232a",
-  "entries": 294,
+  "source_commit": "bc97cec70667b3430445bfa4ccc03ec594d9931b",
+  "changes_covered_commit": "bc97cec70667b3430445bfa4ccc03ec594d9931b",
+  "entries": 295,
   "model_groups": 8,
-  "images": 9677,
+  "images": 9685,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -273,6 +273,7 @@
     "gallery/storyrun-2e48b8dd-001.md",
     "gallery/storyrun-2e48b8dd-002.md",
     "gallery/surface-streaming-2026-10-14-e6f700f8-001.md",
+    "gallery/surfdetail-827314ff-001.md",
     "gallery/survival-fixes-45dacafa-001.md",
     "gallery/survival2-q7-aa7788ae-001.md",
     "gallery/survival2-q7-aa7788ae-002.md",
