@@ -822,3 +822,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 07:24 SKI merged (a340ea4e4d, protocol 22); OWNERFIX started (owner feedback); SKIART queued.
 - 2026-10-15 07:59 SKILLS merged (0cc9ccf057, protocol 23); SKIART started.
 - 2026-10-15 08:33 OWNERFIX merged (1340a77354). CTESTFIX started (silent map-test skips under ctest).
+- 2026-10-15 09:23 VISUAL merged (3ad5672983). PERFB told to rebase after its matrix.

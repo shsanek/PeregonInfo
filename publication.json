@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "1340a77354a643c89168dbdea36c2fe6374bc7f4",
-  "changes_covered_commit": "1340a77354a643c89168dbdea36c2fe6374bc7f4",
-  "entries": 284,
+  "source_commit": "3ad5672983f529d1f84d55dbe967df7ba40c2deb",
+  "changes_covered_commit": "3ad5672983f529d1f84d55dbe967df7ba40c2deb",
+  "entries": 285,
   "model_groups": 8,
-  "images": 9624,
+  "images": 9634,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -303,6 +303,7 @@
     "gallery/vh1-1ff72504-001.md",
     "gallery/vh2-f9cf36bd-001.md",
     "gallery/vh3-98670b83-001.md",
+    "gallery/visual-a5961f3f-001.md",
     "gallery/w1-60c5590f-001.md",
     "gallery/w1-60c5590f-002.md",
     "gallery/w11-eb83f6c0-001.md",
