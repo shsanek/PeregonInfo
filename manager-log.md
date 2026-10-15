@@ -818,3 +818,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 06:33 PERF pass 2 landed (f2444c4f8d): target met, 4K 1.50-4.50x vs HEAD, 1080p 1.59-5.50x. PERFB continues the D3D12 GPU surface path.
 - 2026-10-15 06:39 UI finished (2c55a4905d), sent back for a short rebase onto pass 2. VISUAL started (perf target met). Note: for the few minutes of UI's rebase 5 agents run at once (UI rebase-only) — over the owner's limit of 4; no new agent until UI lands.
 - 2026-10-15 06:43 UI merged (8a4ba53d80); pool back to 4 (PERFB, SKI, SKILLS, VISUAL); queue empty.
+- 2026-10-15 06:43 owner feedback: skis universal + truck-powered T-bar (sent to SKI); fuel debt to the same lender + remove mechanic armor (FIXA queued); restore meaningful long quests, much shorter route descriptions, paper-map fold dot artifacts (FIXB queued); final perf compare vs unspoiled build (sent to PERFB).
+- 2026-10-15 07:24 SKI merged (a340ea4e4d, protocol 22); OWNERFIX started (owner feedback); SKIART queued.
