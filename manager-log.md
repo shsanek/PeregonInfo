@@ -879,3 +879,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 19:43 owner: cloned owner's repo git@github.com:shsanek/GameSwiftEngine.git to gamu/ref (branch feature/grass, GrassShader.metal) as read-only reference; GRASSBEND told to study Ghost of Tsushima GDC 2021 grass talk and that shader.
 - 2026-10-15 19:44 tick: TYRERING optimising solver (no new status 33 min); FXWATER2 arcs+teardrop streaks done, tests green; WATERREFL SSR+refraction+absorption+wind-vs-current committed, tuning; GRASSBEND early-look build in progress. Disk 62 GB.
 - 2026-10-15 19:56 FXWATER2 merged (3bd9e50739) after manager look at the arc stack.
+- 2026-10-15 20:04 tick: owner viewing GRASSBEND iter2 (copied build); WATERREFL perf done (+0.25–0.32 ms 4K high); TYRERING silent 53 min → status requested. Disk 62 GB.
+- 2026-10-15 20:17 owner: keep grass, no measuring → GRASSBEND (04b20519cb..f2eb4565f1) and WATERREFL (6767046d3f..c85f507eee) cherry-picked, build OK, launched for owner; agents told to stop timing.
+- 2026-10-15 20:24 tick: owner playing c85f507eee (grass iter2 + water + drops); GRASSBEND/WATERREFL finishing tails (no timing); TYRERING D1 tests. Disk 56 GB.
