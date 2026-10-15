@@ -834,3 +834,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 10:52 PERFB GPU surface path merged (4ca1036e2e), interim table published; overnight matrix via tools/render_matrix.sh (PERFNIGHT queued).
 - 2026-10-15 11:03 owner: WHEEL also gets sidewall sectors (bulge) and lateral pressure/contact — sent to WHEEL.
 - 2026-10-15 11:53 VISUAL2 merged (5f66df0dbe) after manager review of the sun triptychs.
+- 2026-10-15 12:53 WHEEL merged (a55f78e33a, protocol 24). WHEEL2 started: per-sector soil and traction, effective rolling radius.

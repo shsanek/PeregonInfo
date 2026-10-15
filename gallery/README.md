@@ -309,6 +309,7 @@
 - [wc1 · 1](wc1-e5c6fe9e-001.md) — 16
 - [weapons · 1](weapons-167a79b5-001.md) — 48
 - [wheat_kolkhoz · 1](wheat-kolkhoz-cf5b05d3-001.md) — 24
+- [wheel · 1](wheel-ba599261-001.md) — 6
 - [winterplow_q2 · 1](winterplow-q2-a94830ca-001.md) — 22
 - [wp6 · 1](wp6-d9de5a35-001.md) — 30
 - [ws2 · 1](ws2-bbadd7ee-001.md) — 60
