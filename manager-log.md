@@ -865,3 +865,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 17:58 owner: do D1 and D2; contact via patches between spoke tips → TYRERING started.
 - 2026-10-15 18:04 tick: GRASSGPU done A/B/C, rebasing + perf lock; FXWATER tuned (puddle splash, bow wave, foam), waiting for lock to capture; TYRERING started, 3D node net design confirmed. Disk 65 GB.
 - 2026-10-15 18:13 GRASSGPU merged (a548bf1b6c).
+- 2026-10-15 18:24 tick: owner playing build 12ac45e8c9; FXWATER tests green, after-captures running; TYRERING in D1 (no commit yet). Disk 79 GB.
+- 2026-10-15 18:26 FXWATER merged (235c248bfd) after manager look at the ford sheet.
