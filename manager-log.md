@@ -867,3 +867,15 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 18:13 GRASSGPU merged (a548bf1b6c).
 - 2026-10-15 18:24 tick: owner playing build 12ac45e8c9; FXWATER tests green, after-captures running; TYRERING in D1 (no commit yet). Disk 79 GB.
 - 2026-10-15 18:26 FXWATER merged (235c248bfd) after manager look at the ford sheet.
+- 2026-10-15 18:33 owner: wind not visible → WIND started; built+launched 292963c952 for water playtest.
+- 2026-10-15 18:44 tick: owner testing water build 292963c952; TYRERING 43 min without status line (D1 implementation, watch next tick); WIND building. Disk 84 GB.
+- 2026-10-15 19:03 owner: drops fly wrong (no arc) → FXWATER2; no reflections + water too blue → WATERREFL.
+- 2026-10-15 19:04 tick + owner bug: crossed-rectangle static grass patch at camp → WIND agent (instancing/collapse hypothesis); TYRERING asked for status (1 h silent). WIND 2 commits, FXWATER2/WATERREFL just started. Disk 52 GB.
+- 2026-10-15 19:05 owner: WATERREFL scope → whole water shader realism with screenshot sets.
+- 2026-10-15 19:15 WIND merged early (24a44a310b) for owner test, built + launched; camp crossed-quad grass bug still being fixed by the WIND agent (follow-up commit).
+- 2026-10-15 19:29 WIND robustness 04b99f6ddc merged (camp crossed-quad bug not reproduced; need owner screenshot/position). Disk 28→67 GB: removed finished scratch dirs, WIND worktree, old release-20261013 build. GRASSBEND started (stronger bend, configurable segments).
+- 2026-10-15 19:30 owner: GRASSBEND defaults 6 blade / 4 card segments, a bit more flex; asked for an early look build.
+- 2026-10-15 19:37 owner: stronger tremble + two HF noise layers perturbing wind direction ±5° per blade → GRASSBEND.
+- 2026-10-15 19:43 owner: cloned owner's repo git@github.com:shsanek/GameSwiftEngine.git to gamu/ref (branch feature/grass, GrassShader.metal) as read-only reference; GRASSBEND told to study Ghost of Tsushima GDC 2021 grass talk and that shader.
+- 2026-10-15 19:44 tick: TYRERING optimising solver (no new status 33 min); FXWATER2 arcs+teardrop streaks done, tests green; WATERREFL SSR+refraction+absorption+wind-vs-current committed, tuning; GRASSBEND early-look build in progress. Disk 62 GB.
+- 2026-10-15 19:56 FXWATER2 merged (3bd9e50739) after manager look at the arc stack.
