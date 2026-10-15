@@ -861,3 +861,7 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 17:37 owner: grass slider back to 0–300 % with 300 % reaching 1.5–2x the old 300 % (same amount, stretched tail); remove near-camera no-grass hack → sent to GRASSGPU.
 - 2026-10-15 17:44 tick: GRASSGPU B instanced path works (draws 75→35, VS constants 282→14 KB/frame, CPU 0.15→0.08 ms), owner correction acknowledged; FXWATER capturing; HUNTNOTES code+tests done (hunt_stock_rope winch fail pre-existing → REGRESS list); WHEEL3 researching. Disk 54 GB.
 - 2026-10-15 17:50 HUNTNOTES merged (1d74993c41).
+- 2026-10-15 17:53 WHEEL3 research doc merged (8b02bece49); D1/D2 await owner decision.
+- 2026-10-15 17:58 owner: do D1 and D2; contact via patches between spoke tips → TYRERING started.
+- 2026-10-15 18:04 tick: GRASSGPU done A/B/C, rebasing + perf lock; FXWATER tuned (puddle splash, bow wave, foam), waiting for lock to capture; TYRERING started, 3D node net design confirmed. Disk 65 GB.
+- 2026-10-15 18:13 GRASSGPU merged (a548bf1b6c).
