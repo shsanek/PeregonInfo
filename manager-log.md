@@ -888,3 +888,8 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 21:06 TYRERING D1 cherry-picked (f96d932d06), combined build OK, vehicle_tests 148/148; D2 continues (ETA ~2.5 h).
 - 2026-10-15 21:25 tick: TYRERING D2 green (7cb5f874cc/64a58781b2, 105 µs/tick), now evidence + docs + rebase, ETA ~1.5 h. Disk 83 GB.
 - 2026-10-15 21:26 TYRERING D2 merged (991c090230), reported. Pool empty.
+- 2026-10-15 21:38 owner batch 3 received (regress, 8×15-min benchmark, grass crush, cab/wheel fixes, north start + swamps, drowsy, tree shadows, water waves, radio region + bunker + bear boss, truck art). Phase 1 sequential: REGRESS then PERFBENCH; then 4 slots.
+- 2026-10-15 21:45 tick: no locks; REGRESS building (phase 1, alone). Disk 89 GB.
+- 2026-10-15 22:05 tick: no locks; REGRESS investigating (no new status yet, 23 min). Disk 61 GB.
+- 2026-10-15 22:25 tick: REGRESS fixed lodfade (map_tests 54/54, in ctest), D3D9 starts and renders (shaderc SM2 bytecode + water binding), boar winch (spawn hold in save); full ctest next. Disk 63 GB.
+- 2026-10-15 22:30 REGRESS merged (bdbc35cd92, ctest 96/98); ps_2_x accepted; PERFBENCH started alone; REGRESS2 queued.
