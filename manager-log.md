@@ -846,3 +846,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 15:22 owner: wheel spray effects per surface → FX; flat surfaces / normal maps / modern relief → SURFDETAIL.
 - 2026-10-15 15:23 owner: SURFDETAIL to study Death Stranding (Decima) terrain detail first.
 - 2026-10-15 15:25 WHEEL2 merged (ac87ccb00a); owner decision pending on mud difficulty at road pressure (VALVE3 proposed).
+- 2026-10-15 15:32 owner: during playtest agents may build and capture, but no timed perf measurements.
+- 2026-10-15 16:13 owner: grass hard cut-off at x3 → adaptive curve with same amount and 1.5–2x distance; plus step 1 of GPU grass (persistent cell pool, instancing) → GRASSGPU.
+- 2026-10-15 16:26 FX merged (76f52f4ebb); GPU timing deferred (FXPERF queued).
