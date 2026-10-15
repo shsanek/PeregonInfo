@@ -883,3 +883,8 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 20:17 owner: keep grass, no measuring → GRASSBEND (04b20519cb..f2eb4565f1) and WATERREFL (6767046d3f..c85f507eee) cherry-picked, build OK, launched for owner; agents told to stop timing.
 - 2026-10-15 20:24 tick: owner playing c85f507eee (grass iter2 + water + drops); GRASSBEND/WATERREFL finishing tails (no timing); TYRERING D1 tests. Disk 56 GB.
 - 2026-10-15 20:27 WATERREFL and GRASSBEND reported; GRASSBEND docs cherry-picked.
+- 2026-10-15 20:35 owner: playtest done, all OK; nothing new to start, wait for TYRERING.
+- 2026-10-15 20:44 tick: TYRERING D1 green (e16ce5ff5e, all touched suites pass, 97.7 µs/tick), doing lab dumps + docs, then D2. Disk 84 GB.
+- 2026-10-15 21:06 TYRERING D1 cherry-picked (f96d932d06), combined build OK, vehicle_tests 148/148; D2 continues (ETA ~2.5 h).
+- 2026-10-15 21:25 tick: TYRERING D2 green (7cb5f874cc/64a58781b2, 105 µs/tick), now evidence + docs + rebase, ETA ~1.5 h. Disk 83 GB.
+- 2026-10-15 21:26 TYRERING D2 merged (991c090230), reported. Pool empty.
