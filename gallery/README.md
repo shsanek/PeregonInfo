@@ -235,6 +235,7 @@
 - [sh3 · 1](sh3-cb1f6782-001.md) — 9
 - [shovel_q3 · 1](shovel-q3-99d0b6a3-001.md) — 24
 - [ski · 1](ski-cf659bd3-001.md) — 8
+- [skills · 1](skills-32c1cf49-001.md) — 5
 - [sky1 · 1](sky1-bd9db756-001.md) — 20
 - [skyfix · 1](skyfix-1a301c4e-001.md) — 13
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
