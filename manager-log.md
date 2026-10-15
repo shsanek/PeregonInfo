@@ -823,3 +823,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 07:59 SKILLS merged (0cc9ccf057, protocol 23); SKIART started.
 - 2026-10-15 08:33 OWNERFIX merged (1340a77354). CTESTFIX started (silent map-test skips under ctest).
 - 2026-10-15 09:23 VISUAL merged (3ad5672983). PERFB told to rebase after its matrix.
+- 2026-10-15 09:29 owner: new sun is worse (orange ball with a ring); liked the old dawn glow, only too large → VISUAL2 started (restore + bound extent, smooth LOD transitions).
+- 2026-10-15 09:47 CTESTFIX merged (4e4b5db688): 13/14 map modules really pass; region_stream_check fails → STREAMFIX started.
