@@ -87,6 +87,7 @@
 - [gen4 · 1](gen4-7fd84213-001.md) — 19
 - [grass · 1](grass-f6cc5b08-001.md) — 14
 - [grass3 · 1](grass3-6716726d-001.md) — 21
+- [grass5 · 1](grass5-9bca6323-001.md) — 6
 - [ground · 1](ground-dbb3b50e-001.md) — 60
 - [ground · 2](ground-dbb3b50e-002.md) — 33
 - [gunsmith · 1](gunsmith-4fa5a4d7-001.md) — 16

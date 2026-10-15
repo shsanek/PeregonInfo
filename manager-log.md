@@ -835,3 +835,10 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 11:03 owner: WHEEL also gets sidewall sectors (bulge) and lateral pressure/contact — sent to WHEEL.
 - 2026-10-15 11:53 VISUAL2 merged (5f66df0dbe) after manager review of the sun triptychs.
 - 2026-10-15 12:53 WHEEL merged (a55f78e33a, protocol 24). WHEEL2 started: per-sector soil and traction, effective rolling radius.
+- 2026-10-15 12:59 owner: playtest build requested → PLAYBUILD (sonnet) builds win64-release in the main checkout at c66cef96bd, refreshes the map under the map-bake lock, launches play.sh.
+- 2026-10-15 13:19 PLAYBUILD: built c66cef96bd (154 s), R1 map + paper map rebaked (589 s), shadow cache 12-13 min, game running for the owner; committed the regenerated paper map runtime files.
+- 2026-10-15 13:33 owner playtest feedback: tyre deflation not visible → TYREVIS; shiny grass blades, same falloff, 2-3x density, grass distance slider 0..x3 → GRASS. Builds paused by the OWNER PLAYTEST lock.
+- 2026-10-15 14:13 tick: game closed → removed OWNER PLAYTEST lock; WHEEL2 2 commits (per-sector soil/traction + rolling radius, 129/129), TYREVIS analysis (chain intact, delta 2.4 cm with rest normals → recompute normals), GRASS code reading. Disk 86 GB.
+- 2026-10-15 14:52 owner: stop SHADOWBAKE, slow bake is fine; findings (359 s, 231 tiles) go into docs.
+- 2026-10-15 14:54 SHADOWBAKE stopped: docs commit landed as daf7dc649d (bake ≈6 min, 231 tiles; cause: map window grew 12.10 + spline height in bake since TERRAINLIGHT); untested draft fix 8a4a58ff74 kept only on work/peregon-shadowbake, not merged.
+- 2026-10-15 15:02 GRASS merged (575654a441) after manager look at close-up/boundary shots.
