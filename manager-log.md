@@ -826,3 +826,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 09:29 owner: new sun is worse (orange ball with a ring); liked the old dawn glow, only too large → VISUAL2 started (restore + bound extent, smooth LOD transitions).
 - 2026-10-15 09:47 CTESTFIX merged (4e4b5db688): 13/14 map modules really pass; region_stream_check fails → STREAMFIX started.
 - 2026-10-15 10:21 STREAMFIX merged (b94f18147f): test-harness issue on Windows, no game bug. OLDFAIL started (sonnet).
+- 2026-10-15 10:24 owner: stop SKIART, commit WIP; no art before ski mechanics are playtested.
+- 2026-10-15 10:26 SKIART stopped (6eae2f7237, unmerged WIP: models, procedural ski poses, regenerated icons); worktree removed.
+- 2026-10-15 10:32 OLDFAIL merged (9d236ad2b3): world_tests 36/36 (stale 4-zone expectation; zones west_yard/ferry_yard intended). Test-only, changelog checkpoint advanced without a new line.
