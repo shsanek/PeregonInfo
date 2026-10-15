@@ -821,3 +821,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 06:43 owner feedback: skis universal + truck-powered T-bar (sent to SKI); fuel debt to the same lender + remove mechanic armor (FIXA queued); restore meaningful long quests, much shorter route descriptions, paper-map fold dot artifacts (FIXB queued); final perf compare vs unspoiled build (sent to PERFB).
 - 2026-10-15 07:24 SKI merged (a340ea4e4d, protocol 22); OWNERFIX started (owner feedback); SKIART queued.
 - 2026-10-15 07:59 SKILLS merged (0cc9ccf057, protocol 23); SKIART started.
+- 2026-10-15 08:33 OWNERFIX merged (1340a77354). CTESTFIX started (silent map-test skips under ctest).
