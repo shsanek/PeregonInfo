@@ -99,6 +99,7 @@
 - [hudstack · 1](hudstack-ae38d416-001.md) — 7
 - [hunt · 1](hunt-18c3bc28-001.md) — 18
 - [hunt-discovery · 1](hunt-discovery-055be1ea-001.md) — 7
+- [huntnotes · 1](huntnotes-f72bdc79-001.md) — 2
 - [impl2 · 1](impl2-604625f2-001.md) — 20
 - [import · 1](import-d942f648-001.md) — 7
 - [interact2 · 1](interact2-d3645279-001.md) — 7

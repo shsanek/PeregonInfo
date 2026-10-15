@@ -855,3 +855,9 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 17:08 owner: animal notes spam → HUNTNOTES (one line per species, 2-day expiry).
 - 2026-10-15 17:16 owner: spoke force normal should follow deformed neighbours → WHEEL3 queued (vehicle.cpp ~1573 uses undeformed radial + cross-slope tilt only).
 - 2026-10-15 17:22 SURFDETAIL merged (bc97cec706) after manager look at before/after; WHEEL3 started; REGRESS queued (map_tests lodfade 6 fails, D3D9 spot_cookie startup fail).
+- 2026-10-15 17:22 owner: WHEEL3 → research only (no code): neighbour-coupled spokes, lateral spoke motion with resistance; doc tyre-model-research.md.
+- 2026-10-15 17:24 tick: GRASSGPU A+C done (wind Perlin gusts in shaders), B instancing in progress; FXWATER water rework committed (vehicle 142/142), capturing; HUNTNOTES started; WHEEL3 research started. REGRESS waiting for a slot. Disk 58 GB.
+- 2026-10-15 17:30 owner: REGRESS on hold.
+- 2026-10-15 17:37 owner: grass slider back to 0–300 % with 300 % reaching 1.5–2x the old 300 % (same amount, stretched tail); remove near-camera no-grass hack → sent to GRASSGPU.
+- 2026-10-15 17:44 tick: GRASSGPU B instanced path works (draws 75→35, VS constants 282→14 KB/frame, CPU 0.15→0.08 ms), owner correction acknowledged; FXWATER capturing; HUNTNOTES code+tests done (hunt_stock_rope winch fail pre-existing → REGRESS list); WHEEL3 researching. Disk 54 GB.
+- 2026-10-15 17:50 HUNTNOTES merged (1d74993c41).
