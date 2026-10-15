@@ -15752,1085 +15752,6 @@ window.PEREGON_RUNS = [
   "source_commit": "a2da8b1fa"
  },
  {
-  "latest": "017",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "2540",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "3713530526",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "ff69a482",
-      "win32": "ff69a482"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:21:30Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "ff69a482",
-       "frame_time_ms": {
-        "avg": 0.074,
-        "max": 12.079,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-adc30329f96b9f5a3/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "b0dc5083",
-        "length_ticks": 2511
-       },
-       "seed": 20261007,
-       "ticks": 2540,
-       "timescale": 0.0,
-       "wall_time_ms": 188.507
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ff69a482",
-       "frame_time_ms": {
-        "avg": 1.843,
-        "max": 869.299,
-        "min": 0.843
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "b0dc5083",
-        "length_ticks": 2511
-       },
-       "seed": 20261007,
-       "ticks": 2540,
-       "timescale": 0.0,
-       "wall_time_ms": 4684.732
-      }
-     }
-    },
-    "run": "017",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "452a50926b",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T15:08:45Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.075,
-        "max": 9.032,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 126.975
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 1.957,
-        "max": 817.326,
-        "min": 0.845
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 3290.063
-      }
-     }
-    },
-    "run": "014",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "452a50926b",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T14:53:47Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.077,
-        "max": 8.012,
-        "min": 0.038
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 130.006
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 2.504,
-        "max": 916.973,
-        "min": 0.87
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 4209.43
-      }
-     }
-    },
-    "run": "013",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "452a50926",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T14:38:24Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.077,
-        "max": 9.131,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 130.899
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 2.816,
-        "max": 1978.62,
-        "min": 0.871
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 4733.769
-      }
-     }
-    },
-    "run": "012",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "17d74f6c2",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T14:21:17Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.086,
-        "max": 8.154,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 145.447
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 3.737,
-        "max": 139.168,
-        "min": 0.87
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 6282.071
-      }
-     }
-    },
-    "run": "011",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "17d74f6c2",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T14:04:40Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.093,
-        "max": 8.214,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 157.33
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 4.223,
-        "max": 154.943,
-        "min": 0.873
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 7098.421
-      }
-     }
-    },
-    "run": "010",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "17d74f6c2",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T13:53:19Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.07,
-        "max": 8.009,
-        "min": 0.035
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 118.666
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 1.499,
-        "max": 82.346,
-        "min": 0.826
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 2521.013
-      }
-     }
-    },
-    "run": "009",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "8731bee1c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T13:44:05Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.086,
-        "max": 9.05,
-        "min": 0.038
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 145.632
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 1.812,
-        "max": 77.087,
-        "min": 0.839
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 3047.47
-      }
-     }
-    },
-    "run": "008",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "8731bee1c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T13:42:46Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.078,
-        "max": 9.6,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 131.125
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 1.694,
-        "max": 95.757,
-        "min": 0.857
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 2848.389
-      }
-     }
-    },
-    "run": "007",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "8731bee1c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T13:40:36Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.073,
-        "max": 8.206,
-        "min": 0.038
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 123.65
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 1.786,
-        "max": 242.354,
-        "min": 0.857
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 3002.618
-      }
-     }
-    },
-    "run": "006",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "2d8d9b198",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T13:38:52Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.086,
-        "max": 10.111,
-        "min": 0.038
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 144.832
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 1.558,
-        "max": 78.247,
-        "min": 0.86
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 2620.108
-      }
-     }
-    },
-    "run": "005",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "4b5f485e3",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dccfce2d",
-      "win32": "dccfce2d"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T13:28:29Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.084,
-        "max": 8.519,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 141.794
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 1.884,
-        "max": 114.133,
-        "min": 0.865
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 3169.441
-      }
-     }
-    },
-    "run": "004",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "0c7a94d42",
-    "compare": {
-     "final_state_hash": null,
-     "status": "error"
-    },
-    "date": "2026-10-07T13:25:20Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.095,
-        "max": 31.14,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 161.287
-      }
-     },
-     "win32": {
-      "exit_code": 137,
-      "metrics": null
-     }
-    },
-    "run": "003",
-    "status": "failed"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--capture",
-     "1180,1560",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "native": {
-       "image_hash": "a9ab7212",
-       "src": "shots/scene_w11_audio/002/native/tick_001180.jpg",
-       "state_hash": "100c856f"
-      },
-      "tick": 1180
-     },
-     {
-      "native": {
-       "image_hash": "7cb1c23b",
-       "src": "shots/scene_w11_audio/002/native/tick_001560.jpg",
-       "state_hash": "e717ed5f"
-      },
-      "tick": 1560
-     }
-    ],
-    "commit": "0c7a94d42",
-    "compare": {
-     "final_state_hash": null,
-     "status": "error"
-    },
-    "date": "2026-10-07T13:23:41Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.303,
-        "max": 163.554,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 509.227
-      }
-     },
-     "win32": {
-      "exit_code": 137,
-      "metrics": null
-     }
-    },
-    "run": "002",
-    "status": "failed"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "1680",
-     "--capture",
-     "450,1180,1560",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "native": {
-       "image_hash": "b8b8afa0",
-       "src": "shots/scene_w11_audio/001/native/tick_000450.jpg",
-       "state_hash": "7d345d75"
-      },
-      "tick": 450
-     },
-     {
-      "native": {
-       "image_hash": "a9ab7212",
-       "src": "shots/scene_w11_audio/001/native/tick_001180.jpg",
-       "state_hash": "100c856f"
-      },
-      "tick": 1180
-     },
-     {
-      "native": {
-       "image_hash": "7cb1c23b",
-       "src": "shots/scene_w11_audio/001/native/tick_001560.jpg",
-       "state_hash": "e717ed5f"
-      },
-      "tick": 1560
-     }
-    ],
-    "commit": "df2b40ff9",
-    "compare": {
-     "final_state_hash": null,
-     "status": "error"
-    },
-    "date": "2026-10-07T12:59:51Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dccfce2d",
-       "frame_time_ms": {
-        "avg": 0.59,
-        "max": 220.284,
-        "min": 0.037
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
-        "format": "text1",
-        "hash": "eede13b6",
-        "length_ticks": 1651
-       },
-       "seed": 20261007,
-       "ticks": 1680,
-       "timescale": 0.0,
-       "wall_time_ms": 992.7
-      }
-     },
-     "win32": {
-      "exit_code": 137,
-      "metrics": null
-     }
-    },
-    "run": "001",
-    "status": "failed"
-   }
-  ],
-  "scene": "scene_w11_audio",
-  "source": "games/peregon/src/game/scene_w11_audio.cpp",
-  "source_commit": "878652d25"
- },
- {
   "latest": "006",
   "merged": "2026-10-12 22:49",
   "merged_commit": "c2b1507a9",
@@ -30987,5 +29908,1084 @@ window.PEREGON_RUNS = [
   "scene": "scene_w9_cargo",
   "source": "games/peregon/src/game/scene_w9_cargo.cpp",
   "source_commit": "7a0be6c0c"
+ },
+ {
+  "latest": "017",
+  "merged": "2026-10-15 06:41",
+  "merged_commit": "8a4ba53d8",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "2540",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "3713530526",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "ff69a482",
+      "win32": "ff69a482"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:21:30Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "ff69a482",
+       "frame_time_ms": {
+        "avg": 0.074,
+        "max": 12.079,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-adc30329f96b9f5a3/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "b0dc5083",
+        "length_ticks": 2511
+       },
+       "seed": 20261007,
+       "ticks": 2540,
+       "timescale": 0.0,
+       "wall_time_ms": 188.507
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ff69a482",
+       "frame_time_ms": {
+        "avg": 1.843,
+        "max": 869.299,
+        "min": 0.843
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "b0dc5083",
+        "length_ticks": 2511
+       },
+       "seed": 20261007,
+       "ticks": 2540,
+       "timescale": 0.0,
+       "wall_time_ms": 4684.732
+      }
+     }
+    },
+    "run": "017",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "452a50926b",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T15:08:45Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.075,
+        "max": 9.032,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 126.975
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 1.957,
+        "max": 817.326,
+        "min": 0.845
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 3290.063
+      }
+     }
+    },
+    "run": "014",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "452a50926b",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T14:53:47Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.077,
+        "max": 8.012,
+        "min": 0.038
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 130.006
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 2.504,
+        "max": 916.973,
+        "min": 0.87
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 4209.43
+      }
+     }
+    },
+    "run": "013",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "452a50926",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T14:38:24Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.077,
+        "max": 9.131,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 130.899
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 2.816,
+        "max": 1978.62,
+        "min": 0.871
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 4733.769
+      }
+     }
+    },
+    "run": "012",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "17d74f6c2",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T14:21:17Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.086,
+        "max": 8.154,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 145.447
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 3.737,
+        "max": 139.168,
+        "min": 0.87
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 6282.071
+      }
+     }
+    },
+    "run": "011",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "17d74f6c2",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T14:04:40Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.093,
+        "max": 8.214,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 157.33
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 4.223,
+        "max": 154.943,
+        "min": 0.873
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 7098.421
+      }
+     }
+    },
+    "run": "010",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "17d74f6c2",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T13:53:19Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.07,
+        "max": 8.009,
+        "min": 0.035
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 118.666
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 1.499,
+        "max": 82.346,
+        "min": 0.826
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 2521.013
+      }
+     }
+    },
+    "run": "009",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "8731bee1c",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T13:44:05Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.086,
+        "max": 9.05,
+        "min": 0.038
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 145.632
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 1.812,
+        "max": 77.087,
+        "min": 0.839
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 3047.47
+      }
+     }
+    },
+    "run": "008",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "8731bee1c",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T13:42:46Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.078,
+        "max": 9.6,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 131.125
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 1.694,
+        "max": 95.757,
+        "min": 0.857
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 2848.389
+      }
+     }
+    },
+    "run": "007",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "8731bee1c",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T13:40:36Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.073,
+        "max": 8.206,
+        "min": 0.038
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 123.65
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 1.786,
+        "max": 242.354,
+        "min": 0.857
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 3002.618
+      }
+     }
+    },
+    "run": "006",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "2d8d9b198",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T13:38:52Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.086,
+        "max": 10.111,
+        "min": 0.038
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 144.832
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 1.558,
+        "max": 78.247,
+        "min": 0.86
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 2620.108
+      }
+     }
+    },
+    "run": "005",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "4b5f485e3",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dccfce2d",
+      "win32": "dccfce2d"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T13:28:29Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.084,
+        "max": 8.519,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 141.794
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 1.884,
+        "max": 114.133,
+        "min": 0.865
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 3169.441
+      }
+     }
+    },
+    "run": "004",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "0c7a94d42",
+    "compare": {
+     "final_state_hash": null,
+     "status": "error"
+    },
+    "date": "2026-10-07T13:25:20Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.095,
+        "max": 31.14,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 161.287
+      }
+     },
+     "win32": {
+      "exit_code": 137,
+      "metrics": null
+     }
+    },
+    "run": "003",
+    "status": "failed"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--capture",
+     "1180,1560",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "native": {
+       "image_hash": "a9ab7212",
+       "src": "shots/scene_w11_audio/002/native/tick_001180.jpg",
+       "state_hash": "100c856f"
+      },
+      "tick": 1180
+     },
+     {
+      "native": {
+       "image_hash": "7cb1c23b",
+       "src": "shots/scene_w11_audio/002/native/tick_001560.jpg",
+       "state_hash": "e717ed5f"
+      },
+      "tick": 1560
+     }
+    ],
+    "commit": "0c7a94d42",
+    "compare": {
+     "final_state_hash": null,
+     "status": "error"
+    },
+    "date": "2026-10-07T13:23:41Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.303,
+        "max": 163.554,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 509.227
+      }
+     },
+     "win32": {
+      "exit_code": 137,
+      "metrics": null
+     }
+    },
+    "run": "002",
+    "status": "failed"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "1680",
+     "--capture",
+     "450,1180,1560",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "native": {
+       "image_hash": "b8b8afa0",
+       "src": "shots/scene_w11_audio/001/native/tick_000450.jpg",
+       "state_hash": "7d345d75"
+      },
+      "tick": 450
+     },
+     {
+      "native": {
+       "image_hash": "a9ab7212",
+       "src": "shots/scene_w11_audio/001/native/tick_001180.jpg",
+       "state_hash": "100c856f"
+      },
+      "tick": 1180
+     },
+     {
+      "native": {
+       "image_hash": "7cb1c23b",
+       "src": "shots/scene_w11_audio/001/native/tick_001560.jpg",
+       "state_hash": "e717ed5f"
+      },
+      "tick": 1560
+     }
+    ],
+    "commit": "df2b40ff9",
+    "compare": {
+     "final_state_hash": null,
+     "status": "error"
+    },
+    "date": "2026-10-07T12:59:51Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dccfce2d",
+       "frame_time_ms": {
+        "avg": 0.59,
+        "max": 220.284,
+        "min": 0.037
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a2696f41755481fd4/games/peregon/tools/replays/scene_w11_audio.txt",
+        "format": "text1",
+        "hash": "eede13b6",
+        "length_ticks": 1651
+       },
+       "seed": 20261007,
+       "ticks": 1680,
+       "timescale": 0.0,
+       "wall_time_ms": 992.7
+      }
+     },
+     "win32": {
+      "exit_code": 137,
+      "metrics": null
+     }
+    },
+    "run": "001",
+    "status": "failed"
+   }
+  ],
+  "scene": "scene_w11_audio",
+  "source": "games/peregon/src/game/scene_w11_audio.cpp",
+  "source_commit": "04719efe1"
  }
 ];

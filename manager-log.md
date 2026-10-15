@@ -816,3 +816,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 06:25 disk 40 GB → removed stale compile trees win64-debug/shovel/res (Oct 10-12) in the main checkout; release builds, crash dump and maps kept.
 - 2026-10-15 06:26 RADIO merged (17f823c3e5, protocol 21). SKILLS started. PERFB pass 2 cumulative vs HEAD at 4K ≥1.5x in all seasons (summer 1.63, autumn 1.73, winter 1.82, blizzard road 2.60) — asked to land it separately before the GPU path.
 - 2026-10-15 06:33 PERF pass 2 landed (f2444c4f8d): target met, 4K 1.50-4.50x vs HEAD, 1080p 1.59-5.50x. PERFB continues the D3D12 GPU surface path.
+- 2026-10-15 06:39 UI finished (2c55a4905d), sent back for a short rebase onto pass 2. VISUAL started (perf target met). Note: for the few minutes of UI's rebase 5 agents run at once (UI rebase-only) — over the owner's limit of 4; no new agent until UI lands.
+- 2026-10-15 06:43 UI merged (8a4ba53d80); pool back to 4 (PERFB, SKI, SKILLS, VISUAL); queue empty.
