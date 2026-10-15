@@ -812,3 +812,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-15 03:18 MAPNAV merged (36ad24c6bd), fixed the journal labels too; HUNT started; UI told to rebase on 36ad24c6bd.
 - 2026-10-15 04:59 Published: PeregonInfo pushed via SSH (HTTPS credential helper failed; push URL set to SSH), parent pushed 6e43ffe37a after merging the owner's remote doc commit bf977f8c73 (surface-streaming handoff). Handoff says CPU snow-mesh reconstruction was rejected; PERF pass 1 kept it on D3D12 → PERFB redirected to the D3D12 GPU path per handoff §3; PHYSICS told to use Field APIs only.
 - 2026-10-15 05:29 HUNT merged (4bf466a1d7). PHYSICS finished (21d72cc4db) — rebasing onto HUNT. RADIO started. Disk 46 GB.
+- 2026-10-15 05:33 PHYSICS merged (21324921a7, protocol 20); SKI started.
