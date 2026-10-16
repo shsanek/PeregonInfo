@@ -952,3 +952,7 @@ One line per decision. Times are local (Mac).
 2026-10-16 09:19 disk cleanup: removed waterwave worktree build (9.3G, branch kept pushed), truckart bin_look copy (2.8G), finished scratch GRASS/SKI/GIPERF/CABWHEEL/WATERWAVE/GRASSCRUSH (~1.9G)
 2026-10-16 09:29 tick: map-bake held by CAMPBLEND (baseline worktree bake, to 09:54, valid); TRUCKART round2 all 9 points coded, rebaking; IOAUDIT long-route matrix still running (status 1h old, process alive); disk 54 GB
 2026-10-16 09:40 NORTHROAD merged ff 2d5a8fd56f (gravel road along Olkhovka, white stripe fixed, main map refreshed by copy, fresh check OK)
+2026-10-16 09:40 5 agents running (TRUCKART, IOAUDIT, ICEHOLE, CAMPBLEND, BUNKER); free slot -> REGRESS2 (BEAR waits BUNKER, TRUCKDIRT waits TRUCKART)
+2026-10-16 09:41 REGRESS2 started a26a2ce4bf9964c0c (icefish tags only minimal, ICEHOLE owns ice fishing)
+2026-10-16 09:49 tick: no locks; CAMPBLEND baseline bake done, BEFORE captures; BUNKER layout blueprint PASS; TRUCKART round2 rebake; IOAUDIT status stale 1h20 -> asked for status/ETA; disk 60 GB
+2026-10-16 10:19 IOAUDIT merged ff 69585dada6 (map mmap once, shared tile cache, half-RAM lazy budget, ruts near stay in RAM); launch 1690->6 MB, 86 km route 16.4 GB->27 MB
