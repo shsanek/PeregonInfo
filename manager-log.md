@@ -930,3 +930,18 @@ One line per decision. Times are local (Mac).
 - 2026-10-16 06:51 tick: NORTHFIX main bake done, tests green, paper map; RADIOREGION region rows 49-51 + mast + quest written, bake waits; TRUCKART silent 70 min → status asked; WATERWAVE look build with owner; IOAUDIT started. Disk 69 GB.
 - 2026-10-16 06:52 owner playtest WATERWAVE: hood film stripes, cab water ignores gravity when overturned, cab water = blue box → sent back to WATERWAVE; new subtask ICEHOLE queued.
 - 2026-10-16 06:57 NORTHFIX merged (f761604c73: map rebake main+worktree, bog 11/11, nature 24 habitats, sign arrow left, hard-link stamp fix); owner: cab flooding must be physical voxel flow through openings (Δh, opening area, angle) → sent to WATERWAVE.
+- 2026-10-16 06:58 NORTHSTART+NORTHFIX reported; owner: voxel water only local around the truck while in water (non-persistent), coupled with waves and blended smoothly into the big water → sent to WATERWAVE.
+- 2026-10-16 07:04 owner: start route must be a real track along the river (only an 18 m river meadow was painted) → NORTHROAD queued top priority.
+- 2026-10-16 07:05 owner: start clearing position is exactly right — keep it; only add the river track.
+- 2026-10-16 07:06 owner: the river route = a gravel road on the slope along the Olkhovka.
+- 2026-10-16 07:07 owner bug: white right-angled stripe from the start to the bogs on the map → added to NORTHROAD.
+- 2026-10-16 07:07 tick: no locks; RADIOREGION told the bake lock is free (rebase first); WATERWAVE fixing feedback; TRUCKART rebaking maps; IOAUDIT reading. Disk 81 GB.
+- 2026-10-16 07:22 owner: economise screenshots (rule added); wants interim truck look → TRUCKART asked for 3 interim renders.
+- 2026-10-16 07:27 tick: RADIOREGION holds map-bake (valid until 07:39); IOAUDIT found 1.69 GB/launch = 40 MB pak re-read 38× (RegionStatic/collect_power/fauna/init prime decode 9 tiles per tile); WATERWAVE fixing; TRUCKART interim sent to owner. Disk 79 GB.
+- 2026-10-16 07:47 tick: no locks; RADIOREGION baked (rail/grade checks OK), tests next; WATERWAVE committed world-space voxel cab flooding + per-opening flows (07:45); IOAUDIT fixing pak re-reads; TRUCKART tuning. Disk 78 GB.
+- 2026-10-16 07:55 WATERWAVE look2 (e802cdf283) launched for owner in free play (shadow cache baking ~6 min); agent continues with the outside voxel layer + seamless blend.
+- 2026-10-16 08:07 tick: RADIOREGION re-baking (lock valid until 08:18); IOAUDIT shared tile cache + lazy RAM caches + LazyBudget: 10-min drive I/O 4160 → 62 MB; TRUCKART final rebake (rust mip bug fixed); WATERWAVE on outside voxels. Disk 77 GB.
+- 2026-10-16 08:11 owner: stop water work, commit+push, keep on branch (unmerged).
+- 2026-10-16 08:13 WATERWAVE stopped, branch pushed (313b95baca, unmerged; worktree kept while owner may run bin_look2); NORTHROAD started.
+- 2026-10-16 08:27 tick: no locks; IOAUDIT launch reads 1694→6 MB, 10-min drive 4190→8 MB, tests green, long-route matrix running; RADIOREGION tests/shots; TRUCKART final rebake; NORTHROAD reading. Owner viewing WATERWAVE draft (bin_look3). Disk 72 GB.
+2026-10-16 08:47 RADIOREGION merged ff 121183b3ba (Pleshivaya, RRS mast, Karlych, bunker portal, quest chain to radiogram); main map rebake deferred to NORTHROAD final bake (rebase on new window 64,36,84,51)
