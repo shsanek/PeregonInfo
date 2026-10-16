@@ -974,3 +974,9 @@ One line per decision. Times are local (Mac).
 2026-10-16 12:11 IOFIX merged ff 03b6075beb (IO-B3..B6, Memory tab); IO-B7 long route -> overnight PERFBENCH2 list
 2026-10-16 12:30 tick: map-bake RIDGEDIRT (second worktree bake to 12:54, valid); BEAR boss integrated in game (arena + portal lair); BUNKER look launched for owner; TRUCKART rebake (status 55 min old, within rebake ETA); TRUCKDIRT round2; disk 54 GB
 2026-10-16 12:43 BUNKER merged ff b476bd65ef (owner liked it); protocol 29
+2026-10-16 12:50 tick: RIDGEDIRT 4th worktree bake -> told to converge; TRUCKART round3 stage50 committed 8a2d2d6ecb, tests running; TRUCKDIRT look2 launched for owner; BEAR rebasing on BUNKER; disk 60 GB
+2026-10-16 13:06 owner: TRUCKART round3 accepted as is (antenna through windscreen + door flicker -> later backlog TA-B1/B2); agent asked to rebase on ebcea35d0a for merge
+2026-10-16 13:11 tick: no locks; owner testing CAMPBLEND (shadow bake on launch); TRUCKART rebasing for merge then TA-B1/B2; BEAR rebasing on BUNKER; RIDGEDIRT converging; TRUCKDIRT waits TRUCKART; disk 63 GB
+2026-10-16 13:21 owner: merged claude/peregon-design (ebcea35d0a) + work/peregon-truckart (8bb54ab41f) into claude/peregon-nordic (owner's 27213bb264) as 18de914004 in main checkout; building build/win64-release for owner run with --remap nordic. Main checkout temporarily on claude/peregon-nordic
+2026-10-16 13:25 owner approved CAMPBLEND Sawmill; merge after rebase; no rollout; main map rebake combined with RIDGEDIRT
+2026-10-16 13:27 owner: merged claude/peregon-nordic into claude/peregon-design (ff to 18de914004 incl. TRUCKART 8bb54ab41f); D3D9 out of scope, D3D12 only
