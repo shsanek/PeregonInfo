@@ -945,3 +945,10 @@ One line per decision. Times are local (Mac).
 - 2026-10-16 08:13 WATERWAVE stopped, branch pushed (313b95baca, unmerged; worktree kept while owner may run bin_look2); NORTHROAD started.
 - 2026-10-16 08:27 tick: no locks; IOAUDIT launch reads 1694→6 MB, 10-min drive 4190→8 MB, tests green, long-route matrix running; RADIOREGION tests/shots; TRUCKART final rebake; NORTHROAD reading. Owner viewing WATERWAVE draft (bin_look3). Disk 72 GB.
 2026-10-16 08:47 RADIOREGION merged ff 121183b3ba (Pleshivaya, RRS mast, Karlych, bunker portal, quest chain to radiogram); main map rebake deferred to NORTHROAD final bake (rebase on new window 64,36,84,51)
+2026-10-16 08:49 TRUCKART not merged: owner 9-point feedback (black headlights/badge, baked door hardware, fake hood vents -> real louvres on hood, rim texture, squashed tyre bead, antenna on driver A-pillar, A-pillar/roof topology, rust back on lower sides, residual door black strips) sent to same agent; ICEHOLE started a72d400a56b5de8be; TRUCKDIRT queued after TRUCKART
+2026-10-16 08:54 owner: CAMPBLEND queued (smooth camp-to-terrain blend, ground undulation, ruts/paths; Sawmill first, owner looks before other camps); next free slot, after NORTHROAD merge preferred
+2026-10-16 09:01 owner raised agent limit 4->6; started CAMPBLEND a8e130b68410372a8 and BUNKER ac206510e1bdb5f2a
+2026-10-16 09:14 tick: no locks; NORTHROAD worktree bake PASS f6a27edfb2 on new window; TRUCKART round2 rebasing; ICEHOLE reading; CAMPBLEND/BUNKER starting; IOAUDIT long-route matrix; disk 59 GB (-16 GB/30 min) -> auditing build dirs
+2026-10-16 09:19 disk cleanup: removed waterwave worktree build (9.3G, branch kept pushed), truckart bin_look copy (2.8G), finished scratch GRASS/SKI/GIPERF/CABWHEEL/WATERWAVE/GRASSCRUSH (~1.9G)
+2026-10-16 09:29 tick: map-bake held by CAMPBLEND (baseline worktree bake, to 09:54, valid); TRUCKART round2 all 9 points coded, rebaking; IOAUDIT long-route matrix still running (status 1h old, process alive); disk 54 GB
+2026-10-16 09:40 NORTHROAD merged ff 2d5a8fd56f (gravel road along Olkhovka, white stripe fixed, main map refreshed by copy, fresh check OK)
