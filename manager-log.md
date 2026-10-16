@@ -909,3 +909,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-16 02:51 DISK FULL (309 MB): two agents built all targets (32–33 GB each). Freed: scratch PERFB/PERFBENCH/VISUAL/WATERREFL/GRASSBEND, 88 test exes in main win64-release → 61 GB; CABWHEEL and NORTHSTART told to prune; rule added (targets only).
 - 2026-10-16 03:08 tick: CABWHEEL fittings bought at mechanic + migration committed; DROWSY model+nap committed (survival 39/39); NORTHSTART pruned to 6 GB; GRASSCRUSH 33 GB + silent 45 min → prune + status requested. Disk 58 GB.
 - 2026-10-16 03:26 DROWSY merged (b6f298beba, protocol 26), reported; GIPERF started.
+- 2026-10-16 03:28 tick: no locks; GRASSCRUSH crush byte in RutCell + D3D12 crush map; CABWHEEL Blender next; NORTHSTART map work (no status 35 min); GIPERF starting. Disk 95 GB.
+- 2026-10-16 03:46 tick: no locks; GRASSCRUSH tests (crush map 0.019 ms, +0.03–0.045 ms GPU); CABWHEEL stage46/47 models committed; NORTHSTART map baked (273 tiles), bog_tests 11/11; GIPERF profile: probe update 15–26 ms, capture 5–10, sampling 2.5–3.7. Disk 83 GB.
+- 2026-10-16 03:50 GRASSCRUSH merged (48e81d148c), reported; TREESHADOW started.
