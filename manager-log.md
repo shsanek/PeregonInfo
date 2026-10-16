@@ -972,3 +972,5 @@ One line per decision. Times are local (Mac).
 2026-10-16 11:54 owner: no new tasks, finish current ones; freed slots stay empty
 2026-10-16 12:06 owner TRUCKDIRT feedback (mud crawls with orientation, wet gloss, window wipe/roll cleaning, open-window interior dirt, bucket wash mini-game, volumetric arch clumps) sent to same agent
 2026-10-16 12:11 IOFIX merged ff 03b6075beb (IO-B3..B6, Memory tab); IO-B7 long route -> overnight PERFBENCH2 list
+2026-10-16 12:30 tick: map-bake RIDGEDIRT (second worktree bake to 12:54, valid); BEAR boss integrated in game (arena + portal lair); BUNKER look launched for owner; TRUCKART rebake (status 55 min old, within rebake ETA); TRUCKDIRT round2; disk 54 GB
+2026-10-16 12:43 BUNKER merged ff b476bd65ef (owner liked it); protocol 29
