@@ -980,3 +980,5 @@ One line per decision. Times are local (Mac).
 2026-10-16 13:21 owner: merged claude/peregon-design (ebcea35d0a) + work/peregon-truckart (8bb54ab41f) into claude/peregon-nordic (owner's 27213bb264) as 18de914004 in main checkout; building build/win64-release for owner run with --remap nordic. Main checkout temporarily on claude/peregon-nordic
 2026-10-16 13:25 owner approved CAMPBLEND Sawmill; merge after rebase; no rollout; main map rebake combined with RIDGEDIRT
 2026-10-16 13:27 owner: merged claude/peregon-nordic into claude/peregon-design (ff to 18de914004 incl. TRUCKART 8bb54ab41f); D3D9 out of scope, D3D12 only
+2026-10-16 13:42 owner: STOP — loop off, agents told to commit/push/handoff/stop; manager handoff in gamu/agents/HANDOFF_MANAGER.md
+2026-10-16 13:46 all 5 agents stopped with handoffs; branches pushed (bear 11aafb6fd1, campblend 4a6e045c4d, truckdirt 3f379b983e, ridgedirt 44bb833d0e, truckart 3b4f7b26fc)
