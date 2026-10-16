@@ -47,6 +47,7 @@
 - [cab-interior · 1](cab-interior-b786dee1-001.md) — 14
 - [cabin40 · 1](cabin40-4b119754-001.md) — 2
 - [cabnight · 1](cabnight-ab301f4a-001.md) — 11
+- [cabwheel · 1](cabwheel-e7cb9ef3-001.md) — 8
 - [cargo · 1](cargo-3322532d-001.md) — 12
 - [cg1 · 1](cg1-1affe40f-001.md) — 8
 - [chargen · 1](chargen-1dcdc1d4-001.md) — 16

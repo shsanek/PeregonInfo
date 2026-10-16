@@ -912,3 +912,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-16 03:28 tick: no locks; GRASSCRUSH crush byte in RutCell + D3D12 crush map; CABWHEEL Blender next; NORTHSTART map work (no status 35 min); GIPERF starting. Disk 95 GB.
 - 2026-10-16 03:46 tick: no locks; GRASSCRUSH tests (crush map 0.019 ms, +0.03–0.045 ms GPU); CABWHEEL stage46/47 models committed; NORTHSTART map baked (273 tiles), bog_tests 11/11; GIPERF profile: probe update 15–26 ms, capture 5–10, sampling 2.5–3.7. Disk 83 GB.
 - 2026-10-16 03:50 GRASSCRUSH merged (48e81d148c), reported; TREESHADOW started.
+- 2026-10-16 04:06 tick: NORTHSTART holds map-bake (valid until 04:28); CABWHEEL tests green, evidence+rebase; GIPERF step 1: GI 22–31 → 4.1–5.7 ms/frame offline, identical texels; TREESHADOW baseline built. Disk 83 GB.
+- 2026-10-16 04:14 CABWHEEL merged (40e4f07e8d); W-B16 kept 0.12 rim width in physics (manager decision); WATERWAVE started.
