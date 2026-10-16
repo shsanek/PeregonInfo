@@ -965,3 +965,10 @@ One line per decision. Times are local (Mac).
 2026-10-16 11:01 CAMPBLEND finished ac64323cfd (Sawmill only), not merged until owner verdict; BEAR started a8a9ad71c5042d188 (arena-first, lair after BUNKER)
 2026-10-16 11:10 tick: no locks; BUNKER look ffe842465b reviewed: dark+torch ok, rooms empty -> dressing/torch falloff/wet floors/flooded water requested; REGRESS2 rebasing on ICEHOLE; IOFIX B3-B6 coded; TRUCKART round3; TRUCKDIRT studying; BEAR starting; disk 54 GB
 2026-10-16 11:15 REGRESS2 merged ff befa868a8b (sun shafts slot2, free-wheel hold, coop_seats/character tests)
+2026-10-16 11:29 tick: IOFIX held perf-measure for ~90 min long runs -> told to release and measure bytes unlocked (owner playing, machine not idle); IO-B7 idle re-measure moved to overnight PERFBENCH2; TRUCKART paused by lock, told to resume after release; BUNKER portal pad ok at doors/parking (outer corners only)
+2026-10-16 11:35 owner upset at long perf lock: COMMON_RULES now caps perf-measure lock at 10 min, long runs need manager approval, non-timing metrics unlocked, >15 min lock wait -> message manager
+2026-10-16 11:38 owner: RIDGEDIRT started afc4e26384c3b9f12 (ridge road to dirt class, hard to drive)
+2026-10-16 11:50 tick: no locks; IOFIX long run gone (killed); TRUCKART round3 rebake (antenna whip, cowl fair, door gaps, handbrake flat, white badge, ghosts); BEAR core boss_tests 16/16; BUNKER dressing; RIDGEDIRT starting; disk 50 GB
+2026-10-16 11:54 owner: no new tasks, finish current ones; freed slots stay empty
+2026-10-16 12:06 owner TRUCKDIRT feedback (mud crawls with orientation, wet gloss, window wipe/roll cleaning, open-window interior dirt, bucket wash mini-game, volumetric arch clumps) sent to same agent
+2026-10-16 12:11 IOFIX merged ff 03b6075beb (IO-B3..B6, Memory tab); IO-B7 long route -> overnight PERFBENCH2 list
