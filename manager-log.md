@@ -986,3 +986,6 @@ One line per decision. Times are local (Mac).
 2026-10-16 15:09 CAMPBLEND merged c9bd6c29bf (ff; poi/map/world/play_cargo/play_story green); worktree removed; bin_look copies + Codex perf build + old scratch deleted, disk 22→45 GB
 2026-10-16 15:11 owner: 20-min manager loop ON (cron)
 2026-10-16 15:21 TRUCKDIRT merged 85f03b8843 (ff; 8 modules green; GPU cost < noise, CPU 175 us/6 ticks in mud); worktree removed
+2026-10-16 15:36 owner: new task UISHEET — screenshots + RU descriptions of every key UI screen for an external designer (gamu/evidence/UISHEET + zip)
+2026-10-16 15:43 BEAR READY FOR LOOK 64b0e584a8 (bluff vs strong charges, strong 0.4/min telegraphed 2.1 s; 9 modules green); bin_look prepared in agent-a8a9ad71c5042d188/build/win64-bear
+2026-10-16 15:47 RIDGEDIRT merged 69d3b332e2 (ff; all suites + powerline/rail/grade OK); worktree removed; main-checkout map rebake (Sawmill + ridge) deferred until UISHEET stops reading build/map/r1

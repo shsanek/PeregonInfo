@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "85f03b8843f0da223fd189092792f47ad170e8f7",
-  "changes_covered_commit": "85f03b8843f0da223fd189092792f47ad170e8f7",
-  "entries": 321,
+  "source_commit": "69d3b332e215162da21aa2ce4dd8ccb3012e87f9",
+  "changes_covered_commit": "69d3b332e215162da21aa2ce4dd8ccb3012e87f9",
+  "entries": 322,
   "model_groups": 8,
-  "images": 9800,
+  "images": 9804,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -222,6 +222,7 @@
     "gallery/region-c697d298-001.md",
     "gallery/region-c697d298-002.md",
     "gallery/regress-2c0f0174-001.md",
+    "gallery/ridgedirt-e2f443c6-001.md",
     "gallery/river-ice-q8-9db87a51-001.md",
     "gallery/rt-shadows-rt1-c65f64d0-001.md",
     "gallery/rut1-0b74db39-001.md",
