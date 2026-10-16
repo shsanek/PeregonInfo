@@ -982,3 +982,5 @@ One line per decision. Times are local (Mac).
 2026-10-16 13:27 owner: merged claude/peregon-nordic into claude/peregon-design (ff to 18de914004 incl. TRUCKART 8bb54ab41f); D3D9 out of scope, D3D12 only
 2026-10-16 13:42 owner: STOP — loop off, agents told to commit/push/handoff/stop; manager handoff in gamu/agents/HANDOFF_MANAGER.md
 2026-10-16 13:46 all 5 agents stopped with handoffs; branches pushed (bear 11aafb6fd1, campblend 4a6e045c4d, truckdirt 3f379b983e, ridgedirt 44bb833d0e, truckart 3b4f7b26fc)
+2026-10-16 15:00 owner: доделать остановленные — перезапущены CAMPBLEND, RIDGEDIRT, TRUCKDIRT, BEAR, TRUCKART р.4 в их прежних worktree; новая задача NORDICFIX (лес: LOD0 пака удалить вместе с текстурами, LOD1→LOD0, новый LOD1 в Blender; камни с LOD2, стоковые gb_boulder_m/l и gb_rock_boulder_s/m/l/xl, камыши/рогоз — база; цвет травы ближе к гамме деревьев). 6 агентов, диск 26 ГБ.
+2026-10-16 15:09 CAMPBLEND merged c9bd6c29bf (ff; poi/map/world/play_cargo/play_story green); worktree removed; bin_look copies + Codex perf build + old scratch deleted, disk 22→45 GB
