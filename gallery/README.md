@@ -66,6 +66,7 @@
 - [dig_sh2 · 1](dig-sh2-688c5809-001.md) — 16
 - [drowsy · 1](drowsy-8978c132-001.md) — 4
 - [elevator · 1](elevator-41762bcf-001.md) — 25
+- [elevatorlived · 1](elevatorlived-458f6dfc-001.md) — 12
 - [farm_q4 · 1](farm-q4-9a00c981-001.md) — 18
 - [farmlived · 1](farmlived-a3df3434-001.md) — 9
 - [fauna · 1](fauna-0d9214fb-001.md) — 34
