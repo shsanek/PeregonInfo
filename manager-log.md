@@ -905,3 +905,7 @@ One line per decision. Times are local (Mac).
 - 2026-10-16 01:46 tick: PERFBENCH 6/8 runs done, lock valid, end ~02:20.
 - 2026-10-16 02:06 tick: PERFBENCH last main run (lock until 02:09), then GI-off extras.
 - 2026-10-16 02:20 PERFBENCH merged (c3dea4c73d) + report; phase 2 started: GRASSCRUSH, CABWHEEL, NORTHSTART, DROWSY; GIPERF queued as priority 5.
+- 2026-10-16 02:26 tick: no locks; 4 phase-2 agents started and reading code. Disk 76 GB.
+- 2026-10-16 02:51 DISK FULL (309 MB): two agents built all targets (32–33 GB each). Freed: scratch PERFB/PERFBENCH/VISUAL/WATERREFL/GRASSBEND, 88 test exes in main win64-release → 61 GB; CABWHEEL and NORTHSTART told to prune; rule added (targets only).
+- 2026-10-16 03:08 tick: CABWHEEL fittings bought at mechanic + migration committed; DROWSY model+nap committed (survival 39/39); NORTHSTART pruned to 6 GB; GRASSCRUSH 33 GB + silent 45 min → prune + status requested. Disk 58 GB.
+- 2026-10-16 03:26 DROWSY merged (b6f298beba, protocol 26), reported; GIPERF started.
