@@ -285,6 +285,7 @@
 - [survival_q6 · 1](survival-q6-8c66f5e7-001.md) — 33
 - [sv3 · 1](sv3-8f2c32bf-001.md) — 10
 - [tent · 1](tent-2a9810cb-001.md) — 22
+- [terrainblend · 1](terrainblend-0e2c89a0-001.md) — 10
 - [terrainlight · 1](terrainlight-12ba0367-001.md) — 15
 - [texpath · 1](texpath-1d4ba955-001.md) — 19
 - [timewarp_ta1 · 1](timewarp-ta1-454b5d49-001.md) — 14
