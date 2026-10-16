@@ -602,4 +602,4 @@
 
 ---
 
-Список составлен по коммит [90bd050bc785e50b172c22daf5cc711a87f29d4e](https://github.com/shsanek/EXEcutor/commit/90bd050bc785e50b172c22daf5cc711a87f29d4e) включительно.
+Список составлен по коммит [f761604c73f7fd0af3494dcbb4487c3a2439e08d](https://github.com/shsanek/EXEcutor/commit/f761604c73f7fd0af3494dcbb4487c3a2439e08d) включительно.

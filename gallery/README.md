@@ -156,6 +156,7 @@
 - [netsweep4 · 1](netsweep4-ad4c2dec-001.md) — 2
 - [night_balance_lb1 · 1](night-balance-lb1-eae70a57-001.md) — 60
 - [night_balance_lb1 · 2](night-balance-lb1-eae70a57-002.md) — 42
+- [northstart · 1](northstart-51dde0b5-001.md) — 8
 - [npc_life · 1](npc-life-774a5404-001.md) — 30
 - [ownerfix · 1](ownerfix-5d48d8d7-001.md) — 7
 - [perf · 1](perf-342edb77-001.md) — 8

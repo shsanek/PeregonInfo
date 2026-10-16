@@ -920,3 +920,13 @@ One line per decision. Times are local (Mac).
 - 2026-10-16 05:07 tick: no locks; NORTHSTART silent since 04:17 (last commit 04:04, dirty road_sign asset) — watch; GIPERF step 3 (static GI rebuild sliced, hitches gone); WATERWAVE sim done (water_tests 39/39), render next; TRUCKART found door outline cause (no UV padding on black). Disk 83 GB.
 - 2026-10-16 05:27 tick: NORTHSTART silent >70 min, no processes → cherry-picked its 9 commits onto main (local, unpushed; verify build after GIPERF's perf lock ends 05:52); GIPERF tests green, final timing under lock; WATERWAVE render integrated (V wake visible); TRUCKART re-UV plan. Disk 79 GB.
 - 2026-10-16 05:57 GIPERF merged (90bd050bc7); NORTHSTART cherry-picks pushed (build OK; bog_tests 7/11 on stale map, nature_tests 23/24) → NORTHSTART agent stopped, NORTHFIX started (rebake main map under lock, fix tests, sign asset, evidence).
+- 2026-10-16 05:57 RADIOREGION started (NORTHSTART agent stopped while about to commit; NORTHFIX covers the rest).
+- 2026-10-16 06:01 owner: rerun the benchmark later, GI off → PERFBENCH2 queued (needs a quiet window).
+- 2026-10-16 06:06 owner: IOAUDIT gets a RAM-budgeted lazy cache (half of RAM: 8→4, 16→8, 32→16 GB) without thrashing on long trips; PERFBENCH2 on HOLD until owner says (overnight).
+- 2026-10-16 06:07 tick: NORTHFIX holds map-bake (valid, until 06:45); WATERWAVE capturing then perf; TRUCKART stage48 tools; RADIOREGION reading. Disk 76 GB.
+- 2026-10-16 06:09 owner: IOAUDIT also covers surface streaming eviction — nearby records stay lazy in RAM, only far ones go to disk, no back-and-forth thrash.
+- 2026-10-16 06:26 owner: agents must not pause during map bakes; rule clarified (map-bake lock only serialises bakes).
+- 2026-10-16 06:28 owner: look before cost — WATERWAVE told to stop timing and send a look build; rule added for visual tasks.
+- 2026-10-16 06:51 tick: NORTHFIX main bake done, tests green, paper map; RADIOREGION region rows 49-51 + mast + quest written, bake waits; TRUCKART silent 70 min → status asked; WATERWAVE look build with owner; IOAUDIT started. Disk 69 GB.
+- 2026-10-16 06:52 owner playtest WATERWAVE: hood film stripes, cab water ignores gravity when overturned, cab water = blue box → sent back to WATERWAVE; new subtask ICEHOLE queued.
+- 2026-10-16 06:57 NORTHFIX merged (f761604c73: map rebake main+worktree, bog 11/11, nature 24 habitats, sign arrow left, hard-link stamp fix); owner: cab flooding must be physical voxel flow through openings (Δh, opening area, angle) → sent to WATERWAVE.
