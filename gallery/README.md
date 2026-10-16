@@ -189,6 +189,7 @@
 - [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36
 - [r2_area · 1](r2-area-0df3f151-001.md) — 47
+- [r2village · 1](r2village-54d0153e-001.md) — 9
 - [rack44 · 1](rack44-a695512a-001.md) — 3
 - [radio-audio · 1](radio-audio-a0340eae-001.md) — 6
 - [radioregion · 1](radioregion-5c79b80a-001.md) — 8
