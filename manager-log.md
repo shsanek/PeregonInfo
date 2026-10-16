@@ -989,3 +989,6 @@ One line per decision. Times are local (Mac).
 2026-10-16 15:36 owner: new task UISHEET — screenshots + RU descriptions of every key UI screen for an external designer (gamu/evidence/UISHEET + zip)
 2026-10-16 15:43 BEAR READY FOR LOOK 64b0e584a8 (bluff vs strong charges, strong 0.4/min telegraphed 2.1 s; 9 modules green); bin_look prepared in agent-a8a9ad71c5042d188/build/win64-bear
 2026-10-16 15:47 RIDGEDIRT merged 69d3b332e2 (ff; all suites + powerline/rail/grade OK); worktree removed; main-checkout map rebake (Sawmill + ridge) deferred until UISHEET stops reading build/map/r1
+2026-10-16 15:49 owner: rebake + launch — main-checkout map rebake (CAMPBLEND+RIDGEDIRT, map-bake lock MANAGER) + win64-release rebuild at b8470f7eb9 running
+2026-10-16 15:51 note: full win64-release build fails on render_perf_route_tests.cpp (missing 'path' initializer after IOAUDIT d3d4650d3e, -Werror) — game targets build fine; small fix task for later
+2026-10-16 15:59 TRUCKART look 4 merged c8b69e9ac6 (ff; 5 suites green); worktree kept for a possible look 5 (UV maps cached)

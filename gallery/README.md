@@ -291,6 +291,7 @@
 - [truck_polish_tp1 · 1](truck-polish-tp1-bad7ecc9-001.md) — 52
 - [truck_seatbox_tk3 · 1](truck-seatbox-tk3-b7a987b3-001.md) — 33
 - [truckart · 1](truckart-60fbf061-001.md) — 5
+- [truckart4 · 1](truckart4-ddcc0bc4-001.md) — 3
 - [truckcab2 · 1](truckcab2-83f37cce-001.md) — 60
 - [truckdirt · 1](truckdirt-88c5ab13-001.md) — 5
 - [truckgen · 1](truckgen-2dcd7e80-001.md) — 60

@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "69d3b332e215162da21aa2ce4dd8ccb3012e87f9",
-  "changes_covered_commit": "69d3b332e215162da21aa2ce4dd8ccb3012e87f9",
-  "entries": 322,
+  "source_commit": "c8b69e9ac6a39da18519dfe0a09f1e9988c105c4",
+  "changes_covered_commit": "c8b69e9ac6a39da18519dfe0a09f1e9988c105c4",
+  "entries": 323,
   "model_groups": 8,
-  "images": 9804,
+  "images": 9807,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -317,6 +317,7 @@
     "gallery/truck-polish-tp1-bad7ecc9-001.md",
     "gallery/truck-seatbox-tk3-b7a987b3-001.md",
     "gallery/truckart-60fbf061-001.md",
+    "gallery/truckart4-ddcc0bc4-001.md",
     "gallery/truckcab2-83f37cce-001.md",
     "gallery/truckdirt-88c5ab13-001.md",
     "gallery/truckgen-2dcd7e80-001.md",
