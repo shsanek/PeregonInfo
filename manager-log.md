@@ -914,3 +914,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-16 03:50 GRASSCRUSH merged (48e81d148c), reported; TREESHADOW started.
 - 2026-10-16 04:06 tick: NORTHSTART holds map-bake (valid until 04:28); CABWHEEL tests green, evidence+rebase; GIPERF step 1: GI 22–31 → 4.1–5.7 ms/frame offline, identical texels; TREESHADOW baseline built. Disk 83 GB.
 - 2026-10-16 04:14 CABWHEEL merged (40e4f07e8d); W-B16 kept 0.12 rim width in physics (manager decision); WATERWAVE started.
+- 2026-10-16 04:26 tick: no locks; GIPERF step 2: in-game GI probes 1080p 37.9→8.0 ms (26→125 FPS), 4K 34.6→8.15 ms, GI main thread 1.8–3.2 ms; NORTHSTART post-bake; TREESHADOW/WATERWAVE working. Disk 90 GB.
+- 2026-10-16 04:46 tick: no locks; TREESHADOW flicker −56..−84 % at 80–200 m, denser crowns, rebasing; GIPERF finishing; NORTHSTART silent 53 min → status requested; WATERWAVE reading. Disk 82 GB.
+- 2026-10-16 04:50 TREESHADOW merged (2492a2ab26); TRUCKART started; sun-shafts+clouds-off crash added to REGRESS2.
