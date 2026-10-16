@@ -122,6 +122,7 @@
 - [ix1 · 1](ix1-70c25fac-001.md) — 9
 - [journal · 1](journal-81dd6b77-001.md) — 4
 - [kolkhoz_polish_kh2 · 1](kolkhoz-polish-kh2-dfb4cb6c-001.md) — 23
+- [kolkhozlived · 1](kolkhozlived-489d401c-001.md) — 13
 - [kt3 · 1](kt3-8505ecd8-001.md) — 44
 - [ld1 · 1](ld1-0cc6af18-001.md) — 13
 - [ld2 · 1](ld2-b89d3dcd-001.md) — 13
