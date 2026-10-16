@@ -956,3 +956,7 @@ One line per decision. Times are local (Mac).
 2026-10-16 09:41 REGRESS2 started a26a2ce4bf9964c0c (icefish tags only minimal, ICEHOLE owns ice fishing)
 2026-10-16 09:49 tick: no locks; CAMPBLEND baseline bake done, BEFORE captures; BUNKER layout blueprint PASS; TRUCKART round2 rebake; IOAUDIT status stale 1h20 -> asked for status/ETA; disk 60 GB
 2026-10-16 10:19 IOAUDIT merged ff 69585dada6 (map mmap once, shared tile cache, half-RAM lazy budget, ruts near stay in RAM); launch 1690->6 MB, 86 km route 16.4 GB->27 MB
+2026-10-16 10:20 IOFIX started af872938330bd9b84 (IOAUDIT open issues B3-B7)
+2026-10-16 10:29 tick: ICEHOLE mechanics ready 764b8e7f90 but hole visual crude (symmetric star, black water, grey boxes) -> visual pass requested before owner look; CAMPBLEND incremental Sawmill bake (lock valid to 10:46); TRUCKART still rebaking (ETA 10:30 slipping); disk 60 GB
+2026-10-16 10:49 tick: no locks; TRUCKART round2 tests PASS a26123783c, owner looking; CAMPBLEND ready 802d6f3c64, owner looking; REGRESS2 parked hold + coop_seats 26/26; ICEHOLE visual pass; BUNKER runtime; IOFIX reading; disk 46 GB
+2026-10-16 10:54 ICEHOLE merged ff 03629d4861 (ice holes: tools/shots by thickness, drink/fill/fish, refreeze, save+coop protocol 28)
