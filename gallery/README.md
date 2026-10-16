@@ -126,6 +126,7 @@
 - [kolkhoz_polish_kh2 · 1](kolkhoz-polish-kh2-dfb4cb6c-001.md) — 23
 - [kolkhozlived · 1](kolkhozlived-489d401c-001.md) — 13
 - [kt3 · 1](kt3-8505ecd8-001.md) — 44
+- [lakelived · 1](lakelived-3852ab8a-001.md) — 11
 - [ld1 · 1](ld1-0cc6af18-001.md) — 13
 - [ld2 · 1](ld2-b89d3dcd-001.md) — 13
 - [leaves_lf2 · 1](leaves-lf2-d7d7149f-001.md) — 21
