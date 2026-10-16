@@ -960,3 +960,8 @@ One line per decision. Times are local (Mac).
 2026-10-16 10:29 tick: ICEHOLE mechanics ready 764b8e7f90 but hole visual crude (symmetric star, black water, grey boxes) -> visual pass requested before owner look; CAMPBLEND incremental Sawmill bake (lock valid to 10:46); TRUCKART still rebaking (ETA 10:30 slipping); disk 60 GB
 2026-10-16 10:49 tick: no locks; TRUCKART round2 tests PASS a26123783c, owner looking; CAMPBLEND ready 802d6f3c64, owner looking; REGRESS2 parked hold + coop_seats 26/26; ICEHOLE visual pass; BUNKER runtime; IOFIX reading; disk 46 GB
 2026-10-16 10:54 ICEHOLE merged ff 03629d4861 (ice holes: tools/shots by thickness, drink/fill/fish, refreeze, save+coop protocol 28)
+2026-10-16 10:55 TRUCKDIRT started afffa668c4f00d116 from work/peregon-truckart a26123783c (rebase after TRUCKART merge)
+2026-10-16 10:57 owner round3 truck feedback (antenna kinks, front body/frame shading, ghost handle tips, door outline z-fight flicker, handbrake base/low position, badge not red) sent to TRUCKART; CAMPBLEND twin-rut design option B (static baked dent layer) awaiting owner; BUNKER told about rr_bunker_portal pad 1.18 m
+2026-10-16 11:01 CAMPBLEND finished ac64323cfd (Sawmill only), not merged until owner verdict; BEAR started a8a9ad71c5042d188 (arena-first, lair after BUNKER)
+2026-10-16 11:10 tick: no locks; BUNKER look ffe842465b reviewed: dark+torch ok, rooms empty -> dressing/torch falloff/wet floors/flooded water requested; REGRESS2 rebasing on ICEHOLE; IOFIX B3-B6 coded; TRUCKART round3; TRUCKDIRT studying; BEAR starting; disk 54 GB
+2026-10-16 11:15 REGRESS2 merged ff befa868a8b (sun shafts slot2, free-wheel hold, coop_seats/character tests)
