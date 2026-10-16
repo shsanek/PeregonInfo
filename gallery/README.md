@@ -131,6 +131,7 @@
 - [light2 · 3](light2-6ce8de38-003.md) — 10
 - [light3 · 1](light3-36c87b7f-001.md) — 33
 - [light_fix_20261010 · 1](light-fix-20261010-e5971833-001.md) — 45
+- [lightbake · 1](lightbake-93fb83af-001.md) — 7
 - [lk0 · 1](lk0-24c1b920-001.md) — 8
 - [lk1 · 1](lk1-32d1b48c-001.md) — 60
 - [lk1 · 2](lk1-32d1b48c-002.md) — 10

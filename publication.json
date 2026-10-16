@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "b2dcf33cc46bf5eabe4762ccbed28b114cf36405",
-  "changes_covered_commit": "b2dcf33cc46bf5eabe4762ccbed28b114cf36405",
-  "entries": 327,
+  "source_commit": "fdf361ff8bdd51cbb01d595cb368abf936546dce",
+  "changes_covered_commit": "fdf361ff8bdd51cbb01d595cb368abf936546dce",
+  "entries": 328,
   "model_groups": 8,
-  "images": 9815,
+  "images": 9822,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -157,6 +157,7 @@
     "gallery/light2-6ce8de38-003.md",
     "gallery/light3-36c87b7f-001.md",
     "gallery/light-fix-20261010-e5971833-001.md",
+    "gallery/lightbake-93fb83af-001.md",
     "gallery/lk0-24c1b920-001.md",
     "gallery/lk1-32d1b48c-001.md",
     "gallery/lk1-32d1b48c-002.md",
