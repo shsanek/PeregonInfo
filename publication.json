@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "51a7c53c4cb9ddf3119ac3cea86d0dc2d0adf548",
-  "changes_covered_commit": "51a7c53c4cb9ddf3119ac3cea86d0dc2d0adf548",
-  "entries": 345,
+  "source_commit": "6b68663d234673ccbf40d0ea3c1ea8454fdfb84b",
+  "changes_covered_commit": "6b68663d234673ccbf40d0ea3c1ea8454fdfb84b",
+  "entries": 346,
   "model_groups": 8,
-  "images": 10000,
+  "images": 10008,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -317,6 +317,7 @@
     "gallery/sv3-8f2c32bf-001.md",
     "gallery/tent-2a9810cb-001.md",
     "gallery/terrainblend-0e2c89a0-001.md",
+    "gallery/terrainfix-c22c1134-001.md",
     "gallery/terrainlight-12ba0367-001.md",
     "gallery/texpath-1d4ba955-001.md",
     "gallery/timewarp-ta1-454b5d49-001.md",
