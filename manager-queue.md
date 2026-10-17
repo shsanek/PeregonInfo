@@ -164,3 +164,16 @@ Owner away, full autonomy, 5 parallel Claude sub-agents (raised from 4 at 20:40)
 | Icons | ~29 dishes share the mess-tin icon (ICON-1), clothing silhouettes | docs/inventory.md |
 | Tests failing on base | play_care winch_cable_walked_around_a_tree…, map_tests snow_mesh_clears_terrain…, road_contact_check coverage | — |
 | TREES3 birch | waiting for the owner | work/peregon-trees3 |
+
+## BZWB — bunker and its entrance to white box (owner 2026-10-17)
+
+Owner: rework the bunker (ZKP under Pleshivaya, docs/bunker.md) and its entrance (`rr_bunker_portal`, docs/radio-region.md)
+from coloured kit boxes to readable white box models. Use the newly landed pack assets first (Modular Abandoned Basement
+Bunker `ue_basement_*`, now in Git LFS), but also search the whole catalogue (docs/ue-catalog.md). Follow
+docs/camp-dressing-guide.md. 3 Claude sub-agents, one worktree each; manager loop every 20 min; English for agents/docs.
+
+| ID | Task | Owns | Branch | Status |
+|----|------|------|--------|--------|
+| BZWB-A SHELL | Bunker structure: walls, floors, ceilings, lintels, stair tunnel, blast/pressure doors and door frames, caged lamps, from AbandonedBasement modules (+ Blender white box where no module fits); kit boxes stay as collision/nav sized to the meshes | `tools/bunker/bunker_shell.py`, door/lamp parts of `bunker_props.py`, new shell assets | work/peregon-bzwb-a | merged into claude/peregon-bzwb (cbde05d111) |
+| BZWB-B DRESSING | Every bunker prop and clutter piece (bunks, lockers, tables, diesel, tank, switchboard, radio racks, filter unit, ducts, shelves, crates, batteries, stash, wash stalls, rubble, pipes, debris) to catalogue meshes or Blender white boxes, varied, lived-in logic | `bunker_props.py` (non-door/lamp), `bunker_clutter.py`, `data/kit/props.txt` bunker block | work/peregon-bzwb-b | merged into claude/peregon-bzwb (9627f50c0b) |
+| BZWB-C ENTRANCE | The `rr_bunker_portal` cutting outside: portal facade, outer steel doors, rock face/retaining walls, signage, lamp, truck parking, worn lane and ground (camp_blend), all readable models | `rr_bunker_portal` place/stamp/blueprint, its kit pieces | work/peregon-bzwb-c | merged into claude/peregon-bzwb (f54cafa5a7, mesh fix 928ee8ed73) |
