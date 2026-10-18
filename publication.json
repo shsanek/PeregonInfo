@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "0573bfa3c3dcc88f739fc454242e29f51bc34ef5",
-  "changes_covered_commit": "0573bfa3c3dcc88f739fc454242e29f51bc34ef5",
-  "entries": 352,
+  "source_commit": "cc47e1c7fa30194e8c14bf7c6eb30aa6562a680c",
+  "changes_covered_commit": "cc47e1c7fa30194e8c14bf7c6eb30aa6562a680c",
+  "entries": 360,
   "model_groups": 8,
   "images": 10048,
   "generated_pages": [
