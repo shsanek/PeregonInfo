@@ -1,8 +1,8 @@
 window.PEREGON_RUNS = [
  {
   "latest": "001",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -132,8 +132,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "056",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -4986,8 +4986,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "005",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -5297,139 +5297,9 @@ window.PEREGON_RUNS = [
   "source_commit": "8fd14ea46"
  },
  {
-  "latest": "002",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
-  "runs": [
-   {
-    "args": [
-     "--ticks",
-     "300",
-     "--capture",
-     "0,150,300"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "a6217cc1",
-       "src": "shots/scene_r1_map/002/win32/tick_000000.jpg",
-       "state_hash": "f29aaf1e"
-      }
-     },
-     {
-      "tick": 150,
-      "win32": {
-       "image_hash": "8faa7639",
-       "src": "shots/scene_r1_map/002/win32/tick_000150.jpg",
-       "state_hash": "ccb68549"
-      }
-     },
-     {
-      "tick": 300,
-      "win32": {
-       "image_hash": "80b7516f",
-       "src": "shots/scene_r1_map/002/win32/tick_000300.jpg",
-       "state_hash": "92f1d7a2"
-      }
-     }
-    ],
-    "commit": "1a5d799a49",
-    "compare": null,
-    "date": "2026-10-07T17:20:24Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "92f1d7a2",
-       "frame_time_ms": {
-        "avg": 14.348,
-        "max": 121.28,
-        "min": 11.149
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 4304.812
-      }
-     }
-    },
-    "run": "002",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--ticks",
-     "300",
-     "--capture",
-     "0,150,300"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "a6217cc1",
-       "src": "shots/scene_r1_map/001/win32/tick_000000.jpg",
-       "state_hash": "03d7524f"
-      }
-     },
-     {
-      "tick": 150,
-      "win32": {
-       "image_hash": "8faa7639",
-       "src": "shots/scene_r1_map/001/win32/tick_000150.jpg",
-       "state_hash": "a8956d87"
-      }
-     },
-     {
-      "tick": 300,
-      "win32": {
-       "image_hash": "80b7516f",
-       "src": "shots/scene_r1_map/001/win32/tick_000300.jpg",
-       "state_hash": "14f57b20"
-      }
-     }
-    ],
-    "commit": "e3664c5290",
-    "compare": null,
-    "date": "2026-10-07T16:56:54Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "14f57b20",
-       "frame_time_ms": {
-        "avg": 14.262,
-        "max": 78.9,
-        "min": 10.846
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 4279.172
-      }
-     }
-    },
-    "run": "001",
-    "status": "single"
-   }
-  ],
-  "scene": "scene_r1_map",
-  "source": "games/peregon/src/game/scene_r1_map.cpp",
-  "source_commit": "8ec9359c8"
- },
- {
   "latest": "004",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -5878,8 +5748,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "042",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -8842,8 +8712,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "004",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -9552,8 +9422,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "036",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -14031,8 +13901,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "004",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -14525,8 +14395,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "005",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -15140,8 +15010,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "004",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -15634,8 +15504,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "001",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -15753,8 +15623,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "006",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -16345,8 +16215,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "002",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -16573,8 +16443,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "002",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -16741,8 +16611,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "002",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -16969,8 +16839,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "019",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [],
@@ -19618,8 +19488,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "042",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -22566,8 +22436,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "021",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -24265,8 +24135,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "010",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -25035,8 +24905,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "003",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -25306,8 +25176,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "006",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -25970,8 +25840,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "043",
-  "merged": "2026-10-12 22:49",
-  "merged_commit": "c2b1507a9",
+  "merged": "2026-10-09 07:38",
+  "merged_commit": "bbd33ed71",
   "runs": [
    {
     "args": [
@@ -29910,9 +29780,139 @@ window.PEREGON_RUNS = [
   "source_commit": "7a0be6c0c"
  },
  {
+  "latest": "002",
+  "merged": "2026-10-11 07:07",
+  "merged_commit": "fe43f442d",
+  "runs": [
+   {
+    "args": [
+     "--ticks",
+     "300",
+     "--capture",
+     "0,150,300"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "a6217cc1",
+       "src": "shots/scene_r1_map/002/win32/tick_000000.jpg",
+       "state_hash": "f29aaf1e"
+      }
+     },
+     {
+      "tick": 150,
+      "win32": {
+       "image_hash": "8faa7639",
+       "src": "shots/scene_r1_map/002/win32/tick_000150.jpg",
+       "state_hash": "ccb68549"
+      }
+     },
+     {
+      "tick": 300,
+      "win32": {
+       "image_hash": "80b7516f",
+       "src": "shots/scene_r1_map/002/win32/tick_000300.jpg",
+       "state_hash": "92f1d7a2"
+      }
+     }
+    ],
+    "commit": "1a5d799a49",
+    "compare": null,
+    "date": "2026-10-07T17:20:24Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "92f1d7a2",
+       "frame_time_ms": {
+        "avg": 14.348,
+        "max": 121.28,
+        "min": 11.149
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4304.812
+      }
+     }
+    },
+    "run": "002",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--ticks",
+     "300",
+     "--capture",
+     "0,150,300"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "a6217cc1",
+       "src": "shots/scene_r1_map/001/win32/tick_000000.jpg",
+       "state_hash": "03d7524f"
+      }
+     },
+     {
+      "tick": 150,
+      "win32": {
+       "image_hash": "8faa7639",
+       "src": "shots/scene_r1_map/001/win32/tick_000150.jpg",
+       "state_hash": "a8956d87"
+      }
+     },
+     {
+      "tick": 300,
+      "win32": {
+       "image_hash": "80b7516f",
+       "src": "shots/scene_r1_map/001/win32/tick_000300.jpg",
+       "state_hash": "14f57b20"
+      }
+     }
+    ],
+    "commit": "e3664c5290",
+    "compare": null,
+    "date": "2026-10-07T16:56:54Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "14f57b20",
+       "frame_time_ms": {
+        "avg": 14.262,
+        "max": 78.9,
+        "min": 10.846
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4279.172
+      }
+     }
+    },
+    "run": "001",
+    "status": "single"
+   }
+  ],
+  "scene": "scene_r1_map",
+  "source": "games/peregon/src/game/scene_r1_map.cpp",
+  "source_commit": "8ec9359c8"
+ },
+ {
   "latest": "017",
-  "merged": "2026-10-15 06:41",
-  "merged_commit": "8a4ba53d8",
+  "merged": "2026-10-16 06:36",
+  "merged_commit": "37a7d5c9f",
   "runs": [
    {
     "args": [

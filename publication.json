@@ -1,8 +1,8 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "7f58e2866524b177939ac20b6e14f99de3149ba0",
-  "changes_covered_commit": "7f58e2866524b177939ac20b6e14f99de3149ba0",
-  "entries": 350,
+  "source_commit": "0573bfa3c3dcc88f739fc454242e29f51bc34ef5",
+  "changes_covered_commit": "0573bfa3c3dcc88f739fc454242e29f51bc34ef5",
+  "entries": 352,
   "model_groups": 8,
   "images": 10048,
   "generated_pages": [
@@ -19,6 +19,7 @@
     "merges/2026-10-15.md",
     "merges/2026-10-16.md",
     "merges/2026-10-17.md",
+    "merges/2026-10-18.md",
     "README.md",
     "models/finish3-repairs-528e2f17.md",
     "models/fauna3b-completion-5a6c2b18.md",
