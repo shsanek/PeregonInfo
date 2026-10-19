@@ -284,6 +284,7 @@
 - [skills · 1](skills-32c1cf49-001.md) — 5
 - [sky1 · 1](sky1-bd9db756-001.md) — 20
 - [skyfix · 1](skyfix-1a301c4e-001.md) — 13
+- [sl-legend-bear · 1](sl-legend-bear-f5c56829-001.md) — 3
 - [sl-m1-cutscene · 1](sl-m1-cutscene-432e0396-001.md) — 3
 - [sl-m1-elevator · 1](sl-m1-elevator-f9ab1b1e-001.md) — 5
 - [sl-m1-k1chain · 1](sl-m1-k1chain-fd72fe00-001.md) — 4

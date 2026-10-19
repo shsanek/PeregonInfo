@@ -1009,3 +1009,4 @@ One line per decision. Times are local (Mac).
 2026-10-19 22:10 M1 dialogues+camp merged d9aae138dd (SL-G1/G4/H1); told elevator agent to move camp take-down to settled
 2026-10-19 22:30 M1 elevator mission merged 0ad2bd0c27 (SL-E1/C1/C2/H2, К2/К3)
 2026-10-19 22:45 M1 K1 chain merged 3d997bba82; story_tests conflict combined, story tests green; M1 complete
+2026-10-19 23:00 legendary bear merged da2ae4f6dd (SL-L1..L5); next: K epic (radio repair, bunker bandits)
