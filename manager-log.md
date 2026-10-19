@@ -1011,3 +1011,4 @@ One line per decision. Times are local (Mac).
 2026-10-19 22:45 M1 K1 chain merged 3d997bba82; story_tests conflict combined, story tests green; M1 complete
 2026-10-19 23:00 legendary bear merged da2ae4f6dd (SL-L1..L5); next: K epic (radio repair, bunker bandits)
 2026-10-20 00:30 M2 ambush/chases merged 9144584d6c (agent reconciled with design first); stale perf lock from m2-gas released 23:52
+2026-10-20 00:45 owner batch 1 merged f821d15838 (PB-1/PB-2, cab map, mud); m2-gas agent silent since 22:50 -> restarting
