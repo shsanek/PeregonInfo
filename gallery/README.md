@@ -284,6 +284,7 @@
 - [skills · 1](skills-32c1cf49-001.md) — 5
 - [sky1 · 1](sky1-bd9db756-001.md) — 20
 - [skyfix · 1](skyfix-1a301c4e-001.md) — 13
+- [sl-m1-cutscene · 1](sl-m1-cutscene-432e0396-001.md) — 3
 - [sl-m1-placestate · 1](sl-m1-placestate-149c9bcd-001.md) — 3
 - [sl-m1-prologue · 1](sl-m1-prologue-045c7314-001.md) — 4
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
