@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "fbcc1013aa3097947bc7b6c6750b68f8659082b2",
+  "source_commit": "24da07ac0843ffa52e144cc3101970e442fd2897",
   "changes_covered_commit": "b24dd2d6f8e79337d91c69e452edabd551b65d01",
-  "entries": 379,
+  "entries": 380,
   "model_groups": 8,
-  "images": 10066,
+  "images": 10069,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -313,6 +313,7 @@
     "gallery/skills-32c1cf49-001.md",
     "gallery/sky1-bd9db756-001.md",
     "gallery/skyfix-1a301c4e-001.md",
+    "gallery/sl-m1-placestate-149c9bcd-001.md",
     "gallery/sl-m1-prologue-045c7314-001.md",
     "gallery/snowmesh-sn1-0e4803c3-001.md",
     "gallery/soft-shadows-ls2-e8b5d73b-001.md",

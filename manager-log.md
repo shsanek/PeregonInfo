@@ -1003,3 +1003,4 @@ One line per decision. Times are local (Mac).
 2026-10-19 manager (Windows session): merged into claude/peregon-design — VRAM/instancing cc5b13f2f8, white boxes + Windows bake ports 5248849aa3, GI removed aa5c68be55, shadows offline 1747d7a0b6, inventory E/F d9d797b23d, new-game camp 53a3c87d9e/820bd9104f, package zip 04bc912ed7, lights offline 379dd6fd53, play fixes efd4fd1a1f, bear 09be2a18bc, winter LOD e05e81a8d9, amanita+menu mouse d18698acd2, story draft+plan 90b8102e2c, far forest affe1460f1, bandit patrols 2c50fb2bf7, combat 0dad118455, buggies 4784c97ca4, owner reports b24dd2d6f8, story rev.4 + quests f8694631cd
 2026-10-19 manager: autonomous mode, max 4 agents; running M1 prologue, M1 road, M1 place state; reports git updated per merge from now on
 2026-10-19 20:50 M1 prologue merged fbcc1013aa (SL-A1/A2/A3/A6)
+2026-10-19 21:15 M1 place state merged 24da07ac08 (SL-B1/B7/D1/B2 + buggies); doc conflict in quests.md resolved (both rows kept)
