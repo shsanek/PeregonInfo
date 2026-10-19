@@ -1010,3 +1010,4 @@ One line per decision. Times are local (Mac).
 2026-10-19 22:30 M1 elevator mission merged 0ad2bd0c27 (SL-E1/C1/C2/H2, К2/К3)
 2026-10-19 22:45 M1 K1 chain merged 3d997bba82; story_tests conflict combined, story tests green; M1 complete
 2026-10-19 23:00 legendary bear merged da2ae4f6dd (SL-L1..L5); next: K epic (radio repair, bunker bandits)
+2026-10-20 00:30 M2 ambush/chases merged 9144584d6c (agent reconciled with design first); stale perf lock from m2-gas released 23:52

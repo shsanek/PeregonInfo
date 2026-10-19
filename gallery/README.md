@@ -291,6 +291,7 @@
 - [sl-m1-placestate · 1](sl-m1-placestate-149c9bcd-001.md) — 3
 - [sl-m1-prologue · 1](sl-m1-prologue-045c7314-001.md) — 4
 - [sl-m1-road · 1](sl-m1-road-3403f7bb-001.md) — 4
+- [sl-m2-ambush · 1](sl-m2-ambush-ec1af930-001.md) — 3
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
 - [soft_shadows_ls2 · 1](soft-shadows-ls2-e8b5d73b-001.md) — 25
 - [story_q1 · 1](story-q1-2f8c082f-001.md) — 12
