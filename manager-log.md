@@ -1005,3 +1005,4 @@ One line per decision. Times are local (Mac).
 2026-10-19 20:50 M1 prologue merged fbcc1013aa (SL-A1/A2/A3/A6)
 2026-10-19 21:15 M1 place state merged 24da07ac08 (SL-B1/B7/D1/B2 + buggies); doc conflict in quests.md resolved (both rows kept)
 2026-10-19 21:40 M1 cutscenes merged 0fb5943aef (SL-F1, К1); code conflicts in play_game_drive.inc/lint.cpp resolved keeping both, story+cutscene tests green
+2026-10-19 22:00 M1 road merged 3f6af25f89 (SL-A4/A5); plan row conflict resolved; main map rebake started
