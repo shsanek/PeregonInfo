@@ -284,6 +284,7 @@
 - [skills · 1](skills-32c1cf49-001.md) — 5
 - [sky1 · 1](sky1-bd9db756-001.md) — 20
 - [skyfix · 1](skyfix-1a301c4e-001.md) — 13
+- [sl-m1-prologue · 1](sl-m1-prologue-045c7314-001.md) — 4
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
 - [soft_shadows_ls2 · 1](soft-shadows-ls2-e8b5d73b-001.md) — 25
 - [story_q1 · 1](story-q1-2f8c082f-001.md) — 12
