@@ -60,6 +60,8 @@
 
 ![assets/tree_seasons_bb_birch_a/01_source.jpg](../shots/assets/tree_seasons_bb_birch_a/01_source.jpg)
 
+![assets/tree_seasons_bb_birch_a/01_source.jpg.png](../shots/assets/tree_seasons_bb_birch_a/01_source.jpg.png)
+
 ![assets/tree_seasons_bb_birch_a/02_green_mask.jpg](../shots/assets/tree_seasons_bb_birch_a/02_green_mask.jpg)
 
 ![assets/tree_seasons_bb_birch_a/03_leaf_pieces.jpg](../shots/assets/tree_seasons_bb_birch_a/03_leaf_pieces.jpg)
@@ -119,5 +121,3 @@
 ![assets/tree_seasons_leaf_larch/04_fall_order.jpg](../shots/assets/tree_seasons_leaf_larch/04_fall_order.jpg)
 
 ![assets/tree_seasons_leaf_larch/05_fall1.jpg](../shots/assets/tree_seasons_leaf_larch/05_fall1.jpg)
-
-![assets/tree_seasons_leaf_larch/06_fall2.jpg](../shots/assets/tree_seasons_leaf_larch/06_fall2.jpg)

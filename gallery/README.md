@@ -33,14 +33,16 @@
 - [assets · 14](assets-8bf729ff-014.md) — 60
 - [assets · 15](assets-8bf729ff-015.md) — 60
 - [assets · 16](assets-8bf729ff-016.md) — 60
-- [assets · 17](assets-8bf729ff-017.md) — 56
+- [assets · 17](assets-8bf729ff-017.md) — 57
 - [atmosphere_fx1 · 1](atmosphere-fx1-48d30e01-001.md) — 52
 - [atmosphere_fx1b · 1](atmosphere-fx1b-62faf761-001.md) — 16
 - [audio_au2 · 1](audio-au2-800dbb88-001.md) — 6
 - [audio_au3 · 1](audio-au3-0266e6b9-001.md) — 6
 - [audio_truck_20261010 · 1](audio-truck-20261010-9e6a4b63-001.md) — 8
+- [banditbuggy · 1](banditbuggy-6bb5dc46-001.md) — 2
 - [banditholes · 1](banditholes-c0b2e47c-001.md) — 36
 - [bandits · 1](bandits-68dad4ad-001.md) — 43
+- [bear · 1](bear-bc98bb50-001.md) — 1
 - [bots · 1](bots-10b8ecc0-001.md) — 17
 - [breech45 · 1](breech45-b40da241-001.md) — 2
 - [build · 1](build-44575cf5-001.md) — 16
@@ -69,6 +71,7 @@
 - [drowsy · 1](drowsy-8978c132-001.md) — 4
 - [elevator · 1](elevator-41762bcf-001.md) — 25
 - [elevatorlived · 1](elevatorlived-458f6dfc-001.md) — 12
+- [farlod · 1](farlod-e3bede18-001.md) — 2
 - [farm_q4 · 1](farm-q4-9a00c981-001.md) — 18
 - [farmlived · 1](farmlived-a3df3434-001.md) — 9
 - [fauna · 1](fauna-0d9214fb-001.md) — 34
@@ -169,6 +172,7 @@
 - [netsweep2 · 1](netsweep2-3b1bc6e4-001.md) — 3
 - [netsweep3 · 1](netsweep3-a1532f78-001.md) — 2
 - [netsweep4 · 1](netsweep4-ad4c2dec-001.md) — 2
+- [newgamecamp · 1](newgamecamp-0f2b8ea2-001.md) — 3
 - [night_balance_lb1 · 1](night-balance-lb1-eae70a57-001.md) — 60
 - [night_balance_lb1 · 2](night-balance-lb1-eae70a57-002.md) — 42
 - [northroad · 1](northroad-0ca53c1f-001.md) — 4
@@ -186,6 +190,7 @@
 - [pickup · 1](pickup-1f64847e-001.md) — 7
 - [place · 1](place-81df6358-001.md) — 45
 - [player_reports · 1](player-reports-bc5a1b14-001.md) — 3
+- [playfix · 1](playfix-c7f249b2-001.md) — 3
 - [plowsink · 1](plowsink-4496fb01-001.md) — 10
 - [pm1 · 1](pm1-b2dd687e-001.md) — 13
 - [pm2 · 1](pm2-5b8a6a19-001.md) — 9
@@ -330,6 +335,7 @@
 - [vh3 · 1](vh3-98670b83-001.md) — 10
 - [visual · 1](visual-a5961f3f-001.md) — 10
 - [visual2 · 1](visual2-39064897-001.md) — 8
+- [vram · 1](vram-6577a784-001.md) — 1
 - [w1 · 1](w1-60c5590f-001.md) — 60
 - [w1 · 2](w1-60c5590f-002.md) — 48
 - [w11 · 1](w11-eb83f6c0-001.md) — 58
@@ -361,6 +367,7 @@
 - [wheat_kolkhoz · 1](wheat-kolkhoz-cf5b05d3-001.md) — 24
 - [wheel · 1](wheel-ba599261-001.md) — 6
 - [wheel2 · 1](wheel2-73b1d903-001.md) — 3
+- [winterlod · 1](winterlod-fc247943-001.md) — 1
 - [winterplow_q2 · 1](winterplow-q2-a94830ca-001.md) — 22
 - [wp6 · 1](wp6-d9de5a35-001.md) — 30
 - [ws2 · 1](ws2-bbadd7ee-001.md) — 60

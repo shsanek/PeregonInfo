@@ -2,6 +2,8 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
+![assets/veg_gb_veg_cedar_old/01_blender.jpg](../shots/assets/veg_gb_veg_cedar_old/01_blender.jpg)
+
 ![assets/veg_gb_veg_cedar_young/01_blender.jpg](../shots/assets/veg_gb_veg_cedar_young/01_blender.jpg)
 
 ![assets/veg_gb_veg_dead_larch/01_blender.jpg](../shots/assets/veg_gb_veg_dead_larch/01_blender.jpg)

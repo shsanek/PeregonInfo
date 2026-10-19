@@ -2,6 +2,8 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
+![assets/truck_cab/25_raw.jpg](../shots/assets/truck_cab/25_raw.jpg)
+
 ![assets/truck_cab/26_clean.jpg](../shots/assets/truck_cab/26_clean.jpg)
 
 ![assets/truck_cab/27_lods.jpg](../shots/assets/truck_cab/27_lods.jpg)
@@ -119,5 +121,3 @@
 ![assets/veg_gb_veg_cattails/01_blender.jpg](../shots/assets/veg_gb_veg_cattails/01_blender.jpg)
 
 ![assets/veg_gb_veg_cedar/01_blender.jpg](../shots/assets/veg_gb_veg_cedar/01_blender.jpg)
-
-![assets/veg_gb_veg_cedar_old/01_blender.jpg](../shots/assets/veg_gb_veg_cedar_old/01_blender.jpg)

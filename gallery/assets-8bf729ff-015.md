@@ -2,6 +2,8 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
+![assets/tree_seasons_leaf_larch/06_fall2.jpg](../shots/assets/tree_seasons_leaf_larch/06_fall2.jpg)
+
 ![assets/tree_seasons_leaf_larch/07_bare.jpg](../shots/assets/tree_seasons_leaf_larch/07_bare.jpg)
 
 ![assets/tree_seasons_leaf_larch/08_snow.jpg](../shots/assets/tree_seasons_leaf_larch/08_snow.jpg)
@@ -119,5 +121,3 @@
 ![assets/truck_cab/23_lods.jpg](../shots/assets/truck_cab/23_lods.jpg)
 
 ![assets/truck_cab/24_silhouette.jpg](../shots/assets/truck_cab/24_silhouette.jpg)
-
-![assets/truck_cab/25_raw.jpg](../shots/assets/truck_cab/25_raw.jpg)
