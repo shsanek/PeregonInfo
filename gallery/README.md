@@ -296,6 +296,7 @@
 - [sl-m2-gas · 1](sl-m2-gas-d0cb53a7-001.md) — 4
 - [sl-m2-radio · 1](sl-m2-radio-2c80c55c-001.md) — 5
 - [sl-m3-convoy · 1](sl-m3-convoy-c9946f48-001.md) — 5
+- [sl-m3-defend · 1](sl-m3-defend-0a4b734b-001.md) — 5
 - [sl-m3-ford · 1](sl-m3-ford-7e04135e-001.md) — 5
 - [sl-m3-kolkhoz · 1](sl-m3-kolkhoz-6f0fc99a-001.md) — 5
 - [sl-m3-substation · 1](sl-m3-substation-8c736fb1-001.md) — 5
