@@ -285,6 +285,7 @@
 - [sky1 · 1](sky1-bd9db756-001.md) — 20
 - [skyfix · 1](skyfix-1a301c4e-001.md) — 13
 - [sl-m1-cutscene · 1](sl-m1-cutscene-432e0396-001.md) — 3
+- [sl-m1-elevator · 1](sl-m1-elevator-f9ab1b1e-001.md) — 5
 - [sl-m1-placestate · 1](sl-m1-placestate-149c9bcd-001.md) — 3
 - [sl-m1-prologue · 1](sl-m1-prologue-045c7314-001.md) — 4
 - [sl-m1-road · 1](sl-m1-road-3403f7bb-001.md) — 4
