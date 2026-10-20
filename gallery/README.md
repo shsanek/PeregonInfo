@@ -298,6 +298,7 @@
 - [sl-m3-bear · 1](sl-m3-bear-34e19559-001.md) — 5
 - [sl-m3-coalstore · 1](sl-m3-coalstore-7ecfb5e3-001.md) — 5
 - [sl-m3-convoy · 1](sl-m3-convoy-c9946f48-001.md) — 5
+- [sl-m3-debts · 1](sl-m3-debts-5654ed53-001.md) — 5
 - [sl-m3-defector · 1](sl-m3-defector-d4d7c101-001.md) — 5
 - [sl-m3-defend · 1](sl-m3-defend-0a4b734b-001.md) — 5
 - [sl-m3-ford · 1](sl-m3-ford-7e04135e-001.md) — 5
