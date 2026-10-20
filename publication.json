@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "9cffc7822970f1fe6cf974ca85b76c655c9be520",
+  "source_commit": "202ef935ca47338c4eea6d79a97188bfe1a681c2",
   "changes_covered_commit": "b24dd2d6f8e79337d91c69e452edabd551b65d01",
-  "entries": 409,
+  "entries": 410,
   "model_groups": 8,
-  "images": 10198,
+  "images": 10203,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -343,6 +343,7 @@
     "gallery/sl-m4-lantern-51195548-001.md",
     "gallery/sl-m4-polish-80ff9a66-001.md",
     "gallery/sl-m4-storybot-c5229b5a-001.md",
+    "gallery/sl-m5-settlers-9816be42-001.md",
     "gallery/sl-m5-voices-453408cf-001.md",
     "gallery/snowmesh-sn1-0e4803c3-001.md",
     "gallery/soft-shadows-ls2-e8b5d73b-001.md",

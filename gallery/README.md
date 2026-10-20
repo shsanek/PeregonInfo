@@ -313,6 +313,7 @@
 - [sl-m4-lantern · 1](sl-m4-lantern-51195548-001.md) — 5
 - [sl-m4-polish · 1](sl-m4-polish-80ff9a66-001.md) — 5
 - [sl-m4-storybot · 1](sl-m4-storybot-c5229b5a-001.md) — 5
+- [sl-m5-settlers · 1](sl-m5-settlers-9816be42-001.md) — 5
 - [sl-m5-voices · 1](sl-m5-voices-453408cf-001.md) — 5
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
 - [soft_shadows_ls2 · 1](soft-shadows-ls2-e8b5d73b-001.md) — 25
