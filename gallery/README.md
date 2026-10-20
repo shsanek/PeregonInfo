@@ -295,6 +295,7 @@
 - [sl-m2-ambush · 1](sl-m2-ambush-ec1af930-001.md) — 3
 - [sl-m2-gas · 1](sl-m2-gas-d0cb53a7-001.md) — 4
 - [sl-m2-radio · 1](sl-m2-radio-2c80c55c-001.md) — 5
+- [sl-m3-bear · 1](sl-m3-bear-34e19559-001.md) — 5
 - [sl-m3-coalstore · 1](sl-m3-coalstore-7ecfb5e3-001.md) — 5
 - [sl-m3-convoy · 1](sl-m3-convoy-c9946f48-001.md) — 5
 - [sl-m3-defector · 1](sl-m3-defector-d4d7c101-001.md) — 5
