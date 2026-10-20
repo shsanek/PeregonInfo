@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "b3e8523adc64c23b0f75caa506a5fabe67f031d2",
+  "source_commit": "a0edce501709e8b32a1f65fe9bf844c60575eb5f",
   "changes_covered_commit": "b24dd2d6f8e79337d91c69e452edabd551b65d01",
-  "entries": 400,
+  "entries": 401,
   "model_groups": 8,
-  "images": 10153,
+  "images": 10158,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -327,6 +327,7 @@
     "gallery/sl-m2-radio-2c80c55c-001.md",
     "gallery/sl-m3-coalstore-7ecfb5e3-001.md",
     "gallery/sl-m3-convoy-c9946f48-001.md",
+    "gallery/sl-m3-defector-d4d7c101-001.md",
     "gallery/sl-m3-defend-0a4b734b-001.md",
     "gallery/sl-m3-ford-7e04135e-001.md",
     "gallery/sl-m3-kolkhoz-6f0fc99a-001.md",
