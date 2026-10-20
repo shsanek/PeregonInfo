@@ -311,6 +311,7 @@
 - [sl-m3-substation · 1](sl-m3-substation-8c736fb1-001.md) — 5
 - [sl-m4-finale · 1](sl-m4-finale-49a06f39-001.md) — 5
 - [sl-m4-lantern · 1](sl-m4-lantern-51195548-001.md) — 5
+- [sl-m4-polish · 1](sl-m4-polish-80ff9a66-001.md) — 5
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
 - [soft_shadows_ls2 · 1](soft-shadows-ls2-e8b5d73b-001.md) — 25
 - [story_q1 · 1](story-q1-2f8c082f-001.md) — 12
