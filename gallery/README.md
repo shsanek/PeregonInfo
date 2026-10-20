@@ -306,6 +306,7 @@
 - [sl-m3-mapicons · 1](sl-m3-mapicons-1c122ab8-001.md) — 4
 - [sl-m3-nighttheft · 1](sl-m3-nighttheft-1fd28985-001.md) — 5
 - [sl-m3-roadlife · 1](sl-m3-roadlife-8578207b-001.md) — 5
+- [sl-m3-sabotage · 1](sl-m3-sabotage-657d6524-001.md) — 5
 - [sl-m3-substation · 1](sl-m3-substation-8c736fb1-001.md) — 5
 - [sl-m4-finale · 1](sl-m4-finale-49a06f39-001.md) — 5
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
