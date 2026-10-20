@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "2d89ff6663db0584e855a7cc404e8ad67d42ad52",
+  "source_commit": "6abc397f71b3644a2afb75abe65548c42254d5e1",
   "changes_covered_commit": "b24dd2d6f8e79337d91c69e452edabd551b65d01",
-  "entries": 396,
+  "entries": 397,
   "model_groups": 8,
-  "images": 10134,
+  "images": 10139,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -330,6 +330,7 @@
     "gallery/sl-m3-ford-7e04135e-001.md",
     "gallery/sl-m3-kolkhoz-6f0fc99a-001.md",
     "gallery/sl-m3-logging-43af18ba-001.md",
+    "gallery/sl-m3-nighttheft-1fd28985-001.md",
     "gallery/sl-m3-substation-8c736fb1-001.md",
     "gallery/snowmesh-sn1-0e4803c3-001.md",
     "gallery/soft-shadows-ls2-e8b5d73b-001.md",

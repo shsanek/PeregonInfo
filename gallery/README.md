@@ -300,6 +300,7 @@
 - [sl-m3-ford · 1](sl-m3-ford-7e04135e-001.md) — 5
 - [sl-m3-kolkhoz · 1](sl-m3-kolkhoz-6f0fc99a-001.md) — 5
 - [sl-m3-logging · 1](sl-m3-logging-43af18ba-001.md) — 5
+- [sl-m3-nighttheft · 1](sl-m3-nighttheft-1fd28985-001.md) — 5
 - [sl-m3-substation · 1](sl-m3-substation-8c736fb1-001.md) — 5
 - [snowmesh_sn1 · 1](snowmesh-sn1-0e4803c3-001.md) — 11
 - [soft_shadows_ls2 · 1](soft-shadows-ls2-e8b5d73b-001.md) — 25
