@@ -62,6 +62,7 @@
 - [clouds_cl2 · 1](clouds-cl2-b2f068de-001.md) — 18
 - [coal_b3 · 1](coal-b3-c24fe038-001.md) — 19
 - [coallived · 1](coallived-300e6faf-001.md) — 13
+- [combat2 · 1](combat2-7b364d7c-001.md) — 4
 - [coop46 · 1](coop46-370e17ae-001.md) — 2
 - [coop48 · 1](coop48-bd98bd41-001.md) — 2
 - [cordonlived · 1](cordonlived-ecdf238b-001.md) — 13
