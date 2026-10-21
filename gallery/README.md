@@ -33,7 +33,7 @@
 - [assets · 14](assets-8bf729ff-014.md) — 60
 - [assets · 15](assets-8bf729ff-015.md) — 60
 - [assets · 16](assets-8bf729ff-016.md) — 60
-- [assets · 17](assets-8bf729ff-017.md) — 57
+- [assets · 17](assets-8bf729ff-017.md) — 56
 - [atmosphere_fx1 · 1](atmosphere-fx1-48d30e01-001.md) — 52
 - [atmosphere_fx1b · 1](atmosphere-fx1b-62faf761-001.md) — 16
 - [audio_au2 · 1](audio-au2-800dbb88-001.md) — 6
@@ -208,6 +208,7 @@
 - [precip_wx2 · 1](precip-wx2-b3a6fc82-001.md) — 42
 - [props · 1](props-b2648077-001.md) — 15
 - [props2 · 1](props2-c1f64f29-001.md) — 51
+- [pv0-respawn · 1](pv0-respawn-d5be56b9-001.md) — 4
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
 - [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36

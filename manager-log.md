@@ -1014,3 +1014,8 @@ One line per decision. Times are local (Mac).
 2026-10-20 00:45 owner batch 1 merged f821d15838 (PB-1/PB-2, cab map, mud); m2-gas agent silent since 22:50 -> restarting
 2026-10-20 00:25 M2 radio+bunker merged 3eb5a85825 (SL-K1..K6, К9)
 2026-10-20 00:45 M2 gas station merged 551470b3b8 (SL-E2/H4); first agent hung, restarted
+2026-10-21 PV0 Cut start (survival pivot, docs/survival-pivot.md A4). Split into 4 parallel agents: PV0a talk (story/contracts/boards/cutscenes/dialogue/radio/friendly NPCs), PV0b hostiles (bandits/camps/roadblocks/convoys/factions/Emission flips/liberation), PV0c abandoned places (lived-in dressing, lit windows, kitchens, nest), PV0d truck respawn. Merge order a -> b -> c -> d, later ones rebase. Decisions: services NPCs gave (truck upgrades, gunsmith, trade) keep code + tests, lose NPC access; dead player respawns at the nearest truck; sunk/wrecked/far truck -> nearest safe dry ground beside it; inventory kept on respawn. Disk 38 GB free (below 60 GB rule) -> watch.
+2026-10-21 owner asked: committed pending work (612c34be54 pivot docs, e39283a2ac Metal instanced vegetation); removed 13 merged+clean old agent worktrees in .claude/worktrees (branches kept), free disk 12 GB -> 93 GB
+2026-10-21 22:31 tick: no commits yet; hostiles 113 changed files, respawn 20, places 1, talk 0 (surveying); disk 91 GB free
+2026-10-21 22:50 tick: all 4 progressing; respawn 34c37bd2ad, places 17522ceb07, hostiles WIP 51232e0dfd, talk 216 files uncommitted; disk 87 GB
+2026-10-21 23:10 PV0d respawn ff-merged 3cec2ff7da (merged early, it was ready and rebased); native-release build green, ctest running; talk/hostiles WIP, places 2 commits; disk 84 GB

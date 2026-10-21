@@ -1,8 +1,4487 @@
 window.PEREGON_RUNS = [
  {
+  "latest": "036",
+  "merged": "2026-10-07 13:20",
+  "merged_commit": "2ca6e9659",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/041/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/041/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/041/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/041/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/041/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/041/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "29e6515542",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T17:31:26Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.653,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.801
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 13.282,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 23.905
+      }
+     }
+    },
+    "run": "041",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/040/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/040/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/040/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/040/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/040/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/040/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "f723d5eee8",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T17:24:28Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.83,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.209
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 13.241,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.079
+      }
+     }
+    },
+    "run": "040",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/039/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/039/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/039/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/039/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/039/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/039/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "f723d5eee8",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T17:21:21Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.006,
+        "max": 1.515,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 4.056
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.041,
+        "max": 14.108,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.58
+      }
+     }
+    },
+    "run": "039",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/038/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/038/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/038/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/038/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/038/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/038/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "f723d5eee8",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T17:12:55Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.781,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.962
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.041,
+        "max": 15.146,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.415
+      }
+     }
+    },
+    "run": "038",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/037/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/037/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/037/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/037/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/037/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/037/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "f723d5eee8",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T17:10:56Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.004,
+        "max": 1.115,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.596
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.064,
+        "max": 21.867,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 39.283
+      }
+     }
+    },
+    "run": "037",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/036/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/036/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/036/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/036/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/036/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/036/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "ffbda5601c",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:50:20Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.005,
+        "max": 1.47,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 3.449
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.083,
+        "max": 25.067,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 50.307
+      }
+     }
+    },
+    "run": "036",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/035/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/035/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/035/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/035/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/035/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/035/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "cb9607491",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:28:02Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.646,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.73
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.041,
+        "max": 13.537,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.346
+      }
+     }
+    },
+    "run": "035",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/034/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/034/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/034/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/034/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/034/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/034/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "cb9607491",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:27:41Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.707,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.822
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.041,
+        "max": 13.732,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.257
+      }
+     }
+    },
+    "run": "034",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/033/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/033/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/033/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/033/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/033/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/033/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "3a5ae10ba",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:18:59Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.65,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.793
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.048,
+        "max": 17.849,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 29.586
+      }
+     }
+    },
+    "run": "033",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/032/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/032/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/032/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/032/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/032/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/032/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "3a5ae10ba",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:18:26Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.004,
+        "max": 1.178,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.955
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.049,
+        "max": 18.649,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 30.373
+      }
+     }
+    },
+    "run": "032",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/031/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/031/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/031/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/031/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/031/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/031/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "3a5ae10ba",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:12:39Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.798,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.158
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.041,
+        "max": 14.061,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.541
+      }
+     }
+    },
+    "run": "031",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/030/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/030/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/030/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/030/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/030/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/030/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "3a5ae10ba",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:12:06Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.761,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.893
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.043,
+        "max": 14.492,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 26.82
+      }
+     }
+    },
+    "run": "030",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/029/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/029/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/029/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/029/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/029/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/029/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "478c419c0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:06:41Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.651,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.771
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.04,
+        "max": 13.594,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.914
+      }
+     }
+    },
+    "run": "029",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/028/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/028/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/028/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/028/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/028/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/028/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "478c419c0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:06:12Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.677,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.812
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.041,
+        "max": 14.255,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.636
+      }
+     }
+    },
+    "run": "028",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/027/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/027/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/027/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/027/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/027/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/027/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "478c419c0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:02:50Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.709,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.82
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.041,
+        "max": 13.813,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.626
+      }
+     }
+    },
+    "run": "027",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/026/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/026/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/026/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/026/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/026/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/026/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "478c419c0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:02:20Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.739,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.903
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.103,
+        "max": 39.353,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 62.319
+      }
+     }
+    },
+    "run": "026",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/025/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/025/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/025/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/025/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/025/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/025/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "6754e8c9f",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:42:48Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.776,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.92
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.042,
+        "max": 14.054,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.749
+      }
+     }
+    },
+    "run": "025",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/024/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/024/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/024/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/024/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/024/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/024/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:36:00Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.649,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.717
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.04,
+        "max": 13.025,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.799
+      }
+     }
+    },
+    "run": "024",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/023/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/023/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/023/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/023/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/023/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/023/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:35:17Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.726,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.838
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 12.632,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 23.961
+      }
+     }
+    },
+    "run": "023",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/022/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/022/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/022/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/022/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/022/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/022/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:35:13Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.764,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.946
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 12.675,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.14
+      }
+     }
+    },
+    "run": "022",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/021/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/021/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/021/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/021/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/021/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/021/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:34:49Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.756,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.218
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 13.0,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.395
+      }
+     }
+    },
+    "run": "021",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/020/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/020/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/020/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/020/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/020/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/020/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:32:53Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.721,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.873
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 12.9,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.455
+      }
+     }
+    },
+    "run": "020",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/019/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/019/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/019/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/019/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/019/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/019/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:31:59Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.695,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.834
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 12.56,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.147
+      }
+     }
+    },
+    "run": "019",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/018/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/018/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/018/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/018/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/018/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/018/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:31:27Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.759,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.954
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.04,
+        "max": 13.419,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.928
+      }
+     }
+    },
+    "run": "018",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/017/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/017/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/017/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/017/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/017/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/017/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:30:43Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.638,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.745
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.038,
+        "max": 12.353,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 23.339
+      }
+     }
+    },
+    "run": "017",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/016/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/016/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/016/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/016/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/016/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/016/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:30:39Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.731,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.822
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 13.35,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.433
+      }
+     }
+    },
+    "run": "016",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/015/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/015/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/015/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/015/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/015/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/015/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:30:17Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.759,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.809
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 12.982,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.113
+      }
+     }
+    },
+    "run": "015",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/014/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/014/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/014/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/014/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/014/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/014/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "9d1c74fc0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:25:50Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.722,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.839
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.038,
+        "max": 12.419,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 23.602
+      }
+     }
+    },
+    "run": "014",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/013/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/013/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/013/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/013/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/013/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/013/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "9d1c74fc0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:25:07Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.696,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.809
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.046,
+        "max": 15.38,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 28.425
+      }
+     }
+    },
+    "run": "013",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/012/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/012/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/012/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/012/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/012/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/012/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "9d1c74fc0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:24:46Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.644,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.761
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.04,
+        "max": 12.782,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.841
+      }
+     }
+    },
+    "run": "012",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/011/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/011/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/011/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/011/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/011/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/011/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "cd4e7c2f5",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:23:22Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.659,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.732
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.039,
+        "max": 13.05,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 24.335
+      }
+     }
+    },
+    "run": "011",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/010/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/010/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/010/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/010/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/010/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/010/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "44393f7fd",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:18:24Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.75,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.051
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.04,
+        "max": 12.949,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 25.153
+      }
+     }
+    },
+    "run": "010",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/009/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/009/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/009/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/009/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/009/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/009/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "44393f7fd",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:18:18Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.004,
+        "max": 1.125,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.941
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.094,
+        "max": 46.183,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 56.988
+      }
+     }
+    },
+    "run": "009",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/008/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/008/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/008/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/008/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/008/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/008/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "44393f7fd",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:17:28Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.712,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.879
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.173,
+        "max": 35.355,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 104.614
+      }
+     }
+    },
+    "run": "008",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/007/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/007/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/007/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/007/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/007/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/007/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "9c3eb8777",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:13:52Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.683,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.847
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.037,
+        "max": 12.829,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 22.838
+      }
+     }
+    },
+    "run": "007",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/006/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/006/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/006/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/006/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/006/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/006/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "9c3eb8777",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:13:32Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.741,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.924
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.111,
+        "max": 57.364,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 67.582
+      }
+     }
+    },
+    "run": "006",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/005/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/005/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/005/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/005/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/005/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/005/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "edf538494",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T10:47:52Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.632,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.681
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.029,
+        "max": 12.183,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 18.262
+      }
+     }
+    },
+    "run": "005",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/004/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/004/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/004/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/004/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/004/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/004/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "6a060f641",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T10:39:52Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.814,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.998
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.033,
+        "max": 13.04,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 20.446
+      }
+     }
+    },
+    "run": "004",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/003/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/003/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/003/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/003/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/003/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/003/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "2ca6e9659",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T10:20:23Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.608,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.626
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.029,
+        "max": 12.376,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 18.229
+      }
+     }
+    },
+    "run": "003",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/002/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/002/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/002/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/002/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/002/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/002/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "44f2fe9cf",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T10:19:38Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 0.741,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.854
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.029,
+        "max": 12.05,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 18.416
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "100,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/001/native/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "af22cb33",
+       "src": "shots/scene_smoke/001/win32/tick_000100.jpg",
+       "state_hash": "ada901f7"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/001/native/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "5d6b7890",
+       "src": "shots/scene_smoke/001/win32/tick_000300.jpg",
+       "state_hash": "dd9cad31"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/001/native/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "041c0c77",
+       "src": "shots/scene_smoke/001/win32/tick_000600.jpg",
+       "state_hash": "6d68069b"
+      }
+     }
+    ],
+    "commit": "b98b9a0cf",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "6d68069b",
+      "win32": "6d68069b"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T10:18:19Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.607,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.682
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "6d68069b",
+       "frame_time_ms": {
+        "avg": 0.026,
+        "max": 10.788,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 16.592
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_smoke",
+  "source": "games/peregon/src/game/scene_smoke.cpp",
+  "source_commit": "77afaffd8"
+ },
+ {
   "latest": "001",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 13:39",
+  "merged_commit": "6a060f641",
   "runs": [
    {
     "args": [
@@ -132,8 +4611,8 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "056",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 14:12",
+  "merged_commit": "9c3eb8777",
   "runs": [
    {
     "args": [
@@ -4985,771 +9464,9 @@ window.PEREGON_RUNS = [
   "source_commit": "fad8150fb"
  },
  {
-  "latest": "005",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "360",
-     "--capture",
-     "0,120,240,360"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "0f1ff33e",
-       "src": "shots/scene_map_drive/005/win32/tick_000000.jpg",
-       "state_hash": "5e6a122b"
-      }
-     },
-     {
-      "tick": 120,
-      "win32": {
-       "image_hash": "169703ef",
-       "src": "shots/scene_map_drive/005/win32/tick_000120.jpg",
-       "state_hash": "f2af9d43"
-      }
-     },
-     {
-      "tick": 240,
-      "win32": {
-       "image_hash": "51987ce3",
-       "src": "shots/scene_map_drive/005/win32/tick_000240.jpg",
-       "state_hash": "899e9af5"
-      }
-     },
-     {
-      "tick": 360,
-      "win32": {
-       "image_hash": "b380e45d",
-       "src": "shots/scene_map_drive/005/win32/tick_000360.jpg",
-       "state_hash": "8eaf00f0"
-      }
-     }
-    ],
-    "commit": "7a72200006",
-    "compare": null,
-    "date": "2026-10-07T18:07:11Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "8eaf00f0",
-       "frame_time_ms": {
-        "avg": 1.209,
-        "max": 14.335,
-        "min": 0.513
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 20261007,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 435.485
-      }
-     }
-    },
-    "run": "005",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "360",
-     "--capture",
-     "0,120,240,360"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "0f1ff33e",
-       "src": "shots/scene_map_drive/004/win32/tick_000000.jpg",
-       "state_hash": "5e6a122b"
-      }
-     },
-     {
-      "tick": 120,
-      "win32": {
-       "image_hash": "169703ef",
-       "src": "shots/scene_map_drive/004/win32/tick_000120.jpg",
-       "state_hash": "f2af9d43"
-      }
-     },
-     {
-      "tick": 240,
-      "win32": {
-       "image_hash": "51987ce3",
-       "src": "shots/scene_map_drive/004/win32/tick_000240.jpg",
-       "state_hash": "899e9af5"
-      }
-     },
-     {
-      "tick": 360,
-      "win32": {
-       "image_hash": "b380e45d",
-       "src": "shots/scene_map_drive/004/win32/tick_000360.jpg",
-       "state_hash": "8eaf00f0"
-      }
-     }
-    ],
-    "commit": "a081465cd2",
-    "compare": null,
-    "date": "2026-10-07T17:57:06Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "8eaf00f0",
-       "frame_time_ms": {
-        "avg": 1.292,
-        "max": 15.027,
-        "min": 0.505
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 20261007,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 465.719
-      }
-     }
-    },
-    "run": "004",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "360",
-     "--capture",
-     "0,120,240,360"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "0f1ff33e",
-       "src": "shots/scene_map_drive/003/win32/tick_000000.jpg",
-       "state_hash": "042c36dc"
-      }
-     },
-     {
-      "tick": 120,
-      "win32": {
-       "image_hash": "169703ef",
-       "src": "shots/scene_map_drive/003/win32/tick_000120.jpg",
-       "state_hash": "2a59d2c2"
-      }
-     },
-     {
-      "tick": 240,
-      "win32": {
-       "image_hash": "51987ce3",
-       "src": "shots/scene_map_drive/003/win32/tick_000240.jpg",
-       "state_hash": "c0fb42ca"
-      }
-     },
-     {
-      "tick": 360,
-      "win32": {
-       "image_hash": "b380e45d",
-       "src": "shots/scene_map_drive/003/win32/tick_000360.jpg",
-       "state_hash": "bcc59b0e"
-      }
-     }
-    ],
-    "commit": "45ce2c5971",
-    "compare": null,
-    "date": "2026-10-07T17:41:00Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "bcc59b0e",
-       "frame_time_ms": {
-        "avg": 6.898,
-        "max": 23.371,
-        "min": 4.609
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 20261007,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 2484.039
-      }
-     }
-    },
-    "run": "003",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "360",
-     "--capture",
-     "0,120,240,360"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "50c2a613",
-       "src": "shots/scene_map_drive/002/win32/tick_000000.jpg",
-       "state_hash": "d80bfa94"
-      }
-     },
-     {
-      "tick": 120,
-      "win32": {
-       "image_hash": "13d6d3e8",
-       "src": "shots/scene_map_drive/002/win32/tick_000120.jpg",
-       "state_hash": "5e340787"
-      }
-     },
-     {
-      "tick": 240,
-      "win32": {
-       "image_hash": "993d6731",
-       "src": "shots/scene_map_drive/002/win32/tick_000240.jpg",
-       "state_hash": "024cff07"
-      }
-     },
-     {
-      "tick": 360,
-      "win32": {
-       "image_hash": "fdf34fe2",
-       "src": "shots/scene_map_drive/002/win32/tick_000360.jpg",
-       "state_hash": "14799c5f"
-      }
-     }
-    ],
-    "commit": "ba1cc72006",
-    "compare": null,
-    "date": "2026-10-07T15:03:42Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "14799c5f",
-       "frame_time_ms": {
-        "avg": 17.728,
-        "max": 110.603,
-        "min": 8.327
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 20261007,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 6382.653
-      }
-     }
-    },
-    "run": "002",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "360",
-     "--capture",
-     "0,120,240,360"
-    ],
-    "captures": [],
-    "commit": "8f6b44809",
-    "compare": null,
-    "date": "2026-10-07T14:50:46Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 137,
-      "metrics": null
-     }
-    },
-    "run": "001",
-    "status": "failed"
-   }
-  ],
-  "scene": "scene_map_drive",
-  "source": "games/peregon/src/game/scene_map_drive.cpp",
-  "source_commit": "8fd14ea46"
- },
- {
-  "latest": "004",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "480",
-     "--capture",
-     "0,35,105,175,245,315,385,440,470"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "3bce6e38",
-       "src": "shots/scene_r1_nature/004/win32/tick_000000.jpg",
-       "state_hash": "b24a3a67"
-      }
-     },
-     {
-      "tick": 35,
-      "win32": {
-       "image_hash": "aa1aead3",
-       "src": "shots/scene_r1_nature/004/win32/tick_000035.jpg",
-       "state_hash": "4da1981b"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "23be8d31",
-       "src": "shots/scene_r1_nature/004/win32/tick_000105.jpg",
-       "state_hash": "66ed7f52"
-      }
-     },
-     {
-      "tick": 175,
-      "win32": {
-       "image_hash": "d66f11df",
-       "src": "shots/scene_r1_nature/004/win32/tick_000175.jpg",
-       "state_hash": "932e7404"
-      }
-     },
-     {
-      "tick": 245,
-      "win32": {
-       "image_hash": "e1498dff",
-       "src": "shots/scene_r1_nature/004/win32/tick_000245.jpg",
-       "state_hash": "f1454735"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "c67a01d4",
-       "src": "shots/scene_r1_nature/004/win32/tick_000315.jpg",
-       "state_hash": "a65fdfce"
-      }
-     },
-     {
-      "tick": 385,
-      "win32": {
-       "image_hash": "1f1edb77",
-       "src": "shots/scene_r1_nature/004/win32/tick_000385.jpg",
-       "state_hash": "96c861d0"
-      }
-     },
-     {
-      "tick": 440,
-      "win32": {
-       "image_hash": "ec662449",
-       "src": "shots/scene_r1_nature/004/win32/tick_000440.jpg",
-       "state_hash": "ae21904b"
-      }
-     },
-     {
-      "tick": 470,
-      "win32": {
-       "image_hash": "ec662449",
-       "src": "shots/scene_r1_nature/004/win32/tick_000470.jpg",
-       "state_hash": "49923e81"
-      }
-     }
-    ],
-    "commit": "1a5d799a49",
-    "compare": null,
-    "date": "2026-10-07T17:18:24Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "2604f607",
-       "frame_time_ms": {
-        "avg": 7.352,
-        "max": 52.016,
-        "min": 2.932
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 480,
-       "timescale": 0.0,
-       "wall_time_ms": 3529.612
-      }
-     }
-    },
-    "run": "004",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "480",
-     "--capture",
-     "0,35,105,175,245,315,385,440,470"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "89c88695",
-       "src": "shots/scene_r1_nature/003/win32/tick_000000.jpg",
-       "state_hash": "b24a3a67"
-      }
-     },
-     {
-      "tick": 35,
-      "win32": {
-       "image_hash": "0ff928c8",
-       "src": "shots/scene_r1_nature/003/win32/tick_000035.jpg",
-       "state_hash": "4da1981b"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "f245fbf6",
-       "src": "shots/scene_r1_nature/003/win32/tick_000105.jpg",
-       "state_hash": "66ed7f52"
-      }
-     },
-     {
-      "tick": 175,
-      "win32": {
-       "image_hash": "b6c673a8",
-       "src": "shots/scene_r1_nature/003/win32/tick_000175.jpg",
-       "state_hash": "932e7404"
-      }
-     },
-     {
-      "tick": 245,
-      "win32": {
-       "image_hash": "d18d6497",
-       "src": "shots/scene_r1_nature/003/win32/tick_000245.jpg",
-       "state_hash": "f1454735"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "29022a0b",
-       "src": "shots/scene_r1_nature/003/win32/tick_000315.jpg",
-       "state_hash": "a65fdfce"
-      }
-     },
-     {
-      "tick": 385,
-      "win32": {
-       "image_hash": "d6dd8c67",
-       "src": "shots/scene_r1_nature/003/win32/tick_000385.jpg",
-       "state_hash": "96c861d0"
-      }
-     },
-     {
-      "tick": 440,
-      "win32": {
-       "image_hash": "f7f5989f",
-       "src": "shots/scene_r1_nature/003/win32/tick_000440.jpg",
-       "state_hash": "ae21904b"
-      }
-     },
-     {
-      "tick": 470,
-      "win32": {
-       "image_hash": "01bfe6c0",
-       "src": "shots/scene_r1_nature/003/win32/tick_000470.jpg",
-       "state_hash": "49923e81"
-      }
-     }
-    ],
-    "commit": "1a5d799a49",
-    "compare": null,
-    "date": "2026-10-07T17:18:14Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "2604f607",
-       "frame_time_ms": {
-        "avg": 8.603,
-        "max": 70.996,
-        "min": 3.245
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 480,
-       "timescale": 0.0,
-       "wall_time_ms": 4130.165
-      }
-     }
-    },
-    "run": "003",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "480",
-     "--capture",
-     "0,35,105,175,245,315,385,440,470"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "3bce6e38",
-       "src": "shots/scene_r1_nature/002/win32/tick_000000.jpg",
-       "state_hash": "fd960c75"
-      }
-     },
-     {
-      "tick": 35,
-      "win32": {
-       "image_hash": "aa1aead3",
-       "src": "shots/scene_r1_nature/002/win32/tick_000035.jpg",
-       "state_hash": "3ece5189"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "23be8d31",
-       "src": "shots/scene_r1_nature/002/win32/tick_000105.jpg",
-       "state_hash": "eeb4f2c8"
-      }
-     },
-     {
-      "tick": 175,
-      "win32": {
-       "image_hash": "d66f11df",
-       "src": "shots/scene_r1_nature/002/win32/tick_000175.jpg",
-       "state_hash": "bf6907e1"
-      }
-     },
-     {
-      "tick": 245,
-      "win32": {
-       "image_hash": "e1498dff",
-       "src": "shots/scene_r1_nature/002/win32/tick_000245.jpg",
-       "state_hash": "7865f5b0"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "c67a01d4",
-       "src": "shots/scene_r1_nature/002/win32/tick_000315.jpg",
-       "state_hash": "b2ba09aa"
-      }
-     },
-     {
-      "tick": 385,
-      "win32": {
-       "image_hash": "1f1edb77",
-       "src": "shots/scene_r1_nature/002/win32/tick_000385.jpg",
-       "state_hash": "bd394068"
-      }
-     },
-     {
-      "tick": 440,
-      "win32": {
-       "image_hash": "ec662449",
-       "src": "shots/scene_r1_nature/002/win32/tick_000440.jpg",
-       "state_hash": "636dce7f"
-      }
-     },
-     {
-      "tick": 470,
-      "win32": {
-       "image_hash": "ec662449",
-       "src": "shots/scene_r1_nature/002/win32/tick_000470.jpg",
-       "state_hash": "605f2ce4"
-      }
-     }
-    ],
-    "commit": "e3664c5290",
-    "compare": null,
-    "date": "2026-10-07T16:54:56Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "081598ae",
-       "frame_time_ms": {
-        "avg": 7.242,
-        "max": 36.254,
-        "min": 3.124
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 480,
-       "timescale": 0.0,
-       "wall_time_ms": 3476.889
-      }
-     }
-    },
-    "run": "002",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "480",
-     "--capture",
-     "0,35,105,175,245,315,385,440,470"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "89c88695",
-       "src": "shots/scene_r1_nature/001/win32/tick_000000.jpg",
-       "state_hash": "fd960c75"
-      }
-     },
-     {
-      "tick": 35,
-      "win32": {
-       "image_hash": "0ff928c8",
-       "src": "shots/scene_r1_nature/001/win32/tick_000035.jpg",
-       "state_hash": "3ece5189"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "f245fbf6",
-       "src": "shots/scene_r1_nature/001/win32/tick_000105.jpg",
-       "state_hash": "eeb4f2c8"
-      }
-     },
-     {
-      "tick": 175,
-      "win32": {
-       "image_hash": "b6c673a8",
-       "src": "shots/scene_r1_nature/001/win32/tick_000175.jpg",
-       "state_hash": "bf6907e1"
-      }
-     },
-     {
-      "tick": 245,
-      "win32": {
-       "image_hash": "d18d6497",
-       "src": "shots/scene_r1_nature/001/win32/tick_000245.jpg",
-       "state_hash": "7865f5b0"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "29022a0b",
-       "src": "shots/scene_r1_nature/001/win32/tick_000315.jpg",
-       "state_hash": "b2ba09aa"
-      }
-     },
-     {
-      "tick": 385,
-      "win32": {
-       "image_hash": "d6dd8c67",
-       "src": "shots/scene_r1_nature/001/win32/tick_000385.jpg",
-       "state_hash": "bd394068"
-      }
-     },
-     {
-      "tick": 440,
-      "win32": {
-       "image_hash": "f7f5989f",
-       "src": "shots/scene_r1_nature/001/win32/tick_000440.jpg",
-       "state_hash": "636dce7f"
-      }
-     },
-     {
-      "tick": 470,
-      "win32": {
-       "image_hash": "01bfe6c0",
-       "src": "shots/scene_r1_nature/001/win32/tick_000470.jpg",
-       "state_hash": "605f2ce4"
-      }
-     }
-    ],
-    "commit": "e3664c5290",
-    "compare": null,
-    "date": "2026-10-07T16:54:47Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "081598ae",
-       "frame_time_ms": {
-        "avg": 7.99,
-        "max": 45.397,
-        "min": 3.271
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 480,
-       "timescale": 0.0,
-       "wall_time_ms": 3835.896
-      }
-     }
-    },
-    "run": "001",
-    "status": "single"
-   }
-  ],
-  "scene": "scene_r1_nature",
-  "source": "games/peregon/src/game/scene_r1_nature.cpp",
-  "source_commit": "71eef139f"
- },
- {
   "latest": "042",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 14:12",
+  "merged_commit": "9c3eb8777",
   "runs": [
    {
     "args": [
@@ -8711,6801 +12428,9 @@ window.PEREGON_RUNS = [
   "source_commit": "772afb6c8"
  },
  {
-  "latest": "004",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "600",
-     "--capture",
-     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
-     "--render-captures"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "ccdf5b1f",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000000.jpg",
-       "state_hash": "7537e819"
-      }
-     },
-     {
-      "tick": 89,
-      "win32": {
-       "image_hash": "31d03448",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000089.jpg",
-       "state_hash": "5bded1b9"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "ddf0e951",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000105.jpg",
-       "state_hash": "fe1c936f"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "59327d1b",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000135.jpg",
-       "state_hash": "fbb56375"
-      }
-     },
-     {
-      "tick": 165,
-      "win32": {
-       "image_hash": "a563086d",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000165.jpg",
-       "state_hash": "2bc09b7a"
-      }
-     },
-     {
-      "tick": 195,
-      "win32": {
-       "image_hash": "013297f6",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000195.jpg",
-       "state_hash": "cb019eeb"
-      }
-     },
-     {
-      "tick": 225,
-      "win32": {
-       "image_hash": "3ddff121",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000225.jpg",
-       "state_hash": "2c472567"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "18998b51",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000255.jpg",
-       "state_hash": "6d1064a0"
-      }
-     },
-     {
-      "tick": 285,
-      "win32": {
-       "image_hash": "b7c19961",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000285.jpg",
-       "state_hash": "9b0e4afb"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "146c3a36",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000315.jpg",
-       "state_hash": "cd60f761"
-      }
-     },
-     {
-      "tick": 345,
-      "win32": {
-       "image_hash": "c09c22b2",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000345.jpg",
-       "state_hash": "cfa15e2e"
-      }
-     },
-     {
-      "tick": 375,
-      "win32": {
-       "image_hash": "d04c8d87",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000375.jpg",
-       "state_hash": "6322af19"
-      }
-     },
-     {
-      "tick": 405,
-      "win32": {
-       "image_hash": "e8bdbb2e",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000405.jpg",
-       "state_hash": "773e1b82"
-      }
-     },
-     {
-      "tick": 435,
-      "win32": {
-       "image_hash": "791210ae",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000435.jpg",
-       "state_hash": "da677b96"
-      }
-     },
-     {
-      "tick": 465,
-      "win32": {
-       "image_hash": "bb3e3030",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000465.jpg",
-       "state_hash": "50c7bb8d"
-      }
-     },
-     {
-      "tick": 495,
-      "win32": {
-       "image_hash": "e827bcbf",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000495.jpg",
-       "state_hash": "43ba377e"
-      }
-     },
-     {
-      "tick": 599,
-      "win32": {
-       "image_hash": "5aa97b17",
-       "src": "shots/scene_s1_surfaces/004/win32/tick_000599.jpg",
-       "state_hash": "2a87e523"
-      }
-     }
-    ],
-    "commit": "180fbf8786",
-    "compare": null,
-    "date": "2026-10-07T15:33:29Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "7d684ed6",
-       "frame_time_ms": {
-        "avg": 0.658,
-        "max": 186.562,
-        "min": 0.001
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 395.905
-      }
-     }
-    },
-    "run": "004",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "600",
-     "--capture",
-     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
-     "--render-captures"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "5535cf63",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000000.jpg",
-       "state_hash": "7537e819"
-      }
-     },
-     {
-      "tick": 89,
-      "win32": {
-       "image_hash": "4a3d08d9",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000089.jpg",
-       "state_hash": "5bded1b9"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "19e9585f",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000105.jpg",
-       "state_hash": "fe1c936f"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "84b644b8",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000135.jpg",
-       "state_hash": "fbb56375"
-      }
-     },
-     {
-      "tick": 165,
-      "win32": {
-       "image_hash": "ef3ea4c4",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000165.jpg",
-       "state_hash": "2bc09b7a"
-      }
-     },
-     {
-      "tick": 195,
-      "win32": {
-       "image_hash": "d8b13f71",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000195.jpg",
-       "state_hash": "cb019eeb"
-      }
-     },
-     {
-      "tick": 225,
-      "win32": {
-       "image_hash": "d5d12b87",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000225.jpg",
-       "state_hash": "2c472567"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "152c9fef",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000255.jpg",
-       "state_hash": "6d1064a0"
-      }
-     },
-     {
-      "tick": 285,
-      "win32": {
-       "image_hash": "fae92b8a",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000285.jpg",
-       "state_hash": "9b0e4afb"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "07ff3483",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000315.jpg",
-       "state_hash": "cd60f761"
-      }
-     },
-     {
-      "tick": 345,
-      "win32": {
-       "image_hash": "9dd9ad5c",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000345.jpg",
-       "state_hash": "cfa15e2e"
-      }
-     },
-     {
-      "tick": 375,
-      "win32": {
-       "image_hash": "9e27aeac",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000375.jpg",
-       "state_hash": "6322af19"
-      }
-     },
-     {
-      "tick": 405,
-      "win32": {
-       "image_hash": "a70a9352",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000405.jpg",
-       "state_hash": "773e1b82"
-      }
-     },
-     {
-      "tick": 435,
-      "win32": {
-       "image_hash": "847f37f7",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000435.jpg",
-       "state_hash": "da677b96"
-      }
-     },
-     {
-      "tick": 465,
-      "win32": {
-       "image_hash": "dd1478f4",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000465.jpg",
-       "state_hash": "50c7bb8d"
-      }
-     },
-     {
-      "tick": 495,
-      "win32": {
-       "image_hash": "2b56fde7",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000495.jpg",
-       "state_hash": "43ba377e"
-      }
-     },
-     {
-      "tick": 599,
-      "win32": {
-       "image_hash": "5a8cf790",
-       "src": "shots/scene_s1_surfaces/003/win32/tick_000599.jpg",
-       "state_hash": "2a87e523"
-      }
-     }
-    ],
-    "commit": "180fbf8786",
-    "compare": null,
-    "date": "2026-10-07T15:33:25Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "7d684ed6",
-       "frame_time_ms": {
-        "avg": 0.705,
-        "max": 195.211,
-        "min": 0.001
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 424.19
-      }
-     }
-    },
-    "run": "003",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "600",
-     "--capture",
-     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
-     "--render-captures"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "ccdf5b1f",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000000.jpg",
-       "state_hash": "7537e819"
-      }
-     },
-     {
-      "tick": 89,
-      "win32": {
-       "image_hash": "31d03448",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000089.jpg",
-       "state_hash": "5bded1b9"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "ddf0e951",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000105.jpg",
-       "state_hash": "fe1c936f"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "59327d1b",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000135.jpg",
-       "state_hash": "fbb56375"
-      }
-     },
-     {
-      "tick": 165,
-      "win32": {
-       "image_hash": "a563086d",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000165.jpg",
-       "state_hash": "2bc09b7a"
-      }
-     },
-     {
-      "tick": 195,
-      "win32": {
-       "image_hash": "013297f6",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000195.jpg",
-       "state_hash": "cb019eeb"
-      }
-     },
-     {
-      "tick": 225,
-      "win32": {
-       "image_hash": "3ddff121",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000225.jpg",
-       "state_hash": "2c472567"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "18998b51",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000255.jpg",
-       "state_hash": "6d1064a0"
-      }
-     },
-     {
-      "tick": 285,
-      "win32": {
-       "image_hash": "b7c19961",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000285.jpg",
-       "state_hash": "9b0e4afb"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "146c3a36",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000315.jpg",
-       "state_hash": "cd60f761"
-      }
-     },
-     {
-      "tick": 345,
-      "win32": {
-       "image_hash": "c09c22b2",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000345.jpg",
-       "state_hash": "cfa15e2e"
-      }
-     },
-     {
-      "tick": 375,
-      "win32": {
-       "image_hash": "d04c8d87",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000375.jpg",
-       "state_hash": "6322af19"
-      }
-     },
-     {
-      "tick": 405,
-      "win32": {
-       "image_hash": "e8bdbb2e",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000405.jpg",
-       "state_hash": "773e1b82"
-      }
-     },
-     {
-      "tick": 435,
-      "win32": {
-       "image_hash": "791210ae",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000435.jpg",
-       "state_hash": "da677b96"
-      }
-     },
-     {
-      "tick": 465,
-      "win32": {
-       "image_hash": "bb3e3030",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000465.jpg",
-       "state_hash": "50c7bb8d"
-      }
-     },
-     {
-      "tick": 495,
-      "win32": {
-       "image_hash": "e827bcbf",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000495.jpg",
-       "state_hash": "43ba377e"
-      }
-     },
-     {
-      "tick": 599,
-      "win32": {
-       "image_hash": "5aa97b17",
-       "src": "shots/scene_s1_surfaces/002/win32/tick_000599.jpg",
-       "state_hash": "2a87e523"
-      }
-     }
-    ],
-    "commit": "35fd8af18",
-    "compare": null,
-    "date": "2026-10-07T14:44:49Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "7d684ed6",
-       "frame_time_ms": {
-        "avg": 0.648,
-        "max": 174.594,
-        "min": 0.001
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 389.58
-      }
-     }
-    },
-    "run": "002",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "600",
-     "--capture",
-     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
-     "--render-captures"
-    ],
-    "captures": [
-     {
-      "tick": 0,
-      "win32": {
-       "image_hash": "5535cf63",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000000.jpg",
-       "state_hash": "7537e819"
-      }
-     },
-     {
-      "tick": 89,
-      "win32": {
-       "image_hash": "4a3d08d9",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000089.jpg",
-       "state_hash": "5bded1b9"
-      }
-     },
-     {
-      "tick": 105,
-      "win32": {
-       "image_hash": "19e9585f",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000105.jpg",
-       "state_hash": "fe1c936f"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "84b644b8",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000135.jpg",
-       "state_hash": "fbb56375"
-      }
-     },
-     {
-      "tick": 165,
-      "win32": {
-       "image_hash": "ef3ea4c4",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000165.jpg",
-       "state_hash": "2bc09b7a"
-      }
-     },
-     {
-      "tick": 195,
-      "win32": {
-       "image_hash": "d8b13f71",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000195.jpg",
-       "state_hash": "cb019eeb"
-      }
-     },
-     {
-      "tick": 225,
-      "win32": {
-       "image_hash": "d5d12b87",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000225.jpg",
-       "state_hash": "2c472567"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "152c9fef",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000255.jpg",
-       "state_hash": "6d1064a0"
-      }
-     },
-     {
-      "tick": 285,
-      "win32": {
-       "image_hash": "fae92b8a",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000285.jpg",
-       "state_hash": "9b0e4afb"
-      }
-     },
-     {
-      "tick": 315,
-      "win32": {
-       "image_hash": "07ff3483",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000315.jpg",
-       "state_hash": "cd60f761"
-      }
-     },
-     {
-      "tick": 345,
-      "win32": {
-       "image_hash": "9dd9ad5c",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000345.jpg",
-       "state_hash": "cfa15e2e"
-      }
-     },
-     {
-      "tick": 375,
-      "win32": {
-       "image_hash": "9e27aeac",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000375.jpg",
-       "state_hash": "6322af19"
-      }
-     },
-     {
-      "tick": 405,
-      "win32": {
-       "image_hash": "a70a9352",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000405.jpg",
-       "state_hash": "773e1b82"
-      }
-     },
-     {
-      "tick": 435,
-      "win32": {
-       "image_hash": "847f37f7",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000435.jpg",
-       "state_hash": "da677b96"
-      }
-     },
-     {
-      "tick": 465,
-      "win32": {
-       "image_hash": "dd1478f4",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000465.jpg",
-       "state_hash": "50c7bb8d"
-      }
-     },
-     {
-      "tick": 495,
-      "win32": {
-       "image_hash": "2b56fde7",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000495.jpg",
-       "state_hash": "43ba377e"
-      }
-     },
-     {
-      "tick": 599,
-      "win32": {
-       "image_hash": "5a8cf790",
-       "src": "shots/scene_s1_surfaces/001/win32/tick_000599.jpg",
-       "state_hash": "2a87e523"
-      }
-     }
-    ],
-    "commit": "35fd8af18",
-    "compare": null,
-    "date": "2026-10-07T14:44:43Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "7d684ed6",
-       "frame_time_ms": {
-        "avg": 0.689,
-        "max": 186.517,
-        "min": 0.001
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 414.329
-      }
-     }
-    },
-    "run": "001",
-    "status": "single"
-   }
-  ],
-  "scene": "scene_s1_surfaces",
-  "source": "games/peregon/src/game/scene_s1_surfaces.cpp",
-  "source_commit": "98ced6787"
- },
- {
-  "latest": "036",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/041/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/041/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/041/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/041/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/041/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/041/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "29e6515542",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T17:31:26Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.653,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.801
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 13.282,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 23.905
-      }
-     }
-    },
-    "run": "041",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/040/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/040/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/040/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/040/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/040/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/040/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "f723d5eee8",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T17:24:28Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.83,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 2.209
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 13.241,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.079
-      }
-     }
-    },
-    "run": "040",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/039/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/039/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/039/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/039/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/039/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/039/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "f723d5eee8",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T17:21:21Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.006,
-        "max": 1.515,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 4.056
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.041,
-        "max": 14.108,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.58
-      }
-     }
-    },
-    "run": "039",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/038/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/038/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/038/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/038/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/038/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/038/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "f723d5eee8",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T17:12:55Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.781,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.962
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.041,
-        "max": 15.146,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.415
-      }
-     }
-    },
-    "run": "038",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/037/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/037/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/037/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/037/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/037/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/037/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "f723d5eee8",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T17:10:56Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.004,
-        "max": 1.115,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 2.596
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.064,
-        "max": 21.867,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 39.283
-      }
-     }
-    },
-    "run": "037",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/036/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/036/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/036/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/036/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/036/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/036/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "ffbda5601c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:50:20Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.005,
-        "max": 1.47,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 3.449
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.083,
-        "max": 25.067,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 50.307
-      }
-     }
-    },
-    "run": "036",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/035/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/035/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/035/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/035/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/035/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/035/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "cb9607491",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:28:02Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.646,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.73
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.041,
-        "max": 13.537,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.346
-      }
-     }
-    },
-    "run": "035",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/034/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/034/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/034/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/034/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/034/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/034/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "cb9607491",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:27:41Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.707,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.822
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.041,
-        "max": 13.732,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.257
-      }
-     }
-    },
-    "run": "034",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/033/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/033/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/033/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/033/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/033/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/033/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "3a5ae10ba",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:18:59Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.65,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.793
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.048,
-        "max": 17.849,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 29.586
-      }
-     }
-    },
-    "run": "033",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/032/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/032/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/032/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/032/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/032/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/032/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "3a5ae10ba",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:18:26Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.004,
-        "max": 1.178,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 2.955
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.049,
-        "max": 18.649,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 30.373
-      }
-     }
-    },
-    "run": "032",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/031/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/031/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/031/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/031/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/031/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/031/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "3a5ae10ba",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:12:39Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.798,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 2.158
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.041,
-        "max": 14.061,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.541
-      }
-     }
-    },
-    "run": "031",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/030/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/030/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/030/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/030/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/030/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/030/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "3a5ae10ba",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:12:06Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.761,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.893
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.043,
-        "max": 14.492,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 26.82
-      }
-     }
-    },
-    "run": "030",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/029/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/029/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/029/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/029/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/029/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/029/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "478c419c0",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:06:41Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.651,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.771
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.04,
-        "max": 13.594,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.914
-      }
-     }
-    },
-    "run": "029",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/028/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/028/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/028/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/028/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/028/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/028/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "478c419c0",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:06:12Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.677,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.812
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.041,
-        "max": 14.255,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.636
-      }
-     }
-    },
-    "run": "028",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/027/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/027/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/027/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/027/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/027/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/027/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "478c419c0",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:02:50Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.709,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.82
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.041,
-        "max": 13.813,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.626
-      }
-     }
-    },
-    "run": "027",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/026/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/026/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/026/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/026/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/026/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/026/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "478c419c0",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T12:02:20Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.739,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.903
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.103,
-        "max": 39.353,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 62.319
-      }
-     }
-    },
-    "run": "026",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/025/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/025/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/025/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/025/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/025/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/025/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "6754e8c9f",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:42:48Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.776,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.92
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.042,
-        "max": 14.054,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.749
-      }
-     }
-    },
-    "run": "025",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/024/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/024/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/024/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/024/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/024/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/024/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:36:00Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.649,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.717
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.04,
-        "max": 13.025,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.799
-      }
-     }
-    },
-    "run": "024",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/023/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/023/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/023/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/023/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/023/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/023/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:35:17Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.726,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.838
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 12.632,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 23.961
-      }
-     }
-    },
-    "run": "023",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/022/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/022/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/022/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/022/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/022/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/022/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:35:13Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.764,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.946
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 12.675,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.14
-      }
-     }
-    },
-    "run": "022",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/021/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/021/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/021/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/021/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/021/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/021/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:34:49Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.756,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 2.218
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 13.0,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.395
-      }
-     }
-    },
-    "run": "021",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/020/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/020/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/020/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/020/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/020/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/020/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:32:53Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.721,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.873
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 12.9,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.455
-      }
-     }
-    },
-    "run": "020",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/019/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/019/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/019/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/019/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/019/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/019/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:31:59Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.695,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.834
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 12.56,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.147
-      }
-     }
-    },
-    "run": "019",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/018/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/018/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/018/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/018/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/018/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/018/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:31:27Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.759,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.954
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.04,
-        "max": 13.419,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.928
-      }
-     }
-    },
-    "run": "018",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/017/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/017/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/017/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/017/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/017/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/017/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:30:43Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.638,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.745
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.038,
-        "max": 12.353,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 23.339
-      }
-     }
-    },
-    "run": "017",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/016/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/016/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/016/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/016/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/016/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/016/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:30:39Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.731,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.822
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 13.35,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.433
-      }
-     }
-    },
-    "run": "016",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/015/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/015/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/015/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/015/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/015/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/015/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:30:17Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.759,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.809
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 12.982,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.113
-      }
-     }
-    },
-    "run": "015",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/014/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/014/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/014/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/014/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/014/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/014/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "9d1c74fc0",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:25:50Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.722,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.839
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.038,
-        "max": 12.419,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 23.602
-      }
-     }
-    },
-    "run": "014",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/013/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/013/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/013/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/013/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/013/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/013/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "9d1c74fc0",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:25:07Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.696,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.809
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.046,
-        "max": 15.38,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 28.425
-      }
-     }
-    },
-    "run": "013",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/012/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/012/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/012/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/012/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/012/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/012/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "9d1c74fc0",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:24:46Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.644,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.761
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.04,
-        "max": 12.782,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.841
-      }
-     }
-    },
-    "run": "012",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/011/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/011/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/011/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/011/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/011/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/011/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "cd4e7c2f5",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:23:22Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.659,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.732
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.039,
-        "max": 13.05,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 24.335
-      }
-     }
-    },
-    "run": "011",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/010/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/010/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/010/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/010/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/010/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/010/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "44393f7fd",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:18:24Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.75,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 2.051
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.04,
-        "max": 12.949,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 25.153
-      }
-     }
-    },
-    "run": "010",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/009/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/009/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/009/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/009/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/009/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/009/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "44393f7fd",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:18:18Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.004,
-        "max": 1.125,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 2.941
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.094,
-        "max": 46.183,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 56.988
-      }
-     }
-    },
-    "run": "009",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/008/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/008/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/008/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/008/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/008/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/008/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "44393f7fd",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:17:28Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.712,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.879
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.173,
-        "max": 35.355,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 104.614
-      }
-     }
-    },
-    "run": "008",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/007/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/007/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/007/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/007/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/007/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/007/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "9c3eb8777",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:13:52Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.683,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.847
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.037,
-        "max": 12.829,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 22.838
-      }
-     }
-    },
-    "run": "007",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/006/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/006/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/006/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/006/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/006/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/006/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "9c3eb8777",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:13:32Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.741,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.924
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.111,
-        "max": 57.364,
-        "min": 0.001
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 67.582
-      }
-     }
-    },
-    "run": "006",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/005/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/005/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/005/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/005/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/005/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/005/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "edf538494",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T10:47:52Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.632,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.681
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.029,
-        "max": 12.183,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 18.262
-      }
-     }
-    },
-    "run": "005",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/004/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/004/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/004/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/004/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/004/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/004/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "6a060f641",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T10:39:52Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.814,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.998
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.033,
-        "max": 13.04,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 20.446
-      }
-     }
-    },
-    "run": "004",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/003/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/003/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/003/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/003/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/003/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/003/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "2ca6e9659",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T10:20:23Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.608,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.626
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.029,
-        "max": 12.376,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 18.229
-      }
-     }
-    },
-    "run": "003",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/002/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/002/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/002/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/002/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/002/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/002/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "44f2fe9cf",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T10:19:38Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.003,
-        "max": 0.741,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.854
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.029,
-        "max": 12.05,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 18.416
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "100,300,600"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/001/native/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "af22cb33",
-       "src": "shots/scene_smoke/001/win32/tick_000100.jpg",
-       "state_hash": "ada901f7"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/001/native/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "5d6b7890",
-       "src": "shots/scene_smoke/001/win32/tick_000300.jpg",
-       "state_hash": "dd9cad31"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/001/native/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "041c0c77",
-       "src": "shots/scene_smoke/001/win32/tick_000600.jpg",
-       "state_hash": "6d68069b"
-      }
-     }
-    ],
-    "commit": "b98b9a0cf",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "6d68069b",
-      "win32": "6d68069b"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T10:18:19Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.607,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 1.682
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "6d68069b",
-       "frame_time_ms": {
-        "avg": 0.026,
-        "max": 10.788,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
-       "timescale": 0.0,
-       "wall_time_ms": 16.592
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_smoke",
-  "source": "games/peregon/src/game/scene_smoke.cpp",
-  "source_commit": "77afaffd8"
- },
- {
-  "latest": "004",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/004/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/004/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/004/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/004/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/004/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/004/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "947c58d4fe",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:10:01Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.408,
-        "max": 40.356,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 122.51
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 21.661,
-        "max": 3379.335,
-        "min": 0.383
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 6498.945
-      }
-     }
-    },
-    "run": "004",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/003/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/003/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/003/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/003/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/003/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/003/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:33:57Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.379,
-        "max": 36.202,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 113.926
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 32.01,
-        "max": 3418.806,
-        "min": 0.366
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 9604.086
-      }
-     }
-    },
-    "run": "003",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/002/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/002/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/002/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/002/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/002/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/002/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:29:45Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.329,
-        "max": 30.103,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 98.765
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 14.137,
-        "max": 1420.442,
-        "min": 0.346
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 4241.949
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/001/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/001/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/001/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/001/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/001/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/001/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "92c518e3a",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:25:43Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.322,
-        "max": 29.69,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 96.844
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 13.371,
-        "max": 1377.897,
-        "min": 0.339
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 4012.072
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w10_board",
-  "source": "games/peregon/src/game/scene_w10_board.cpp",
-  "source_commit": "dd32257b5"
- },
- {
-  "latest": "005",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "330",
-     "--capture",
-     "100,160,320",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "ce86e41c",
-       "src": "shots/scene_w10_cargo/005/native/tick_000100.jpg",
-       "state_hash": "014c3f81"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "ce86e41c",
-       "src": "shots/scene_w10_cargo/005/win32/tick_000100.jpg",
-       "state_hash": "014c3f81"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5729a33c",
-       "src": "shots/scene_w10_cargo/005/native/tick_000160.jpg",
-       "state_hash": "89700a0c"
-      },
-      "status": "identical",
-      "tick": 160,
-      "win32": {
-       "image_hash": "5729a33c",
-       "src": "shots/scene_w10_cargo/005/win32/tick_000160.jpg",
-       "state_hash": "89700a0c"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82eba38c",
-       "src": "shots/scene_w10_cargo/005/native/tick_000320.jpg",
-       "state_hash": "4740e9ab"
-      },
-      "status": "identical",
-      "tick": 320,
-      "win32": {
-       "image_hash": "82eba38c",
-       "src": "shots/scene_w10_cargo/005/win32/tick_000320.jpg",
-       "state_hash": "4740e9ab"
-      }
-     }
-    ],
-    "commit": "947c58d4fe",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "da28a9f6",
-      "win32": "da28a9f6"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:09:51Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "da28a9f6",
-       "frame_time_ms": {
-        "avg": 0.245,
-        "max": 22.788,
-        "min": 0.035
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 80.929
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "da28a9f6",
-       "frame_time_ms": {
-        "avg": 9.944,
-        "max": 1133.084,
-        "min": 0.711
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 3282.236
-      }
-     }
-    },
-    "run": "005",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "330",
-     "--capture",
-     "100,160,320",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "ce86e41c",
-       "src": "shots/scene_w10_cargo/004/native/tick_000100.jpg",
-       "state_hash": "014c3f81"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "ce86e41c",
-       "src": "shots/scene_w10_cargo/004/win32/tick_000100.jpg",
-       "state_hash": "014c3f81"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5729a33c",
-       "src": "shots/scene_w10_cargo/004/native/tick_000160.jpg",
-       "state_hash": "89700a0c"
-      },
-      "status": "identical",
-      "tick": 160,
-      "win32": {
-       "image_hash": "5729a33c",
-       "src": "shots/scene_w10_cargo/004/win32/tick_000160.jpg",
-       "state_hash": "89700a0c"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82eba38c",
-       "src": "shots/scene_w10_cargo/004/native/tick_000320.jpg",
-       "state_hash": "4740e9ab"
-      },
-      "status": "identical",
-      "tick": 320,
-      "win32": {
-       "image_hash": "82eba38c",
-       "src": "shots/scene_w10_cargo/004/win32/tick_000320.jpg",
-       "state_hash": "4740e9ab"
-      }
-     }
-    ],
-    "commit": "5491bf3062",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "da28a9f6",
-      "win32": "da28a9f6"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T14:55:56Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "da28a9f6",
-       "frame_time_ms": {
-        "avg": 0.245,
-        "max": 23.724,
-        "min": 0.033
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a1689af99c0baaa6c/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 81.061
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "da28a9f6",
-       "frame_time_ms": {
-        "avg": 9.787,
-        "max": 1066.233,
-        "min": 0.661
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 3230.447
-      }
-     }
-    },
-    "run": "004",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "330",
-     "--capture",
-     "100,160,320",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "b7f5cc14",
-       "src": "shots/scene_w10_cargo/003/native/tick_000100.jpg",
-       "state_hash": "9c2ae5b1"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "b7f5cc14",
-       "src": "shots/scene_w10_cargo/003/win32/tick_000100.jpg",
-       "state_hash": "9c2ae5b1"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "68c0a53b",
-       "src": "shots/scene_w10_cargo/003/native/tick_000160.jpg",
-       "state_hash": "46b3cd9c"
-      },
-      "status": "identical",
-      "tick": 160,
-      "win32": {
-       "image_hash": "68c0a53b",
-       "src": "shots/scene_w10_cargo/003/win32/tick_000160.jpg",
-       "state_hash": "46b3cd9c"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "92332a75",
-       "src": "shots/scene_w10_cargo/003/native/tick_000320.jpg",
-       "state_hash": "d6716d26"
-      },
-      "status": "identical",
-      "tick": 320,
-      "win32": {
-       "image_hash": "92332a75",
-       "src": "shots/scene_w10_cargo/003/win32/tick_000320.jpg",
-       "state_hash": "d6716d26"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "ff715563",
-      "win32": "ff715563"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:33:41Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "ff715563",
-       "frame_time_ms": {
-        "avg": 0.475,
-        "max": 51.494,
-        "min": 0.021
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 157.088
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ff715563",
-       "frame_time_ms": {
-        "avg": 30.273,
-        "max": 3530.64,
-        "min": 0.424
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 9991.138
-      }
-     }
-    },
-    "run": "003",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "330",
-     "--capture",
-     "100,160,320",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "b7f5cc14",
-       "src": "shots/scene_w10_cargo/002/native/tick_000100.jpg",
-       "state_hash": "9c2ae5b1"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "b7f5cc14",
-       "src": "shots/scene_w10_cargo/002/win32/tick_000100.jpg",
-       "state_hash": "9c2ae5b1"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "68c0a53b",
-       "src": "shots/scene_w10_cargo/002/native/tick_000160.jpg",
-       "state_hash": "46b3cd9c"
-      },
-      "status": "identical",
-      "tick": 160,
-      "win32": {
-       "image_hash": "68c0a53b",
-       "src": "shots/scene_w10_cargo/002/win32/tick_000160.jpg",
-       "state_hash": "46b3cd9c"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "92332a75",
-       "src": "shots/scene_w10_cargo/002/native/tick_000320.jpg",
-       "state_hash": "d6716d26"
-      },
-      "status": "identical",
-      "tick": 320,
-      "win32": {
-       "image_hash": "92332a75",
-       "src": "shots/scene_w10_cargo/002/win32/tick_000320.jpg",
-       "state_hash": "d6716d26"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "ff715563",
-      "win32": "ff715563"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:29:37Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "ff715563",
-       "frame_time_ms": {
-        "avg": 0.387,
-        "max": 40.245,
-        "min": 0.02
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 127.776
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ff715563",
-       "frame_time_ms": {
-        "avg": 16.755,
-        "max": 1917.855,
-        "min": 0.409
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 5529.832
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "330",
-     "--capture",
-     "100,160,320",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "b7f5cc14",
-       "src": "shots/scene_w10_cargo/001/native/tick_000100.jpg",
-       "state_hash": "9c2ae5b1"
-      },
-      "status": "identical",
-      "tick": 100,
-      "win32": {
-       "image_hash": "b7f5cc14",
-       "src": "shots/scene_w10_cargo/001/win32/tick_000100.jpg",
-       "state_hash": "9c2ae5b1"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "68c0a53b",
-       "src": "shots/scene_w10_cargo/001/native/tick_000160.jpg",
-       "state_hash": "46b3cd9c"
-      },
-      "status": "identical",
-      "tick": 160,
-      "win32": {
-       "image_hash": "68c0a53b",
-       "src": "shots/scene_w10_cargo/001/win32/tick_000160.jpg",
-       "state_hash": "46b3cd9c"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "92332a75",
-       "src": "shots/scene_w10_cargo/001/native/tick_000320.jpg",
-       "state_hash": "d6716d26"
-      },
-      "status": "identical",
-      "tick": 320,
-      "win32": {
-       "image_hash": "92332a75",
-       "src": "shots/scene_w10_cargo/001/win32/tick_000320.jpg",
-       "state_hash": "d6716d26"
-      }
-     }
-    ],
-    "commit": "92c518e3a",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "ff715563",
-      "win32": "ff715563"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:25:36Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "ff715563",
-       "frame_time_ms": {
-        "avg": 0.413,
-        "max": 48.377,
-        "min": 0.021
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 136.476
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ff715563",
-       "frame_time_ms": {
-        "avg": 16.691,
-        "max": 1894.15,
-        "min": 0.399
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
-        "format": "text1",
-        "hash": "78fbcc2e",
-        "length_ticks": 290
-       },
-       "seed": 2,
-       "ticks": 330,
-       "timescale": 0.0,
-       "wall_time_ms": 5508.665
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w10_cargo",
-  "source": "games/peregon/src/game/scene_w10_cargo.cpp",
-  "source_commit": "dd32257b5"
- },
- {
-  "latest": "004",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "260",
-     "--capture",
-     "1,152,240",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/004/native/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/004/win32/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/004/native/tick_000152.jpg",
-       "state_hash": "836a119d"
-      },
-      "status": "identical",
-      "tick": 152,
-      "win32": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/004/win32/tick_000152.jpg",
-       "state_hash": "836a119d"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/004/native/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/004/win32/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      }
-     }
-    ],
-    "commit": "947c58d4fe",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "5def1874",
-      "win32": "5def1874"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:09:42Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 0.36,
-        "max": 29.795,
-        "min": 0.017
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 93.624
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 15.594,
-        "max": 1352.433,
-        "min": 0.392
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 4055.228
-      }
-     }
-    },
-    "run": "004",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "260",
-     "--capture",
-     "1,152,240",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/003/native/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/003/win32/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/003/native/tick_000152.jpg",
-       "state_hash": "836a119d"
-      },
-      "status": "identical",
-      "tick": 152,
-      "win32": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/003/win32/tick_000152.jpg",
-       "state_hash": "836a119d"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/003/native/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/003/win32/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "5def1874",
-      "win32": "5def1874"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:33:26Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 0.519,
-        "max": 58.011,
-        "min": 0.017
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 135.098
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 28.245,
-        "max": 2601.547,
-        "min": 0.353
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 7344.55
-      }
-     }
-    },
-    "run": "003",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "260",
-     "--capture",
-     "1,152,240",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/002/native/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/002/win32/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/002/native/tick_000152.jpg",
-       "state_hash": "836a119d"
-      },
-      "status": "identical",
-      "tick": 152,
-      "win32": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/002/win32/tick_000152.jpg",
-       "state_hash": "836a119d"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/002/native/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/002/win32/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "5def1874",
-      "win32": "5def1874"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:29:28Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 0.368,
-        "max": 31.014,
-        "min": 0.017
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 95.778
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 14.668,
-        "max": 1278.919,
-        "min": 0.342
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 3814.402
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "260",
-     "--capture",
-     "1,152,240",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/001/native/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "e718d938",
-       "src": "shots/scene_w10_hud/001/win32/tick_000001.jpg",
-       "state_hash": "8c2453ba"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/001/native/tick_000152.jpg",
-       "state_hash": "836a119d"
-      },
-      "status": "identical",
-      "tick": 152,
-      "win32": {
-       "image_hash": "7fedb885",
-       "src": "shots/scene_w10_hud/001/win32/tick_000152.jpg",
-       "state_hash": "836a119d"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/001/native/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "fd791a5e",
-       "src": "shots/scene_w10_hud/001/win32/tick_000240.jpg",
-       "state_hash": "20a095cf"
-      }
-     }
-    ],
-    "commit": "92c518e3a",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "5def1874",
-      "win32": "5def1874"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:25:26Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 0.348,
-        "max": 28.536,
-        "min": 0.016
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 90.535
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "5def1874",
-       "frame_time_ms": {
-        "avg": 14.869,
-        "max": 1279.151,
-        "min": 0.329
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_hud_nav.txt",
-        "format": "text1",
-        "hash": "e595dace",
-        "length_ticks": 205
-       },
-       "seed": 2,
-       "ticks": 260,
-       "timescale": 0.0,
-       "wall_time_ms": 3866.699
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w10_hud",
-  "source": "games/peregon/src/game/scene_w10_hud.cpp",
-  "source_commit": "dd32257b5"
- },
- {
   "latest": "001",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 14:15",
+  "merged_commit": "44393f7fd",
   "runs": [
    {
     "args": [
@@ -15622,1225 +12547,9 @@ window.PEREGON_RUNS = [
   "source_commit": "a2da8b1fa"
  },
  {
-  "latest": "006",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "40",
-     "--capture",
-     "36"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e16a1a4e",
-       "src": "shots/scene_w12_menu/006/native/tick_000036.jpg",
-       "state_hash": "fd5e01cf"
-      },
-      "status": "identical",
-      "tick": 36,
-      "win32": {
-       "image_hash": "e16a1a4e",
-       "src": "shots/scene_w12_menu/006/win32/tick_000036.jpg",
-       "state_hash": "fd5e01cf"
-      }
-     }
-    ],
-    "commit": "a1f7b8dc1c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "25a13214",
-      "win32": "25a13214"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:08:01Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "25a13214",
-       "frame_time_ms": {
-        "avg": 0.933,
-        "max": 35.755,
-        "min": 0.03
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 2,
-       "ticks": 40,
-       "timescale": 0.0,
-       "wall_time_ms": 37.34
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "25a13214",
-       "frame_time_ms": {
-        "avg": 53.813,
-        "max": 2113.209,
-        "min": 0.599
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 2,
-       "ticks": 40,
-       "timescale": 0.0,
-       "wall_time_ms": 2152.96
-      }
-     }
-    },
-    "run": "006",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "520",
-     "--capture",
-     "376,500",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "61992588",
-       "src": "shots/scene_w12_menu/005/native/tick_000376.jpg",
-       "state_hash": "efae6a19"
-      },
-      "status": "identical",
-      "tick": 376,
-      "win32": {
-       "image_hash": "61992588",
-       "src": "shots/scene_w12_menu/005/win32/tick_000376.jpg",
-       "state_hash": "efae6a19"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "6714c3b2",
-       "src": "shots/scene_w12_menu/005/native/tick_000500.jpg",
-       "state_hash": "7eedfdd5"
-      },
-      "status": "identical",
-      "tick": 500,
-      "win32": {
-       "image_hash": "6714c3b2",
-       "src": "shots/scene_w12_menu/005/win32/tick_000500.jpg",
-       "state_hash": "7eedfdd5"
-      }
-     }
-    ],
-    "commit": "a1f7b8dc1c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "949f6470",
-      "win32": "949f6470"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:07:56Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "949f6470",
-       "frame_time_ms": {
-        "avg": 0.148,
-        "max": 34.689,
-        "min": 0.011
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 520,
-       "timescale": 0.0,
-       "wall_time_ms": 77.229
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "949f6470",
-       "frame_time_ms": {
-        "avg": 9.671,
-        "max": 2473.943,
-        "min": 0.199
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 520,
-       "timescale": 0.0,
-       "wall_time_ms": 5030.857
-      }
-     }
-    },
-    "run": "005",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "230",
-     "--capture",
-     "60,212",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "7be66447",
-       "src": "shots/scene_w12_menu/004/native/tick_000060.jpg",
-       "state_hash": "d1945f5c"
-      },
-      "status": "identical",
-      "tick": 60,
-      "win32": {
-       "image_hash": "7be66447",
-       "src": "shots/scene_w12_menu/004/win32/tick_000060.jpg",
-       "state_hash": "d1945f5c"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5b186f44",
-       "src": "shots/scene_w12_menu/004/native/tick_000212.jpg",
-       "state_hash": "e954ce45"
-      },
-      "status": "identical",
-      "tick": 212,
-      "win32": {
-       "image_hash": "5b186f44",
-       "src": "shots/scene_w12_menu/004/win32/tick_000212.jpg",
-       "state_hash": "e954ce45"
-      }
-     }
-    ],
-    "commit": "a1f7b8dc1c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "d17c6999",
-      "win32": "d17c6999"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:07:49Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "d17c6999",
-       "frame_time_ms": {
-        "avg": 0.424,
-        "max": 44.256,
-        "min": 0.023
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 230,
-       "timescale": 0.0,
-       "wall_time_ms": 97.594
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "d17c6999",
-       "frame_time_ms": {
-        "avg": 19.701,
-        "max": 2469.265,
-        "min": 0.472
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 230,
-       "timescale": 0.0,
-       "wall_time_ms": 4532.641
-      }
-     }
-    },
-    "run": "004",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "40",
-     "--capture",
-     "36"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e16a1a4e",
-       "src": "shots/scene_w12_menu/003/native/tick_000036.jpg",
-       "state_hash": "fd5e01cf"
-      },
-      "status": "identical",
-      "tick": 36,
-      "win32": {
-       "image_hash": "e16a1a4e",
-       "src": "shots/scene_w12_menu/003/win32/tick_000036.jpg",
-       "state_hash": "fd5e01cf"
-      }
-     }
-    ],
-    "commit": "54f1c0403c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "25a13214",
-      "win32": "25a13214"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:02:09Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "25a13214",
-       "frame_time_ms": {
-        "avg": 0.899,
-        "max": 34.566,
-        "min": 0.03
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 2,
-       "ticks": 40,
-       "timescale": 0.0,
-       "wall_time_ms": 35.98
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "25a13214",
-       "frame_time_ms": {
-        "avg": 43.985,
-        "max": 1724.411,
-        "min": 0.598
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 2,
-       "ticks": 40,
-       "timescale": 0.0,
-       "wall_time_ms": 1759.897
-      }
-     }
-    },
-    "run": "003",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "520",
-     "--capture",
-     "376,500",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "61992588",
-       "src": "shots/scene_w12_menu/002/native/tick_000376.jpg",
-       "state_hash": "efae6a19"
-      },
-      "status": "identical",
-      "tick": 376,
-      "win32": {
-       "image_hash": "61992588",
-       "src": "shots/scene_w12_menu/002/win32/tick_000376.jpg",
-       "state_hash": "efae6a19"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "6714c3b2",
-       "src": "shots/scene_w12_menu/002/native/tick_000500.jpg",
-       "state_hash": "7eedfdd5"
-      },
-      "status": "identical",
-      "tick": 500,
-      "win32": {
-       "image_hash": "6714c3b2",
-       "src": "shots/scene_w12_menu/002/win32/tick_000500.jpg",
-       "state_hash": "7eedfdd5"
-      }
-     }
-    ],
-    "commit": "54f1c0403c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "949f6470",
-      "win32": "949f6470"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:02:05Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "949f6470",
-       "frame_time_ms": {
-        "avg": 0.125,
-        "max": 31.985,
-        "min": 0.011
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a7a8c2608881b903b/games/peregon/tools/replays/scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 520,
-       "timescale": 0.0,
-       "wall_time_ms": 65.416
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "949f6470",
-       "frame_time_ms": {
-        "avg": 5.197,
-        "max": 1484.896,
-        "min": 0.195
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 520,
-       "timescale": 0.0,
-       "wall_time_ms": 2703.297
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "230",
-     "--capture",
-     "60,212",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "7be66447",
-       "src": "shots/scene_w12_menu/001/native/tick_000060.jpg",
-       "state_hash": "d1945f5c"
-      },
-      "status": "identical",
-      "tick": 60,
-      "win32": {
-       "image_hash": "7be66447",
-       "src": "shots/scene_w12_menu/001/win32/tick_000060.jpg",
-       "state_hash": "d1945f5c"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5b186f44",
-       "src": "shots/scene_w12_menu/001/native/tick_000212.jpg",
-       "state_hash": "e954ce45"
-      },
-      "status": "identical",
-      "tick": 212,
-      "win32": {
-       "image_hash": "5b186f44",
-       "src": "shots/scene_w12_menu/001/win32/tick_000212.jpg",
-       "state_hash": "e954ce45"
-      }
-     }
-    ],
-    "commit": "54f1c0403c",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "d17c6999",
-      "win32": "d17c6999"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:01:59Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "d17c6999",
-       "frame_time_ms": {
-        "avg": 0.334,
-        "max": 34.975,
-        "min": 0.023
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a7a8c2608881b903b/games/peregon/tools/replays/scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 230,
-       "timescale": 0.0,
-       "wall_time_ms": 76.919
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "d17c6999",
-       "frame_time_ms": {
-        "avg": 14.099,
-        "max": 1598.519,
-        "min": 0.463
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w12_menu.txt",
-        "format": "text1",
-        "hash": "4b3e4e47",
-        "length_ticks": 459
-       },
-       "seed": 4,
-       "ticks": 230,
-       "timescale": 0.0,
-       "wall_time_ms": 3243.462
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w12_menu",
-  "source": "games/peregon/src/game/scene_w12_menu.cpp",
-  "source_commit": "a5e64027f"
- },
- {
-  "latest": "002",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "1000",
-     "--capture",
-     "1,500,1000"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "989f57c7",
-       "src": "shots/scene_w13_bot_arena/002/native/tick_000001.jpg",
-       "state_hash": "ae4af24b"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "989f57c7",
-       "src": "shots/scene_w13_bot_arena/002/win32/tick_000001.jpg",
-       "state_hash": "ae4af24b"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "2b4babc0",
-       "src": "shots/scene_w13_bot_arena/002/native/tick_000500.jpg",
-       "state_hash": "7065e548"
-      },
-      "status": "identical",
-      "tick": 500,
-      "win32": {
-       "image_hash": "2b4babc0",
-       "src": "shots/scene_w13_bot_arena/002/win32/tick_000500.jpg",
-       "state_hash": "7065e548"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "f24824ab",
-       "src": "shots/scene_w13_bot_arena/002/native/tick_001000.jpg",
-       "state_hash": "b59625bb"
-      },
-      "status": "identical",
-      "tick": 1000,
-      "win32": {
-       "image_hash": "f24824ab",
-       "src": "shots/scene_w13_bot_arena/002/win32/tick_001000.jpg",
-       "state_hash": "b59625bb"
-      }
-     }
-    ],
-    "commit": "33e2d1c483",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "b59625bb",
-      "win32": "b59625bb"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T17:00:18Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "b59625bb",
-       "frame_time_ms": {
-        "avg": 0.015,
-        "max": 2.657,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 1000,
-       "timescale": 0.0,
-       "wall_time_ms": 15.344
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "b59625bb",
-       "frame_time_ms": {
-        "avg": 0.742,
-        "max": 194.769,
-        "min": 0.014
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 1000,
-       "timescale": 0.0,
-       "wall_time_ms": 743.887
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "1000",
-     "--capture",
-     "1,500,1000"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "989f57c7",
-       "src": "shots/scene_w13_bot_arena/001/native/tick_000001.jpg",
-       "state_hash": "ae4af24b"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "989f57c7",
-       "src": "shots/scene_w13_bot_arena/001/win32/tick_000001.jpg",
-       "state_hash": "ae4af24b"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "2b4babc0",
-       "src": "shots/scene_w13_bot_arena/001/native/tick_000500.jpg",
-       "state_hash": "7065e548"
-      },
-      "status": "identical",
-      "tick": 500,
-      "win32": {
-       "image_hash": "2b4babc0",
-       "src": "shots/scene_w13_bot_arena/001/win32/tick_000500.jpg",
-       "state_hash": "7065e548"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "f24824ab",
-       "src": "shots/scene_w13_bot_arena/001/native/tick_001000.jpg",
-       "state_hash": "b59625bb"
-      },
-      "status": "identical",
-      "tick": 1000,
-      "win32": {
-       "image_hash": "f24824ab",
-       "src": "shots/scene_w13_bot_arena/001/win32/tick_001000.jpg",
-       "state_hash": "b59625bb"
-      }
-     }
-    ],
-    "commit": "af6579f100",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "b59625bb",
-      "win32": "b59625bb"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:31:45Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "b59625bb",
-       "frame_time_ms": {
-        "avg": 0.007,
-        "max": 0.836,
-        "min": 0.0
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 1000,
-       "timescale": 0.0,
-       "wall_time_ms": 7.712
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "b59625bb",
-       "frame_time_ms": {
-        "avg": 0.34,
-        "max": 80.273,
-        "min": 0.014
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 1000,
-       "timescale": 0.0,
-       "wall_time_ms": 341.389
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w13_bot_arena",
-  "source": "games/peregon/src/game/scene_w13_bot_arena.cpp",
-  "source_commit": "56560e0b4"
- },
- {
-  "latest": "002",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "360",
-     "--capture",
-     "360"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "174ffd3b",
-       "src": "shots/scene_w13_bot_camp/002/native/tick_000360.jpg",
-       "state_hash": "3c75ebd9"
-      },
-      "status": "identical",
-      "tick": 360,
-      "win32": {
-       "image_hash": "174ffd3b",
-       "src": "shots/scene_w13_bot_camp/002/win32/tick_000360.jpg",
-       "state_hash": "3c75ebd9"
-      }
-     }
-    ],
-    "commit": "33e2d1c483",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "3c75ebd9",
-      "win32": "3c75ebd9"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T17:01:47Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "3c75ebd9",
-       "frame_time_ms": {
-        "avg": 0.122,
-        "max": 34.116,
-        "min": 0.0
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 3,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 44.097
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "3c75ebd9",
-       "frame_time_ms": {
-        "avg": 13.026,
-        "max": 3315.63,
-        "min": 0.001
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 3,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 4690.19
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "360",
-     "--capture",
-     "360"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "174ffd3b",
-       "src": "shots/scene_w13_bot_camp/001/native/tick_000360.jpg",
-       "state_hash": "3c75ebd9"
-      },
-      "status": "identical",
-      "tick": 360,
-      "win32": {
-       "image_hash": "174ffd3b",
-       "src": "shots/scene_w13_bot_camp/001/win32/tick_000360.jpg",
-       "state_hash": "3c75ebd9"
-      }
-     }
-    ],
-    "commit": "af6579f100",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "3c75ebd9",
-      "win32": "3c75ebd9"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:31:58Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "3c75ebd9",
-       "frame_time_ms": {
-        "avg": 0.085,
-        "max": 21.371,
-        "min": 0.0
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 3,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 30.77
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "3c75ebd9",
-       "frame_time_ms": {
-        "avg": 4.954,
-        "max": 1210.501,
-        "min": 0.0
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": null,
-       "seed": 3,
-       "ticks": 360,
-       "timescale": 0.0,
-       "wall_time_ms": 1786.065
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w13_bot_camp",
-  "source": "games/peregon/src/game/scene_w13_bot_camp.cpp",
-  "source_commit": "56560e0b4"
- },
- {
-  "latest": "002",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "3000",
-     "--capture",
-     "1,1500,3000"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "0f8317a8",
-       "src": "shots/scene_w13_bot_drive/002/native/tick_000001.jpg",
-       "state_hash": "c5f58838"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "0f8317a8",
-       "src": "shots/scene_w13_bot_drive/002/win32/tick_000001.jpg",
-       "state_hash": "c5f58838"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "556bf251",
-       "src": "shots/scene_w13_bot_drive/002/native/tick_001500.jpg",
-       "state_hash": "17d2e981"
-      },
-      "status": "identical",
-      "tick": 1500,
-      "win32": {
-       "image_hash": "556bf251",
-       "src": "shots/scene_w13_bot_drive/002/win32/tick_001500.jpg",
-       "state_hash": "17d2e981"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "91b972f0",
-       "src": "shots/scene_w13_bot_drive/002/native/tick_003000.jpg",
-       "state_hash": "f78a6c84"
-      },
-      "status": "identical",
-      "tick": 3000,
-      "win32": {
-       "image_hash": "91b972f0",
-       "src": "shots/scene_w13_bot_drive/002/win32/tick_003000.jpg",
-       "state_hash": "f78a6c84"
-      }
-     }
-    ],
-    "commit": "33e2d1c483",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "f78a6c84",
-      "win32": "f78a6c84"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:59:18Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "f78a6c84",
-       "frame_time_ms": {
-        "avg": 0.015,
-        "max": 3.217,
-        "min": 0.01
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 3000,
-       "timescale": 0.0,
-       "wall_time_ms": 46.133
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "f78a6c84",
-       "frame_time_ms": {
-        "avg": 0.964,
-        "max": 130.232,
-        "min": 0.318
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 3000,
-       "timescale": 0.0,
-       "wall_time_ms": 2899.831
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "3000",
-     "--capture",
-     "1,1500,3000"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "0f8317a8",
-       "src": "shots/scene_w13_bot_drive/001/native/tick_000001.jpg",
-       "state_hash": "c5f58838"
-      },
-      "status": "identical",
-      "tick": 1,
-      "win32": {
-       "image_hash": "0f8317a8",
-       "src": "shots/scene_w13_bot_drive/001/win32/tick_000001.jpg",
-       "state_hash": "c5f58838"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "556bf251",
-       "src": "shots/scene_w13_bot_drive/001/native/tick_001500.jpg",
-       "state_hash": "17d2e981"
-      },
-      "status": "identical",
-      "tick": 1500,
-      "win32": {
-       "image_hash": "556bf251",
-       "src": "shots/scene_w13_bot_drive/001/win32/tick_001500.jpg",
-       "state_hash": "17d2e981"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "91b972f0",
-       "src": "shots/scene_w13_bot_drive/001/native/tick_003000.jpg",
-       "state_hash": "f78a6c84"
-      },
-      "status": "identical",
-      "tick": 3000,
-      "win32": {
-       "image_hash": "91b972f0",
-       "src": "shots/scene_w13_bot_drive/001/win32/tick_003000.jpg",
-       "state_hash": "f78a6c84"
-      }
-     }
-    ],
-    "commit": "af6579f100",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "f78a6c84",
-      "win32": "f78a6c84"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:31:31Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "f78a6c84",
-       "frame_time_ms": {
-        "avg": 0.013,
-        "max": 0.854,
-        "min": 0.01
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 3000,
-       "timescale": 0.0,
-       "wall_time_ms": 40.894
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "f78a6c84",
-       "frame_time_ms": {
-        "avg": 0.396,
-        "max": 48.266,
-        "min": 0.316
-       },
-       "framebuffer": "fallback",
-       "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 3000,
-       "timescale": 0.0,
-       "wall_time_ms": 1191.166
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w13_bot_drive",
-  "source": "games/peregon/src/game/scene_w13_bot_drive.cpp",
-  "source_commit": "56560e0b4"
- },
- {
   "latest": "019",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 15:08",
+  "merged_commit": "3a5ae10ba",
   "runs": [
    {
     "args": [],
@@ -19487,9 +15196,3082 @@ window.PEREGON_RUNS = [
   "source_commit": "4a2c94055"
  },
  {
+  "latest": "021",
+  "merged": "2026-10-07 15:22",
+  "merged_commit": "cb9607491",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "4",
+     "--ticks",
+     "1034",
+     "--capture",
+     "32,68,135,265,312,433",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 32,
+      "win32": {
+       "image_hash": "b1346235",
+       "src": "shots/scene_w3_combat/021/win32/tick_000032.jpg",
+       "state_hash": "342651b0"
+      }
+     },
+     {
+      "tick": 68,
+      "win32": {
+       "image_hash": "66f932f9",
+       "src": "shots/scene_w3_combat/021/win32/tick_000068.jpg",
+       "state_hash": "32b120b4"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "ac89c13b",
+       "src": "shots/scene_w3_combat/021/win32/tick_000135.jpg",
+       "state_hash": "ce6d8f01"
+      }
+     },
+     {
+      "tick": 265,
+      "win32": {
+       "image_hash": "5b6d3ad1",
+       "src": "shots/scene_w3_combat/021/win32/tick_000265.jpg",
+       "state_hash": "e9d27788"
+      }
+     },
+     {
+      "tick": 312,
+      "win32": {
+       "image_hash": "bdf706c6",
+       "src": "shots/scene_w3_combat/021/win32/tick_000312.jpg",
+       "state_hash": "20d4ac33"
+      }
+     },
+     {
+      "tick": 433,
+      "win32": {
+       "image_hash": "17e7afec",
+       "src": "shots/scene_w3_combat/021/win32/tick_000433.jpg",
+       "state_hash": "2506d681"
+      }
+     }
+    ],
+    "commit": "ffbda5601c",
+    "compare": null,
+    "date": "2026-10-07T16:57:14Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "506460b5",
+       "frame_time_ms": {
+        "avg": 1.671,
+        "max": 164.669,
+        "min": 0.927
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
+        "format": "text1",
+        "hash": "87044586",
+        "length_ticks": 1034
+       },
+       "seed": 4,
+       "ticks": 1034,
+       "timescale": 0.0,
+       "wall_time_ms": 1730.874
+      }
+     }
+    },
+    "run": "021",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "638",
+     "--capture",
+     "91,154,221,304,455",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 91,
+      "win32": {
+       "image_hash": "e37839ad",
+       "src": "shots/scene_w3_combat/020/win32/tick_000091.jpg",
+       "state_hash": "30ef366e"
+      }
+     },
+     {
+      "tick": 154,
+      "win32": {
+       "image_hash": "0c5e521c",
+       "src": "shots/scene_w3_combat/020/win32/tick_000154.jpg",
+       "state_hash": "b6b5483f"
+      }
+     },
+     {
+      "tick": 221,
+      "win32": {
+       "image_hash": "82a277e6",
+       "src": "shots/scene_w3_combat/020/win32/tick_000221.jpg",
+       "state_hash": "7aee9716"
+      }
+     },
+     {
+      "tick": 304,
+      "win32": {
+       "image_hash": "14ee8dae",
+       "src": "shots/scene_w3_combat/020/win32/tick_000304.jpg",
+       "state_hash": "969736fe"
+      }
+     },
+     {
+      "tick": 455,
+      "win32": {
+       "image_hash": "4afceada",
+       "src": "shots/scene_w3_combat/020/win32/tick_000455.jpg",
+       "state_hash": "4ca8f9df"
+      }
+     }
+    ],
+    "commit": "ffbda5601c",
+    "compare": null,
+    "date": "2026-10-07T16:56:45Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "0c03100d",
+       "frame_time_ms": {
+        "avg": 1.593,
+        "max": 353.248,
+        "min": 0.671
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
+        "format": "text1",
+        "hash": "54a8e381",
+        "length_ticks": 638
+       },
+       "seed": 3,
+       "ticks": 638,
+       "timescale": 0.0,
+       "wall_time_ms": 1021.471
+      }
+     }
+    },
+    "run": "020",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "715",
+     "--capture",
+     "208,530,654",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 208,
+      "win32": {
+       "image_hash": "6780ba6a",
+       "src": "shots/scene_w3_combat/019/win32/tick_000208.jpg",
+       "state_hash": "4d7e649b"
+      }
+     },
+     {
+      "tick": 530,
+      "win32": {
+       "image_hash": "a9d82062",
+       "src": "shots/scene_w3_combat/019/win32/tick_000530.jpg",
+       "state_hash": "ff824008"
+      }
+     },
+     {
+      "tick": 654,
+      "win32": {
+       "image_hash": "e4338b23",
+       "src": "shots/scene_w3_combat/019/win32/tick_000654.jpg",
+       "state_hash": "710fe391"
+      }
+     }
+    ],
+    "commit": "ffbda5601c",
+    "compare": null,
+    "date": "2026-10-07T16:56:09Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "558da22f",
+       "frame_time_ms": {
+        "avg": 3.579,
+        "max": 673.63,
+        "min": 0.613
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
+        "format": "text1",
+        "hash": "705a0714",
+        "length_ticks": 715
+       },
+       "seed": 2,
+       "ticks": 715,
+       "timescale": 0.0,
+       "wall_time_ms": 2563.03
+      }
+     }
+    },
+    "run": "019",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "458",
+     "--capture",
+     "14,255,397",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 14,
+      "win32": {
+       "image_hash": "b9eb3efd",
+       "src": "shots/scene_w3_combat/018/win32/tick_000014.jpg",
+       "state_hash": "39a69511"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "88fcb5e6",
+       "src": "shots/scene_w3_combat/018/win32/tick_000255.jpg",
+       "state_hash": "970b2d3e"
+      }
+     },
+     {
+      "tick": 397,
+      "win32": {
+       "image_hash": "be408570",
+       "src": "shots/scene_w3_combat/018/win32/tick_000397.jpg",
+       "state_hash": "6e323b82"
+      }
+     }
+    ],
+    "commit": "ffbda5601c",
+    "compare": null,
+    "date": "2026-10-07T16:55:37Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "c191af02",
+       "frame_time_ms": {
+        "avg": 1.597,
+        "max": 174.524,
+        "min": 0.722
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
+        "format": "text1",
+        "hash": "aa720f21",
+        "length_ticks": 458
+       },
+       "seed": 1,
+       "ticks": 458,
+       "timescale": 0.0,
+       "wall_time_ms": 732.532
+      }
+     }
+    },
+    "run": "018",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "4",
+     "--ticks",
+     "1034",
+     "--capture",
+     "32,68,135,265,312,433",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 32,
+      "win32": {
+       "image_hash": "b1346235",
+       "src": "shots/scene_w3_combat/017/win32/tick_000032.jpg",
+       "state_hash": "ab24397c"
+      }
+     },
+     {
+      "tick": 68,
+      "win32": {
+       "image_hash": "66f932f9",
+       "src": "shots/scene_w3_combat/017/win32/tick_000068.jpg",
+       "state_hash": "40bfc746"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "ac89c13b",
+       "src": "shots/scene_w3_combat/017/win32/tick_000135.jpg",
+       "state_hash": "c0d79d64"
+      }
+     },
+     {
+      "tick": 265,
+      "win32": {
+       "image_hash": "5b6d3ad1",
+       "src": "shots/scene_w3_combat/017/win32/tick_000265.jpg",
+       "state_hash": "f90c7f4b"
+      }
+     },
+     {
+      "tick": 312,
+      "win32": {
+       "image_hash": "bdf706c6",
+       "src": "shots/scene_w3_combat/017/win32/tick_000312.jpg",
+       "state_hash": "d5b277fa"
+      }
+     },
+     {
+      "tick": 433,
+      "win32": {
+       "image_hash": "17e7afec",
+       "src": "shots/scene_w3_combat/017/win32/tick_000433.jpg",
+       "state_hash": "331bb48e"
+      }
+     }
+    ],
+    "commit": "6eaf849cf",
+    "compare": null,
+    "date": "2026-10-07T13:35:53Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "086743f0",
+       "frame_time_ms": {
+        "avg": 4.244,
+        "max": 844.784,
+        "min": 0.939
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
+        "format": "text1",
+        "hash": "87044586",
+        "length_ticks": 1034
+       },
+       "seed": 4,
+       "ticks": 1034,
+       "timescale": 0.0,
+       "wall_time_ms": 4392.533
+      }
+     }
+    },
+    "run": "017",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "638",
+     "--capture",
+     "91,154,221,304,455",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 91,
+      "win32": {
+       "image_hash": "e37839ad",
+       "src": "shots/scene_w3_combat/016/win32/tick_000091.jpg",
+       "state_hash": "2965719f"
+      }
+     },
+     {
+      "tick": 154,
+      "win32": {
+       "image_hash": "0c5e521c",
+       "src": "shots/scene_w3_combat/016/win32/tick_000154.jpg",
+       "state_hash": "93c33983"
+      }
+     },
+     {
+      "tick": 221,
+      "win32": {
+       "image_hash": "82a277e6",
+       "src": "shots/scene_w3_combat/016/win32/tick_000221.jpg",
+       "state_hash": "df25cb34"
+      }
+     },
+     {
+      "tick": 304,
+      "win32": {
+       "image_hash": "14ee8dae",
+       "src": "shots/scene_w3_combat/016/win32/tick_000304.jpg",
+       "state_hash": "e090b6be"
+      }
+     },
+     {
+      "tick": 455,
+      "win32": {
+       "image_hash": "07a3b568",
+       "src": "shots/scene_w3_combat/016/win32/tick_000455.jpg",
+       "state_hash": "e496b132"
+      }
+     }
+    ],
+    "commit": "6eaf849cf",
+    "compare": null,
+    "date": "2026-10-07T13:35:20Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ce160083",
+       "frame_time_ms": {
+        "avg": 3.379,
+        "max": 527.662,
+        "min": 0.68
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
+        "format": "text1",
+        "hash": "54a8e381",
+        "length_ticks": 638
+       },
+       "seed": 3,
+       "ticks": 638,
+       "timescale": 0.0,
+       "wall_time_ms": 2157.719
+      }
+     }
+    },
+    "run": "016",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "715",
+     "--capture",
+     "208,530,654",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 208,
+      "win32": {
+       "image_hash": "6780ba6a",
+       "src": "shots/scene_w3_combat/015/win32/tick_000208.jpg",
+       "state_hash": "c317da32"
+      }
+     },
+     {
+      "tick": 530,
+      "win32": {
+       "image_hash": "a9d82062",
+       "src": "shots/scene_w3_combat/015/win32/tick_000530.jpg",
+       "state_hash": "11625339"
+      }
+     },
+     {
+      "tick": 654,
+      "win32": {
+       "image_hash": "e4338b23",
+       "src": "shots/scene_w3_combat/015/win32/tick_000654.jpg",
+       "state_hash": "0f84b7e0"
+      }
+     }
+    ],
+    "commit": "6eaf849cf",
+    "compare": null,
+    "date": "2026-10-07T13:34:50Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "8868ff0e",
+       "frame_time_ms": {
+        "avg": 2.141,
+        "max": 391.653,
+        "min": 0.583
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
+        "format": "text1",
+        "hash": "705a0714",
+        "length_ticks": 715
+       },
+       "seed": 2,
+       "ticks": 715,
+       "timescale": 0.0,
+       "wall_time_ms": 1533.858
+      }
+     }
+    },
+    "run": "015",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "458",
+     "--capture",
+     "14,255,397",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 14,
+      "win32": {
+       "image_hash": "b9eb3efd",
+       "src": "shots/scene_w3_combat/014/win32/tick_000014.jpg",
+       "state_hash": "c63b387b"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "bd6db936",
+       "src": "shots/scene_w3_combat/014/win32/tick_000255.jpg",
+       "state_hash": "9207ca17"
+      }
+     },
+     {
+      "tick": 397,
+      "win32": {
+       "image_hash": "40490a0b",
+       "src": "shots/scene_w3_combat/014/win32/tick_000397.jpg",
+       "state_hash": "c21b42dd"
+      }
+     }
+    ],
+    "commit": "6eaf849cf",
+    "compare": null,
+    "date": "2026-10-07T13:34:26Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "8280a14c",
+       "frame_time_ms": {
+        "avg": 4.132,
+        "max": 579.578,
+        "min": 0.709
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
+        "format": "text1",
+        "hash": "aa720f21",
+        "length_ticks": 458
+       },
+       "seed": 1,
+       "ticks": 458,
+       "timescale": 0.0,
+       "wall_time_ms": 1936.34
+      }
+     }
+    },
+    "run": "014",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "4",
+     "--ticks",
+     "1034",
+     "--capture",
+     "32,68,135,265,312,433",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 32,
+      "win32": {
+       "image_hash": "b1346235",
+       "src": "shots/scene_w3_combat/013/win32/tick_000032.jpg",
+       "state_hash": "ab24397c"
+      }
+     },
+     {
+      "tick": 68,
+      "win32": {
+       "image_hash": "66f932f9",
+       "src": "shots/scene_w3_combat/013/win32/tick_000068.jpg",
+       "state_hash": "40bfc746"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "ac89c13b",
+       "src": "shots/scene_w3_combat/013/win32/tick_000135.jpg",
+       "state_hash": "c0d79d64"
+      }
+     },
+     {
+      "tick": 265,
+      "win32": {
+       "image_hash": "5b6d3ad1",
+       "src": "shots/scene_w3_combat/013/win32/tick_000265.jpg",
+       "state_hash": "f90c7f4b"
+      }
+     },
+     {
+      "tick": 312,
+      "win32": {
+       "image_hash": "bdf706c6",
+       "src": "shots/scene_w3_combat/013/win32/tick_000312.jpg",
+       "state_hash": "d5b277fa"
+      }
+     },
+     {
+      "tick": 433,
+      "win32": {
+       "image_hash": "17e7afec",
+       "src": "shots/scene_w3_combat/013/win32/tick_000433.jpg",
+       "state_hash": "331bb48e"
+      }
+     }
+    ],
+    "commit": "d0d1e42af",
+    "compare": null,
+    "date": "2026-10-07T13:14:39Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "086743f0",
+       "frame_time_ms": {
+        "avg": 3.707,
+        "max": 375.696,
+        "min": 0.917
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
+        "format": "text1",
+        "hash": "87044586",
+        "length_ticks": 1034
+       },
+       "seed": 4,
+       "ticks": 1034,
+       "timescale": 0.0,
+       "wall_time_ms": 3836.503
+      }
+     }
+    },
+    "run": "013",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "638",
+     "--capture",
+     "91,154,221,304,455",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 91,
+      "win32": {
+       "image_hash": "e37839ad",
+       "src": "shots/scene_w3_combat/012/win32/tick_000091.jpg",
+       "state_hash": "2965719f"
+      }
+     },
+     {
+      "tick": 154,
+      "win32": {
+       "image_hash": "0c5e521c",
+       "src": "shots/scene_w3_combat/012/win32/tick_000154.jpg",
+       "state_hash": "93c33983"
+      }
+     },
+     {
+      "tick": 221,
+      "win32": {
+       "image_hash": "82a277e6",
+       "src": "shots/scene_w3_combat/012/win32/tick_000221.jpg",
+       "state_hash": "df25cb34"
+      }
+     },
+     {
+      "tick": 304,
+      "win32": {
+       "image_hash": "14ee8dae",
+       "src": "shots/scene_w3_combat/012/win32/tick_000304.jpg",
+       "state_hash": "e090b6be"
+      }
+     },
+     {
+      "tick": 455,
+      "win32": {
+       "image_hash": "07a3b568",
+       "src": "shots/scene_w3_combat/012/win32/tick_000455.jpg",
+       "state_hash": "e496b132"
+      }
+     }
+    ],
+    "commit": "d0d1e42af",
+    "compare": null,
+    "date": "2026-10-07T13:14:06Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ce160083",
+       "frame_time_ms": {
+        "avg": 3.049,
+        "max": 454.21,
+        "min": 0.65
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
+        "format": "text1",
+        "hash": "54a8e381",
+        "length_ticks": 638
+       },
+       "seed": 3,
+       "ticks": 638,
+       "timescale": 0.0,
+       "wall_time_ms": 1947.033
+      }
+     }
+    },
+    "run": "012",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "715",
+     "--capture",
+     "208,530,654",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 208,
+      "win32": {
+       "image_hash": "6780ba6a",
+       "src": "shots/scene_w3_combat/011/win32/tick_000208.jpg",
+       "state_hash": "c317da32"
+      }
+     },
+     {
+      "tick": 530,
+      "win32": {
+       "image_hash": "a9d82062",
+       "src": "shots/scene_w3_combat/011/win32/tick_000530.jpg",
+       "state_hash": "11625339"
+      }
+     },
+     {
+      "tick": 654,
+      "win32": {
+       "image_hash": "e4338b23",
+       "src": "shots/scene_w3_combat/011/win32/tick_000654.jpg",
+       "state_hash": "0f84b7e0"
+      }
+     }
+    ],
+    "commit": "d0d1e42af",
+    "compare": null,
+    "date": "2026-10-07T13:13:33Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "8868ff0e",
+       "frame_time_ms": {
+        "avg": 2.978,
+        "max": 463.487,
+        "min": 0.585
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
+        "format": "text1",
+        "hash": "705a0714",
+        "length_ticks": 715
+       },
+       "seed": 2,
+       "ticks": 715,
+       "timescale": 0.0,
+       "wall_time_ms": 2132.503
+      }
+     }
+    },
+    "run": "011",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "458",
+     "--capture",
+     "14,255,397",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 14,
+      "win32": {
+       "image_hash": "b9eb3efd",
+       "src": "shots/scene_w3_combat/010/win32/tick_000014.jpg",
+       "state_hash": "c63b387b"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "bd6db936",
+       "src": "shots/scene_w3_combat/010/win32/tick_000255.jpg",
+       "state_hash": "9207ca17"
+      }
+     },
+     {
+      "tick": 397,
+      "win32": {
+       "image_hash": "40490a0b",
+       "src": "shots/scene_w3_combat/010/win32/tick_000397.jpg",
+       "state_hash": "c21b42dd"
+      }
+     }
+    ],
+    "commit": "d0d1e42af",
+    "compare": null,
+    "date": "2026-10-07T13:13:07Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "8280a14c",
+       "frame_time_ms": {
+        "avg": 4.302,
+        "max": 578.146,
+        "min": 0.721
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
+        "format": "text1",
+        "hash": "aa720f21",
+        "length_ticks": 458
+       },
+       "seed": 1,
+       "ticks": 458,
+       "timescale": 0.0,
+       "wall_time_ms": 1971.623
+      }
+     }
+    },
+    "run": "010",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "4",
+     "--ticks",
+     "1034",
+     "--capture",
+     "32,68,135,265,312,433",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 32,
+      "win32": {
+       "image_hash": "b1346235",
+       "src": "shots/scene_w3_combat/009/win32/tick_000032.jpg",
+       "state_hash": "1d2ee42a"
+      }
+     },
+     {
+      "tick": 68,
+      "win32": {
+       "image_hash": "66f932f9",
+       "src": "shots/scene_w3_combat/009/win32/tick_000068.jpg",
+       "state_hash": "98f2e171"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "ac89c13b",
+       "src": "shots/scene_w3_combat/009/win32/tick_000135.jpg",
+       "state_hash": "fb4ea96c"
+      }
+     },
+     {
+      "tick": 265,
+      "win32": {
+       "image_hash": "5b6d3ad1",
+       "src": "shots/scene_w3_combat/009/win32/tick_000265.jpg",
+       "state_hash": "685f24ff"
+      }
+     },
+     {
+      "tick": 312,
+      "win32": {
+       "image_hash": "bdf706c6",
+       "src": "shots/scene_w3_combat/009/win32/tick_000312.jpg",
+       "state_hash": "c12a23be"
+      }
+     },
+     {
+      "tick": 433,
+      "win32": {
+       "image_hash": "17e7afec",
+       "src": "shots/scene_w3_combat/009/win32/tick_000433.jpg",
+       "state_hash": "715914fc"
+      }
+     }
+    ],
+    "commit": "cb9607491",
+    "compare": null,
+    "date": "2026-10-07T12:24:26Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "b8e0231e",
+       "frame_time_ms": {
+        "avg": 1.862,
+        "max": 544.439,
+        "min": 0.89
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
+        "format": "text1",
+        "hash": "87044586",
+        "length_ticks": 1034
+       },
+       "seed": 4,
+       "ticks": 1034,
+       "timescale": 0.0,
+       "wall_time_ms": 1928.191
+      }
+     }
+    },
+    "run": "009",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "638",
+     "--capture",
+     "91,154,221,304,455",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 91,
+      "win32": {
+       "image_hash": "e37839ad",
+       "src": "shots/scene_w3_combat/008/win32/tick_000091.jpg",
+       "state_hash": "01cd34d8"
+      }
+     },
+     {
+      "tick": 154,
+      "win32": {
+       "image_hash": "0c5e521c",
+       "src": "shots/scene_w3_combat/008/win32/tick_000154.jpg",
+       "state_hash": "4dcd0948"
+      }
+     },
+     {
+      "tick": 221,
+      "win32": {
+       "image_hash": "82a277e6",
+       "src": "shots/scene_w3_combat/008/win32/tick_000221.jpg",
+       "state_hash": "f58e3b1d"
+      }
+     },
+     {
+      "tick": 304,
+      "win32": {
+       "image_hash": "14ee8dae",
+       "src": "shots/scene_w3_combat/008/win32/tick_000304.jpg",
+       "state_hash": "046b7716"
+      }
+     },
+     {
+      "tick": 455,
+      "win32": {
+       "image_hash": "07a3b568",
+       "src": "shots/scene_w3_combat/008/win32/tick_000455.jpg",
+       "state_hash": "a2e33c65"
+      }
+     }
+    ],
+    "commit": "cb9607491",
+    "compare": null,
+    "date": "2026-10-07T12:23:55Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "2114ef54",
+       "frame_time_ms": {
+        "avg": 1.51,
+        "max": 200.683,
+        "min": 0.654
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
+        "format": "text1",
+        "hash": "54a8e381",
+        "length_ticks": 638
+       },
+       "seed": 3,
+       "ticks": 638,
+       "timescale": 0.0,
+       "wall_time_ms": 964.891
+      }
+     }
+    },
+    "run": "008",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "715",
+     "--capture",
+     "208,530,654",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 208,
+      "win32": {
+       "image_hash": "6780ba6a",
+       "src": "shots/scene_w3_combat/007/win32/tick_000208.jpg",
+       "state_hash": "e5413019"
+      }
+     },
+     {
+      "tick": 530,
+      "win32": {
+       "image_hash": "a9d82062",
+       "src": "shots/scene_w3_combat/007/win32/tick_000530.jpg",
+       "state_hash": "714b2cd4"
+      }
+     },
+     {
+      "tick": 654,
+      "win32": {
+       "image_hash": "e4338b23",
+       "src": "shots/scene_w3_combat/007/win32/tick_000654.jpg",
+       "state_hash": "5a89ba2d"
+      }
+     }
+    ],
+    "commit": "cb9607491",
+    "compare": null,
+    "date": "2026-10-07T12:23:29Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "9a8689e5",
+       "frame_time_ms": {
+        "avg": 1.367,
+        "max": 276.81,
+        "min": 0.562
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
+        "format": "text1",
+        "hash": "705a0714",
+        "length_ticks": 715
+       },
+       "seed": 2,
+       "ticks": 715,
+       "timescale": 0.0,
+       "wall_time_ms": 979.136
+      }
+     }
+    },
+    "run": "007",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "458",
+     "--capture",
+     "14,255,397",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 14,
+      "win32": {
+       "image_hash": "b9eb3efd",
+       "src": "shots/scene_w3_combat/006/win32/tick_000014.jpg",
+       "state_hash": "b5402dac"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "bd6db936",
+       "src": "shots/scene_w3_combat/006/win32/tick_000255.jpg",
+       "state_hash": "965b1a50"
+      }
+     },
+     {
+      "tick": 397,
+      "win32": {
+       "image_hash": "40490a0b",
+       "src": "shots/scene_w3_combat/006/win32/tick_000397.jpg",
+       "state_hash": "5d479647"
+      }
+     }
+    ],
+    "commit": "cb9607491",
+    "compare": null,
+    "date": "2026-10-07T12:23:11Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "d31f33b3",
+       "frame_time_ms": {
+        "avg": 2.073,
+        "max": 406.315,
+        "min": 0.701
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
+        "format": "text1",
+        "hash": "aa720f21",
+        "length_ticks": 458
+       },
+       "seed": 1,
+       "ticks": 458,
+       "timescale": 0.0,
+       "wall_time_ms": 950.806
+      }
+     }
+    },
+    "run": "006",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "4",
+     "--ticks",
+     "1034",
+     "--capture",
+     "32,68,135,265,312,433",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 32,
+      "win32": {
+       "image_hash": "b1346235",
+       "src": "shots/scene_w3_combat/005/win32/tick_000032.jpg",
+       "state_hash": "1d2ee42a"
+      }
+     },
+     {
+      "tick": 68,
+      "win32": {
+       "image_hash": "66f932f9",
+       "src": "shots/scene_w3_combat/005/win32/tick_000068.jpg",
+       "state_hash": "98f2e171"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "ac89c13b",
+       "src": "shots/scene_w3_combat/005/win32/tick_000135.jpg",
+       "state_hash": "fb4ea96c"
+      }
+     },
+     {
+      "tick": 265,
+      "win32": {
+       "image_hash": "5b6d3ad1",
+       "src": "shots/scene_w3_combat/005/win32/tick_000265.jpg",
+       "state_hash": "685f24ff"
+      }
+     },
+     {
+      "tick": 312,
+      "win32": {
+       "image_hash": "bdf706c6",
+       "src": "shots/scene_w3_combat/005/win32/tick_000312.jpg",
+       "state_hash": "c12a23be"
+      }
+     },
+     {
+      "tick": 433,
+      "win32": {
+       "image_hash": "17e7afec",
+       "src": "shots/scene_w3_combat/005/win32/tick_000433.jpg",
+       "state_hash": "715914fc"
+      }
+     }
+    ],
+    "commit": "e7c998902",
+    "compare": null,
+    "date": "2026-10-07T12:14:48Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "b8e0231e",
+       "frame_time_ms": {
+        "avg": 1.45,
+        "max": 189.582,
+        "min": 0.906
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
+        "format": "text1",
+        "hash": "87044586",
+        "length_ticks": 1034
+       },
+       "seed": 4,
+       "ticks": 1034,
+       "timescale": 0.0,
+       "wall_time_ms": 1501.705
+      }
+     }
+    },
+    "run": "005",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "638",
+     "--capture",
+     "91,154,221,304,455",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 91,
+      "win32": {
+       "image_hash": "e37839ad",
+       "src": "shots/scene_w3_combat/004/win32/tick_000091.jpg",
+       "state_hash": "01cd34d8"
+      }
+     },
+     {
+      "tick": 154,
+      "win32": {
+       "image_hash": "0c5e521c",
+       "src": "shots/scene_w3_combat/004/win32/tick_000154.jpg",
+       "state_hash": "4dcd0948"
+      }
+     },
+     {
+      "tick": 221,
+      "win32": {
+       "image_hash": "82a277e6",
+       "src": "shots/scene_w3_combat/004/win32/tick_000221.jpg",
+       "state_hash": "f58e3b1d"
+      }
+     },
+     {
+      "tick": 304,
+      "win32": {
+       "image_hash": "14ee8dae",
+       "src": "shots/scene_w3_combat/004/win32/tick_000304.jpg",
+       "state_hash": "046b7716"
+      }
+     },
+     {
+      "tick": 455,
+      "win32": {
+       "image_hash": "07a3b568",
+       "src": "shots/scene_w3_combat/004/win32/tick_000455.jpg",
+       "state_hash": "a2e33c65"
+      }
+     }
+    ],
+    "commit": "e7c998902",
+    "compare": null,
+    "date": "2026-10-07T12:14:24Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "2114ef54",
+       "frame_time_ms": {
+        "avg": 1.815,
+        "max": 198.116,
+        "min": 0.667
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
+        "format": "text1",
+        "hash": "54a8e381",
+        "length_ticks": 638
+       },
+       "seed": 3,
+       "ticks": 638,
+       "timescale": 0.0,
+       "wall_time_ms": 1160.245
+      }
+     }
+    },
+    "run": "004",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "715",
+     "--capture",
+     "208,530,654",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 208,
+      "win32": {
+       "image_hash": "6780ba6a",
+       "src": "shots/scene_w3_combat/003/win32/tick_000208.jpg",
+       "state_hash": "e5413019"
+      }
+     },
+     {
+      "tick": 530,
+      "win32": {
+       "image_hash": "a9d82062",
+       "src": "shots/scene_w3_combat/003/win32/tick_000530.jpg",
+       "state_hash": "714b2cd4"
+      }
+     },
+     {
+      "tick": 654,
+      "win32": {
+       "image_hash": "e4338b23",
+       "src": "shots/scene_w3_combat/003/win32/tick_000654.jpg",
+       "state_hash": "5a89ba2d"
+      }
+     }
+    ],
+    "commit": "e7c998902",
+    "compare": null,
+    "date": "2026-10-07T12:14:00Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "9a8689e5",
+       "frame_time_ms": {
+        "avg": 1.166,
+        "max": 161.707,
+        "min": 0.568
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
+        "format": "text1",
+        "hash": "705a0714",
+        "length_ticks": 715
+       },
+       "seed": 2,
+       "ticks": 715,
+       "timescale": 0.0,
+       "wall_time_ms": 835.381
+      }
+     }
+    },
+    "run": "003",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "458",
+     "--capture",
+     "14,255,397",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 14,
+      "win32": {
+       "image_hash": "b9eb3efd",
+       "src": "shots/scene_w3_combat/002/win32/tick_000014.jpg",
+       "state_hash": "b5402dac"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "bd6db936",
+       "src": "shots/scene_w3_combat/002/win32/tick_000255.jpg",
+       "state_hash": "965b1a50"
+      }
+     },
+     {
+      "tick": 397,
+      "win32": {
+       "image_hash": "40490a0b",
+       "src": "shots/scene_w3_combat/002/win32/tick_000397.jpg",
+       "state_hash": "5d479647"
+      }
+     }
+    ],
+    "commit": "e7c998902",
+    "compare": null,
+    "date": "2026-10-07T12:13:41Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "d31f33b3",
+       "frame_time_ms": {
+        "avg": 1.614,
+        "max": 259.049,
+        "min": 0.683
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
+        "format": "text1",
+        "hash": "aa720f21",
+        "length_ticks": 458
+       },
+       "seed": 1,
+       "ticks": 458,
+       "timescale": 0.0,
+       "wall_time_ms": 740.15
+      }
+     }
+    },
+    "run": "002",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "65b5b05e",
+       "src": "shots/scene_w3_combat/001/native/tick_000000.jpg",
+       "state_hash": "432ee406"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "65b5b05e",
+       "src": "shots/scene_w3_combat/001/win32/tick_000000.jpg",
+       "state_hash": "432ee406"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "00256649",
+       "src": "shots/scene_w3_combat/001/native/tick_000300.jpg",
+       "state_hash": "c8b7e950"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "00256649",
+       "src": "shots/scene_w3_combat/001/win32/tick_000300.jpg",
+       "state_hash": "c8b7e950"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "59fb041c",
+       "src": "shots/scene_w3_combat/001/native/tick_000600.jpg",
+       "state_hash": "bac97962"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "59fb041c",
+       "src": "shots/scene_w3_combat/001/win32/tick_000600.jpg",
+       "state_hash": "bac97962"
+      }
+     }
+    ],
+    "commit": "ce72c02ca",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "bac97962",
+      "win32": "bac97962"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:12:10Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "bac97962",
+       "frame_time_ms": {
+        "avg": 0.001,
+        "max": 0.531,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.057
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "bac97962",
+       "frame_time_ms": {
+        "avg": 0.015,
+        "max": 2.779,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 9.69
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_w3_combat",
+  "source": "games/peregon/src/game/scene_w3_combat.cpp",
+  "source_commit": "cd3f64b1b"
+ },
+ {
+  "latest": "006",
+  "merged": "2026-10-07 16:04",
+  "merged_commit": "d0d1e42af",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/006/native/tick_000000.jpg",
+       "state_hash": "a5c3c1a4"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/006/win32/tick_000000.jpg",
+       "state_hash": "a5c3c1a4"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "8ebebcd2",
+       "src": "shots/scene_w8_economy/006/native/tick_000300.jpg",
+       "state_hash": "fb2909fe"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "8ebebcd2",
+       "src": "shots/scene_w8_economy/006/win32/tick_000300.jpg",
+       "state_hash": "fb2909fe"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "3db5ff8e",
+       "src": "shots/scene_w8_economy/006/native/tick_000600.jpg",
+       "state_hash": "040badc2"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "3db5ff8e",
+       "src": "shots/scene_w8_economy/006/win32/tick_000600.jpg",
+       "state_hash": "040badc2"
+      }
+     }
+    ],
+    "commit": "ffbda5601c",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "040badc2",
+      "win32": "040badc2"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:45:35Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "040badc2",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.696,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.447
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "040badc2",
+       "frame_time_ms": {
+        "avg": 0.076,
+        "max": 8.368,
+        "min": 0.002
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 46.339
+      }
+     }
+    },
+    "run": "006",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/005/native/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/005/win32/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/005/native/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/005/win32/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/005/native/tick_000600.jpg",
+       "state_hash": "544530a7"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/005/win32/tick_000600.jpg",
+       "state_hash": "544530a7"
+      }
+     }
+    ],
+    "commit": "d0d1e42af",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "544530a7",
+      "win32": "544530a7"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T13:07:55Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.002,
+        "max": 0.842,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.547
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.15,
+        "max": 33.403,
+        "min": 0.002
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 90.58
+      }
+     }
+    },
+    "run": "005",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/004/native/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/004/win32/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/004/native/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/004/win32/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/004/native/tick_000600.jpg",
+       "state_hash": "544530a7"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/004/win32/tick_000600.jpg",
+       "state_hash": "544530a7"
+      }
+     }
+    ],
+    "commit": "6224643c0",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "544530a7",
+      "win32": "544530a7"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:54:30Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.003,
+        "max": 1.189,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 2.407
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.075,
+        "max": 9.661,
+        "min": 0.002
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 45.741
+      }
+     }
+    },
+    "run": "004",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/003/native/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/003/win32/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/003/native/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/003/win32/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/003/native/tick_000600.jpg",
+       "state_hash": "544530a7"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/003/win32/tick_000600.jpg",
+       "state_hash": "544530a7"
+      }
+     }
+    ],
+    "commit": "6ad2f4f3a",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "544530a7",
+      "win32": "544530a7"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:30:32Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.001,
+        "max": 0.548,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.146
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.078,
+        "max": 9.838,
+        "min": 0.002
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 47.435
+      }
+     }
+    },
+    "run": "003",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/002/native/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "8181ec07",
+       "src": "shots/scene_w8_economy/002/win32/tick_000000.jpg",
+       "state_hash": "94b9cd58"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/002/native/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "f7848fac",
+       "src": "shots/scene_w8_economy/002/win32/tick_000300.jpg",
+       "state_hash": "68bae8f2"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/002/native/tick_000600.jpg",
+       "state_hash": "544530a7"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "e81297fe",
+       "src": "shots/scene_w8_economy/002/win32/tick_000600.jpg",
+       "state_hash": "544530a7"
+      }
+     }
+    ],
+    "commit": "0d8713e80",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "544530a7",
+      "win32": "544530a7"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T12:05:53Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.001,
+        "max": 0.534,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.161
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "544530a7",
+       "frame_time_ms": {
+        "avg": 0.074,
+        "max": 9.718,
+        "min": 0.001
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 45.004
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "7",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "de2f5756",
+       "src": "shots/scene_w8_economy/001/native/tick_000000.jpg",
+       "state_hash": "da876e30"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "de2f5756",
+       "src": "shots/scene_w8_economy/001/win32/tick_000000.jpg",
+       "state_hash": "da876e30"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "2c921bd2",
+       "src": "shots/scene_w8_economy/001/native/tick_000300.jpg",
+       "state_hash": "d8632a02"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "2c921bd2",
+       "src": "shots/scene_w8_economy/001/win32/tick_000300.jpg",
+       "state_hash": "d8632a02"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "257d2e86",
+       "src": "shots/scene_w8_economy/001/native/tick_000600.jpg",
+       "state_hash": "be902ae7"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "257d2e86",
+       "src": "shots/scene_w8_economy/001/win32/tick_000600.jpg",
+       "state_hash": "be902ae7"
+      }
+     }
+    ],
+    "commit": "ce72c02ca",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "be902ae7",
+      "win32": "be902ae7"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:12:13Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "be902ae7",
+       "frame_time_ms": {
+        "avg": 0.001,
+        "max": 0.549,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.099
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "be902ae7",
+       "frame_time_ms": {
+        "avg": 0.014,
+        "max": 2.632,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 8.85
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_w8_economy",
+  "source": "games/peregon/src/game/scene_w8_economy.cpp",
+  "source_commit": "27d2a304c"
+ },
+ {
+  "latest": "004",
+  "merged": "2026-10-07 17:42",
+  "merged_commit": "07591d341",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
+     "--render-captures"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "ccdf5b1f",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000000.jpg",
+       "state_hash": "7537e819"
+      }
+     },
+     {
+      "tick": 89,
+      "win32": {
+       "image_hash": "31d03448",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000089.jpg",
+       "state_hash": "5bded1b9"
+      }
+     },
+     {
+      "tick": 105,
+      "win32": {
+       "image_hash": "ddf0e951",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000105.jpg",
+       "state_hash": "fe1c936f"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "59327d1b",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000135.jpg",
+       "state_hash": "fbb56375"
+      }
+     },
+     {
+      "tick": 165,
+      "win32": {
+       "image_hash": "a563086d",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000165.jpg",
+       "state_hash": "2bc09b7a"
+      }
+     },
+     {
+      "tick": 195,
+      "win32": {
+       "image_hash": "013297f6",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000195.jpg",
+       "state_hash": "cb019eeb"
+      }
+     },
+     {
+      "tick": 225,
+      "win32": {
+       "image_hash": "3ddff121",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000225.jpg",
+       "state_hash": "2c472567"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "18998b51",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000255.jpg",
+       "state_hash": "6d1064a0"
+      }
+     },
+     {
+      "tick": 285,
+      "win32": {
+       "image_hash": "b7c19961",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000285.jpg",
+       "state_hash": "9b0e4afb"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "146c3a36",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000315.jpg",
+       "state_hash": "cd60f761"
+      }
+     },
+     {
+      "tick": 345,
+      "win32": {
+       "image_hash": "c09c22b2",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000345.jpg",
+       "state_hash": "cfa15e2e"
+      }
+     },
+     {
+      "tick": 375,
+      "win32": {
+       "image_hash": "d04c8d87",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000375.jpg",
+       "state_hash": "6322af19"
+      }
+     },
+     {
+      "tick": 405,
+      "win32": {
+       "image_hash": "e8bdbb2e",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000405.jpg",
+       "state_hash": "773e1b82"
+      }
+     },
+     {
+      "tick": 435,
+      "win32": {
+       "image_hash": "791210ae",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000435.jpg",
+       "state_hash": "da677b96"
+      }
+     },
+     {
+      "tick": 465,
+      "win32": {
+       "image_hash": "bb3e3030",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000465.jpg",
+       "state_hash": "50c7bb8d"
+      }
+     },
+     {
+      "tick": 495,
+      "win32": {
+       "image_hash": "e827bcbf",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000495.jpg",
+       "state_hash": "43ba377e"
+      }
+     },
+     {
+      "tick": 599,
+      "win32": {
+       "image_hash": "5aa97b17",
+       "src": "shots/scene_s1_surfaces/004/win32/tick_000599.jpg",
+       "state_hash": "2a87e523"
+      }
+     }
+    ],
+    "commit": "180fbf8786",
+    "compare": null,
+    "date": "2026-10-07T15:33:29Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "7d684ed6",
+       "frame_time_ms": {
+        "avg": 0.658,
+        "max": 186.562,
+        "min": 0.001
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 395.905
+      }
+     }
+    },
+    "run": "004",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
+     "--render-captures"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "5535cf63",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000000.jpg",
+       "state_hash": "7537e819"
+      }
+     },
+     {
+      "tick": 89,
+      "win32": {
+       "image_hash": "4a3d08d9",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000089.jpg",
+       "state_hash": "5bded1b9"
+      }
+     },
+     {
+      "tick": 105,
+      "win32": {
+       "image_hash": "19e9585f",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000105.jpg",
+       "state_hash": "fe1c936f"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "84b644b8",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000135.jpg",
+       "state_hash": "fbb56375"
+      }
+     },
+     {
+      "tick": 165,
+      "win32": {
+       "image_hash": "ef3ea4c4",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000165.jpg",
+       "state_hash": "2bc09b7a"
+      }
+     },
+     {
+      "tick": 195,
+      "win32": {
+       "image_hash": "d8b13f71",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000195.jpg",
+       "state_hash": "cb019eeb"
+      }
+     },
+     {
+      "tick": 225,
+      "win32": {
+       "image_hash": "d5d12b87",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000225.jpg",
+       "state_hash": "2c472567"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "152c9fef",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000255.jpg",
+       "state_hash": "6d1064a0"
+      }
+     },
+     {
+      "tick": 285,
+      "win32": {
+       "image_hash": "fae92b8a",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000285.jpg",
+       "state_hash": "9b0e4afb"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "07ff3483",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000315.jpg",
+       "state_hash": "cd60f761"
+      }
+     },
+     {
+      "tick": 345,
+      "win32": {
+       "image_hash": "9dd9ad5c",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000345.jpg",
+       "state_hash": "cfa15e2e"
+      }
+     },
+     {
+      "tick": 375,
+      "win32": {
+       "image_hash": "9e27aeac",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000375.jpg",
+       "state_hash": "6322af19"
+      }
+     },
+     {
+      "tick": 405,
+      "win32": {
+       "image_hash": "a70a9352",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000405.jpg",
+       "state_hash": "773e1b82"
+      }
+     },
+     {
+      "tick": 435,
+      "win32": {
+       "image_hash": "847f37f7",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000435.jpg",
+       "state_hash": "da677b96"
+      }
+     },
+     {
+      "tick": 465,
+      "win32": {
+       "image_hash": "dd1478f4",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000465.jpg",
+       "state_hash": "50c7bb8d"
+      }
+     },
+     {
+      "tick": 495,
+      "win32": {
+       "image_hash": "2b56fde7",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000495.jpg",
+       "state_hash": "43ba377e"
+      }
+     },
+     {
+      "tick": 599,
+      "win32": {
+       "image_hash": "5a8cf790",
+       "src": "shots/scene_s1_surfaces/003/win32/tick_000599.jpg",
+       "state_hash": "2a87e523"
+      }
+     }
+    ],
+    "commit": "180fbf8786",
+    "compare": null,
+    "date": "2026-10-07T15:33:25Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "7d684ed6",
+       "frame_time_ms": {
+        "avg": 0.705,
+        "max": 195.211,
+        "min": 0.001
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 424.19
+      }
+     }
+    },
+    "run": "003",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
+     "--render-captures"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "ccdf5b1f",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000000.jpg",
+       "state_hash": "7537e819"
+      }
+     },
+     {
+      "tick": 89,
+      "win32": {
+       "image_hash": "31d03448",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000089.jpg",
+       "state_hash": "5bded1b9"
+      }
+     },
+     {
+      "tick": 105,
+      "win32": {
+       "image_hash": "ddf0e951",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000105.jpg",
+       "state_hash": "fe1c936f"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "59327d1b",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000135.jpg",
+       "state_hash": "fbb56375"
+      }
+     },
+     {
+      "tick": 165,
+      "win32": {
+       "image_hash": "a563086d",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000165.jpg",
+       "state_hash": "2bc09b7a"
+      }
+     },
+     {
+      "tick": 195,
+      "win32": {
+       "image_hash": "013297f6",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000195.jpg",
+       "state_hash": "cb019eeb"
+      }
+     },
+     {
+      "tick": 225,
+      "win32": {
+       "image_hash": "3ddff121",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000225.jpg",
+       "state_hash": "2c472567"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "18998b51",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000255.jpg",
+       "state_hash": "6d1064a0"
+      }
+     },
+     {
+      "tick": 285,
+      "win32": {
+       "image_hash": "b7c19961",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000285.jpg",
+       "state_hash": "9b0e4afb"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "146c3a36",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000315.jpg",
+       "state_hash": "cd60f761"
+      }
+     },
+     {
+      "tick": 345,
+      "win32": {
+       "image_hash": "c09c22b2",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000345.jpg",
+       "state_hash": "cfa15e2e"
+      }
+     },
+     {
+      "tick": 375,
+      "win32": {
+       "image_hash": "d04c8d87",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000375.jpg",
+       "state_hash": "6322af19"
+      }
+     },
+     {
+      "tick": 405,
+      "win32": {
+       "image_hash": "e8bdbb2e",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000405.jpg",
+       "state_hash": "773e1b82"
+      }
+     },
+     {
+      "tick": 435,
+      "win32": {
+       "image_hash": "791210ae",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000435.jpg",
+       "state_hash": "da677b96"
+      }
+     },
+     {
+      "tick": 465,
+      "win32": {
+       "image_hash": "bb3e3030",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000465.jpg",
+       "state_hash": "50c7bb8d"
+      }
+     },
+     {
+      "tick": 495,
+      "win32": {
+       "image_hash": "e827bcbf",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000495.jpg",
+       "state_hash": "43ba377e"
+      }
+     },
+     {
+      "tick": 599,
+      "win32": {
+       "image_hash": "5aa97b17",
+       "src": "shots/scene_s1_surfaces/002/win32/tick_000599.jpg",
+       "state_hash": "2a87e523"
+      }
+     }
+    ],
+    "commit": "35fd8af18",
+    "compare": null,
+    "date": "2026-10-07T14:44:49Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "7d684ed6",
+       "frame_time_ms": {
+        "avg": 0.648,
+        "max": 174.594,
+        "min": 0.001
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 389.58
+      }
+     }
+    },
+    "run": "002",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "600",
+     "--capture",
+     "0,89,105,135,165,195,225,255,285,315,345,375,405,435,465,495,599",
+     "--render-captures"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "5535cf63",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000000.jpg",
+       "state_hash": "7537e819"
+      }
+     },
+     {
+      "tick": 89,
+      "win32": {
+       "image_hash": "4a3d08d9",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000089.jpg",
+       "state_hash": "5bded1b9"
+      }
+     },
+     {
+      "tick": 105,
+      "win32": {
+       "image_hash": "19e9585f",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000105.jpg",
+       "state_hash": "fe1c936f"
+      }
+     },
+     {
+      "tick": 135,
+      "win32": {
+       "image_hash": "84b644b8",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000135.jpg",
+       "state_hash": "fbb56375"
+      }
+     },
+     {
+      "tick": 165,
+      "win32": {
+       "image_hash": "ef3ea4c4",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000165.jpg",
+       "state_hash": "2bc09b7a"
+      }
+     },
+     {
+      "tick": 195,
+      "win32": {
+       "image_hash": "d8b13f71",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000195.jpg",
+       "state_hash": "cb019eeb"
+      }
+     },
+     {
+      "tick": 225,
+      "win32": {
+       "image_hash": "d5d12b87",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000225.jpg",
+       "state_hash": "2c472567"
+      }
+     },
+     {
+      "tick": 255,
+      "win32": {
+       "image_hash": "152c9fef",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000255.jpg",
+       "state_hash": "6d1064a0"
+      }
+     },
+     {
+      "tick": 285,
+      "win32": {
+       "image_hash": "fae92b8a",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000285.jpg",
+       "state_hash": "9b0e4afb"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "07ff3483",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000315.jpg",
+       "state_hash": "cd60f761"
+      }
+     },
+     {
+      "tick": 345,
+      "win32": {
+       "image_hash": "9dd9ad5c",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000345.jpg",
+       "state_hash": "cfa15e2e"
+      }
+     },
+     {
+      "tick": 375,
+      "win32": {
+       "image_hash": "9e27aeac",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000375.jpg",
+       "state_hash": "6322af19"
+      }
+     },
+     {
+      "tick": 405,
+      "win32": {
+       "image_hash": "a70a9352",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000405.jpg",
+       "state_hash": "773e1b82"
+      }
+     },
+     {
+      "tick": 435,
+      "win32": {
+       "image_hash": "847f37f7",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000435.jpg",
+       "state_hash": "da677b96"
+      }
+     },
+     {
+      "tick": 465,
+      "win32": {
+       "image_hash": "dd1478f4",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000465.jpg",
+       "state_hash": "50c7bb8d"
+      }
+     },
+     {
+      "tick": 495,
+      "win32": {
+       "image_hash": "2b56fde7",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000495.jpg",
+       "state_hash": "43ba377e"
+      }
+     },
+     {
+      "tick": 599,
+      "win32": {
+       "image_hash": "5a8cf790",
+       "src": "shots/scene_s1_surfaces/001/win32/tick_000599.jpg",
+       "state_hash": "2a87e523"
+      }
+     }
+    ],
+    "commit": "35fd8af18",
+    "compare": null,
+    "date": "2026-10-07T14:44:43Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "7d684ed6",
+       "frame_time_ms": {
+        "avg": 0.689,
+        "max": 186.517,
+        "min": 0.001
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 414.329
+      }
+     }
+    },
+    "run": "001",
+    "status": "single"
+   }
+  ],
+  "scene": "scene_s1_surfaces",
+  "source": "games/peregon/src/game/scene_s1_surfaces.cpp",
+  "source_commit": "98ced6787"
+ },
+ {
   "latest": "042",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 18:17",
+  "merged_commit": "d16c98684",
   "runs": [
    {
     "args": [
@@ -22435,1693 +21217,488 @@ window.PEREGON_RUNS = [
   "source_commit": "d16c98684"
  },
  {
-  "latest": "021",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "latest": "004",
+  "merged": "2026-10-07 19:06",
+  "merged_commit": "dd32257b5",
   "runs": [
    {
     "args": [
      "--seed",
-     "4",
-     "--ticks",
-     "1034",
-     "--capture",
-     "32,68,135,265,312,433",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 32,
-      "win32": {
-       "image_hash": "b1346235",
-       "src": "shots/scene_w3_combat/021/win32/tick_000032.jpg",
-       "state_hash": "342651b0"
-      }
-     },
-     {
-      "tick": 68,
-      "win32": {
-       "image_hash": "66f932f9",
-       "src": "shots/scene_w3_combat/021/win32/tick_000068.jpg",
-       "state_hash": "32b120b4"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "ac89c13b",
-       "src": "shots/scene_w3_combat/021/win32/tick_000135.jpg",
-       "state_hash": "ce6d8f01"
-      }
-     },
-     {
-      "tick": 265,
-      "win32": {
-       "image_hash": "5b6d3ad1",
-       "src": "shots/scene_w3_combat/021/win32/tick_000265.jpg",
-       "state_hash": "e9d27788"
-      }
-     },
-     {
-      "tick": 312,
-      "win32": {
-       "image_hash": "bdf706c6",
-       "src": "shots/scene_w3_combat/021/win32/tick_000312.jpg",
-       "state_hash": "20d4ac33"
-      }
-     },
-     {
-      "tick": 433,
-      "win32": {
-       "image_hash": "17e7afec",
-       "src": "shots/scene_w3_combat/021/win32/tick_000433.jpg",
-       "state_hash": "2506d681"
-      }
-     }
-    ],
-    "commit": "ffbda5601c",
-    "compare": null,
-    "date": "2026-10-07T16:57:14Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "506460b5",
-       "frame_time_ms": {
-        "avg": 1.671,
-        "max": 164.669,
-        "min": 0.927
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
-        "format": "text1",
-        "hash": "87044586",
-        "length_ticks": 1034
-       },
-       "seed": 4,
-       "ticks": 1034,
-       "timescale": 0.0,
-       "wall_time_ms": 1730.874
-      }
-     }
-    },
-    "run": "021",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
      "3",
      "--ticks",
-     "638",
+     "300",
      "--capture",
-     "91,154,221,304,455",
+     "150,240,280",
      "--replay",
      "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 91,
-      "win32": {
-       "image_hash": "e37839ad",
-       "src": "shots/scene_w3_combat/020/win32/tick_000091.jpg",
-       "state_hash": "30ef366e"
-      }
-     },
-     {
-      "tick": 154,
-      "win32": {
-       "image_hash": "0c5e521c",
-       "src": "shots/scene_w3_combat/020/win32/tick_000154.jpg",
-       "state_hash": "b6b5483f"
-      }
-     },
-     {
-      "tick": 221,
-      "win32": {
-       "image_hash": "82a277e6",
-       "src": "shots/scene_w3_combat/020/win32/tick_000221.jpg",
-       "state_hash": "7aee9716"
-      }
-     },
-     {
-      "tick": 304,
-      "win32": {
-       "image_hash": "14ee8dae",
-       "src": "shots/scene_w3_combat/020/win32/tick_000304.jpg",
-       "state_hash": "969736fe"
-      }
-     },
-     {
-      "tick": 455,
-      "win32": {
-       "image_hash": "4afceada",
-       "src": "shots/scene_w3_combat/020/win32/tick_000455.jpg",
-       "state_hash": "4ca8f9df"
-      }
-     }
-    ],
-    "commit": "ffbda5601c",
-    "compare": null,
-    "date": "2026-10-07T16:56:45Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "0c03100d",
-       "frame_time_ms": {
-        "avg": 1.593,
-        "max": 353.248,
-        "min": 0.671
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
-        "format": "text1",
-        "hash": "54a8e381",
-        "length_ticks": 638
-       },
-       "seed": 3,
-       "ticks": 638,
-       "timescale": 0.0,
-       "wall_time_ms": 1021.471
-      }
-     }
-    },
-    "run": "020",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "715",
-     "--capture",
-     "208,530,654",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 208,
-      "win32": {
-       "image_hash": "6780ba6a",
-       "src": "shots/scene_w3_combat/019/win32/tick_000208.jpg",
-       "state_hash": "4d7e649b"
-      }
-     },
-     {
-      "tick": 530,
-      "win32": {
-       "image_hash": "a9d82062",
-       "src": "shots/scene_w3_combat/019/win32/tick_000530.jpg",
-       "state_hash": "ff824008"
-      }
-     },
-     {
-      "tick": 654,
-      "win32": {
-       "image_hash": "e4338b23",
-       "src": "shots/scene_w3_combat/019/win32/tick_000654.jpg",
-       "state_hash": "710fe391"
-      }
-     }
-    ],
-    "commit": "ffbda5601c",
-    "compare": null,
-    "date": "2026-10-07T16:56:09Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "558da22f",
-       "frame_time_ms": {
-        "avg": 3.579,
-        "max": 673.63,
-        "min": 0.613
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
-        "format": "text1",
-        "hash": "705a0714",
-        "length_ticks": 715
-       },
-       "seed": 2,
-       "ticks": 715,
-       "timescale": 0.0,
-       "wall_time_ms": 2563.03
-      }
-     }
-    },
-    "run": "019",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "458",
-     "--capture",
-     "14,255,397",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 14,
-      "win32": {
-       "image_hash": "b9eb3efd",
-       "src": "shots/scene_w3_combat/018/win32/tick_000014.jpg",
-       "state_hash": "39a69511"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "88fcb5e6",
-       "src": "shots/scene_w3_combat/018/win32/tick_000255.jpg",
-       "state_hash": "970b2d3e"
-      }
-     },
-     {
-      "tick": 397,
-      "win32": {
-       "image_hash": "be408570",
-       "src": "shots/scene_w3_combat/018/win32/tick_000397.jpg",
-       "state_hash": "6e323b82"
-      }
-     }
-    ],
-    "commit": "ffbda5601c",
-    "compare": null,
-    "date": "2026-10-07T16:55:37Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "c191af02",
-       "frame_time_ms": {
-        "avg": 1.597,
-        "max": 174.524,
-        "min": 0.722
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
-        "format": "text1",
-        "hash": "aa720f21",
-        "length_ticks": 458
-       },
-       "seed": 1,
-       "ticks": 458,
-       "timescale": 0.0,
-       "wall_time_ms": 732.532
-      }
-     }
-    },
-    "run": "018",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "1034",
-     "--capture",
-     "32,68,135,265,312,433",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 32,
-      "win32": {
-       "image_hash": "b1346235",
-       "src": "shots/scene_w3_combat/017/win32/tick_000032.jpg",
-       "state_hash": "ab24397c"
-      }
-     },
-     {
-      "tick": 68,
-      "win32": {
-       "image_hash": "66f932f9",
-       "src": "shots/scene_w3_combat/017/win32/tick_000068.jpg",
-       "state_hash": "40bfc746"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "ac89c13b",
-       "src": "shots/scene_w3_combat/017/win32/tick_000135.jpg",
-       "state_hash": "c0d79d64"
-      }
-     },
-     {
-      "tick": 265,
-      "win32": {
-       "image_hash": "5b6d3ad1",
-       "src": "shots/scene_w3_combat/017/win32/tick_000265.jpg",
-       "state_hash": "f90c7f4b"
-      }
-     },
-     {
-      "tick": 312,
-      "win32": {
-       "image_hash": "bdf706c6",
-       "src": "shots/scene_w3_combat/017/win32/tick_000312.jpg",
-       "state_hash": "d5b277fa"
-      }
-     },
-     {
-      "tick": 433,
-      "win32": {
-       "image_hash": "17e7afec",
-       "src": "shots/scene_w3_combat/017/win32/tick_000433.jpg",
-       "state_hash": "331bb48e"
-      }
-     }
-    ],
-    "commit": "6eaf849cf",
-    "compare": null,
-    "date": "2026-10-07T13:35:53Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "086743f0",
-       "frame_time_ms": {
-        "avg": 4.244,
-        "max": 844.784,
-        "min": 0.939
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
-        "format": "text1",
-        "hash": "87044586",
-        "length_ticks": 1034
-       },
-       "seed": 4,
-       "ticks": 1034,
-       "timescale": 0.0,
-       "wall_time_ms": 4392.533
-      }
-     }
-    },
-    "run": "017",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "638",
-     "--capture",
-     "91,154,221,304,455",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 91,
-      "win32": {
-       "image_hash": "e37839ad",
-       "src": "shots/scene_w3_combat/016/win32/tick_000091.jpg",
-       "state_hash": "2965719f"
-      }
-     },
-     {
-      "tick": 154,
-      "win32": {
-       "image_hash": "0c5e521c",
-       "src": "shots/scene_w3_combat/016/win32/tick_000154.jpg",
-       "state_hash": "93c33983"
-      }
-     },
-     {
-      "tick": 221,
-      "win32": {
-       "image_hash": "82a277e6",
-       "src": "shots/scene_w3_combat/016/win32/tick_000221.jpg",
-       "state_hash": "df25cb34"
-      }
-     },
-     {
-      "tick": 304,
-      "win32": {
-       "image_hash": "14ee8dae",
-       "src": "shots/scene_w3_combat/016/win32/tick_000304.jpg",
-       "state_hash": "e090b6be"
-      }
-     },
-     {
-      "tick": 455,
-      "win32": {
-       "image_hash": "07a3b568",
-       "src": "shots/scene_w3_combat/016/win32/tick_000455.jpg",
-       "state_hash": "e496b132"
-      }
-     }
-    ],
-    "commit": "6eaf849cf",
-    "compare": null,
-    "date": "2026-10-07T13:35:20Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ce160083",
-       "frame_time_ms": {
-        "avg": 3.379,
-        "max": 527.662,
-        "min": 0.68
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
-        "format": "text1",
-        "hash": "54a8e381",
-        "length_ticks": 638
-       },
-       "seed": 3,
-       "ticks": 638,
-       "timescale": 0.0,
-       "wall_time_ms": 2157.719
-      }
-     }
-    },
-    "run": "016",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "715",
-     "--capture",
-     "208,530,654",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 208,
-      "win32": {
-       "image_hash": "6780ba6a",
-       "src": "shots/scene_w3_combat/015/win32/tick_000208.jpg",
-       "state_hash": "c317da32"
-      }
-     },
-     {
-      "tick": 530,
-      "win32": {
-       "image_hash": "a9d82062",
-       "src": "shots/scene_w3_combat/015/win32/tick_000530.jpg",
-       "state_hash": "11625339"
-      }
-     },
-     {
-      "tick": 654,
-      "win32": {
-       "image_hash": "e4338b23",
-       "src": "shots/scene_w3_combat/015/win32/tick_000654.jpg",
-       "state_hash": "0f84b7e0"
-      }
-     }
-    ],
-    "commit": "6eaf849cf",
-    "compare": null,
-    "date": "2026-10-07T13:34:50Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "8868ff0e",
-       "frame_time_ms": {
-        "avg": 2.141,
-        "max": 391.653,
-        "min": 0.583
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
-        "format": "text1",
-        "hash": "705a0714",
-        "length_ticks": 715
-       },
-       "seed": 2,
-       "ticks": 715,
-       "timescale": 0.0,
-       "wall_time_ms": 1533.858
-      }
-     }
-    },
-    "run": "015",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "458",
-     "--capture",
-     "14,255,397",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 14,
-      "win32": {
-       "image_hash": "b9eb3efd",
-       "src": "shots/scene_w3_combat/014/win32/tick_000014.jpg",
-       "state_hash": "c63b387b"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "bd6db936",
-       "src": "shots/scene_w3_combat/014/win32/tick_000255.jpg",
-       "state_hash": "9207ca17"
-      }
-     },
-     {
-      "tick": 397,
-      "win32": {
-       "image_hash": "40490a0b",
-       "src": "shots/scene_w3_combat/014/win32/tick_000397.jpg",
-       "state_hash": "c21b42dd"
-      }
-     }
-    ],
-    "commit": "6eaf849cf",
-    "compare": null,
-    "date": "2026-10-07T13:34:26Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "8280a14c",
-       "frame_time_ms": {
-        "avg": 4.132,
-        "max": 579.578,
-        "min": 0.709
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
-        "format": "text1",
-        "hash": "aa720f21",
-        "length_ticks": 458
-       },
-       "seed": 1,
-       "ticks": 458,
-       "timescale": 0.0,
-       "wall_time_ms": 1936.34
-      }
-     }
-    },
-    "run": "014",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "1034",
-     "--capture",
-     "32,68,135,265,312,433",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 32,
-      "win32": {
-       "image_hash": "b1346235",
-       "src": "shots/scene_w3_combat/013/win32/tick_000032.jpg",
-       "state_hash": "ab24397c"
-      }
-     },
-     {
-      "tick": 68,
-      "win32": {
-       "image_hash": "66f932f9",
-       "src": "shots/scene_w3_combat/013/win32/tick_000068.jpg",
-       "state_hash": "40bfc746"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "ac89c13b",
-       "src": "shots/scene_w3_combat/013/win32/tick_000135.jpg",
-       "state_hash": "c0d79d64"
-      }
-     },
-     {
-      "tick": 265,
-      "win32": {
-       "image_hash": "5b6d3ad1",
-       "src": "shots/scene_w3_combat/013/win32/tick_000265.jpg",
-       "state_hash": "f90c7f4b"
-      }
-     },
-     {
-      "tick": 312,
-      "win32": {
-       "image_hash": "bdf706c6",
-       "src": "shots/scene_w3_combat/013/win32/tick_000312.jpg",
-       "state_hash": "d5b277fa"
-      }
-     },
-     {
-      "tick": 433,
-      "win32": {
-       "image_hash": "17e7afec",
-       "src": "shots/scene_w3_combat/013/win32/tick_000433.jpg",
-       "state_hash": "331bb48e"
-      }
-     }
-    ],
-    "commit": "d0d1e42af",
-    "compare": null,
-    "date": "2026-10-07T13:14:39Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "086743f0",
-       "frame_time_ms": {
-        "avg": 3.707,
-        "max": 375.696,
-        "min": 0.917
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
-        "format": "text1",
-        "hash": "87044586",
-        "length_ticks": 1034
-       },
-       "seed": 4,
-       "ticks": 1034,
-       "timescale": 0.0,
-       "wall_time_ms": 3836.503
-      }
-     }
-    },
-    "run": "013",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "638",
-     "--capture",
-     "91,154,221,304,455",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 91,
-      "win32": {
-       "image_hash": "e37839ad",
-       "src": "shots/scene_w3_combat/012/win32/tick_000091.jpg",
-       "state_hash": "2965719f"
-      }
-     },
-     {
-      "tick": 154,
-      "win32": {
-       "image_hash": "0c5e521c",
-       "src": "shots/scene_w3_combat/012/win32/tick_000154.jpg",
-       "state_hash": "93c33983"
-      }
-     },
-     {
-      "tick": 221,
-      "win32": {
-       "image_hash": "82a277e6",
-       "src": "shots/scene_w3_combat/012/win32/tick_000221.jpg",
-       "state_hash": "df25cb34"
-      }
-     },
-     {
-      "tick": 304,
-      "win32": {
-       "image_hash": "14ee8dae",
-       "src": "shots/scene_w3_combat/012/win32/tick_000304.jpg",
-       "state_hash": "e090b6be"
-      }
-     },
-     {
-      "tick": 455,
-      "win32": {
-       "image_hash": "07a3b568",
-       "src": "shots/scene_w3_combat/012/win32/tick_000455.jpg",
-       "state_hash": "e496b132"
-      }
-     }
-    ],
-    "commit": "d0d1e42af",
-    "compare": null,
-    "date": "2026-10-07T13:14:06Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ce160083",
-       "frame_time_ms": {
-        "avg": 3.049,
-        "max": 454.21,
-        "min": 0.65
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
-        "format": "text1",
-        "hash": "54a8e381",
-        "length_ticks": 638
-       },
-       "seed": 3,
-       "ticks": 638,
-       "timescale": 0.0,
-       "wall_time_ms": 1947.033
-      }
-     }
-    },
-    "run": "012",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "715",
-     "--capture",
-     "208,530,654",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 208,
-      "win32": {
-       "image_hash": "6780ba6a",
-       "src": "shots/scene_w3_combat/011/win32/tick_000208.jpg",
-       "state_hash": "c317da32"
-      }
-     },
-     {
-      "tick": 530,
-      "win32": {
-       "image_hash": "a9d82062",
-       "src": "shots/scene_w3_combat/011/win32/tick_000530.jpg",
-       "state_hash": "11625339"
-      }
-     },
-     {
-      "tick": 654,
-      "win32": {
-       "image_hash": "e4338b23",
-       "src": "shots/scene_w3_combat/011/win32/tick_000654.jpg",
-       "state_hash": "0f84b7e0"
-      }
-     }
-    ],
-    "commit": "d0d1e42af",
-    "compare": null,
-    "date": "2026-10-07T13:13:33Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "8868ff0e",
-       "frame_time_ms": {
-        "avg": 2.978,
-        "max": 463.487,
-        "min": 0.585
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
-        "format": "text1",
-        "hash": "705a0714",
-        "length_ticks": 715
-       },
-       "seed": 2,
-       "ticks": 715,
-       "timescale": 0.0,
-       "wall_time_ms": 2132.503
-      }
-     }
-    },
-    "run": "011",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "458",
-     "--capture",
-     "14,255,397",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 14,
-      "win32": {
-       "image_hash": "b9eb3efd",
-       "src": "shots/scene_w3_combat/010/win32/tick_000014.jpg",
-       "state_hash": "c63b387b"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "bd6db936",
-       "src": "shots/scene_w3_combat/010/win32/tick_000255.jpg",
-       "state_hash": "9207ca17"
-      }
-     },
-     {
-      "tick": 397,
-      "win32": {
-       "image_hash": "40490a0b",
-       "src": "shots/scene_w3_combat/010/win32/tick_000397.jpg",
-       "state_hash": "c21b42dd"
-      }
-     }
-    ],
-    "commit": "d0d1e42af",
-    "compare": null,
-    "date": "2026-10-07T13:13:07Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "8280a14c",
-       "frame_time_ms": {
-        "avg": 4.302,
-        "max": 578.146,
-        "min": 0.721
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
-        "format": "text1",
-        "hash": "aa720f21",
-        "length_ticks": 458
-       },
-       "seed": 1,
-       "ticks": 458,
-       "timescale": 0.0,
-       "wall_time_ms": 1971.623
-      }
-     }
-    },
-    "run": "010",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "1034",
-     "--capture",
-     "32,68,135,265,312,433",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 32,
-      "win32": {
-       "image_hash": "b1346235",
-       "src": "shots/scene_w3_combat/009/win32/tick_000032.jpg",
-       "state_hash": "1d2ee42a"
-      }
-     },
-     {
-      "tick": 68,
-      "win32": {
-       "image_hash": "66f932f9",
-       "src": "shots/scene_w3_combat/009/win32/tick_000068.jpg",
-       "state_hash": "98f2e171"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "ac89c13b",
-       "src": "shots/scene_w3_combat/009/win32/tick_000135.jpg",
-       "state_hash": "fb4ea96c"
-      }
-     },
-     {
-      "tick": 265,
-      "win32": {
-       "image_hash": "5b6d3ad1",
-       "src": "shots/scene_w3_combat/009/win32/tick_000265.jpg",
-       "state_hash": "685f24ff"
-      }
-     },
-     {
-      "tick": 312,
-      "win32": {
-       "image_hash": "bdf706c6",
-       "src": "shots/scene_w3_combat/009/win32/tick_000312.jpg",
-       "state_hash": "c12a23be"
-      }
-     },
-     {
-      "tick": 433,
-      "win32": {
-       "image_hash": "17e7afec",
-       "src": "shots/scene_w3_combat/009/win32/tick_000433.jpg",
-       "state_hash": "715914fc"
-      }
-     }
-    ],
-    "commit": "cb9607491",
-    "compare": null,
-    "date": "2026-10-07T12:24:26Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "b8e0231e",
-       "frame_time_ms": {
-        "avg": 1.862,
-        "max": 544.439,
-        "min": 0.89
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
-        "format": "text1",
-        "hash": "87044586",
-        "length_ticks": 1034
-       },
-       "seed": 4,
-       "ticks": 1034,
-       "timescale": 0.0,
-       "wall_time_ms": 1928.191
-      }
-     }
-    },
-    "run": "009",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "638",
-     "--capture",
-     "91,154,221,304,455",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 91,
-      "win32": {
-       "image_hash": "e37839ad",
-       "src": "shots/scene_w3_combat/008/win32/tick_000091.jpg",
-       "state_hash": "01cd34d8"
-      }
-     },
-     {
-      "tick": 154,
-      "win32": {
-       "image_hash": "0c5e521c",
-       "src": "shots/scene_w3_combat/008/win32/tick_000154.jpg",
-       "state_hash": "4dcd0948"
-      }
-     },
-     {
-      "tick": 221,
-      "win32": {
-       "image_hash": "82a277e6",
-       "src": "shots/scene_w3_combat/008/win32/tick_000221.jpg",
-       "state_hash": "f58e3b1d"
-      }
-     },
-     {
-      "tick": 304,
-      "win32": {
-       "image_hash": "14ee8dae",
-       "src": "shots/scene_w3_combat/008/win32/tick_000304.jpg",
-       "state_hash": "046b7716"
-      }
-     },
-     {
-      "tick": 455,
-      "win32": {
-       "image_hash": "07a3b568",
-       "src": "shots/scene_w3_combat/008/win32/tick_000455.jpg",
-       "state_hash": "a2e33c65"
-      }
-     }
-    ],
-    "commit": "cb9607491",
-    "compare": null,
-    "date": "2026-10-07T12:23:55Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "2114ef54",
-       "frame_time_ms": {
-        "avg": 1.51,
-        "max": 200.683,
-        "min": 0.654
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
-        "format": "text1",
-        "hash": "54a8e381",
-        "length_ticks": 638
-       },
-       "seed": 3,
-       "ticks": 638,
-       "timescale": 0.0,
-       "wall_time_ms": 964.891
-      }
-     }
-    },
-    "run": "008",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "715",
-     "--capture",
-     "208,530,654",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 208,
-      "win32": {
-       "image_hash": "6780ba6a",
-       "src": "shots/scene_w3_combat/007/win32/tick_000208.jpg",
-       "state_hash": "e5413019"
-      }
-     },
-     {
-      "tick": 530,
-      "win32": {
-       "image_hash": "a9d82062",
-       "src": "shots/scene_w3_combat/007/win32/tick_000530.jpg",
-       "state_hash": "714b2cd4"
-      }
-     },
-     {
-      "tick": 654,
-      "win32": {
-       "image_hash": "e4338b23",
-       "src": "shots/scene_w3_combat/007/win32/tick_000654.jpg",
-       "state_hash": "5a89ba2d"
-      }
-     }
-    ],
-    "commit": "cb9607491",
-    "compare": null,
-    "date": "2026-10-07T12:23:29Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "9a8689e5",
-       "frame_time_ms": {
-        "avg": 1.367,
-        "max": 276.81,
-        "min": 0.562
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
-        "format": "text1",
-        "hash": "705a0714",
-        "length_ticks": 715
-       },
-       "seed": 2,
-       "ticks": 715,
-       "timescale": 0.0,
-       "wall_time_ms": 979.136
-      }
-     }
-    },
-    "run": "007",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "458",
-     "--capture",
-     "14,255,397",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 14,
-      "win32": {
-       "image_hash": "b9eb3efd",
-       "src": "shots/scene_w3_combat/006/win32/tick_000014.jpg",
-       "state_hash": "b5402dac"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "bd6db936",
-       "src": "shots/scene_w3_combat/006/win32/tick_000255.jpg",
-       "state_hash": "965b1a50"
-      }
-     },
-     {
-      "tick": 397,
-      "win32": {
-       "image_hash": "40490a0b",
-       "src": "shots/scene_w3_combat/006/win32/tick_000397.jpg",
-       "state_hash": "5d479647"
-      }
-     }
-    ],
-    "commit": "cb9607491",
-    "compare": null,
-    "date": "2026-10-07T12:23:11Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "d31f33b3",
-       "frame_time_ms": {
-        "avg": 2.073,
-        "max": 406.315,
-        "min": 0.701
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
-        "format": "text1",
-        "hash": "aa720f21",
-        "length_ticks": 458
-       },
-       "seed": 1,
-       "ticks": 458,
-       "timescale": 0.0,
-       "wall_time_ms": 950.806
-      }
-     }
-    },
-    "run": "006",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "4",
-     "--ticks",
-     "1034",
-     "--capture",
-     "32,68,135,265,312,433",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 32,
-      "win32": {
-       "image_hash": "b1346235",
-       "src": "shots/scene_w3_combat/005/win32/tick_000032.jpg",
-       "state_hash": "1d2ee42a"
-      }
-     },
-     {
-      "tick": 68,
-      "win32": {
-       "image_hash": "66f932f9",
-       "src": "shots/scene_w3_combat/005/win32/tick_000068.jpg",
-       "state_hash": "98f2e171"
-      }
-     },
-     {
-      "tick": 135,
-      "win32": {
-       "image_hash": "ac89c13b",
-       "src": "shots/scene_w3_combat/005/win32/tick_000135.jpg",
-       "state_hash": "fb4ea96c"
-      }
-     },
-     {
-      "tick": 265,
-      "win32": {
-       "image_hash": "5b6d3ad1",
-       "src": "shots/scene_w3_combat/005/win32/tick_000265.jpg",
-       "state_hash": "685f24ff"
-      }
-     },
-     {
-      "tick": 312,
-      "win32": {
-       "image_hash": "bdf706c6",
-       "src": "shots/scene_w3_combat/005/win32/tick_000312.jpg",
-       "state_hash": "c12a23be"
-      }
-     },
-     {
-      "tick": 433,
-      "win32": {
-       "image_hash": "17e7afec",
-       "src": "shots/scene_w3_combat/005/win32/tick_000433.jpg",
-       "state_hash": "715914fc"
-      }
-     }
-    ],
-    "commit": "e7c998902",
-    "compare": null,
-    "date": "2026-10-07T12:14:48Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "b8e0231e",
-       "frame_time_ms": {
-        "avg": 1.45,
-        "max": 189.582,
-        "min": 0.906
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_roof_mg_overheat.txt",
-        "format": "text1",
-        "hash": "87044586",
-        "length_ticks": 1034
-       },
-       "seed": 4,
-       "ticks": 1034,
-       "timescale": 0.0,
-       "wall_time_ms": 1501.705
-      }
-     }
-    },
-    "run": "005",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "638",
-     "--capture",
-     "91,154,221,304,455",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 91,
-      "win32": {
-       "image_hash": "e37839ad",
-       "src": "shots/scene_w3_combat/004/win32/tick_000091.jpg",
-       "state_hash": "01cd34d8"
-      }
-     },
-     {
-      "tick": 154,
-      "win32": {
-       "image_hash": "0c5e521c",
-       "src": "shots/scene_w3_combat/004/win32/tick_000154.jpg",
-       "state_hash": "4dcd0948"
-      }
-     },
-     {
-      "tick": 221,
-      "win32": {
-       "image_hash": "82a277e6",
-       "src": "shots/scene_w3_combat/004/win32/tick_000221.jpg",
-       "state_hash": "f58e3b1d"
-      }
-     },
-     {
-      "tick": 304,
-      "win32": {
-       "image_hash": "14ee8dae",
-       "src": "shots/scene_w3_combat/004/win32/tick_000304.jpg",
-       "state_hash": "046b7716"
-      }
-     },
-     {
-      "tick": 455,
-      "win32": {
-       "image_hash": "07a3b568",
-       "src": "shots/scene_w3_combat/004/win32/tick_000455.jpg",
-       "state_hash": "a2e33c65"
-      }
-     }
-    ],
-    "commit": "e7c998902",
-    "compare": null,
-    "date": "2026-10-07T12:14:24Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "2114ef54",
-       "frame_time_ms": {
-        "avg": 1.815,
-        "max": 198.116,
-        "min": 0.667
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_crowbar_execution.txt",
-        "format": "text1",
-        "hash": "54a8e381",
-        "length_ticks": 638
-       },
-       "seed": 3,
-       "ticks": 638,
-       "timescale": 0.0,
-       "wall_time_ms": 1160.245
-      }
-     }
-    },
-    "run": "004",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "715",
-     "--capture",
-     "208,530,654",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 208,
-      "win32": {
-       "image_hash": "6780ba6a",
-       "src": "shots/scene_w3_combat/003/win32/tick_000208.jpg",
-       "state_hash": "e5413019"
-      }
-     },
-     {
-      "tick": 530,
-      "win32": {
-       "image_hash": "a9d82062",
-       "src": "shots/scene_w3_combat/003/win32/tick_000530.jpg",
-       "state_hash": "714b2cd4"
-      }
-     },
-     {
-      "tick": 654,
-      "win32": {
-       "image_hash": "e4338b23",
-       "src": "shots/scene_w3_combat/003/win32/tick_000654.jpg",
-       "state_hash": "5a89ba2d"
-      }
-     }
-    ],
-    "commit": "e7c998902",
-    "compare": null,
-    "date": "2026-10-07T12:14:00Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "9a8689e5",
-       "frame_time_ms": {
-        "avg": 1.166,
-        "max": 161.707,
-        "min": 0.568
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_sawn_off_brute.txt",
-        "format": "text1",
-        "hash": "705a0714",
-        "length_ticks": 715
-       },
-       "seed": 2,
-       "ticks": 715,
-       "timescale": 0.0,
-       "wall_time_ms": 835.381
-      }
-     }
-    },
-    "run": "003",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "458",
-     "--capture",
-     "14,255,397",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 14,
-      "win32": {
-       "image_hash": "b9eb3efd",
-       "src": "shots/scene_w3_combat/002/win32/tick_000014.jpg",
-       "state_hash": "b5402dac"
-      }
-     },
-     {
-      "tick": 255,
-      "win32": {
-       "image_hash": "bd6db936",
-       "src": "shots/scene_w3_combat/002/win32/tick_000255.jpg",
-       "state_hash": "965b1a50"
-      }
-     },
-     {
-      "tick": 397,
-      "win32": {
-       "image_hash": "40490a0b",
-       "src": "shots/scene_w3_combat/002/win32/tick_000397.jpg",
-       "state_hash": "5d479647"
-      }
-     }
-    ],
-    "commit": "e7c998902",
-    "compare": null,
-    "date": "2026-10-07T12:13:41Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "d31f33b3",
-       "frame_time_ms": {
-        "avg": 1.614,
-        "max": 259.049,
-        "min": 0.683
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w3_nail_raiders.txt",
-        "format": "text1",
-        "hash": "aa720f21",
-        "length_ticks": 458
-       },
-       "seed": 1,
-       "ticks": 458,
-       "timescale": 0.0,
-       "wall_time_ms": 740.15
-      }
-     }
-    },
-    "run": "002",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "0,300,600"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "65b5b05e",
-       "src": "shots/scene_w3_combat/001/native/tick_000000.jpg",
-       "state_hash": "432ee406"
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/004/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 150,
       "win32": {
-       "image_hash": "65b5b05e",
-       "src": "shots/scene_w3_combat/001/win32/tick_000000.jpg",
-       "state_hash": "432ee406"
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/004/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "00256649",
-       "src": "shots/scene_w3_combat/001/native/tick_000300.jpg",
-       "state_hash": "c8b7e950"
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/004/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
       },
       "status": "identical",
-      "tick": 300,
+      "tick": 240,
       "win32": {
-       "image_hash": "00256649",
-       "src": "shots/scene_w3_combat/001/win32/tick_000300.jpg",
-       "state_hash": "c8b7e950"
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/004/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "59fb041c",
-       "src": "shots/scene_w3_combat/001/native/tick_000600.jpg",
-       "state_hash": "bac97962"
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/004/native/tick_000280.jpg",
+       "state_hash": "b8396416"
       },
       "status": "identical",
-      "tick": 600,
+      "tick": 280,
       "win32": {
-       "image_hash": "59fb041c",
-       "src": "shots/scene_w3_combat/001/win32/tick_000600.jpg",
-       "state_hash": "bac97962"
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/004/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
       }
      }
     ],
-    "commit": "ce72c02ca",
+    "commit": "947c58d4fe",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "bac97962",
-      "win32": "bac97962"
+      "native": "dd62825e",
+      "win32": "dd62825e"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T11:12:10Z",
+    "date": "2026-10-07T16:10:01Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "bac97962",
+       "final_state_hash": "dd62825e",
        "frame_time_ms": {
-        "avg": 0.001,
-        "max": 0.531,
-        "min": 0.0
+        "avg": 0.408,
+        "max": 40.356,
+        "min": 0.025
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
        "timescale": 0.0,
-       "wall_time_ms": 1.057
+       "wall_time_ms": 122.51
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "bac97962",
+       "final_state_hash": "dd62825e",
        "frame_time_ms": {
-        "avg": 0.015,
-        "max": 2.779,
-        "min": 0.0
+        "avg": 21.661,
+        "max": 3379.335,
+        "min": 0.383
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
        "timescale": 0.0,
-       "wall_time_ms": 9.69
+       "wall_time_ms": 6498.945
+      }
+     }
+    },
+    "run": "004",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "300",
+     "--capture",
+     "150,240,280",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/003/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      },
+      "status": "identical",
+      "tick": 150,
+      "win32": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/003/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/003/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/003/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/003/native/tick_000280.jpg",
+       "state_hash": "b8396416"
+      },
+      "status": "identical",
+      "tick": 280,
+      "win32": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/003/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dd62825e",
+      "win32": "dd62825e"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:33:57Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 0.379,
+        "max": 36.202,
+        "min": 0.025
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 113.926
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 32.01,
+        "max": 3418.806,
+        "min": 0.366
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 9604.086
+      }
+     }
+    },
+    "run": "003",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "300",
+     "--capture",
+     "150,240,280",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/002/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      },
+      "status": "identical",
+      "tick": 150,
+      "win32": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/002/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/002/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/002/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/002/native/tick_000280.jpg",
+       "state_hash": "b8396416"
+      },
+      "status": "identical",
+      "tick": 280,
+      "win32": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/002/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dd62825e",
+      "win32": "dd62825e"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:29:45Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 0.329,
+        "max": 30.103,
+        "min": 0.025
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 98.765
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 14.137,
+        "max": 1420.442,
+        "min": 0.346
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4241.949
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "300",
+     "--capture",
+     "150,240,280",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/001/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      },
+      "status": "identical",
+      "tick": 150,
+      "win32": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/001/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/001/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/001/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/001/native/tick_000280.jpg",
+       "state_hash": "b8396416"
+      },
+      "status": "identical",
+      "tick": 280,
+      "win32": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/001/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
+      }
+     }
+    ],
+    "commit": "92c518e3a",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dd62825e",
+      "win32": "dd62825e"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:25:43Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 0.322,
+        "max": 29.69,
+        "min": 0.025
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 96.844
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 13.371,
+        "max": 1377.897,
+        "min": 0.339
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4012.072
       }
      }
     },
@@ -24129,769 +21706,614 @@ window.PEREGON_RUNS = [
     "status": "identical"
    }
   ],
-  "scene": "scene_w3_combat",
-  "source": "games/peregon/src/game/scene_w3_combat.cpp",
-  "source_commit": "cd3f64b1b"
+  "scene": "scene_w10_board",
+  "source": "games/peregon/src/game/scene_w10_board.cpp",
+  "source_commit": "dd32257b5"
  },
  {
-  "latest": "010",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "latest": "005",
+  "merged": "2026-10-07 19:06",
+  "merged_commit": "dd32257b5",
   "runs": [
    {
     "args": [
      "--seed",
-     "3",
-     "--ticks",
-     "2078",
-     "--capture",
-     "429,488,608,2018",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 429,
-      "win32": {
-       "image_hash": "0e1b029b",
-       "src": "shots/scene_w4_ai/010/win32/tick_000429.jpg",
-       "state_hash": "8c809a9b"
-      }
-     },
-     {
-      "tick": 488,
-      "win32": {
-       "image_hash": "69ad14fd",
-       "src": "shots/scene_w4_ai/010/win32/tick_000488.jpg",
-       "state_hash": "c2c2ff57"
-      }
-     },
-     {
-      "tick": 608,
-      "win32": {
-       "image_hash": "8eb4ff0a",
-       "src": "shots/scene_w4_ai/010/win32/tick_000608.jpg",
-       "state_hash": "8ff98f8a"
-      }
-     },
-     {
-      "tick": 2018,
-      "win32": {
-       "image_hash": "aca892ae",
-       "src": "shots/scene_w4_ai/010/win32/tick_002018.jpg",
-       "state_hash": "ad273610"
-      }
-     }
-    ],
-    "commit": "2f4423a27f",
-    "compare": null,
-    "date": "2026-10-07T17:06:44Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "729a2c8e",
-       "frame_time_ms": {
-        "avg": 1.194,
-        "max": 296.56,
-        "min": 0.525
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w4_road_buggies.txt",
-        "format": "text1",
-        "hash": "49c0e789",
-        "length_ticks": 2078
-       },
-       "seed": 3,
-       "ticks": 2078,
-       "timescale": 0.0,
-       "wall_time_ms": 2484.242
-      }
-     }
-    },
-    "run": "010",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
      "2",
      "--ticks",
-     "5246",
+     "330",
      "--capture",
-     "1,35,122,409,909,1019",
+     "100,160,320",
      "--replay",
      "replay.txt"
-    ],
-    "captures": [],
-    "commit": "ffbda5601c",
-    "compare": null,
-    "date": "2026-10-07T17:04:07Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 137,
-      "metrics": null
-     }
-    },
-    "run": "009",
-    "status": "failed"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "4368",
-     "--capture",
-     "1,126,127,352,441,561",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "ffbda5601c",
-    "compare": null,
-    "date": "2026-10-07T17:01:34Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 137,
-      "metrics": null
-     }
-    },
-    "run": "008",
-    "status": "failed"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "2078",
-     "--capture",
-     "429,488,608,2018",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 429,
-      "win32": {
-       "image_hash": "0e1b029b",
-       "src": "shots/scene_w4_ai/007/win32/tick_000429.jpg",
-       "state_hash": "43167cf0"
-      }
-     },
-     {
-      "tick": 488,
-      "win32": {
-       "image_hash": "69ad14fd",
-       "src": "shots/scene_w4_ai/007/win32/tick_000488.jpg",
-       "state_hash": "14066070"
-      }
-     },
-     {
-      "tick": 608,
-      "win32": {
-       "image_hash": "8eb4ff0a",
-       "src": "shots/scene_w4_ai/007/win32/tick_000608.jpg",
-       "state_hash": "bbd4e518"
-      }
-     },
-     {
-      "tick": 2018,
-      "win32": {
-       "image_hash": "aca892ae",
-       "src": "shots/scene_w4_ai/007/win32/tick_002018.jpg",
-       "state_hash": "4652e32c"
-      }
-     }
-    ],
-    "commit": "6eaf849cf",
-    "compare": null,
-    "date": "2026-10-07T13:33:17Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "fdc61ae1",
-       "frame_time_ms": {
-        "avg": 1.116,
-        "max": 447.938,
-        "min": 0.527
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w4_road_buggies.txt",
-        "format": "text1",
-        "hash": "49c0e789",
-        "length_ticks": 2078
-       },
-       "seed": 3,
-       "ticks": 2078,
-       "timescale": 0.0,
-       "wall_time_ms": 2322.05
-      }
-     }
-    },
-    "run": "007",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "2130",
-     "--capture",
-     "1,35,122,409,909,1019",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 1,
-      "win32": {
-       "image_hash": "7feed57e",
-       "src": "shots/scene_w4_ai/006/win32/tick_000001.jpg",
-       "state_hash": "1831b181"
-      }
-     },
-     {
-      "tick": 35,
-      "win32": {
-       "image_hash": "d5839828",
-       "src": "shots/scene_w4_ai/006/win32/tick_000035.jpg",
-       "state_hash": "30d463dc"
-      }
-     },
-     {
-      "tick": 122,
-      "win32": {
-       "image_hash": "3d236ed7",
-       "src": "shots/scene_w4_ai/006/win32/tick_000122.jpg",
-       "state_hash": "8d937792"
-      }
-     },
-     {
-      "tick": 409,
-      "win32": {
-       "image_hash": "febf8106",
-       "src": "shots/scene_w4_ai/006/win32/tick_000409.jpg",
-       "state_hash": "10d7ecb5"
-      }
-     },
-     {
-      "tick": 909,
-      "win32": {
-       "image_hash": "25c0ed42",
-       "src": "shots/scene_w4_ai/006/win32/tick_000909.jpg",
-       "state_hash": "e7771715"
-      }
-     },
-     {
-      "tick": 1019,
-      "win32": {
-       "image_hash": "33a8df40",
-       "src": "shots/scene_w4_ai/006/win32/tick_001019.jpg",
-       "state_hash": "8c62062f"
-      }
-     }
-    ],
-    "commit": "6eaf849cf",
-    "compare": null,
-    "date": "2026-10-07T13:32:24Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ef7c45d4",
-       "frame_time_ms": {
-        "avg": 1.2,
-        "max": 504.077,
-        "min": 0.637
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w4_elevator.txt",
-        "format": "text1",
-        "hash": "f0554c4d",
-        "length_ticks": 2130
-       },
-       "seed": 2,
-       "ticks": 2130,
-       "timescale": 0.0,
-       "wall_time_ms": 2559.988
-      }
-     }
-    },
-    "run": "006",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "807",
-     "--capture",
-     "1,126,127,352,441,561",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 1,
-      "win32": {
-       "image_hash": "043acf8c",
-       "src": "shots/scene_w4_ai/005/win32/tick_000001.jpg",
-       "state_hash": "31eadaf2"
-      }
-     },
-     {
-      "tick": 126,
-      "win32": {
-       "image_hash": "c9ec1bdd",
-       "src": "shots/scene_w4_ai/005/win32/tick_000126.jpg",
-       "state_hash": "a7f55c4f"
-      }
-     },
-     {
-      "tick": 127,
-      "win32": {
-       "image_hash": "5a80f769",
-       "src": "shots/scene_w4_ai/005/win32/tick_000127.jpg",
-       "state_hash": "f6804ed8"
-      }
-     },
-     {
-      "tick": 352,
-      "win32": {
-       "image_hash": "af3da130",
-       "src": "shots/scene_w4_ai/005/win32/tick_000352.jpg",
-       "state_hash": "0725921c"
-      }
-     },
-     {
-      "tick": 441,
-      "win32": {
-       "image_hash": "26bbe041",
-       "src": "shots/scene_w4_ai/005/win32/tick_000441.jpg",
-       "state_hash": "ba3f131d"
-      }
-     },
-     {
-      "tick": 561,
-      "win32": {
-       "image_hash": "2b34051a",
-       "src": "shots/scene_w4_ai/005/win32/tick_000561.jpg",
-       "state_hash": "b262e932"
-      }
-     }
-    ],
-    "commit": "6eaf849cf",
-    "compare": null,
-    "date": "2026-10-07T13:31:54Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "2fdd1150",
-       "frame_time_ms": {
-        "avg": 1.689,
-        "max": 415.871,
-        "min": 0.689
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w4_gas_station.txt",
-        "format": "text1",
-        "hash": "9d1de88e",
-        "length_ticks": 807
-       },
-       "seed": 1,
-       "ticks": 807,
-       "timescale": 0.0,
-       "wall_time_ms": 1364.741
-      }
-     }
-    },
-    "run": "005",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "2078",
-     "--capture",
-     "429,488,608,2018",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 429,
-      "win32": {
-       "image_hash": "0e1b029b",
-       "src": "shots/scene_w4_ai/004/win32/tick_000429.jpg",
-       "state_hash": "43167cf0"
-      }
-     },
-     {
-      "tick": 488,
-      "win32": {
-       "image_hash": "69ad14fd",
-       "src": "shots/scene_w4_ai/004/win32/tick_000488.jpg",
-       "state_hash": "14066070"
-      }
-     },
-     {
-      "tick": 608,
-      "win32": {
-       "image_hash": "8eb4ff0a",
-       "src": "shots/scene_w4_ai/004/win32/tick_000608.jpg",
-       "state_hash": "bbd4e518"
-      }
-     },
-     {
-      "tick": 2018,
-      "win32": {
-       "image_hash": "aca892ae",
-       "src": "shots/scene_w4_ai/004/win32/tick_002018.jpg",
-       "state_hash": "4652e32c"
-      }
-     }
-    ],
-    "commit": "7043041e7",
-    "compare": null,
-    "date": "2026-10-07T13:29:58Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "fdc61ae1",
-       "frame_time_ms": {
-        "avg": 1.031,
-        "max": 347.597,
-        "min": 0.527
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w4_road_buggies.txt",
-        "format": "text1",
-        "hash": "49c0e789",
-        "length_ticks": 2078
-       },
-       "seed": 3,
-       "ticks": 2078,
-       "timescale": 0.0,
-       "wall_time_ms": 2146.222
-      }
-     }
-    },
-    "run": "004",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "2",
-     "--ticks",
-     "2130",
-     "--capture",
-     "1,35,122,409,909,1019",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 1,
-      "win32": {
-       "image_hash": "7feed57e",
-       "src": "shots/scene_w4_ai/003/win32/tick_000001.jpg",
-       "state_hash": "1831b181"
-      }
-     },
-     {
-      "tick": 35,
-      "win32": {
-       "image_hash": "d5839828",
-       "src": "shots/scene_w4_ai/003/win32/tick_000035.jpg",
-       "state_hash": "30d463dc"
-      }
-     },
-     {
-      "tick": 122,
-      "win32": {
-       "image_hash": "3d236ed7",
-       "src": "shots/scene_w4_ai/003/win32/tick_000122.jpg",
-       "state_hash": "8d937792"
-      }
-     },
-     {
-      "tick": 409,
-      "win32": {
-       "image_hash": "febf8106",
-       "src": "shots/scene_w4_ai/003/win32/tick_000409.jpg",
-       "state_hash": "10d7ecb5"
-      }
-     },
-     {
-      "tick": 909,
-      "win32": {
-       "image_hash": "25c0ed42",
-       "src": "shots/scene_w4_ai/003/win32/tick_000909.jpg",
-       "state_hash": "e7771715"
-      }
-     },
-     {
-      "tick": 1019,
-      "win32": {
-       "image_hash": "33a8df40",
-       "src": "shots/scene_w4_ai/003/win32/tick_001019.jpg",
-       "state_hash": "8c62062f"
-      }
-     }
-    ],
-    "commit": "7043041e7",
-    "compare": null,
-    "date": "2026-10-07T13:29:04Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "ef7c45d4",
-       "frame_time_ms": {
-        "avg": 1.507,
-        "max": 462.216,
-        "min": 0.65
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w4_elevator.txt",
-        "format": "text1",
-        "hash": "f0554c4d",
-        "length_ticks": 2130
-       },
-       "seed": 2,
-       "ticks": 2130,
-       "timescale": 0.0,
-       "wall_time_ms": 3214.666
-      }
-     }
-    },
-    "run": "003",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "1",
-     "--ticks",
-     "807",
-     "--capture",
-     "1,126,127,352,441,561",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "tick": 1,
-      "win32": {
-       "image_hash": "043acf8c",
-       "src": "shots/scene_w4_ai/002/win32/tick_000001.jpg",
-       "state_hash": "31eadaf2"
-      }
-     },
-     {
-      "tick": 126,
-      "win32": {
-       "image_hash": "c9ec1bdd",
-       "src": "shots/scene_w4_ai/002/win32/tick_000126.jpg",
-       "state_hash": "a7f55c4f"
-      }
-     },
-     {
-      "tick": 127,
-      "win32": {
-       "image_hash": "5a80f769",
-       "src": "shots/scene_w4_ai/002/win32/tick_000127.jpg",
-       "state_hash": "f6804ed8"
-      }
-     },
-     {
-      "tick": 352,
-      "win32": {
-       "image_hash": "af3da130",
-       "src": "shots/scene_w4_ai/002/win32/tick_000352.jpg",
-       "state_hash": "0725921c"
-      }
-     },
-     {
-      "tick": 441,
-      "win32": {
-       "image_hash": "26bbe041",
-       "src": "shots/scene_w4_ai/002/win32/tick_000441.jpg",
-       "state_hash": "ba3f131d"
-      }
-     },
-     {
-      "tick": 561,
-      "win32": {
-       "image_hash": "2b34051a",
-       "src": "shots/scene_w4_ai/002/win32/tick_000561.jpg",
-       "state_hash": "b262e932"
-      }
-     }
-    ],
-    "commit": "7043041e7",
-    "compare": null,
-    "date": "2026-10-07T13:28:31Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "2fdd1150",
-       "frame_time_ms": {
-        "avg": 2.167,
-        "max": 532.512,
-        "min": 0.687
-       },
-       "framebuffer": "rhi:d3d9",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w4_gas_station.txt",
-        "format": "text1",
-        "hash": "9d1de88e",
-        "length_ticks": 807
-       },
-       "seed": 1,
-       "ticks": 807,
-       "timescale": 0.0,
-       "wall_time_ms": 1751.462
-      }
-     }
-    },
-    "run": "002",
-    "status": "single"
-   },
-   {
-    "args": [
-     "--seed",
-     "7",
-     "--ticks",
-     "600",
-     "--capture",
-     "0,300,600"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "84f4940f",
-       "src": "shots/scene_w4_ai/001/native/tick_000000.jpg",
-       "state_hash": "fa5fbb2f"
+       "image_hash": "ce86e41c",
+       "src": "shots/scene_w10_cargo/005/native/tick_000100.jpg",
+       "state_hash": "014c3f81"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 100,
       "win32": {
-       "image_hash": "84f4940f",
-       "src": "shots/scene_w4_ai/001/win32/tick_000000.jpg",
-       "state_hash": "fa5fbb2f"
+       "image_hash": "ce86e41c",
+       "src": "shots/scene_w10_cargo/005/win32/tick_000100.jpg",
+       "state_hash": "014c3f81"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "69c9f77c",
-       "src": "shots/scene_w4_ai/001/native/tick_000300.jpg",
-       "state_hash": "8b48b712"
+       "image_hash": "5729a33c",
+       "src": "shots/scene_w10_cargo/005/native/tick_000160.jpg",
+       "state_hash": "89700a0c"
       },
       "status": "identical",
-      "tick": 300,
+      "tick": 160,
       "win32": {
-       "image_hash": "69c9f77c",
-       "src": "shots/scene_w4_ai/001/win32/tick_000300.jpg",
-       "state_hash": "8b48b712"
+       "image_hash": "5729a33c",
+       "src": "shots/scene_w10_cargo/005/win32/tick_000160.jpg",
+       "state_hash": "89700a0c"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "01602e98",
-       "src": "shots/scene_w4_ai/001/native/tick_000600.jpg",
-       "state_hash": "a86d71fe"
+       "image_hash": "82eba38c",
+       "src": "shots/scene_w10_cargo/005/native/tick_000320.jpg",
+       "state_hash": "4740e9ab"
       },
       "status": "identical",
-      "tick": 600,
+      "tick": 320,
       "win32": {
-       "image_hash": "01602e98",
-       "src": "shots/scene_w4_ai/001/win32/tick_000600.jpg",
-       "state_hash": "a86d71fe"
+       "image_hash": "82eba38c",
+       "src": "shots/scene_w10_cargo/005/win32/tick_000320.jpg",
+       "state_hash": "4740e9ab"
       }
      }
     ],
-    "commit": "ce72c02ca",
+    "commit": "947c58d4fe",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "a86d71fe",
-      "win32": "a86d71fe"
+      "native": "da28a9f6",
+      "win32": "da28a9f6"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T11:12:11Z",
+    "date": "2026-10-07T16:09:51Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "a86d71fe",
+       "final_state_hash": "da28a9f6",
        "frame_time_ms": {
-        "avg": 0.001,
-        "max": 0.533,
-        "min": 0.0
+        "avg": 0.245,
+        "max": 22.788,
+        "min": 0.035
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
        "timescale": 0.0,
-       "wall_time_ms": 1.094
+       "wall_time_ms": 80.929
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "a86d71fe",
+       "final_state_hash": "da28a9f6",
        "frame_time_ms": {
-        "avg": 0.014,
-        "max": 2.699,
-        "min": 0.0
+        "avg": 9.944,
+        "max": 1133.084,
+        "min": 0.711
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
        "timescale": 0.0,
-       "wall_time_ms": 9.003
+       "wall_time_ms": 3282.236
+      }
+     }
+    },
+    "run": "005",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "330",
+     "--capture",
+     "100,160,320",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "ce86e41c",
+       "src": "shots/scene_w10_cargo/004/native/tick_000100.jpg",
+       "state_hash": "014c3f81"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "ce86e41c",
+       "src": "shots/scene_w10_cargo/004/win32/tick_000100.jpg",
+       "state_hash": "014c3f81"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5729a33c",
+       "src": "shots/scene_w10_cargo/004/native/tick_000160.jpg",
+       "state_hash": "89700a0c"
+      },
+      "status": "identical",
+      "tick": 160,
+      "win32": {
+       "image_hash": "5729a33c",
+       "src": "shots/scene_w10_cargo/004/win32/tick_000160.jpg",
+       "state_hash": "89700a0c"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82eba38c",
+       "src": "shots/scene_w10_cargo/004/native/tick_000320.jpg",
+       "state_hash": "4740e9ab"
+      },
+      "status": "identical",
+      "tick": 320,
+      "win32": {
+       "image_hash": "82eba38c",
+       "src": "shots/scene_w10_cargo/004/win32/tick_000320.jpg",
+       "state_hash": "4740e9ab"
+      }
+     }
+    ],
+    "commit": "5491bf3062",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "da28a9f6",
+      "win32": "da28a9f6"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T14:55:56Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "da28a9f6",
+       "frame_time_ms": {
+        "avg": 0.245,
+        "max": 23.724,
+        "min": 0.033
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a1689af99c0baaa6c/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 81.061
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "da28a9f6",
+       "frame_time_ms": {
+        "avg": 9.787,
+        "max": 1066.233,
+        "min": 0.661
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 3230.447
+      }
+     }
+    },
+    "run": "004",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "330",
+     "--capture",
+     "100,160,320",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "b7f5cc14",
+       "src": "shots/scene_w10_cargo/003/native/tick_000100.jpg",
+       "state_hash": "9c2ae5b1"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "b7f5cc14",
+       "src": "shots/scene_w10_cargo/003/win32/tick_000100.jpg",
+       "state_hash": "9c2ae5b1"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "68c0a53b",
+       "src": "shots/scene_w10_cargo/003/native/tick_000160.jpg",
+       "state_hash": "46b3cd9c"
+      },
+      "status": "identical",
+      "tick": 160,
+      "win32": {
+       "image_hash": "68c0a53b",
+       "src": "shots/scene_w10_cargo/003/win32/tick_000160.jpg",
+       "state_hash": "46b3cd9c"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "92332a75",
+       "src": "shots/scene_w10_cargo/003/native/tick_000320.jpg",
+       "state_hash": "d6716d26"
+      },
+      "status": "identical",
+      "tick": 320,
+      "win32": {
+       "image_hash": "92332a75",
+       "src": "shots/scene_w10_cargo/003/win32/tick_000320.jpg",
+       "state_hash": "d6716d26"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "ff715563",
+      "win32": "ff715563"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:33:41Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "ff715563",
+       "frame_time_ms": {
+        "avg": 0.475,
+        "max": 51.494,
+        "min": 0.021
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 157.088
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ff715563",
+       "frame_time_ms": {
+        "avg": 30.273,
+        "max": 3530.64,
+        "min": 0.424
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 9991.138
+      }
+     }
+    },
+    "run": "003",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "330",
+     "--capture",
+     "100,160,320",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "b7f5cc14",
+       "src": "shots/scene_w10_cargo/002/native/tick_000100.jpg",
+       "state_hash": "9c2ae5b1"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "b7f5cc14",
+       "src": "shots/scene_w10_cargo/002/win32/tick_000100.jpg",
+       "state_hash": "9c2ae5b1"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "68c0a53b",
+       "src": "shots/scene_w10_cargo/002/native/tick_000160.jpg",
+       "state_hash": "46b3cd9c"
+      },
+      "status": "identical",
+      "tick": 160,
+      "win32": {
+       "image_hash": "68c0a53b",
+       "src": "shots/scene_w10_cargo/002/win32/tick_000160.jpg",
+       "state_hash": "46b3cd9c"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "92332a75",
+       "src": "shots/scene_w10_cargo/002/native/tick_000320.jpg",
+       "state_hash": "d6716d26"
+      },
+      "status": "identical",
+      "tick": 320,
+      "win32": {
+       "image_hash": "92332a75",
+       "src": "shots/scene_w10_cargo/002/win32/tick_000320.jpg",
+       "state_hash": "d6716d26"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "ff715563",
+      "win32": "ff715563"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:29:37Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "ff715563",
+       "frame_time_ms": {
+        "avg": 0.387,
+        "max": 40.245,
+        "min": 0.02
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 127.776
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ff715563",
+       "frame_time_ms": {
+        "avg": 16.755,
+        "max": 1917.855,
+        "min": 0.409
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 5529.832
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "330",
+     "--capture",
+     "100,160,320",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "b7f5cc14",
+       "src": "shots/scene_w10_cargo/001/native/tick_000100.jpg",
+       "state_hash": "9c2ae5b1"
+      },
+      "status": "identical",
+      "tick": 100,
+      "win32": {
+       "image_hash": "b7f5cc14",
+       "src": "shots/scene_w10_cargo/001/win32/tick_000100.jpg",
+       "state_hash": "9c2ae5b1"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "68c0a53b",
+       "src": "shots/scene_w10_cargo/001/native/tick_000160.jpg",
+       "state_hash": "46b3cd9c"
+      },
+      "status": "identical",
+      "tick": 160,
+      "win32": {
+       "image_hash": "68c0a53b",
+       "src": "shots/scene_w10_cargo/001/win32/tick_000160.jpg",
+       "state_hash": "46b3cd9c"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "92332a75",
+       "src": "shots/scene_w10_cargo/001/native/tick_000320.jpg",
+       "state_hash": "d6716d26"
+      },
+      "status": "identical",
+      "tick": 320,
+      "win32": {
+       "image_hash": "92332a75",
+       "src": "shots/scene_w10_cargo/001/win32/tick_000320.jpg",
+       "state_hash": "d6716d26"
+      }
+     }
+    ],
+    "commit": "92c518e3a",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "ff715563",
+      "win32": "ff715563"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:25:36Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "ff715563",
+       "frame_time_ms": {
+        "avg": 0.413,
+        "max": 48.377,
+        "min": 0.021
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 136.476
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ff715563",
+       "frame_time_ms": {
+        "avg": 16.691,
+        "max": 1894.15,
+        "min": 0.399
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_cargo_nav.txt",
+        "format": "text1",
+        "hash": "78fbcc2e",
+        "length_ticks": 290
+       },
+       "seed": 2,
+       "ticks": 330,
+       "timescale": 0.0,
+       "wall_time_ms": 5508.665
       }
      }
     },
@@ -24899,389 +22321,582 @@ window.PEREGON_RUNS = [
     "status": "identical"
    }
   ],
-  "scene": "scene_w4_ai",
-  "source": "games/peregon/src/game/scene_w4_ai.cpp",
-  "source_commit": "56560e0b4"
+  "scene": "scene_w10_cargo",
+  "source": "games/peregon/src/game/scene_w10_cargo.cpp",
+  "source_commit": "dd32257b5"
  },
  {
-  "latest": "003",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "latest": "004",
+  "merged": "2026-10-07 19:06",
+  "merged_commit": "dd32257b5",
   "runs": [
    {
     "args": [
      "--seed",
-     "20261007",
+     "2",
      "--ticks",
-     "36000",
+     "260",
      "--capture",
-     "1900,2117,6383,10242,15127,17013,19404,23210,36000",
-     "--render-captures",
+     "1,152,240",
      "--replay",
      "replay.txt"
     ],
     "captures": [
      {
-      "tick": 1900,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/004/native/tick_000001.jpg",
+       "state_hash": "8c2453ba"
+      },
+      "status": "identical",
+      "tick": 1,
       "win32": {
-       "image_hash": "a237bc8b",
-       "src": "shots/scene_w5_living_world/003/win32/tick_001900.jpg",
-       "state_hash": "0bd871df"
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/004/win32/tick_000001.jpg",
+       "state_hash": "8c2453ba"
       }
      },
      {
-      "tick": 2117,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/004/native/tick_000152.jpg",
+       "state_hash": "836a119d"
+      },
+      "status": "identical",
+      "tick": 152,
       "win32": {
-       "image_hash": "dfb033b0",
-       "src": "shots/scene_w5_living_world/003/win32/tick_002117.jpg",
-       "state_hash": "8908500b"
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/004/win32/tick_000152.jpg",
+       "state_hash": "836a119d"
       }
      },
      {
-      "tick": 6383,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/004/native/tick_000240.jpg",
+       "state_hash": "20a095cf"
+      },
+      "status": "identical",
+      "tick": 240,
       "win32": {
-       "image_hash": "e449915a",
-       "src": "shots/scene_w5_living_world/003/win32/tick_006383.jpg",
-       "state_hash": "f10d2322"
-      }
-     },
-     {
-      "tick": 10242,
-      "win32": {
-       "image_hash": "1c449ca5",
-       "src": "shots/scene_w5_living_world/003/win32/tick_010242.jpg",
-       "state_hash": "ff342700"
-      }
-     },
-     {
-      "tick": 15127,
-      "win32": {
-       "image_hash": "bc4f9a23",
-       "src": "shots/scene_w5_living_world/003/win32/tick_015127.jpg",
-       "state_hash": "dc1f6396"
-      }
-     },
-     {
-      "tick": 17013,
-      "win32": {
-       "image_hash": "21b36c59",
-       "src": "shots/scene_w5_living_world/003/win32/tick_017013.jpg",
-       "state_hash": "0c9f27fe"
-      }
-     },
-     {
-      "tick": 19404,
-      "win32": {
-       "image_hash": "988f5edb",
-       "src": "shots/scene_w5_living_world/003/win32/tick_019404.jpg",
-       "state_hash": "964ff478"
-      }
-     },
-     {
-      "tick": 23210,
-      "win32": {
-       "image_hash": "180013c4",
-       "src": "shots/scene_w5_living_world/003/win32/tick_023210.jpg",
-       "state_hash": "a928f5ce"
-      }
-     },
-     {
-      "tick": 36000,
-      "win32": {
-       "image_hash": "cd36b1b7",
-       "src": "shots/scene_w5_living_world/003/win32/tick_036000.jpg",
-       "state_hash": "747722a5"
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/004/win32/tick_000240.jpg",
+       "state_hash": "20a095cf"
       }
      }
     ],
-    "commit": "33e2d1c483",
-    "compare": null,
-    "date": "2026-10-07T16:55:05Z",
+    "commit": "947c58d4fe",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "5def1874",
+      "win32": "5def1874"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:09:42Z",
     "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "5def1874",
+       "frame_time_ms": {
+        "avg": 0.36,
+        "max": 29.795,
+        "min": 0.017
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_hud_nav.txt",
+        "format": "text1",
+        "hash": "e595dace",
+        "length_ticks": 205
+       },
+       "seed": 2,
+       "ticks": 260,
+       "timescale": 0.0,
+       "wall_time_ms": 93.624
+      }
+     },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "747722a5",
+       "final_state_hash": "5def1874",
        "frame_time_ms": {
-        "avg": 0.02,
-        "max": 212.978,
-        "min": 0.005
+        "avg": 15.594,
+        "max": 1352.433,
+        "min": 0.392
        },
-       "framebuffer": "rhi:d3d9",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
        "replay": {
-        "file": "C:\\Test\\scene_w5_living_world.txt",
+        "file": "C:\\Test\\scene_w10_hud_nav.txt",
         "format": "text1",
-        "hash": "2e42464f",
-        "length_ticks": 35723
+        "hash": "e595dace",
+        "length_ticks": 205
        },
-       "seed": 20261007,
-       "ticks": 36000,
+       "seed": 2,
+       "ticks": 260,
        "timescale": 0.0,
-       "wall_time_ms": 745.252
+       "wall_time_ms": 4055.228
+      }
+     }
+    },
+    "run": "004",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "260",
+     "--capture",
+     "1,152,240",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/003/native/tick_000001.jpg",
+       "state_hash": "8c2453ba"
+      },
+      "status": "identical",
+      "tick": 1,
+      "win32": {
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/003/win32/tick_000001.jpg",
+       "state_hash": "8c2453ba"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/003/native/tick_000152.jpg",
+       "state_hash": "836a119d"
+      },
+      "status": "identical",
+      "tick": 152,
+      "win32": {
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/003/win32/tick_000152.jpg",
+       "state_hash": "836a119d"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/003/native/tick_000240.jpg",
+       "state_hash": "20a095cf"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/003/win32/tick_000240.jpg",
+       "state_hash": "20a095cf"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "5def1874",
+      "win32": "5def1874"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:33:26Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "5def1874",
+       "frame_time_ms": {
+        "avg": 0.519,
+        "max": 58.011,
+        "min": 0.017
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_hud_nav.txt",
+        "format": "text1",
+        "hash": "e595dace",
+        "length_ticks": 205
+       },
+       "seed": 2,
+       "ticks": 260,
+       "timescale": 0.0,
+       "wall_time_ms": 135.098
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "5def1874",
+       "frame_time_ms": {
+        "avg": 28.245,
+        "max": 2601.547,
+        "min": 0.353
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_hud_nav.txt",
+        "format": "text1",
+        "hash": "e595dace",
+        "length_ticks": 205
+       },
+       "seed": 2,
+       "ticks": 260,
+       "timescale": 0.0,
+       "wall_time_ms": 7344.55
       }
      }
     },
     "run": "003",
-    "status": "single"
+    "status": "identical"
    },
    {
     "args": [
      "--seed",
-     "20261007",
+     "2",
      "--ticks",
-     "36000",
+     "260",
      "--capture",
-     "1900,2117,6383,10242,15127,17013,19404,23210,36000",
-     "--render-captures",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [],
-    "commit": "04eaca742f",
-    "compare": null,
-    "date": "2026-10-07T16:44:04Z",
-    "flavours": {
-     "win32": {
-      "exit_code": 3,
-      "metrics": null
-     }
-    },
-    "run": "002",
-    "status": "failed"
-   },
-   {
-    "args": [
-     "--seed",
-     "20261007",
-     "--ticks",
-     "36000",
-     "--capture",
-     "1900,2117,6383,10242,15127,17013,19404,23210,36000",
-     "--render-captures",
+     "1,152,240",
      "--replay",
      "replay.txt"
     ],
     "captures": [
      {
-      "tick": 1900,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/002/native/tick_000001.jpg",
+       "state_hash": "8c2453ba"
+      },
+      "status": "identical",
+      "tick": 1,
       "win32": {
-       "image_hash": "a237bc8b",
-       "src": "shots/scene_w5_living_world/001/win32/tick_001900.jpg",
-       "state_hash": "0bd871df"
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/002/win32/tick_000001.jpg",
+       "state_hash": "8c2453ba"
       }
      },
      {
-      "tick": 2117,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/002/native/tick_000152.jpg",
+       "state_hash": "836a119d"
+      },
+      "status": "identical",
+      "tick": 152,
       "win32": {
-       "image_hash": "dfb033b0",
-       "src": "shots/scene_w5_living_world/001/win32/tick_002117.jpg",
-       "state_hash": "8908500b"
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/002/win32/tick_000152.jpg",
+       "state_hash": "836a119d"
       }
      },
      {
-      "tick": 6383,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/002/native/tick_000240.jpg",
+       "state_hash": "20a095cf"
+      },
+      "status": "identical",
+      "tick": 240,
       "win32": {
-       "image_hash": "e449915a",
-       "src": "shots/scene_w5_living_world/001/win32/tick_006383.jpg",
-       "state_hash": "f10d2322"
-      }
-     },
-     {
-      "tick": 10242,
-      "win32": {
-       "image_hash": "1c449ca5",
-       "src": "shots/scene_w5_living_world/001/win32/tick_010242.jpg",
-       "state_hash": "ff342700"
-      }
-     },
-     {
-      "tick": 15127,
-      "win32": {
-       "image_hash": "bc4f9a23",
-       "src": "shots/scene_w5_living_world/001/win32/tick_015127.jpg",
-       "state_hash": "dc1f6396"
-      }
-     },
-     {
-      "tick": 17013,
-      "win32": {
-       "image_hash": "21b36c59",
-       "src": "shots/scene_w5_living_world/001/win32/tick_017013.jpg",
-       "state_hash": "0c9f27fe"
-      }
-     },
-     {
-      "tick": 19404,
-      "win32": {
-       "image_hash": "988f5edb",
-       "src": "shots/scene_w5_living_world/001/win32/tick_019404.jpg",
-       "state_hash": "964ff478"
-      }
-     },
-     {
-      "tick": 23210,
-      "win32": {
-       "image_hash": "180013c4",
-       "src": "shots/scene_w5_living_world/001/win32/tick_023210.jpg",
-       "state_hash": "a928f5ce"
-      }
-     },
-     {
-      "tick": 36000,
-      "win32": {
-       "image_hash": "cd36b1b7",
-       "src": "shots/scene_w5_living_world/001/win32/tick_036000.jpg",
-       "state_hash": "747722a5"
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/002/win32/tick_000240.jpg",
+       "state_hash": "20a095cf"
       }
      }
     ],
-    "commit": "528cf8ac98",
-    "compare": null,
-    "date": "2026-10-07T16:40:36Z",
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "5def1874",
+      "win32": "5def1874"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:29:28Z",
     "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "5def1874",
+       "frame_time_ms": {
+        "avg": 0.368,
+        "max": 31.014,
+        "min": 0.017
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_hud_nav.txt",
+        "format": "text1",
+        "hash": "e595dace",
+        "length_ticks": 205
+       },
+       "seed": 2,
+       "ticks": 260,
+       "timescale": 0.0,
+       "wall_time_ms": 95.778
+      }
+     },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "747722a5",
+       "final_state_hash": "5def1874",
        "frame_time_ms": {
-        "avg": 0.022,
-        "max": 264.933,
-        "min": 0.005
+        "avg": 14.668,
+        "max": 1278.919,
+        "min": 0.342
        },
-       "framebuffer": "rhi:d3d9",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
        "replay": {
-        "file": "C:\\Test\\scene_w5_living_world.txt",
+        "file": "C:\\Test\\scene_w10_hud_nav.txt",
         "format": "text1",
-        "hash": "2e42464f",
-        "length_ticks": 35723
+        "hash": "e595dace",
+        "length_ticks": 205
        },
-       "seed": 20261007,
-       "ticks": 36000,
+       "seed": 2,
+       "ticks": 260,
        "timescale": 0.0,
-       "wall_time_ms": 822.212
+       "wall_time_ms": 3814.402
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "260",
+     "--capture",
+     "1,152,240",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/001/native/tick_000001.jpg",
+       "state_hash": "8c2453ba"
+      },
+      "status": "identical",
+      "tick": 1,
+      "win32": {
+       "image_hash": "e718d938",
+       "src": "shots/scene_w10_hud/001/win32/tick_000001.jpg",
+       "state_hash": "8c2453ba"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/001/native/tick_000152.jpg",
+       "state_hash": "836a119d"
+      },
+      "status": "identical",
+      "tick": 152,
+      "win32": {
+       "image_hash": "7fedb885",
+       "src": "shots/scene_w10_hud/001/win32/tick_000152.jpg",
+       "state_hash": "836a119d"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/001/native/tick_000240.jpg",
+       "state_hash": "20a095cf"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "fd791a5e",
+       "src": "shots/scene_w10_hud/001/win32/tick_000240.jpg",
+       "state_hash": "20a095cf"
+      }
+     }
+    ],
+    "commit": "92c518e3a",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "5def1874",
+      "win32": "5def1874"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:25:26Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "5def1874",
+       "frame_time_ms": {
+        "avg": 0.348,
+        "max": 28.536,
+        "min": 0.016
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_hud_nav.txt",
+        "format": "text1",
+        "hash": "e595dace",
+        "length_ticks": 205
+       },
+       "seed": 2,
+       "ticks": 260,
+       "timescale": 0.0,
+       "wall_time_ms": 90.535
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "5def1874",
+       "frame_time_ms": {
+        "avg": 14.869,
+        "max": 1279.151,
+        "min": 0.329
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_hud_nav.txt",
+        "format": "text1",
+        "hash": "e595dace",
+        "length_ticks": 205
+       },
+       "seed": 2,
+       "ticks": 260,
+       "timescale": 0.0,
+       "wall_time_ms": 3866.699
       }
      }
     },
     "run": "001",
-    "status": "single"
+    "status": "identical"
    }
   ],
-  "scene": "scene_w5_living_world",
-  "source": "games/peregon/src/game/scene_w5_living_world.cpp",
-  "source_commit": "87a915f4c"
+  "scene": "scene_w10_hud",
+  "source": "games/peregon/src/game/scene_w10_hud.cpp",
+  "source_commit": "dd32257b5"
  },
  {
   "latest": "006",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 19:06",
+  "merged_commit": "a5e64027f",
   "runs": [
    {
     "args": [
      "--seed",
-     "7",
+     "2",
      "--ticks",
-     "600",
+     "40",
      "--capture",
-     "0,300,600"
+     "36"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/006/native/tick_000000.jpg",
-       "state_hash": "a5c3c1a4"
+       "image_hash": "e16a1a4e",
+       "src": "shots/scene_w12_menu/006/native/tick_000036.jpg",
+       "state_hash": "fd5e01cf"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 36,
       "win32": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/006/win32/tick_000000.jpg",
-       "state_hash": "a5c3c1a4"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "8ebebcd2",
-       "src": "shots/scene_w8_economy/006/native/tick_000300.jpg",
-       "state_hash": "fb2909fe"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "8ebebcd2",
-       "src": "shots/scene_w8_economy/006/win32/tick_000300.jpg",
-       "state_hash": "fb2909fe"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "3db5ff8e",
-       "src": "shots/scene_w8_economy/006/native/tick_000600.jpg",
-       "state_hash": "040badc2"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "3db5ff8e",
-       "src": "shots/scene_w8_economy/006/win32/tick_000600.jpg",
-       "state_hash": "040badc2"
+       "image_hash": "e16a1a4e",
+       "src": "shots/scene_w12_menu/006/win32/tick_000036.jpg",
+       "state_hash": "fd5e01cf"
       }
      }
     ],
-    "commit": "ffbda5601c",
+    "commit": "a1f7b8dc1c",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "040badc2",
-      "win32": "040badc2"
+      "native": "25a13214",
+      "win32": "25a13214"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T16:45:35Z",
+    "date": "2026-10-07T16:08:01Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "040badc2",
+       "final_state_hash": "25a13214",
        "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.696,
-        "min": 0.0
+        "avg": 0.933,
+        "max": 35.755,
+        "min": 0.03
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
        "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "seed": 2,
+       "ticks": 40,
        "timescale": 0.0,
-       "wall_time_ms": 1.447
+       "wall_time_ms": 37.34
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "040badc2",
+       "final_state_hash": "25a13214",
        "frame_time_ms": {
-        "avg": 0.076,
-        "max": 8.368,
-        "min": 0.002
+        "avg": 53.813,
+        "max": 2113.209,
+        "min": 0.599
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
        "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "seed": 2,
+       "ticks": 40,
        "timescale": 0.0,
-       "wall_time_ms": 46.339
+       "wall_time_ms": 2152.96
       }
      }
     },
@@ -25291,106 +22906,103 @@ window.PEREGON_RUNS = [
    {
     "args": [
      "--seed",
-     "7",
+     "4",
      "--ticks",
-     "600",
+     "520",
      "--capture",
-     "0,300,600"
+     "376,500",
+     "--replay",
+     "replay.txt"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/005/native/tick_000000.jpg",
-       "state_hash": "94b9cd58"
+       "image_hash": "61992588",
+       "src": "shots/scene_w12_menu/005/native/tick_000376.jpg",
+       "state_hash": "efae6a19"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 376,
       "win32": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/005/win32/tick_000000.jpg",
-       "state_hash": "94b9cd58"
+       "image_hash": "61992588",
+       "src": "shots/scene_w12_menu/005/win32/tick_000376.jpg",
+       "state_hash": "efae6a19"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/005/native/tick_000300.jpg",
-       "state_hash": "68bae8f2"
+       "image_hash": "6714c3b2",
+       "src": "shots/scene_w12_menu/005/native/tick_000500.jpg",
+       "state_hash": "7eedfdd5"
       },
       "status": "identical",
-      "tick": 300,
+      "tick": 500,
       "win32": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/005/win32/tick_000300.jpg",
-       "state_hash": "68bae8f2"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/005/native/tick_000600.jpg",
-       "state_hash": "544530a7"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/005/win32/tick_000600.jpg",
-       "state_hash": "544530a7"
+       "image_hash": "6714c3b2",
+       "src": "shots/scene_w12_menu/005/win32/tick_000500.jpg",
+       "state_hash": "7eedfdd5"
       }
      }
     ],
-    "commit": "d0d1e42af",
+    "commit": "a1f7b8dc1c",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "544530a7",
-      "win32": "544530a7"
+      "native": "949f6470",
+      "win32": "949f6470"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T13:07:55Z",
+    "date": "2026-10-07T16:07:56Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "949f6470",
        "frame_time_ms": {
-        "avg": 0.002,
-        "max": 0.842,
-        "min": 0.0
+        "avg": 0.148,
+        "max": 34.689,
+        "min": 0.011
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 520,
        "timescale": 0.0,
-       "wall_time_ms": 1.547
+       "wall_time_ms": 77.229
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "949f6470",
        "frame_time_ms": {
-        "avg": 0.15,
-        "max": 33.403,
-        "min": 0.002
+        "avg": 9.671,
+        "max": 2473.943,
+        "min": 0.199
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "C:\\Test\\scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 520,
        "timescale": 0.0,
-       "wall_time_ms": 90.58
+       "wall_time_ms": 5030.857
       }
      }
     },
@@ -25400,106 +23012,103 @@ window.PEREGON_RUNS = [
    {
     "args": [
      "--seed",
-     "7",
+     "4",
      "--ticks",
-     "600",
+     "230",
      "--capture",
-     "0,300,600"
+     "60,212",
+     "--replay",
+     "replay.txt"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/004/native/tick_000000.jpg",
-       "state_hash": "94b9cd58"
+       "image_hash": "7be66447",
+       "src": "shots/scene_w12_menu/004/native/tick_000060.jpg",
+       "state_hash": "d1945f5c"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 60,
       "win32": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/004/win32/tick_000000.jpg",
-       "state_hash": "94b9cd58"
+       "image_hash": "7be66447",
+       "src": "shots/scene_w12_menu/004/win32/tick_000060.jpg",
+       "state_hash": "d1945f5c"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/004/native/tick_000300.jpg",
-       "state_hash": "68bae8f2"
+       "image_hash": "5b186f44",
+       "src": "shots/scene_w12_menu/004/native/tick_000212.jpg",
+       "state_hash": "e954ce45"
       },
       "status": "identical",
-      "tick": 300,
+      "tick": 212,
       "win32": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/004/win32/tick_000300.jpg",
-       "state_hash": "68bae8f2"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/004/native/tick_000600.jpg",
-       "state_hash": "544530a7"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/004/win32/tick_000600.jpg",
-       "state_hash": "544530a7"
+       "image_hash": "5b186f44",
+       "src": "shots/scene_w12_menu/004/win32/tick_000212.jpg",
+       "state_hash": "e954ce45"
       }
      }
     ],
-    "commit": "6224643c0",
+    "commit": "a1f7b8dc1c",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "544530a7",
-      "win32": "544530a7"
+      "native": "d17c6999",
+      "win32": "d17c6999"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T12:54:30Z",
+    "date": "2026-10-07T16:07:49Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "d17c6999",
        "frame_time_ms": {
-        "avg": 0.003,
-        "max": 1.189,
-        "min": 0.0
+        "avg": 0.424,
+        "max": 44.256,
+        "min": 0.023
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 230,
        "timescale": 0.0,
-       "wall_time_ms": 2.407
+       "wall_time_ms": 97.594
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "d17c6999",
        "frame_time_ms": {
-        "avg": 0.075,
-        "max": 9.661,
-        "min": 0.002
+        "avg": 19.701,
+        "max": 2469.265,
+        "min": 0.472
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "C:\\Test\\scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 230,
        "timescale": 0.0,
-       "wall_time_ms": 45.741
+       "wall_time_ms": 4532.641
       }
      }
     },
@@ -25509,106 +23118,76 @@ window.PEREGON_RUNS = [
    {
     "args": [
      "--seed",
-     "7",
+     "2",
      "--ticks",
-     "600",
+     "40",
      "--capture",
-     "0,300,600"
+     "36"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/003/native/tick_000000.jpg",
-       "state_hash": "94b9cd58"
+       "image_hash": "e16a1a4e",
+       "src": "shots/scene_w12_menu/003/native/tick_000036.jpg",
+       "state_hash": "fd5e01cf"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 36,
       "win32": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/003/win32/tick_000000.jpg",
-       "state_hash": "94b9cd58"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/003/native/tick_000300.jpg",
-       "state_hash": "68bae8f2"
-      },
-      "status": "identical",
-      "tick": 300,
-      "win32": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/003/win32/tick_000300.jpg",
-       "state_hash": "68bae8f2"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/003/native/tick_000600.jpg",
-       "state_hash": "544530a7"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/003/win32/tick_000600.jpg",
-       "state_hash": "544530a7"
+       "image_hash": "e16a1a4e",
+       "src": "shots/scene_w12_menu/003/win32/tick_000036.jpg",
+       "state_hash": "fd5e01cf"
       }
      }
     ],
-    "commit": "6ad2f4f3a",
+    "commit": "54f1c0403c",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "544530a7",
-      "win32": "544530a7"
+      "native": "25a13214",
+      "win32": "25a13214"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T12:30:32Z",
+    "date": "2026-10-07T16:02:09Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "25a13214",
        "frame_time_ms": {
-        "avg": 0.001,
-        "max": 0.548,
-        "min": 0.0
+        "avg": 0.899,
+        "max": 34.566,
+        "min": 0.03
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
        "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "seed": 2,
+       "ticks": 40,
        "timescale": 0.0,
-       "wall_time_ms": 1.146
+       "wall_time_ms": 35.98
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "25a13214",
        "frame_time_ms": {
-        "avg": 0.078,
-        "max": 9.838,
-        "min": 0.002
+        "avg": 43.985,
+        "max": 1724.411,
+        "min": 0.598
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
        "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "seed": 2,
+       "ticks": 40,
        "timescale": 0.0,
-       "wall_time_ms": 47.435
+       "wall_time_ms": 1759.897
       }
      }
     },
@@ -25618,106 +23197,103 @@ window.PEREGON_RUNS = [
    {
     "args": [
      "--seed",
-     "7",
+     "4",
      "--ticks",
-     "600",
+     "520",
      "--capture",
-     "0,300,600"
+     "376,500",
+     "--replay",
+     "replay.txt"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/002/native/tick_000000.jpg",
-       "state_hash": "94b9cd58"
+       "image_hash": "61992588",
+       "src": "shots/scene_w12_menu/002/native/tick_000376.jpg",
+       "state_hash": "efae6a19"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 376,
       "win32": {
-       "image_hash": "8181ec07",
-       "src": "shots/scene_w8_economy/002/win32/tick_000000.jpg",
-       "state_hash": "94b9cd58"
+       "image_hash": "61992588",
+       "src": "shots/scene_w12_menu/002/win32/tick_000376.jpg",
+       "state_hash": "efae6a19"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/002/native/tick_000300.jpg",
-       "state_hash": "68bae8f2"
+       "image_hash": "6714c3b2",
+       "src": "shots/scene_w12_menu/002/native/tick_000500.jpg",
+       "state_hash": "7eedfdd5"
       },
       "status": "identical",
-      "tick": 300,
+      "tick": 500,
       "win32": {
-       "image_hash": "f7848fac",
-       "src": "shots/scene_w8_economy/002/win32/tick_000300.jpg",
-       "state_hash": "68bae8f2"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/002/native/tick_000600.jpg",
-       "state_hash": "544530a7"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "e81297fe",
-       "src": "shots/scene_w8_economy/002/win32/tick_000600.jpg",
-       "state_hash": "544530a7"
+       "image_hash": "6714c3b2",
+       "src": "shots/scene_w12_menu/002/win32/tick_000500.jpg",
+       "state_hash": "7eedfdd5"
       }
      }
     ],
-    "commit": "0d8713e80",
+    "commit": "54f1c0403c",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "544530a7",
-      "win32": "544530a7"
+      "native": "949f6470",
+      "win32": "949f6470"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T12:05:53Z",
+    "date": "2026-10-07T16:02:05Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "949f6470",
        "frame_time_ms": {
-        "avg": 0.001,
-        "max": 0.534,
-        "min": 0.0
+        "avg": 0.125,
+        "max": 31.985,
+        "min": 0.011
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a7a8c2608881b903b/games/peregon/tools/replays/scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 520,
        "timescale": 0.0,
-       "wall_time_ms": 1.161
+       "wall_time_ms": 65.416
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "544530a7",
+       "final_state_hash": "949f6470",
        "frame_time_ms": {
-        "avg": 0.074,
-        "max": 9.718,
-        "min": 0.001
+        "avg": 5.197,
+        "max": 1484.896,
+        "min": 0.195
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "C:\\Test\\scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 520,
        "timescale": 0.0,
-       "wall_time_ms": 45.004
+       "wall_time_ms": 2703.297
       }
      }
     },
@@ -25727,106 +23303,103 @@ window.PEREGON_RUNS = [
    {
     "args": [
      "--seed",
-     "7",
+     "4",
      "--ticks",
-     "600",
+     "230",
      "--capture",
-     "0,300,600"
+     "60,212",
+     "--replay",
+     "replay.txt"
     ],
     "captures": [
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "de2f5756",
-       "src": "shots/scene_w8_economy/001/native/tick_000000.jpg",
-       "state_hash": "da876e30"
+       "image_hash": "7be66447",
+       "src": "shots/scene_w12_menu/001/native/tick_000060.jpg",
+       "state_hash": "d1945f5c"
       },
       "status": "identical",
-      "tick": 0,
+      "tick": 60,
       "win32": {
-       "image_hash": "de2f5756",
-       "src": "shots/scene_w8_economy/001/win32/tick_000000.jpg",
-       "state_hash": "da876e30"
+       "image_hash": "7be66447",
+       "src": "shots/scene_w12_menu/001/win32/tick_000060.jpg",
+       "state_hash": "d1945f5c"
       }
      },
      {
       "diff_pixels": 0,
       "native": {
-       "image_hash": "2c921bd2",
-       "src": "shots/scene_w8_economy/001/native/tick_000300.jpg",
-       "state_hash": "d8632a02"
+       "image_hash": "5b186f44",
+       "src": "shots/scene_w12_menu/001/native/tick_000212.jpg",
+       "state_hash": "e954ce45"
       },
       "status": "identical",
-      "tick": 300,
+      "tick": 212,
       "win32": {
-       "image_hash": "2c921bd2",
-       "src": "shots/scene_w8_economy/001/win32/tick_000300.jpg",
-       "state_hash": "d8632a02"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "257d2e86",
-       "src": "shots/scene_w8_economy/001/native/tick_000600.jpg",
-       "state_hash": "be902ae7"
-      },
-      "status": "identical",
-      "tick": 600,
-      "win32": {
-       "image_hash": "257d2e86",
-       "src": "shots/scene_w8_economy/001/win32/tick_000600.jpg",
-       "state_hash": "be902ae7"
+       "image_hash": "5b186f44",
+       "src": "shots/scene_w12_menu/001/win32/tick_000212.jpg",
+       "state_hash": "e954ce45"
       }
      }
     ],
-    "commit": "ce72c02ca",
+    "commit": "54f1c0403c",
     "compare": {
      "final_state_hash": {
       "equal": true,
-      "native": "be902ae7",
-      "win32": "be902ae7"
+      "native": "d17c6999",
+      "win32": "d17c6999"
      },
      "status": "identical"
     },
-    "date": "2026-10-07T11:12:13Z",
+    "date": "2026-10-07T16:01:59Z",
     "flavours": {
      "native": {
       "exit_code": 0,
       "metrics": {
        "build": "macos-arm64-Release",
-       "final_state_hash": "be902ae7",
+       "final_state_hash": "d17c6999",
        "frame_time_ms": {
-        "avg": 0.001,
-        "max": 0.549,
-        "min": 0.0
+        "avg": 0.334,
+        "max": 34.975,
+        "min": 0.023
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-a7a8c2608881b903b/games/peregon/tools/replays/scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 230,
        "timescale": 0.0,
-       "wall_time_ms": 1.099
+       "wall_time_ms": 76.919
       }
      },
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "be902ae7",
+       "final_state_hash": "d17c6999",
        "frame_time_ms": {
-        "avg": 0.014,
-        "max": 2.632,
-        "min": 0.0
+        "avg": 14.099,
+        "max": 1598.519,
+        "min": 0.463
        },
-       "framebuffer": "fallback",
+       "framebuffer": "rhi_null+ui",
        "headless": true,
-       "replay": null,
-       "seed": 7,
-       "ticks": 600,
+       "replay": {
+        "file": "C:\\Test\\scene_w12_menu.txt",
+        "format": "text1",
+        "hash": "4b3e4e47",
+        "length_ticks": 459
+       },
+       "seed": 4,
+       "ticks": 230,
        "timescale": 0.0,
-       "wall_time_ms": 8.85
+       "wall_time_ms": 3243.462
       }
      }
     },
@@ -25834,14 +23407,14 @@ window.PEREGON_RUNS = [
     "status": "identical"
    }
   ],
-  "scene": "scene_w8_economy",
-  "source": "games/peregon/src/game/scene_w8_economy.cpp",
-  "source_commit": "27d2a304c"
+  "scene": "scene_w12_menu",
+  "source": "games/peregon/src/game/scene_w12_menu.cpp",
+  "source_commit": "a5e64027f"
  },
  {
   "latest": "043",
-  "merged": "2026-10-09 07:38",
-  "merged_commit": "bbd33ed71",
+  "merged": "2026-10-07 19:06",
+  "merged_commit": "7a0be6c0c",
   "runs": [
    {
     "args": [
@@ -29781,63 +27354,1278 @@ window.PEREGON_RUNS = [
  },
  {
   "latest": "002",
-  "merged": "2026-10-11 07:07",
-  "merged_commit": "fe43f442d",
+  "merged": "2026-10-07 19:38",
+  "merged_commit": "56560e0b4",
   "runs": [
    {
     "args": [
+     "--seed",
+     "1",
      "--ticks",
-     "300",
+     "1000",
      "--capture",
-     "0,150,300"
+     "1,500,1000"
     ],
     "captures": [
      {
-      "tick": 0,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "989f57c7",
+       "src": "shots/scene_w13_bot_arena/002/native/tick_000001.jpg",
+       "state_hash": "ae4af24b"
+      },
+      "status": "identical",
+      "tick": 1,
       "win32": {
-       "image_hash": "a6217cc1",
-       "src": "shots/scene_r1_map/002/win32/tick_000000.jpg",
-       "state_hash": "f29aaf1e"
+       "image_hash": "989f57c7",
+       "src": "shots/scene_w13_bot_arena/002/win32/tick_000001.jpg",
+       "state_hash": "ae4af24b"
       }
      },
      {
-      "tick": 150,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "2b4babc0",
+       "src": "shots/scene_w13_bot_arena/002/native/tick_000500.jpg",
+       "state_hash": "7065e548"
+      },
+      "status": "identical",
+      "tick": 500,
       "win32": {
-       "image_hash": "8faa7639",
-       "src": "shots/scene_r1_map/002/win32/tick_000150.jpg",
-       "state_hash": "ccb68549"
+       "image_hash": "2b4babc0",
+       "src": "shots/scene_w13_bot_arena/002/win32/tick_000500.jpg",
+       "state_hash": "7065e548"
       }
      },
      {
-      "tick": 300,
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "f24824ab",
+       "src": "shots/scene_w13_bot_arena/002/native/tick_001000.jpg",
+       "state_hash": "b59625bb"
+      },
+      "status": "identical",
+      "tick": 1000,
       "win32": {
-       "image_hash": "80b7516f",
-       "src": "shots/scene_r1_map/002/win32/tick_000300.jpg",
-       "state_hash": "92f1d7a2"
+       "image_hash": "f24824ab",
+       "src": "shots/scene_w13_bot_arena/002/win32/tick_001000.jpg",
+       "state_hash": "b59625bb"
       }
      }
     ],
-    "commit": "1a5d799a49",
+    "commit": "33e2d1c483",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "b59625bb",
+      "win32": "b59625bb"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T17:00:18Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "b59625bb",
+       "frame_time_ms": {
+        "avg": 0.015,
+        "max": 2.657,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 1000,
+       "timescale": 0.0,
+       "wall_time_ms": 15.344
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "b59625bb",
+       "frame_time_ms": {
+        "avg": 0.742,
+        "max": 194.769,
+        "min": 0.014
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 1000,
+       "timescale": 0.0,
+       "wall_time_ms": 743.887
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "1000",
+     "--capture",
+     "1,500,1000"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "989f57c7",
+       "src": "shots/scene_w13_bot_arena/001/native/tick_000001.jpg",
+       "state_hash": "ae4af24b"
+      },
+      "status": "identical",
+      "tick": 1,
+      "win32": {
+       "image_hash": "989f57c7",
+       "src": "shots/scene_w13_bot_arena/001/win32/tick_000001.jpg",
+       "state_hash": "ae4af24b"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "2b4babc0",
+       "src": "shots/scene_w13_bot_arena/001/native/tick_000500.jpg",
+       "state_hash": "7065e548"
+      },
+      "status": "identical",
+      "tick": 500,
+      "win32": {
+       "image_hash": "2b4babc0",
+       "src": "shots/scene_w13_bot_arena/001/win32/tick_000500.jpg",
+       "state_hash": "7065e548"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "f24824ab",
+       "src": "shots/scene_w13_bot_arena/001/native/tick_001000.jpg",
+       "state_hash": "b59625bb"
+      },
+      "status": "identical",
+      "tick": 1000,
+      "win32": {
+       "image_hash": "f24824ab",
+       "src": "shots/scene_w13_bot_arena/001/win32/tick_001000.jpg",
+       "state_hash": "b59625bb"
+      }
+     }
+    ],
+    "commit": "af6579f100",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "b59625bb",
+      "win32": "b59625bb"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:31:45Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "b59625bb",
+       "frame_time_ms": {
+        "avg": 0.007,
+        "max": 0.836,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 1000,
+       "timescale": 0.0,
+       "wall_time_ms": 7.712
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "b59625bb",
+       "frame_time_ms": {
+        "avg": 0.34,
+        "max": 80.273,
+        "min": 0.014
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 1000,
+       "timescale": 0.0,
+       "wall_time_ms": 341.389
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_w13_bot_arena",
+  "source": "games/peregon/src/game/scene_w13_bot_arena.cpp",
+  "source_commit": "56560e0b4"
+ },
+ {
+  "latest": "002",
+  "merged": "2026-10-07 19:38",
+  "merged_commit": "56560e0b4",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "360",
+     "--capture",
+     "360"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "174ffd3b",
+       "src": "shots/scene_w13_bot_camp/002/native/tick_000360.jpg",
+       "state_hash": "3c75ebd9"
+      },
+      "status": "identical",
+      "tick": 360,
+      "win32": {
+       "image_hash": "174ffd3b",
+       "src": "shots/scene_w13_bot_camp/002/win32/tick_000360.jpg",
+       "state_hash": "3c75ebd9"
+      }
+     }
+    ],
+    "commit": "33e2d1c483",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "3c75ebd9",
+      "win32": "3c75ebd9"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T17:01:47Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "3c75ebd9",
+       "frame_time_ms": {
+        "avg": 0.122,
+        "max": 34.116,
+        "min": 0.0
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": null,
+       "seed": 3,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 44.097
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "3c75ebd9",
+       "frame_time_ms": {
+        "avg": 13.026,
+        "max": 3315.63,
+        "min": 0.001
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": null,
+       "seed": 3,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 4690.19
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "360",
+     "--capture",
+     "360"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "174ffd3b",
+       "src": "shots/scene_w13_bot_camp/001/native/tick_000360.jpg",
+       "state_hash": "3c75ebd9"
+      },
+      "status": "identical",
+      "tick": 360,
+      "win32": {
+       "image_hash": "174ffd3b",
+       "src": "shots/scene_w13_bot_camp/001/win32/tick_000360.jpg",
+       "state_hash": "3c75ebd9"
+      }
+     }
+    ],
+    "commit": "af6579f100",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "3c75ebd9",
+      "win32": "3c75ebd9"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:31:58Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "3c75ebd9",
+       "frame_time_ms": {
+        "avg": 0.085,
+        "max": 21.371,
+        "min": 0.0
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": null,
+       "seed": 3,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 30.77
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "3c75ebd9",
+       "frame_time_ms": {
+        "avg": 4.954,
+        "max": 1210.501,
+        "min": 0.0
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": null,
+       "seed": 3,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 1786.065
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_w13_bot_camp",
+  "source": "games/peregon/src/game/scene_w13_bot_camp.cpp",
+  "source_commit": "56560e0b4"
+ },
+ {
+  "latest": "002",
+  "merged": "2026-10-07 19:38",
+  "merged_commit": "56560e0b4",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "3000",
+     "--capture",
+     "1,1500,3000"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "0f8317a8",
+       "src": "shots/scene_w13_bot_drive/002/native/tick_000001.jpg",
+       "state_hash": "c5f58838"
+      },
+      "status": "identical",
+      "tick": 1,
+      "win32": {
+       "image_hash": "0f8317a8",
+       "src": "shots/scene_w13_bot_drive/002/win32/tick_000001.jpg",
+       "state_hash": "c5f58838"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "556bf251",
+       "src": "shots/scene_w13_bot_drive/002/native/tick_001500.jpg",
+       "state_hash": "17d2e981"
+      },
+      "status": "identical",
+      "tick": 1500,
+      "win32": {
+       "image_hash": "556bf251",
+       "src": "shots/scene_w13_bot_drive/002/win32/tick_001500.jpg",
+       "state_hash": "17d2e981"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "91b972f0",
+       "src": "shots/scene_w13_bot_drive/002/native/tick_003000.jpg",
+       "state_hash": "f78a6c84"
+      },
+      "status": "identical",
+      "tick": 3000,
+      "win32": {
+       "image_hash": "91b972f0",
+       "src": "shots/scene_w13_bot_drive/002/win32/tick_003000.jpg",
+       "state_hash": "f78a6c84"
+      }
+     }
+    ],
+    "commit": "33e2d1c483",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "f78a6c84",
+      "win32": "f78a6c84"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:59:18Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "f78a6c84",
+       "frame_time_ms": {
+        "avg": 0.015,
+        "max": 3.217,
+        "min": 0.01
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 3000,
+       "timescale": 0.0,
+       "wall_time_ms": 46.133
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "f78a6c84",
+       "frame_time_ms": {
+        "avg": 0.964,
+        "max": 130.232,
+        "min": 0.318
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 3000,
+       "timescale": 0.0,
+       "wall_time_ms": 2899.831
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "3000",
+     "--capture",
+     "1,1500,3000"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "0f8317a8",
+       "src": "shots/scene_w13_bot_drive/001/native/tick_000001.jpg",
+       "state_hash": "c5f58838"
+      },
+      "status": "identical",
+      "tick": 1,
+      "win32": {
+       "image_hash": "0f8317a8",
+       "src": "shots/scene_w13_bot_drive/001/win32/tick_000001.jpg",
+       "state_hash": "c5f58838"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "556bf251",
+       "src": "shots/scene_w13_bot_drive/001/native/tick_001500.jpg",
+       "state_hash": "17d2e981"
+      },
+      "status": "identical",
+      "tick": 1500,
+      "win32": {
+       "image_hash": "556bf251",
+       "src": "shots/scene_w13_bot_drive/001/win32/tick_001500.jpg",
+       "state_hash": "17d2e981"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "91b972f0",
+       "src": "shots/scene_w13_bot_drive/001/native/tick_003000.jpg",
+       "state_hash": "f78a6c84"
+      },
+      "status": "identical",
+      "tick": 3000,
+      "win32": {
+       "image_hash": "91b972f0",
+       "src": "shots/scene_w13_bot_drive/001/win32/tick_003000.jpg",
+       "state_hash": "f78a6c84"
+      }
+     }
+    ],
+    "commit": "af6579f100",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "f78a6c84",
+      "win32": "f78a6c84"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:31:31Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "f78a6c84",
+       "frame_time_ms": {
+        "avg": 0.013,
+        "max": 0.854,
+        "min": 0.01
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 3000,
+       "timescale": 0.0,
+       "wall_time_ms": 40.894
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "f78a6c84",
+       "frame_time_ms": {
+        "avg": 0.396,
+        "max": 48.266,
+        "min": 0.316
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 3000,
+       "timescale": 0.0,
+       "wall_time_ms": 1191.166
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_w13_bot_drive",
+  "source": "games/peregon/src/game/scene_w13_bot_drive.cpp",
+  "source_commit": "56560e0b4"
+ },
+ {
+  "latest": "010",
+  "merged": "2026-10-07 19:38",
+  "merged_commit": "56560e0b4",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "2078",
+     "--capture",
+     "429,488,608,2018",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 429,
+      "win32": {
+       "image_hash": "0e1b029b",
+       "src": "shots/scene_w4_ai/010/win32/tick_000429.jpg",
+       "state_hash": "8c809a9b"
+      }
+     },
+     {
+      "tick": 488,
+      "win32": {
+       "image_hash": "69ad14fd",
+       "src": "shots/scene_w4_ai/010/win32/tick_000488.jpg",
+       "state_hash": "c2c2ff57"
+      }
+     },
+     {
+      "tick": 608,
+      "win32": {
+       "image_hash": "8eb4ff0a",
+       "src": "shots/scene_w4_ai/010/win32/tick_000608.jpg",
+       "state_hash": "8ff98f8a"
+      }
+     },
+     {
+      "tick": 2018,
+      "win32": {
+       "image_hash": "aca892ae",
+       "src": "shots/scene_w4_ai/010/win32/tick_002018.jpg",
+       "state_hash": "ad273610"
+      }
+     }
+    ],
+    "commit": "2f4423a27f",
     "compare": null,
-    "date": "2026-10-07T17:20:24Z",
+    "date": "2026-10-07T17:06:44Z",
     "flavours": {
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "92f1d7a2",
+       "final_state_hash": "729a2c8e",
        "frame_time_ms": {
-        "avg": 14.348,
-        "max": 121.28,
-        "min": 11.149
+        "avg": 1.194,
+        "max": 296.56,
+        "min": 0.525
        },
        "framebuffer": "rhi:d3d9",
        "headless": true,
-       "replay": null,
-       "seed": 1,
-       "ticks": 300,
+       "replay": {
+        "file": "C:\\Test\\scene_w4_road_buggies.txt",
+        "format": "text1",
+        "hash": "49c0e789",
+        "length_ticks": 2078
+       },
+       "seed": 3,
+       "ticks": 2078,
        "timescale": 0.0,
-       "wall_time_ms": 4304.812
+       "wall_time_ms": 2484.242
+      }
+     }
+    },
+    "run": "010",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "5246",
+     "--capture",
+     "1,35,122,409,909,1019",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "ffbda5601c",
+    "compare": null,
+    "date": "2026-10-07T17:04:07Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 137,
+      "metrics": null
+     }
+    },
+    "run": "009",
+    "status": "failed"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "4368",
+     "--capture",
+     "1,126,127,352,441,561",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "ffbda5601c",
+    "compare": null,
+    "date": "2026-10-07T17:01:34Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 137,
+      "metrics": null
+     }
+    },
+    "run": "008",
+    "status": "failed"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "2078",
+     "--capture",
+     "429,488,608,2018",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 429,
+      "win32": {
+       "image_hash": "0e1b029b",
+       "src": "shots/scene_w4_ai/007/win32/tick_000429.jpg",
+       "state_hash": "43167cf0"
+      }
+     },
+     {
+      "tick": 488,
+      "win32": {
+       "image_hash": "69ad14fd",
+       "src": "shots/scene_w4_ai/007/win32/tick_000488.jpg",
+       "state_hash": "14066070"
+      }
+     },
+     {
+      "tick": 608,
+      "win32": {
+       "image_hash": "8eb4ff0a",
+       "src": "shots/scene_w4_ai/007/win32/tick_000608.jpg",
+       "state_hash": "bbd4e518"
+      }
+     },
+     {
+      "tick": 2018,
+      "win32": {
+       "image_hash": "aca892ae",
+       "src": "shots/scene_w4_ai/007/win32/tick_002018.jpg",
+       "state_hash": "4652e32c"
+      }
+     }
+    ],
+    "commit": "6eaf849cf",
+    "compare": null,
+    "date": "2026-10-07T13:33:17Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "fdc61ae1",
+       "frame_time_ms": {
+        "avg": 1.116,
+        "max": 447.938,
+        "min": 0.527
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w4_road_buggies.txt",
+        "format": "text1",
+        "hash": "49c0e789",
+        "length_ticks": 2078
+       },
+       "seed": 3,
+       "ticks": 2078,
+       "timescale": 0.0,
+       "wall_time_ms": 2322.05
+      }
+     }
+    },
+    "run": "007",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "2130",
+     "--capture",
+     "1,35,122,409,909,1019",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 1,
+      "win32": {
+       "image_hash": "7feed57e",
+       "src": "shots/scene_w4_ai/006/win32/tick_000001.jpg",
+       "state_hash": "1831b181"
+      }
+     },
+     {
+      "tick": 35,
+      "win32": {
+       "image_hash": "d5839828",
+       "src": "shots/scene_w4_ai/006/win32/tick_000035.jpg",
+       "state_hash": "30d463dc"
+      }
+     },
+     {
+      "tick": 122,
+      "win32": {
+       "image_hash": "3d236ed7",
+       "src": "shots/scene_w4_ai/006/win32/tick_000122.jpg",
+       "state_hash": "8d937792"
+      }
+     },
+     {
+      "tick": 409,
+      "win32": {
+       "image_hash": "febf8106",
+       "src": "shots/scene_w4_ai/006/win32/tick_000409.jpg",
+       "state_hash": "10d7ecb5"
+      }
+     },
+     {
+      "tick": 909,
+      "win32": {
+       "image_hash": "25c0ed42",
+       "src": "shots/scene_w4_ai/006/win32/tick_000909.jpg",
+       "state_hash": "e7771715"
+      }
+     },
+     {
+      "tick": 1019,
+      "win32": {
+       "image_hash": "33a8df40",
+       "src": "shots/scene_w4_ai/006/win32/tick_001019.jpg",
+       "state_hash": "8c62062f"
+      }
+     }
+    ],
+    "commit": "6eaf849cf",
+    "compare": null,
+    "date": "2026-10-07T13:32:24Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ef7c45d4",
+       "frame_time_ms": {
+        "avg": 1.2,
+        "max": 504.077,
+        "min": 0.637
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w4_elevator.txt",
+        "format": "text1",
+        "hash": "f0554c4d",
+        "length_ticks": 2130
+       },
+       "seed": 2,
+       "ticks": 2130,
+       "timescale": 0.0,
+       "wall_time_ms": 2559.988
+      }
+     }
+    },
+    "run": "006",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "807",
+     "--capture",
+     "1,126,127,352,441,561",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 1,
+      "win32": {
+       "image_hash": "043acf8c",
+       "src": "shots/scene_w4_ai/005/win32/tick_000001.jpg",
+       "state_hash": "31eadaf2"
+      }
+     },
+     {
+      "tick": 126,
+      "win32": {
+       "image_hash": "c9ec1bdd",
+       "src": "shots/scene_w4_ai/005/win32/tick_000126.jpg",
+       "state_hash": "a7f55c4f"
+      }
+     },
+     {
+      "tick": 127,
+      "win32": {
+       "image_hash": "5a80f769",
+       "src": "shots/scene_w4_ai/005/win32/tick_000127.jpg",
+       "state_hash": "f6804ed8"
+      }
+     },
+     {
+      "tick": 352,
+      "win32": {
+       "image_hash": "af3da130",
+       "src": "shots/scene_w4_ai/005/win32/tick_000352.jpg",
+       "state_hash": "0725921c"
+      }
+     },
+     {
+      "tick": 441,
+      "win32": {
+       "image_hash": "26bbe041",
+       "src": "shots/scene_w4_ai/005/win32/tick_000441.jpg",
+       "state_hash": "ba3f131d"
+      }
+     },
+     {
+      "tick": 561,
+      "win32": {
+       "image_hash": "2b34051a",
+       "src": "shots/scene_w4_ai/005/win32/tick_000561.jpg",
+       "state_hash": "b262e932"
+      }
+     }
+    ],
+    "commit": "6eaf849cf",
+    "compare": null,
+    "date": "2026-10-07T13:31:54Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "2fdd1150",
+       "frame_time_ms": {
+        "avg": 1.689,
+        "max": 415.871,
+        "min": 0.689
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w4_gas_station.txt",
+        "format": "text1",
+        "hash": "9d1de88e",
+        "length_ticks": 807
+       },
+       "seed": 1,
+       "ticks": 807,
+       "timescale": 0.0,
+       "wall_time_ms": 1364.741
+      }
+     }
+    },
+    "run": "005",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "2078",
+     "--capture",
+     "429,488,608,2018",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 429,
+      "win32": {
+       "image_hash": "0e1b029b",
+       "src": "shots/scene_w4_ai/004/win32/tick_000429.jpg",
+       "state_hash": "43167cf0"
+      }
+     },
+     {
+      "tick": 488,
+      "win32": {
+       "image_hash": "69ad14fd",
+       "src": "shots/scene_w4_ai/004/win32/tick_000488.jpg",
+       "state_hash": "14066070"
+      }
+     },
+     {
+      "tick": 608,
+      "win32": {
+       "image_hash": "8eb4ff0a",
+       "src": "shots/scene_w4_ai/004/win32/tick_000608.jpg",
+       "state_hash": "bbd4e518"
+      }
+     },
+     {
+      "tick": 2018,
+      "win32": {
+       "image_hash": "aca892ae",
+       "src": "shots/scene_w4_ai/004/win32/tick_002018.jpg",
+       "state_hash": "4652e32c"
+      }
+     }
+    ],
+    "commit": "7043041e7",
+    "compare": null,
+    "date": "2026-10-07T13:29:58Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "fdc61ae1",
+       "frame_time_ms": {
+        "avg": 1.031,
+        "max": 347.597,
+        "min": 0.527
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w4_road_buggies.txt",
+        "format": "text1",
+        "hash": "49c0e789",
+        "length_ticks": 2078
+       },
+       "seed": 3,
+       "ticks": 2078,
+       "timescale": 0.0,
+       "wall_time_ms": 2146.222
+      }
+     }
+    },
+    "run": "004",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "2",
+     "--ticks",
+     "2130",
+     "--capture",
+     "1,35,122,409,909,1019",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 1,
+      "win32": {
+       "image_hash": "7feed57e",
+       "src": "shots/scene_w4_ai/003/win32/tick_000001.jpg",
+       "state_hash": "1831b181"
+      }
+     },
+     {
+      "tick": 35,
+      "win32": {
+       "image_hash": "d5839828",
+       "src": "shots/scene_w4_ai/003/win32/tick_000035.jpg",
+       "state_hash": "30d463dc"
+      }
+     },
+     {
+      "tick": 122,
+      "win32": {
+       "image_hash": "3d236ed7",
+       "src": "shots/scene_w4_ai/003/win32/tick_000122.jpg",
+       "state_hash": "8d937792"
+      }
+     },
+     {
+      "tick": 409,
+      "win32": {
+       "image_hash": "febf8106",
+       "src": "shots/scene_w4_ai/003/win32/tick_000409.jpg",
+       "state_hash": "10d7ecb5"
+      }
+     },
+     {
+      "tick": 909,
+      "win32": {
+       "image_hash": "25c0ed42",
+       "src": "shots/scene_w4_ai/003/win32/tick_000909.jpg",
+       "state_hash": "e7771715"
+      }
+     },
+     {
+      "tick": 1019,
+      "win32": {
+       "image_hash": "33a8df40",
+       "src": "shots/scene_w4_ai/003/win32/tick_001019.jpg",
+       "state_hash": "8c62062f"
+      }
+     }
+    ],
+    "commit": "7043041e7",
+    "compare": null,
+    "date": "2026-10-07T13:29:04Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "ef7c45d4",
+       "frame_time_ms": {
+        "avg": 1.507,
+        "max": 462.216,
+        "min": 0.65
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w4_elevator.txt",
+        "format": "text1",
+        "hash": "f0554c4d",
+        "length_ticks": 2130
+       },
+       "seed": 2,
+       "ticks": 2130,
+       "timescale": 0.0,
+       "wall_time_ms": 3214.666
+      }
+     }
+    },
+    "run": "003",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "807",
+     "--capture",
+     "1,126,127,352,441,561",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 1,
+      "win32": {
+       "image_hash": "043acf8c",
+       "src": "shots/scene_w4_ai/002/win32/tick_000001.jpg",
+       "state_hash": "31eadaf2"
+      }
+     },
+     {
+      "tick": 126,
+      "win32": {
+       "image_hash": "c9ec1bdd",
+       "src": "shots/scene_w4_ai/002/win32/tick_000126.jpg",
+       "state_hash": "a7f55c4f"
+      }
+     },
+     {
+      "tick": 127,
+      "win32": {
+       "image_hash": "5a80f769",
+       "src": "shots/scene_w4_ai/002/win32/tick_000127.jpg",
+       "state_hash": "f6804ed8"
+      }
+     },
+     {
+      "tick": 352,
+      "win32": {
+       "image_hash": "af3da130",
+       "src": "shots/scene_w4_ai/002/win32/tick_000352.jpg",
+       "state_hash": "0725921c"
+      }
+     },
+     {
+      "tick": 441,
+      "win32": {
+       "image_hash": "26bbe041",
+       "src": "shots/scene_w4_ai/002/win32/tick_000441.jpg",
+       "state_hash": "ba3f131d"
+      }
+     },
+     {
+      "tick": 561,
+      "win32": {
+       "image_hash": "2b34051a",
+       "src": "shots/scene_w4_ai/002/win32/tick_000561.jpg",
+       "state_hash": "b262e932"
+      }
+     }
+    ],
+    "commit": "7043041e7",
+    "compare": null,
+    "date": "2026-10-07T13:28:31Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "2fdd1150",
+       "frame_time_ms": {
+        "avg": 2.167,
+        "max": 532.512,
+        "min": 0.687
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w4_gas_station.txt",
+        "format": "text1",
+        "hash": "9d1de88e",
+        "length_ticks": 807
+       },
+       "seed": 1,
+       "ticks": 807,
+       "timescale": 0.0,
+       "wall_time_ms": 1751.462
       }
      }
     },
@@ -29846,58 +28634,557 @@ window.PEREGON_RUNS = [
    },
    {
     "args": [
+     "--seed",
+     "7",
      "--ticks",
-     "300",
+     "600",
      "--capture",
-     "0,150,300"
+     "0,300,600"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "84f4940f",
+       "src": "shots/scene_w4_ai/001/native/tick_000000.jpg",
+       "state_hash": "fa5fbb2f"
+      },
+      "status": "identical",
+      "tick": 0,
+      "win32": {
+       "image_hash": "84f4940f",
+       "src": "shots/scene_w4_ai/001/win32/tick_000000.jpg",
+       "state_hash": "fa5fbb2f"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "69c9f77c",
+       "src": "shots/scene_w4_ai/001/native/tick_000300.jpg",
+       "state_hash": "8b48b712"
+      },
+      "status": "identical",
+      "tick": 300,
+      "win32": {
+       "image_hash": "69c9f77c",
+       "src": "shots/scene_w4_ai/001/win32/tick_000300.jpg",
+       "state_hash": "8b48b712"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "01602e98",
+       "src": "shots/scene_w4_ai/001/native/tick_000600.jpg",
+       "state_hash": "a86d71fe"
+      },
+      "status": "identical",
+      "tick": 600,
+      "win32": {
+       "image_hash": "01602e98",
+       "src": "shots/scene_w4_ai/001/win32/tick_000600.jpg",
+       "state_hash": "a86d71fe"
+      }
+     }
+    ],
+    "commit": "ce72c02ca",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "a86d71fe",
+      "win32": "a86d71fe"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:12:11Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "a86d71fe",
+       "frame_time_ms": {
+        "avg": 0.001,
+        "max": 0.533,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 1.094
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "a86d71fe",
+       "frame_time_ms": {
+        "avg": 0.014,
+        "max": 2.699,
+        "min": 0.0
+       },
+       "framebuffer": "fallback",
+       "headless": true,
+       "replay": null,
+       "seed": 7,
+       "ticks": 600,
+       "timescale": 0.0,
+       "wall_time_ms": 9.003
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_w4_ai",
+  "source": "games/peregon/src/game/scene_w4_ai.cpp",
+  "source_commit": "56560e0b4"
+ },
+ {
+  "latest": "004",
+  "merged": "2026-10-07 20:07",
+  "merged_commit": "71eef139f",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "480",
+     "--capture",
+     "0,35,105,175,245,315,385,440,470"
     ],
     "captures": [
      {
       "tick": 0,
       "win32": {
-       "image_hash": "a6217cc1",
-       "src": "shots/scene_r1_map/001/win32/tick_000000.jpg",
-       "state_hash": "03d7524f"
+       "image_hash": "3bce6e38",
+       "src": "shots/scene_r1_nature/004/win32/tick_000000.jpg",
+       "state_hash": "b24a3a67"
       }
      },
      {
-      "tick": 150,
+      "tick": 35,
       "win32": {
-       "image_hash": "8faa7639",
-       "src": "shots/scene_r1_map/001/win32/tick_000150.jpg",
-       "state_hash": "a8956d87"
+       "image_hash": "aa1aead3",
+       "src": "shots/scene_r1_nature/004/win32/tick_000035.jpg",
+       "state_hash": "4da1981b"
       }
      },
      {
-      "tick": 300,
+      "tick": 105,
       "win32": {
-       "image_hash": "80b7516f",
-       "src": "shots/scene_r1_map/001/win32/tick_000300.jpg",
-       "state_hash": "14f57b20"
+       "image_hash": "23be8d31",
+       "src": "shots/scene_r1_nature/004/win32/tick_000105.jpg",
+       "state_hash": "66ed7f52"
+      }
+     },
+     {
+      "tick": 175,
+      "win32": {
+       "image_hash": "d66f11df",
+       "src": "shots/scene_r1_nature/004/win32/tick_000175.jpg",
+       "state_hash": "932e7404"
+      }
+     },
+     {
+      "tick": 245,
+      "win32": {
+       "image_hash": "e1498dff",
+       "src": "shots/scene_r1_nature/004/win32/tick_000245.jpg",
+       "state_hash": "f1454735"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "c67a01d4",
+       "src": "shots/scene_r1_nature/004/win32/tick_000315.jpg",
+       "state_hash": "a65fdfce"
+      }
+     },
+     {
+      "tick": 385,
+      "win32": {
+       "image_hash": "1f1edb77",
+       "src": "shots/scene_r1_nature/004/win32/tick_000385.jpg",
+       "state_hash": "96c861d0"
+      }
+     },
+     {
+      "tick": 440,
+      "win32": {
+       "image_hash": "ec662449",
+       "src": "shots/scene_r1_nature/004/win32/tick_000440.jpg",
+       "state_hash": "ae21904b"
+      }
+     },
+     {
+      "tick": 470,
+      "win32": {
+       "image_hash": "ec662449",
+       "src": "shots/scene_r1_nature/004/win32/tick_000470.jpg",
+       "state_hash": "49923e81"
       }
      }
     ],
-    "commit": "e3664c5290",
+    "commit": "1a5d799a49",
     "compare": null,
-    "date": "2026-10-07T16:56:54Z",
+    "date": "2026-10-07T17:18:24Z",
     "flavours": {
      "win32": {
       "exit_code": 0,
       "metrics": {
        "build": "win32-i686-Release",
-       "final_state_hash": "14f57b20",
+       "final_state_hash": "2604f607",
        "frame_time_ms": {
-        "avg": 14.262,
-        "max": 78.9,
-        "min": 10.846
+        "avg": 7.352,
+        "max": 52.016,
+        "min": 2.932
        },
        "framebuffer": "rhi:d3d9",
        "headless": true,
        "replay": null,
        "seed": 1,
-       "ticks": 300,
+       "ticks": 480,
        "timescale": 0.0,
-       "wall_time_ms": 4279.172
+       "wall_time_ms": 3529.612
+      }
+     }
+    },
+    "run": "004",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "480",
+     "--capture",
+     "0,35,105,175,245,315,385,440,470"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "89c88695",
+       "src": "shots/scene_r1_nature/003/win32/tick_000000.jpg",
+       "state_hash": "b24a3a67"
+      }
+     },
+     {
+      "tick": 35,
+      "win32": {
+       "image_hash": "0ff928c8",
+       "src": "shots/scene_r1_nature/003/win32/tick_000035.jpg",
+       "state_hash": "4da1981b"
+      }
+     },
+     {
+      "tick": 105,
+      "win32": {
+       "image_hash": "f245fbf6",
+       "src": "shots/scene_r1_nature/003/win32/tick_000105.jpg",
+       "state_hash": "66ed7f52"
+      }
+     },
+     {
+      "tick": 175,
+      "win32": {
+       "image_hash": "b6c673a8",
+       "src": "shots/scene_r1_nature/003/win32/tick_000175.jpg",
+       "state_hash": "932e7404"
+      }
+     },
+     {
+      "tick": 245,
+      "win32": {
+       "image_hash": "d18d6497",
+       "src": "shots/scene_r1_nature/003/win32/tick_000245.jpg",
+       "state_hash": "f1454735"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "29022a0b",
+       "src": "shots/scene_r1_nature/003/win32/tick_000315.jpg",
+       "state_hash": "a65fdfce"
+      }
+     },
+     {
+      "tick": 385,
+      "win32": {
+       "image_hash": "d6dd8c67",
+       "src": "shots/scene_r1_nature/003/win32/tick_000385.jpg",
+       "state_hash": "96c861d0"
+      }
+     },
+     {
+      "tick": 440,
+      "win32": {
+       "image_hash": "f7f5989f",
+       "src": "shots/scene_r1_nature/003/win32/tick_000440.jpg",
+       "state_hash": "ae21904b"
+      }
+     },
+     {
+      "tick": 470,
+      "win32": {
+       "image_hash": "01bfe6c0",
+       "src": "shots/scene_r1_nature/003/win32/tick_000470.jpg",
+       "state_hash": "49923e81"
+      }
+     }
+    ],
+    "commit": "1a5d799a49",
+    "compare": null,
+    "date": "2026-10-07T17:18:14Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "2604f607",
+       "frame_time_ms": {
+        "avg": 8.603,
+        "max": 70.996,
+        "min": 3.245
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 480,
+       "timescale": 0.0,
+       "wall_time_ms": 4130.165
+      }
+     }
+    },
+    "run": "003",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "480",
+     "--capture",
+     "0,35,105,175,245,315,385,440,470"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "3bce6e38",
+       "src": "shots/scene_r1_nature/002/win32/tick_000000.jpg",
+       "state_hash": "fd960c75"
+      }
+     },
+     {
+      "tick": 35,
+      "win32": {
+       "image_hash": "aa1aead3",
+       "src": "shots/scene_r1_nature/002/win32/tick_000035.jpg",
+       "state_hash": "3ece5189"
+      }
+     },
+     {
+      "tick": 105,
+      "win32": {
+       "image_hash": "23be8d31",
+       "src": "shots/scene_r1_nature/002/win32/tick_000105.jpg",
+       "state_hash": "eeb4f2c8"
+      }
+     },
+     {
+      "tick": 175,
+      "win32": {
+       "image_hash": "d66f11df",
+       "src": "shots/scene_r1_nature/002/win32/tick_000175.jpg",
+       "state_hash": "bf6907e1"
+      }
+     },
+     {
+      "tick": 245,
+      "win32": {
+       "image_hash": "e1498dff",
+       "src": "shots/scene_r1_nature/002/win32/tick_000245.jpg",
+       "state_hash": "7865f5b0"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "c67a01d4",
+       "src": "shots/scene_r1_nature/002/win32/tick_000315.jpg",
+       "state_hash": "b2ba09aa"
+      }
+     },
+     {
+      "tick": 385,
+      "win32": {
+       "image_hash": "1f1edb77",
+       "src": "shots/scene_r1_nature/002/win32/tick_000385.jpg",
+       "state_hash": "bd394068"
+      }
+     },
+     {
+      "tick": 440,
+      "win32": {
+       "image_hash": "ec662449",
+       "src": "shots/scene_r1_nature/002/win32/tick_000440.jpg",
+       "state_hash": "636dce7f"
+      }
+     },
+     {
+      "tick": 470,
+      "win32": {
+       "image_hash": "ec662449",
+       "src": "shots/scene_r1_nature/002/win32/tick_000470.jpg",
+       "state_hash": "605f2ce4"
+      }
+     }
+    ],
+    "commit": "e3664c5290",
+    "compare": null,
+    "date": "2026-10-07T16:54:56Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "081598ae",
+       "frame_time_ms": {
+        "avg": 7.242,
+        "max": 36.254,
+        "min": 3.124
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 480,
+       "timescale": 0.0,
+       "wall_time_ms": 3476.889
+      }
+     }
+    },
+    "run": "002",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "1",
+     "--ticks",
+     "480",
+     "--capture",
+     "0,35,105,175,245,315,385,440,470"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "89c88695",
+       "src": "shots/scene_r1_nature/001/win32/tick_000000.jpg",
+       "state_hash": "fd960c75"
+      }
+     },
+     {
+      "tick": 35,
+      "win32": {
+       "image_hash": "0ff928c8",
+       "src": "shots/scene_r1_nature/001/win32/tick_000035.jpg",
+       "state_hash": "3ece5189"
+      }
+     },
+     {
+      "tick": 105,
+      "win32": {
+       "image_hash": "f245fbf6",
+       "src": "shots/scene_r1_nature/001/win32/tick_000105.jpg",
+       "state_hash": "eeb4f2c8"
+      }
+     },
+     {
+      "tick": 175,
+      "win32": {
+       "image_hash": "b6c673a8",
+       "src": "shots/scene_r1_nature/001/win32/tick_000175.jpg",
+       "state_hash": "bf6907e1"
+      }
+     },
+     {
+      "tick": 245,
+      "win32": {
+       "image_hash": "d18d6497",
+       "src": "shots/scene_r1_nature/001/win32/tick_000245.jpg",
+       "state_hash": "7865f5b0"
+      }
+     },
+     {
+      "tick": 315,
+      "win32": {
+       "image_hash": "29022a0b",
+       "src": "shots/scene_r1_nature/001/win32/tick_000315.jpg",
+       "state_hash": "b2ba09aa"
+      }
+     },
+     {
+      "tick": 385,
+      "win32": {
+       "image_hash": "d6dd8c67",
+       "src": "shots/scene_r1_nature/001/win32/tick_000385.jpg",
+       "state_hash": "bd394068"
+      }
+     },
+     {
+      "tick": 440,
+      "win32": {
+       "image_hash": "f7f5989f",
+       "src": "shots/scene_r1_nature/001/win32/tick_000440.jpg",
+       "state_hash": "636dce7f"
+      }
+     },
+     {
+      "tick": 470,
+      "win32": {
+       "image_hash": "01bfe6c0",
+       "src": "shots/scene_r1_nature/001/win32/tick_000470.jpg",
+       "state_hash": "605f2ce4"
+      }
+     }
+    ],
+    "commit": "e3664c5290",
+    "compare": null,
+    "date": "2026-10-07T16:54:47Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "081598ae",
+       "frame_time_ms": {
+        "avg": 7.99,
+        "max": 45.397,
+        "min": 3.271
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 480,
+       "timescale": 0.0,
+       "wall_time_ms": 3835.896
       }
      }
     },
@@ -29905,14 +29192,597 @@ window.PEREGON_RUNS = [
     "status": "single"
    }
   ],
-  "scene": "scene_r1_map",
-  "source": "games/peregon/src/game/scene_r1_map.cpp",
-  "source_commit": "8ec9359c8"
+  "scene": "scene_r1_nature",
+  "source": "games/peregon/src/game/scene_r1_nature.cpp",
+  "source_commit": "71eef139f"
+ },
+ {
+  "latest": "005",
+  "merged": "2026-10-08 07:50",
+  "merged_commit": "8fd14ea46",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "360",
+     "--capture",
+     "0,120,240,360"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "0f1ff33e",
+       "src": "shots/scene_map_drive/005/win32/tick_000000.jpg",
+       "state_hash": "5e6a122b"
+      }
+     },
+     {
+      "tick": 120,
+      "win32": {
+       "image_hash": "169703ef",
+       "src": "shots/scene_map_drive/005/win32/tick_000120.jpg",
+       "state_hash": "f2af9d43"
+      }
+     },
+     {
+      "tick": 240,
+      "win32": {
+       "image_hash": "51987ce3",
+       "src": "shots/scene_map_drive/005/win32/tick_000240.jpg",
+       "state_hash": "899e9af5"
+      }
+     },
+     {
+      "tick": 360,
+      "win32": {
+       "image_hash": "b380e45d",
+       "src": "shots/scene_map_drive/005/win32/tick_000360.jpg",
+       "state_hash": "8eaf00f0"
+      }
+     }
+    ],
+    "commit": "7a72200006",
+    "compare": null,
+    "date": "2026-10-07T18:07:11Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "8eaf00f0",
+       "frame_time_ms": {
+        "avg": 1.209,
+        "max": 14.335,
+        "min": 0.513
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 20261007,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 435.485
+      }
+     }
+    },
+    "run": "005",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "360",
+     "--capture",
+     "0,120,240,360"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "0f1ff33e",
+       "src": "shots/scene_map_drive/004/win32/tick_000000.jpg",
+       "state_hash": "5e6a122b"
+      }
+     },
+     {
+      "tick": 120,
+      "win32": {
+       "image_hash": "169703ef",
+       "src": "shots/scene_map_drive/004/win32/tick_000120.jpg",
+       "state_hash": "f2af9d43"
+      }
+     },
+     {
+      "tick": 240,
+      "win32": {
+       "image_hash": "51987ce3",
+       "src": "shots/scene_map_drive/004/win32/tick_000240.jpg",
+       "state_hash": "899e9af5"
+      }
+     },
+     {
+      "tick": 360,
+      "win32": {
+       "image_hash": "b380e45d",
+       "src": "shots/scene_map_drive/004/win32/tick_000360.jpg",
+       "state_hash": "8eaf00f0"
+      }
+     }
+    ],
+    "commit": "a081465cd2",
+    "compare": null,
+    "date": "2026-10-07T17:57:06Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "8eaf00f0",
+       "frame_time_ms": {
+        "avg": 1.292,
+        "max": 15.027,
+        "min": 0.505
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 20261007,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 465.719
+      }
+     }
+    },
+    "run": "004",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "360",
+     "--capture",
+     "0,120,240,360"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "0f1ff33e",
+       "src": "shots/scene_map_drive/003/win32/tick_000000.jpg",
+       "state_hash": "042c36dc"
+      }
+     },
+     {
+      "tick": 120,
+      "win32": {
+       "image_hash": "169703ef",
+       "src": "shots/scene_map_drive/003/win32/tick_000120.jpg",
+       "state_hash": "2a59d2c2"
+      }
+     },
+     {
+      "tick": 240,
+      "win32": {
+       "image_hash": "51987ce3",
+       "src": "shots/scene_map_drive/003/win32/tick_000240.jpg",
+       "state_hash": "c0fb42ca"
+      }
+     },
+     {
+      "tick": 360,
+      "win32": {
+       "image_hash": "b380e45d",
+       "src": "shots/scene_map_drive/003/win32/tick_000360.jpg",
+       "state_hash": "bcc59b0e"
+      }
+     }
+    ],
+    "commit": "45ce2c5971",
+    "compare": null,
+    "date": "2026-10-07T17:41:00Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "bcc59b0e",
+       "frame_time_ms": {
+        "avg": 6.898,
+        "max": 23.371,
+        "min": 4.609
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 20261007,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 2484.039
+      }
+     }
+    },
+    "run": "003",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "360",
+     "--capture",
+     "0,120,240,360"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "50c2a613",
+       "src": "shots/scene_map_drive/002/win32/tick_000000.jpg",
+       "state_hash": "d80bfa94"
+      }
+     },
+     {
+      "tick": 120,
+      "win32": {
+       "image_hash": "13d6d3e8",
+       "src": "shots/scene_map_drive/002/win32/tick_000120.jpg",
+       "state_hash": "5e340787"
+      }
+     },
+     {
+      "tick": 240,
+      "win32": {
+       "image_hash": "993d6731",
+       "src": "shots/scene_map_drive/002/win32/tick_000240.jpg",
+       "state_hash": "024cff07"
+      }
+     },
+     {
+      "tick": 360,
+      "win32": {
+       "image_hash": "fdf34fe2",
+       "src": "shots/scene_map_drive/002/win32/tick_000360.jpg",
+       "state_hash": "14799c5f"
+      }
+     }
+    ],
+    "commit": "ba1cc72006",
+    "compare": null,
+    "date": "2026-10-07T15:03:42Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "14799c5f",
+       "frame_time_ms": {
+        "avg": 17.728,
+        "max": 110.603,
+        "min": 8.327
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 20261007,
+       "ticks": 360,
+       "timescale": 0.0,
+       "wall_time_ms": 6382.653
+      }
+     }
+    },
+    "run": "002",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "360",
+     "--capture",
+     "0,120,240,360"
+    ],
+    "captures": [],
+    "commit": "8f6b44809",
+    "compare": null,
+    "date": "2026-10-07T14:50:46Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 137,
+      "metrics": null
+     }
+    },
+    "run": "001",
+    "status": "failed"
+   }
+  ],
+  "scene": "scene_map_drive",
+  "source": "games/peregon/src/game/scene_map_drive.cpp",
+  "source_commit": "8fd14ea46"
+ },
+ {
+  "latest": "003",
+  "merged": "2026-10-08 14:02",
+  "merged_commit": "87a915f4c",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "36000",
+     "--capture",
+     "1900,2117,6383,10242,15127,17013,19404,23210,36000",
+     "--render-captures",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 1900,
+      "win32": {
+       "image_hash": "a237bc8b",
+       "src": "shots/scene_w5_living_world/003/win32/tick_001900.jpg",
+       "state_hash": "0bd871df"
+      }
+     },
+     {
+      "tick": 2117,
+      "win32": {
+       "image_hash": "dfb033b0",
+       "src": "shots/scene_w5_living_world/003/win32/tick_002117.jpg",
+       "state_hash": "8908500b"
+      }
+     },
+     {
+      "tick": 6383,
+      "win32": {
+       "image_hash": "e449915a",
+       "src": "shots/scene_w5_living_world/003/win32/tick_006383.jpg",
+       "state_hash": "f10d2322"
+      }
+     },
+     {
+      "tick": 10242,
+      "win32": {
+       "image_hash": "1c449ca5",
+       "src": "shots/scene_w5_living_world/003/win32/tick_010242.jpg",
+       "state_hash": "ff342700"
+      }
+     },
+     {
+      "tick": 15127,
+      "win32": {
+       "image_hash": "bc4f9a23",
+       "src": "shots/scene_w5_living_world/003/win32/tick_015127.jpg",
+       "state_hash": "dc1f6396"
+      }
+     },
+     {
+      "tick": 17013,
+      "win32": {
+       "image_hash": "21b36c59",
+       "src": "shots/scene_w5_living_world/003/win32/tick_017013.jpg",
+       "state_hash": "0c9f27fe"
+      }
+     },
+     {
+      "tick": 19404,
+      "win32": {
+       "image_hash": "988f5edb",
+       "src": "shots/scene_w5_living_world/003/win32/tick_019404.jpg",
+       "state_hash": "964ff478"
+      }
+     },
+     {
+      "tick": 23210,
+      "win32": {
+       "image_hash": "180013c4",
+       "src": "shots/scene_w5_living_world/003/win32/tick_023210.jpg",
+       "state_hash": "a928f5ce"
+      }
+     },
+     {
+      "tick": 36000,
+      "win32": {
+       "image_hash": "cd36b1b7",
+       "src": "shots/scene_w5_living_world/003/win32/tick_036000.jpg",
+       "state_hash": "747722a5"
+      }
+     }
+    ],
+    "commit": "33e2d1c483",
+    "compare": null,
+    "date": "2026-10-07T16:55:05Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "747722a5",
+       "frame_time_ms": {
+        "avg": 0.02,
+        "max": 212.978,
+        "min": 0.005
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w5_living_world.txt",
+        "format": "text1",
+        "hash": "2e42464f",
+        "length_ticks": 35723
+       },
+       "seed": 20261007,
+       "ticks": 36000,
+       "timescale": 0.0,
+       "wall_time_ms": 745.252
+      }
+     }
+    },
+    "run": "003",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "36000",
+     "--capture",
+     "1900,2117,6383,10242,15127,17013,19404,23210,36000",
+     "--render-captures",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [],
+    "commit": "04eaca742f",
+    "compare": null,
+    "date": "2026-10-07T16:44:04Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 3,
+      "metrics": null
+     }
+    },
+    "run": "002",
+    "status": "failed"
+   },
+   {
+    "args": [
+     "--seed",
+     "20261007",
+     "--ticks",
+     "36000",
+     "--capture",
+     "1900,2117,6383,10242,15127,17013,19404,23210,36000",
+     "--render-captures",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "tick": 1900,
+      "win32": {
+       "image_hash": "a237bc8b",
+       "src": "shots/scene_w5_living_world/001/win32/tick_001900.jpg",
+       "state_hash": "0bd871df"
+      }
+     },
+     {
+      "tick": 2117,
+      "win32": {
+       "image_hash": "dfb033b0",
+       "src": "shots/scene_w5_living_world/001/win32/tick_002117.jpg",
+       "state_hash": "8908500b"
+      }
+     },
+     {
+      "tick": 6383,
+      "win32": {
+       "image_hash": "e449915a",
+       "src": "shots/scene_w5_living_world/001/win32/tick_006383.jpg",
+       "state_hash": "f10d2322"
+      }
+     },
+     {
+      "tick": 10242,
+      "win32": {
+       "image_hash": "1c449ca5",
+       "src": "shots/scene_w5_living_world/001/win32/tick_010242.jpg",
+       "state_hash": "ff342700"
+      }
+     },
+     {
+      "tick": 15127,
+      "win32": {
+       "image_hash": "bc4f9a23",
+       "src": "shots/scene_w5_living_world/001/win32/tick_015127.jpg",
+       "state_hash": "dc1f6396"
+      }
+     },
+     {
+      "tick": 17013,
+      "win32": {
+       "image_hash": "21b36c59",
+       "src": "shots/scene_w5_living_world/001/win32/tick_017013.jpg",
+       "state_hash": "0c9f27fe"
+      }
+     },
+     {
+      "tick": 19404,
+      "win32": {
+       "image_hash": "988f5edb",
+       "src": "shots/scene_w5_living_world/001/win32/tick_019404.jpg",
+       "state_hash": "964ff478"
+      }
+     },
+     {
+      "tick": 23210,
+      "win32": {
+       "image_hash": "180013c4",
+       "src": "shots/scene_w5_living_world/001/win32/tick_023210.jpg",
+       "state_hash": "a928f5ce"
+      }
+     },
+     {
+      "tick": 36000,
+      "win32": {
+       "image_hash": "cd36b1b7",
+       "src": "shots/scene_w5_living_world/001/win32/tick_036000.jpg",
+       "state_hash": "747722a5"
+      }
+     }
+    ],
+    "commit": "528cf8ac98",
+    "compare": null,
+    "date": "2026-10-07T16:40:36Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "747722a5",
+       "frame_time_ms": {
+        "avg": 0.022,
+        "max": 264.933,
+        "min": 0.005
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w5_living_world.txt",
+        "format": "text1",
+        "hash": "2e42464f",
+        "length_ticks": 35723
+       },
+       "seed": 20261007,
+       "ticks": 36000,
+       "timescale": 0.0,
+       "wall_time_ms": 822.212
+      }
+     }
+    },
+    "run": "001",
+    "status": "single"
+   }
+  ],
+  "scene": "scene_w5_living_world",
+  "source": "games/peregon/src/game/scene_w5_living_world.cpp",
+  "source_commit": "87a915f4c"
  },
  {
   "latest": "017",
-  "merged": "2026-10-16 06:36",
-  "merged_commit": "37a7d5c9f",
+  "merged": "2026-10-15 09:33",
+  "merged_commit": "e3b361cb9",
   "runs": [
    {
     "args": [
@@ -30987,5 +30857,135 @@ window.PEREGON_RUNS = [
   "scene": "scene_w11_audio",
   "source": "games/peregon/src/game/scene_w11_audio.cpp",
   "source_commit": "04719efe1"
+ },
+ {
+  "latest": "002",
+  "merged": "2026-10-21 08:25",
+  "merged_commit": "7e6729d23",
+  "runs": [
+   {
+    "args": [
+     "--ticks",
+     "300",
+     "--capture",
+     "0,150,300"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "a6217cc1",
+       "src": "shots/scene_r1_map/002/win32/tick_000000.jpg",
+       "state_hash": "f29aaf1e"
+      }
+     },
+     {
+      "tick": 150,
+      "win32": {
+       "image_hash": "8faa7639",
+       "src": "shots/scene_r1_map/002/win32/tick_000150.jpg",
+       "state_hash": "ccb68549"
+      }
+     },
+     {
+      "tick": 300,
+      "win32": {
+       "image_hash": "80b7516f",
+       "src": "shots/scene_r1_map/002/win32/tick_000300.jpg",
+       "state_hash": "92f1d7a2"
+      }
+     }
+    ],
+    "commit": "1a5d799a49",
+    "compare": null,
+    "date": "2026-10-07T17:20:24Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "92f1d7a2",
+       "frame_time_ms": {
+        "avg": 14.348,
+        "max": 121.28,
+        "min": 11.149
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4304.812
+      }
+     }
+    },
+    "run": "002",
+    "status": "single"
+   },
+   {
+    "args": [
+     "--ticks",
+     "300",
+     "--capture",
+     "0,150,300"
+    ],
+    "captures": [
+     {
+      "tick": 0,
+      "win32": {
+       "image_hash": "a6217cc1",
+       "src": "shots/scene_r1_map/001/win32/tick_000000.jpg",
+       "state_hash": "03d7524f"
+      }
+     },
+     {
+      "tick": 150,
+      "win32": {
+       "image_hash": "8faa7639",
+       "src": "shots/scene_r1_map/001/win32/tick_000150.jpg",
+       "state_hash": "a8956d87"
+      }
+     },
+     {
+      "tick": 300,
+      "win32": {
+       "image_hash": "80b7516f",
+       "src": "shots/scene_r1_map/001/win32/tick_000300.jpg",
+       "state_hash": "14f57b20"
+      }
+     }
+    ],
+    "commit": "e3664c5290",
+    "compare": null,
+    "date": "2026-10-07T16:56:54Z",
+    "flavours": {
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "14f57b20",
+       "frame_time_ms": {
+        "avg": 14.262,
+        "max": 78.9,
+        "min": 10.846
+       },
+       "framebuffer": "rhi:d3d9",
+       "headless": true,
+       "replay": null,
+       "seed": 1,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4279.172
+      }
+     }
+    },
+    "run": "001",
+    "status": "single"
+   }
+  ],
+  "scene": "scene_r1_map",
+  "source": "games/peregon/src/game/scene_r1_map.cpp",
+  "source_commit": "cbd2340b8"
  }
 ];
