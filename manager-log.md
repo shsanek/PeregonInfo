@@ -1029,3 +1029,5 @@ One line per decision. Times are local (Mac).
 2026-10-22 00:30 PV0a talk ff-merged 064f60774a (Winterplow quest + stale scripts removed); full ctest running; PV0b told to rebase + delete director contracts and WorldVars
 2026-10-22 00:31 tick: PV0a merge ctest still running; PV0b rebasing onto 064f60774a; disk 101 GB
 2026-10-22 00:47 PV0a: full ctest 109/117 (8 pre-existing), report pushed
+2026-10-22 00:50 tick: PV0b rebased (6f6e1941b1), WIP dropping WorldVars; 3/4 merged; disk 109 GB
+2026-10-22 01:10 PV0b hostiles merged c4516a3119 (cherry-picked onto tip); full ctest 101/109 (8 pre-existing), map rebaked; report pushed. PV0 complete; cron stopped

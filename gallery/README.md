@@ -208,6 +208,7 @@
 - [precip_wx2 · 1](precip-wx2-b3a6fc82-001.md) — 42
 - [props · 1](props-b2648077-001.md) — 15
 - [props2 · 1](props2-c1f64f29-001.md) — 51
+- [pv0-hostiles · 1](pv0-hostiles-6c6da91a-001.md) — 4
 - [pv0-places · 1](pv0-places-6c5e289d-001.md) — 12
 - [pv0-respawn · 1](pv0-respawn-d5be56b9-001.md) — 4
 - [pv0-talk · 1](pv0-talk-909a9b1b-001.md) — 5
