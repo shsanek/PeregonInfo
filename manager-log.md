@@ -1019,3 +1019,7 @@ One line per decision. Times are local (Mac).
 2026-10-21 22:31 tick: no commits yet; hostiles 113 changed files, respawn 20, places 1, talk 0 (surveying); disk 91 GB free
 2026-10-21 22:50 tick: all 4 progressing; respawn 34c37bd2ad, places 17522ceb07, hostiles WIP 51232e0dfd, talk 216 files uncommitted; disk 87 GB
 2026-10-21 23:10 PV0d respawn ff-merged 3cec2ff7da (merged early, it was ready and rebased); native-release build green, ctest running; talk/hostiles WIP, places 2 commits; disk 84 GB
+2026-10-21 23:18 PV0d: ctest 12/12 green, report entry + changelog 21 Oct pushed (PeregonInfo + 8058ea85d7), worktree removed. Changelog checkpoint not advanced: 19-20 Oct backlog (~400 commits) still uncurated
+2026-10-21 23:30 tick: talk builds (tests next), hostiles WIP 9abf62d59d, places 3 commits; all active; disk 92 GB
+2026-10-21 23:50 tick: places rebased (da83d7fca8), awaiting its test report; hostiles squashed d94f244a04 testing; talk builds, tests pruned; disk 92 GB
+2026-10-22 00:05 PV0c places ff-merged da83d7fca8; build green, 8/8 touched tests, r1 shadows/lights rebaked; report pushed
