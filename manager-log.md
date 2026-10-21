@@ -1023,3 +1023,9 @@ One line per decision. Times are local (Mac).
 2026-10-21 23:30 tick: talk builds (tests next), hostiles WIP 9abf62d59d, places 3 commits; all active; disk 92 GB
 2026-10-21 23:50 tick: places rebased (da83d7fca8), awaiting its test report; hostiles squashed d94f244a04 testing; talk builds, tests pruned; disk 92 GB
 2026-10-22 00:05 PV0c places ff-merged da83d7fca8; build green, 8/8 touched tests, r1 shadows/lights rebaked; report pushed
+2026-10-22 00:06 PV0b finished d94f244a04; asked to rebase onto e3bdcdda02 and strip lived-in items from folded keeper dressing (PV0c rules); merge after PV0a
+2026-10-22 00:09 PV0a finished 3394953cb6 (full ctest: only 8 pre-existing fails); asked to rebase onto e3bdcdda02 + drop Q2 Winterplow quest + stale gate scripts. PV0b to wait for PV0a, then delete director contracts + WorldVars
+2026-10-22 00:10 tick: talk rebased onto tip (58aba5a30e), working on Winterplow/scripts; hostiles rebasing; disk 101 GB
+2026-10-22 00:30 PV0a talk ff-merged 064f60774a (Winterplow quest + stale scripts removed); full ctest running; PV0b told to rebase + delete director contracts and WorldVars
+2026-10-22 00:31 tick: PV0a merge ctest still running; PV0b rebasing onto 064f60774a; disk 101 GB
+2026-10-22 00:47 PV0a: full ctest 109/117 (8 pre-existing), report pushed

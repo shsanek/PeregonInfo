@@ -21217,500 +21217,6 @@ window.PEREGON_RUNS = [
   "source_commit": "d16c98684"
  },
  {
-  "latest": "004",
-  "merged": "2026-10-07 19:06",
-  "merged_commit": "dd32257b5",
-  "runs": [
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/004/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/004/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/004/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/004/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/004/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/004/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "947c58d4fe",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T16:10:01Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.408,
-        "max": 40.356,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 122.51
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 21.661,
-        "max": 3379.335,
-        "min": 0.383
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 6498.945
-      }
-     }
-    },
-    "run": "004",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/003/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/003/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/003/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/003/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/003/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/003/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:33:57Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.379,
-        "max": 36.202,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 113.926
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 32.01,
-        "max": 3418.806,
-        "min": 0.366
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 9604.086
-      }
-     }
-    },
-    "run": "003",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/002/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/002/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/002/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/002/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/002/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/002/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "e11bc23ac",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:29:45Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.329,
-        "max": 30.103,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 98.765
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 14.137,
-        "max": 1420.442,
-        "min": 0.346
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 4241.949
-      }
-     }
-    },
-    "run": "002",
-    "status": "identical"
-   },
-   {
-    "args": [
-     "--seed",
-     "3",
-     "--ticks",
-     "300",
-     "--capture",
-     "150,240,280",
-     "--replay",
-     "replay.txt"
-    ],
-    "captures": [
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/001/native/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      },
-      "status": "identical",
-      "tick": 150,
-      "win32": {
-       "image_hash": "c76a8cb1",
-       "src": "shots/scene_w10_board/001/win32/tick_000150.jpg",
-       "state_hash": "4dbae041"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/001/native/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      },
-      "status": "identical",
-      "tick": 240,
-      "win32": {
-       "image_hash": "5981f90a",
-       "src": "shots/scene_w10_board/001/win32/tick_000240.jpg",
-       "state_hash": "7f6452b8"
-      }
-     },
-     {
-      "diff_pixels": 0,
-      "native": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/001/native/tick_000280.jpg",
-       "state_hash": "b8396416"
-      },
-      "status": "identical",
-      "tick": 280,
-      "win32": {
-       "image_hash": "82c7a5a9",
-       "src": "shots/scene_w10_board/001/win32/tick_000280.jpg",
-       "state_hash": "b8396416"
-      }
-     }
-    ],
-    "commit": "92c518e3a",
-    "compare": {
-     "final_state_hash": {
-      "equal": true,
-      "native": "dd62825e",
-      "win32": "dd62825e"
-     },
-     "status": "identical"
-    },
-    "date": "2026-10-07T11:25:43Z",
-    "flavours": {
-     "native": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "macos-arm64-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 0.322,
-        "max": 29.69,
-        "min": 0.025
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 96.844
-      }
-     },
-     "win32": {
-      "exit_code": 0,
-      "metrics": {
-       "build": "win32-i686-Release",
-       "final_state_hash": "dd62825e",
-       "frame_time_ms": {
-        "avg": 13.371,
-        "max": 1377.897,
-        "min": 0.339
-       },
-       "framebuffer": "rhi_null+ui",
-       "headless": true,
-       "replay": {
-        "file": "C:\\Test\\scene_w10_board_nav.txt",
-        "format": "text1",
-        "hash": "d57a5630",
-        "length_ticks": 300
-       },
-       "seed": 3,
-       "ticks": 300,
-       "timescale": 0.0,
-       "wall_time_ms": 4012.072
-      }
-     }
-    },
-    "run": "001",
-    "status": "identical"
-   }
-  ],
-  "scene": "scene_w10_board",
-  "source": "games/peregon/src/game/scene_w10_board.cpp",
-  "source_commit": "dd32257b5"
- },
- {
   "latest": "005",
   "merged": "2026-10-07 19:06",
   "merged_commit": "dd32257b5",
@@ -30987,5 +30493,495 @@ window.PEREGON_RUNS = [
   "scene": "scene_r1_map",
   "source": "games/peregon/src/game/scene_r1_map.cpp",
   "source_commit": "cbd2340b8"
+ },
+ {
+  "latest": "004",
+  "runs": [
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "300",
+     "--capture",
+     "150,240,280",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/004/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      },
+      "status": "identical",
+      "tick": 150,
+      "win32": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/004/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/004/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/004/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/004/native/tick_000280.jpg",
+       "state_hash": "b8396416"
+      },
+      "status": "identical",
+      "tick": 280,
+      "win32": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/004/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
+      }
+     }
+    ],
+    "commit": "947c58d4fe",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dd62825e",
+      "win32": "dd62825e"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T16:10:01Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 0.408,
+        "max": 40.356,
+        "min": 0.025
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 122.51
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 21.661,
+        "max": 3379.335,
+        "min": 0.383
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 6498.945
+      }
+     }
+    },
+    "run": "004",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "300",
+     "--capture",
+     "150,240,280",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/003/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      },
+      "status": "identical",
+      "tick": 150,
+      "win32": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/003/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/003/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/003/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/003/native/tick_000280.jpg",
+       "state_hash": "b8396416"
+      },
+      "status": "identical",
+      "tick": 280,
+      "win32": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/003/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dd62825e",
+      "win32": "dd62825e"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:33:57Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 0.379,
+        "max": 36.202,
+        "min": 0.025
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 113.926
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 32.01,
+        "max": 3418.806,
+        "min": 0.366
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 9604.086
+      }
+     }
+    },
+    "run": "003",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "300",
+     "--capture",
+     "150,240,280",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/002/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      },
+      "status": "identical",
+      "tick": 150,
+      "win32": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/002/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/002/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/002/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/002/native/tick_000280.jpg",
+       "state_hash": "b8396416"
+      },
+      "status": "identical",
+      "tick": 280,
+      "win32": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/002/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
+      }
+     }
+    ],
+    "commit": "e11bc23ac",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dd62825e",
+      "win32": "dd62825e"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:29:45Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 0.329,
+        "max": 30.103,
+        "min": 0.025
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 98.765
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 14.137,
+        "max": 1420.442,
+        "min": 0.346
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4241.949
+      }
+     }
+    },
+    "run": "002",
+    "status": "identical"
+   },
+   {
+    "args": [
+     "--seed",
+     "3",
+     "--ticks",
+     "300",
+     "--capture",
+     "150,240,280",
+     "--replay",
+     "replay.txt"
+    ],
+    "captures": [
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/001/native/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      },
+      "status": "identical",
+      "tick": 150,
+      "win32": {
+       "image_hash": "c76a8cb1",
+       "src": "shots/scene_w10_board/001/win32/tick_000150.jpg",
+       "state_hash": "4dbae041"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/001/native/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      },
+      "status": "identical",
+      "tick": 240,
+      "win32": {
+       "image_hash": "5981f90a",
+       "src": "shots/scene_w10_board/001/win32/tick_000240.jpg",
+       "state_hash": "7f6452b8"
+      }
+     },
+     {
+      "diff_pixels": 0,
+      "native": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/001/native/tick_000280.jpg",
+       "state_hash": "b8396416"
+      },
+      "status": "identical",
+      "tick": 280,
+      "win32": {
+       "image_hash": "82c7a5a9",
+       "src": "shots/scene_w10_board/001/win32/tick_000280.jpg",
+       "state_hash": "b8396416"
+      }
+     }
+    ],
+    "commit": "92c518e3a",
+    "compare": {
+     "final_state_hash": {
+      "equal": true,
+      "native": "dd62825e",
+      "win32": "dd62825e"
+     },
+     "status": "identical"
+    },
+    "date": "2026-10-07T11:25:43Z",
+    "flavours": {
+     "native": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "macos-arm64-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 0.322,
+        "max": 29.69,
+        "min": 0.025
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "/Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-ac5401af854baf3fd/games/peregon/tools/replays/scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 96.844
+      }
+     },
+     "win32": {
+      "exit_code": 0,
+      "metrics": {
+       "build": "win32-i686-Release",
+       "final_state_hash": "dd62825e",
+       "frame_time_ms": {
+        "avg": 13.371,
+        "max": 1377.897,
+        "min": 0.339
+       },
+       "framebuffer": "rhi_null+ui",
+       "headless": true,
+       "replay": {
+        "file": "C:\\Test\\scene_w10_board_nav.txt",
+        "format": "text1",
+        "hash": "d57a5630",
+        "length_ticks": 300
+       },
+       "seed": 3,
+       "ticks": 300,
+       "timescale": 0.0,
+       "wall_time_ms": 4012.072
+      }
+     }
+    },
+    "run": "001",
+    "status": "identical"
+   }
+  ],
+  "scene": "scene_w10_board"
  }
 ];
