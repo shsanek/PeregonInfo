@@ -1050,3 +1050,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 11:45 PV7a depot/mine ff-merged d705f8d999; map tiles rebaked (42 built), r1 caches refreshed, rail_check OK, 9/9 touched tests; report pushed. PV6 fields started from d705f8d999. PV7b rebasing onto d705f8d999
 2026-10-22 12:07 tick: PV7b rebased 719210b038 (finishing), PV5 5ebdb2ffe4 defence+raid in play, PV3b 5c66e51e40 buildkit + 42 WIP, PV6 started (map copy); all active; disk 84 GB
 2026-10-22 12:45 PV7b places cherry-picked (23e58d5a06); map rebaked, caches + paper map fresh (paper map committed), 11/11 touched tests; report pushed. PV8 notes (+coal_excavator place errors fix) started from 23e58d5a06. PV7 complete
+2026-10-22 12:55 PV5 raids finished on 38237fa653; asked to rebase onto ece8cd5387, protocol 34, widen build kind encoding to 16 bits (29/31 used), decision: sleep does not skip a raid, the scream wakes sleepers. PV3b told to wait for PV5 widening and rebase after
