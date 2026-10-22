@@ -1070,3 +1070,15 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 owner: Rodin logged in → ZB1 (3–4 unique zhiltsy via Rodin + peregon-rig) is next in queue for the first free slot.
 - 2026-10-22 owner: Polycam cancelled, Rodin to be cancelled, Tripo stays. ZB1 next: spend Rodin's 14.5 cr while active, else Tripo.
 - 2026-10-22 19:50 PVQ merged (fe6f32b419): progression_play/scrap/stations/stations_play green; report entry + shots/pvq.
+- 2026-10-22 owner: Tripo via Studio website only (API balance 0), refine with Tripo tools, one sub-agent per model. Tick: PV9b committed ce090d197d, PVC/PVA2/PVR active.
+- 2026-10-22 owner bug NETJOIN (queue #1, before ZB1): Steam join slow, world snapshot download long, joining player kicked for inactivity (suspect session.cpp kSilentDropUs 'no data from this player'). Fresh agent at first free slot.
+- 2026-10-22 owner questions PV9b daily xp caps ('never seen in any game'). Decision: replace caps with novelty/diminishing xp (first start of each machine, first builds of each piece type then fading, first craft of each recipe; discoveries/repairs/notes as main source). Queue TECHXP after NETJOIN, before ZB1.
+- 2026-10-22 owner: cranking/starting a generator must give NO tech xp at all (not a meaningful action). Add to TECHXP brief.
+- 2026-10-22 owner (clarified): the generator gives NO xp at all — not for starting, not for first start, not for repair.
+- 2026-10-22 owner: felling a tree — no tech xp either (routine). Pending: whether felling still feeds the woodcutting skill.
+- 2026-10-22 owner PRINCIPLE for TECHXP: xp (tech and skills) only for things that take effort and real actions — never for limitless button-pressing (cranking, felling, repeated placing). No daily caps.
+- 2026-10-22 owner: felling DOES train the woodcutting skill (no tech xp); starting with key/crank trains nothing.
+- 2026-10-22 owner: TECHXP agent must first research what grants xp/tech in Icarus, Rust, etc. (also Valheim, 7 Days to Die, Project Zomboid, Sons of the Forest, Conan Exiles) and base the fix on that.
+- 2026-10-22 owner DOCHIDE: sawmill passport on the sawmill is fine (tutorial: 'you need recipes'). All other 10 documents (tech.txt [recipe.*], now on tables ~0.9 m in their place) must be properly hidden (safes, cellars, under floors, attics, locked rooms, nests, bunker depths); notes in obvious places only hint the direction where a document is hidden. Queue after TECHXP.
+- 2026-10-22 tick: PV9b merged locally (f066fca3f4), ctest running; NETJOIN started; PVR committing (clay/limestone, bricks/mortar, wood-gas generator); PVA2, PVC active. Queue: TECHXP → DOCHIDE → ZB1.
+- 2026-10-22 PV9b merged (f066fca3f4): 14 touched tests green (progression_play 174 s alone; 600 s timeout under 4-agent load). Daily caps to be removed by TECHXP per owner.
