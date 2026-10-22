@@ -1170,3 +1170,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-23 01:32 tick: TELE1 merged 263d6d74c7. BALFIX merge verify (protocol 68, playtest 29): all pass so far, net_world/coopsweep running. ZH1 next (69, 30). NET23 netbench net3g; GP2 working (30 files).
 - 2026-10-23 01:52 tick: BALFIX merged 0354c80939. ZH1 merge verify running (protocol 69, playtest 30). Spawned NET5 (desyncs) and GP1 (truck shooting). Running: NET23, GP2, NET5, GP1.
 - 2026-10-23 02:12 tick: ZH1 merge verify slow (zhiltsy_play_tests 21 min, CPU-starved by 4 agents), let it run. Agents NET23 (final netbench), GP2, NET5, GP1 alive.
+- 2026-10-23 02:32 tick: ZH1 merged 77c8b52894; report TELE1/BALFIX/ZH1 published. GP2 merge committed locally f37e19d1a3 (report bump got folded into the merge commit by mistake, message amended), verify building, push after tests. Spawned PAR1. Running: NET23 (final bench), NET5, GP1, PAR1.

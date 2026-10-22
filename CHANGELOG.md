@@ -861,6 +861,7 @@
 - ART2 pilot: Tripo Scots pine behind --forest tripo (40% fewer triangles, same look at eye level)
 - ZH1: base heat drives raid pacing — waves of up to 8, 3 quiet days after each raid, stronger later
 - BALFIX: progression checker for tech dead ends
+- GP2: tracking animals — skill-based tracking sense, scent marks smelled downwind, wind direction, xp for following a trail
 
 **Фиксы**
 
