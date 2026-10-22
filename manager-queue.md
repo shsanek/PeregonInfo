@@ -236,3 +236,11 @@ Suggested order: BAL3, BAL1, BAL2 and NET1 first in parallel; then NET2 → NET3
 | GP3 | Flamethrower | Owner: add a flamethrower (home-made, kerosene/diesel tank, hose, igniter; hand-held and truck-mounted) — the natural weapon against bug nests; concept sheet now, gameplay after the bug concept is approved | medium | medium |
 
 FIRE2 (wet firewood, campfire smoke, fog) paused to free the slot; WIP commit on its worktree branch, untested.
+
+### Future (owner 2026-10-22, after the bug concept is approved)
+
+| ID | Task | Problem | Complexity | Priority |
+|----|------|---------|------------|---------|
+| FUT1 | Turrets | Base defence against bug waves: buildable turrets (gun, flamethrower), fuel/ammo supply, coverage; Factorio-like defence loop | high | medium |
+| FUT2 | Automated production | Machines that work on their own once supplied (sawmill, pump, generator lines), feeding each other; what runs while players are away | very high | medium |
+| FUT3 | Road laying and gravelling | Players build their own roads: clear, grade and gravel a route (truck + tools), better speed and less bogging; roads between base and sources | high | medium |
