@@ -1137,3 +1137,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 19:12 tick: TRUCKN3 tested 18/18; INSUL picked (p58, s296) ctest running; TRAILER rebasing (agent); RAID3 done, to pick after INSUL; PTRUN, COOPSWEEP, TRAILER2 active.
 - 2026-10-22 19:32 tick: INSUL ctest running; TRAILER rebased testing; PTRUN, COOPSWEEP, TRAILER2 active; RAID3 waiting.
 - 2026-10-22 19:38 pushed TRUCKN3 (p57), INSUL (p58, s296), TRAILER (ff, p59, s300, cmd36).
+- 2026-10-22 19:50 pushed RAID3 (rebased by agent, p60); agent ran 11/11 on same tree.
