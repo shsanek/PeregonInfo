@@ -178,69 +178,86 @@ docs/camp-dressing-guide.md. 3 Claude sub-agents, one worktree each; manager loo
 | BZWB-B DRESSING | Every bunker prop and clutter piece (bunks, lockers, tables, diesel, tank, switchboard, radio racks, filter unit, ducts, shelves, crates, batteries, stash, wash stalls, rubble, pipes, debris) to catalogue meshes or Blender white boxes, varied, lived-in logic | `bunker_props.py` (non-door/lamp), `bunker_clutter.py`, `data/kit/props.txt` bunker block | work/peregon-bzwb-b | merged into claude/peregon-bzwb (9627f50c0b) |
 | BZWB-C ENTRANCE | The `rr_bunker_portal` cutting outside: portal facade, outer steel doors, rock face/retaining walls, signage, lamp, truck parking, worn lane and ground (camp_blend), all readable models | `rr_bunker_portal` place/stamp/blueprint, its kit pieces | work/peregon-bzwb-c | merged into claude/peregon-bzwb (f54cafa5a7, mesh fix 928ee8ed73) |
 
-## Owner play-test feedback 2026-10-22 (evening)
+## Owner play-test feedback 2026-10-22 — regrouped backlog
 
-Owner played a co-op session on `claude/peregon-design`. Verdict: progression and balance make the game unplayable in places; the network is better than last time but clients still see too many jerks and desyncs. **No new agents after the four currently running (PTFIX, HOSE, FIRE2, COMBAT3) until the owner approves this plan.**
+Source: owner's co-op play-test and remarks on 2026-10-22 evening. This list is the next development queue; the manager starts no self-picked feature epics.
 
-### G1 — Progression and balance (blocking playability, first)
+**Core rule for everything below: resources never teleport.** Everything is carried, loaded, hauled by truck/trailer and stored in a real place, with weight and volume; logistics is the game. Not endless realism, not too simple.
 
-| ID | Task | Problem | Complexity | Priority |
-|----|------|---------|------------|---------|
-| BAL1 | Sawmill repair parts reachable | Owner could not find the parts for the sawmill, so could not repair it | medium | critical |
-| BAL2 | Broken wheel is a tier-2 dead end | The truck wheel broke and the replacement needs tier 2: the run stalls. A wheel must be fixable or obtainable at tier 0–1 (spare, patch/rim repair, wrecks) | medium | critical |
-| BAL3 | Second truck missing at the start | With two players the second truck did not appear at the start (bug) | low | critical |
-| BAL4 | Full progression audit | Headless walk of the whole dependency graph from a fresh start: for every repair, recipe and node, where its inputs come from and at which tier; flag every dead end and loop. Also what a character can do/craft per hour of play and how fast skills grow | high | high |
-| BAL5 | Gradual rebalance | Change balance in small steps driven by BAL4 numbers, re-checked after each step, not in big jumps | medium | high |
-| BAL6 | Skill/tech tree: recheck and make it easy to open | Owner: recheck the progression and upgrade tree; the screen hides behind Shift+K (K alone is a snack). Give it its own key and a visible entry (inventory/notebook button, HUD hint when a node can be learned), clear what each node opens and what it costs; review tree pace (two players ≈55 h per player for the whole tree, pending question BA-8) together with BAL4 | medium | high |
-| DES1 | Start and base-planning flow (design first) | Owner: think through how players start, where to drive for what in the first hours/days, and how they plan and grow a base. Not endless realism, not too simple. Deliverable: a short design doc with the first-days route (start point, nearest sources of fuel, water, food, parts, tools; what each trip unlocks), base site choice and growth stages, what is deliberately simplified and why, compared with Valheim/Rust/The Long Dark/Project Zomboid start loops; owner reviews before code. Feeds BAL4/BAL5 | medium | high |
+### P0 — Breaks the session (fix first)
 
-### G2 — Zhiltsy threat
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| SND1 | Endless sound / audio breaks | Several times in the session audio broke: a player placed a building, the game hitched and the placing sound looped forever; many players had to turn sound off, in co-op and single-player. Find the root cause (looping voice not stopped on hitch/rollback, client replay of build events, voice pool exhaustion), add a watchdog for stuck loops, test the build-place path host and client; recheck several times | medium | critical | todo |
+| BAL3 | Second truck missing at start | With two players the second truck did not appear at the start | low | critical | BALFIX running |
+| BAL1 | Sawmill repair parts not findable | Could not find the parts, so could not repair the sawmill | medium | critical | BALFIX running |
+| BAL2 | Broken wheel needs tier 2 | Run stalls when a wheel breaks; must be recoverable at tier 0–1 | medium | critical | BALFIX running |
 
-| ID | Task | Problem | Complexity | Priority |
-|----|------|---------|------------|---------|
-| ZH1 | Zhiltsy more dangerous, more of them, scarier | Raids and encounters are too weak and too rare; escalate numbers, damage and fear over the days on a gradual curve (tied to BAL5) | medium | high |
+### P1 — Balance and progression (the main thing)
 
-### G3 — New gameplay
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| STAGES | Game by stages, start to late game (BAL4 + DES1) | Per stage: goals, where to drive and why, honest hauling (trips, capacities, fuel, time), what is built, threats, what unlocks the next stage; what the player levels up, which tech opens in what order, how character and base develop, how hard; base-site choice and growth; data-driven dependency graph tool flagging dead ends and teleport-rule violations | high | critical | running |
+| BAL6 | Skill/tech tree: recheck, easy to open | Screen hides behind Shift+K; own key, visible button, HUD hint when a node can be learned; node value and pace (≈55 h per player with two) | medium | high | analysis in STAGES, then todo |
+| BAL5 | Rebalance in small steps | Apply STAGES' ranked proposals one small step at a time, re-run the tool after each | medium | high | after STAGES |
+| ZH1 | Enemies more dangerous, more of them, scarier | Threat escalates gradually over days, tied to BAL5 (and to the bug concept if approved) | medium | high | after STAGES |
 
-| ID | Task | Problem | Complexity | Priority |
-|----|------|---------|------------|---------|
-| GP1 | Shooting from the truck | Must be able to fire from the vehicle in practice (Н-11 passenger shooting exists; check it is discoverable and works; consider the driver and a mounted gun) | medium | medium |
-| GP2 | Tracking animals | Follow game by tracks, droppings, scent — a "sense" that grows with skill | medium | medium |
+### P1 — Network: latency, jerks, desync (most important technically)
 
-### G4 — Network: latency, jerks, desync (most important)
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| NET1 | Measure first | Repeatable 2–3 player runs with real lag/loss: client jerks (corrections above a threshold), desyncs per subsystem, bandwidth per stream; baseline report | medium | critical | next free slot |
+| NET2 | Best practices | Owner's reference games: Quake (snapshot delta, client prediction), Rust, Valheim; plus Source, Overwatch, Rocket League, Glenn Fiedler. Plan mapped onto our streams | medium | critical | after NET1 |
+| NET3 | Hide latency on clients | Interpolation/jitter buffer, prediction for the local player and the truck they drive, smooth corrections instead of snaps | high | critical | after NET2 |
+| NET5 | Remove desyncs | Per-subsystem state hashes, auto-detection and logs, fix every source | high | critical | after NET1 |
+| NET4 | Cut traffic | Delta compression, quantisation, relevance by distance, per-stream budgets | high | high | after NET3 |
+| NET6 | Re-measure | NET1 after each step, several times, against the baseline | low | high | ongoing |
 
-| ID | Task | Problem | Complexity | Priority |
-|----|------|---------|------------|---------|
-| NET1 | Measure first | Repeatable 2–3 player runs with real lag/loss profiles: count client jerks (position corrections above a threshold), desync events per subsystem, bandwidth per stream; a baseline report before any change | medium | critical |
-| NET2 | Best practices study | How large games hide latency: snapshot interpolation with a jitter buffer, client prediction and server reconciliation, smoothing of corrections instead of snaps, vehicle extrapolation, delta compression, quantisation, priority/relevance per entity (owner's reference games: Quake (QuakeWorld/Q3 snapshot delta + client prediction), Rust, Valheim and similar co-op survival games; plus Source, Overwatch, Rocket League, Glenn Fiedler's articles); write a plan mapped onto our streams | medium | critical |
-| NET3 | Hide latency on clients | Apply NET2: interpolation buffer, error smoothing, prediction for the local player and the truck the player drives; fewer visible jerks | high | critical |
-| NET4 | Cut traffic | Delta compression, quantisation, send only what changed and what is near, per-stream budgets | high | high |
-| NET5 | Remove desyncs | Per-subsystem state hashes, auto-detection and logs; fix every source found | high | critical |
-| NET6 | Repeat checks | Run NET1 again after each NET step, several times, compare with the baseline | low | high |
+### P2 — Performance
 
-### G5 — Performance: parallel game loop
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| PAR1 | Frame split into jobs on threads | Simulation, AI, physics, streaming, network packing on a worker pool | very high | high | after NET3 |
+| PAR2 | Double-buffered prepared state | Systems write a back buffer, swap at frame end; render and network never wait on writers | very high | high | with PAR1 |
 
-| ID | Task | Problem | Complexity | Priority |
-|----|------|---------|------------|---------|
-| PAR1 | Split the frame into jobs across threads | Simulation, AI, physics, streaming, network packing as independent tasks on a worker pool | very high | high |
-| PAR2 | Double-buffered state | Each system writes a prepared back buffer; buffers are swapped at the frame boundary so readers (render, network) never wait on writers | very high | high |
+### P2 — Gameplay additions
 
-Owner 2026-10-22: the MAIN thing is balance and progression — break the game into stages from start to late game and know what the player does at each one (BAL4 + DES1 together, task STAGES). Core rule for every balance change: resources never teleport — everything is carried, hauled, loaded and stored physically; logistics is the game. Order: BALFIX (BAL1-3) and STAGES now, then NET1; then NET2 → NET3/NET5; BAL4 → BAL5 + ZH1; GP1, GP2, NET4, PAR1/PAR2 after.
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| GP1 | Shooting from the truck | Н-11 passenger shooting exists (COMBAT2, COMBAT3 polishing); make it discoverable, consider the driver and a mounted gun | medium | medium | after COMBAT3 |
+| GP2 | Tracking animals | Tracks, droppings, scent — a "sense" growing with skill | medium | medium | todo |
 
-### Owner additions 2026-10-22 (late)
+### P3 — Direction change under consideration (owner decides on concepts)
 
-| ID | Task | Problem | Complexity | Priority |
-|----|------|---------|------------|---------|
-| ART1 | Layered forest | Forest is too tall, almost no undergrowth. ChatGPT (last Pro days) sheets via the peregon-art pipeline: understory shrubs, young trees, forest floor; `--forest classic/layered` switch, classic stays default until the owner approves | medium | high |
-| ZB-BUGS | Bugs instead of zhiltsy (owner considering) | Alien bugs invaded; active day and night, attack constantly; nest and spread like Factorio biters (hives grow and expand, waves drawn to noise/smoke/machinery near people). Concept sheets only (ChatGPT); Tripo models only after the owner approves the concept | high | medium |
-| GP3 | Flamethrower | Owner: add a flamethrower (home-made, kerosene/diesel tank, hose, igniter; hand-held and truck-mounted) — the natural weapon against bug nests; concept sheet now, gameplay after the bug concept is approved | medium | medium |
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| ZB-BUGS | Bugs instead of zhiltsy | Alien bugs invaded; active day and night, attack constantly; nest and spread like Factorio biters (hives grow and expand, waves drawn to noise, smoke and machinery near people). Concept sheets now (ChatGPT); Tripo only after approval | high | medium | concepts in ARTFOREST |
+| GP3 | Flamethrower | Home-made, kerosene/diesel tank, hose, igniter; hand-held and truck-mounted; the weapon against nests | medium | medium | concept in ARTFOREST |
+| FUT1 | Turrets | Gun and flamethrower turrets with fuel/ammo hauled to them; Factorio-like base defence | high | medium | after ZB-BUGS |
+| FUT2 | Automated production | Machines run on their own once supplied and feed each other (supplies still hauled) | very high | medium | after ZB-BUGS |
+| FUT3 | Road laying and gravelling | Clear, grade and gravel routes with truck and tools; faster, less bogging | high | medium | later |
 
-FIRE2 (wet firewood, campfire smoke, fog) paused to free the slot; WIP commit on its worktree branch, untested.
+### P3 — Visuals (owner-requested exception to gameplay-first)
 
-### Future (owner 2026-10-22, after the bug concept is approved)
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| ART1 | Layered forest | Forest too tall, almost no undergrowth; ChatGPT sheets (last Pro days) via the peregon-art pipeline; `--forest classic/layered`, classic default until approved | medium | high | ARTFOREST running |
 
-| ID | Task | Problem | Complexity | Priority |
-|----|------|---------|------------|---------|
-| FUT1 | Turrets | Base defence against bug waves: buildable turrets (gun, flamethrower), fuel/ammo supply, coverage; Factorio-like defence loop | high | medium |
-| FUT2 | Automated production | Machines that work on their own once supplied (sawmill, pump, generator lines), feeding each other; what runs while players are away | very high | medium |
-| FUT3 | Road laying and gravelling | Players build their own roads: clear, grade and gravel a route (truck + tools), better speed and less bogging; roads between base and sources | high | medium |
+### Paused / in flight from before the feedback
+
+| ID | State |
+|----|-------|
+| HOSE | Done (tank car → tanker, slosh, raiders upstairs), merging |
+| COMBAT3 | Running (melee view models, avatars, flare key, seat gun, tool wear) |
+| FIRE2 | Paused, WIP commit 7a639e353d on its worktree branch (wet firewood, campfire smoke, fog); resume only if it fits STAGES/BAL5 |
+
+### Open owner questions
+
+| ID | Question |
+|----|----------|
+| BA-8 | Skill tree pace with two players ≈55 h per player — keep or cheaper (now inside BAL6) |
+| Q-FEAR | Fear in the cab ≈12 % — too calm? |
+| Q-HUT | Unheated hut ≈−23 °C at −25 °C outside — keep? |
+| Q-RAIN | Rain fill honest but small — enough? |
+
+Next free slots, in order: SND1, NET1, then BAL6/BAL5/ZH1 after STAGES, NET2/NET5.

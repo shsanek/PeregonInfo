@@ -1150,3 +1150,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 21:43 PTFIX merged fd93bff1b6. Owner: feedback list = next dev tasks; BALFIX started (BAL3 second truck, BAL1 sawmill parts, BAL2 wheel tier). Running: HOSE, FIRE2, COMBAT3, BALFIX.
 - 2026-10-22 21:46 Owner: layered forest via ChatGPT pipeline + bug-invasion concept. FIRE2 paused (WIP commit), ARTFOREST started. Running: HOSE, COMBAT3, BALFIX, ARTFOREST.
 - 2026-10-22 21:52 tick: HOSE merge testing; running COMBAT3 (has commit), BALFIX, ARTFOREST, STAGES (relaunched from repo root). Owner additions queued: BAL6, DES1/STAGES, FUT1-3, GP3, ZB-BUGS.
+- 2026-10-22 21:53 backlog regrouped (P0 SND1 + BAL1-3, P1 STAGES/BAL/ZH + NET, P2 PAR/GP, P3 bugs/future/forest).
