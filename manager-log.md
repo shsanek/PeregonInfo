@@ -1154,3 +1154,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 22:32 tick: HOSE merged ade9194a57; COMBAT3 merge building (protocol 66, §25). Running: BALFIX, ARTFOREST, STAGES, SND1.
 - 2026-10-22 22:49 STAGES merged bc9172efaf; COMBAT3 74f22c2283, HOSE ade9194a57 reported. NET1 started. Running: BALFIX, ARTFOREST, SND1, NET1. Next: BAL5a, TELE1.
 - 2026-10-22 22:52 tick: 4 running (BALFIX, ARTFOREST, SND1, NET1).
+- 2026-10-22 23:03 ARTFOREST merged 9ba49e01cf. BAL5a started. Running: BALFIX, SND1, NET1, BAL5a.
