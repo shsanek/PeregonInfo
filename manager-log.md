@@ -1123,3 +1123,7 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 15:52 tick: WHEEL merge lost 5 recipes in conflict resolution, restored, re-testing; others active.
 - 2026-10-22 16:15 tick: WHEEL+fix, CAMP1, JOINEARLY (p48), SKILLXP (p50), STAB ff merged locally; build+ctest running before push. Agents TRUCKN2, FALLS, BUILD2, PT2.
 - 2026-10-22 16:24 pushed WHEEL, CAMP1, JOINEARLY, SKILLXP, STAB (22/22 touched suites pass).
+- 2026-10-22 16:32 tick: TRUCKN2, FALLS, BUILD2, PT2 active; nothing to merge.
+- 2026-10-22 16:52 tick: TRUCKN2, FALLS (tests running), BUILD2, PT2 active.
+- 2026-10-22 17:12 tick: FALLS (p52) + BUILD2 (p53) picked, ctest running; TRUCKN2, PT2, NODES3, HEAT active.
+- 2026-10-22 17:24 pushed FALLS (p52) + BUILD2 (p53); 25/25 touched suites pass.
