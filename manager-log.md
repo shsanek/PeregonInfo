@@ -1060,3 +1060,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 15:07 tick: PV6 fe39f2c6ca (finishing, shots stage), PV8 fc7b50997e excavator fix, PV9a 65a6e7e34b crafting model + recipes, PVA 33 WIP; all active; disk 83 GB
 2026-10-22 15:30 PV8 notes and PV9a crafting finished; both asked to rebase onto fa7094098f (PV8 protocol 35, PV9a 36). Next: PV9b balance after PV9a merges
 2026-10-22 15:45 PV6 fields finished; asked to rebase onto fa7094098f, renumber its 4 build kinds after 137 (PV3b data pieces), protocol 37 if needed. Merge queue: PV8 -> PV9a -> PV6 (each rebases onto fa7094098f; later ones get small conflicts at merge). Visual follow-ups for a later art pass: wheat on new fields reads as yellow grass; farm implements, sheaves, new crops, crafted items are boxes
+2026-10-22 16:05 PV8 notes ff-merged ff505a2a03; build green, shadows refreshed, 8/8 touched tests; report pushed. PV8 complete

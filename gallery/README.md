@@ -220,8 +220,11 @@
 - [pv4a · 1](pv4a-f9961617-001.md) — 9
 - [pv4b · 1](pv4b-130e5c61-001.md) — 5
 - [pv5 · 1](pv5-de6aac6d-001.md) — 8
+- [pv6 · 1](pv6-4173156a-001.md) — 11
 - [pv7a · 1](pv7a-a0d0f589-001.md) — 12
 - [pv7b · 1](pv7b-dd94eeef-001.md) — 14
+- [pv8 · 1](pv8-da35faab-001.md) — 6
+- [pv9a · 1](pv9a-aed97d55-001.md) — 5
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
 - [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36
