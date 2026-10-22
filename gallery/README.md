@@ -113,6 +113,7 @@
 - [gen3 · 1](gen3-304121f0-001.md) — 12
 - [gen4 · 1](gen4-7fd84213-001.md) — 19
 - [giperf · 1](giperf-34a0d746-001.md) — 2
+- [gp2 · 1](gp2-82e62e24-001.md) — 4
 - [grass · 1](grass-f6cc5b08-001.md) — 14
 - [grass3 · 1](grass3-6716726d-001.md) — 21
 - [grass5 · 1](grass5-9bca6323-001.md) — 6

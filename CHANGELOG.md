@@ -859,6 +859,8 @@
 - Масло, резина, запчасти и ткань снимаются с брошенных машин и домов
 - Ящики лома идут в кузницу и мехцех
 - ART2 pilot: Tripo Scots pine behind --forest tripo (40% fewer triangles, same look at eye level)
+- ZH1: base heat drives raid pacing — waves of up to 8, 3 quiet days after each raid, stronger later
+- BALFIX: progression checker for tech dead ends
 
 **Фиксы**
 
@@ -884,6 +886,8 @@
 - Бесконечный звук установки постройки после подвисания или паузы (у хоста и клиентов)
 - Шипение брызг и льда больше не забивает звук
 - Мир у клиента больше не «расходится» с хостом после колки брёвен
+- TELE1: no teleported items — rescue without free fuel, death bag at the spot, near-bed foraging, shops at the counter, station jobs pause while away, one-time home shelf
+- BALFIX: crew truck for co-op (host-created, fixes a join desync), sawmill part hints, wheel repair without dead ends
 
 ---
 

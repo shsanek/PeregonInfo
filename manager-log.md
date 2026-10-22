@@ -1163,3 +1163,10 @@ One line per decision. Times are local (Mac).
 - 2026-10-23 00:12 tick: BALFIX merge tests running (inventory under ctest timed out, rerunning direct); NET1 done 9dc64b153c (merge after BALFIX); NET23 started. Running: TELE1, ZH1, ART2 pine, NET23.
 - 2026-10-23 00:33 NET1 ff-merged 9dc64b153c. BALFIX merge aborted: crew truck truck/physics diff at join (coopsweep 2/7) — sent back. Running: BALFIX(fix), TELE1, ZH1, ART2, NET23 (5 incl. BALFIX fix-up resume).
 - 2026-10-23 00:33 tick: running BALFIX fix-up, TELE1, ZH1, ART2, NET23.
+
+- 2026-10-23 00:52 ART2 pine pilot merged bae08c748f (--forest tripo, nature 30/30), report published 6296df5f4c; worktree removed. Running: BALFIX, TELE1, ZH1 (suites), NET23.
+- 2026-10-23 00:52 tick: BALFIX 18b9cad214 suites running; TELE1 3a054987a8 post-rebase run; ZH1 suites; NET23 netbench wan50 runs (uncommitted net_world/play changes). All alive, no action.
+- 2026-10-23 01:12 tick: TELE1 done, merge verify running (all pass except known plough test fixed by BALFIX; coopsweep pending). BALFIX 72815b0831 and ZH1 80d3609106 done, queued to merge after TELE1. GP2 spawned (tracking). NET23 running.
+- 2026-10-23 01:32 tick: TELE1 merged 263d6d74c7. BALFIX merge verify (protocol 68, playtest 29): all pass so far, net_world/coopsweep running. ZH1 next (69, 30). NET23 netbench net3g; GP2 working (30 files).
+- 2026-10-23 01:52 tick: BALFIX merged 0354c80939. ZH1 merge verify running (protocol 69, playtest 30). Spawned NET5 (desyncs) and GP1 (truck shooting). Running: NET23, GP2, NET5, GP1.
+- 2026-10-23 02:12 tick: ZH1 merge verify slow (zhiltsy_play_tests 21 min, CPU-starved by 4 agents), let it run. Agents NET23 (final netbench), GP2, NET5, GP1 alive.
