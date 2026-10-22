@@ -1082,3 +1082,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 owner DOCHIDE: sawmill passport on the sawmill is fine (tutorial: 'you need recipes'). All other 10 documents (tech.txt [recipe.*], now on tables ~0.9 m in their place) must be properly hidden (safes, cellars, under floors, attics, locked rooms, nests, bunker depths); notes in obvious places only hint the direction where a document is hidden. Queue after TECHXP.
 - 2026-10-22 tick: PV9b merged locally (f066fca3f4), ctest running; NETJOIN started; PVR committing (clay/limestone, bricks/mortar, wood-gas generator); PVA2, PVC active. Queue: TECHXP → DOCHIDE → ZB1.
 - 2026-10-22 PV9b merged (f066fca3f4): 14 touched tests green (progression_play 174 s alone; 600 s timeout under 4-agent load). Daily caps to be removed by TECHXP per owner.
+- 2026-10-22 PVR done (merged locally 62fc0afc8a, ctest running). TECHXP started. Decision on PVR truck-vs-base: raiders must split between base pieces and truck (night gave 1296 truck blows / 0 base) → RAID2 task queued with PVR priority 6 (tower ladder, ferns through floors, bunker papers).
+- 2026-10-22 PVR merged: 17/17 touched tests green.
