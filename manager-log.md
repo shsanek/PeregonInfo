@@ -1115,3 +1115,7 @@ One line per decision. Times are local (Mac).
 - 2026-10-23 GP1 done (3adb003ab9, 72dca69ebc) cherry-picked cleanly onto tip, build+ctest running. GUNS started (ТО nodes + misfires/condition; protocol 45, cmd 31). Running: STAB, TOW, WHEEL, GUNS.
 - 2026-10-22 14:13 tick: GP1 merged locally, build+ctest running; STAB/TOW/WHEEL/GUNS active.
 - 2026-10-22 14:33 GP1 merged (135e95e8e1 + test fix fb2798268e); crafting_play co-op xp test fixed for TECHXP bystander xp.
+- 2026-10-22 14:35 tick: STAB/TOW/WHEEL/GUNS active, no merges pending.
+- 2026-10-22 14:53 tick: GUNS picked (756477e125), build+ctest running; WHEEL committed 4164ac7ffa; JOINEARLY started; STAB/TOW active.
+- 2026-10-22 15:12 tick: TOW picked + protocol 46, build ok, ctest running; GUNS waiting to push with TOW; STAB/WHEEL/JOINEARLY/CAMP1 active.
+- 2026-10-22 15:19 GUNS (756477e125) + TOW (136ac7af70, protocol 46 in 0279a8e154) merged; vehicle_tests timeout under load only.
