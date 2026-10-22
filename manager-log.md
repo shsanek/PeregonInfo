@@ -1112,3 +1112,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 published DOCHIDE, ZB1(docs), PVA2, RAID2: serial ctest 12/13 (zhiltsy_play 300 s timeout under load; RAID2 had it 9/9).
 - 2026-10-22 tick: load avg ~100. GP1 in progression_play, TOW in tests, WHEEL editing, STAB idle (no procs). Asked agents to build -j6 and run ctest serially.
 - 2026-10-23 FEAR merged (57a4ad313f): 9/9 touched tests.
+- 2026-10-23 GP1 done (3adb003ab9, 72dca69ebc) cherry-picked cleanly onto tip, build+ctest running. GUNS started (ТО nodes + misfires/condition; protocol 45, cmd 31). Running: STAB, TOW, WHEEL, GUNS.
+- 2026-10-22 14:13 tick: GP1 merged locally, build+ctest running; STAB/TOW/WHEEL/GUNS active.
+- 2026-10-22 14:33 GP1 merged (135e95e8e1 + test fix fb2798268e); crafting_play co-op xp test fixed for TECHXP bystander xp.
