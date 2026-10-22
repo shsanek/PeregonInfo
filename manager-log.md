@@ -1052,3 +1052,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 12:45 PV7b places cherry-picked (23e58d5a06); map rebaked, caches + paper map fresh (paper map committed), 11/11 touched tests; report pushed. PV8 notes (+coal_excavator place errors fix) started from 23e58d5a06. PV7 complete
 2026-10-22 12:55 PV5 raids finished on 38237fa653; asked to rebase onto ece8cd5387, protocol 34, widen build kind encoding to 16 bits (29/31 used), decision: sleep does not skip a raid, the scream wakes sleepers. PV3b told to wait for PV5 widening and rebase after
 2026-10-22 13:05 PV3b finished (6 commits on 40e9ad4275), waits for PV5 merge then rebases. PV9a crafting at stations (ТА/ТО/ТЭ recipes, truck upgrades at С-08) started from ece8cd5387
+2026-10-22 13:27 tick: PV5 rebasing (31 WIP), PV6 ef7f7cbf25 farm model + 21 WIP, PV8 8 WIP, PV9a just started, PV3b idle waiting for PV5; disk 82 GB
