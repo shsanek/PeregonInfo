@@ -1092,3 +1092,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 PVC rebased + cherry-picked (90cc1338a6, protocol 37), build+ctest running. TECHXP done (443db0a570, 33f0a1b855; protocol 37 clash → renumber to 38 at merge). Started RAID2 and ZB1 (Rodin). Running: PVA2, DOCHIDE, RAID2, ZB1.
 - 2026-10-22 tick: PVC build/ctest still running; PVA2, DOCHIDE, RAID2, ZB1 active. TECHXP waiting to merge after PVC.
 - 2026-10-22 PVC merged (90cc1338a6): 10 touched tests green.
+- 2026-10-22 PVC published (310c677488). TECHXP cherry-picked + protocol bumped to 38 (commit on tip), build+ctest running. DOCHIDE told: protocol 40 if needed (39 = RAID2).
+- 2026-10-22 tick: TECHXP built, ctest running; PVA2 (crafted items drawn with models), DOCHIDE, RAID2, ZB1 active.
+- 2026-10-22 TECHXP merged (4dd69a7a66, protocol 38): 15/17 green; crafting_play garage-bay + railworks_play ТЛ-07 fail = PVC regressions → assigned to RAID2 as priority 0.
