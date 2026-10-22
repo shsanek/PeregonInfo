@@ -1057,3 +1057,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 14:00 PV5 raids ff-merged 0f7f6e3ba7; build green, 9/9 touched tests; report pushed. PV3b rebasing onto 0f7f6e3ba7
 2026-10-22 14:35 PV3b pieces cherry-picked (4aee9b3e4c); build green, 8/8 touched tests (raid_tests real: 5/5, 114 checks); report pushed. PVA art pass (grey boxes → Blender models) started from 4aee9b3e4c
 2026-10-22 14:47 tick: PV6 40 WIP, PV8 ed3376966e notes data + 28 WIP, PV9a 20 WIP, PVA started (map copy); all active; disk 85 GB
+2026-10-22 15:07 tick: PV6 fe39f2c6ca (finishing, shots stage), PV8 fc7b50997e excavator fix, PV9a 65a6e7e34b crafting model + recipes, PVA 33 WIP; all active; disk 83 GB
