@@ -1047,3 +1047,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 10:47 tick: PV2b merged 40e9ad4275, ctest running; PV7a 55 WIP, PV7b 49 WIP, PV5 started (map copy), PV3b just started; disk 79 GB
 2026-10-22 10:55 PV2b cherry-picked (40e9ad4275); build green, 7/7 touched tests; report pushed. PV3b pieces started from 40e9ad4275
 2026-10-22 11:07 tick: PV7a rebasing onto 24a6253401 (+zhiltsy day=1); PV7b a79d96fc13 places tour; PV5 39 WIP; PV3b 10 WIP; all active; disk 84 GB
+2026-10-22 11:45 PV7a depot/mine ff-merged d705f8d999; map tiles rebaked (42 built), r1 caches refreshed, rail_check OK, 9/9 touched tests; report pushed. PV6 fields started from d705f8d999. PV7b rebasing onto d705f8d999
