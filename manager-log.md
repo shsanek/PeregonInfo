@@ -1053,3 +1053,5 @@ One line per decision. Times are local (Mac).
 2026-10-22 12:55 PV5 raids finished on 38237fa653; asked to rebase onto ece8cd5387, protocol 34, widen build kind encoding to 16 bits (29/31 used), decision: sleep does not skip a raid, the scream wakes sleepers. PV3b told to wait for PV5 widening and rebase after
 2026-10-22 13:05 PV3b finished (6 commits on 40e9ad4275), waits for PV5 merge then rebases. PV9a crafting at stations (ТА/ТО/ТЭ recipes, truck upgrades at С-08) started from ece8cd5387
 2026-10-22 13:27 tick: PV5 rebasing (31 WIP), PV6 ef7f7cbf25 farm model + 21 WIP, PV8 8 WIP, PV9a just started, PV3b idle waiting for PV5; disk 82 GB
+2026-10-22 13:35 PV9a first launch landed in a PeregonInfo worktree (manager cwd was reports/) and did nothing; removed, relaunched from the EXEcutor root
+2026-10-22 14:00 PV5 raids ff-merged 0f7f6e3ba7; build green, 9/9 touched tests; report pushed. PV3b rebasing onto 0f7f6e3ba7

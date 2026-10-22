@@ -216,8 +216,10 @@
 - [pv2a · 1](pv2a-e491efd9-001.md) — 7
 - [pv2b · 1](pv2b-2c93a758-001.md) — 7
 - [pv3a · 1](pv3a-8aed5fa4-001.md) — 9
+- [pv3b · 1](pv3b-25ca2c70-001.md) — 8
 - [pv4a · 1](pv4a-f9961617-001.md) — 9
 - [pv4b · 1](pv4b-130e5c61-001.md) — 5
+- [pv5 · 1](pv5-de6aac6d-001.md) — 8
 - [pv7a · 1](pv7a-a0d0f589-001.md) — 12
 - [pv7b · 1](pv7b-dd94eeef-001.md) — 14
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
