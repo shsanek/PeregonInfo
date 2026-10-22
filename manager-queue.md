@@ -231,7 +231,7 @@ Source: owner's co-op play-test and remarks on 2026-10-22 evening. This list is 
 
 | ID | Task | Problem | Complexity | Priority | Status |
 |----|------|---------|------------|---------|--------|
-| ZB-BUGS | Bugs instead of zhiltsy | Alien bugs invaded; active day and night, attack constantly; nest and spread like Factorio biters (hives grow and expand, waves drawn to noise, smoke and machinery near people). Concept sheets now (ChatGPT); Tripo only after approval | high | medium | concepts in ARTFOREST |
+| ZB-BUGS | Bugs instead of zhiltsy | Alien bugs invaded; active day and night, attack constantly; nest and spread like Factorio biters (hives grow and expand, waves drawn to noise, smoke and machinery near people). Owner balance rule: many bugs, but players must still have calm time to build up the base — pressure comes in waves with real breathing room (Factorio-like: attacks scale with what you build/pollute, not a constant grind). Concept sheets now (ChatGPT); Tripo only after approval | high | medium | concepts in ARTFOREST |
 | GP3 | Flamethrower | Home-made, kerosene/diesel tank, hose, igniter; hand-held and truck-mounted; the weapon against nests | medium | medium | concept in ARTFOREST |
 | FUT1 | Turrets | Gun and flamethrower turrets with fuel/ammo hauled to them; Factorio-like base defence | high | medium | after ZB-BUGS |
 | FUT2 | Automated production | Machines run on their own once supplied and feed each other (supplies still hauled) | very high | medium | after ZB-BUGS |
