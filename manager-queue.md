@@ -191,6 +191,7 @@ Owner played a co-op session on `claude/peregon-design`. Verdict: progression an
 | BAL3 | Second truck missing at the start | With two players the second truck did not appear at the start (bug) | low | critical |
 | BAL4 | Full progression audit | Headless walk of the whole dependency graph from a fresh start: for every repair, recipe and node, where its inputs come from and at which tier; flag every dead end and loop. Also what a character can do/craft per hour of play and how fast skills grow | high | high |
 | BAL5 | Gradual rebalance | Change balance in small steps driven by BAL4 numbers, re-checked after each step, not in big jumps | medium | high |
+| BAL6 | Skill/tech tree: recheck and make it easy to open | Owner: recheck the progression and upgrade tree; the screen hides behind Shift+K (K alone is a snack). Give it its own key and a visible entry (inventory/notebook button, HUD hint when a node can be learned), clear what each node opens and what it costs; review tree pace (two players ≈55 h per player for the whole tree, pending question BA-8) together with BAL4 | medium | high |
 
 ### G2 — Zhiltsy threat
 
