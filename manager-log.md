@@ -1141,3 +1141,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 19:52 tick: PTRUN, COOPSWEEP, TRAILER2, COMBAT2 active; nothing to merge.
 - 2026-10-22 20:13 tick: COOPSWEEP done (84605db19b) — merging, protocol 61, playtest §20; build ok, tests running. TRAILER2 done (395c502443, protocol 62) — merge next. SMOKE agent started (zhiltsy to chimney smoke + CS7). PTRUN, COMBAT2 running.
 - 2026-10-22 20:33 tick: COOPSWEEP merged 03434233ea. TRAILER2 merge building (protocol 62, playtest §21). PTRUN done (72537f61cf, 4 fixes, 5 open bugs) — merge after TRAILER2; PTFIX started on its bugs. SMOKE, COMBAT2 running.
+- 2026-10-22 20:52 tick: TRAILER2 9bd5b02fa8 + PTRUN 11084bcc46 merged, report pushed (stray PTFIX gitlink removed from reports). SMOKE merging (protocol 63, §22). PTFIX resumed in its exe/ clone, HOSE told protocol 64, COMBAT2 running tests.
