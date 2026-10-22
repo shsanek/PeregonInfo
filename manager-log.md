@@ -1044,3 +1044,5 @@ One line per decision. Times are local (Mac).
 2026-10-22 09:25 PV4a zhiltsy cherry-picked (c9e4a21f7d); build green, zhiltsy/fauna_play/save/net_world green; report + GitHub pages pushed. PV7b places started from c9e4a21f7d. Zhiltsy follow-ups (outdoor chase pathing through fences, bridge on slopes, pale bodies in light, hit/swipe clips) go with PV5 raids
 2026-10-22 09:47 tick: PV2b 3e294d90e6 (one tech per station merged), PV3a 53 WIP files (quick-build bar/icons), PV7a 43 WIP, PV7b just started (map copy); all active; disk 86 GB
 2026-10-22 10:25 PV3a building ff-merged 38237fa653; build green, 6/6 touched tests; report pushed. PV5 raids (+zhiltsy pathing/slope/pale follow-ups, defence pieces) started from 38237fa653. PV2b asked to rebase onto 38237fa653 + fix invisible collision of dismantled station
+2026-10-22 10:47 tick: PV2b merged 40e9ad4275, ctest running; PV7a 55 WIP, PV7b 49 WIP, PV5 started (map copy), PV3b just started; disk 79 GB
+2026-10-22 10:55 PV2b cherry-picked (40e9ad4275); build green, 7/7 touched tests; report pushed. PV3b pieces started from 40e9ad4275
