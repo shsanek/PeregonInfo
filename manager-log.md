@@ -1138,3 +1138,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 19:32 tick: INSUL ctest running; TRAILER rebased testing; PTRUN, COOPSWEEP, TRAILER2 active; RAID3 waiting.
 - 2026-10-22 19:38 pushed TRUCKN3 (p57), INSUL (p58, s296), TRAILER (ff, p59, s300, cmd36).
 - 2026-10-22 19:50 pushed RAID3 (rebased by agent, p60); agent ran 11/11 on same tree.
+- 2026-10-22 19:52 tick: PTRUN, COOPSWEEP, TRAILER2, COMBAT2 active; nothing to merge.
+- 2026-10-22 20:13 tick: COOPSWEEP done (84605db19b) — merging, protocol 61, playtest §20; build ok, tests running. TRAILER2 done (395c502443, protocol 62) — merge next. SMOKE agent started (zhiltsy to chimney smoke + CS7). PTRUN, COMBAT2 running.
+- 2026-10-22 20:33 tick: COOPSWEEP merged 03434233ea. TRAILER2 merge building (protocol 62, playtest §21). PTRUN done (72537f61cf, 4 fixes, 5 open bugs) — merge after TRAILER2; PTFIX started on its bugs. SMOKE, COMBAT2 running.
