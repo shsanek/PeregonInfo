@@ -212,6 +212,9 @@
 - [pv0-places · 1](pv0-places-6c5e289d-001.md) — 12
 - [pv0-respawn · 1](pv0-respawn-d5be56b9-001.md) — 4
 - [pv0-talk · 1](pv0-talk-909a9b1b-001.md) — 5
+- [pv1 · 1](pv1-406a0588-001.md) — 11
+- [pv2a · 1](pv2a-e491efd9-001.md) — 7
+- [pv4b · 1](pv4b-130e5c61-001.md) — 5
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
 - [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36
