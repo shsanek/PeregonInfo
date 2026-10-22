@@ -230,6 +230,7 @@
 - [pv9a · 1](pv9a-aed97d55-001.md) — 5
 - [pv9b · 1](pv9b-4f1608f1-001.md) — 4
 - [pva · 1](pva-f0db8185-001.md) — 18
+- [pvc · 1](pvc-faf78c6d-001.md) — 10
 - [pvq · 1](pvq-ef7ae8a8-001.md) — 8
 - [pvr · 1](pvr-c1bdbe82-001.md) — 4
 - [questcore · 1](questcore-8fa2812a-001.md) — 2

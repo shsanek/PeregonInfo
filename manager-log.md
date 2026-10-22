@@ -1089,3 +1089,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 NETJOIN done (9f9898d635 → 670f5d4c07 merged locally, ctest running): root cause liveness from app msgs only + Steam UnreliableNoDelay discard; now transport-level liveness, reliable keepalive, Steam send rate 1.25 MB/s, per-joiner 1 MB/s budget, join progress overlay; sim 15.5 s → 4.1 s. Needs owner real-Steam check. DOCHIDE started from 670f5d4c07.
 - 2026-10-22 tick: NETJOIN build+net ctest still running; PVC rebased (1c285cf208) testing; PVA2 wheat cards; TECHXP active; DOCHIDE starting.
 - 2026-10-22 NETJOIN merged: net/net_menu/net_world green; coop_audit 29/29 alone (75 s; 120 s ctest timeout under load).
+- 2026-10-22 PVC rebased + cherry-picked (90cc1338a6, protocol 37), build+ctest running. TECHXP done (443db0a570, 33f0a1b855; protocol 37 clash → renumber to 38 at merge). Started RAID2 and ZB1 (Rodin). Running: PVA2, DOCHIDE, RAID2, ZB1.
+- 2026-10-22 tick: PVC build/ctest still running; PVA2, DOCHIDE, RAID2, ZB1 active. TECHXP waiting to merge after PVC.
+- 2026-10-22 PVC merged (90cc1338a6): 10 touched tests green.
