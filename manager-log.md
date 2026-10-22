@@ -1046,3 +1046,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 10:25 PV3a building ff-merged 38237fa653; build green, 6/6 touched tests; report pushed. PV5 raids (+zhiltsy pathing/slope/pale follow-ups, defence pieces) started from 38237fa653. PV2b asked to rebase onto 38237fa653 + fix invisible collision of dismantled station
 2026-10-22 10:47 tick: PV2b merged 40e9ad4275, ctest running; PV7a 55 WIP, PV7b 49 WIP, PV5 started (map copy), PV3b just started; disk 79 GB
 2026-10-22 10:55 PV2b cherry-picked (40e9ad4275); build green, 7/7 touched tests; report pushed. PV3b pieces started from 40e9ad4275
+2026-10-22 11:07 tick: PV7a rebasing onto 24a6253401 (+zhiltsy day=1); PV7b a79d96fc13 places tour; PV5 39 WIP; PV3b 10 WIP; all active; disk 84 GB
