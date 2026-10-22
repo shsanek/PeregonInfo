@@ -1084,3 +1084,8 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 PV9b merged (f066fca3f4): 14 touched tests green (progression_play 174 s alone; 600 s timeout under 4-agent load). Daily caps to be removed by TECHXP per owner.
 - 2026-10-22 PVR done (merged locally 62fc0afc8a, ctest running). TECHXP started. Decision on PVR truck-vs-base: raiders must split between base pieces and truck (night gave 1296 truck blows / 0 base) → RAID2 task queued with PVR priority 6 (tower ladder, ferns through floors, bunker papers).
 - 2026-10-22 PVR merged: 17/17 touched tests green.
+- 2026-10-22 tick: all 4 active (PVC committed auto-pull from any truck; PVA2 busy; NETJOIN editing; TECHXP started). Queue: DOCHIDE → RAID2 → ZB1.
+- 2026-10-22 PVC finished on old base f18597e3d4 (protocol 36 clash, save 268); sent back to rebase itself onto e774174322 with protocol 37.
+- 2026-10-22 NETJOIN done (9f9898d635 → 670f5d4c07 merged locally, ctest running): root cause liveness from app msgs only + Steam UnreliableNoDelay discard; now transport-level liveness, reliable keepalive, Steam send rate 1.25 MB/s, per-joiner 1 MB/s budget, join progress overlay; sim 15.5 s → 4.1 s. Needs owner real-Steam check. DOCHIDE started from 670f5d4c07.
+- 2026-10-22 tick: NETJOIN build+net ctest still running; PVC rebased (1c285cf208) testing; PVA2 wheat cards; TECHXP active; DOCHIDE starting.
+- 2026-10-22 NETJOIN merged: net/net_menu/net_world green; coop_audit 29/29 alone (75 s; 120 s ctest timeout under load).
