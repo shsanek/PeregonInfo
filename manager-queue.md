@@ -225,7 +225,7 @@ Owner played a co-op session on `claude/peregon-design`. Verdict: progression an
 | PAR1 | Split the frame into jobs across threads | Simulation, AI, physics, streaming, network packing as independent tasks on a worker pool | very high | high |
 | PAR2 | Double-buffered state | Each system writes a prepared back buffer; buffers are swapped at the frame boundary so readers (render, network) never wait on writers | very high | high |
 
-Suggested order: BAL3, BAL1, BAL2 and NET1 first in parallel; then NET2 → NET3/NET5; BAL4 → BAL5 + ZH1; GP1, GP2, NET4, PAR1/PAR2 after.
+Owner 2026-10-22: the MAIN thing is balance and progression — break the game into stages from start to late game and know what the player does at each one (BAL4 + DES1 together, task STAGES). Order: BALFIX (BAL1-3) and STAGES now, then NET1; then NET2 → NET3/NET5; BAL4 → BAL5 + ZH1; GP1, GP2, NET4, PAR1/PAR2 after.
 
 ### Owner additions 2026-10-22 (late)
 
