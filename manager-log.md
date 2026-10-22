@@ -1049,3 +1049,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 11:07 tick: PV7a rebasing onto 24a6253401 (+zhiltsy day=1); PV7b a79d96fc13 places tour; PV5 39 WIP; PV3b 10 WIP; all active; disk 84 GB
 2026-10-22 11:45 PV7a depot/mine ff-merged d705f8d999; map tiles rebaked (42 built), r1 caches refreshed, rail_check OK, 9/9 touched tests; report pushed. PV6 fields started from d705f8d999. PV7b rebasing onto d705f8d999
 2026-10-22 12:07 tick: PV7b rebased 719210b038 (finishing), PV5 5ebdb2ffe4 defence+raid in play, PV3b 5c66e51e40 buildkit + 42 WIP, PV6 started (map copy); all active; disk 84 GB
+2026-10-22 12:45 PV7b places cherry-picked (23e58d5a06); map rebaked, caches + paper map fresh (paper map committed), 11/11 touched tests; report pushed. PV8 notes (+coal_excavator place errors fix) started from 23e58d5a06. PV7 complete

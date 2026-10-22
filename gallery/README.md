@@ -219,6 +219,7 @@
 - [pv4a · 1](pv4a-f9961617-001.md) — 9
 - [pv4b · 1](pv4b-130e5c61-001.md) — 5
 - [pv7a · 1](pv7a-a0d0f589-001.md) — 12
+- [pv7b · 1](pv7b-dd94eeef-001.md) — 14
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
 - [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36
