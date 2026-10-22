@@ -33,7 +33,10 @@
 - [assets · 14](assets-8bf729ff-014.md) — 60
 - [assets · 15](assets-8bf729ff-015.md) — 60
 - [assets · 16](assets-8bf729ff-016.md) — 60
-- [assets · 17](assets-8bf729ff-017.md) — 56
+- [assets · 17](assets-8bf729ff-017.md) — 60
+- [assets · 18](assets-8bf729ff-018.md) — 60
+- [assets · 19](assets-8bf729ff-019.md) — 60
+- [assets · 20](assets-8bf729ff-020.md) — 41
 - [atmosphere_fx1 · 1](atmosphere-fx1-48d30e01-001.md) — 52
 - [atmosphere_fx1b · 1](atmosphere-fx1b-62faf761-001.md) — 16
 - [audio_au2 · 1](audio-au2-800dbb88-001.md) — 6
@@ -225,6 +228,7 @@
 - [pv7b · 1](pv7b-dd94eeef-001.md) — 14
 - [pv8 · 1](pv8-da35faab-001.md) — 6
 - [pv9a · 1](pv9a-aed97d55-001.md) — 5
+- [pva · 1](pva-f0db8185-001.md) — 18
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
 - [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36

@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/supply_crate/_cmp_cells/r2_side.png](../shots/assets/supply_crate/_cmp_cells/r2_side.png)
+![assets/rock_gb_rock_cliff_overhang/01_blender.jpg](../shots/assets/rock_gb_rock_cliff_overhang/01_blender.jpg)
 
-![assets/supply_crate/_cmp_cells/r2_top.png](../shots/assets/supply_crate/_cmp_cells/r2_top.png)
+![assets/rock_gb_rock_cobbles/01_blender.jpg](../shots/assets/rock_gb_rock_cobbles/01_blender.jpg)
 
-![assets/table_01/01_raw.jpg](../shots/assets/table_01/01_raw.jpg)
+![assets/rock_gb_rock_gravel_patch/01_blender.jpg](../shots/assets/rock_gb_rock_gravel_patch/01_blender.jpg)
 
-![assets/table_01/02_clean.jpg](../shots/assets/table_01/02_clean.jpg)
+![assets/rock_gb_rock_outcrop_granite/01_blender.jpg](../shots/assets/rock_gb_rock_outcrop_granite/01_blender.jpg)
 
-![assets/table_01/03_lods.jpg](../shots/assets/table_01/03_lods.jpg)
+![assets/rock_gb_rock_outcrop_schist/01_blender.jpg](../shots/assets/rock_gb_rock_outcrop_schist/01_blender.jpg)
 
-![assets/table_01/04_silhouette.jpg](../shots/assets/table_01/04_silhouette.jpg)
+![assets/rock_gb_rock_river_l/01_blender.jpg](../shots/assets/rock_gb_rock_river_l/01_blender.jpg)
 
-![assets/theodolite_tripod/01_raw.jpg](../shots/assets/theodolite_tripod/01_raw.jpg)
+![assets/rock_gb_rock_river_m/01_blender.jpg](../shots/assets/rock_gb_rock_river_m/01_blender.jpg)
 
-![assets/theodolite_tripod/02_clean.jpg](../shots/assets/theodolite_tripod/02_clean.jpg)
+![assets/rock_gb_rock_river_s/01_blender.jpg](../shots/assets/rock_gb_rock_river_s/01_blender.jpg)
 
-![assets/theodolite_tripod/03_lods.jpg](../shots/assets/theodolite_tripod/03_lods.jpg)
+![assets/rock_gb_rock_river_shelf/01_blender.jpg](../shots/assets/rock_gb_rock_river_shelf/01_blender.jpg)
 
-![assets/theodolite_tripod/04_silhouette.jpg](../shots/assets/theodolite_tripod/04_silhouette.jpg)
+![assets/rock_gb_rock_roadcut/01_blender.jpg](../shots/assets/rock_gb_rock_roadcut/01_blender.jpg)
 
-![assets/theodolite_tripod/05_closeup.jpg](../shots/assets/theodolite_tripod/05_closeup.jpg)
+![assets/rock_gb_rock_scree_patch/01_blender.jpg](../shots/assets/rock_gb_rock_scree_patch/01_blender.jpg)
 
-![assets/theodolite_tripod/06_closeup_top.jpg](../shots/assets/theodolite_tripod/06_closeup_top.jpg)
+![assets/rock_gb_rock_spire/01_blender.jpg](../shots/assets/rock_gb_rock_spire/01_blender.jpg)
 
-![assets/thermos/01_concept_sheet.jpg](../shots/assets/thermos/01_concept_sheet.jpg)
+![assets/rock_gb_rock_talus_fan/01_blender.jpg](../shots/assets/rock_gb_rock_talus_fan/01_blender.jpg)
 
-![assets/thermos/02_tripo_generation.jpg](../shots/assets/thermos/02_tripo_generation.jpg)
+![assets/rock_gb_rock_tor/01_blender.jpg](../shots/assets/rock_gb_rock_tor/01_blender.jpg)
 
-![assets/thermos/03_raw.jpg](../shots/assets/thermos/03_raw.jpg)
+![assets/rucksack/01_raw.jpg](../shots/assets/rucksack/01_raw.jpg)
 
-![assets/thermos/04_clean.jpg](../shots/assets/thermos/04_clean.jpg)
+![assets/rucksack/02_clean.jpg](../shots/assets/rucksack/02_clean.jpg)
 
-![assets/thermos/05_lods.jpg](../shots/assets/thermos/05_lods.jpg)
+![assets/rucksack/03_lods.jpg](../shots/assets/rucksack/03_lods.jpg)
 
-![assets/thermos/06_silhouette.jpg](../shots/assets/thermos/06_silhouette.jpg)
+![assets/rucksack/04_before_after_decimation.jpg](../shots/assets/rucksack/04_before_after_decimation.jpg)
 
-![assets/thermos/07_before_after_decimation.jpg](../shots/assets/thermos/07_before_after_decimation.jpg)
+![assets/rucksack/05_raw.jpg](../shots/assets/rucksack/05_raw.jpg)
 
-![assets/thick_log/01_concept_sheet.jpg](../shots/assets/thick_log/01_concept_sheet.jpg)
+![assets/rucksack/06_clean.jpg](../shots/assets/rucksack/06_clean.jpg)
 
-![assets/thick_log/02_tripo_generation.jpg](../shots/assets/thick_log/02_tripo_generation.jpg)
+![assets/rucksack/07_lods.jpg](../shots/assets/rucksack/07_lods.jpg)
 
-![assets/thick_log/03_raw.jpg](../shots/assets/thick_log/03_raw.jpg)
+![assets/rucksack/08_before_after_decimation.jpg](../shots/assets/rucksack/08_before_after_decimation.jpg)
 
-![assets/thick_log/04_clean.jpg](../shots/assets/thick_log/04_clean.jpg)
+![assets/rucksack/09_raw.jpg](../shots/assets/rucksack/09_raw.jpg)
 
-![assets/thick_log/05_lods.jpg](../shots/assets/thick_log/05_lods.jpg)
+![assets/rucksack/10_clean.jpg](../shots/assets/rucksack/10_clean.jpg)
 
-![assets/thick_log/06_silhouette.jpg](../shots/assets/thick_log/06_silhouette.jpg)
+![assets/rucksack/11_lods.jpg](../shots/assets/rucksack/11_lods.jpg)
 
-![assets/thick_log/07_before_after_decimation.jpg](../shots/assets/thick_log/07_before_after_decimation.jpg)
+![assets/ruffe/01_closeup.jpg](../shots/assets/ruffe/01_closeup.jpg)
 
-![assets/tree_birch_cards/01_blender.jpg](../shots/assets/tree_birch_cards/01_blender.jpg)
+![assets/ruffe/02_closeup_top.jpg](../shots/assets/ruffe/02_closeup_top.jpg)
 
-![assets/tree_birch_cards/02_ingame.jpg](../shots/assets/tree_birch_cards/02_ingame.jpg)
+![assets/ruffe/03_raw.jpg](../shots/assets/ruffe/03_raw.jpg)
 
-![assets/tree_seasons_bb_birch_a/01_source.jpg](../shots/assets/tree_seasons_bb_birch_a/01_source.jpg)
+![assets/ruffe/04_clean.jpg](../shots/assets/ruffe/04_clean.jpg)
 
-![assets/tree_seasons_bb_birch_a/02_green_mask.jpg](../shots/assets/tree_seasons_bb_birch_a/02_green_mask.jpg)
+![assets/ruffe/05_lods.jpg](../shots/assets/ruffe/05_lods.jpg)
 
-![assets/tree_seasons_bb_birch_a/03_leaf_pieces.jpg](../shots/assets/tree_seasons_bb_birch_a/03_leaf_pieces.jpg)
+![assets/ruffe/06_silhouette.jpg](../shots/assets/ruffe/06_silhouette.jpg)
 
-![assets/tree_seasons_bb_birch_a/04_fall_order.jpg](../shots/assets/tree_seasons_bb_birch_a/04_fall_order.jpg)
+![assets/ruffe/07_closeup.jpg](../shots/assets/ruffe/07_closeup.jpg)
 
-![assets/tree_seasons_bb_birch_a/05_fall1.jpg](../shots/assets/tree_seasons_bb_birch_a/05_fall1.jpg)
+![assets/ruffe/08_closeup_top.jpg](../shots/assets/ruffe/08_closeup_top.jpg)
 
-![assets/tree_seasons_bb_birch_a/06_fall2.jpg](../shots/assets/tree_seasons_bb_birch_a/06_fall2.jpg)
+![assets/ruffe/09_raw.jpg](../shots/assets/ruffe/09_raw.jpg)
 
-![assets/tree_seasons_bb_birch_a/07_bare.jpg](../shots/assets/tree_seasons_bb_birch_a/07_bare.jpg)
+![assets/ruffe/10_clean.jpg](../shots/assets/ruffe/10_clean.jpg)
 
-![assets/tree_seasons_bb_birch_a/08_snow.jpg](../shots/assets/tree_seasons_bb_birch_a/08_snow.jpg)
+![assets/ruffe/11_lods.jpg](../shots/assets/ruffe/11_lods.jpg)
 
-![assets/tree_seasons_bb_birch_a/09_young.jpg](../shots/assets/tree_seasons_bb_birch_a/09_young.jpg)
+![assets/ruffe/12_silhouette.jpg](../shots/assets/ruffe/12_silhouette.jpg)
 
-![assets/tree_seasons_bb_birch_a/11_growth_map.jpg](../shots/assets/tree_seasons_bb_birch_a/11_growth_map.jpg)
+![assets/ruffe/13_concept.jpg](../shots/assets/ruffe/13_concept.jpg)
 
-![assets/tree_seasons_bb_birch_a/12_grow_25.jpg](../shots/assets/tree_seasons_bb_birch_a/12_grow_25.jpg)
+![assets/sawn_off/01_raw.jpg](../shots/assets/sawn_off/01_raw.jpg)
 
-![assets/tree_seasons_bb_birch_a/13_grow_50.jpg](../shots/assets/tree_seasons_bb_birch_a/13_grow_50.jpg)
+![assets/sawn_off/02_clean.jpg](../shots/assets/sawn_off/02_clean.jpg)
 
-![assets/tree_seasons_bb_birch_a/14_grow_75.jpg](../shots/assets/tree_seasons_bb_birch_a/14_grow_75.jpg)
+![assets/sawn_off/03_lods.jpg](../shots/assets/sawn_off/03_lods.jpg)
 
-![assets/tree_seasons_leaf_birch/01_source.jpg](../shots/assets/tree_seasons_leaf_birch/01_source.jpg)
+![assets/sawn_off/04_silhouette.jpg](../shots/assets/sawn_off/04_silhouette.jpg)
 
-![assets/tree_seasons_leaf_birch/02_green_mask.jpg](../shots/assets/tree_seasons_leaf_birch/02_green_mask.jpg)
+![assets/scrap_bundle/01_concept_sheet.jpg](../shots/assets/scrap_bundle/01_concept_sheet.jpg)
 
-![assets/tree_seasons_leaf_birch/03_leaf_pieces.jpg](../shots/assets/tree_seasons_leaf_birch/03_leaf_pieces.jpg)
+![assets/scrap_bundle/02_tripo_generation.jpg](../shots/assets/scrap_bundle/02_tripo_generation.jpg)
 
-![assets/tree_seasons_leaf_birch/04_fall_order.jpg](../shots/assets/tree_seasons_leaf_birch/04_fall_order.jpg)
+![assets/scrap_bundle/03_raw.jpg](../shots/assets/scrap_bundle/03_raw.jpg)
 
-![assets/tree_seasons_leaf_birch/05_fall1.jpg](../shots/assets/tree_seasons_leaf_birch/05_fall1.jpg)
+![assets/scrap_bundle/04_clean.jpg](../shots/assets/scrap_bundle/04_clean.jpg)
 
-![assets/tree_seasons_leaf_birch/06_fall2.jpg](../shots/assets/tree_seasons_leaf_birch/06_fall2.jpg)
+![assets/scrap_bundle/05_lods.jpg](../shots/assets/scrap_bundle/05_lods.jpg)
 
-![assets/tree_seasons_leaf_birch/07_bare.jpg](../shots/assets/tree_seasons_leaf_birch/07_bare.jpg)
+![assets/scrap_bundle/06_silhouette.jpg](../shots/assets/scrap_bundle/06_silhouette.jpg)
 
-![assets/tree_seasons_leaf_birch/08_snow.jpg](../shots/assets/tree_seasons_leaf_birch/08_snow.jpg)
+![assets/scrap_bundle/07_before_after_decimation.jpg](../shots/assets/scrap_bundle/07_before_after_decimation.jpg)
 
-![assets/tree_seasons_leaf_birch/09_young.jpg](../shots/assets/tree_seasons_leaf_birch/09_young.jpg)
+![assets/searchlight_01/01_raw.jpg](../shots/assets/searchlight_01/01_raw.jpg)
 
-![assets/tree_seasons_leaf_birch/11_growth_map.jpg](../shots/assets/tree_seasons_leaf_birch/11_growth_map.jpg)
+![assets/searchlight_01/02_clean.jpg](../shots/assets/searchlight_01/02_clean.jpg)
 
-![assets/tree_seasons_leaf_birch/12_grow_25.jpg](../shots/assets/tree_seasons_leaf_birch/12_grow_25.jpg)
+![assets/searchlight_01/03_lods.jpg](../shots/assets/searchlight_01/03_lods.jpg)
 
-![assets/tree_seasons_leaf_birch/13_grow_50.jpg](../shots/assets/tree_seasons_leaf_birch/13_grow_50.jpg)
+![assets/searchlight_01/04_silhouette.jpg](../shots/assets/searchlight_01/04_silhouette.jpg)
 
-![assets/tree_seasons_leaf_birch/14_grow_75.jpg](../shots/assets/tree_seasons_leaf_birch/14_grow_75.jpg)
+![assets/sewing_machine_01/01_closeup.jpg](../shots/assets/sewing_machine_01/01_closeup.jpg)
 
-![assets/tree_seasons_leaf_larch/01_source.jpg](../shots/assets/tree_seasons_leaf_larch/01_source.jpg)
+![assets/sewing_machine_01/02_closeup_top.jpg](../shots/assets/sewing_machine_01/02_closeup_top.jpg)
 
-![assets/tree_seasons_leaf_larch/02_green_mask.jpg](../shots/assets/tree_seasons_leaf_larch/02_green_mask.jpg)
+![assets/sewing_machine_01/03_raw.jpg](../shots/assets/sewing_machine_01/03_raw.jpg)
 
-![assets/tree_seasons_leaf_larch/03_leaf_pieces.jpg](../shots/assets/tree_seasons_leaf_larch/03_leaf_pieces.jpg)
+![assets/sewing_machine_01/04_clean.jpg](../shots/assets/sewing_machine_01/04_clean.jpg)
 
-![assets/tree_seasons_leaf_larch/04_fall_order.jpg](../shots/assets/tree_seasons_leaf_larch/04_fall_order.jpg)
+![assets/sewing_machine_01/05_lods.jpg](../shots/assets/sewing_machine_01/05_lods.jpg)
 
-![assets/tree_seasons_leaf_larch/05_fall1.jpg](../shots/assets/tree_seasons_leaf_larch/05_fall1.jpg)
+![assets/shell_12ga/01_raw.jpg](../shots/assets/shell_12ga/01_raw.jpg)
 
-![assets/tree_seasons_leaf_larch/06_fall2.jpg](../shots/assets/tree_seasons_leaf_larch/06_fall2.jpg)
+![assets/shell_12ga/02_clean.jpg](../shots/assets/shell_12ga/02_clean.jpg)

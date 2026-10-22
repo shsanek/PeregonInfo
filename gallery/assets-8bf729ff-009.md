@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/kit_gb_radome/01_blender.jpg](../shots/assets/kit_gb_radome/01_blender.jpg)
+![assets/kit_gb_bld_chapel_wood/01_blender.jpg](../shots/assets/kit_gb_bld_chapel_wood/01_blender.jpg)
 
-![assets/kit_gb_rail_booth/01_blender.jpg](../shots/assets/kit_gb_rail_booth/01_blender.jpg)
+![assets/kit_gb_bld_church_brick/01_blender.jpg](../shots/assets/kit_gb_bld_church_brick/01_blender.jpg)
 
-![assets/kit_gb_rail_platform/01_blender.jpg](../shots/assets/kit_gb_rail_platform/01_blender.jpg)
+![assets/kit_gb_bld_club/01_blender.jpg](../shots/assets/kit_gb_bld_club/01_blender.jpg)
 
-![assets/kit_gb_rail_station/01_blender.jpg](../shots/assets/kit_gb_rail_station/01_blender.jpg)
+![assets/kit_gb_bld_cowshed/01_blender.jpg](../shots/assets/kit_gb_bld_cowshed/01_blender.jpg)
 
-![assets/kit_gb_rail_track_25/01_blender.jpg](../shots/assets/kit_gb_rail_track_25/01_blender.jpg)
+![assets/kit_gb_bld_cowshed_ruin/01_blender.jpg](../shots/assets/kit_gb_bld_cowshed_ruin/01_blender.jpg)
 
-![assets/kit_gb_ribbon_tree/01_blender.jpg](../shots/assets/kit_gb_ribbon_tree/01_blender.jpg)
+![assets/kit_gb_bld_elevator_silos/01_blender.jpg](../shots/assets/kit_gb_bld_elevator_silos/01_blender.jpg)
 
-![assets/kit_gb_rock_gallery_10/01_blender.jpg](../shots/assets/kit_gb_rock_gallery_10/01_blender.jpg)
+![assets/kit_gb_bld_elevator_store/01_blender.jpg](../shots/assets/kit_gb_bld_elevator_store/01_blender.jpg)
 
-![assets/kit_gb_rockslide_patch/01_blender.jpg](../shots/assets/kit_gb_rockslide_patch/01_blender.jpg)
+![assets/kit_gb_bld_elevator_tower/01_blender.jpg](../shots/assets/kit_gb_bld_elevator_tower/01_blender.jpg)
 
-![assets/kit_gb_ruin_brick_3st/01_blender.jpg](../shots/assets/kit_gb_ruin_brick_3st/01_blender.jpg)
+![assets/kit_gb_bld_hangar_mts/01_blender.jpg](../shots/assets/kit_gb_bld_hangar_mts/01_blender.jpg)
 
-![assets/kit_gb_sanatorium_block/01_blender.jpg](../shots/assets/kit_gb_sanatorium_block/01_blender.jpg)
+![assets/kit_gb_bld_izba/01_blender.jpg](../shots/assets/kit_gb_bld_izba/01_blender.jpg)
 
-![assets/kit_gb_sanatorium_tower/01_blender.jpg](../shots/assets/kit_gb_sanatorium_tower/01_blender.jpg)
+![assets/kit_gb_bld_izba_large/01_blender.jpg](../shots/assets/kit_gb_bld_izba_large/01_blender.jpg)
 
-![assets/kit_gb_sandbag_wall/01_blender.jpg](../shots/assets/kit_gb_sandbag_wall/01_blender.jpg)
+![assets/kit_gb_bld_izba_ruin/01_blender.jpg](../shots/assets/kit_gb_bld_izba_ruin/01_blender.jpg)
 
-![assets/kit_gb_scaffold_tower/01_blender.jpg](../shots/assets/kit_gb_scaffold_tower/01_blender.jpg)
+![assets/kit_gb_bld_khrushchyovka_5/01_blender.jpg](../shots/assets/kit_gb_bld_khrushchyovka_5/01_blender.jpg)
 
-![assets/kit_gb_scrap_wall/01_blender.jpg](../shots/assets/kit_gb_scrap_wall/01_blender.jpg)
+![assets/kit_gb_bld_khrushchyovka_5_3e/01_blender.jpg](../shots/assets/kit_gb_bld_khrushchyovka_5_3e/01_blender.jpg)
 
-![assets/kit_gb_sign_post/01_blender.jpg](../shots/assets/kit_gb_sign_post/01_blender.jpg)
+![assets/kit_gb_bld_school/01_blender.jpg](../shots/assets/kit_gb_bld_school/01_blender.jpg)
 
-![assets/kit_gb_sign_settlement/01_blender.jpg](../shots/assets/kit_gb_sign_settlement/01_blender.jpg)
+![assets/kit_gb_bld_shed/01_blender.jpg](../shots/assets/kit_gb_bld_shed/01_blender.jpg)
 
-![assets/kit_gb_spring_pipe/01_blender.jpg](../shots/assets/kit_gb_spring_pipe/01_blender.jpg)
+![assets/kit_gb_bld_shop/01_blender.jpg](../shots/assets/kit_gb_bld_shop/01_blender.jpg)
 
-![assets/kit_gb_stash_marker/01_blender.jpg](../shots/assets/kit_gb_stash_marker/01_blender.jpg)
+![assets/kit_gb_bld_silage_trench/01_blender.jpg](../shots/assets/kit_gb_bld_silage_trench/01_blender.jpg)
 
-![assets/kit_gb_station_mast/01_blender.jpg](../shots/assets/kit_gb_station_mast/01_blender.jpg)
+![assets/kit_gb_boiler_house/01_blender.jpg](../shots/assets/kit_gb_boiler_house/01_blender.jpg)
 
-![assets/kit_gb_station_mast_main/01_blender.jpg](../shots/assets/kit_gb_station_mast_main/01_blender.jpg)
+![assets/kit_gb_boulder_l/01_blender.jpg](../shots/assets/kit_gb_boulder_l/01_blender.jpg)
 
-![assets/kit_gb_station_plinth/01_blender.jpg](../shots/assets/kit_gb_station_plinth/01_blender.jpg)
+![assets/kit_gb_boulder_m/01_blender.jpg](../shots/assets/kit_gb_boulder_m/01_blender.jpg)
 
-![assets/kit_gb_stela/01_blender.jpg](../shots/assets/kit_gb_stela/01_blender.jpg)
+![assets/kit_gb_boulder_s/01_blender.jpg](../shots/assets/kit_gb_boulder_s/01_blender.jpg)
 
-![assets/kit_gb_tank_tower/01_blender.jpg](../shots/assets/kit_gb_tank_tower/01_blender.jpg)
+![assets/kit_gb_br_abutment/01_blender.jpg](../shots/assets/kit_gb_br_abutment/01_blender.jpg)
 
-![assets/kit_gb_tent_tarp/01_blender.jpg](../shots/assets/kit_gb_tent_tarp/01_blender.jpg)
+![assets/kit_gb_br_bailey_10/01_blender.jpg](../shots/assets/kit_gb_br_bailey_10/01_blender.jpg)
 
-![assets/kit_gb_tunnel_portal/01_blender.jpg](../shots/assets/kit_gb_tunnel_portal/01_blender.jpg)
+![assets/kit_gb_br_concrete_span_24/01_blender.jpg](../shots/assets/kit_gb_br_concrete_span_24/01_blender.jpg)
 
-![assets/kit_gb_viewpoint_pullout/01_blender.jpg](../shots/assets/kit_gb_viewpoint_pullout/01_blender.jpg)
+![assets/kit_gb_br_footbridge_suspension/01_blender.jpg](../shots/assets/kit_gb_br_footbridge_suspension/01_blender.jpg)
 
-![assets/kit_gb_watchtower_log/01_blender.jpg](../shots/assets/kit_gb_watchtower_log/01_blender.jpg)
+![assets/kit_gb_br_log_crib/01_blender.jpg](../shots/assets/kit_gb_br_log_crib/01_blender.jpg)
 
-![assets/kit_gb_watchtower_steel/01_blender.jpg](../shots/assets/kit_gb_watchtower_steel/01_blender.jpg)
+![assets/kit_gb_br_pier_concrete/01_blender.jpg](../shots/assets/kit_gb_br_pier_concrete/01_blender.jpg)
 
-![assets/kit_gb_water_tower_brick/01_blender.jpg](../shots/assets/kit_gb_water_tower_brick/01_blender.jpg)
+![assets/kit_gb_br_pier_tall/01_blender.jpg](../shots/assets/kit_gb_br_pier_tall/01_blender.jpg)
 
-![assets/kit_gb_water_tower_rozhnovsky/01_blender.jpg](../shots/assets/kit_gb_water_tower_rozhnovsky/01_blender.jpg)
+![assets/kit_gb_br_timber_span_8/01_blender.jpg](../shots/assets/kit_gb_br_timber_span_8/01_blender.jpg)
 
-![assets/kit_gb_well_hut/01_blender.jpg](../shots/assets/kit_gb_well_hut/01_blender.jpg)
+![assets/kit_gb_br_truss_44/01_blender.jpg](../shots/assets/kit_gb_br_truss_44/01_blender.jpg)
 
-![assets/kit_gb_well_sweep/01_blender.jpg](../shots/assets/kit_gb_well_sweep/01_blender.jpg)
+![assets/kit_gb_br_viaduct_span_30/01_blender.jpg](../shots/assets/kit_gb_br_viaduct_span_30/01_blender.jpg)
 
-![assets/kit_gb_wreck_apc/01_blender.jpg](../shots/assets/kit_gb_wreck_apc/01_blender.jpg)
+![assets/kit_gb_bunker_entrance/01_blender.jpg](../shots/assets/kit_gb_bunker_entrance/01_blender.jpg)
 
-![assets/kit_gb_wreck_buried/01_blender.jpg](../shots/assets/kit_gb_wreck_buried/01_blender.jpg)
+![assets/kit_gb_bus_stop_concrete/01_blender.jpg](../shots/assets/kit_gb_bus_stop_concrete/01_blender.jpg)
 
-![assets/kit_gb_wreck_bus_liaz/01_blender.jpg](../shots/assets/kit_gb_wreck_bus_liaz/01_blender.jpg)
+![assets/kit_gb_cafe_roadside/01_blender.jpg](../shots/assets/kit_gb_cafe_roadside/01_blender.jpg)
 
-![assets/kit_gb_wreck_bus_paz/01_blender.jpg](../shots/assets/kit_gb_wreck_bus_paz/01_blender.jpg)
+![assets/kit_gb_cairn/01_blender.jpg](../shots/assets/kit_gb_cairn/01_blender.jpg)
 
-![assets/kit_gb_wreck_car/01_blender.jpg](../shots/assets/kit_gb_wreck_car/01_blender.jpg)
+![assets/kit_gb_chimney_tpp/01_blender.jpg](../shots/assets/kit_gb_chimney_tpp/01_blender.jpg)
 
-![assets/kit_gb_wreck_combine/01_blender.jpg](../shots/assets/kit_gb_wreck_combine/01_blender.jpg)
+![assets/kit_gb_concrete_block/01_blender.jpg](../shots/assets/kit_gb_concrete_block/01_blender.jpg)
 
-![assets/kit_gb_wreck_tractor/01_blender.jpg](../shots/assets/kit_gb_wreck_tractor/01_blender.jpg)
+![assets/kit_gb_concrete_wall_3m/01_blender.jpg](../shots/assets/kit_gb_concrete_wall_3m/01_blender.jpg)
 
-![assets/kit_gb_wreck_truck/01_blender.jpg](../shots/assets/kit_gb_wreck_truck/01_blender.jpg)
+![assets/kit_gb_container_stack/01_blender.jpg](../shots/assets/kit_gb_container_stack/01_blender.jpg)
 
-![assets/kit_gb_wreck_truck_6x6/01_blender.jpg](../shots/assets/kit_gb_wreck_truck_6x6/01_blender.jpg)
+![assets/kit_gb_container_stall/01_blender.jpg](../shots/assets/kit_gb_container_stall/01_blender.jpg)
 
-![assets/kit_gb_wreck_uaz/01_blender.jpg](../shots/assets/kit_gb_wreck_uaz/01_blender.jpg)
+![assets/kit_gb_conveyor_gantry/01_blender.jpg](../shots/assets/kit_gb_conveyor_gantry/01_blender.jpg)
 
-![assets/kolkhoz_greybox/01_topdown.jpg](../shots/assets/kolkhoz_greybox/01_topdown.jpg)
+![assets/kit_gb_cooling_tower/01_blender.jpg](../shots/assets/kit_gb_cooling_tower/01_blender.jpg)
 
-![assets/kolkhoz_greybox/02_in_game.jpg](../shots/assets/kolkhoz_greybox/02_in_game.jpg)
+![assets/kit_gb_culvert_pipe/01_blender.jpg](../shots/assets/kit_gb_culvert_pipe/01_blender.jpg)
 
-![assets/kolkhoz_greybox/03_village_in_game.jpg](../shots/assets/kolkhoz_greybox/03_village_in_game.jpg)
+![assets/kit_gb_delineator/01_blender.jpg](../shots/assets/kit_gb_delineator/01_blender.jpg)
 
-![assets/lenok/01_concept_sheet.jpg](../shots/assets/lenok/01_concept_sheet.jpg)
+![assets/kit_gb_dish_large/01_blender.jpg](../shots/assets/kit_gb_dish_large/01_blender.jpg)
 
-![assets/lenok/02_generation.jpg](../shots/assets/lenok/02_generation.jpg)
+![assets/kit_gb_fence_gate_village/01_blender.jpg](../shots/assets/kit_gb_fence_gate_village/01_blender.jpg)
 
-![assets/lenok/03_raw.jpg](../shots/assets/lenok/03_raw.jpg)
+![assets/kit_gb_fence_hay_high/01_blender.jpg](../shots/assets/kit_gb_fence_hay_high/01_blender.jpg)
 
-![assets/lenok/04_clean.jpg](../shots/assets/lenok/04_clean.jpg)
+![assets/kit_gb_fence_maral/01_blender.jpg](../shots/assets/kit_gb_fence_maral/01_blender.jpg)
 
-![assets/lenok/05_lods.jpg](../shots/assets/lenok/05_lods.jpg)
+![assets/kit_gb_fence_picket/01_blender.jpg](../shots/assets/kit_gb_fence_picket/01_blender.jpg)
 
-![assets/lenok/06_silhouette.jpg](../shots/assets/lenok/06_silhouette.jpg)
+![assets/kit_gb_fence_post_rail/01_blender.jpg](../shots/assets/kit_gb_fence_post_rail/01_blender.jpg)
 
-![assets/lenok/07_before_after_decimation.jpg](../shots/assets/lenok/07_before_after_decimation.jpg)
+![assets/kit_gb_fence_stone/01_blender.jpg](../shots/assets/kit_gb_fence_stone/01_blender.jpg)
 
-![assets/log/01_concept_sheet.jpg](../shots/assets/log/01_concept_sheet.jpg)
+![assets/kit_gb_ferry_cable/01_blender.jpg](../shots/assets/kit_gb_ferry_cable/01_blender.jpg)
 
-![assets/log/02_tripo_generation.jpg](../shots/assets/log/02_tripo_generation.jpg)
+![assets/kit_gb_fire_barrel/01_blender.jpg](../shots/assets/kit_gb_fire_barrel/01_blender.jpg)
 
-![assets/log/03_raw.jpg](../shots/assets/log/03_raw.jpg)
+![assets/kit_gb_floodlight_mast/01_blender.jpg](../shots/assets/kit_gb_floodlight_mast/01_blender.jpg)
 
-![assets/log/04_clean.jpg](../shots/assets/log/04_clean.jpg)
+![assets/kit_gb_fuel_canopy/01_blender.jpg](../shots/assets/kit_gb_fuel_canopy/01_blender.jpg)
 
-![assets/log/05_lods.jpg](../shots/assets/log/05_lods.jpg)
+![assets/kit_gb_fuel_kiosk/01_blender.jpg](../shots/assets/kit_gb_fuel_kiosk/01_blender.jpg)
 
-![assets/log/06_silhouette.jpg](../shots/assets/log/06_silhouette.jpg)
+![assets/kit_gb_fuel_tank_above/01_blender.jpg](../shots/assets/kit_gb_fuel_tank_above/01_blender.jpg)
 
-![assets/log/07_before_after_decimation.jpg](../shots/assets/log/07_before_after_decimation.jpg)
+![assets/kit_gb_gai_post/01_blender.jpg](../shots/assets/kit_gb_gai_post/01_blender.jpg)
 
-![assets/log/08_raw.jpg](../shots/assets/log/08_raw.jpg)
+![assets/kit_gb_gantry_crane/01_blender.jpg](../shots/assets/kit_gb_gantry_crane/01_blender.jpg)

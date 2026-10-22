@@ -2,6 +2,26 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
+![assets/air_compressor_01/01_closeup.jpg](../shots/assets/air_compressor_01/01_closeup.jpg)
+
+![assets/air_compressor_01/02_closeup_top.jpg](../shots/assets/air_compressor_01/02_closeup_top.jpg)
+
+![assets/air_compressor_01/03_raw.jpg](../shots/assets/air_compressor_01/03_raw.jpg)
+
+![assets/air_compressor_01/04_clean.jpg](../shots/assets/air_compressor_01/04_clean.jpg)
+
+![assets/air_compressor_01/05_lods.jpg](../shots/assets/air_compressor_01/05_lods.jpg)
+
+![assets/air_compressor_01/06_closeup.jpg](../shots/assets/air_compressor_01/06_closeup.jpg)
+
+![assets/air_compressor_01/07_closeup_top.jpg](../shots/assets/air_compressor_01/07_closeup_top.jpg)
+
+![assets/air_compressor_01/08_raw.jpg](../shots/assets/air_compressor_01/08_raw.jpg)
+
+![assets/air_compressor_01/09_clean.jpg](../shots/assets/air_compressor_01/09_clean.jpg)
+
+![assets/air_compressor_01/10_lods.jpg](../shots/assets/air_compressor_01/10_lods.jpg)
+
 ![assets/ammo_can/01_concept_sheet.jpg](../shots/assets/ammo_can/01_concept_sheet.jpg)
 
 ![assets/ammo_can/02_tripo_generation.jpg](../shots/assets/ammo_can/02_tripo_generation.jpg)
@@ -64,6 +84,36 @@
 
 ![assets/ballast_sack/05_lods.jpg](../shots/assets/ballast_sack/05_lods.jpg)
 
+![assets/battery_charger_01/01_closeup.jpg](../shots/assets/battery_charger_01/01_closeup.jpg)
+
+![assets/battery_charger_01/02_closeup_top.jpg](../shots/assets/battery_charger_01/02_closeup_top.jpg)
+
+![assets/battery_charger_01/03_raw.jpg](../shots/assets/battery_charger_01/03_raw.jpg)
+
+![assets/battery_charger_01/04_clean.jpg](../shots/assets/battery_charger_01/04_clean.jpg)
+
+![assets/battery_charger_01/05_lods.jpg](../shots/assets/battery_charger_01/05_lods.jpg)
+
+![assets/battery_charger_01/06_closeup.jpg](../shots/assets/battery_charger_01/06_closeup.jpg)
+
+![assets/battery_charger_01/07_closeup_top.jpg](../shots/assets/battery_charger_01/07_closeup_top.jpg)
+
+![assets/battery_charger_01/08_raw.jpg](../shots/assets/battery_charger_01/08_raw.jpg)
+
+![assets/battery_charger_01/09_clean.jpg](../shots/assets/battery_charger_01/09_clean.jpg)
+
+![assets/battery_charger_01/10_lods.jpg](../shots/assets/battery_charger_01/10_lods.jpg)
+
+![assets/battery_charger_01/11_closeup.jpg](../shots/assets/battery_charger_01/11_closeup.jpg)
+
+![assets/battery_charger_01/12_closeup_top.jpg](../shots/assets/battery_charger_01/12_closeup_top.jpg)
+
+![assets/battery_charger_01/13_raw.jpg](../shots/assets/battery_charger_01/13_raw.jpg)
+
+![assets/battery_charger_01/14_clean.jpg](../shots/assets/battery_charger_01/14_clean.jpg)
+
+![assets/battery_charger_01/15_lods.jpg](../shots/assets/battery_charger_01/15_lods.jpg)
+
 ![assets/bird_bean_goose/01_raw.jpg](../shots/assets/bird_bean_goose/01_raw.jpg)
 
 ![assets/bird_bean_goose/02_clean.jpg](../shots/assets/bird_bean_goose/02_clean.jpg)
@@ -71,53 +121,3 @@
 ![assets/bird_bean_goose/03_lods.jpg](../shots/assets/bird_bean_goose/03_lods.jpg)
 
 ![assets/bird_hazel_grouse/01_raw.jpg](../shots/assets/bird_hazel_grouse/01_raw.jpg)
-
-![assets/bird_hazel_grouse/02_clean.jpg](../shots/assets/bird_hazel_grouse/02_clean.jpg)
-
-![assets/bird_hazel_grouse/03_lods.jpg](../shots/assets/bird_hazel_grouse/03_lods.jpg)
-
-![assets/bird_mallard/01_raw.jpg](../shots/assets/bird_mallard/01_raw.jpg)
-
-![assets/bird_mallard/02_clean.jpg](../shots/assets/bird_mallard/02_clean.jpg)
-
-![assets/bird_mallard/03_lods.jpg](../shots/assets/bird_mallard/03_lods.jpg)
-
-![assets/bird_teal/01_raw.jpg](../shots/assets/bird_teal/01_raw.jpg)
-
-![assets/bird_teal/02_clean.jpg](../shots/assets/bird_teal/02_clean.jpg)
-
-![assets/bird_teal/03_lods.jpg](../shots/assets/bird_teal/03_lods.jpg)
-
-![assets/board_bundle/01_raw.jpg](../shots/assets/board_bundle/01_raw.jpg)
-
-![assets/board_bundle/02_clean.jpg](../shots/assets/board_bundle/02_clean.jpg)
-
-![assets/board_bundle/03_lods.jpg](../shots/assets/board_bundle/03_lods.jpg)
-
-![assets/board_bundle/04_before_after_decimation.jpg](../shots/assets/board_bundle/04_before_after_decimation.jpg)
-
-![assets/board_bundle/05_raw.jpg](../shots/assets/board_bundle/05_raw.jpg)
-
-![assets/board_bundle/06_clean.jpg](../shots/assets/board_bundle/06_clean.jpg)
-
-![assets/board_bundle/07_lods.jpg](../shots/assets/board_bundle/07_lods.jpg)
-
-![assets/board_bundle/08_before_after_decimation.jpg](../shots/assets/board_bundle/08_before_after_decimation.jpg)
-
-![assets/boat_bag/01_concept_sheet.jpg](../shots/assets/boat_bag/01_concept_sheet.jpg)
-
-![assets/boat_bag/02_tripo_generation.jpg](../shots/assets/boat_bag/02_tripo_generation.jpg)
-
-![assets/boat_bag/03_raw.jpg](../shots/assets/boat_bag/03_raw.jpg)
-
-![assets/boat_bag/04_clean.jpg](../shots/assets/boat_bag/04_clean.jpg)
-
-![assets/boat_bag/05_lods.jpg](../shots/assets/boat_bag/05_lods.jpg)
-
-![assets/boat_bag/06_silhouette.jpg](../shots/assets/boat_bag/06_silhouette.jpg)
-
-![assets/boat_bag/07_before_after_decimation.jpg](../shots/assets/boat_bag/07_before_after_decimation.jpg)
-
-![assets/boulder_01/01_raw.jpg](../shots/assets/boulder_01/01_raw.jpg)
-
-![assets/boulder_01/02_clean.jpg](../shots/assets/boulder_01/02_clean.jpg)

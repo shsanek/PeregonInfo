@@ -2,6 +2,56 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
+![assets/car_battery/06_silhouette.jpg](../shots/assets/car_battery/06_silhouette.jpg)
+
+![assets/car_battery/07_before_after_decimation.jpg](../shots/assets/car_battery/07_before_after_decimation.jpg)
+
+![assets/car_battery/08_raw.jpg](../shots/assets/car_battery/08_raw.jpg)
+
+![assets/car_battery/09_clean.jpg](../shots/assets/car_battery/09_clean.jpg)
+
+![assets/car_battery/10_lods.jpg](../shots/assets/car_battery/10_lods.jpg)
+
+![assets/car_battery/11_silhouette.jpg](../shots/assets/car_battery/11_silhouette.jpg)
+
+![assets/car_battery/12_before_after_decimation.jpg](../shots/assets/car_battery/12_before_after_decimation.jpg)
+
+![assets/car_seat_sofa_01/01_raw.jpg](../shots/assets/car_seat_sofa_01/01_raw.jpg)
+
+![assets/car_seat_sofa_01/02_clean.jpg](../shots/assets/car_seat_sofa_01/02_clean.jpg)
+
+![assets/car_seat_sofa_01/03_lods.jpg](../shots/assets/car_seat_sofa_01/03_lods.jpg)
+
+![assets/car_seat_sofa_01/04_silhouette.jpg](../shots/assets/car_seat_sofa_01/04_silhouette.jpg)
+
+![assets/characters_grisha/00_original.jpg](../shots/assets/characters_grisha/00_original.jpg)
+
+![assets/characters_grisha/01_cleaned.jpg](../shots/assets/characters_grisha/01_cleaned.jpg)
+
+![assets/characters_grisha/02_eyes.jpg](../shots/assets/characters_grisha/02_eyes.jpg)
+
+![assets/characters_grisha/03_retopo.jpg](../shots/assets/characters_grisha/03_retopo.jpg)
+
+![assets/characters_grisha/04_materials.jpg](../shots/assets/characters_grisha/04_materials.jpg)
+
+![assets/characters_grisha/05_rigged.jpg](../shots/assets/characters_grisha/05_rigged.jpg)
+
+![assets/characters_grisha/06_anim.jpg](../shots/assets/characters_grisha/06_anim.jpg)
+
+![assets/characters_grisha/07_ingame.jpg](../shots/assets/characters_grisha/07_ingame.jpg)
+
+![assets/chemical_canister/01_concept_sheet.jpg](../shots/assets/chemical_canister/01_concept_sheet.jpg)
+
+![assets/chemical_canister/02_tripo_generation.jpg](../shots/assets/chemical_canister/02_tripo_generation.jpg)
+
+![assets/chemical_canister/03_raw.jpg](../shots/assets/chemical_canister/03_raw.jpg)
+
+![assets/chemical_canister/04_clean.jpg](../shots/assets/chemical_canister/04_clean.jpg)
+
+![assets/chemical_canister/05_lods.jpg](../shots/assets/chemical_canister/05_lods.jpg)
+
+![assets/chemical_canister/06_silhouette.jpg](../shots/assets/chemical_canister/06_silhouette.jpg)
+
 ![assets/chemical_canister/07_before_after_decimation.jpg](../shots/assets/chemical_canister/07_before_after_decimation.jpg)
 
 ![assets/coal_bear/01_raw.jpg](../shots/assets/coal_bear/01_raw.jpg)
@@ -40,84 +90,34 @@
 
 ![assets/dace/05_concept.jpg](../shots/assets/dace/05_concept.jpg)
 
-![assets/draisine/01_raw.jpg](../shots/assets/draisine/01_raw.jpg)
+![assets/doc_book_01/01_closeup.jpg](../shots/assets/doc_book_01/01_closeup.jpg)
 
-![assets/draisine/02_clean.jpg](../shots/assets/draisine/02_clean.jpg)
+![assets/doc_book_01/02_closeup_top.jpg](../shots/assets/doc_book_01/02_closeup_top.jpg)
 
-![assets/draisine/03_lods.jpg](../shots/assets/draisine/03_lods.jpg)
+![assets/doc_book_01/03_raw.jpg](../shots/assets/doc_book_01/03_raw.jpg)
 
-![assets/electronics_box/01_concept_sheet.jpg](../shots/assets/electronics_box/01_concept_sheet.jpg)
+![assets/doc_book_01/04_clean.jpg](../shots/assets/doc_book_01/04_clean.jpg)
 
-![assets/electronics_box/02_tripo_generation.jpg](../shots/assets/electronics_box/02_tripo_generation.jpg)
+![assets/doc_book_01/05_lods.jpg](../shots/assets/doc_book_01/05_lods.jpg)
 
-![assets/electronics_box/03_raw.jpg](../shots/assets/electronics_box/03_raw.jpg)
+![assets/doc_book_02/01_closeup.jpg](../shots/assets/doc_book_02/01_closeup.jpg)
 
-![assets/electronics_box/04_clean.jpg](../shots/assets/electronics_box/04_clean.jpg)
+![assets/doc_book_02/02_closeup_top.jpg](../shots/assets/doc_book_02/02_closeup_top.jpg)
 
-![assets/electronics_box/05_lods.jpg](../shots/assets/electronics_box/05_lods.jpg)
+![assets/doc_book_02/03_raw.jpg](../shots/assets/doc_book_02/03_raw.jpg)
 
-![assets/electronics_box/06_silhouette.jpg](../shots/assets/electronics_box/06_silhouette.jpg)
+![assets/doc_book_02/04_clean.jpg](../shots/assets/doc_book_02/04_clean.jpg)
 
-![assets/electronics_box/07_before_after_decimation.jpg](../shots/assets/electronics_box/07_before_after_decimation.jpg)
+![assets/doc_book_02/05_lods.jpg](../shots/assets/doc_book_02/05_lods.jpg)
 
-![assets/electronics_box/08_raw.jpg](../shots/assets/electronics_box/08_raw.jpg)
+![assets/doc_folder_01/01_closeup.jpg](../shots/assets/doc_folder_01/01_closeup.jpg)
 
-![assets/electronics_box/09_clean.jpg](../shots/assets/electronics_box/09_clean.jpg)
+![assets/doc_folder_01/02_closeup_top.jpg](../shots/assets/doc_folder_01/02_closeup_top.jpg)
 
-![assets/electronics_box/10_lods.jpg](../shots/assets/electronics_box/10_lods.jpg)
+![assets/doc_folder_01/03_raw.jpg](../shots/assets/doc_folder_01/03_raw.jpg)
 
-![assets/electronics_box/11_silhouette.jpg](../shots/assets/electronics_box/11_silhouette.jpg)
+![assets/doc_folder_01/04_clean.jpg](../shots/assets/doc_folder_01/04_clean.jpg)
 
-![assets/electronics_box/12_before_after_decimation.jpg](../shots/assets/electronics_box/12_before_after_decimation.jpg)
+![assets/doc_folder_01/05_lods.jpg](../shots/assets/doc_folder_01/05_lods.jpg)
 
-![assets/engine_hoist_01/01_raw.jpg](../shots/assets/engine_hoist_01/01_raw.jpg)
-
-![assets/engine_hoist_01/02_clean.jpg](../shots/assets/engine_hoist_01/02_clean.jpg)
-
-![assets/engine_hoist_01/03_lods.jpg](../shots/assets/engine_hoist_01/03_lods.jpg)
-
-![assets/engine_hoist_01/04_silhouette.jpg](../shots/assets/engine_hoist_01/04_silhouette.jpg)
-
-![assets/firewood_01/01_raw.jpg](../shots/assets/firewood_01/01_raw.jpg)
-
-![assets/firewood_01/02_clean.jpg](../shots/assets/firewood_01/02_clean.jpg)
-
-![assets/firewood_01/03_lods.jpg](../shots/assets/firewood_01/03_lods.jpg)
-
-![assets/firewood_01/04_silhouette.jpg](../shots/assets/firewood_01/04_silhouette.jpg)
-
-![assets/firewood_01/05_raw.jpg](../shots/assets/firewood_01/05_raw.jpg)
-
-![assets/firewood_01/06_clean.jpg](../shots/assets/firewood_01/06_clean.jpg)
-
-![assets/firewood_01/07_lods.jpg](../shots/assets/firewood_01/07_lods.jpg)
-
-![assets/firewood_01/08_silhouette.jpg](../shots/assets/firewood_01/08_silhouette.jpg)
-
-![assets/firewood_bundle/01_concept_sheet.jpg](../shots/assets/firewood_bundle/01_concept_sheet.jpg)
-
-![assets/firewood_bundle/02_tripo_generation.jpg](../shots/assets/firewood_bundle/02_tripo_generation.jpg)
-
-![assets/firewood_bundle/03_raw.jpg](../shots/assets/firewood_bundle/03_raw.jpg)
-
-![assets/firewood_bundle/04_clean.jpg](../shots/assets/firewood_bundle/04_clean.jpg)
-
-![assets/firewood_bundle/05_lods.jpg](../shots/assets/firewood_bundle/05_lods.jpg)
-
-![assets/firewood_bundle/06_silhouette.jpg](../shots/assets/firewood_bundle/06_silhouette.jpg)
-
-![assets/firewood_bundle/07_before_after_decimation.jpg](../shots/assets/firewood_bundle/07_before_after_decimation.jpg)
-
-![assets/firewood_bundle/08_raw.jpg](../shots/assets/firewood_bundle/08_raw.jpg)
-
-![assets/firewood_bundle/09_clean.jpg](../shots/assets/firewood_bundle/09_clean.jpg)
-
-![assets/firewood_bundle/10_lods.jpg](../shots/assets/firewood_bundle/10_lods.jpg)
-
-![assets/firewood_bundle/11_silhouette.jpg](../shots/assets/firewood_bundle/11_silhouette.jpg)
-
-![assets/firewood_bundle/12_before_after_decimation.jpg](../shots/assets/firewood_bundle/12_before_after_decimation.jpg)
-
-![assets/fish_box/01_concept_sheet.jpg](../shots/assets/fish_box/01_concept_sheet.jpg)
-
-![assets/fish_box/02_tripo_generation.jpg](../shots/assets/fish_box/02_tripo_generation.jpg)
+![assets/doc_folder_01/06_closeup.jpg](../shots/assets/doc_folder_01/06_closeup.jpg)

@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/tree_seasons_leaf_larch/07_bare.jpg](../shots/assets/tree_seasons_leaf_larch/07_bare.jpg)
+![assets/shell_12ga/03_lods.jpg](../shots/assets/shell_12ga/03_lods.jpg)
 
-![assets/tree_seasons_leaf_larch/08_snow.jpg](../shots/assets/tree_seasons_leaf_larch/08_snow.jpg)
+![assets/shell_box/01_concept_sheet.jpg](../shots/assets/shell_box/01_concept_sheet.jpg)
 
-![assets/tree_seasons_leaf_larch/09_young.jpg](../shots/assets/tree_seasons_leaf_larch/09_young.jpg)
+![assets/shell_box/02_tripo_generation.jpg](../shots/assets/shell_box/02_tripo_generation.jpg)
 
-![assets/tree_seasons_leaf_larch/11_growth_map.jpg](../shots/assets/tree_seasons_leaf_larch/11_growth_map.jpg)
+![assets/shell_box/03_raw.jpg](../shots/assets/shell_box/03_raw.jpg)
 
-![assets/tree_seasons_leaf_larch/12_grow_25.jpg](../shots/assets/tree_seasons_leaf_larch/12_grow_25.jpg)
+![assets/shell_box/04_clean.jpg](../shots/assets/shell_box/04_clean.jpg)
 
-![assets/tree_seasons_leaf_larch/13_grow_50.jpg](../shots/assets/tree_seasons_leaf_larch/13_grow_50.jpg)
+![assets/shell_box/05_lods.jpg](../shots/assets/shell_box/05_lods.jpg)
 
-![assets/tree_seasons_leaf_larch/14_grow_75.jpg](../shots/assets/tree_seasons_leaf_larch/14_grow_75.jpg)
+![assets/shell_box/06_silhouette.jpg](../shots/assets/shell_box/06_silhouette.jpg)
 
-![assets/tree_seasons_leaf_shrubs/01_source.jpg](../shots/assets/tree_seasons_leaf_shrubs/01_source.jpg)
+![assets/shell_box/07_before_after_decimation.jpg](../shots/assets/shell_box/07_before_after_decimation.jpg)
 
-![assets/tree_seasons_leaf_shrubs/02_green_mask.jpg](../shots/assets/tree_seasons_leaf_shrubs/02_green_mask.jpg)
+![assets/shell_box/08_raw.jpg](../shots/assets/shell_box/08_raw.jpg)
 
-![assets/tree_seasons_leaf_shrubs/03_leaf_pieces.jpg](../shots/assets/tree_seasons_leaf_shrubs/03_leaf_pieces.jpg)
+![assets/shell_box/09_clean.jpg](../shots/assets/shell_box/09_clean.jpg)
 
-![assets/tree_seasons_leaf_shrubs/04_fall_order.jpg](../shots/assets/tree_seasons_leaf_shrubs/04_fall_order.jpg)
+![assets/shell_box/10_lods.jpg](../shots/assets/shell_box/10_lods.jpg)
 
-![assets/tree_seasons_leaf_shrubs/05_fall1.jpg](../shots/assets/tree_seasons_leaf_shrubs/05_fall1.jpg)
+![assets/shell_box/11_silhouette.jpg](../shots/assets/shell_box/11_silhouette.jpg)
 
-![assets/tree_seasons_leaf_shrubs/06_fall2.jpg](../shots/assets/tree_seasons_leaf_shrubs/06_fall2.jpg)
+![assets/shell_box/12_before_after_decimation.jpg](../shots/assets/shell_box/12_before_after_decimation.jpg)
 
-![assets/tree_seasons_leaf_shrubs/07_bare.jpg](../shots/assets/tree_seasons_leaf_shrubs/07_bare.jpg)
+![assets/shovel/01_concept_sheet.jpg](../shots/assets/shovel/01_concept_sheet.jpg)
 
-![assets/tree_seasons_leaf_shrubs/08_snow.jpg](../shots/assets/tree_seasons_leaf_shrubs/08_snow.jpg)
+![assets/shovel/02_tripo_generation.jpg](../shots/assets/shovel/02_tripo_generation.jpg)
 
-![assets/tree_seasons_leaf_shrubs/09_young.jpg](../shots/assets/tree_seasons_leaf_shrubs/09_young.jpg)
+![assets/shovel/03_raw.jpg](../shots/assets/shovel/03_raw.jpg)
 
-![assets/tree_seasons_leaf_shrubs/10_blossom.jpg](../shots/assets/tree_seasons_leaf_shrubs/10_blossom.jpg)
+![assets/shovel/04_clean.jpg](../shots/assets/shovel/04_clean.jpg)
 
-![assets/tree_seasons_leaf_shrubs/11_growth_map.jpg](../shots/assets/tree_seasons_leaf_shrubs/11_growth_map.jpg)
+![assets/shovel/05_lods.jpg](../shots/assets/shovel/05_lods.jpg)
 
-![assets/tree_seasons_leaf_shrubs/12_grow_25.jpg](../shots/assets/tree_seasons_leaf_shrubs/12_grow_25.jpg)
+![assets/shovel/06_silhouette.jpg](../shots/assets/shovel/06_silhouette.jpg)
 
-![assets/tree_seasons_leaf_shrubs/13_grow_50.jpg](../shots/assets/tree_seasons_leaf_shrubs/13_grow_50.jpg)
+![assets/shovel/07_before_after_decimation.jpg](../shots/assets/shovel/07_before_after_decimation.jpg)
 
-![assets/tree_seasons_leaf_shrubs/14_grow_75.jpg](../shots/assets/tree_seasons_leaf_shrubs/14_grow_75.jpg)
+![assets/shovel/08_in_game.jpg](../shots/assets/shovel/08_in_game.jpg)
 
-![assets/trophy_pole_01/01_raw.jpg](../shots/assets/trophy_pole_01/01_raw.jpg)
+![assets/smith_anvil_01/01_closeup.jpg](../shots/assets/smith_anvil_01/01_closeup.jpg)
 
-![assets/trophy_pole_01/02_clean.jpg](../shots/assets/trophy_pole_01/02_clean.jpg)
+![assets/smith_anvil_01/02_closeup_top.jpg](../shots/assets/smith_anvil_01/02_closeup_top.jpg)
 
-![assets/trophy_pole_01/03_lods.jpg](../shots/assets/trophy_pole_01/03_lods.jpg)
+![assets/smith_anvil_01/03_raw.jpg](../shots/assets/smith_anvil_01/03_raw.jpg)
 
-![assets/trophy_pole_01/04_silhouette.jpg](../shots/assets/trophy_pole_01/04_silhouette.jpg)
+![assets/smith_anvil_01/04_clean.jpg](../shots/assets/smith_anvil_01/04_clean.jpg)
 
-![assets/truck_bed/01_raw.jpg](../shots/assets/truck_bed/01_raw.jpg)
+![assets/smith_anvil_01/05_lods.jpg](../shots/assets/smith_anvil_01/05_lods.jpg)
 
-![assets/truck_bed/02_clean.jpg](../shots/assets/truck_bed/02_clean.jpg)
+![assets/station_crate_01/01_closeup.jpg](../shots/assets/station_crate_01/01_closeup.jpg)
 
-![assets/truck_bed/03_lods.jpg](../shots/assets/truck_bed/03_lods.jpg)
+![assets/station_crate_01/02_closeup_top.jpg](../shots/assets/station_crate_01/02_closeup_top.jpg)
 
-![assets/truck_bed/04_silhouette.jpg](../shots/assets/truck_bed/04_silhouette.jpg)
+![assets/station_crate_01/03_raw.jpg](../shots/assets/station_crate_01/03_raw.jpg)
 
-![assets/truck_blanket/01_raw.jpg](../shots/assets/truck_blanket/01_raw.jpg)
+![assets/station_crate_01/04_clean.jpg](../shots/assets/station_crate_01/04_clean.jpg)
 
-![assets/truck_blanket/02_clean.jpg](../shots/assets/truck_blanket/02_clean.jpg)
+![assets/station_crate_01/05_lods.jpg](../shots/assets/station_crate_01/05_lods.jpg)
 
-![assets/truck_blanket/03_lods.jpg](../shots/assets/truck_blanket/03_lods.jpg)
+![assets/station_crate_01/06_closeup.jpg](../shots/assets/station_crate_01/06_closeup.jpg)
 
-![assets/truck_blanket/04_raw.jpg](../shots/assets/truck_blanket/04_raw.jpg)
+![assets/station_crate_01/07_closeup_top.jpg](../shots/assets/station_crate_01/07_closeup_top.jpg)
 
-![assets/truck_blanket/05_clean.jpg](../shots/assets/truck_blanket/05_clean.jpg)
+![assets/station_crate_01/08_raw.jpg](../shots/assets/station_crate_01/08_raw.jpg)
 
-![assets/truck_blanket/06_lods.jpg](../shots/assets/truck_blanket/06_lods.jpg)
+![assets/station_crate_01/09_clean.jpg](../shots/assets/station_crate_01/09_clean.jpg)
 
-![assets/truck_cab/01_raw.jpg](../shots/assets/truck_cab/01_raw.jpg)
+![assets/station_crate_01/10_lods.jpg](../shots/assets/station_crate_01/10_lods.jpg)
 
-![assets/truck_cab/02_clean.jpg](../shots/assets/truck_cab/02_clean.jpg)
+![assets/station_crate_01/11_closeup.jpg](../shots/assets/station_crate_01/11_closeup.jpg)
 
-![assets/truck_cab/03_lods.jpg](../shots/assets/truck_cab/03_lods.jpg)
+![assets/station_crate_01/12_closeup_top.jpg](../shots/assets/station_crate_01/12_closeup_top.jpg)
 
-![assets/truck_cab/04_silhouette.jpg](../shots/assets/truck_cab/04_silhouette.jpg)
+![assets/station_crate_01/13_raw.jpg](../shots/assets/station_crate_01/13_raw.jpg)
 
-![assets/truck_cab/05_raw.jpg](../shots/assets/truck_cab/05_raw.jpg)
+![assets/station_crate_01/14_clean.jpg](../shots/assets/station_crate_01/14_clean.jpg)
 
-![assets/truck_cab/06_clean.jpg](../shots/assets/truck_cab/06_clean.jpg)
+![assets/station_crate_01/15_lods.jpg](../shots/assets/station_crate_01/15_lods.jpg)
 
-![assets/truck_cab/07_lods.jpg](../shots/assets/truck_cab/07_lods.jpg)
+![assets/station_crate_long_01/01_closeup.jpg](../shots/assets/station_crate_long_01/01_closeup.jpg)
 
-![assets/truck_cab/08_silhouette.jpg](../shots/assets/truck_cab/08_silhouette.jpg)
+![assets/station_crate_long_01/02_closeup_top.jpg](../shots/assets/station_crate_long_01/02_closeup_top.jpg)
 
-![assets/truck_cab/09_raw.jpg](../shots/assets/truck_cab/09_raw.jpg)
+![assets/station_crate_long_01/03_raw.jpg](../shots/assets/station_crate_long_01/03_raw.jpg)
 
-![assets/truck_cab/10_clean.jpg](../shots/assets/truck_cab/10_clean.jpg)
+![assets/station_crate_long_01/04_clean.jpg](../shots/assets/station_crate_long_01/04_clean.jpg)
 
-![assets/truck_cab/11_lods.jpg](../shots/assets/truck_cab/11_lods.jpg)
+![assets/station_crate_long_01/05_lods.jpg](../shots/assets/station_crate_long_01/05_lods.jpg)
 
-![assets/truck_cab/12_silhouette.jpg](../shots/assets/truck_cab/12_silhouette.jpg)
+![assets/station_crate_long_01/06_closeup.jpg](../shots/assets/station_crate_long_01/06_closeup.jpg)
 
-![assets/truck_cab/13_raw.jpg](../shots/assets/truck_cab/13_raw.jpg)
+![assets/station_crate_long_01/07_closeup_top.jpg](../shots/assets/station_crate_long_01/07_closeup_top.jpg)
 
-![assets/truck_cab/14_clean.jpg](../shots/assets/truck_cab/14_clean.jpg)
+![assets/station_crate_long_01/08_raw.jpg](../shots/assets/station_crate_long_01/08_raw.jpg)
 
-![assets/truck_cab/15_lods.jpg](../shots/assets/truck_cab/15_lods.jpg)
+![assets/station_crate_long_01/09_clean.jpg](../shots/assets/station_crate_long_01/09_clean.jpg)
 
-![assets/truck_cab/16_silhouette.jpg](../shots/assets/truck_cab/16_silhouette.jpg)
+![assets/station_crate_long_01/10_lods.jpg](../shots/assets/station_crate_long_01/10_lods.jpg)
 
-![assets/truck_cab/17_raw.jpg](../shots/assets/truck_cab/17_raw.jpg)
+![assets/station_crate_long_01/11_closeup.jpg](../shots/assets/station_crate_long_01/11_closeup.jpg)
 
-![assets/truck_cab/18_clean.jpg](../shots/assets/truck_cab/18_clean.jpg)
+![assets/station_crate_long_01/12_closeup_top.jpg](../shots/assets/station_crate_long_01/12_closeup_top.jpg)
 
-![assets/truck_cab/19_lods.jpg](../shots/assets/truck_cab/19_lods.jpg)
+![assets/station_crate_long_01/13_raw.jpg](../shots/assets/station_crate_long_01/13_raw.jpg)
 
-![assets/truck_cab/20_silhouette.jpg](../shots/assets/truck_cab/20_silhouette.jpg)
+![assets/station_crate_long_01/14_clean.jpg](../shots/assets/station_crate_long_01/14_clean.jpg)
 
-![assets/truck_cab/21_raw.jpg](../shots/assets/truck_cab/21_raw.jpg)
+![assets/station_crate_long_01/15_lods.jpg](../shots/assets/station_crate_long_01/15_lods.jpg)
 
-![assets/truck_cab/22_clean.jpg](../shots/assets/truck_cab/22_clean.jpg)
+![assets/station_pallet_01/01_closeup.jpg](../shots/assets/station_pallet_01/01_closeup.jpg)
 
-![assets/truck_cab/23_lods.jpg](../shots/assets/truck_cab/23_lods.jpg)
+![assets/station_pallet_01/02_closeup_top.jpg](../shots/assets/station_pallet_01/02_closeup_top.jpg)
 
-![assets/truck_cab/24_silhouette.jpg](../shots/assets/truck_cab/24_silhouette.jpg)
+![assets/station_pallet_01/03_raw.jpg](../shots/assets/station_pallet_01/03_raw.jpg)
 
-![assets/truck_cab/25_raw.jpg](../shots/assets/truck_cab/25_raw.jpg)
+![assets/station_pallet_01/04_clean.jpg](../shots/assets/station_pallet_01/04_clean.jpg)

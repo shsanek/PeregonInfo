@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/fish_box/03_raw.jpg](../shots/assets/fish_box/03_raw.jpg)
+![assets/doc_folder_01/07_closeup_top.jpg](../shots/assets/doc_folder_01/07_closeup_top.jpg)
 
-![assets/fish_box/04_clean.jpg](../shots/assets/fish_box/04_clean.jpg)
+![assets/doc_folder_01/08_raw.jpg](../shots/assets/doc_folder_01/08_raw.jpg)
 
-![assets/fish_box/05_lods.jpg](../shots/assets/fish_box/05_lods.jpg)
+![assets/doc_folder_01/09_clean.jpg](../shots/assets/doc_folder_01/09_clean.jpg)
 
-![assets/fish_box/06_silhouette.jpg](../shots/assets/fish_box/06_silhouette.jpg)
+![assets/doc_folder_01/10_lods.jpg](../shots/assets/doc_folder_01/10_lods.jpg)
 
-![assets/fish_box/07_before_after_decimation.jpg](../shots/assets/fish_box/07_before_after_decimation.jpg)
+![assets/doc_notebook_01/01_closeup.jpg](../shots/assets/doc_notebook_01/01_closeup.jpg)
 
-![assets/fishing_rod/01_raw.jpg](../shots/assets/fishing_rod/01_raw.jpg)
+![assets/doc_notebook_01/02_closeup_top.jpg](../shots/assets/doc_notebook_01/02_closeup_top.jpg)
 
-![assets/fishing_rod/02_clean.jpg](../shots/assets/fishing_rod/02_clean.jpg)
+![assets/doc_notebook_01/03_raw.jpg](../shots/assets/doc_notebook_01/03_raw.jpg)
 
-![assets/fishing_rod/03_lods.jpg](../shots/assets/fishing_rod/03_lods.jpg)
+![assets/doc_notebook_01/04_clean.jpg](../shots/assets/doc_notebook_01/04_clean.jpg)
 
-![assets/fishing_rod/04_before_after_decimation.jpg](../shots/assets/fishing_rod/04_before_after_decimation.jpg)
+![assets/doc_notebook_01/05_lods.jpg](../shots/assets/doc_notebook_01/05_lods.jpg)
 
-![assets/food_items/01_raw.jpg](../shots/assets/food_items/01_raw.jpg)
+![assets/doc_notebook_01/06_closeup.jpg](../shots/assets/doc_notebook_01/06_closeup.jpg)
 
-![assets/food_items/02_clean.jpg](../shots/assets/food_items/02_clean.jpg)
+![assets/doc_notebook_01/07_closeup_top.jpg](../shots/assets/doc_notebook_01/07_closeup_top.jpg)
 
-![assets/food_items/03_lods.jpg](../shots/assets/food_items/03_lods.jpg)
+![assets/doc_notebook_01/08_raw.jpg](../shots/assets/doc_notebook_01/08_raw.jpg)
 
-![assets/food_kit/01_raw.jpg](../shots/assets/food_kit/01_raw.jpg)
+![assets/doc_notebook_01/09_clean.jpg](../shots/assets/doc_notebook_01/09_clean.jpg)
 
-![assets/food_kit/02_clean.jpg](../shots/assets/food_kit/02_clean.jpg)
+![assets/doc_notebook_01/10_lods.jpg](../shots/assets/doc_notebook_01/10_lods.jpg)
 
-![assets/food_kit/03_lods.jpg](../shots/assets/food_kit/03_lods.jpg)
+![assets/draisine/01_raw.jpg](../shots/assets/draisine/01_raw.jpg)
 
-![assets/forage_bushes/01_raw.jpg](../shots/assets/forage_bushes/01_raw.jpg)
+![assets/draisine/02_clean.jpg](../shots/assets/draisine/02_clean.jpg)
 
-![assets/forage_bushes/02_clean.jpg](../shots/assets/forage_bushes/02_clean.jpg)
+![assets/draisine/03_lods.jpg](../shots/assets/draisine/03_lods.jpg)
 
-![assets/forage_bushes/03_lods.jpg](../shots/assets/forage_bushes/03_lods.jpg)
+![assets/electric_motor_01/01_closeup.jpg](../shots/assets/electric_motor_01/01_closeup.jpg)
 
-![assets/forage_bushes/04_closeup.jpg](../shots/assets/forage_bushes/04_closeup.jpg)
+![assets/electric_motor_01/02_closeup_top.jpg](../shots/assets/electric_motor_01/02_closeup_top.jpg)
 
-![assets/forage_bushes/05_raw.jpg](../shots/assets/forage_bushes/05_raw.jpg)
+![assets/electric_motor_01/03_raw.jpg](../shots/assets/electric_motor_01/03_raw.jpg)
 
-![assets/forage_bushes/06_clean.jpg](../shots/assets/forage_bushes/06_clean.jpg)
+![assets/electric_motor_01/04_clean.jpg](../shots/assets/electric_motor_01/04_clean.jpg)
 
-![assets/forage_bushes/07_lods.jpg](../shots/assets/forage_bushes/07_lods.jpg)
+![assets/electric_motor_01/05_lods.jpg](../shots/assets/electric_motor_01/05_lods.jpg)
 
-![assets/forage_bushes/08_closeup.jpg](../shots/assets/forage_bushes/08_closeup.jpg)
+![assets/electric_motor_01/06_closeup.jpg](../shots/assets/electric_motor_01/06_closeup.jpg)
 
-![assets/forage_bushes/09_raw.jpg](../shots/assets/forage_bushes/09_raw.jpg)
+![assets/electric_motor_01/07_closeup_top.jpg](../shots/assets/electric_motor_01/07_closeup_top.jpg)
 
-![assets/forage_bushes/10_clean.jpg](../shots/assets/forage_bushes/10_clean.jpg)
+![assets/electric_motor_01/08_raw.jpg](../shots/assets/electric_motor_01/08_raw.jpg)
 
-![assets/forage_bushes/11_lods.jpg](../shots/assets/forage_bushes/11_lods.jpg)
+![assets/electric_motor_01/09_clean.jpg](../shots/assets/electric_motor_01/09_clean.jpg)
 
-![assets/forage_bushes/12_closeup.jpg](../shots/assets/forage_bushes/12_closeup.jpg)
+![assets/electric_motor_01/10_lods.jpg](../shots/assets/electric_motor_01/10_lods.jpg)
 
-![assets/forage_bushes/13_raw.jpg](../shots/assets/forage_bushes/13_raw.jpg)
+![assets/electronics_box/01_concept_sheet.jpg](../shots/assets/electronics_box/01_concept_sheet.jpg)
 
-![assets/forage_bushes/14_clean.jpg](../shots/assets/forage_bushes/14_clean.jpg)
+![assets/electronics_box/02_tripo_generation.jpg](../shots/assets/electronics_box/02_tripo_generation.jpg)
 
-![assets/forage_bushes/15_lods.jpg](../shots/assets/forage_bushes/15_lods.jpg)
+![assets/electronics_box/03_raw.jpg](../shots/assets/electronics_box/03_raw.jpg)
 
-![assets/forage_bushes/16_closeup.jpg](../shots/assets/forage_bushes/16_closeup.jpg)
+![assets/electronics_box/04_clean.jpg](../shots/assets/electronics_box/04_clean.jpg)
 
-![assets/forage_bushes/17_closeup_nature.jpg](../shots/assets/forage_bushes/17_closeup_nature.jpg)
+![assets/electronics_box/05_lods.jpg](../shots/assets/electronics_box/05_lods.jpg)
 
-![assets/forage_bushes/18_raw.jpg](../shots/assets/forage_bushes/18_raw.jpg)
+![assets/electronics_box/06_silhouette.jpg](../shots/assets/electronics_box/06_silhouette.jpg)
 
-![assets/forage_bushes/19_clean.jpg](../shots/assets/forage_bushes/19_clean.jpg)
+![assets/electronics_box/07_before_after_decimation.jpg](../shots/assets/electronics_box/07_before_after_decimation.jpg)
 
-![assets/forage_bushes/20_lods.jpg](../shots/assets/forage_bushes/20_lods.jpg)
+![assets/electronics_box/08_raw.jpg](../shots/assets/electronics_box/08_raw.jpg)
 
-![assets/forage_bushes/21_closeup_nature.jpg](../shots/assets/forage_bushes/21_closeup_nature.jpg)
+![assets/electronics_box/09_clean.jpg](../shots/assets/electronics_box/09_clean.jpg)
 
-![assets/forage_bushes/22_closeup_nature.jpg](../shots/assets/forage_bushes/22_closeup_nature.jpg)
+![assets/electronics_box/10_lods.jpg](../shots/assets/electronics_box/10_lods.jpg)
 
-![assets/forage_bushes/23_raw.jpg](../shots/assets/forage_bushes/23_raw.jpg)
+![assets/electronics_box/11_silhouette.jpg](../shots/assets/electronics_box/11_silhouette.jpg)
 
-![assets/forage_bushes/24_clean.jpg](../shots/assets/forage_bushes/24_clean.jpg)
+![assets/electronics_box/12_before_after_decimation.jpg](../shots/assets/electronics_box/12_before_after_decimation.jpg)
 
-![assets/forage_bushes/25_lods.jpg](../shots/assets/forage_bushes/25_lods.jpg)
+![assets/engine_hoist_01/01_raw.jpg](../shots/assets/engine_hoist_01/01_raw.jpg)
 
-![assets/forage_bushes/26_closeup_nature.jpg](../shots/assets/forage_bushes/26_closeup_nature.jpg)
+![assets/engine_hoist_01/02_clean.jpg](../shots/assets/engine_hoist_01/02_clean.jpg)
 
-![assets/forage_bushes/27_closeup.jpg](../shots/assets/forage_bushes/27_closeup.jpg)
+![assets/engine_hoist_01/03_lods.jpg](../shots/assets/engine_hoist_01/03_lods.jpg)
 
-![assets/forage_bushes/28_raw.jpg](../shots/assets/forage_bushes/28_raw.jpg)
+![assets/engine_hoist_01/04_silhouette.jpg](../shots/assets/engine_hoist_01/04_silhouette.jpg)
 
-![assets/forage_bushes/29_clean.jpg](../shots/assets/forage_bushes/29_clean.jpg)
+![assets/firewood_01/01_raw.jpg](../shots/assets/firewood_01/01_raw.jpg)
 
-![assets/forage_bushes/30_lods.jpg](../shots/assets/forage_bushes/30_lods.jpg)
+![assets/firewood_01/02_clean.jpg](../shots/assets/firewood_01/02_clean.jpg)
 
-![assets/forage_bushes/31_raw.jpg](../shots/assets/forage_bushes/31_raw.jpg)
+![assets/firewood_01/03_lods.jpg](../shots/assets/firewood_01/03_lods.jpg)
 
-![assets/forage_bushes/32_clean.jpg](../shots/assets/forage_bushes/32_clean.jpg)
+![assets/firewood_01/04_silhouette.jpg](../shots/assets/firewood_01/04_silhouette.jpg)
 
-![assets/forage_bushes/33_lods.jpg](../shots/assets/forage_bushes/33_lods.jpg)
+![assets/firewood_01/05_raw.jpg](../shots/assets/firewood_01/05_raw.jpg)
 
-![assets/forage_bushes/34_raw.jpg](../shots/assets/forage_bushes/34_raw.jpg)
+![assets/firewood_01/06_clean.jpg](../shots/assets/firewood_01/06_clean.jpg)
 
-![assets/forage_bushes/35_clean.jpg](../shots/assets/forage_bushes/35_clean.jpg)
+![assets/firewood_01/07_lods.jpg](../shots/assets/firewood_01/07_lods.jpg)
 
-![assets/forage_bushes/36_lods.jpg](../shots/assets/forage_bushes/36_lods.jpg)
+![assets/firewood_01/08_silhouette.jpg](../shots/assets/firewood_01/08_silhouette.jpg)
 
-![assets/forage_bushes/37_raw.jpg](../shots/assets/forage_bushes/37_raw.jpg)
+![assets/firewood_bundle/01_concept_sheet.jpg](../shots/assets/firewood_bundle/01_concept_sheet.jpg)
 
-![assets/forage_bushes/38_clean.jpg](../shots/assets/forage_bushes/38_clean.jpg)
+![assets/firewood_bundle/02_tripo_generation.jpg](../shots/assets/firewood_bundle/02_tripo_generation.jpg)
 
-![assets/forage_bushes/39_lods.jpg](../shots/assets/forage_bushes/39_lods.jpg)
+![assets/firewood_bundle/03_raw.jpg](../shots/assets/firewood_bundle/03_raw.jpg)
 
-![assets/forage_bushes/40_raw.jpg](../shots/assets/forage_bushes/40_raw.jpg)
+![assets/firewood_bundle/04_clean.jpg](../shots/assets/firewood_bundle/04_clean.jpg)
 
-![assets/forage_bushes/41_clean.jpg](../shots/assets/forage_bushes/41_clean.jpg)
+![assets/firewood_bundle/05_lods.jpg](../shots/assets/firewood_bundle/05_lods.jpg)
 
-![assets/forage_bushes/42_lods.jpg](../shots/assets/forage_bushes/42_lods.jpg)
+![assets/firewood_bundle/06_silhouette.jpg](../shots/assets/firewood_bundle/06_silhouette.jpg)
 
-![assets/forage_bushes/43_raw.jpg](../shots/assets/forage_bushes/43_raw.jpg)
+![assets/firewood_bundle/07_before_after_decimation.jpg](../shots/assets/firewood_bundle/07_before_after_decimation.jpg)
 
-![assets/forage_bushes/44_clean.jpg](../shots/assets/forage_bushes/44_clean.jpg)
+![assets/firewood_bundle/08_raw.jpg](../shots/assets/firewood_bundle/08_raw.jpg)
 
-![assets/forage_bushes/45_lods.jpg](../shots/assets/forage_bushes/45_lods.jpg)
+![assets/firewood_bundle/09_clean.jpg](../shots/assets/firewood_bundle/09_clean.jpg)

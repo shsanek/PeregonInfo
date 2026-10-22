@@ -2,114 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/veg_gb_veg_cedar_young/01_blender.jpg](../shots/assets/veg_gb_veg_cedar_young/01_blender.jpg)
+![assets/thermos/04_clean.jpg](../shots/assets/thermos/04_clean.jpg)
 
-![assets/veg_gb_veg_dead_larch/01_blender.jpg](../shots/assets/veg_gb_veg_dead_larch/01_blender.jpg)
+![assets/thermos/05_lods.jpg](../shots/assets/thermos/05_lods.jpg)
 
-![assets/veg_gb_veg_dead_snag/01_blender.jpg](../shots/assets/veg_gb_veg_dead_snag/01_blender.jpg)
+![assets/thermos/06_silhouette.jpg](../shots/assets/thermos/06_silhouette.jpg)
 
-![assets/veg_gb_veg_dog_rose/01_blender.jpg](../shots/assets/veg_gb_veg_dog_rose/01_blender.jpg)
+![assets/thermos/07_before_after_decimation.jpg](../shots/assets/thermos/07_before_after_decimation.jpg)
 
-![assets/veg_gb_veg_feather_grass/01_blender.jpg](../shots/assets/veg_gb_veg_feather_grass/01_blender.jpg)
+![assets/thick_log/01_concept_sheet.jpg](../shots/assets/thick_log/01_concept_sheet.jpg)
 
-![assets/veg_gb_veg_ferns/01_blender.jpg](../shots/assets/veg_gb_veg_ferns/01_blender.jpg)
+![assets/thick_log/02_tripo_generation.jpg](../shots/assets/thick_log/02_tripo_generation.jpg)
 
-![assets/veg_gb_veg_fir/01_blender.jpg](../shots/assets/veg_gb_veg_fir/01_blender.jpg)
+![assets/thick_log/03_raw.jpg](../shots/assets/thick_log/03_raw.jpg)
 
-![assets/veg_gb_veg_fir_young/01_blender.jpg](../shots/assets/veg_gb_veg_fir_young/01_blender.jpg)
+![assets/thick_log/04_clean.jpg](../shots/assets/thick_log/04_clean.jpg)
 
-![assets/veg_gb_veg_flowers/01_blender.jpg](../shots/assets/veg_gb_veg_flowers/01_blender.jpg)
+![assets/thick_log/05_lods.jpg](../shots/assets/thick_log/05_lods.jpg)
 
-![assets/veg_gb_veg_grass_dry/01_blender.jpg](../shots/assets/veg_gb_veg_grass_dry/01_blender.jpg)
+![assets/thick_log/06_silhouette.jpg](../shots/assets/thick_log/06_silhouette.jpg)
 
-![assets/veg_gb_veg_grass_meadow/01_blender.jpg](../shots/assets/veg_gb_veg_grass_meadow/01_blender.jpg)
+![assets/thick_log/07_before_after_decimation.jpg](../shots/assets/thick_log/07_before_after_decimation.jpg)
 
-![assets/veg_gb_veg_grass_tall/01_blender.jpg](../shots/assets/veg_gb_veg_grass_tall/01_blender.jpg)
+![assets/tree_birch_cards/01_blender.jpg](../shots/assets/tree_birch_cards/01_blender.jpg)
 
-![assets/veg_gb_veg_juniper/01_blender.jpg](../shots/assets/veg_gb_veg_juniper/01_blender.jpg)
+![assets/tree_birch_cards/02_ingame.jpg](../shots/assets/tree_birch_cards/02_ingame.jpg)
 
-![assets/veg_gb_veg_juniper_creeping/01_blender.jpg](../shots/assets/veg_gb_veg_juniper_creeping/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/01_source.jpg](../shots/assets/tree_seasons_bb_birch_a/01_source.jpg)
 
-![assets/veg_gb_veg_larch/01_blender.jpg](../shots/assets/veg_gb_veg_larch/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/02_green_mask.jpg](../shots/assets/tree_seasons_bb_birch_a/02_green_mask.jpg)
 
-![assets/veg_gb_veg_larch_old/01_blender.jpg](../shots/assets/veg_gb_veg_larch_old/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/03_leaf_pieces.jpg](../shots/assets/tree_seasons_bb_birch_a/03_leaf_pieces.jpg)
 
-![assets/veg_gb_veg_larch_young/01_blender.jpg](../shots/assets/veg_gb_veg_larch_young/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/04_fall_order.jpg](../shots/assets/tree_seasons_bb_birch_a/04_fall_order.jpg)
 
-![assets/veg_gb_veg_log_fallen/01_blender.jpg](../shots/assets/veg_gb_veg_log_fallen/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/05_fall1.jpg](../shots/assets/tree_seasons_bb_birch_a/05_fall1.jpg)
 
-![assets/veg_gb_veg_log_short/01_blender.jpg](../shots/assets/veg_gb_veg_log_short/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/06_fall2.jpg](../shots/assets/tree_seasons_bb_birch_a/06_fall2.jpg)
 
-![assets/veg_gb_veg_moss_patch/01_blender.jpg](../shots/assets/veg_gb_veg_moss_patch/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/07_bare.jpg](../shots/assets/tree_seasons_bb_birch_a/07_bare.jpg)
 
-![assets/veg_gb_veg_pine/01_blender.jpg](../shots/assets/veg_gb_veg_pine/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/08_snow.jpg](../shots/assets/tree_seasons_bb_birch_a/08_snow.jpg)
 
-![assets/veg_gb_veg_pine_old/01_blender.jpg](../shots/assets/veg_gb_veg_pine_old/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/09_young.jpg](../shots/assets/tree_seasons_bb_birch_a/09_young.jpg)
 
-![assets/veg_gb_veg_pine_young/01_blender.jpg](../shots/assets/veg_gb_veg_pine_young/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/11_growth_map.jpg](../shots/assets/tree_seasons_bb_birch_a/11_growth_map.jpg)
 
-![assets/veg_gb_veg_poplar/01_blender.jpg](../shots/assets/veg_gb_veg_poplar/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/12_grow_25.jpg](../shots/assets/tree_seasons_bb_birch_a/12_grow_25.jpg)
 
-![assets/veg_gb_veg_poplar_old/01_blender.jpg](../shots/assets/veg_gb_veg_poplar_old/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/13_grow_50.jpg](../shots/assets/tree_seasons_bb_birch_a/13_grow_50.jpg)
 
-![assets/veg_gb_veg_poplar_young/01_blender.jpg](../shots/assets/veg_gb_veg_poplar_young/01_blender.jpg)
+![assets/tree_seasons_bb_birch_a/14_grow_75.jpg](../shots/assets/tree_seasons_bb_birch_a/14_grow_75.jpg)
 
-![assets/veg_gb_veg_reeds/01_blender.jpg](../shots/assets/veg_gb_veg_reeds/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/01_source.jpg](../shots/assets/tree_seasons_leaf_birch/01_source.jpg)
 
-![assets/veg_gb_veg_saltwort/01_blender.jpg](../shots/assets/veg_gb_veg_saltwort/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/02_green_mask.jpg](../shots/assets/tree_seasons_leaf_birch/02_green_mask.jpg)
 
-![assets/veg_gb_veg_sea_buckthorn/01_blender.jpg](../shots/assets/veg_gb_veg_sea_buckthorn/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/03_leaf_pieces.jpg](../shots/assets/tree_seasons_leaf_birch/03_leaf_pieces.jpg)
 
-![assets/veg_gb_veg_shrub_dead/01_blender.jpg](../shots/assets/veg_gb_veg_shrub_dead/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/04_fall_order.jpg](../shots/assets/tree_seasons_leaf_birch/04_fall_order.jpg)
 
-![assets/veg_gb_veg_spruce/01_blender.jpg](../shots/assets/veg_gb_veg_spruce/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/05_fall1.jpg](../shots/assets/tree_seasons_leaf_birch/05_fall1.jpg)
 
-![assets/veg_gb_veg_spruce_young/01_blender.jpg](../shots/assets/veg_gb_veg_spruce_young/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/06_fall2.jpg](../shots/assets/tree_seasons_leaf_birch/06_fall2.jpg)
 
-![assets/veg_gb_veg_stump/01_blender.jpg](../shots/assets/veg_gb_veg_stump/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/07_bare.jpg](../shots/assets/tree_seasons_leaf_birch/07_bare.jpg)
 
-![assets/veg_gb_veg_stump_old/01_blender.jpg](../shots/assets/veg_gb_veg_stump_old/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/08_snow.jpg](../shots/assets/tree_seasons_leaf_birch/08_snow.jpg)
 
-![assets/veg_gb_veg_willow/01_blender.jpg](../shots/assets/veg_gb_veg_willow/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/09_young.jpg](../shots/assets/tree_seasons_leaf_birch/09_young.jpg)
 
-![assets/veg_gb_veg_willow_old/01_blender.jpg](../shots/assets/veg_gb_veg_willow_old/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/11_growth_map.jpg](../shots/assets/tree_seasons_leaf_birch/11_growth_map.jpg)
 
-![assets/veg_gb_veg_willow_shrub/01_blender.jpg](../shots/assets/veg_gb_veg_willow_shrub/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/12_grow_25.jpg](../shots/assets/tree_seasons_leaf_birch/12_grow_25.jpg)
 
-![assets/veg_gb_veg_willow_young/01_blender.jpg](../shots/assets/veg_gb_veg_willow_young/01_blender.jpg)
+![assets/tree_seasons_leaf_birch/13_grow_50.jpg](../shots/assets/tree_seasons_leaf_birch/13_grow_50.jpg)
 
-![assets/water_bucket/01_concept_sheet.jpg](../shots/assets/water_bucket/01_concept_sheet.jpg)
+![assets/tree_seasons_leaf_birch/14_grow_75.jpg](../shots/assets/tree_seasons_leaf_birch/14_grow_75.jpg)
 
-![assets/water_bucket/02_tripo_generation.jpg](../shots/assets/water_bucket/02_tripo_generation.jpg)
+![assets/tree_seasons_leaf_larch/01_source.jpg](../shots/assets/tree_seasons_leaf_larch/01_source.jpg)
 
-![assets/water_bucket/03_raw.jpg](../shots/assets/water_bucket/03_raw.jpg)
+![assets/tree_seasons_leaf_larch/02_green_mask.jpg](../shots/assets/tree_seasons_leaf_larch/02_green_mask.jpg)
 
-![assets/water_bucket/04_clean.jpg](../shots/assets/water_bucket/04_clean.jpg)
+![assets/tree_seasons_leaf_larch/03_leaf_pieces.jpg](../shots/assets/tree_seasons_leaf_larch/03_leaf_pieces.jpg)
 
-![assets/water_bucket/05_lods.jpg](../shots/assets/water_bucket/05_lods.jpg)
+![assets/tree_seasons_leaf_larch/04_fall_order.jpg](../shots/assets/tree_seasons_leaf_larch/04_fall_order.jpg)
 
-![assets/water_bucket/06_silhouette.jpg](../shots/assets/water_bucket/06_silhouette.jpg)
+![assets/tree_seasons_leaf_larch/05_fall1.jpg](../shots/assets/tree_seasons_leaf_larch/05_fall1.jpg)
 
-![assets/water_bucket/07_before_after_decimation.jpg](../shots/assets/water_bucket/07_before_after_decimation.jpg)
+![assets/tree_seasons_leaf_larch/06_fall2.jpg](../shots/assets/tree_seasons_leaf_larch/06_fall2.jpg)
 
-![assets/winch_coil/01_concept_sheet.jpg](../shots/assets/winch_coil/01_concept_sheet.jpg)
+![assets/tree_seasons_leaf_larch/07_bare.jpg](../shots/assets/tree_seasons_leaf_larch/07_bare.jpg)
 
-![assets/winch_coil/02_tripo_generation.jpg](../shots/assets/winch_coil/02_tripo_generation.jpg)
+![assets/tree_seasons_leaf_larch/08_snow.jpg](../shots/assets/tree_seasons_leaf_larch/08_snow.jpg)
 
-![assets/winch_coil/03_raw.jpg](../shots/assets/winch_coil/03_raw.jpg)
+![assets/tree_seasons_leaf_larch/09_young.jpg](../shots/assets/tree_seasons_leaf_larch/09_young.jpg)
 
-![assets/winch_coil/04_clean.jpg](../shots/assets/winch_coil/04_clean.jpg)
+![assets/tree_seasons_leaf_larch/11_growth_map.jpg](../shots/assets/tree_seasons_leaf_larch/11_growth_map.jpg)
 
-![assets/winch_coil/05_lods.jpg](../shots/assets/winch_coil/05_lods.jpg)
+![assets/tree_seasons_leaf_larch/12_grow_25.jpg](../shots/assets/tree_seasons_leaf_larch/12_grow_25.jpg)
 
-![assets/winch_coil/06_silhouette.jpg](../shots/assets/winch_coil/06_silhouette.jpg)
+![assets/tree_seasons_leaf_larch/13_grow_50.jpg](../shots/assets/tree_seasons_leaf_larch/13_grow_50.jpg)
 
-![assets/winch_coil/07_before_after_decimation.jpg](../shots/assets/winch_coil/07_before_after_decimation.jpg)
+![assets/tree_seasons_leaf_larch/14_grow_75.jpg](../shots/assets/tree_seasons_leaf_larch/14_grow_75.jpg)
 
-![assets/winter_rod/01_raw.jpg](../shots/assets/winter_rod/01_raw.jpg)
+![assets/tree_seasons_leaf_shrubs/01_source.jpg](../shots/assets/tree_seasons_leaf_shrubs/01_source.jpg)
 
-![assets/winter_rod/02_clean.jpg](../shots/assets/winter_rod/02_clean.jpg)
+![assets/tree_seasons_leaf_shrubs/02_green_mask.jpg](../shots/assets/tree_seasons_leaf_shrubs/02_green_mask.jpg)
 
-![assets/winter_rod/03_lods.jpg](../shots/assets/winter_rod/03_lods.jpg)
+![assets/tree_seasons_leaf_shrubs/03_leaf_pieces.jpg](../shots/assets/tree_seasons_leaf_shrubs/03_leaf_pieces.jpg)
 
-![assets/winter_rod/04_before_after_decimation.jpg](../shots/assets/winter_rod/04_before_after_decimation.jpg)
+![assets/tree_seasons_leaf_shrubs/04_fall_order.jpg](../shots/assets/tree_seasons_leaf_shrubs/04_fall_order.jpg)
+
+![assets/tree_seasons_leaf_shrubs/05_fall1.jpg](../shots/assets/tree_seasons_leaf_shrubs/05_fall1.jpg)
+
+![assets/tree_seasons_leaf_shrubs/06_fall2.jpg](../shots/assets/tree_seasons_leaf_shrubs/06_fall2.jpg)
+
+![assets/tree_seasons_leaf_shrubs/07_bare.jpg](../shots/assets/tree_seasons_leaf_shrubs/07_bare.jpg)
+
+![assets/tree_seasons_leaf_shrubs/08_snow.jpg](../shots/assets/tree_seasons_leaf_shrubs/08_snow.jpg)

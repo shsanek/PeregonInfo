@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/greybox_wall_slab/01_blender.jpg](../shots/assets/greybox_wall_slab/01_blender.jpg)
+![assets/forage_bushes/41_clean.jpg](../shots/assets/forage_bushes/41_clean.jpg)
 
-![assets/greybox_wheel/01_blender.jpg](../shots/assets/greybox_wheel/01_blender.jpg)
+![assets/forage_bushes/42_lods.jpg](../shots/assets/forage_bushes/42_lods.jpg)
 
-![assets/ground_wheat/01_generation.jpg](../shots/assets/ground_wheat/01_generation.jpg)
+![assets/forage_bushes/43_raw.jpg](../shots/assets/forage_bushes/43_raw.jpg)
 
-![assets/ground_wheat/02_picked_maps.jpg](../shots/assets/ground_wheat/02_picked_maps.jpg)
+![assets/forage_bushes/44_clean.jpg](../shots/assets/forage_bushes/44_clean.jpg)
 
-![assets/ground_wheat/03_baked.jpg](../shots/assets/ground_wheat/03_baked.jpg)
+![assets/forage_bushes/45_lods.jpg](../shots/assets/forage_bushes/45_lods.jpg)
 
-![assets/ground_wheat/04_in_game.jpg](../shots/assets/ground_wheat/04_in_game.jpg)
+![assets/forage_bushes/46_raw.jpg](../shots/assets/forage_bushes/46_raw.jpg)
 
-![assets/ground_wheat/05_in_game_far.jpg](../shots/assets/ground_wheat/05_in_game_far.jpg)
+![assets/forage_bushes/47_clean.jpg](../shots/assets/forage_bushes/47_clean.jpg)
 
-![assets/gs_anvil_01/01_raw.jpg](../shots/assets/gs_anvil_01/01_raw.jpg)
+![assets/forage_bushes/48_lods.jpg](../shots/assets/forage_bushes/48_lods.jpg)
 
-![assets/gs_anvil_01/02_clean.jpg](../shots/assets/gs_anvil_01/02_clean.jpg)
+![assets/forage_items/01_raw.jpg](../shots/assets/forage_items/01_raw.jpg)
 
-![assets/gs_anvil_01/03_lods.jpg](../shots/assets/gs_anvil_01/03_lods.jpg)
+![assets/forage_items/02_clean.jpg](../shots/assets/forage_items/02_clean.jpg)
 
-![assets/gs_crimper_01/01_raw.jpg](../shots/assets/gs_crimper_01/01_raw.jpg)
+![assets/forage_items/03_lods.jpg](../shots/assets/forage_items/03_lods.jpg)
 
-![assets/gs_crimper_01/02_clean.jpg](../shots/assets/gs_crimper_01/02_clean.jpg)
+![assets/forage_items/04_closeup.jpg](../shots/assets/forage_items/04_closeup.jpg)
 
-![assets/gs_crimper_01/03_lods.jpg](../shots/assets/gs_crimper_01/03_lods.jpg)
+![assets/forage_mushrooms/01_raw.jpg](../shots/assets/forage_mushrooms/01_raw.jpg)
 
-![assets/gs_crimper_01/04_raw.jpg](../shots/assets/gs_crimper_01/04_raw.jpg)
+![assets/forage_mushrooms/02_clean.jpg](../shots/assets/forage_mushrooms/02_clean.jpg)
 
-![assets/gs_crimper_01/05_clean.jpg](../shots/assets/gs_crimper_01/05_clean.jpg)
+![assets/forage_mushrooms/03_lods.jpg](../shots/assets/forage_mushrooms/03_lods.jpg)
 
-![assets/gs_crimper_01/06_lods.jpg](../shots/assets/gs_crimper_01/06_lods.jpg)
+![assets/forage_mushrooms/04_closeup.jpg](../shots/assets/forage_mushrooms/04_closeup.jpg)
 
-![assets/gs_vise_01/01_raw.jpg](../shots/assets/gs_vise_01/01_raw.jpg)
+![assets/forage_mushrooms/05_raw.jpg](../shots/assets/forage_mushrooms/05_raw.jpg)
 
-![assets/gs_vise_01/02_clean.jpg](../shots/assets/gs_vise_01/02_clean.jpg)
+![assets/forage_mushrooms/06_clean.jpg](../shots/assets/forage_mushrooms/06_clean.jpg)
 
-![assets/gs_vise_01/03_lods.jpg](../shots/assets/gs_vise_01/03_lods.jpg)
+![assets/forage_mushrooms/07_lods.jpg](../shots/assets/forage_mushrooms/07_lods.jpg)
 
-![assets/hand_pump_drum_01/01_raw.jpg](../shots/assets/hand_pump_drum_01/01_raw.jpg)
+![assets/forage_mushrooms/08_closeup.jpg](../shots/assets/forage_mushrooms/08_closeup.jpg)
 
-![assets/hand_pump_drum_01/02_clean.jpg](../shots/assets/hand_pump_drum_01/02_clean.jpg)
+![assets/forage_mushrooms/09_raw.jpg](../shots/assets/forage_mushrooms/09_raw.jpg)
 
-![assets/hand_pump_drum_01/03_lods.jpg](../shots/assets/hand_pump_drum_01/03_lods.jpg)
+![assets/forage_mushrooms/10_clean.jpg](../shots/assets/forage_mushrooms/10_clean.jpg)
 
-![assets/hand_pump_drum_01/04_silhouette.jpg](../shots/assets/hand_pump_drum_01/04_silhouette.jpg)
+![assets/forage_mushrooms/11_lods.jpg](../shots/assets/forage_mushrooms/11_lods.jpg)
 
-![assets/home_calendar/01_raw.jpg](../shots/assets/home_calendar/01_raw.jpg)
+![assets/forage_mushrooms/12_closeup.jpg](../shots/assets/forage_mushrooms/12_closeup.jpg)
 
-![assets/home_calendar/02_clean.jpg](../shots/assets/home_calendar/02_clean.jpg)
+![assets/forage_mushrooms/13_raw.jpg](../shots/assets/forage_mushrooms/13_raw.jpg)
 
-![assets/home_calendar/03_lods.jpg](../shots/assets/home_calendar/03_lods.jpg)
+![assets/forage_mushrooms/14_clean.jpg](../shots/assets/forage_mushrooms/14_clean.jpg)
 
-![assets/home_calendar/04_raw.jpg](../shots/assets/home_calendar/04_raw.jpg)
+![assets/forage_mushrooms/15_lods.jpg](../shots/assets/forage_mushrooms/15_lods.jpg)
 
-![assets/home_calendar/05_clean.jpg](../shots/assets/home_calendar/05_clean.jpg)
+![assets/forage_mushrooms/16_raw.jpg](../shots/assets/forage_mushrooms/16_raw.jpg)
 
-![assets/home_calendar/06_lods.jpg](../shots/assets/home_calendar/06_lods.jpg)
+![assets/forage_mushrooms/17_clean.jpg](../shots/assets/forage_mushrooms/17_clean.jpg)
 
-![assets/home_calendar/07_raw.jpg](../shots/assets/home_calendar/07_raw.jpg)
+![assets/forage_mushrooms/18_lods.jpg](../shots/assets/forage_mushrooms/18_lods.jpg)
 
-![assets/home_calendar/08_clean.jpg](../shots/assets/home_calendar/08_clean.jpg)
+![assets/forage_mushrooms/19_raw.jpg](../shots/assets/forage_mushrooms/19_raw.jpg)
 
-![assets/home_calendar/09_lods.jpg](../shots/assets/home_calendar/09_lods.jpg)
+![assets/forage_mushrooms/20_clean.jpg](../shots/assets/forage_mushrooms/20_clean.jpg)
 
-![assets/home_calendar/10_raw.jpg](../shots/assets/home_calendar/10_raw.jpg)
+![assets/forage_mushrooms/21_lods.jpg](../shots/assets/forage_mushrooms/21_lods.jpg)
 
-![assets/home_calendar/11_clean.jpg](../shots/assets/home_calendar/11_clean.jpg)
+![assets/forage_mushrooms/22_raw.jpg](../shots/assets/forage_mushrooms/22_raw.jpg)
 
-![assets/home_calendar/12_lods.jpg](../shots/assets/home_calendar/12_lods.jpg)
+![assets/forage_mushrooms/23_clean.jpg](../shots/assets/forage_mushrooms/23_clean.jpg)
 
-![assets/home_calendar/13_raw.jpg](../shots/assets/home_calendar/13_raw.jpg)
+![assets/forage_mushrooms/24_lods.jpg](../shots/assets/forage_mushrooms/24_lods.jpg)
 
-![assets/home_calendar/14_clean.jpg](../shots/assets/home_calendar/14_clean.jpg)
+![assets/forage_mushrooms/25_rodin_kit.jpg](../shots/assets/forage_mushrooms/25_rodin_kit.jpg)
 
-![assets/home_calendar/15_lods.jpg](../shots/assets/home_calendar/15_lods.jpg)
+![assets/forge_hearth_01/01_closeup.jpg](../shots/assets/forge_hearth_01/01_closeup.jpg)
 
-![assets/home_calendar/16_raw.jpg](../shots/assets/home_calendar/16_raw.jpg)
+![assets/forge_hearth_01/02_closeup_top.jpg](../shots/assets/forge_hearth_01/02_closeup_top.jpg)
 
-![assets/home_calendar/17_clean.jpg](../shots/assets/home_calendar/17_clean.jpg)
+![assets/forge_hearth_01/03_raw.jpg](../shots/assets/forge_hearth_01/03_raw.jpg)
 
-![assets/home_calendar/18_lods.jpg](../shots/assets/home_calendar/18_lods.jpg)
+![assets/forge_hearth_01/04_clean.jpg](../shots/assets/forge_hearth_01/04_clean.jpg)
 
-![assets/home_calendar/19_raw.jpg](../shots/assets/home_calendar/19_raw.jpg)
+![assets/forge_hearth_01/05_lods.jpg](../shots/assets/forge_hearth_01/05_lods.jpg)
 
-![assets/home_calendar/20_clean.jpg](../shots/assets/home_calendar/20_clean.jpg)
+![assets/generator_set_01/01_raw.jpg](../shots/assets/generator_set_01/01_raw.jpg)
 
-![assets/home_calendar/21_lods.jpg](../shots/assets/home_calendar/21_lods.jpg)
+![assets/generator_set_01/02_clean.jpg](../shots/assets/generator_set_01/02_clean.jpg)
 
-![assets/home_calendar/22_raw.jpg](../shots/assets/home_calendar/22_raw.jpg)
+![assets/generator_set_01/03_lods.jpg](../shots/assets/generator_set_01/03_lods.jpg)
 
-![assets/home_calendar/23_clean.jpg](../shots/assets/home_calendar/23_clean.jpg)
+![assets/generator_set_01/04_silhouette.jpg](../shots/assets/generator_set_01/04_silhouette.jpg)
 
-![assets/home_calendar/24_lods.jpg](../shots/assets/home_calendar/24_lods.jpg)
+![assets/grain_sack/01_concept_sheet.jpg](../shots/assets/grain_sack/01_concept_sheet.jpg)
 
-![assets/hunt_items/01_raw.jpg](../shots/assets/hunt_items/01_raw.jpg)
+![assets/grain_sack/02_tripo_generation.jpg](../shots/assets/grain_sack/02_tripo_generation.jpg)
 
-![assets/hunt_items/02_clean.jpg](../shots/assets/hunt_items/02_clean.jpg)
+![assets/grain_sack/03_raw.jpg](../shots/assets/grain_sack/03_raw.jpg)
 
-![assets/hunt_items/03_lods.jpg](../shots/assets/hunt_items/03_lods.jpg)
+![assets/grain_sack/04_clean.jpg](../shots/assets/grain_sack/04_clean.jpg)
 
-![assets/hunt_items/04_raw.jpg](../shots/assets/hunt_items/04_raw.jpg)
+![assets/grain_sack/05_lods.jpg](../shots/assets/grain_sack/05_lods.jpg)
 
-![assets/hunt_items/05_clean.jpg](../shots/assets/hunt_items/05_clean.jpg)
+![assets/grain_sack/06_silhouette.jpg](../shots/assets/grain_sack/06_silhouette.jpg)
 
-![assets/hunt_items/06_lods.jpg](../shots/assets/hunt_items/06_lods.jpg)
+![assets/grain_sack/07_before_after_decimation.jpg](../shots/assets/grain_sack/07_before_after_decimation.jpg)
 
-![assets/ice_auger/01_concept_sheet.jpg](../shots/assets/ice_auger/01_concept_sheet.jpg)
+![assets/grain_sack/08_raw.jpg](../shots/assets/grain_sack/08_raw.jpg)
 
-![assets/ice_auger/02_tripo_generation.jpg](../shots/assets/ice_auger/02_tripo_generation.jpg)
+![assets/grain_sack/09_clean.jpg](../shots/assets/grain_sack/09_clean.jpg)
 
-![assets/ice_auger/03_raw.jpg](../shots/assets/ice_auger/03_raw.jpg)
+![assets/grain_sack/10_lods.jpg](../shots/assets/grain_sack/10_lods.jpg)
 
-![assets/ice_auger/04_clean.jpg](../shots/assets/ice_auger/04_clean.jpg)
+![assets/grain_sack/11_silhouette.jpg](../shots/assets/grain_sack/11_silhouette.jpg)
 
-![assets/ice_auger/05_lods.jpg](../shots/assets/ice_auger/05_lods.jpg)
+![assets/grain_sack/12_before_after_decimation.jpg](../shots/assets/grain_sack/12_before_after_decimation.jpg)
 
-![assets/ice_auger/06_silhouette.jpg](../shots/assets/ice_auger/06_silhouette.jpg)
+![assets/grayling/01_concept_sheet.jpg](../shots/assets/grayling/01_concept_sheet.jpg)
 
-![assets/ice_auger/07_before_after_decimation.jpg](../shots/assets/ice_auger/07_before_after_decimation.jpg)
+![assets/grayling/02_generation.jpg](../shots/assets/grayling/02_generation.jpg)

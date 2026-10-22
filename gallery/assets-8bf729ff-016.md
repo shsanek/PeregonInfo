@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/truck_cab/26_clean.jpg](../shots/assets/truck_cab/26_clean.jpg)
+![assets/station_pallet_01/05_lods.jpg](../shots/assets/station_pallet_01/05_lods.jpg)
 
-![assets/truck_cab/27_lods.jpg](../shots/assets/truck_cab/27_lods.jpg)
+![assets/station_pallet_01/06_closeup.jpg](../shots/assets/station_pallet_01/06_closeup.jpg)
 
-![assets/truck_cab/28_silhouette.jpg](../shots/assets/truck_cab/28_silhouette.jpg)
+![assets/station_pallet_01/07_closeup_top.jpg](../shots/assets/station_pallet_01/07_closeup_top.jpg)
 
-![assets/truck_dash/01_raw.jpg](../shots/assets/truck_dash/01_raw.jpg)
+![assets/station_pallet_01/08_raw.jpg](../shots/assets/station_pallet_01/08_raw.jpg)
 
-![assets/truck_dash/02_clean.jpg](../shots/assets/truck_dash/02_clean.jpg)
+![assets/station_pallet_01/09_clean.jpg](../shots/assets/station_pallet_01/09_clean.jpg)
 
-![assets/truck_dash/03_lods.jpg](../shots/assets/truck_dash/03_lods.jpg)
+![assets/station_pallet_01/10_lods.jpg](../shots/assets/station_pallet_01/10_lods.jpg)
 
-![assets/truck_dash/04_raw.jpg](../shots/assets/truck_dash/04_raw.jpg)
+![assets/station_pallet_01/11_closeup.jpg](../shots/assets/station_pallet_01/11_closeup.jpg)
 
-![assets/truck_dash/05_clean.jpg](../shots/assets/truck_dash/05_clean.jpg)
+![assets/station_pallet_01/12_closeup_top.jpg](../shots/assets/station_pallet_01/12_closeup_top.jpg)
 
-![assets/truck_dash/06_lods.jpg](../shots/assets/truck_dash/06_lods.jpg)
+![assets/station_pallet_01/13_raw.jpg](../shots/assets/station_pallet_01/13_raw.jpg)
 
-![assets/truck_engine/01_raw.jpg](../shots/assets/truck_engine/01_raw.jpg)
+![assets/station_pallet_01/14_clean.jpg](../shots/assets/station_pallet_01/14_clean.jpg)
 
-![assets/truck_engine/02_clean.jpg](../shots/assets/truck_engine/02_clean.jpg)
+![assets/station_pallet_01/15_lods.jpg](../shots/assets/station_pallet_01/15_lods.jpg)
 
-![assets/truck_engine/03_lods.jpg](../shots/assets/truck_engine/03_lods.jpg)
+![assets/stove_brick_01/01_raw.jpg](../shots/assets/stove_brick_01/01_raw.jpg)
 
-![assets/truck_engine/04_raw.jpg](../shots/assets/truck_engine/04_raw.jpg)
+![assets/stove_brick_01/02_clean.jpg](../shots/assets/stove_brick_01/02_clean.jpg)
 
-![assets/truck_engine/05_clean.jpg](../shots/assets/truck_engine/05_clean.jpg)
+![assets/stove_brick_01/03_lods.jpg](../shots/assets/stove_brick_01/03_lods.jpg)
 
-![assets/truck_engine/06_lods.jpg](../shots/assets/truck_engine/06_lods.jpg)
+![assets/stove_brick_01/04_silhouette.jpg](../shots/assets/stove_brick_01/04_silhouette.jpg)
 
-![assets/truck_floor/01_raw.jpg](../shots/assets/truck_floor/01_raw.jpg)
+![assets/stove_brick_01/05_raw.jpg](../shots/assets/stove_brick_01/05_raw.jpg)
 
-![assets/truck_floor/02_clean.jpg](../shots/assets/truck_floor/02_clean.jpg)
+![assets/stove_brick_01/06_clean.jpg](../shots/assets/stove_brick_01/06_clean.jpg)
 
-![assets/truck_floor/03_lods.jpg](../shots/assets/truck_floor/03_lods.jpg)
+![assets/stove_brick_01/07_lods.jpg](../shots/assets/stove_brick_01/07_lods.jpg)
 
-![assets/truck_floor/04_raw.jpg](../shots/assets/truck_floor/04_raw.jpg)
+![assets/stove_brick_01/08_silhouette.jpg](../shots/assets/stove_brick_01/08_silhouette.jpg)
 
-![assets/truck_floor/05_clean.jpg](../shots/assets/truck_floor/05_clean.jpg)
+![assets/stove_drum_01/01_raw.jpg](../shots/assets/stove_drum_01/01_raw.jpg)
 
-![assets/truck_floor/06_lods.jpg](../shots/assets/truck_floor/06_lods.jpg)
+![assets/stove_drum_01/02_clean.jpg](../shots/assets/stove_drum_01/02_clean.jpg)
 
-![assets/truck_floor/07_raw.jpg](../shots/assets/truck_floor/07_raw.jpg)
+![assets/stove_drum_01/03_lods.jpg](../shots/assets/stove_drum_01/03_lods.jpg)
 
-![assets/truck_floor/08_clean.jpg](../shots/assets/truck_floor/08_clean.jpg)
+![assets/stove_drum_01/04_silhouette.jpg](../shots/assets/stove_drum_01/04_silhouette.jpg)
 
-![assets/truck_floor/09_lods.jpg](../shots/assets/truck_floor/09_lods.jpg)
+![assets/supply_crate/01_concept_sheet.jpg](../shots/assets/supply_crate/01_concept_sheet.jpg)
 
-![assets/truck_roof_mg/01_raw.jpg](../shots/assets/truck_roof_mg/01_raw.jpg)
+![assets/supply_crate/02_tripo_generation.jpg](../shots/assets/supply_crate/02_tripo_generation.jpg)
 
-![assets/truck_roof_mg/02_clean.jpg](../shots/assets/truck_roof_mg/02_clean.jpg)
+![assets/supply_crate/03_raw.jpg](../shots/assets/supply_crate/03_raw.jpg)
 
-![assets/truck_roof_mg/03_lods.jpg](../shots/assets/truck_roof_mg/03_lods.jpg)
+![assets/supply_crate/04_clean.jpg](../shots/assets/supply_crate/04_clean.jpg)
 
-![assets/truck_roof_mg/04_silhouette.jpg](../shots/assets/truck_roof_mg/04_silhouette.jpg)
+![assets/supply_crate/05_lods.jpg](../shots/assets/supply_crate/05_lods.jpg)
 
-![assets/truck_seat/01_raw.jpg](../shots/assets/truck_seat/01_raw.jpg)
+![assets/supply_crate/06_silhouette.jpg](../shots/assets/supply_crate/06_silhouette.jpg)
 
-![assets/truck_seat/02_clean.jpg](../shots/assets/truck_seat/02_clean.jpg)
+![assets/supply_crate/07_before_after_decimation.jpg](../shots/assets/supply_crate/07_before_after_decimation.jpg)
 
-![assets/truck_seat/03_lods.jpg](../shots/assets/truck_seat/03_lods.jpg)
+![assets/supply_crate/08_raw.jpg](../shots/assets/supply_crate/08_raw.jpg)
 
-![assets/truck_seat/04_raw.jpg](../shots/assets/truck_seat/04_raw.jpg)
+![assets/supply_crate/09_clean.jpg](../shots/assets/supply_crate/09_clean.jpg)
 
-![assets/truck_seat/05_clean.jpg](../shots/assets/truck_seat/05_clean.jpg)
+![assets/supply_crate/10_lods.jpg](../shots/assets/supply_crate/10_lods.jpg)
 
-![assets/truck_seat/06_lods.jpg](../shots/assets/truck_seat/06_lods.jpg)
+![assets/supply_crate/11_silhouette.jpg](../shots/assets/supply_crate/11_silhouette.jpg)
 
-![assets/truck_wheel/01_raw.jpg](../shots/assets/truck_wheel/01_raw.jpg)
+![assets/supply_crate/12_before_after_decimation.jpg](../shots/assets/supply_crate/12_before_after_decimation.jpg)
 
-![assets/truck_wheel/02_clean.jpg](../shots/assets/truck_wheel/02_clean.jpg)
+![assets/supply_crate/_cmp_cells/r0_front.png](../shots/assets/supply_crate/_cmp_cells/r0_front.png)
 
-![assets/truck_wheel/03_lods.jpg](../shots/assets/truck_wheel/03_lods.jpg)
+![assets/supply_crate/_cmp_cells/r0_q34.png](../shots/assets/supply_crate/_cmp_cells/r0_q34.png)
 
-![assets/truck_wheel/04_silhouette.jpg](../shots/assets/truck_wheel/04_silhouette.jpg)
+![assets/supply_crate/_cmp_cells/r0_side.png](../shots/assets/supply_crate/_cmp_cells/r0_side.png)
 
-![assets/truck_wheel/05_raw.jpg](../shots/assets/truck_wheel/05_raw.jpg)
+![assets/supply_crate/_cmp_cells/r0_top.png](../shots/assets/supply_crate/_cmp_cells/r0_top.png)
 
-![assets/truck_wheel/06_clean.jpg](../shots/assets/truck_wheel/06_clean.jpg)
+![assets/supply_crate/_cmp_cells/r1_front.png](../shots/assets/supply_crate/_cmp_cells/r1_front.png)
 
-![assets/truck_wheel/07_lods.jpg](../shots/assets/truck_wheel/07_lods.jpg)
+![assets/supply_crate/_cmp_cells/r1_q34.png](../shots/assets/supply_crate/_cmp_cells/r1_q34.png)
 
-![assets/truck_wheel/08_silhouette.jpg](../shots/assets/truck_wheel/08_silhouette.jpg)
+![assets/supply_crate/_cmp_cells/r1_side.png](../shots/assets/supply_crate/_cmp_cells/r1_side.png)
 
-![assets/truck_wheel/09_raw.jpg](../shots/assets/truck_wheel/09_raw.jpg)
+![assets/supply_crate/_cmp_cells/r1_top.png](../shots/assets/supply_crate/_cmp_cells/r1_top.png)
 
-![assets/truck_wheel/10_clean.jpg](../shots/assets/truck_wheel/10_clean.jpg)
+![assets/supply_crate/_cmp_cells/r2_front.png](../shots/assets/supply_crate/_cmp_cells/r2_front.png)
 
-![assets/truck_wheel/11_lods.jpg](../shots/assets/truck_wheel/11_lods.jpg)
+![assets/supply_crate/_cmp_cells/r2_q34.png](../shots/assets/supply_crate/_cmp_cells/r2_q34.png)
 
-![assets/truck_wheel/12_silhouette.jpg](../shots/assets/truck_wheel/12_silhouette.jpg)
+![assets/supply_crate/_cmp_cells/r2_side.png](../shots/assets/supply_crate/_cmp_cells/r2_side.png)
 
-![assets/veg_contact_sheet/01_blender.jpg](../shots/assets/veg_contact_sheet/01_blender.jpg)
+![assets/supply_crate/_cmp_cells/r2_top.png](../shots/assets/supply_crate/_cmp_cells/r2_top.png)
 
-![assets/veg_gb_veg_alpine_grass/01_blender.jpg](../shots/assets/veg_gb_veg_alpine_grass/01_blender.jpg)
+![assets/table_01/01_raw.jpg](../shots/assets/table_01/01_raw.jpg)
 
-![assets/veg_gb_veg_aspen/01_blender.jpg](../shots/assets/veg_gb_veg_aspen/01_blender.jpg)
+![assets/table_01/02_clean.jpg](../shots/assets/table_01/02_clean.jpg)
 
-![assets/veg_gb_veg_aspen_old/01_blender.jpg](../shots/assets/veg_gb_veg_aspen_old/01_blender.jpg)
+![assets/table_01/03_lods.jpg](../shots/assets/table_01/03_lods.jpg)
 
-![assets/veg_gb_veg_aspen_young/01_blender.jpg](../shots/assets/veg_gb_veg_aspen_young/01_blender.jpg)
+![assets/table_01/04_silhouette.jpg](../shots/assets/table_01/04_silhouette.jpg)
 
-![assets/veg_gb_veg_birch/01_blender.jpg](../shots/assets/veg_gb_veg_birch/01_blender.jpg)
+![assets/theodolite_tripod/01_raw.jpg](../shots/assets/theodolite_tripod/01_raw.jpg)
 
-![assets/veg_gb_veg_birch_kolok/01_blender.jpg](../shots/assets/veg_gb_veg_birch_kolok/01_blender.jpg)
+![assets/theodolite_tripod/02_clean.jpg](../shots/assets/theodolite_tripod/02_clean.jpg)
 
-![assets/veg_gb_veg_birch_old/01_blender.jpg](../shots/assets/veg_gb_veg_birch_old/01_blender.jpg)
+![assets/theodolite_tripod/03_lods.jpg](../shots/assets/theodolite_tripod/03_lods.jpg)
 
-![assets/veg_gb_veg_birch_young/01_blender.jpg](../shots/assets/veg_gb_veg_birch_young/01_blender.jpg)
+![assets/theodolite_tripod/04_silhouette.jpg](../shots/assets/theodolite_tripod/04_silhouette.jpg)
 
-![assets/veg_gb_veg_burnt_trunk/01_blender.jpg](../shots/assets/veg_gb_veg_burnt_trunk/01_blender.jpg)
+![assets/theodolite_tripod/05_closeup.jpg](../shots/assets/theodolite_tripod/05_closeup.jpg)
 
-![assets/veg_gb_veg_caragana/01_blender.jpg](../shots/assets/veg_gb_veg_caragana/01_blender.jpg)
+![assets/theodolite_tripod/06_closeup_top.jpg](../shots/assets/theodolite_tripod/06_closeup_top.jpg)
 
-![assets/veg_gb_veg_cattails/01_blender.jpg](../shots/assets/veg_gb_veg_cattails/01_blender.jpg)
+![assets/thermos/01_concept_sheet.jpg](../shots/assets/thermos/01_concept_sheet.jpg)
 
-![assets/veg_gb_veg_cedar/01_blender.jpg](../shots/assets/veg_gb_veg_cedar/01_blender.jpg)
+![assets/thermos/02_tripo_generation.jpg](../shots/assets/thermos/02_tripo_generation.jpg)
 
-![assets/veg_gb_veg_cedar_old/01_blender.jpg](../shots/assets/veg_gb_veg_cedar_old/01_blender.jpg)
+![assets/thermos/03_raw.jpg](../shots/assets/thermos/03_raw.jpg)

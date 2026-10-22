@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/pikeperch/03_raw.jpg](../shots/assets/pikeperch/03_raw.jpg)
+![assets/kit_gb_well_hut/01_blender.jpg](../shots/assets/kit_gb_well_hut/01_blender.jpg)
 
-![assets/pikeperch/04_clean.jpg](../shots/assets/pikeperch/04_clean.jpg)
+![assets/kit_gb_well_sweep/01_blender.jpg](../shots/assets/kit_gb_well_sweep/01_blender.jpg)
 
-![assets/pikeperch/05_lods.jpg](../shots/assets/pikeperch/05_lods.jpg)
+![assets/kit_gb_wreck_apc/01_blender.jpg](../shots/assets/kit_gb_wreck_apc/01_blender.jpg)
 
-![assets/pikeperch/06_silhouette.jpg](../shots/assets/pikeperch/06_silhouette.jpg)
+![assets/kit_gb_wreck_buried/01_blender.jpg](../shots/assets/kit_gb_wreck_buried/01_blender.jpg)
 
-![assets/pikeperch/07_concept.jpg](../shots/assets/pikeperch/07_concept.jpg)
+![assets/kit_gb_wreck_bus_liaz/01_blender.jpg](../shots/assets/kit_gb_wreck_bus_liaz/01_blender.jpg)
 
-![assets/plank/01_raw.jpg](../shots/assets/plank/01_raw.jpg)
+![assets/kit_gb_wreck_bus_paz/01_blender.jpg](../shots/assets/kit_gb_wreck_bus_paz/01_blender.jpg)
 
-![assets/plank/02_clean.jpg](../shots/assets/plank/02_clean.jpg)
+![assets/kit_gb_wreck_car/01_blender.jpg](../shots/assets/kit_gb_wreck_car/01_blender.jpg)
 
-![assets/plank/03_lods.jpg](../shots/assets/plank/03_lods.jpg)
+![assets/kit_gb_wreck_combine/01_blender.jpg](../shots/assets/kit_gb_wreck_combine/01_blender.jpg)
 
-![assets/plank/04_before_after_decimation.jpg](../shots/assets/plank/04_before_after_decimation.jpg)
+![assets/kit_gb_wreck_tractor/01_blender.jpg](../shots/assets/kit_gb_wreck_tractor/01_blender.jpg)
 
-![assets/plank/05_raw.jpg](../shots/assets/plank/05_raw.jpg)
+![assets/kit_gb_wreck_truck/01_blender.jpg](../shots/assets/kit_gb_wreck_truck/01_blender.jpg)
 
-![assets/plank/06_clean.jpg](../shots/assets/plank/06_clean.jpg)
+![assets/kit_gb_wreck_truck_6x6/01_blender.jpg](../shots/assets/kit_gb_wreck_truck_6x6/01_blender.jpg)
 
-![assets/plank/07_lods.jpg](../shots/assets/plank/07_lods.jpg)
+![assets/kit_gb_wreck_uaz/01_blender.jpg](../shots/assets/kit_gb_wreck_uaz/01_blender.jpg)
 
-![assets/plank/08_before_after_decimation.jpg](../shots/assets/plank/08_before_after_decimation.jpg)
+![assets/kolkhoz_greybox/01_topdown.jpg](../shots/assets/kolkhoz_greybox/01_topdown.jpg)
 
-![assets/plough/01_concept_sheet.jpg](../shots/assets/plough/01_concept_sheet.jpg)
+![assets/kolkhoz_greybox/02_in_game.jpg](../shots/assets/kolkhoz_greybox/02_in_game.jpg)
 
-![assets/plough/02_tripo_generation.jpg](../shots/assets/plough/02_tripo_generation.jpg)
+![assets/kolkhoz_greybox/03_village_in_game.jpg](../shots/assets/kolkhoz_greybox/03_village_in_game.jpg)
 
-![assets/plough/03_raw.jpg](../shots/assets/plough/03_raw.jpg)
+![assets/lab_bench_01/01_closeup.jpg](../shots/assets/lab_bench_01/01_closeup.jpg)
 
-![assets/plough/04_clean.jpg](../shots/assets/plough/04_clean.jpg)
+![assets/lab_bench_01/02_closeup_top.jpg](../shots/assets/lab_bench_01/02_closeup_top.jpg)
 
-![assets/plough/05_lods.jpg](../shots/assets/plough/05_lods.jpg)
+![assets/lab_bench_01/03_raw.jpg](../shots/assets/lab_bench_01/03_raw.jpg)
 
-![assets/plough/06_silhouette.jpg](../shots/assets/plough/06_silhouette.jpg)
+![assets/lab_bench_01/04_clean.jpg](../shots/assets/lab_bench_01/04_clean.jpg)
 
-![assets/plough/07_before_after_decimation.jpg](../shots/assets/plough/07_before_after_decimation.jpg)
+![assets/lab_bench_01/05_lods.jpg](../shots/assets/lab_bench_01/05_lods.jpg)
 
-![assets/plough/08_in_game.jpg](../shots/assets/plough/08_in_game.jpg)
+![assets/lathe_bed_01/01_closeup.jpg](../shots/assets/lathe_bed_01/01_closeup.jpg)
 
-![assets/plow_blade/01_concept_sheet.jpg](../shots/assets/plow_blade/01_concept_sheet.jpg)
+![assets/lathe_bed_01/02_closeup_top.jpg](../shots/assets/lathe_bed_01/02_closeup_top.jpg)
 
-![assets/plow_blade/02_tripo_generation.jpg](../shots/assets/plow_blade/02_tripo_generation.jpg)
+![assets/lathe_bed_01/03_raw.jpg](../shots/assets/lathe_bed_01/03_raw.jpg)
 
-![assets/plow_blade/03_raw.jpg](../shots/assets/plow_blade/03_raw.jpg)
+![assets/lathe_bed_01/04_clean.jpg](../shots/assets/lathe_bed_01/04_clean.jpg)
 
-![assets/plow_blade/04_clean.jpg](../shots/assets/plow_blade/04_clean.jpg)
+![assets/lathe_bed_01/05_lods.jpg](../shots/assets/lathe_bed_01/05_lods.jpg)
 
-![assets/plow_blade/05_lods.jpg](../shots/assets/plow_blade/05_lods.jpg)
+![assets/lenok/01_concept_sheet.jpg](../shots/assets/lenok/01_concept_sheet.jpg)
 
-![assets/plow_blade/06_silhouette.jpg](../shots/assets/plow_blade/06_silhouette.jpg)
+![assets/lenok/02_generation.jpg](../shots/assets/lenok/02_generation.jpg)
 
-![assets/plow_blade/07_before_after_decimation.jpg](../shots/assets/plow_blade/07_before_after_decimation.jpg)
+![assets/lenok/03_raw.jpg](../shots/assets/lenok/03_raw.jpg)
 
-![assets/plow_blade/08_in_game.jpg](../shots/assets/plow_blade/08_in_game.jpg)
+![assets/lenok/04_clean.jpg](../shots/assets/lenok/04_clean.jpg)
 
-![assets/plow_blade/_cmp_cells/r0_back34.png](../shots/assets/plow_blade/_cmp_cells/r0_back34.png)
+![assets/lenok/05_lods.jpg](../shots/assets/lenok/05_lods.jpg)
 
-![assets/plow_blade/_cmp_cells/r0_front.png](../shots/assets/plow_blade/_cmp_cells/r0_front.png)
+![assets/lenok/06_silhouette.jpg](../shots/assets/lenok/06_silhouette.jpg)
 
-![assets/plow_blade/_cmp_cells/r0_q34.png](../shots/assets/plow_blade/_cmp_cells/r0_q34.png)
+![assets/lenok/07_before_after_decimation.jpg](../shots/assets/lenok/07_before_after_decimation.jpg)
 
-![assets/plow_blade/_cmp_cells/r0_side.png](../shots/assets/plow_blade/_cmp_cells/r0_side.png)
+![assets/log/01_concept_sheet.jpg](../shots/assets/log/01_concept_sheet.jpg)
 
-![assets/plow_blade/_cmp_cells/r1_back34.png](../shots/assets/plow_blade/_cmp_cells/r1_back34.png)
+![assets/log/02_tripo_generation.jpg](../shots/assets/log/02_tripo_generation.jpg)
 
-![assets/plow_blade/_cmp_cells/r1_front.png](../shots/assets/plow_blade/_cmp_cells/r1_front.png)
+![assets/log/03_raw.jpg](../shots/assets/log/03_raw.jpg)
 
-![assets/plow_blade/_cmp_cells/r1_q34.png](../shots/assets/plow_blade/_cmp_cells/r1_q34.png)
+![assets/log/04_clean.jpg](../shots/assets/log/04_clean.jpg)
 
-![assets/plow_blade/_cmp_cells/r1_side.png](../shots/assets/plow_blade/_cmp_cells/r1_side.png)
+![assets/log/05_lods.jpg](../shots/assets/log/05_lods.jpg)
 
-![assets/plow_blade/_cmp_cells/r2_back34.png](../shots/assets/plow_blade/_cmp_cells/r2_back34.png)
+![assets/log/06_silhouette.jpg](../shots/assets/log/06_silhouette.jpg)
 
-![assets/plow_blade/_cmp_cells/r2_front.png](../shots/assets/plow_blade/_cmp_cells/r2_front.png)
+![assets/log/07_before_after_decimation.jpg](../shots/assets/log/07_before_after_decimation.jpg)
 
-![assets/plow_blade/_cmp_cells/r2_q34.png](../shots/assets/plow_blade/_cmp_cells/r2_q34.png)
+![assets/log/08_raw.jpg](../shots/assets/log/08_raw.jpg)
 
-![assets/plow_blade/_cmp_cells/r2_side.png](../shots/assets/plow_blade/_cmp_cells/r2_side.png)
+![assets/log/09_clean.jpg](../shots/assets/log/09_clean.jpg)
 
-![assets/plow_blade/_cmp_cells/r3_back34.png](../shots/assets/plow_blade/_cmp_cells/r3_back34.png)
+![assets/log/10_lods.jpg](../shots/assets/log/10_lods.jpg)
 
-![assets/plow_blade/_cmp_cells/r3_front.png](../shots/assets/plow_blade/_cmp_cells/r3_front.png)
+![assets/log/11_silhouette.jpg](../shots/assets/log/11_silhouette.jpg)
 
-![assets/plow_blade/_cmp_cells/r3_q34.png](../shots/assets/plow_blade/_cmp_cells/r3_q34.png)
+![assets/log/12_before_after_decimation.jpg](../shots/assets/log/12_before_after_decimation.jpg)
 
-![assets/plow_blade/_cmp_cells/r3_side.png](../shots/assets/plow_blade/_cmp_cells/r3_side.png)
+![assets/minnow/01_closeup.jpg](../shots/assets/minnow/01_closeup.jpg)
 
-![assets/price_pylon_8_01/01_raw.jpg](../shots/assets/price_pylon_8_01/01_raw.jpg)
+![assets/minnow/02_closeup_top.jpg](../shots/assets/minnow/02_closeup_top.jpg)
 
-![assets/price_pylon_8_01/02_clean.jpg](../shots/assets/price_pylon_8_01/02_clean.jpg)
+![assets/minnow/03_raw.jpg](../shots/assets/minnow/03_raw.jpg)
 
-![assets/price_pylon_8_01/03_lods.jpg](../shots/assets/price_pylon_8_01/03_lods.jpg)
+![assets/minnow/04_clean.jpg](../shots/assets/minnow/04_clean.jpg)
 
-![assets/price_pylon_8_01/04_silhouette.jpg](../shots/assets/price_pylon_8_01/04_silhouette.jpg)
+![assets/minnow/05_lods.jpg](../shots/assets/minnow/05_lods.jpg)
 
-![assets/price_pylon_8_01/05_raw.jpg](../shots/assets/price_pylon_8_01/05_raw.jpg)
+![assets/minnow/06_silhouette.jpg](../shots/assets/minnow/06_silhouette.jpg)
 
-![assets/price_pylon_8_01/06_clean.jpg](../shots/assets/price_pylon_8_01/06_clean.jpg)
+![assets/minnow/07_concept.jpg](../shots/assets/minnow/07_concept.jpg)
 
-![assets/price_pylon_8_01/07_lods.jpg](../shots/assets/price_pylon_8_01/07_lods.jpg)
+![assets/nail_box/01_concept_sheet.jpg](../shots/assets/nail_box/01_concept_sheet.jpg)
 
-![assets/price_pylon_8_01/08_silhouette.jpg](../shots/assets/price_pylon_8_01/08_silhouette.jpg)
+![assets/nail_box/02_tripo_generation.jpg](../shots/assets/nail_box/02_tripo_generation.jpg)
 
-![assets/roach/01_concept_sheet.jpg](../shots/assets/roach/01_concept_sheet.jpg)
+![assets/nail_box/03_raw.jpg](../shots/assets/nail_box/03_raw.jpg)
 
-![assets/roach/02_generation.jpg](../shots/assets/roach/02_generation.jpg)
+![assets/nail_box/04_clean.jpg](../shots/assets/nail_box/04_clean.jpg)
 
-![assets/roach/03_raw.jpg](../shots/assets/roach/03_raw.jpg)
+![assets/nail_box/05_lods.jpg](../shots/assets/nail_box/05_lods.jpg)
 
-![assets/roach/04_clean.jpg](../shots/assets/roach/04_clean.jpg)
+![assets/nail_box/06_silhouette.jpg](../shots/assets/nail_box/06_silhouette.jpg)
 
-![assets/roach/05_lods.jpg](../shots/assets/roach/05_lods.jpg)
+![assets/nail_box/07_before_after_decimation.jpg](../shots/assets/nail_box/07_before_after_decimation.jpg)
 
-![assets/roach/06_silhouette.jpg](../shots/assets/roach/06_silhouette.jpg)
+![assets/nailgun/01_raw.jpg](../shots/assets/nailgun/01_raw.jpg)
 
-![assets/roach/07_before_after_decimation.jpg](../shots/assets/roach/07_before_after_decimation.jpg)
+![assets/nailgun/02_clean.jpg](../shots/assets/nailgun/02_clean.jpg)

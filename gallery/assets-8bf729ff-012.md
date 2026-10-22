@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/rock_contact_sheet/01_blender.jpg](../shots/assets/rock_contact_sheet/01_blender.jpg)
+![assets/nailgun/03_lods.jpg](../shots/assets/nailgun/03_lods.jpg)
 
-![assets/rock_gb_rock_boulder_cluster/01_blender.jpg](../shots/assets/rock_gb_rock_boulder_cluster/01_blender.jpg)
+![assets/nailgun/04_silhouette.jpg](../shots/assets/nailgun/04_silhouette.jpg)
 
-![assets/rock_gb_rock_boulder_l/01_blender.jpg](../shots/assets/rock_gb_rock_boulder_l/01_blender.jpg)
+![assets/nailgun/05_raw.jpg](../shots/assets/nailgun/05_raw.jpg)
 
-![assets/rock_gb_rock_boulder_m/01_blender.jpg](../shots/assets/rock_gb_rock_boulder_m/01_blender.jpg)
+![assets/nailgun/06_clean.jpg](../shots/assets/nailgun/06_clean.jpg)
 
-![assets/rock_gb_rock_boulder_s/01_blender.jpg](../shots/assets/rock_gb_rock_boulder_s/01_blender.jpg)
+![assets/nailgun/07_lods.jpg](../shots/assets/nailgun/07_lods.jpg)
 
-![assets/rock_gb_rock_boulder_xl/01_blender.jpg](../shots/assets/rock_gb_rock_boulder_xl/01_blender.jpg)
+![assets/nailgun/08_silhouette.jpg](../shots/assets/nailgun/08_silhouette.jpg)
 
-![assets/rock_gb_rock_cliff_10x10/01_blender.jpg](../shots/assets/rock_gb_rock_cliff_10x10/01_blender.jpg)
+![assets/oil_can/01_concept_sheet.jpg](../shots/assets/oil_can/01_concept_sheet.jpg)
 
-![assets/rock_gb_rock_cliff_10x20/01_blender.jpg](../shots/assets/rock_gb_rock_cliff_10x20/01_blender.jpg)
+![assets/oil_can/02_tripo_generation.jpg](../shots/assets/oil_can/02_tripo_generation.jpg)
 
-![assets/rock_gb_rock_cliff_10x30/01_blender.jpg](../shots/assets/rock_gb_rock_cliff_10x30/01_blender.jpg)
+![assets/oil_can/03_raw.jpg](../shots/assets/oil_can/03_raw.jpg)
 
-![assets/rock_gb_rock_cliff_granite/01_blender.jpg](../shots/assets/rock_gb_rock_cliff_granite/01_blender.jpg)
+![assets/oil_can/04_clean.jpg](../shots/assets/oil_can/04_clean.jpg)
 
-![assets/rock_gb_rock_cliff_overhang/01_blender.jpg](../shots/assets/rock_gb_rock_cliff_overhang/01_blender.jpg)
+![assets/oil_can/05_lods.jpg](../shots/assets/oil_can/05_lods.jpg)
 
-![assets/rock_gb_rock_cobbles/01_blender.jpg](../shots/assets/rock_gb_rock_cobbles/01_blender.jpg)
+![assets/oil_can/06_silhouette.jpg](../shots/assets/oil_can/06_silhouette.jpg)
 
-![assets/rock_gb_rock_gravel_patch/01_blender.jpg](../shots/assets/rock_gb_rock_gravel_patch/01_blender.jpg)
+![assets/oil_can/07_before_after_decimation.jpg](../shots/assets/oil_can/07_before_after_decimation.jpg)
 
-![assets/rock_gb_rock_outcrop_granite/01_blender.jpg](../shots/assets/rock_gb_rock_outcrop_granite/01_blender.jpg)
+![assets/oil_drum/01_raw.jpg](../shots/assets/oil_drum/01_raw.jpg)
 
-![assets/rock_gb_rock_outcrop_schist/01_blender.jpg](../shots/assets/rock_gb_rock_outcrop_schist/01_blender.jpg)
+![assets/oil_drum/02_clean.jpg](../shots/assets/oil_drum/02_clean.jpg)
 
-![assets/rock_gb_rock_river_l/01_blender.jpg](../shots/assets/rock_gb_rock_river_l/01_blender.jpg)
+![assets/oil_drum/03_lods.jpg](../shots/assets/oil_drum/03_lods.jpg)
 
-![assets/rock_gb_rock_river_m/01_blender.jpg](../shots/assets/rock_gb_rock_river_m/01_blender.jpg)
+![assets/oil_drum/04_silhouette.jpg](../shots/assets/oil_drum/04_silhouette.jpg)
 
-![assets/rock_gb_rock_river_s/01_blender.jpg](../shots/assets/rock_gb_rock_river_s/01_blender.jpg)
+![assets/parts_box/01_concept_sheet.jpg](../shots/assets/parts_box/01_concept_sheet.jpg)
 
-![assets/rock_gb_rock_river_shelf/01_blender.jpg](../shots/assets/rock_gb_rock_river_shelf/01_blender.jpg)
+![assets/parts_box/02_tripo_generation.jpg](../shots/assets/parts_box/02_tripo_generation.jpg)
 
-![assets/rock_gb_rock_roadcut/01_blender.jpg](../shots/assets/rock_gb_rock_roadcut/01_blender.jpg)
+![assets/parts_box/03_raw.jpg](../shots/assets/parts_box/03_raw.jpg)
 
-![assets/rock_gb_rock_scree_patch/01_blender.jpg](../shots/assets/rock_gb_rock_scree_patch/01_blender.jpg)
+![assets/parts_box/04_clean.jpg](../shots/assets/parts_box/04_clean.jpg)
 
-![assets/rock_gb_rock_spire/01_blender.jpg](../shots/assets/rock_gb_rock_spire/01_blender.jpg)
+![assets/parts_box/05_lods.jpg](../shots/assets/parts_box/05_lods.jpg)
 
-![assets/rock_gb_rock_talus_fan/01_blender.jpg](../shots/assets/rock_gb_rock_talus_fan/01_blender.jpg)
+![assets/parts_box/06_silhouette.jpg](../shots/assets/parts_box/06_silhouette.jpg)
 
-![assets/rock_gb_rock_tor/01_blender.jpg](../shots/assets/rock_gb_rock_tor/01_blender.jpg)
+![assets/parts_box/07_before_after_decimation.jpg](../shots/assets/parts_box/07_before_after_decimation.jpg)
 
-![assets/rucksack/01_raw.jpg](../shots/assets/rucksack/01_raw.jpg)
+![assets/perch/01_concept_sheet.jpg](../shots/assets/perch/01_concept_sheet.jpg)
 
-![assets/rucksack/02_clean.jpg](../shots/assets/rucksack/02_clean.jpg)
+![assets/perch/02_generation.jpg](../shots/assets/perch/02_generation.jpg)
 
-![assets/rucksack/03_lods.jpg](../shots/assets/rucksack/03_lods.jpg)
+![assets/perch/03_raw.jpg](../shots/assets/perch/03_raw.jpg)
 
-![assets/rucksack/04_before_after_decimation.jpg](../shots/assets/rucksack/04_before_after_decimation.jpg)
+![assets/perch/04_clean.jpg](../shots/assets/perch/04_clean.jpg)
 
-![assets/rucksack/05_raw.jpg](../shots/assets/rucksack/05_raw.jpg)
+![assets/perch/05_lods.jpg](../shots/assets/perch/05_lods.jpg)
 
-![assets/rucksack/06_clean.jpg](../shots/assets/rucksack/06_clean.jpg)
+![assets/perch/06_silhouette.jpg](../shots/assets/perch/06_silhouette.jpg)
 
-![assets/rucksack/07_lods.jpg](../shots/assets/rucksack/07_lods.jpg)
+![assets/perch/07_before_after_decimation.jpg](../shots/assets/perch/07_before_after_decimation.jpg)
 
-![assets/rucksack/08_before_after_decimation.jpg](../shots/assets/rucksack/08_before_after_decimation.jpg)
+![assets/pike/01_concept_sheet.jpg](../shots/assets/pike/01_concept_sheet.jpg)
 
-![assets/rucksack/09_raw.jpg](../shots/assets/rucksack/09_raw.jpg)
+![assets/pike/02_generation.jpg](../shots/assets/pike/02_generation.jpg)
 
-![assets/rucksack/10_clean.jpg](../shots/assets/rucksack/10_clean.jpg)
+![assets/pike/03_raw.jpg](../shots/assets/pike/03_raw.jpg)
 
-![assets/rucksack/11_lods.jpg](../shots/assets/rucksack/11_lods.jpg)
+![assets/pike/04_clean.jpg](../shots/assets/pike/04_clean.jpg)
 
-![assets/ruffe/01_closeup.jpg](../shots/assets/ruffe/01_closeup.jpg)
+![assets/pike/05_lods.jpg](../shots/assets/pike/05_lods.jpg)
 
-![assets/ruffe/02_closeup_top.jpg](../shots/assets/ruffe/02_closeup_top.jpg)
+![assets/pike/06_silhouette.jpg](../shots/assets/pike/06_silhouette.jpg)
 
-![assets/ruffe/03_raw.jpg](../shots/assets/ruffe/03_raw.jpg)
+![assets/pike/07_before_after_decimation.jpg](../shots/assets/pike/07_before_after_decimation.jpg)
 
-![assets/ruffe/04_clean.jpg](../shots/assets/ruffe/04_clean.jpg)
+![assets/pikeperch/01_closeup.jpg](../shots/assets/pikeperch/01_closeup.jpg)
 
-![assets/ruffe/05_lods.jpg](../shots/assets/ruffe/05_lods.jpg)
+![assets/pikeperch/02_closeup_top.jpg](../shots/assets/pikeperch/02_closeup_top.jpg)
 
-![assets/ruffe/06_silhouette.jpg](../shots/assets/ruffe/06_silhouette.jpg)
+![assets/pikeperch/03_raw.jpg](../shots/assets/pikeperch/03_raw.jpg)
 
-![assets/ruffe/07_closeup.jpg](../shots/assets/ruffe/07_closeup.jpg)
+![assets/pikeperch/04_clean.jpg](../shots/assets/pikeperch/04_clean.jpg)
 
-![assets/ruffe/08_closeup_top.jpg](../shots/assets/ruffe/08_closeup_top.jpg)
+![assets/pikeperch/05_lods.jpg](../shots/assets/pikeperch/05_lods.jpg)
 
-![assets/ruffe/09_raw.jpg](../shots/assets/ruffe/09_raw.jpg)
+![assets/pikeperch/06_silhouette.jpg](../shots/assets/pikeperch/06_silhouette.jpg)
 
-![assets/ruffe/10_clean.jpg](../shots/assets/ruffe/10_clean.jpg)
+![assets/pikeperch/07_concept.jpg](../shots/assets/pikeperch/07_concept.jpg)
 
-![assets/ruffe/11_lods.jpg](../shots/assets/ruffe/11_lods.jpg)
+![assets/plank/01_raw.jpg](../shots/assets/plank/01_raw.jpg)
 
-![assets/ruffe/12_silhouette.jpg](../shots/assets/ruffe/12_silhouette.jpg)
+![assets/plank/02_clean.jpg](../shots/assets/plank/02_clean.jpg)
 
-![assets/ruffe/13_concept.jpg](../shots/assets/ruffe/13_concept.jpg)
+![assets/plank/03_lods.jpg](../shots/assets/plank/03_lods.jpg)
 
-![assets/sawn_off/01_raw.jpg](../shots/assets/sawn_off/01_raw.jpg)
+![assets/plank/04_before_after_decimation.jpg](../shots/assets/plank/04_before_after_decimation.jpg)
 
-![assets/sawn_off/02_clean.jpg](../shots/assets/sawn_off/02_clean.jpg)
+![assets/plank/05_raw.jpg](../shots/assets/plank/05_raw.jpg)
 
-![assets/sawn_off/03_lods.jpg](../shots/assets/sawn_off/03_lods.jpg)
+![assets/plank/06_clean.jpg](../shots/assets/plank/06_clean.jpg)
 
-![assets/sawn_off/04_silhouette.jpg](../shots/assets/sawn_off/04_silhouette.jpg)
+![assets/plank/07_lods.jpg](../shots/assets/plank/07_lods.jpg)
 
-![assets/scrap_bundle/01_concept_sheet.jpg](../shots/assets/scrap_bundle/01_concept_sheet.jpg)
+![assets/plank/08_before_after_decimation.jpg](../shots/assets/plank/08_before_after_decimation.jpg)
 
-![assets/scrap_bundle/02_tripo_generation.jpg](../shots/assets/scrap_bundle/02_tripo_generation.jpg)
+![assets/plough/01_concept_sheet.jpg](../shots/assets/plough/01_concept_sheet.jpg)
 
-![assets/scrap_bundle/03_raw.jpg](../shots/assets/scrap_bundle/03_raw.jpg)
+![assets/plough/02_tripo_generation.jpg](../shots/assets/plough/02_tripo_generation.jpg)
 
-![assets/scrap_bundle/04_clean.jpg](../shots/assets/scrap_bundle/04_clean.jpg)
+![assets/plough/03_raw.jpg](../shots/assets/plough/03_raw.jpg)
 
-![assets/scrap_bundle/05_lods.jpg](../shots/assets/scrap_bundle/05_lods.jpg)
+![assets/plough/04_clean.jpg](../shots/assets/plough/04_clean.jpg)
 
-![assets/scrap_bundle/06_silhouette.jpg](../shots/assets/scrap_bundle/06_silhouette.jpg)
+![assets/plough/05_lods.jpg](../shots/assets/plough/05_lods.jpg)
 
-![assets/scrap_bundle/07_before_after_decimation.jpg](../shots/assets/scrap_bundle/07_before_after_decimation.jpg)
+![assets/plough/06_silhouette.jpg](../shots/assets/plough/06_silhouette.jpg)
 
-![assets/searchlight_01/01_raw.jpg](../shots/assets/searchlight_01/01_raw.jpg)
+![assets/plough/07_before_after_decimation.jpg](../shots/assets/plough/07_before_after_decimation.jpg)

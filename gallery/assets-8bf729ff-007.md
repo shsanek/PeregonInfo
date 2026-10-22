@@ -2,122 +2,122 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/icetent/01_raw.jpg](../shots/assets/icetent/01_raw.jpg)
+![assets/grayling/03_raw.jpg](../shots/assets/grayling/03_raw.jpg)
 
-![assets/icetent/02_clean.jpg](../shots/assets/icetent/02_clean.jpg)
+![assets/grayling/04_clean.jpg](../shots/assets/grayling/04_clean.jpg)
 
-![assets/icetent/03_lods.jpg](../shots/assets/icetent/03_lods.jpg)
+![assets/grayling/05_lods.jpg](../shots/assets/grayling/05_lods.jpg)
 
-![assets/icetent/04_silhouette.jpg](../shots/assets/icetent/04_silhouette.jpg)
+![assets/grayling/06_silhouette.jpg](../shots/assets/grayling/06_silhouette.jpg)
 
-![assets/ide/01_raw.jpg](../shots/assets/ide/01_raw.jpg)
+![assets/grayling/07_before_after_decimation.jpg](../shots/assets/grayling/07_before_after_decimation.jpg)
 
-![assets/ide/02_clean.jpg](../shots/assets/ide/02_clean.jpg)
+![assets/greybox_barrel/01_blender.jpg](../shots/assets/greybox_barrel/01_blender.jpg)
 
-![assets/ide/03_lods.jpg](../shots/assets/ide/03_lods.jpg)
+![assets/greybox_capsule/01_blender.jpg](../shots/assets/greybox_capsule/01_blender.jpg)
 
-![assets/ide/04_silhouette.jpg](../shots/assets/ide/04_silhouette.jpg)
+![assets/greybox_crate/01_blender.jpg](../shots/assets/greybox_crate/01_blender.jpg)
 
-![assets/ide/05_concept.jpg](../shots/assets/ide/05_concept.jpg)
+![assets/greybox_cube/01_blender.jpg](../shots/assets/greybox_cube/01_blender.jpg)
 
-![assets/jack/01_concept_sheet.jpg](../shots/assets/jack/01_concept_sheet.jpg)
+![assets/greybox_ramp/01_blender.jpg](../shots/assets/greybox_ramp/01_blender.jpg)
 
-![assets/jack/02_tripo_generation.jpg](../shots/assets/jack/02_tripo_generation.jpg)
+![assets/greybox_wall_slab/01_blender.jpg](../shots/assets/greybox_wall_slab/01_blender.jpg)
 
-![assets/jack/03_raw.jpg](../shots/assets/jack/03_raw.jpg)
+![assets/greybox_wheel/01_blender.jpg](../shots/assets/greybox_wheel/01_blender.jpg)
 
-![assets/jack/04_clean.jpg](../shots/assets/jack/04_clean.jpg)
+![assets/ground_wheat/01_generation.jpg](../shots/assets/ground_wheat/01_generation.jpg)
 
-![assets/jack/05_lods.jpg](../shots/assets/jack/05_lods.jpg)
+![assets/ground_wheat/02_picked_maps.jpg](../shots/assets/ground_wheat/02_picked_maps.jpg)
 
-![assets/jack/06_silhouette.jpg](../shots/assets/jack/06_silhouette.jpg)
+![assets/ground_wheat/03_baked.jpg](../shots/assets/ground_wheat/03_baked.jpg)
 
-![assets/jack/07_before_after_decimation.jpg](../shots/assets/jack/07_before_after_decimation.jpg)
+![assets/ground_wheat/04_in_game.jpg](../shots/assets/ground_wheat/04_in_game.jpg)
 
-![assets/kit_contact_sheet/01_blender_b1.jpg](../shots/assets/kit_contact_sheet/01_blender_b1.jpg)
+![assets/ground_wheat/05_in_game_far.jpg](../shots/assets/ground_wheat/05_in_game_far.jpg)
 
-![assets/kit_contact_sheet/02_blender_b12.jpg](../shots/assets/kit_contact_sheet/02_blender_b12.jpg)
+![assets/gs_anvil_01/01_raw.jpg](../shots/assets/gs_anvil_01/01_raw.jpg)
 
-![assets/kit_contact_sheet/03_blender_b123.jpg](../shots/assets/kit_contact_sheet/03_blender_b123.jpg)
+![assets/gs_anvil_01/02_clean.jpg](../shots/assets/gs_anvil_01/02_clean.jpg)
 
-![assets/kit_contact_sheet/04_blender_b1234.jpg](../shots/assets/kit_contact_sheet/04_blender_b1234.jpg)
+![assets/gs_anvil_01/03_lods.jpg](../shots/assets/gs_anvil_01/03_lods.jpg)
 
-![assets/kit_gb_airstrip_slab/01_blender.jpg](../shots/assets/kit_gb_airstrip_slab/01_blender.jpg)
+![assets/gs_bench_01/01_closeup.jpg](../shots/assets/gs_bench_01/01_closeup.jpg)
 
-![assets/kit_gb_barbed_wire/01_blender.jpg](../shots/assets/kit_gb_barbed_wire/01_blender.jpg)
+![assets/gs_bench_01/02_closeup_top.jpg](../shots/assets/gs_bench_01/02_closeup_top.jpg)
 
-![assets/kit_gb_barrier_arm/01_blender.jpg](../shots/assets/kit_gb_barrier_arm/01_blender.jpg)
+![assets/gs_bench_01/03_raw.jpg](../shots/assets/gs_bench_01/03_raw.jpg)
 
-![assets/kit_gb_beehive/01_blender.jpg](../shots/assets/kit_gb_beehive/01_blender.jpg)
+![assets/gs_bench_01/04_clean.jpg](../shots/assets/gs_bench_01/04_clean.jpg)
 
-![assets/kit_gb_billboard_tilted/01_blender.jpg](../shots/assets/kit_gb_billboard_tilted/01_blender.jpg)
+![assets/gs_bench_01/05_lods.jpg](../shots/assets/gs_bench_01/05_lods.jpg)
 
-![assets/kit_gb_bld_aiyl/01_blender.jpg](../shots/assets/kit_gb_bld_aiyl/01_blender.jpg)
+![assets/gs_bench_01/06_closeup.jpg](../shots/assets/gs_bench_01/06_closeup.jpg)
 
-![assets/kit_gb_bld_banya/01_blender.jpg](../shots/assets/kit_gb_bld_banya/01_blender.jpg)
+![assets/gs_bench_01/07_closeup_top.jpg](../shots/assets/gs_bench_01/07_closeup_top.jpg)
 
-![assets/kit_gb_bld_barrack_2st/01_blender.jpg](../shots/assets/kit_gb_bld_barrack_2st/01_blender.jpg)
+![assets/gs_bench_01/08_raw.jpg](../shots/assets/gs_bench_01/08_raw.jpg)
 
-![assets/kit_gb_bld_block_9/01_blender.jpg](../shots/assets/kit_gb_bld_block_9/01_blender.jpg)
+![assets/gs_bench_01/09_clean.jpg](../shots/assets/gs_bench_01/09_clean.jpg)
 
-![assets/kit_gb_bld_brick_2st/01_blender.jpg](../shots/assets/kit_gb_bld_brick_2st/01_blender.jpg)
+![assets/gs_bench_01/10_lods.jpg](../shots/assets/gs_bench_01/10_lods.jpg)
 
-![assets/kit_gb_bld_chapel_wood/01_blender.jpg](../shots/assets/kit_gb_bld_chapel_wood/01_blender.jpg)
+![assets/gs_crimper_01/01_raw.jpg](../shots/assets/gs_crimper_01/01_raw.jpg)
 
-![assets/kit_gb_bld_church_brick/01_blender.jpg](../shots/assets/kit_gb_bld_church_brick/01_blender.jpg)
+![assets/gs_crimper_01/02_clean.jpg](../shots/assets/gs_crimper_01/02_clean.jpg)
 
-![assets/kit_gb_bld_club/01_blender.jpg](../shots/assets/kit_gb_bld_club/01_blender.jpg)
+![assets/gs_crimper_01/03_lods.jpg](../shots/assets/gs_crimper_01/03_lods.jpg)
 
-![assets/kit_gb_bld_cowshed/01_blender.jpg](../shots/assets/kit_gb_bld_cowshed/01_blender.jpg)
+![assets/gs_crimper_01/04_raw.jpg](../shots/assets/gs_crimper_01/04_raw.jpg)
 
-![assets/kit_gb_bld_cowshed_ruin/01_blender.jpg](../shots/assets/kit_gb_bld_cowshed_ruin/01_blender.jpg)
+![assets/gs_crimper_01/05_clean.jpg](../shots/assets/gs_crimper_01/05_clean.jpg)
 
-![assets/kit_gb_bld_elevator_silos/01_blender.jpg](../shots/assets/kit_gb_bld_elevator_silos/01_blender.jpg)
+![assets/gs_crimper_01/06_lods.jpg](../shots/assets/gs_crimper_01/06_lods.jpg)
 
-![assets/kit_gb_bld_elevator_store/01_blender.jpg](../shots/assets/kit_gb_bld_elevator_store/01_blender.jpg)
+![assets/gs_vise_01/01_raw.jpg](../shots/assets/gs_vise_01/01_raw.jpg)
 
-![assets/kit_gb_bld_elevator_tower/01_blender.jpg](../shots/assets/kit_gb_bld_elevator_tower/01_blender.jpg)
+![assets/gs_vise_01/02_clean.jpg](../shots/assets/gs_vise_01/02_clean.jpg)
 
-![assets/kit_gb_bld_hangar_mts/01_blender.jpg](../shots/assets/kit_gb_bld_hangar_mts/01_blender.jpg)
+![assets/gs_vise_01/03_lods.jpg](../shots/assets/gs_vise_01/03_lods.jpg)
 
-![assets/kit_gb_bld_izba/01_blender.jpg](../shots/assets/kit_gb_bld_izba/01_blender.jpg)
+![assets/hand_pump_drum_01/01_raw.jpg](../shots/assets/hand_pump_drum_01/01_raw.jpg)
 
-![assets/kit_gb_bld_izba_large/01_blender.jpg](../shots/assets/kit_gb_bld_izba_large/01_blender.jpg)
+![assets/hand_pump_drum_01/02_clean.jpg](../shots/assets/hand_pump_drum_01/02_clean.jpg)
 
-![assets/kit_gb_bld_izba_ruin/01_blender.jpg](../shots/assets/kit_gb_bld_izba_ruin/01_blender.jpg)
+![assets/hand_pump_drum_01/03_lods.jpg](../shots/assets/hand_pump_drum_01/03_lods.jpg)
 
-![assets/kit_gb_bld_khrushchyovka_5/01_blender.jpg](../shots/assets/kit_gb_bld_khrushchyovka_5/01_blender.jpg)
+![assets/hand_pump_drum_01/04_silhouette.jpg](../shots/assets/hand_pump_drum_01/04_silhouette.jpg)
 
-![assets/kit_gb_bld_khrushchyovka_5_3e/01_blender.jpg](../shots/assets/kit_gb_bld_khrushchyovka_5_3e/01_blender.jpg)
+![assets/hoist_beam_01/01_closeup.jpg](../shots/assets/hoist_beam_01/01_closeup.jpg)
 
-![assets/kit_gb_bld_school/01_blender.jpg](../shots/assets/kit_gb_bld_school/01_blender.jpg)
+![assets/hoist_beam_01/02_closeup_top.jpg](../shots/assets/hoist_beam_01/02_closeup_top.jpg)
 
-![assets/kit_gb_bld_shed/01_blender.jpg](../shots/assets/kit_gb_bld_shed/01_blender.jpg)
+![assets/hoist_beam_01/03_raw.jpg](../shots/assets/hoist_beam_01/03_raw.jpg)
 
-![assets/kit_gb_bld_shop/01_blender.jpg](../shots/assets/kit_gb_bld_shop/01_blender.jpg)
+![assets/hoist_beam_01/04_clean.jpg](../shots/assets/hoist_beam_01/04_clean.jpg)
 
-![assets/kit_gb_bld_silage_trench/01_blender.jpg](../shots/assets/kit_gb_bld_silage_trench/01_blender.jpg)
+![assets/hoist_beam_01/05_lods.jpg](../shots/assets/hoist_beam_01/05_lods.jpg)
 
-![assets/kit_gb_boiler_house/01_blender.jpg](../shots/assets/kit_gb_boiler_house/01_blender.jpg)
+![assets/home_calendar/01_raw.jpg](../shots/assets/home_calendar/01_raw.jpg)
 
-![assets/kit_gb_boulder_l/01_blender.jpg](../shots/assets/kit_gb_boulder_l/01_blender.jpg)
+![assets/home_calendar/02_clean.jpg](../shots/assets/home_calendar/02_clean.jpg)
 
-![assets/kit_gb_boulder_m/01_blender.jpg](../shots/assets/kit_gb_boulder_m/01_blender.jpg)
+![assets/home_calendar/03_lods.jpg](../shots/assets/home_calendar/03_lods.jpg)
 
-![assets/kit_gb_boulder_s/01_blender.jpg](../shots/assets/kit_gb_boulder_s/01_blender.jpg)
+![assets/home_calendar/04_raw.jpg](../shots/assets/home_calendar/04_raw.jpg)
 
-![assets/kit_gb_br_abutment/01_blender.jpg](../shots/assets/kit_gb_br_abutment/01_blender.jpg)
+![assets/home_calendar/05_clean.jpg](../shots/assets/home_calendar/05_clean.jpg)
 
-![assets/kit_gb_br_bailey_10/01_blender.jpg](../shots/assets/kit_gb_br_bailey_10/01_blender.jpg)
+![assets/home_calendar/06_lods.jpg](../shots/assets/home_calendar/06_lods.jpg)
 
-![assets/kit_gb_br_concrete_span_24/01_blender.jpg](../shots/assets/kit_gb_br_concrete_span_24/01_blender.jpg)
+![assets/home_calendar/07_raw.jpg](../shots/assets/home_calendar/07_raw.jpg)
 
-![assets/kit_gb_br_footbridge_suspension/01_blender.jpg](../shots/assets/kit_gb_br_footbridge_suspension/01_blender.jpg)
+![assets/home_calendar/08_clean.jpg](../shots/assets/home_calendar/08_clean.jpg)
 
-![assets/kit_gb_br_log_crib/01_blender.jpg](../shots/assets/kit_gb_br_log_crib/01_blender.jpg)
+![assets/home_calendar/09_lods.jpg](../shots/assets/home_calendar/09_lods.jpg)
 
-![assets/kit_gb_br_pier_concrete/01_blender.jpg](../shots/assets/kit_gb_br_pier_concrete/01_blender.jpg)
+![assets/home_calendar/10_raw.jpg](../shots/assets/home_calendar/10_raw.jpg)
 
-![assets/kit_gb_br_pier_tall/01_blender.jpg](../shots/assets/kit_gb_br_pier_tall/01_blender.jpg)
+![assets/home_calendar/11_clean.jpg](../shots/assets/home_calendar/11_clean.jpg)
 
-![assets/kit_gb_br_timber_span_8/01_blender.jpg](../shots/assets/kit_gb_br_timber_span_8/01_blender.jpg)
+![assets/home_calendar/12_lods.jpg](../shots/assets/home_calendar/12_lods.jpg)
