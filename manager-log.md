@@ -1110,3 +1110,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 FEAR done (7c144c3f76, protocol 42, save section 274) — merge after tip ctest. WHEEL started from 85db7ea2a7 (cmd 30, protocol 44 if needed). Running: GP1, STAB, TOW, WHEEL.
 - 2026-10-22 tick: tip serial ctest still running; GP1, STAB (committing fixes), TOW, WHEEL active.
 - 2026-10-22 published DOCHIDE, ZB1(docs), PVA2, RAID2: serial ctest 12/13 (zhiltsy_play 300 s timeout under load; RAID2 had it 9/9).
+- 2026-10-22 tick: load avg ~100. GP1 in progression_play, TOW in tests, WHEEL editing, STAB idle (no procs). Asked agents to build -j6 and run ctest serially.
+- 2026-10-23 FEAR merged (57a4ad313f): 9/9 touched tests.
