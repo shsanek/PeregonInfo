@@ -4,7 +4,7 @@
 
 Исходный проект: [EXEcutor / Peregon](https://github.com/shsanek/EXEcutor/tree/claude/peregon-design/games/peregon).
 
-Отчёт собран по [4dd69a7a66](https://github.com/shsanek/EXEcutor/commit/4dd69a7a66fc7a7529560ce4703ca2834907da45).
+Отчёт собран по [85db7ea2a7](https://github.com/shsanek/EXEcutor/commit/85db7ea2a77a5a7de1ca3c6d0b4e017b64e8f129).
 
 HTML-версия сохранена в [index.html](index.html); её можно открыть локально после клонирования.
 
@@ -27,7 +27,7 @@ HTML-версия сохранена в [index.html](index.html); её можн�
 | 2026-10-19 | 26 | [Открыть](merges/2026-10-19.md) |
 | 2026-10-20 | 34 | [Открыть](merges/2026-10-20.md) |
 | 2026-10-21 | 1 | [Открыть](merges/2026-10-21.md) |
-| 2026-10-22 | 23 | [Открыть](merges/2026-10-22.md) |
+| 2026-10-22 | 26 | [Открыть](merges/2026-10-22.md) |
 
 ## Модели
 

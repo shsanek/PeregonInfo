@@ -74,6 +74,7 @@
 - [dialogue-modern · 1](dialogue-modern-74330e67-001.md) — 5
 - [dialogue-old · 1](dialogue-old-367aef3c-001.md) — 4
 - [dig_sh2 · 1](dig-sh2-688c5809-001.md) — 16
+- [dochide · 1](dochide-c5a938da-001.md) — 9
 - [drowsy · 1](drowsy-8978c132-001.md) — 4
 - [elevator · 1](elevator-41762bcf-001.md) — 25
 - [elevatorlived · 1](elevatorlived-458f6dfc-001.md) — 12
@@ -230,6 +231,7 @@
 - [pv9a · 1](pv9a-aed97d55-001.md) — 5
 - [pv9b · 1](pv9b-4f1608f1-001.md) — 4
 - [pva · 1](pva-f0db8185-001.md) — 18
+- [pva2 · 1](pva2-e6847f6c-001.md) — 5
 - [pvc · 1](pvc-faf78c6d-001.md) — 10
 - [pvq · 1](pvq-ef7ae8a8-001.md) — 8
 - [pvr · 1](pvr-c1bdbe82-001.md) — 4
@@ -241,6 +243,7 @@
 - [rack44 · 1](rack44-a695512a-001.md) — 3
 - [radio-audio · 1](radio-audio-a0340eae-001.md) — 6
 - [radioregion · 1](radioregion-5c79b80a-001.md) — 8
+- [raid2 · 1](raid2-55949163-001.md) — 7
 - [rail2 · 1](rail2-1ba80a0c-001.md) — 51
 - [rail3 · 1](rail3-92260b61-001.md) — 60
 - [rail3 · 2](rail3-92260b61-002.md) — 34

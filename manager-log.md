@@ -1095,3 +1095,18 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 PVC published (310c677488). TECHXP cherry-picked + protocol bumped to 38 (commit on tip), build+ctest running. DOCHIDE told: protocol 40 if needed (39 = RAID2).
 - 2026-10-22 tick: TECHXP built, ctest running; PVA2 (crafted items drawn with models), DOCHIDE, RAID2, ZB1 active.
 - 2026-10-22 TECHXP merged (4dd69a7a66, protocol 38): 15/17 green; crafting_play garage-bay + railworks_play ТЛ-07 fail = PVC regressions → assigned to RAID2 as priority 0.
+- 2026-10-22 tick: PVA2, DOCHIDE, RAID2 (+PVC regressions), ZB1 active.
+- 2026-10-22 OWNER DECISIONS: (1) dismantle returns 85 %; (2) truck armour — for now neither craftable nor fittable (hide recipes); (3) owner checks Steam later; (4) fear: stronger hand tremble, slower reload etc. (Нервы); (5) make sure the player gets enough food; (6) water can be hauled to camp in jerrycans or barrels from the river; (7) don't go deep into visuals — gameplay first, owner will run gameplay tests. Queue: GP1 (85 %, armour off, food sufficiency, water hauling) → FEAR. No new visual tasks; ZB1 continues only to use expiring Rodin credits.
+- 2026-10-22 DOCHIDE done (5c4852fc91, 2c98d7af0f → 62b716d35b, 3d2c529579; protocol 40, kCommandStash=26), build+ctest running. GP1 started from 3d2c529579 (85 %, armour off, food audit, water hauling, playtest checklist). Running: PVA2, RAID2, ZB1, GP1. Next: FEAR.
+- 2026-10-22 owner on ZB1: generated models are ordinary people — zhiltsy must be monsters; generate in Tripo (proper mesh, skeleton). Redirected ZB1: monster concepts, Tripo Studio website + its retopo/rig tools, no more Rodin.
+- 2026-10-22 owner: zhiltsy remark was only a note; no visual work until gameplay tests. ZB1 told to stop and park (notes in zhiltsy-body.md). Its slot → FEAR once it stops.
+- 2026-10-22 ZB1 parked (acf14386bd docs+adapt fixes). NOTE: worktree removal deleted the gitignored art-src archive; recovered prompt.txt + 4 monster prompts from transcript/tmp into main tree; Rodin meshes re-downloadable from the Rodin account. Lesson: copy art-src/gen out of agent worktrees before removing.
+- 2026-10-22 PVA2 done; art-src/out rsynced to main; cherry-picked to ef2558cc33 (item_icons took PVA2's; clay+gasifier lack icons → GP1 regenerates). STAB started (full ctest triage + soak + playtest readiness). Running: RAID2, GP1, FEAR, STAB.
+- 2026-10-22 tick: PVA2 + DOCHIDE ctests still running in main build dir; RAID2 fixed PVC regressions (df4949e8fb); GP1 WIP 85 %/armour; FEAR, STAB starting.
+- 2026-10-22 tick: PVA2 ctest in progress (play_cargo timeout under load again); 4 agents active (RAID2 quiet 20 min - likely in tests).
+- 2026-10-22 owner feature TOW: tie one truck to another with a rope (rope item exists) so one can tow the other; attach at front or rear of either. Queue next free slot.
+- 2026-10-22 RAID2 done → cherry-picked 73cde189cf, 85db7ea2a7 (docs table conflicts merged). TOW started from tip. STAB told to rebase (43 → TOW, STAB 44). Pending: PVA2 ctest then rebuild tip + ctest for DOCHIDE/ZB1/PVA2/RAID2 and push all.
+- 2026-10-22 tick: tip build+serial ctest running; GP1, FEAR, TOW active; STAB no file changes (running full ctest).
+- 2026-10-22 FEAR done (7c144c3f76, protocol 42, save section 274) — merge after tip ctest. WHEEL started from 85db7ea2a7 (cmd 30, protocol 44 if needed). Running: GP1, STAB, TOW, WHEEL.
+- 2026-10-22 tick: tip serial ctest still running; GP1, STAB (committing fixes), TOW, WHEEL active.
+- 2026-10-22 published DOCHIDE, ZB1(docs), PVA2, RAID2: serial ctest 12/13 (zhiltsy_play 300 s timeout under load; RAID2 had it 9/9).
