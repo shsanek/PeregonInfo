@@ -1152,3 +1152,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 21:52 tick: HOSE merge testing; running COMBAT3 (has commit), BALFIX, ARTFOREST, STAGES (relaunched from repo root). Owner additions queued: BAL6, DES1/STAGES, FUT1-3, GP3, ZB-BUGS.
 - 2026-10-22 21:53 backlog regrouped (P0 SND1 + BAL1-3, P1 STAGES/BAL/ZH + NET, P2 PAR/GP, P3 bugs/future/forest).
 - 2026-10-22 22:32 tick: HOSE merged ade9194a57; COMBAT3 merge building (protocol 66, §25). Running: BALFIX, ARTFOREST, STAGES, SND1.
+- 2026-10-22 22:49 STAGES merged bc9172efaf; COMBAT3 74f22c2283, HOSE ade9194a57 reported. NET1 started. Running: BALFIX, ARTFOREST, SND1, NET1. Next: BAL5a, TELE1.
