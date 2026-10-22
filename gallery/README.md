@@ -229,6 +229,7 @@
 - [pv8 · 1](pv8-da35faab-001.md) — 6
 - [pv9a · 1](pv9a-aed97d55-001.md) — 5
 - [pva · 1](pva-f0db8185-001.md) — 18
+- [pvq · 1](pvq-ef7ae8a8-001.md) — 8
 - [questcore · 1](questcore-8fa2812a-001.md) — 2
 - [quests-balance · 1](quests-balance-bbd3cf92-001.md) — 8
 - [r1 · 1](r1-82f3e9c6-001.md) — 36
