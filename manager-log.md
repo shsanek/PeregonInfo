@@ -1133,3 +1133,7 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 18:12 tick: HEAT (p55) + NODES3 (p56, s289, cmd32) picked, ctest running; PT2, TRUCKN3, INSUL, TRAILER active.
 - 2026-10-22 18:32 tick: PT2 picked on HEAT+NODES3, ctest running; TRUCKN3, INSUL, TRAILER, RAID3 active.
 - 2026-10-22 18:47 pushed HEAT (p55), NODES3 (p56), PT2; 17/17 + 20/21 suites.
+- 2026-10-22 18:52 tick: TRUCKN3 picked (p57, s295), ctest running; INSUL, TRAILER, RAID3, PTRUN active.
+- 2026-10-22 19:12 tick: TRUCKN3 tested 18/18; INSUL picked (p58, s296) ctest running; TRAILER rebasing (agent); RAID3 done, to pick after INSUL; PTRUN, COOPSWEEP, TRAILER2 active.
+- 2026-10-22 19:32 tick: INSUL ctest running; TRAILER rebased testing; PTRUN, COOPSWEEP, TRAILER2 active; RAID3 waiting.
+- 2026-10-22 19:38 pushed TRUCKN3 (p57), INSUL (p58, s296), TRAILER (ff, p59, s300, cmd36).
