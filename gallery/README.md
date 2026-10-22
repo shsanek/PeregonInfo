@@ -67,6 +67,7 @@
 - [coal_b3 · 1](coal-b3-c24fe038-001.md) — 19
 - [coallived · 1](coallived-300e6faf-001.md) — 13
 - [combat2 · 1](combat2-7b364d7c-001.md) — 4
+- [combat3 · 1](combat3-77990c2d-001.md) — 4
 - [coop46 · 1](coop46-370e17ae-001.md) — 2
 - [coop48 · 1](coop48-bd98bd41-001.md) — 2
 - [cordonlived · 1](cordonlived-ecdf238b-001.md) — 13
