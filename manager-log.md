@@ -1127,3 +1127,5 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 16:52 tick: TRUCKN2, FALLS (tests running), BUILD2, PT2 active.
 - 2026-10-22 17:12 tick: FALLS (p52) + BUILD2 (p53) picked, ctest running; TRUCKN2, PT2, NODES3, HEAT active.
 - 2026-10-22 17:24 pushed FALLS (p52) + BUILD2 (p53); 25/25 touched suites pass.
+- 2026-10-22 17:37 tick: TRUCKN2 picked (p54, s288) + gun_rag dims + drowsy jolt test fix, ctest running; PT2, NODES3, HEAT, TRUCKN3 active.
+- 2026-10-22 17:54 pushed TRUCKN2 (p54, s288) + test fixes 33a4cfeafe; gun_rag model/dims handed to PT2.
