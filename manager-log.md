@@ -1162,3 +1162,4 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 23:52 tick: BALFIX merging (protocol 67, §28); ART2 pine pilot started. Running: NET1 (rebasing), TELE1, ZH1, ART2.
 - 2026-10-23 00:12 tick: BALFIX merge tests running (inventory under ctest timed out, rerunning direct); NET1 done 9dc64b153c (merge after BALFIX); NET23 started. Running: TELE1, ZH1, ART2 pine, NET23.
 - 2026-10-23 00:33 NET1 ff-merged 9dc64b153c. BALFIX merge aborted: crew truck truck/physics diff at join (coopsweep 2/7) — sent back. Running: BALFIX(fix), TELE1, ZH1, ART2, NET23 (5 incl. BALFIX fix-up resume).
+- 2026-10-23 00:33 tick: running BALFIX fix-up, TELE1, ZH1, ART2, NET23.
