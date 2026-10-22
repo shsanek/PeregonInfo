@@ -1129,3 +1129,7 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 17:24 pushed FALLS (p52) + BUILD2 (p53); 25/25 touched suites pass.
 - 2026-10-22 17:37 tick: TRUCKN2 picked (p54, s288) + gun_rag dims + drowsy jolt test fix, ctest running; PT2, NODES3, HEAT, TRUCKN3 active.
 - 2026-10-22 17:54 pushed TRUCKN2 (p54, s288) + test fixes 33a4cfeafe; gun_rag model/dims handed to PT2.
+- 2026-10-22 17:55 tick: PT2, NODES3, HEAT, TRUCKN3 active; nothing to merge.
+- 2026-10-22 18:12 tick: HEAT (p55) + NODES3 (p56, s289, cmd32) picked, ctest running; PT2, TRUCKN3, INSUL, TRAILER active.
+- 2026-10-22 18:32 tick: PT2 picked on HEAT+NODES3, ctest running; TRUCKN3, INSUL, TRAILER, RAID3 active.
+- 2026-10-22 18:47 pushed HEAT (p55), NODES3 (p56), PT2; 17/17 + 20/21 suites.
