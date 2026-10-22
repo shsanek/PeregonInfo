@@ -1064,3 +1064,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 16:40 PV6 fields cherry-picked (137e5a9dab); build green, 8/8 touched tests; report pushed. PV9a doing a final rebase onto 137e5a9dab+bump. PVQ progression audit running
 2026-10-22 16:47 tick: PV9a 51967bd5d4 rebasing/merging items, PVA 424f3ced71 shots tour, PVQ started, PVC started; all active; disk 82 GB
 2026-10-22 17:25 PV9a crafting cherry-picked (3103ee4e7e); build green, 11/11 touched tests; report pushed. PV9b balance+skills started from 3103ee4e7e. PVA rebasing onto 3103ee4e7e
+2026-10-22 18:00 PVA art cherry-picked (6be4a0662a); needed a cmake re-configure (new asset dirs are globbed at configure), then 13/13 touched tests; shadows refreshed; report pushed. PVA2 second art pass started from 6be4a0662a
