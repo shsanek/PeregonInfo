@@ -242,6 +242,7 @@ Source: owner's co-op play-test and remarks on 2026-10-22 evening. This list is 
 | ID | Task | Problem | Complexity | Priority | Status |
 |----|------|---------|------------|---------|--------|
 | ART1 | Layered forest | Forest too tall, almost no undergrowth; ChatGPT sheets (last Pro days) via the peregon-art pipeline; `--forest classic/layered`, classic default until approved | medium | high | ARTFOREST running |
+| ART2 | Whole forest and forest props as Tripo models | Owner: regenerate the whole forest in Tripo (sane triangle count, better quality) plus rocks, fly agarics/mushrooms, stumps, logs, shrubs. ChatGPT reference sheets now (ARTFOREST, last Pro days); then Tripo Studio per model, one fresh agent per model, sequential (shared Chrome), Tripo retopo to budget, LODs, compare with current assets (tris, look, FPS); behind the `--forest` switch until approved | high | high | references in ARTFOREST, Tripo pass after |
 
 ### Paused / in flight from before the feedback
 
