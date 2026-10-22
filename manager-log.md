@@ -1037,3 +1037,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 06:35 PV1 tech ff-merged e868c2a71e; ccache build green, 7/7 touched tests; report pushed. PV3a building core started from e868c2a71e; PV2a told to rebase + swap stubs to PV1 API
 2026-10-22 07:25 PV2a stations cherry-picked onto tip (4da8665d24); build green, r1 caches refreshed, 9/9 touched tests; report pushed. PV2b dismantle/blueprint started from 4da8665d24
 2026-10-22 07:47 tick: all 4 active (PV2b f905e527d2 data/model, PV3a 5bbb4a6dde pure build model, PV4a 1 commit + 29 WIP files, PV4b 3 commits retextured bodies+clips); disk 88 GB
+2026-10-22 08:15 PV4b zhiltsy bodies cherry-picked (71c46be888); build green, character_tests 22/22; art stages copied to main design/art-src/gen/2026-10-22_zhiltsy; generated zhiltsy blocked on Rodin login (owner). PV4a told the kit ids. PV7a depot+branch+railcar+iron mine started from 71c46be888
