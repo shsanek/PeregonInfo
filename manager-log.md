@@ -1061,3 +1061,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 15:30 PV8 notes and PV9a crafting finished; both asked to rebase onto fa7094098f (PV8 protocol 35, PV9a 36). Next: PV9b balance after PV9a merges
 2026-10-22 15:45 PV6 fields finished; asked to rebase onto fa7094098f, renumber its 4 build kinds after 137 (PV3b data pieces), protocol 37 if needed. Merge queue: PV8 -> PV9a -> PV6 (each rebases onto fa7094098f; later ones get small conflicts at merge). Visual follow-ups for a later art pass: wheat on new fields reads as yellow grass; farm implements, sheaves, new crops, crafted items are boxes
 2026-10-22 16:05 PV8 notes ff-merged ff505a2a03; build green, shadows refreshed, 8/8 touched tests; report pushed. PV8 complete
+2026-10-22 16:40 PV6 fields cherry-picked (137e5a9dab); build green, 8/8 touched tests; report pushed. PV9a doing a final rebase onto 137e5a9dab+bump. PVQ progression audit running
