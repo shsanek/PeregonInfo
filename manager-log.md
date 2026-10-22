@@ -1119,3 +1119,7 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 14:53 tick: GUNS picked (756477e125), build+ctest running; WHEEL committed 4164ac7ffa; JOINEARLY started; STAB/TOW active.
 - 2026-10-22 15:12 tick: TOW picked + protocol 46, build ok, ctest running; GUNS waiting to push with TOW; STAB/WHEEL/JOINEARLY/CAMP1 active.
 - 2026-10-22 15:19 GUNS (756477e125) + TOW (136ac7af70, protocol 46 in 0279a8e154) merged; vehicle_tests timeout under load only.
+- 2026-10-22 15:34 tick: WHEEL picked (bd339eb154, protocol 47, section 278) ctest running; CAMP1 done, waiting to pick; SKILLXP + TRUCKN2 started; STAB wrote stability.md; JOINEARLY WIP.
+- 2026-10-22 15:52 tick: WHEEL merge lost 5 recipes in conflict resolution, restored, re-testing; others active.
+- 2026-10-22 16:15 tick: WHEEL+fix, CAMP1, JOINEARLY (p48), SKILLXP (p50), STAB ff merged locally; build+ctest running before push. Agents TRUCKN2, FALLS, BUILD2, PT2.
+- 2026-10-22 16:24 pushed WHEEL, CAMP1, JOINEARLY, SKILLXP, STAB (22/22 touched suites pass).
