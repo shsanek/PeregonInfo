@@ -1058,3 +1058,5 @@ One line per decision. Times are local (Mac).
 2026-10-22 14:35 PV3b pieces cherry-picked (4aee9b3e4c); build green, 8/8 touched tests (raid_tests real: 5/5, 114 checks); report pushed. PVA art pass (grey boxes → Blender models) started from 4aee9b3e4c
 2026-10-22 14:47 tick: PV6 40 WIP, PV8 ed3376966e notes data + 28 WIP, PV9a 20 WIP, PVA started (map copy); all active; disk 85 GB
 2026-10-22 15:07 tick: PV6 fe39f2c6ca (finishing, shots stage), PV8 fc7b50997e excavator fix, PV9a 65a6e7e34b crafting model + recipes, PVA 33 WIP; all active; disk 83 GB
+2026-10-22 15:30 PV8 notes and PV9a crafting finished; both asked to rebase onto fa7094098f (PV8 protocol 35, PV9a 36). Next: PV9b balance after PV9a merges
+2026-10-22 15:45 PV6 fields finished; asked to rebase onto fa7094098f, renumber its 4 build kinds after 137 (PV3b data pieces), protocol 37 if needed. Merge queue: PV8 -> PV9a -> PV6 (each rebases onto fa7094098f; later ones get small conflicts at merge). Visual follow-ups for a later art pass: wheat on new fields reads as yellow grass; farm implements, sheaves, new crops, crafted items are boxes
