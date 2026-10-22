@@ -224,3 +224,12 @@ Owner played a co-op session on `claude/peregon-design`. Verdict: progression an
 | PAR2 | Double-buffered state | Each system writes a prepared back buffer; buffers are swapped at the frame boundary so readers (render, network) never wait on writers | very high | high |
 
 Suggested order: BAL3, BAL1, BAL2 and NET1 first in parallel; then NET2 → NET3/NET5; BAL4 → BAL5 + ZH1; GP1, GP2, NET4, PAR1/PAR2 after.
+
+### Owner additions 2026-10-22 (late)
+
+| ID | Task | Problem | Complexity | Priority |
+|----|------|---------|------------|---------|
+| ART1 | Layered forest | Forest is too tall, almost no undergrowth. ChatGPT (last Pro days) sheets via the peregon-art pipeline: understory shrubs, young trees, forest floor; `--forest classic/layered` switch, classic stays default until the owner approves | medium | high |
+| ZB-BUGS | Bugs instead of zhiltsy (owner considering) | Alien bugs invaded; they live here and attack places with people. Concept sheets only (ChatGPT); Tripo models only after the owner approves the concept | high | medium |
+
+FIRE2 (wet firewood, campfire smoke, fog) paused to free the slot; WIP commit on its worktree branch, untested.
