@@ -1055,3 +1055,4 @@ One line per decision. Times are local (Mac).
 2026-10-22 13:27 tick: PV5 rebasing (31 WIP), PV6 ef7f7cbf25 farm model + 21 WIP, PV8 8 WIP, PV9a just started, PV3b idle waiting for PV5; disk 82 GB
 2026-10-22 13:35 PV9a first launch landed in a PeregonInfo worktree (manager cwd was reports/) and did nothing; removed, relaunched from the EXEcutor root
 2026-10-22 14:00 PV5 raids ff-merged 0f7f6e3ba7; build green, 9/9 touched tests; report pushed. PV3b rebasing onto 0f7f6e3ba7
+2026-10-22 14:35 PV3b pieces cherry-picked (4aee9b3e4c); build green, 8/8 touched tests (raid_tests real: 5/5, 114 checks); report pushed. PVA art pass (grey boxes → Blender models) started from 4aee9b3e4c
