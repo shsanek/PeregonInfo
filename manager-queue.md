@@ -197,7 +197,7 @@ Source: owner's co-op play-test and remarks on 2026-10-22 evening. This list is 
 
 | ID | Task | Problem | Complexity | Priority | Status |
 |----|------|---------|------------|---------|--------|
-| STAGES | Game by stages, start to late game (BAL4 + DES1) | Per stage: goals, where to drive and why, honest hauling (trips, capacities, fuel, time), what is built, threats, what unlocks the next stage; what the player levels up, which tech opens in what order, how character and base develop, how hard; base-site choice and growth; data-driven dependency graph tool flagging dead ends and teleport-rule violations | high | critical | running |
+| STAGES (done) | Game by stages, start to late game (BAL4 + DES1) | Per stage: goals, where to drive and why, honest hauling (trips, capacities, fuel, time), what is built, threats, what unlocks the next stage; what the player levels up, which tech opens in what order, how character and base develop, how hard; base-site choice and growth; data-driven dependency graph tool flagging dead ends and teleport-rule violations | high | critical | running |
 | BAL6 | Skill/tech tree: recheck, easy to open | Screen hides behind Shift+K; own key, visible button, HUD hint when a node can be learned; node value and pace (≈55 h per player with two) | medium | high | analysis in STAGES, then todo |
 | BAL5 | Rebalance in small steps | Apply STAGES' ranked proposals one small step at a time, re-run the tool after each | medium | high | after STAGES |
 | ZH1 | Enemies more dangerous, more of them, scarier | Threat escalates gradually over days, tied to BAL5 (and to the bug concept if approved) | medium | high | after STAGES |
@@ -261,4 +261,13 @@ Source: owner's co-op play-test and remarks on 2026-10-22 evening. This list is 
 | Q-HUT | Unheated hut ≈−23 °C at −25 °C outside — keep? |
 | Q-RAIN | Rain fill honest but small — enough? |
 
-Next free slots, in order: SND1, NET1, then BAL6/BAL5/ZH1 after STAGES, NET2/NET5.
+
+### From STAGES (docs/stages.md, S-01…S-18) — next balance tasks
+
+| ID | Task | Problem | Complexity | Priority | Status |
+|----|------|---------|------------|---------|--------|
+| BAL5a | Resources and tiers | S-01 scrap crates feed forge/machine shop; S-02 diesel closer and in bulk (kolkhoz fuel store, 200 l drum, siphoning on); S-03…S-07 renewable oil, rubber, spare parts, motors, cloth from wrecks/houses; S-09 Т-3 1200, Т-4 2400; S-10 ТМ-05 to table 3; S-11 recipes hidden until inputs exist; S-17 tree to ≈56 h. Small steps, `balance_deps` after each | medium | critical | next slot |
+| TELE1 | Teleport-rule violations | T1 rescue tow moves truck+bed and adds diesel; T2 rucksack stays with the player on death; T3 forage/cook results into the bed at any distance; T4 shop/fish sales through the bed at any distance; T5 garage/gun-bench jobs apply after the item left; T6 home shelf conjures oil/antifreeze/bucket/jerrycan; rescue auto-places a scrap crate; borderline B1–B5 | medium | critical | after BAL5a or parallel |
+| ZH1 | Threat pacing (S-18) | Heat score from noise/smoke/generator/machines; raid interval 14→3 days with heat; size by heat and players, waves ≤8; ≥3 quiet days after each raid; per-stage targets in stages.md | medium | high | after BAL5a |
+
+Next free slots, in order: BAL5a, TELE1, then NET2/NET5 after NET1, ZH1, ART2 Tripo pass.
