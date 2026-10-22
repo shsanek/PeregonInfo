@@ -231,5 +231,6 @@ Suggested order: BAL3, BAL1, BAL2 and NET1 first in parallel; then NET2 → NET3
 |----|------|---------|------------|---------|
 | ART1 | Layered forest | Forest is too tall, almost no undergrowth. ChatGPT (last Pro days) sheets via the peregon-art pipeline: understory shrubs, young trees, forest floor; `--forest classic/layered` switch, classic stays default until the owner approves | medium | high |
 | ZB-BUGS | Bugs instead of zhiltsy (owner considering) | Alien bugs invaded; active day and night, attack constantly; nest and spread like Factorio biters (hives grow and expand, waves drawn to noise/smoke/machinery near people). Concept sheets only (ChatGPT); Tripo models only after the owner approves the concept | high | medium |
+| GP3 | Flamethrower | Owner: add a flamethrower (home-made, kerosene/diesel tank, hose, igniter; hand-held and truck-mounted) — the natural weapon against bug nests; concept sheet now, gameplay after the bug concept is approved | medium | medium |
 
 FIRE2 (wet firewood, campfire smoke, fog) paused to free the slot; WIP commit on its worktree branch, untested.
