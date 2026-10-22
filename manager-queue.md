@@ -177,3 +177,50 @@ docs/camp-dressing-guide.md. 3 Claude sub-agents, one worktree each; manager loo
 | BZWB-A SHELL | Bunker structure: walls, floors, ceilings, lintels, stair tunnel, blast/pressure doors and door frames, caged lamps, from AbandonedBasement modules (+ Blender white box where no module fits); kit boxes stay as collision/nav sized to the meshes | `tools/bunker/bunker_shell.py`, door/lamp parts of `bunker_props.py`, new shell assets | work/peregon-bzwb-a | merged into claude/peregon-bzwb (cbde05d111) |
 | BZWB-B DRESSING | Every bunker prop and clutter piece (bunks, lockers, tables, diesel, tank, switchboard, radio racks, filter unit, ducts, shelves, crates, batteries, stash, wash stalls, rubble, pipes, debris) to catalogue meshes or Blender white boxes, varied, lived-in logic | `bunker_props.py` (non-door/lamp), `bunker_clutter.py`, `data/kit/props.txt` bunker block | work/peregon-bzwb-b | merged into claude/peregon-bzwb (9627f50c0b) |
 | BZWB-C ENTRANCE | The `rr_bunker_portal` cutting outside: portal facade, outer steel doors, rock face/retaining walls, signage, lamp, truck parking, worn lane and ground (camp_blend), all readable models | `rr_bunker_portal` place/stamp/blueprint, its kit pieces | work/peregon-bzwb-c | merged into claude/peregon-bzwb (f54cafa5a7, mesh fix 928ee8ed73) |
+
+## Owner play-test feedback 2026-10-22 (evening)
+
+Owner played a co-op session on `claude/peregon-design`. Verdict: progression and balance make the game unplayable in places; the network is better than last time but clients still see too many jerks and desyncs. **No new agents after the four currently running (PTFIX, HOSE, FIRE2, COMBAT3) until the owner approves this plan.**
+
+### G1 — Progression and balance (blocking playability, first)
+
+| ID | Task | Problem | Complexity | Priority |
+|----|------|---------|------------|---------|
+| BAL1 | Sawmill repair parts reachable | Owner could not find the parts for the sawmill, so could not repair it | medium | critical |
+| BAL2 | Broken wheel is a tier-2 dead end | The truck wheel broke and the replacement needs tier 2: the run stalls. A wheel must be fixable or obtainable at tier 0–1 (spare, patch/rim repair, wrecks) | medium | critical |
+| BAL3 | Second truck missing at the start | With two players the second truck did not appear at the start (bug) | low | critical |
+| BAL4 | Full progression audit | Headless walk of the whole dependency graph from a fresh start: for every repair, recipe and node, where its inputs come from and at which tier; flag every dead end and loop. Also what a character can do/craft per hour of play and how fast skills grow | high | high |
+| BAL5 | Gradual rebalance | Change balance in small steps driven by BAL4 numbers, re-checked after each step, not in big jumps | medium | high |
+
+### G2 — Zhiltsy threat
+
+| ID | Task | Problem | Complexity | Priority |
+|----|------|---------|------------|---------|
+| ZH1 | Zhiltsy more dangerous, more of them, scarier | Raids and encounters are too weak and too rare; escalate numbers, damage and fear over the days on a gradual curve (tied to BAL5) | medium | high |
+
+### G3 — New gameplay
+
+| ID | Task | Problem | Complexity | Priority |
+|----|------|---------|------------|---------|
+| GP1 | Shooting from the truck | Must be able to fire from the vehicle in practice (Н-11 passenger shooting exists; check it is discoverable and works; consider the driver and a mounted gun) | medium | medium |
+| GP2 | Tracking animals | Follow game by tracks, droppings, scent — a "sense" that grows with skill | medium | medium |
+
+### G4 — Network: latency, jerks, desync (most important)
+
+| ID | Task | Problem | Complexity | Priority |
+|----|------|---------|------------|---------|
+| NET1 | Measure first | Repeatable 2–3 player runs with real lag/loss profiles: count client jerks (position corrections above a threshold), desync events per subsystem, bandwidth per stream; a baseline report before any change | medium | critical |
+| NET2 | Best practices study | How large games hide latency: snapshot interpolation with a jitter buffer, client prediction and server reconciliation, smoothing of corrections instead of snaps, vehicle extrapolation, delta compression, quantisation, priority/relevance per entity (Source, Overwatch, Rocket League, Halo, Glenn Fiedler's articles); write a plan mapped onto our streams | medium | critical |
+| NET3 | Hide latency on clients | Apply NET2: interpolation buffer, error smoothing, prediction for the local player and the truck the player drives; fewer visible jerks | high | critical |
+| NET4 | Cut traffic | Delta compression, quantisation, send only what changed and what is near, per-stream budgets | high | high |
+| NET5 | Remove desyncs | Per-subsystem state hashes, auto-detection and logs; fix every source found | high | critical |
+| NET6 | Repeat checks | Run NET1 again after each NET step, several times, compare with the baseline | low | high |
+
+### G5 — Performance: parallel game loop
+
+| ID | Task | Problem | Complexity | Priority |
+|----|------|---------|------------|---------|
+| PAR1 | Split the frame into jobs across threads | Simulation, AI, physics, streaming, network packing as independent tasks on a worker pool | very high | high |
+| PAR2 | Double-buffered state | Each system writes a prepared back buffer; buffers are swapped at the frame boundary so readers (render, network) never wait on writers | very high | high |
+
+Suggested order: BAL3, BAL1, BAL2 and NET1 first in parallel; then NET2 → NET3/NET5; BAL4 → BAL5 + ZH1; GP1, GP2, NET4, PAR1/PAR2 after.

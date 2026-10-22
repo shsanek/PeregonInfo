@@ -1144,3 +1144,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-22 20:52 tick: TRAILER2 9bd5b02fa8 + PTRUN 11084bcc46 merged, report pushed (stray PTFIX gitlink removed from reports). SMOKE merging (protocol 63, §22). PTFIX resumed in its exe/ clone, HOSE told protocol 64, COMBAT2 running tests.
 - 2026-10-22 21:01 SMOKE merged 4e5eb82e0f (protocol 63); COMBAT2 done, rebasing (conflicts 10 files, protocol 64); HOSE → 65; FIRE2 started (wet firewood, campfire smoke, fog). Worktrees of COOPSWEEP/TRAILER2/PTRUN/SMOKE removed.
 - 2026-10-22 21:12 COMBAT2 merged c898a29b3e (protocol 64); COMBAT3 started (combat leftovers). Running: PTFIX, HOSE (→65), FIRE2, COMBAT3.
+- 2026-10-22 21:13 tick: 4 running (PTFIX, HOSE, FIRE2, COMBAT3), nothing to merge.
+- 2026-10-22 21:32 tick: 4 running, checking progress.
+- 2026-10-22 21:42 OWNER: stop launching agents after current four; grouped play-test feedback written to manager-queue.md (G1 balance, G2 zhiltsy, G3 gameplay, G4 network latency, G5 parallel loop).
