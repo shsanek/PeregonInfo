@@ -389,6 +389,7 @@
 - [sv3 · 1](sv3-8f2c32bf-001.md) — 10
 - [swarm2 · 1](swarm2-54104ce9-001.md) — 4
 - [swarm3 · 1](swarm3-b6206ed2-001.md) — 4
+- [swarm4 · 1](swarm4-140540ed-001.md) — 4
 - [tent · 1](tent-2a9810cb-001.md) — 22
 - [terrainblend · 1](terrainblend-0e2c89a0-001.md) — 10
 - [terrainfix · 1](terrainfix-c22c1134-001.md) — 8
