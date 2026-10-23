@@ -1289,3 +1289,4 @@ One line per decision. Times are local (Mac).
 - 22:23 EARLY2 merged 52b1e8673b (protocol 92, after agent re-merge + icons), worktree removed. All three done → SWARM4 NATURAL started (claude/peregon-swarm4, only agent, save 620-629, msgs 240-249, chunk 85, §65). PLAYTEST1 next, alone.
 - 22:35 tick: SWARM4 running alone; design in sync; disk 90Gi.
 - 22:55 tick: SWARM4 running alone; design in sync; disk 89Gi.
+- 23:15 tick: SWARM4 running alone; design in sync; disk 88Gi.
