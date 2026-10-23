@@ -295,8 +295,8 @@ Owner played a short session. Start these first as slots free (one coherent scop
 | PT2 CONTAINERS | Liquid containers are universal: one barrel type, one canister type (and other vessels) hold any liquid (water, kerosene, diesel, petrol, oil); contents and amount shown; pour-out to empty; no separate water/kerosene barrels. Old saves convert | - | running (claude/peregon-pt2) |
 | PT3 ENEMIES | Zhiltsy no longer spawn anywhere on the map (keep the code, data switch off); bugs are the enemies. Fix: "bugs attacked the base" banner fired with no base built — waves must target a real noise source and the message must name what is attacked; owner found no nest at all — check R1 hive placement/visibility near the start and routes, make nests findable (sound, creep, landmarks). Remove the separate bug items from the MAIN menu («Темп жуков», bug play-test start) — they live only in Settings | - | merged 5f052012f9 (protocol 86) |
 | PT4 POIBASES | POI bases (sawmill first, then the other working POIs) work out of the box: pour kerosene/fuel and run; no detailed part lists (bearings etc.). Each such base is guarded by a bug nest on/near it: arrive, clear the nest, use the base. Hints for a POI in ONE block, not many. Scatter more loot items in more places instead of specific repair parts; simplify part counts overall | PT3 (nests) | running (claude/peregon-pt4) |
-| PT5 TRUCKPARTS | Wheels and headlights fall off far too easily and cannot be repaired — raise thresholds a lot, make them repairable/refittable in the field and at the garage | - | running (claude/peregon-pt5) |
-| PT6 NOSLEEP | Remove sleep as a mechanic (needs, prompts, hints, beds as sleep requirement) — keep code, switch off; check nothing depends on it (time skip uses the x8 fast-forward) | - | queued |
+| PT5 TRUCKPARTS | Wheels and headlights fall off far too easily and cannot be repaired — raise thresholds a lot, make them repairable/refittable in the field and at the garage | - | merged ac0b21c236 (protocol 87) |
+| PT6 NOSLEEP | Remove sleep as a mechanic (needs, prompts, hints, beds as sleep requirement) — keep code, switch off; check nothing depends on it (time skip uses the x8 fast-forward) | - | running (claude/peregon-pt6) |
 
 ## Queue 2026-10-23 evening (owner): defences, weapons, AI scenarios
 
@@ -320,4 +320,5 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | NETTEST | Internet co-op test with the friend in Tallinn | owner time | waiting owner |
 | BAL-x1, LOOT-ROWS, PAR-C2/N2/R2 | Balance at ×1, loot rows, parallel-sim leftovers | - | queued |
 | ARMS1-L | Rifle leftovers: inventory icons (icon script fails on pva2_items mesh), cleaning at the gun bench, third-person left hand on the handguard, co-op avatars draw the rifle, client full-auto prediction run | - | queued |
+| PT5-L | Split the two headlamps into separate meshes in Blender so a missing lamp is not drawn; jack lifts the corner; bent wheel looks bent; truck flips over short posts (vehicle contact) | - | queued |
 | TRUCKMG-L | Bed MG leftovers: gunner hands on grips, remote shot audio on clients, icon, cargo pushed out of the gunner circle, coop_seats_tests tailgate climb update | tests for the last item | queued |
