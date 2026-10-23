@@ -285,6 +285,12 @@ Next free slots, in order: BAL5a, TELE1, then NET2/NET5 after NET1, ZH1, ART2 Tr
 
 | ISLAND1 | Island base (owner 2026-10-23) | NOT a task: emerges by itself once bugs do not swim and respect ice (SWARM2). The existing island stays as is; nothing special to build | - | - | covered by SWARM2 |
 
+## Owner plan 2026-10-23 ~21:45 — ORDER OVERRIDES EVERYTHING BELOW
+
+1. Do NOT start new agents now. Let SWARM3, EARLY2, POLISH1 finish normally; merge each.
+2. Then SWARM4 NATURAL alone or with nothing else heavy.
+3. Then PLAYTEST1 — a bot plays the game from a real new game with NO hacks (no teleports, no item spawns, no dev stages/env cheats; only real player input; x8 fast-forward allowed as a player feature): survive, gather, haul resources with the truck, build a base, progress the tech tree, defend against bugs, clear a nest at a POI. It runs on a CLEAN machine: no other agents, no other builds/renders running. Write notes + screenshots as it goes; do NOT fix problems on the way — only list them; fix only obvious blockers that make the game impossible to progress. Also produce an analysis of the BUILDING UI/flow and the TECH TREE progression (owner: inconvenient, not obvious, unclear) with concrete proposals. Output: report with screenshots → owner decides fixes.
+
 ## Owner play-test 2026-10-23 evening — TOP PRIORITY (before the rest of the evening queue)
 
 Owner played a short session. Start these first as slots free (one coherent scope per agent). Tests still paused: build + stages only.
@@ -296,7 +302,7 @@ Owner played a short session. Start these first as slots free (one coherent scop
 | PT3 ENEMIES | Zhiltsy no longer spawn anywhere on the map (keep the code, data switch off); bugs are the enemies. Fix: "bugs attacked the base" banner fired with no base built — waves must target a real noise source and the message must name what is attacked; owner found no nest at all — check R1 hive placement/visibility near the start and routes, make nests findable (sound, creep, landmarks). Remove the separate bug items from the MAIN menu («Темп жуков», bug play-test start) — they live only in Settings | - | merged 5f052012f9 (protocol 86) |
 | PT4 POIBASES | POI bases (sawmill first, then the other working POIs) work out of the box: pour kerosene/fuel and run; no detailed part lists (bearings etc.). Each such base is guarded by a bug nest on/near it: arrive, clear the nest, use the base. Hints for a POI in ONE block, not many. Scatter more loot items in more places instead of specific repair parts; simplify part counts overall | PT3 (nests) | merged bc341f061a (protocol 89) |
 | PT5 TRUCKPARTS | Wheels and headlights fall off far too easily and cannot be repaired — raise thresholds a lot, make them repairable/refittable in the field and at the garage | - | merged ac0b21c236 (protocol 87) |
-| PT6 NOSLEEP | Remove sleep as a mechanic (needs, prompts, hints, beds as sleep requirement) — keep code, switch off; check nothing depends on it (time skip uses the x8 fast-forward) | - | running (claude/peregon-pt6) |
+| PT6 NOSLEEP | Remove sleep as a mechanic (needs, prompts, hints, beds as sleep requirement) — keep code, switch off; check nothing depends on it (time skip uses the x8 fast-forward) | - | merged d426416f2a (protocol 90) |
 
 ## Queue 2026-10-23 evening (owner): defences, weapons, AI scenarios
 
