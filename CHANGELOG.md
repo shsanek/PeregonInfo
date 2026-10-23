@@ -867,6 +867,8 @@
 - GP1: shooting from the truck — seat hints, firing arcs, stopped driver may shoot, gun rest in the bed
 - PAR1: job system; network packing and glass weather off the main thread
 - BAL5b: 200 l fuel drum, new salvage sources (electronics, copper, chemicals, glass), workshop notebook page, rescue tow costs game time
+- NET4: own shot shown at once (90 to 12 ms), host lag compensation for client shots, capped smooth playout clock
+- PAR1b: truck switching 13% to 0.7% of the host main thread, windscreen fog of all trucks on threads
 
 **Фиксы**
 
@@ -898,6 +900,7 @@
 - PAR1: windscreen fog maths 3x cheaper, same result
 - Crowbar and shots hit zhiltsy at their real positions (smoothed poses made blows miss)
 - Rear-left seat boarding no longer pokes through the cab wall
+- NET4: props and trailers no longer jump after packet loss
 
 ---
 

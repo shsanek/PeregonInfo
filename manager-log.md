@@ -1181,3 +1181,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-23 04:40 PAR1 merged 30edb681a0; report NET5/NET23/GP1/PAR1 published 55eb239da2. Removed worktrees NET5, NET23, PAR1. Running: COOPSWEEP2, BAL5b, NET4, PAR1b, GP1FIX.
 - 2026-10-23 04:53 tick: all 5 progressing. COOPSWEEP2 e03d76d278 (+dirty), BAL5b at S-15c 209f257081 (tests), NET4 25 dirty files (playout clock), PAR1b dab219be1f cheap truck switching, GP1FIX investigating. Load 17.
 - 2026-10-23 05:12 tick: BAL5b merged d1f1488961. GP1FIX (raw zhiltsy poses for hit tests + crew boarding) merge verifying. Spawned BAL5c. Running: COOPSWEEP2, NET4, PAR1b, BAL5c.
+- 2026-10-23 05:16 GP1FIX merged e34e311580; report BAL5b/GP1FIX e489237538. Removed worktrees BAL5b, GP1.
+- 2026-10-23 05:32 tick: GP1FIX merged. NET4 done (protocol 73, playtest 36), merge verify running. PAR1b done, queued after NET4. Running: COOPSWEEP2, BAL5c. Two slots to fill after NET4 merge (NET4abc+NET6, PAR2).
+- 2026-10-23 05:52 tick: NET4 merged 0691152bb1. PAR1b merge verify running. Spawned NET6 (matrix + NET4abc). Running: COOPSWEEP2, BAL5c, NET6; PAR2 after PAR1b merge.
