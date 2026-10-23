@@ -294,15 +294,17 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | SWARM3 | Armed moving defender bots (hand weapons, generic mount use); scenarios top-down with overlay: siege with defenders, open camp, players assault a hive, sawmill noise target; AI behaviour report | SWARM2 | running (claude/peregon-swarm3) |
 | DEFENSE1 | Flamethrower (fuel, cone, ignites bugs/creep), manned MG nest, powered auto turret, fire traps; generic mount interface incl. vehicle-attached mounts; commander sees them via influence; swarm_defence_top video | SWARM2 | running (claude/peregon-defense1) |
 | TRUCKMG | Bed MG: Blender placeholder (no Tripo), fit, climb in from the back, man and fire (also while driving), heat/ammo box, recipe; uses DEFENSE1 mount interface after merge | DEFENSE1 (interface) | merged 439dfd81a0 (protocol 80) |
-| ARMS1 | Automatic rifle replaces the nailgun in the player game (Blender placeholder, no Tripo; magazines, cartridges, recoil, rare mid/late loot, co-op prediction); old saves convert | - | running (claude/peregon-arms1) |
+| ARMS1 | Automatic rifle replaces the nailgun in the player game (Blender placeholder, no Tripo; magazines, cartridges, recoil, rare mid/late loot, co-op prediction); old saves convert | - | merged 11d88cdbca (protocol 81) |
 | EARLY1 | Early stage: bow + arrows (craftable from wood/sinew/feathers, quiet — does not draw bug waves, arrows recoverable), Blender placeholder | ARMS1 merged (weapon data layout) | running (claude/peregon-early1) |
 | EARLY2 | Early stage: sharpened stakes — stake barricades/palisade spikes that bugs impale on or must go around (commander nav sees them), craft from logs with an axe; maybe a hand-held stake/spear for melee | DEFENSE1 merged (defence/nav hooks) | queued |
 | ICEPROBE | Commander does not know ice thickness: probe with single cheap bugs, learn thin/holding per weight, memory decays, heavy castes only over proven routes (sketch in handoff-swarm2.md) | SWARM3 | queued — owner decides after SWARM3 videos |
 | SWARM2-L | SWARM2 leftovers: post-breach stall (45 s, 66 bugs pile inside), breachers too late at the river, 4 m ice sampling drowns light bugs, scout caste model | SWARM3 | queued |
-| BUGFX | Bug sounds, loot from bugs, fear from bugs, xp for fighting bugs (no xp for mashing) | - | queued |
+| BUGFX | Bug sounds, loot from bugs, fear from bugs, xp for fighting bugs (no xp for mashing) | - | running (claude/peregon-bugfx) |
 | TRUCKDMG-L | Mirrors mesh, smaller bites, fire scorch, door-gap dents | - | queued |
 | COOPAUDIT | coop_audit pickup contention 2/30 failures after NET6/TRUCKDMG — find origin, fix | tests allowed again | blocked (tests paused) |
 | TESTFIX-L | Tow winch slide 1.69 m, shaderc grass_card vs_2_0 13 temps, render_checks unbound registers | tests allowed again | blocked (tests paused) |
 | PLAYERMODELS | Player models in Tripo (concepts in reports/shots/players) | owner yes | waiting owner |
 | NETTEST | Internet co-op test with the friend in Tallinn | owner time | waiting owner |
 | BAL-x1, LOOT-ROWS, PAR-C2/N2/R2 | Balance at ×1, loot rows, parallel-sim leftovers | - | queued |
+| ARMS1-L | Rifle leftovers: inventory icons (icon script fails on pva2_items mesh), cleaning at the gun bench, third-person left hand on the handguard, co-op avatars draw the rifle, client full-auto prediction run | - | queued |
+| TRUCKMG-L | Bed MG leftovers: gunner hands on grips, remote shot audio on clients, icon, cargo pushed out of the gunner circle, coop_seats_tests tailgate climb update | tests for the last item | queued |
