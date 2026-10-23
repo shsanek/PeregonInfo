@@ -1259,3 +1259,4 @@ One line per decision. Times are local (Mac).
 - 17:33 tick: 4 agents (SWARM3, DEFENSE1, TRUCKMG, ARMS1) working, no commits yet (SWARM3 new files play_defbot/play_swarm_armed); design in sync; disk 59 GB (4 fresh worktree builds, was 86); load 46.
 - 17:48 tick: all 4 agents editing (dirty files: SWARM3 12, DEFENSE1 25 incl. combat/mount.h + defence.h, TRUCKMG 32, ARMS1 13), no commits yet; design in sync; disk 59 GB; load 23.
 - 17:57 owner: no Tripo for weapons for now (bed MG, rifle, bow, defences) — Blender placeholders only; TRUCKMG, ARMS1, DEFENSE1 told.
+- 18:08 tick: 4 agents editing, no commits yet (dirty: SWARM3 17, DEFENSE1 46 + out/defence1, TRUCKMG 37 + out/truckmg, ARMS1 57); design in sync; disk 60 GB; load 14.
