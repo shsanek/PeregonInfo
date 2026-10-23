@@ -1286,3 +1286,4 @@ One line per decision. Times are local (Mac).
 - 21:54 SWARM3 merged f0306d7236 (protocol 91), POLISH1 merged a903cdd86c; both worktrees removed (out → design out/agent-*). Waiting only for EARLY2, then SWARM4. Disk 91 GB.
 - 21:55 tick: only EARLY2 running; SWARM4 waits for it; design in sync; disk 91Gi.
 - 22:15 tick: EARLY2 re-merging design + icons; SWARM4 waits; disk 91Gi.
+- 22:23 EARLY2 merged 52b1e8673b (protocol 92, after agent re-merge + icons), worktree removed. All three done → SWARM4 NATURAL started (claude/peregon-swarm4, only agent, save 620-629, msgs 240-249, chunk 85, §65). PLAYTEST1 next, alone.
