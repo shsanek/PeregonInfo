@@ -1280,3 +1280,4 @@ One line per decision. Times are local (Mac).
 - 21:13 EARLY2 stakes started (claude/peregon-early2, save 610-619, msgs 230-239, chunk 84, §64). First spawn went into the PeregonInfo submodule (cwd was reports/) — stopped, its worktree/branch removed, respawned from the repo root. Running: SWARM3, PT4 (re-merging design), PT6, EARLY2.
 - 21:14 tick: SWARM3, PT4, PT6, EARLY2 running (4/4); design in sync; disk 63Gi.
 - 21:20 PT4 merged bc341f061a (protocol 89, clean), worktree removed. SWARM3 told sawmill is nest-guarded. Slot → POLISH1 (icons + icon script fix + balance tool bug loot + «Запчасти»). Running: SWARM3, PT6, EARLY2, POLISH1.
+- 21:34 tick: SWARM3, PT6, EARLY2, POLISH1 running (4/4); owner shown DEFENCE1 + SWARM3 interim videos; design in sync; disk 69Gi.
