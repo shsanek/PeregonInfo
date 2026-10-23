@@ -873,6 +873,11 @@
 - RAIDCFG: «Шум базы» on/off and «Набеги» Выкл/×0.5/×1/×1.5/×2 settings, host-authoritative, saved with the world
 - BAL5d: endless hidden diesel at the roadside station, building steel in the world salvage roll, late game 866 to 475 min
 - LOOT1: found items lie on shelves, tables, floor by the walls, hooks and the ground by wrecks instead of in rows
+- PAR2: simulation pieces and frame preparation on worker threads, 8-thread host frame 6.8 to 5.8 ms
+- ZB1: bug nests grow and spread, living pulsing creep over ground and buildings, burn it with kerosene
+- ZB2: bug swarm — swarmer, warrior, breacher, spitter, scout; squads; hundreds of bugs cheaply; co-op
+- ZB3: bug waves drawn by base noise replace zhiltsy raids, hives spread by migration, «Жуки» and «Темп жуков» settings, bug play-test start
+- Every new game starts with two trucks
 
 **Фиксы**
 
@@ -906,6 +911,8 @@
 - Rear-left seat boarding no longer pokes through the cab wall
 - NET4: props and trailers no longer jump after packet loss
 - COOPSWEEP2: all 235 co-op sweep rows pass; carcass unload, walk-in ruin walls, tailgate prompt, raided garden bed, raid damage hash
+- Co-op cart no longer jumps 1.7 km on the client after loading a save
+- Truck glass draws with defined shader values when dirt is off
 
 ---
 
