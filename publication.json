@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "11d88cdbcaeb8c240a3b10d096fb3a1e43c10994",
-  "changes_covered_commit": "11d88cdbcaeb8c240a3b10d096fb3a1e43c10994",
-  "entries": 511,
+  "source_commit": "10e0050f59e7947e4d443ffc1b228f7cea705984",
+  "changes_covered_commit": "10e0050f59e7947e4d443ffc1b228f7cea705984",
+  "entries": 512,
   "model_groups": 8,
-  "images": 10697,
+  "images": 10703,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",
@@ -110,6 +110,7 @@
     "gallery/coop48-bd98bd41-001.md",
     "gallery/cordonlived-ecdf238b-001.md",
     "gallery/crew39-bd3731d1-001.md",
+    "gallery/defence1-bd669a05-001.md",
     "gallery/dialogue-abe0ba24-001.md",
     "gallery/dialogue-modern-74330e67-001.md",
     "gallery/dialogue-old-367aef3c-001.md",
