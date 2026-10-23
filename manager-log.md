@@ -1269,3 +1269,4 @@ One line per decision. Times are local (Mac).
 - 19:34 tick: SWARM3 committed 6d01d764e2 (rifle defenders), EARLY1 + BUGFX merging design into their branches, PT1 started; 4 slots busy; design in sync; disk 77 GB; load 23.
 - 19:44 EARLY1 merged c886a50a79 (protocol 83, clean after agent re-merge), worktree removed (out → design out/agent-early1). BUGFX asked to re-merge design + map sinew bowstring. Slot → PT3 ENEMIES started (claude/peregon-pt3, save 560-569, msgs 180-189, chunk 79, §59). PT2 waits for PT1 (same containers).
 - 19:56 BUGFX merged 8c1c03644b (protocol 84), worktree removed (out → design out/agent-bugfx). PT3 told zhiltsy voice log carries bug sounds. Slot → PT5 TRUCKPARTS (claude/peregon-pt5, save 570-579, msgs 190-199, chunk 80, §60). Running: SWARM3, PT1, PT3, PT5. Disk 81 GB.
+- 19:56 tick: SWARM3, PT1, PT3, PT5 running (4/4); design in sync; disk 76Gi.
