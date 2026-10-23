@@ -862,6 +862,10 @@
 - ZH1: base heat drives raid pacing — waves of up to 8, 3 quiet days after each raid, stronger later
 - BALFIX: progression checker for tech dead ends
 - GP2: tracking animals — skill-based tracking sense, scent marks smelled downwind, wind direction, xp for following a trail
+- NET5: per-subsystem state hashes that name the desynced object and field
+- NET2/NET3: smooth co-op — animals, zhiltsy, props and trailers interpolated; player state as deltas; client jerks 714 to 131 per minute
+- GP1: shooting from the truck — seat hints, firing arcs, stopped driver may shoot, gun rest in the bed
+- PAR1: job system; network packing and glass weather off the main thread
 
 **Фиксы**
 
@@ -889,6 +893,8 @@
 - Мир у клиента больше не «расходится» с хостом после колки брёвен
 - TELE1: no teleported items — rescue without free fuel, death bag at the spot, near-bed foraging, shops at the counter, station jobs pause while away, one-time home shelf
 - BALFIX: crew truck for co-op (host-created, fixes a join desync), sawmill part hints, wheel repair without dead ends
+- NET5: falling-tree desync between host and client
+- PAR1: windscreen fog maths 3x cheaper, same result
 
 ---
 
