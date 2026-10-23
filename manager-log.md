@@ -1281,3 +1281,4 @@ One line per decision. Times are local (Mac).
 - 21:14 tick: SWARM3, PT4, PT6, EARLY2 running (4/4); design in sync; disk 63Gi.
 - 21:20 PT4 merged bc341f061a (protocol 89, clean), worktree removed. SWARM3 told sawmill is nest-guarded. Slot → POLISH1 (icons + icon script fix + balance tool bug loot + «Запчасти»). Running: SWARM3, PT6, EARLY2, POLISH1.
 - 21:34 tick: SWARM3, PT6, EARLY2, POLISH1 running (4/4); owner shown DEFENCE1 + SWARM3 interim videos; design in sync; disk 69Gi.
+- 21:39 owner on attack videos: bugs piled into the fence though a detour existed; swarm moved but swarmers idle near turrets; tactics too rational → SWARM4 NATURAL queued right after SWARM3 merge; SWARM3 asked to wrap up and note findings in handoff.
