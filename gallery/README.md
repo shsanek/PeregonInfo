@@ -51,6 +51,7 @@
 - [bear · 1](bear-bc98bb50-001.md) — 1
 - [bots · 1](bots-10b8ecc0-001.md) — 17
 - [breech45 · 1](breech45-b40da241-001.md) — 2
+- [buganim · 1](buganim-ec4323ff-001.md) — 3
 - [build · 1](build-44575cf5-001.md) — 16
 - [build2 · 1](build2-391930e1-001.md) — 5
 - [bunker · 1](bunker-9078e43e-001.md) — 3
@@ -183,6 +184,7 @@
 - [n3 · 1](n3-8721d664-001.md) — 4
 - [n4 · 1](n4-88450b08-001.md) — 3
 - [n5 · 1](n5-4a8456f1-001.md) — 3
+- [nest2 · 1](nest2-ea6b0188-001.md) — 4
 - [net-w3 · 1](net-w3-33a4365a-001.md) — 6
 - [netpolish · 1](netpolish-38e7db82-001.md) — 8
 - [netsweep · 1](netsweep-4adfcf49-001.md) — 10
@@ -400,6 +402,7 @@
 - [truckart4 · 1](truckart4-ddcc0bc4-001.md) — 3
 - [truckcab2 · 1](truckcab2-83f37cce-001.md) — 60
 - [truckdirt · 1](truckdirt-88c5ab13-001.md) — 5
+- [truckdmg · 1](truckdmg-71d4196c-001.md) — 4
 - [truckgen · 1](truckgen-2dcd7e80-001.md) — 60
 - [truckgen · 2](truckgen-2dcd7e80-002.md) — 12
 - [truckint · 1](truckint-7402a194-001.md) — 52

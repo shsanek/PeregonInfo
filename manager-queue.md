@@ -282,3 +282,5 @@ Next free slots, in order: BAL5a, TELE1, then NET2/NET5 after NET1, ZH1, ART2 Tr
 | PAR2 done | merge; slot for PERF-BUGS: many-bug rendering (instancing) + profiling with 200 bugs; deliver 13:45 |
 | 13:00–14:30 | manager | merge ZB1 → ZB2 → ZB3 → PERF, integration fixes, coop smoke, playtest.md section, build at 14:30 |
 | 15:00 | owner | play-test |
+
+| ISLAND1 | Island base (owner 2026-10-23) | NOT a task: emerges by itself once bugs do not swim and respect ice (SWARM2). The existing island stays as is; nothing special to build | - | - | covered by SWARM2 |

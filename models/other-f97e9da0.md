@@ -2,6 +2,48 @@
 
 [Все модели](README.md) · [Главный отчёт](../README.md)
 
+## air compressor 01
+
+### 1 closeup
+
+![closeup](../shots/assets/air_compressor_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/air_compressor_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/air_compressor_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/air_compressor_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/air_compressor_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/air_compressor_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/air_compressor_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/air_compressor_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/air_compressor_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/air_compressor_01/10_lods.jpg)
+
 ## ammo can
 
 ### 1 concept sheet
@@ -121,6 +163,68 @@
 ### 2 closeup top
 
 ![closeup top](../shots/assets/ballast_sack/02_closeup_top.jpg)
+
+## battery charger 01
+
+### 1 closeup
+
+![closeup](../shots/assets/battery_charger_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/battery_charger_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/battery_charger_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/battery_charger_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/battery_charger_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/battery_charger_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/battery_charger_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/battery_charger_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/battery_charger_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/battery_charger_01/10_lods.jpg)
+
+### 11 closeup
+
+![closeup](../shots/assets/battery_charger_01/11_closeup.jpg)
+
+### 12 closeup top
+
+![closeup top](../shots/assets/battery_charger_01/12_closeup_top.jpg)
+
+### 13 raw
+
+![raw](../shots/assets/battery_charger_01/13_raw.jpg)
+
+### 14 clean
+
+![clean](../shots/assets/battery_charger_01/14_clean.jpg)
+
+### 15 lods
+
+![lods](../shots/assets/battery_charger_01/15_lods.jpg)
 
 ## board bundle
 
@@ -487,6 +591,176 @@
 ### 4 silhouette
 
 ![silhouette](../shots/assets/dace/04_silhouette.jpg)
+
+## doc book 01
+
+### 1 closeup
+
+![closeup](../shots/assets/doc_book_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/doc_book_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/doc_book_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/doc_book_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/doc_book_01/05_lods.jpg)
+
+## doc book 02
+
+### 1 closeup
+
+![closeup](../shots/assets/doc_book_02/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/doc_book_02/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/doc_book_02/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/doc_book_02/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/doc_book_02/05_lods.jpg)
+
+## doc folder 01
+
+### 1 closeup
+
+![closeup](../shots/assets/doc_folder_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/doc_folder_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/doc_folder_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/doc_folder_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/doc_folder_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/doc_folder_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/doc_folder_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/doc_folder_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/doc_folder_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/doc_folder_01/10_lods.jpg)
+
+## doc notebook 01
+
+### 1 closeup
+
+![closeup](../shots/assets/doc_notebook_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/doc_notebook_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/doc_notebook_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/doc_notebook_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/doc_notebook_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/doc_notebook_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/doc_notebook_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/doc_notebook_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/doc_notebook_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/doc_notebook_01/10_lods.jpg)
+
+## electric motor 01
+
+### 1 closeup
+
+![closeup](../shots/assets/electric_motor_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/electric_motor_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/electric_motor_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/electric_motor_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/electric_motor_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/electric_motor_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/electric_motor_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/electric_motor_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/electric_motor_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/electric_motor_01/10_lods.jpg)
 
 ## electronics box
 
@@ -1030,6 +1304,28 @@
 
 ![rodin kit](../shots/assets/forage_mushrooms/25_rodin_kit.jpg)
 
+## forge hearth 01
+
+### 1 closeup
+
+![closeup](../shots/assets/forge_hearth_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/forge_hearth_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/forge_hearth_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/forge_hearth_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/forge_hearth_01/05_lods.jpg)
+
 ## generator set 01
 
 ### 1 raw
@@ -1164,6 +1460,48 @@
 
 ![lods](../shots/assets/gs_anvil_01/03_lods.jpg)
 
+## gs bench 01
+
+### 1 closeup
+
+![closeup](../shots/assets/gs_bench_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/gs_bench_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/gs_bench_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/gs_bench_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/gs_bench_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/gs_bench_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/gs_bench_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/gs_bench_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/gs_bench_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/gs_bench_01/10_lods.jpg)
+
 ## gs crimper 01
 
 ### 1 raw
@@ -1221,6 +1559,28 @@
 ### 4 silhouette
 
 ![silhouette](../shots/assets/hand_pump_drum_01/04_silhouette.jpg)
+
+## hoist beam 01
+
+### 1 closeup
+
+![closeup](../shots/assets/hoist_beam_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/hoist_beam_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/hoist_beam_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/hoist_beam_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/hoist_beam_01/05_lods.jpg)
 
 ## home calendar
 
@@ -1319,6 +1679,28 @@
 ### 24 lods
 
 ![lods](../shots/assets/home_calendar/24_lods.jpg)
+
+## hopper wagon 01
+
+### 1 closeup
+
+![closeup](../shots/assets/hopper_wagon_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/hopper_wagon_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/hopper_wagon_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/hopper_wagon_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/hopper_wagon_01/05_lods.jpg)
 
 ## hunt items
 
@@ -1431,6 +1813,50 @@
 ### 3 village in game
 
 ![village in game](../shots/assets/kolkhoz_greybox/03_village_in_game.jpg)
+
+## lab bench 01
+
+### 1 closeup
+
+![closeup](../shots/assets/lab_bench_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/lab_bench_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/lab_bench_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/lab_bench_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/lab_bench_01/05_lods.jpg)
+
+## lathe bed 01
+
+### 1 closeup
+
+![closeup](../shots/assets/lathe_bed_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/lathe_bed_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/lathe_bed_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/lathe_bed_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/lathe_bed_01/05_lods.jpg)
 
 ## lenok
 
@@ -1846,6 +2272,48 @@
 
 ![silhouette](../shots/assets/price_pylon_8_01/08_silhouette.jpg)
 
+## railcar md 01
+
+### 1 closeup
+
+![closeup](../shots/assets/railcar_md_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/railcar_md_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/railcar_md_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/railcar_md_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/railcar_md_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/railcar_md_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/railcar_md_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/railcar_md_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/railcar_md_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/railcar_md_01/10_lods.jpg)
+
 ## roach
 
 ### 1 concept sheet
@@ -2006,6 +2474,28 @@
 
 ![silhouette](../shots/assets/searchlight_01/04_silhouette.jpg)
 
+## sewing machine 01
+
+### 1 closeup
+
+![closeup](../shots/assets/sewing_machine_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/sewing_machine_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/sewing_machine_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/sewing_machine_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/sewing_machine_01/05_lods.jpg)
+
 ## shell 12ga
 
 ### 1 raw
@@ -2087,6 +2577,214 @@
 ### 6 silhouette
 
 ![silhouette](../shots/assets/shovel/06_silhouette.jpg)
+
+## smith anvil 01
+
+### 1 closeup
+
+![closeup](../shots/assets/smith_anvil_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/smith_anvil_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/smith_anvil_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/smith_anvil_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/smith_anvil_01/05_lods.jpg)
+
+## station crate 01
+
+### 1 closeup
+
+![closeup](../shots/assets/station_crate_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/station_crate_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/station_crate_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/station_crate_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/station_crate_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/station_crate_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/station_crate_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/station_crate_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/station_crate_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/station_crate_01/10_lods.jpg)
+
+### 11 closeup
+
+![closeup](../shots/assets/station_crate_01/11_closeup.jpg)
+
+### 12 closeup top
+
+![closeup top](../shots/assets/station_crate_01/12_closeup_top.jpg)
+
+### 13 raw
+
+![raw](../shots/assets/station_crate_01/13_raw.jpg)
+
+### 14 clean
+
+![clean](../shots/assets/station_crate_01/14_clean.jpg)
+
+### 15 lods
+
+![lods](../shots/assets/station_crate_01/15_lods.jpg)
+
+## station crate long 01
+
+### 1 closeup
+
+![closeup](../shots/assets/station_crate_long_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/station_crate_long_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/station_crate_long_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/station_crate_long_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/station_crate_long_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/station_crate_long_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/station_crate_long_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/station_crate_long_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/station_crate_long_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/station_crate_long_01/10_lods.jpg)
+
+### 11 closeup
+
+![closeup](../shots/assets/station_crate_long_01/11_closeup.jpg)
+
+### 12 closeup top
+
+![closeup top](../shots/assets/station_crate_long_01/12_closeup_top.jpg)
+
+### 13 raw
+
+![raw](../shots/assets/station_crate_long_01/13_raw.jpg)
+
+### 14 clean
+
+![clean](../shots/assets/station_crate_long_01/14_clean.jpg)
+
+### 15 lods
+
+![lods](../shots/assets/station_crate_long_01/15_lods.jpg)
+
+## station pallet 01
+
+### 1 closeup
+
+![closeup](../shots/assets/station_pallet_01/01_closeup.jpg)
+
+### 2 closeup top
+
+![closeup top](../shots/assets/station_pallet_01/02_closeup_top.jpg)
+
+### 3 raw
+
+![raw](../shots/assets/station_pallet_01/03_raw.jpg)
+
+### 4 clean
+
+![clean](../shots/assets/station_pallet_01/04_clean.jpg)
+
+### 5 lods
+
+![lods](../shots/assets/station_pallet_01/05_lods.jpg)
+
+### 6 closeup
+
+![closeup](../shots/assets/station_pallet_01/06_closeup.jpg)
+
+### 7 closeup top
+
+![closeup top](../shots/assets/station_pallet_01/07_closeup_top.jpg)
+
+### 8 raw
+
+![raw](../shots/assets/station_pallet_01/08_raw.jpg)
+
+### 9 clean
+
+![clean](../shots/assets/station_pallet_01/09_clean.jpg)
+
+### 10 lods
+
+![lods](../shots/assets/station_pallet_01/10_lods.jpg)
+
+### 11 closeup
+
+![closeup](../shots/assets/station_pallet_01/11_closeup.jpg)
+
+### 12 closeup top
+
+![closeup top](../shots/assets/station_pallet_01/12_closeup_top.jpg)
+
+### 13 raw
+
+![raw](../shots/assets/station_pallet_01/13_raw.jpg)
+
+### 14 clean
+
+![clean](../shots/assets/station_pallet_01/14_clean.jpg)
+
+### 15 lods
+
+![lods](../shots/assets/station_pallet_01/15_lods.jpg)
 
 ## stove brick 01
 

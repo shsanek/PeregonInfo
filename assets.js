@@ -1,6 +1,63 @@
 window.PEREGON_ASSETS = [
  {
   "group": "Other",
+  "id": "air_compressor_01",
+  "name": "air compressor 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/air_compressor_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/air_compressor_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/air_compressor_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/air_compressor_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/air_compressor_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/air_compressor_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/air_compressor_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/air_compressor_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/air_compressor_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/air_compressor_01/10_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
   "id": "ammo_can",
   "name": "ammo can",
   "steps": [
@@ -179,6 +236,88 @@ window.PEREGON_ASSETS = [
     "label": "lods",
     "n": 5,
     "src": "shots/assets/ballast_sack/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "battery_charger_01",
+  "name": "battery charger 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/battery_charger_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/battery_charger_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/battery_charger_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/battery_charger_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/battery_charger_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/battery_charger_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/battery_charger_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/battery_charger_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/battery_charger_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/battery_charger_01/10_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 11,
+    "src": "shots/assets/battery_charger_01/11_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 12,
+    "src": "shots/assets/battery_charger_01/12_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 13,
+    "src": "shots/assets/battery_charger_01/13_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 14,
+    "src": "shots/assets/battery_charger_01/14_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 15,
+    "src": "shots/assets/battery_charger_01/15_lods.jpg"
    }
   ]
  },
@@ -857,6 +996,184 @@ window.PEREGON_ASSETS = [
  },
  {
   "group": "Other",
+  "id": "doc_book_01",
+  "name": "doc book 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/doc_book_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/doc_book_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/doc_book_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/doc_book_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/doc_book_01/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "doc_book_02",
+  "name": "doc book 02",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/doc_book_02/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/doc_book_02/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/doc_book_02/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/doc_book_02/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/doc_book_02/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "doc_folder_01",
+  "name": "doc folder 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/doc_folder_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/doc_folder_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/doc_folder_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/doc_folder_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/doc_folder_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/doc_folder_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/doc_folder_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/doc_folder_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/doc_folder_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/doc_folder_01/10_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "doc_notebook_01",
+  "name": "doc notebook 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/doc_notebook_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/doc_notebook_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/doc_notebook_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/doc_notebook_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/doc_notebook_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/doc_notebook_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/doc_notebook_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/doc_notebook_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/doc_notebook_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/doc_notebook_01/10_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
   "id": "draisine",
   "name": "draisine",
   "steps": [
@@ -874,6 +1191,63 @@ window.PEREGON_ASSETS = [
     "label": "lods",
     "n": 3,
     "src": "shots/assets/draisine/03_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "electric_motor_01",
+  "name": "electric motor 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/electric_motor_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/electric_motor_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/electric_motor_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/electric_motor_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/electric_motor_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/electric_motor_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/electric_motor_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/electric_motor_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/electric_motor_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/electric_motor_01/10_lods.jpg"
    }
   ]
  },
@@ -1606,6 +1980,38 @@ window.PEREGON_ASSETS = [
  },
  {
   "group": "Other",
+  "id": "forge_hearth_01",
+  "name": "forge hearth 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/forge_hearth_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/forge_hearth_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/forge_hearth_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/forge_hearth_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/forge_hearth_01/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
   "id": "generator_set_01",
   "name": "generator set 01",
   "steps": [
@@ -1880,6 +2286,63 @@ window.PEREGON_ASSETS = [
  },
  {
   "group": "Other",
+  "id": "gs_bench_01",
+  "name": "gs bench 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/gs_bench_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/gs_bench_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/gs_bench_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/gs_bench_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/gs_bench_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/gs_bench_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/gs_bench_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/gs_bench_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/gs_bench_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/gs_bench_01/10_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
   "id": "gs_crimper_01",
   "name": "gs crimper 01",
   "steps": [
@@ -1961,6 +2424,38 @@ window.PEREGON_ASSETS = [
     "label": "silhouette",
     "n": 4,
     "src": "shots/assets/hand_pump_drum_01/04_silhouette.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "hoist_beam_01",
+  "name": "hoist beam 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/hoist_beam_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/hoist_beam_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/hoist_beam_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/hoist_beam_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/hoist_beam_01/05_lods.jpg"
    }
   ]
  },
@@ -2088,6 +2583,38 @@ window.PEREGON_ASSETS = [
     "label": "lods",
     "n": 24,
     "src": "shots/assets/home_calendar/24_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "hopper_wagon_01",
+  "name": "hopper wagon 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/hopper_wagon_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/hopper_wagon_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/hopper_wagon_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/hopper_wagon_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/hopper_wagon_01/05_lods.jpg"
    }
   ]
  },
@@ -3999,6 +4526,70 @@ window.PEREGON_ASSETS = [
  },
  {
   "group": "Other",
+  "id": "lab_bench_01",
+  "name": "lab bench 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/lab_bench_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/lab_bench_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/lab_bench_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/lab_bench_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/lab_bench_01/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "lathe_bed_01",
+  "name": "lathe bed 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/lathe_bed_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/lathe_bed_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/lathe_bed_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/lathe_bed_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/lathe_bed_01/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
   "id": "lenok",
   "name": "lenok",
   "steps": [
@@ -4664,6 +5255,63 @@ window.PEREGON_ASSETS = [
  },
  {
   "group": "Other",
+  "id": "railcar_md_01",
+  "name": "railcar md 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/railcar_md_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/railcar_md_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/railcar_md_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/railcar_md_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/railcar_md_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/railcar_md_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/railcar_md_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/railcar_md_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/railcar_md_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/railcar_md_01/10_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
   "id": "roach",
   "name": "roach",
   "steps": [
@@ -5212,6 +5860,38 @@ window.PEREGON_ASSETS = [
  },
  {
   "group": "Other",
+  "id": "sewing_machine_01",
+  "name": "sewing machine 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/sewing_machine_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/sewing_machine_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/sewing_machine_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/sewing_machine_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/sewing_machine_01/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
   "id": "shell_12ga",
   "name": "shell 12ga",
   "steps": [
@@ -5343,6 +6023,284 @@ window.PEREGON_ASSETS = [
     "label": "in game",
     "n": 8,
     "src": "shots/assets/shovel/08_in_game.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "smith_anvil_01",
+  "name": "smith anvil 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/smith_anvil_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/smith_anvil_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/smith_anvil_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/smith_anvil_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/smith_anvil_01/05_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "station_crate_01",
+  "name": "station crate 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/station_crate_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/station_crate_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/station_crate_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/station_crate_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/station_crate_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/station_crate_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/station_crate_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/station_crate_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/station_crate_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/station_crate_01/10_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 11,
+    "src": "shots/assets/station_crate_01/11_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 12,
+    "src": "shots/assets/station_crate_01/12_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 13,
+    "src": "shots/assets/station_crate_01/13_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 14,
+    "src": "shots/assets/station_crate_01/14_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 15,
+    "src": "shots/assets/station_crate_01/15_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "station_crate_long_01",
+  "name": "station crate long 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/station_crate_long_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/station_crate_long_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/station_crate_long_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/station_crate_long_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/station_crate_long_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/station_crate_long_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/station_crate_long_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/station_crate_long_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/station_crate_long_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/station_crate_long_01/10_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 11,
+    "src": "shots/assets/station_crate_long_01/11_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 12,
+    "src": "shots/assets/station_crate_long_01/12_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 13,
+    "src": "shots/assets/station_crate_long_01/13_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 14,
+    "src": "shots/assets/station_crate_long_01/14_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 15,
+    "src": "shots/assets/station_crate_long_01/15_lods.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Other",
+  "id": "station_pallet_01",
+  "name": "station pallet 01",
+  "steps": [
+   {
+    "label": "closeup",
+    "n": 1,
+    "src": "shots/assets/station_pallet_01/01_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 2,
+    "src": "shots/assets/station_pallet_01/02_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 3,
+    "src": "shots/assets/station_pallet_01/03_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 4,
+    "src": "shots/assets/station_pallet_01/04_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 5,
+    "src": "shots/assets/station_pallet_01/05_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 6,
+    "src": "shots/assets/station_pallet_01/06_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 7,
+    "src": "shots/assets/station_pallet_01/07_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 8,
+    "src": "shots/assets/station_pallet_01/08_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 9,
+    "src": "shots/assets/station_pallet_01/09_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 10,
+    "src": "shots/assets/station_pallet_01/10_lods.jpg"
+   },
+   {
+    "label": "closeup",
+    "n": 11,
+    "src": "shots/assets/station_pallet_01/11_closeup.jpg"
+   },
+   {
+    "label": "closeup top",
+    "n": 12,
+    "src": "shots/assets/station_pallet_01/12_closeup_top.jpg"
+   },
+   {
+    "label": "raw",
+    "n": 13,
+    "src": "shots/assets/station_pallet_01/13_raw.jpg"
+   },
+   {
+    "label": "clean",
+    "n": 14,
+    "src": "shots/assets/station_pallet_01/14_clean.jpg"
+   },
+   {
+    "label": "lods",
+    "n": 15,
+    "src": "shots/assets/station_pallet_01/15_lods.jpg"
    }
   ]
  },

@@ -878,6 +878,11 @@
 - ZB2: bug swarm — swarmer, warrior, breacher, spitter, scout; squads; hundreds of bugs cheaply; co-op
 - ZB3: bug waves drawn by base noise replace zhiltsy raids, hives spread by migration, «Жуки» and «Темп жуков» settings, bug play-test start
 - Every new game starts with two trucks
+- Модели жуков из Tripo со своей анимацией: ходьба, атака, смерть
+- «Темп жуков» в главном меню и меню паузы, 12 ульев на карте R1
+- Видимые повреждения машины: укусы, когти, вмятины, кислота, пули, трещины стекла, копоть; ремонт их убирает
+- Гнёзда жуков из Tripo, гнездо плюётся кислотой и зовёт стаю, сердце гнезда можно убить
+- Кооп: меньше трафика, звери и жильцы в одном времени, следы колёс приходят быстрее
 
 **Фиксы**
 
@@ -913,7 +918,11 @@
 - COOPSWEEP2: all 235 co-op sweep rows pass; carcass unload, walk-in ruin walls, tailgate prompt, raided garden bed, raid damage hash
 - Co-op cart no longer jumps 1.7 km on the client after loading a save
 - Truck glass draws with defined shader values when dirt is off
+- Сохранение и загрузка после появления жуков (часы волн, 256 секций сохранения)
+- Машина экипажа стоит в стороне и не занимает место первой машины
+- Гниль и жилы гнезда больше не висят в воздухе
+- Бегущие звери у гостя больше не дёргаются вдали
 
 ---
 
-Список составлен по коммит [b24dd2d6f8e79337d91c69e452edabd551b65d01](https://github.com/shsanek/EXEcutor/commit/b24dd2d6f8e79337d91c69e452edabd551b65d01) включительно.
+Список составлен по коммит [595b8db6ce15c4aacf8db4894e0f5aa632f38508](https://github.com/shsanek/EXEcutor/commit/595b8db6ce15c4aacf8db4894e0f5aa632f38508) включительно.
