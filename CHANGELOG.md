@@ -866,6 +866,7 @@
 - NET2/NET3: smooth co-op — animals, zhiltsy, props and trailers interpolated; player state as deltas; client jerks 714 to 131 per minute
 - GP1: shooting from the truck — seat hints, firing arcs, stopped driver may shoot, gun rest in the bed
 - PAR1: job system; network packing and glass weather off the main thread
+- BAL5b: 200 l fuel drum, new salvage sources (electronics, copper, chemicals, glass), workshop notebook page, rescue tow costs game time
 
 **Фиксы**
 
@@ -895,6 +896,8 @@
 - BALFIX: crew truck for co-op (host-created, fixes a join desync), sawmill part hints, wheel repair without dead ends
 - NET5: falling-tree desync between host and client
 - PAR1: windscreen fog maths 3x cheaper, same result
+- Crowbar and shots hit zhiltsy at their real positions (smoothed poses made blows miss)
+- Rear-left seat boarding no longer pokes through the cab wall
 
 ---
 

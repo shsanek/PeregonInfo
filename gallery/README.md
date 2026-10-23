@@ -44,6 +44,7 @@
 - [audio_au2 · 1](audio-au2-800dbb88-001.md) — 6
 - [audio_au3 · 1](audio-au3-0266e6b9-001.md) — 6
 - [audio_truck_20261010 · 1](audio-truck-20261010-9e6a4b63-001.md) — 8
+- [bal5b · 1](bal5b-906ff3c9-001.md) — 2
 - [banditbuggy · 1](banditbuggy-6bb5dc46-001.md) — 2
 - [banditholes · 1](banditholes-c0b2e47c-001.md) — 36
 - [bandits · 1](bandits-68dad4ad-001.md) — 43

@@ -1178,3 +1178,6 @@ One line per decision. Times are local (Mac).
 - 2026-10-23 03:53 tick: NET23 merged 325ab61ebc (view_tests boarding failure pre-existing on design, not GP1). GP1 merge verify running (protocol 72, playtest 34). PAR1 next. Running: COOPSWEEP2, BAL5b, NET4, PAR1b.
 - 2026-10-23 04:12 tick: GP1 merged 98e8bafc6c (combat2 hand-weapons test broken by ZH1/NET23 merge; GP1 agent resumed as GP1FIX fix-up, temporarily 5 agents). PAR1 merge verify running; moved NET5 watch_.host_take out of the parallel pack lambda (race). Running: COOPSWEEP2, BAL5b, NET4, PAR1b, GP1FIX.
 - 2026-10-23 04:32 tick: PAR1 merge fixed (o.queued in pack lambda after NET23 rut budget), re-verifying. Agents: COOPSWEEP2, BAL5b (waiting on its monitor), NET4, PAR1b, GP1FIX.
+- 2026-10-23 04:40 PAR1 merged 30edb681a0; report NET5/NET23/GP1/PAR1 published 55eb239da2. Removed worktrees NET5, NET23, PAR1. Running: COOPSWEEP2, BAL5b, NET4, PAR1b, GP1FIX.
+- 2026-10-23 04:53 tick: all 5 progressing. COOPSWEEP2 e03d76d278 (+dirty), BAL5b at S-15c 209f257081 (tests), NET4 25 dirty files (playout clock), PAR1b dab219be1f cheap truck switching, GP1FIX investigating. Load 17.
+- 2026-10-23 05:12 tick: BAL5b merged d1f1488961. GP1FIX (raw zhiltsy poses for hit tests + crew boarding) merge verifying. Spawned BAL5c. Running: COOPSWEEP2, NET4, PAR1b, BAL5c.
