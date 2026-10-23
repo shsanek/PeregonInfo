@@ -310,7 +310,7 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 
 | ID | Task | Depends on | Status |
 |----|------|------------|--------|
-| SWARM3 | Armed moving defender bots (hand weapons, generic mount use); scenarios top-down with overlay: siege with defenders, open camp, players assault a hive, sawmill noise target; AI behaviour report | SWARM2 | running (claude/peregon-swarm3) |
+| SWARM3 | Armed moving defender bots (hand weapons, generic mount use); scenarios top-down with overlay: siege with defenders, open camp, players assault a hive, sawmill noise target; AI behaviour report | SWARM2 | merged f0306d7236 (protocol 91) |
 | DEFENSE1 | Flamethrower (fuel, cone, ignites bugs/creep), manned MG nest, powered auto turret, fire traps; generic mount interface incl. vehicle-attached mounts; commander sees them via influence; swarm_defence_top video | SWARM2 | merged 10e0050f59 (protocol 82) |
 | TRUCKMG | Bed MG: Blender placeholder (no Tripo), fit, climb in from the back, man and fire (also while driving), heat/ammo box, recipe; uses DEFENSE1 mount interface after merge | DEFENSE1 (interface) | merged 439dfd81a0 (protocol 80) |
 | ARMS1 | Automatic rifle replaces the nailgun in the player game (Blender placeholder, no Tripo; magazines, cartridges, recoil, rare mid/late loot, co-op prediction); old saves convert | - | merged 11d88cdbca (protocol 81) |
@@ -328,6 +328,6 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | BAL-x1, LOOT-ROWS, PAR-C2/N2/R2 | Balance at ×1, loot rows, parallel-sim leftovers | - | queued |
 | ARMS1-L | Rifle leftovers: inventory icons (icon script fails on pva2_items mesh), cleaning at the gun bench, third-person left hand on the handguard, co-op avatars draw the rifle, client full-auto prediction run | - | queued |
 | PT5-L | Split the two headlamps into separate meshes in Blender so a missing lamp is not drawn; jack lifts the corner; bent wheel looks bent; truck flips over short posts (vehicle contact) | - | queued |
-| POLISH1 | Icons for all items added 2026-10-23 + fix icon build script (pva2_items), balance tool knows bug remains as a source, «Детали» → «Запчасти» | - | running (claude/peregon-polish1) |
+| POLISH1 | Icons for all items added 2026-10-23 + fix icon build script (pva2_items), balance tool knows bug remains as a source, «Детали» → «Запчасти» | - | merged a903cdd86c |
 | PT4-L | Coal-pit excavator nest gate; motor-depot truck and depot cart trailer part lists; optional one-time guard nest seeding for old saves | - | queued |
 | TRUCKMG-L | Bed MG leftovers: gunner hands on grips, remote shot audio on clients, icon, cargo pushed out of the gunner circle, coop_seats_tests tailgate climb update | tests for the last item | queued |
