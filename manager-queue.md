@@ -284,3 +284,25 @@ Next free slots, in order: BAL5a, TELE1, then NET2/NET5 after NET1, ZH1, ART2 Tr
 | 15:00 | owner | play-test |
 
 | ISLAND1 | Island base (owner 2026-10-23) | NOT a task: emerges by itself once bugs do not swim and respect ice (SWARM2). The existing island stays as is; nothing special to build | - | - | covered by SWARM2 |
+
+## Queue 2026-10-23 evening (owner): defences, weapons, AI scenarios
+
+Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
+
+| ID | Task | Depends on | Status |
+|----|------|------------|--------|
+| SWARM3 | Armed moving defender bots (hand weapons, generic mount use); scenarios top-down with overlay: siege with defenders, open camp, players assault a hive, sawmill noise target; AI behaviour report | SWARM2 | running (claude/peregon-swarm3) |
+| DEFENSE1 | Flamethrower (fuel, cone, ignites bugs/creep), manned MG nest, powered auto turret, fire traps; generic mount interface incl. vehicle-attached mounts; commander sees them via influence; swarm_defence_top video | SWARM2 | running (claude/peregon-defense1) |
+| TRUCKMG | Bed MG: Tripo model, Blender fit, climb in from the back, man and fire (also while driving), heat/ammo box, recipe; uses DEFENSE1 mount interface after merge | DEFENSE1 (interface) | running (claude/peregon-truckmg) |
+| ARMS1 | Automatic rifle replaces the nailgun in the player game (Tripo model, magazines, cartridges, recoil, rare mid/late loot, co-op prediction); old saves convert | - | running (claude/peregon-arms1) |
+| EARLY1 | Early stage: bow + arrows (craftable from wood/sinew/feathers, quiet — does not draw bug waves, arrows recoverable), Tripo model | ARMS1 merged (weapon data layout) | queued — next free slot |
+| EARLY2 | Early stage: sharpened stakes — stake barricades/palisade spikes that bugs impale on or must go around (commander nav sees them), craft from logs with an axe; maybe a hand-held stake/spear for melee | DEFENSE1 merged (defence/nav hooks) | queued |
+| ICEPROBE | Commander does not know ice thickness: probe with single cheap bugs, learn thin/holding per weight, memory decays, heavy castes only over proven routes (sketch in handoff-swarm2.md) | SWARM3 | queued — owner decides after SWARM3 videos |
+| SWARM2-L | SWARM2 leftovers: post-breach stall (45 s, 66 bugs pile inside), breachers too late at the river, 4 m ice sampling drowns light bugs, scout caste model | SWARM3 | queued |
+| BUGFX | Bug sounds, loot from bugs, fear from bugs, xp for fighting bugs (no xp for mashing) | - | queued |
+| TRUCKDMG-L | Mirrors mesh, smaller bites, fire scorch, door-gap dents | - | queued |
+| COOPAUDIT | coop_audit pickup contention 2/30 failures after NET6/TRUCKDMG — find origin, fix | tests allowed again | blocked (tests paused) |
+| TESTFIX-L | Tow winch slide 1.69 m, shaderc grass_card vs_2_0 13 temps, render_checks unbound registers | tests allowed again | blocked (tests paused) |
+| PLAYERMODELS | Player models in Tripo (concepts in reports/shots/players) | owner yes | waiting owner |
+| NETTEST | Internet co-op test with the friend in Tallinn | owner time | waiting owner |
+| BAL-x1, LOOT-ROWS, PAR-C2/N2/R2 | Balance at ×1, loot rows, parallel-sim leftovers | - | queued |
