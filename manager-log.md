@@ -1272,3 +1272,4 @@ One line per decision. Times are local (Mac).
 - 19:56 tick: SWARM3, PT1, PT3, PT5 running (4/4); design in sync; disk 76Gi.
 - 20:14 tick: SWARM3, PT1, PT3, PT5 running (4/4); design in sync; disk 75Gi.
 - 20:21 PT1 merged 094ee80d86 (protocol 85, playtest conflict), worktree removed. Slot → PT2 CONTAINERS (claude/peregon-pt2, save 580-589, msgs 200-209, chunk 81, §61). Running: SWARM3, PT3, PT5, PT2.
+- 20:34 tick: SWARM3, PT2, PT3, PT5 running (4/4); design in sync; disk 67Gi.
