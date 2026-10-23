@@ -4,7 +4,7 @@ Stopped on the owner's order (usage limit). Design branch: `claude/peregon-desig
 
 ## State of design
 - Pushed tip: `787fc8897e` Merge NET6/NET4abc (protocol 76). Play-test build = this.
-- In progress in the main worktree (uncommitted merge): TRUCKDMG `c6e3463ea5` merged with `--no-commit`, clean, `kNetProtocol` bumped to 77. Verify: `bash $S/tdmg.sh` (output `$S/tdmg.out`; suites truckdmg, crafting, coop_audit, net_world, coopsweep, swarm_play, bugs_play, trucks_play). If green: check `git diff --cached --quiet reports`, commit "Merge TRUCKDMG ...", push. If not finished/unknown: rerun the script first.
+- TRUCKDMG `c6e3463ea5` merge was tried and ABORTED (design is clean at 787fc8897e): the merged tree fails `coop_audit_tests` 28/30 — `pickup_same_tick_contention_goes_to_one_player_and_observers_see_it_leave_the_ground` (coop_audit_tests.cpp:538-559, shell_box) and `pickup_two_clients_press_e_on_one_item_over_real_transports` (:609). truckdmg 10/10 and crafting 15/15 passed; net_world/coopsweep were not finished. Next: check whether these two fail on 787fc8897e alone (then it is NET6, not TRUCKDMG), fix, redo the merge with `kNetProtocol = 77`.
 - `S=/private/tmp/claude-501/-Users-alex--superset-worktrees-EXEcutor-capricious-buckthorn-2906c1e8/b826acff-2ccc-4929-a151-bdd6e0e01d4e/scratchpad` (may be gone after reboot; pattern: cmake --preset native-release, build targets, run `build/native-release/bin/<suite>` with `PEREGON_MAP_DIR=$(cd ../map/r1 && pwd)`).
 
 ## Agent branches (worktrees under /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-<id>)
