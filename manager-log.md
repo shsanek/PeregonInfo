@@ -1290,3 +1290,4 @@ One line per decision. Times are local (Mac).
 - 22:35 tick: SWARM4 running alone; design in sync; disk 90Gi.
 - 22:55 tick: SWARM4 running alone; design in sync; disk 89Gi.
 - 23:15 tick: SWARM4 running alone; design in sync; disk 88Gi.
+- 23:35 tick: SWARM4 running alone; design in sync; disk 84Gi.
