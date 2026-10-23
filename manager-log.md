@@ -1275,3 +1275,4 @@ One line per decision. Times are local (Mac).
 - 20:34 tick: SWARM3, PT2, PT3, PT5 running (4/4); design in sync; disk 67Gi.
 - 20:40 PT3 merged 5f052012f9 (protocol 86), worktree removed. SWARM3 asked for target-aware commander banners. Slot → PT4 POIBASES (claude/peregon-pt4, save 590-599, msgs 210-219, chunk 82, §62). Running: SWARM3, PT2, PT4, PT5.
 - 20:58 PT5 merged ac0b21c236 (protocol 87; conflicts gun_racks vs wheels_off kept both), worktree removed. Slot → PT6 NOSLEEP (claude/peregon-pt6, save 600-609, msgs 220-229, chunk 83, §63). Running: SWARM3, PT2, PT4, PT6. PT queue now fully started.
+- 20:59 tick: SWARM3, PT2, PT4, PT6 running (4/4); design in sync; disk 62Gi.
