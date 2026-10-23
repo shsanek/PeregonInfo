@@ -1298,3 +1298,4 @@ One line per decision. Times are local (Mac).
 - 01:11 tick: PLAYTEST1 committed first blocker fix 0555b12f29 (axe in campfire could not be picked up), game run in progress (out/playtest1/run, saves). Killed a leftover Blender left open by the removed TRUCKMG worktree (clean machine rule). Disk 84 GB.
 - 01:31 tick: PLAYTEST1 running alone; disk 83Gi.
 - 01:51 tick: PLAYTEST1 running alone; disk 83Gi.
+- 02:11 tick: PLAYTEST1 running alone; disk 82Gi.
