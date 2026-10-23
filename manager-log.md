@@ -1294,3 +1294,4 @@ One line per decision. Times are local (Mac).
 - 23:49 SWARM4 merged 15e4fa67fe (protocol 93), worktree removed. PLAYTEST1 started as the ONLY agent (claude/peregon-playtest1) from 15e4fa67fe.
 - 00:11 tick: PLAYTEST1 running alone; design in sync; disk 84Gi.
 - 00:31 tick: PLAYTEST1 running alone; disk 84Gi.
+- 00:51 tick: PLAYTEST1 running alone; disk 84Gi.
