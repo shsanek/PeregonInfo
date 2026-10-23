@@ -407,6 +407,7 @@
 - [truckgen · 1](truckgen-2dcd7e80-001.md) — 60
 - [truckgen · 2](truckgen-2dcd7e80-002.md) — 12
 - [truckint · 1](truckint-7402a194-001.md) — 52
+- [truckmg · 1](truckmg-0af52830-001.md) — 4
 - [truckwb · 1](truckwb-177dc19b-001.md) — 47
 - [tyrering · 1](tyrering-21ffb953-001.md) — 6
 - [tyrevis · 1](tyrevis-9879ae5f-001.md) — 8
