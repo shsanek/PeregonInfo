@@ -295,7 +295,7 @@ Owner played a short session. Start these first as slots free (one coherent scop
 | PT2 CONTAINERS | Liquid containers are universal: one barrel type, one canister type (and other vessels) hold any liquid (water, kerosene, diesel, petrol, oil); contents and amount shown; pour-out to empty; no separate water/kerosene barrels. Old saves convert | - | queued |
 | PT3 ENEMIES | Zhiltsy no longer spawn anywhere on the map (keep the code, data switch off); bugs are the enemies. Fix: "bugs attacked the base" banner fired with no base built — waves must target a real noise source and the message must name what is attacked; owner found no nest at all — check R1 hive placement/visibility near the start and routes, make nests findable (sound, creep, landmarks). Remove the separate bug items from the MAIN menu («Темп жуков», bug play-test start) — they live only in Settings | - | running (claude/peregon-pt3) |
 | PT4 POIBASES | POI bases (sawmill first, then the other working POIs) work out of the box: pour kerosene/fuel and run; no detailed part lists (bearings etc.). Each such base is guarded by a bug nest on/near it: arrive, clear the nest, use the base. Hints for a POI in ONE block, not many. Scatter more loot items in more places instead of specific repair parts; simplify part counts overall | PT3 (nests) | queued |
-| PT5 TRUCKPARTS | Wheels and headlights fall off far too easily and cannot be repaired — raise thresholds a lot, make them repairable/refittable in the field and at the garage | - | queued |
+| PT5 TRUCKPARTS | Wheels and headlights fall off far too easily and cannot be repaired — raise thresholds a lot, make them repairable/refittable in the field and at the garage | - | running (claude/peregon-pt5) |
 | PT6 NOSLEEP | Remove sleep as a mechanic (needs, prompts, hints, beds as sleep requirement) — keep code, switch off; check nothing depends on it (time skip uses the x8 fast-forward) | - | queued |
 
 ## Queue 2026-10-23 evening (owner): defences, weapons, AI scenarios
@@ -312,7 +312,7 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | EARLY2 | Early stage: sharpened stakes — stake barricades/palisade spikes that bugs impale on or must go around (commander nav sees them), craft from logs with an axe; maybe a hand-held stake/spear for melee | DEFENSE1 merged (defence/nav hooks) | queued |
 | ICEPROBE | Commander does not know ice thickness: probe with single cheap bugs, learn thin/holding per weight, memory decays, heavy castes only over proven routes (sketch in handoff-swarm2.md) | SWARM3 | queued — owner decides after SWARM3 videos |
 | SWARM2-L | SWARM2 leftovers: post-breach stall (45 s, 66 bugs pile inside), breachers too late at the river, 4 m ice sampling drowns light bugs, scout caste model | SWARM3 | queued |
-| BUGFX | Bug sounds, loot from bugs, fear from bugs, xp for fighting bugs (no xp for mashing) | - | running (claude/peregon-bugfx) |
+| BUGFX | Bug sounds, loot from bugs, fear from bugs, xp for fighting bugs (no xp for mashing) | - | merged 8c1c03644b (protocol 84) |
 | TRUCKDMG-L | Mirrors mesh, smaller bites, fire scorch, door-gap dents | - | queued |
 | COOPAUDIT | coop_audit pickup contention 2/30 failures after NET6/TRUCKDMG — find origin, fix | tests allowed again | blocked (tests paused) |
 | TESTFIX-L | Tow winch slide 1.69 m, shaderc grass_card vs_2_0 13 temps, render_checks unbound registers | tests allowed again | blocked (tests paused) |

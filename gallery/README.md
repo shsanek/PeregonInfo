@@ -53,6 +53,7 @@
 - [bots · 1](bots-10b8ecc0-001.md) — 17
 - [breech45 · 1](breech45-b40da241-001.md) — 2
 - [buganim · 1](buganim-ec4323ff-001.md) — 3
+- [bugfx · 1](bugfx-2eeb4554-001.md) — 4
 - [build · 1](build-44575cf5-001.md) — 16
 - [build2 · 1](build2-391930e1-001.md) — 5
 - [bunker · 1](bunker-9078e43e-001.md) — 3
