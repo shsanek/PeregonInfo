@@ -872,6 +872,7 @@
 - BAL5c: truck battery rebuild, renewable lead and powder, robe and jacket protect, earlier bunk and bench, stations on the paper map
 - RAIDCFG: «Шум базы» on/off and «Набеги» Выкл/×0.5/×1/×1.5/×2 settings, host-authoritative, saved with the world
 - BAL5d: endless hidden diesel at the roadside station, building steel in the world salvage roll, late game 866 to 475 min
+- LOOT1: found items lie on shelves, tables, floor by the walls, hooks and the ground by wrecks instead of in rows
 
 **Фиксы**
 

@@ -162,6 +162,7 @@
 - [lk1 · 1](lk1-32d1b48c-001.md) — 60
 - [lk1 · 2](lk1-32d1b48c-002.md) — 10
 - [lk2 · 1](lk2-87fda38f-001.md) — 35
+- [loot1 · 1](loot1-d99d0d99-001.md) — 6
 - [lootclean · 1](lootclean-a702c434-001.md) — 11
 - [map · 1](map-60be9861-001.md) — 60
 - [map · 2](map-60be9861-002.md) — 60
@@ -209,6 +210,7 @@
 - [pickup · 1](pickup-1f64847e-001.md) — 7
 - [place · 1](place-81df6358-001.md) — 45
 - [player_reports · 1](player-reports-bc5a1b14-001.md) — 3
+- [players · 1](players-afc0d772-001.md) — 7
 - [playfix · 1](playfix-c7f249b2-001.md) — 3
 - [plowsink · 1](plowsink-4496fb01-001.md) — 10
 - [pm1 · 1](pm1-b2dd687e-001.md) — 13

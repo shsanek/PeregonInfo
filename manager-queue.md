@@ -232,6 +232,7 @@ Source: owner's co-op play-test and remarks on 2026-10-22 evening. This list is 
 | ID | Task | Problem | Complexity | Priority | Status |
 |----|------|---------|------------|---------|--------|
 | ZB-BUGS | Bugs instead of zhiltsy | Alien bugs invaded; active day and night, attack constantly; nest and spread like Factorio biters (hives grow and expand, waves drawn to noise, smoke and machinery near people). Owner balance rule: many bugs, but players must still have calm time to build up the base — pressure comes in waves with real breathing room (Factorio-like: attacks scale with what you build/pollute, not a constant grind). Concept sheets now (ChatGPT); Tripo only after approval | high | medium | concepts in ARTFOREST |
+| ZB1-CREEP | Living nest creep (owner 2026-10-23) | Nests are assembled from objects (spawner pods, egg clusters, towers, tunnels per the 2026-10-23 bug sheets), but the biological overgrowth is procedural: veins/tendrils really grow over ground, floors and house walls, bake into static geometry, pulse (shader, not CPU), can be burnt — pour kerosene and ignite, or flamethrower — burnt creep chars and dies back. Algorithm for nest growth: spread of creep, placing eggs and nest objects, nest swallowing/consuming world objects (as on the arts). Performance: watch polygon count; distant nests simulated coarsely (growth state numbers only), their visual mesh generated on a worker thread only when players approach; host-authoritative co-op. Placeholder models until Tripo | critical | high | next free coding slot; art refs 2026-10-23_bugs_sheets |
 | GP3 | Flamethrower | Home-made, kerosene/diesel tank, hose, igniter; hand-held and truck-mounted; the weapon against nests | medium | medium | concept in ARTFOREST |
 | FUT1 | Turrets | Gun and flamethrower turrets with fuel/ammo hauled to them; Factorio-like base defence | high | medium | after ZB-BUGS |
 | FUT2 | Automated production | Machines run on their own once supplied and feed each other (supplies still hauled) | very high | medium | after ZB-BUGS |
@@ -271,3 +272,13 @@ Source: owner's co-op play-test and remarks on 2026-10-22 evening. This list is 
 | ZH1 | Threat pacing (S-18) | Heat score from noise/smoke/generator/machines; raid interval 14→3 days with heat; size by heat and players, waves ≤8; ≥3 quiet days after each raid; per-stage targets in stages.md | medium | high | after BAL5a |
 
 Next free slots, in order: BAL5a, TELE1, then NET2/NET5 after NET1, ZH1, ART2 Tripo pass.
+
+## PT15 — bug play-test build for 15:00, 2026-10-23 (owner)
+| Time | Slot | Task |
+|---|---|---|
+| now | ZB1-CREEP | nests grow + spread (sped-up knob), baked pulsing creep, egg/spawner spawn API header first (~11:00), burning, swallow; deliver 12:45 |
+| 10:45 | ZB2 (TESTFIX slot) | bug creatures: swarmer, warrior, breacher, spitter on placeholder bodies; cheap AI tiers for many bugs; hatch from ZB1 spawn API; combat damage both ways; co-op; deliver 13:15 |
+| 11:00 | ZB3 (NET6 slot) | wave director: waves drawn to noise/smoke/machinery/base heat (RAIDCFG knobs), breathing room, bugs replace zhiltsy raids (zhiltsy stay in old settlements), play-test start option near the base; deliver 13:30 |
+| PAR2 done | merge; slot for PERF-BUGS: many-bug rendering (instancing) + profiling with 200 bugs; deliver 13:45 |
+| 13:00–14:30 | manager | merge ZB1 → ZB2 → ZB3 → PERF, integration fixes, coop smoke, playtest.md section, build at 14:30 |
+| 15:00 | owner | play-test |

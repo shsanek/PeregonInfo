@@ -1197,3 +1197,18 @@ One line per decision. Times are local (Mac).
 - 2026-10-23 08:12 tick: COOPSWEEP2 merged 285eb1ad20. RAIDCFG merge verify running (playtest 42), BAL5d next. Running: NET6, PAR2, LOOT1, TESTFIX, BUGART r2.
 
 - 08:33 tick: BAL5d merge verify running (build ok, ctest 5/5, scrap 7/7, rest in progress); report entries BAL5c/COOPSWEEP2/RAIDCFG staged locally, publish with BAL5d. Agents active: NET6 (netbench smokes), PAR2 (coopsweep diffs), LOOT1 (loot view stages), TESTFIX (commit 18 min ago), BUGART (icon sheets 51-52).
+- 08:55 BAL5d merged 689b727b37, report published (BAL5c/COOPSWEEP2/RAIDCFG/BAL5d), 4 worktrees removed. BUGART round 2 done (69 sheets total, 309 crops); resumed for round 3 (truck fix 62/63, winter turnarounds, larva/elder/queen poses, nest stages, tileables, decals, VFX).
+- 08:53 tick: all active — NET6 (9 files <40m, uncommitted), PAR2 commit 18m ago, LOOT1 (6 files <40m, uncommitted), TESTFIX commit 13m ago, BUGART round 3 running. No free slot for ZB1.
+- 09:00 owner: enough bug art, round 3 stopped (BUGART finishes the in-flight sheet and stops).
+- 09:10 BUGART stopped: round 3 gave 3 files (62b no effect, 63b partial, 64a winter shape drift); 72 raw sheets total. Another session uses the shared Chrome for tree sheets.
+- 09:13 tick: NET6/PAR2/LOOT1/TESTFIX all editing (6/9/8/3 files <40m). 4 coding slots full; ZB1 waits.
+- 09:25 owner: loves the new concept art; PLAYERART agent started (ChatGPT: 4 rugged player men, turnarounds, parts, faces). Owner spec for living nest creep queued as ZB1-CREEP (procedural growing veins over floors/walls, bake, pulse, burn with kerosene/flamethrower, egg/object placement, consume objects, coarse far sim, mesh gen on worker thread when near) — starts at the next free coding slot.
+- 09:33 tick: PAR2 commit 8m ago; LOOT1 tours running (10 files <40m); NET6 2 files, TESTFIX 1 file <40m (still active). PLAYERART running. ZB1-CREEP waits for a slot.
+- 09:53 tick: NET6 committed (ruts chunk diff); LOOT1 docs commit, finishing tests; PAR2 5 files; TESTFIX editing tow_play_tests (<15m), on flaky tow. PLAYERART running.
+- 10:05 LOOT1 done (74/107 caches in nooks, 5 new tests, coop 60ms/2% loss identical); merging (scrap.txt/scrap_tests union, playtest →§44), verify bljiovffu. ZB1-CREEP started (protocol 75, msgs 60+, save 430+, branch claude/peregon-zb1).
+- 10:45 PLAYERART done: 4 men (Tikhon, Arseniy, Gleb, Savva), lineup, 4 turnarounds (12 crops), 4 parts, 4 faces, 2 key arts; previews in reports/shots/players.
+- 10:13 tick: LOOT1 merge verify building; NET6 commit 21m, PAR2 48m (full suite), TESTFIX editing; ZB1-CREEP redirected to branch claude/peregon-zbcreep (claude/peregon-zb1 is the old paused zhiltsy branch).
+- 10:20 owner: play-test with many bugs at 15:00; plan PT15 in manager-queue.md; TESTFIX and NET6 told to wrap up, ZB1-CREEP given 12:45 deadline and spawn-API-first.
+- 10:25 owner: let current tasks finish — wrap-up requests to TESTFIX/NET6 cancelled. ZB2 (bugs, branch claude/peregon-zb2, msgs 70-79, save 440+) and ZB3 (wave director + play-test preset, claude/peregon-zb3, msgs 80-89, save 450+) started now; 6 coding agents temporarily for the 15:00 deadline; manager bumps protocol once at merge.
+- 10:33 tick: LOOT1 verify at coopsweep (scrap nook-ratio test fixed: BAL5d metal roll excluded, 11/11). ZB2 re-spawned from repo root (first spawn landed in reports repo), ZB3 too; ZB3 writing bug_waves.h. BUGMODELS (Tripo swarmer→warrior→spitter→breacher) started. Owner: squads gather then raid, frequency by heat/noise/distance, migration founds new hives; two trucks at start — forwarded to ZB3/ZB1/ZB2. Load avg ~90.
+- 10:47 LOOT1 merged 6c19ffc660 (nook ratio test excludes metal roll), report entry, worktree removed.
