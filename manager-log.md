@@ -1258,3 +1258,4 @@ One line per decision. Times are local (Mac).
 - 17:26 owner: queue everything, start tasks on sub-agents: automatic rifle replaces nailgun → ARMS1 started (4th agent, claude/peregon-arms1, save 520-529, msgs 140-149, chunk 75, §55); flamethrower stays in DEFENSE1; bows (EARLY1) and stakes (EARLY2) queued for next slots; full backlog into manager-queue.md.
 - 17:33 tick: 4 agents (SWARM3, DEFENSE1, TRUCKMG, ARMS1) working, no commits yet (SWARM3 new files play_defbot/play_swarm_armed); design in sync; disk 59 GB (4 fresh worktree builds, was 86); load 46.
 - 17:48 tick: all 4 agents editing (dirty files: SWARM3 12, DEFENSE1 25 incl. combat/mount.h + defence.h, TRUCKMG 32, ARMS1 13), no commits yet; design in sync; disk 59 GB; load 23.
+- 17:57 owner: no Tripo for weapons for now (bed MG, rifle, bow, defences) — Blender placeholders only; TRUCKMG, ARMS1, DEFENSE1 told.
