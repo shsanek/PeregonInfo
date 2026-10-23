@@ -1276,3 +1276,5 @@ One line per decision. Times are local (Mac).
 - 20:40 PT3 merged 5f052012f9 (protocol 86), worktree removed. SWARM3 asked for target-aware commander banners. Slot → PT4 POIBASES (claude/peregon-pt4, save 590-599, msgs 210-219, chunk 82, §62). Running: SWARM3, PT2, PT4, PT5.
 - 20:58 PT5 merged ac0b21c236 (protocol 87; conflicts gun_racks vs wheels_off kept both), worktree removed. Slot → PT6 NOSLEEP (claude/peregon-pt6, save 600-609, msgs 220-229, chunk 83, §63). Running: SWARM3, PT2, PT4, PT6. PT queue now fully started.
 - 20:59 tick: SWARM3, PT2, PT4, PT6 running (4/4); design in sync; disk 62Gi.
+- 21:12 PT2 merged 81dc71960e (protocol 88; HUD env + protocol + playtest conflicts), worktree removed. PT4 finished eb32da4c70 but resumed to merge design (PT2 vessel API) — wait. Free slot → next from evening queue.
+- 21:13 EARLY2 stakes started (claude/peregon-early2, save 610-619, msgs 230-239, chunk 84, §64). First spawn went into the PeregonInfo submodule (cwd was reports/) — stopped, its worktree/branch removed, respawned from the repo root. Running: SWARM3, PT4 (re-merging design), PT6, EARLY2.
