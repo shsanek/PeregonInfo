@@ -376,6 +376,7 @@
 - [survival2_q7 · 2](survival2-q7-aa7788ae-002.md) — 7
 - [survival_q6 · 1](survival-q6-8c66f5e7-001.md) — 33
 - [sv3 · 1](sv3-8f2c32bf-001.md) — 10
+- [swarm2 · 1](swarm2-54104ce9-001.md) — 4
 - [tent · 1](tent-2a9810cb-001.md) — 22
 - [terrainblend · 1](terrainblend-0e2c89a0-001.md) — 10
 - [terrainfix · 1](terrainfix-c22c1134-001.md) — 8
