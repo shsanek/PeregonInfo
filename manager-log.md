@@ -1261,3 +1261,4 @@ One line per decision. Times are local (Mac).
 - 17:57 owner: no Tripo for weapons for now (bed MG, rifle, bow, defences) — Blender placeholders only; TRUCKMG, ARMS1, DEFENSE1 told.
 - 18:08 tick: 4 agents editing, no commits yet (dirty: SWARM3 17, DEFENSE1 46 + out/defence1, TRUCKMG 37 + out/truckmg, ARMS1 57); design in sync; disk 60 GB; load 14.
 - 18:27 TRUCKMG done + merged 439dfd81a0 (protocol 80, clean merge, build-only; no Tripo credits, 2 ChatGPT image refs unused). Freed slot → EARLY1 bow started (claude/peregon-early1, save 530-539, msgs 150-159, chunk 76, §56). DEFENSE1 told to build on combat::Mount; SWARM3 warned of commander.cpp conflict.
+- 18:28 tick: ARMS1 committed + merged design (c6775e647a), finishing; SWARM3 recording (out/swarm3), DEFENSE1 46 dirty + out/defence1, EARLY1 starting; design in sync; disk 52 GB; load 22.
