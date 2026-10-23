@@ -1184,3 +1184,16 @@ One line per decision. Times are local (Mac).
 - 2026-10-23 05:16 GP1FIX merged e34e311580; report BAL5b/GP1FIX e489237538. Removed worktrees BAL5b, GP1.
 - 2026-10-23 05:32 tick: GP1FIX merged. NET4 done (protocol 73, playtest 36), merge verify running. PAR1b done, queued after NET4. Running: COOPSWEEP2, BAL5c. Two slots to fill after NET4 merge (NET4abc+NET6, PAR2).
 - 2026-10-23 05:52 tick: NET4 merged 0691152bb1. PAR1b merge verify running. Spawned NET6 (matrix + NET4abc). Running: COOPSWEEP2, BAL5c, NET6; PAR2 after PAR1b merge.
+- 2026-10-23 06:11 PAR1b merged 89f8fa9a42; report NET4/PAR1b 87aaeb2e7d; worktrees NET4, PAR1b removed. Spawned PAR2. Running: COOPSWEEP2, BAL5c, NET6, PAR2.
+- 2026-10-23 06:12 tick: COOPSWEEP2 docs commit 6beaaabac7 (wrapping up), BAL5c cad8763019 (+6 dirty), NET6 matrix commit 3b28779abc, PAR2 started (fresh worktree, building). Load 44.
+- 2026-10-23 06:33 tick: BAL5c done (late game 485->866 min with real salvage -> S-19), merge verify running (playtest 37). Spawned BAL5d (S-19) from bal5c. Running: COOPSWEEP2 (wrapping), NET6, PAR2, BAL5d. Owner asked about forest/bugs: awaiting his decision on bug concepts + full ART2 forest.
+- 2026-10-23 06:38 OWNER: no forest; bugs approved, ChatGPT last day -> spawned BUGART (ChatGPT sheets, temporarily 5 agents); Tripo poly reduction inside Tripo; loot natural placement (LOOT1 next free slot); infinite hidden station fuel tank -> added to BAL5d.
+- 2026-10-23 06:41 OWNER: bugs gradually replace zhiltsy in gameplay with their own logic (ZB-BUGS row). Plan: ZB1 design+nest sim first, then castes AI, then switch raids; LOOT1 and ZB1 take the next two slots.
+- 2026-10-23 06:42 OWNER: settings to turn base heat off and a raid frequency/size multiplier (RAIDCFG). Next free slots order: RAIDCFG, LOOT1, ZB1.
+- 2026-10-23 06:52 tick: COOPSWEEP2 done (53/53 scripts, 8 bugs fixed), queued after BAL5c. BAL5c merge verify still running (load ~40). Spawned RAIDCFG. Running: NET6, PAR2, BAL5d, RAIDCFG, BUGART.
+- 2026-10-23 07:12 tick: BAL5c merged 98918e8b6b. COOPSWEEP2 merge verify running (playtest 38-41). Running: NET6, PAR2, BAL5d (+fuel tank), RAIDCFG, BUGART. Queue: TESTFIX (glass_weather validating device, coop_slots hash, respawn coop wake), LOOT1, ZB1.
+- 2026-10-23 07:32 tick: RAIDCFG done 8bdbae2f63, BAL5d done (late game 866->475, endless hidden station tank). COOPSWEEP2 merge reverify (fixed select_truck const accessor after PAR1b). Spawned LOOT1 and TESTFIX. Running: NET6, PAR2, LOOT1, TESTFIX, BUGART. Merge queue: COOPSWEEP2, RAIDCFG, BAL5d.
+- 2026-10-23 07:53 tick: BUGART round 1 done (39 sheets), resumed for round 2 (corpses, variants, nest interior, missing item icons, UI, key art). COOPSWEEP2 reverify: cargo/scrap/hunt fixed, known respawn/coop_slots failures (TESTFIX), coopsweep pending.
+- 2026-10-23 08:12 tick: COOPSWEEP2 merged 285eb1ad20. RAIDCFG merge verify running (playtest 42), BAL5d next. Running: NET6, PAR2, LOOT1, TESTFIX, BUGART r2.
+
+- 08:33 tick: BAL5d merge verify running (build ok, ctest 5/5, scrap 7/7, rest in progress); report entries BAL5c/COOPSWEEP2/RAIDCFG staged locally, publish with BAL5d. Agents active: NET6 (netbench smokes), PAR2 (coopsweep diffs), LOOT1 (loot view stages), TESTFIX (commit 18 min ago), BUGART (icon sheets 51-52).

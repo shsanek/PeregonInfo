@@ -869,6 +869,9 @@
 - BAL5b: 200 l fuel drum, new salvage sources (electronics, copper, chemicals, glass), workshop notebook page, rescue tow costs game time
 - NET4: own shot shown at once (90 to 12 ms), host lag compensation for client shots, capped smooth playout clock
 - PAR1b: truck switching 13% to 0.7% of the host main thread, windscreen fog of all trucks on threads
+- BAL5c: truck battery rebuild, renewable lead and powder, robe and jacket protect, earlier bunk and bench, stations on the paper map
+- RAIDCFG: «Шум базы» on/off and «Набеги» Выкл/×0.5/×1/×1.5/×2 settings, host-authoritative, saved with the world
+- BAL5d: endless hidden diesel at the roadside station, building steel in the world salvage roll, late game 866 to 475 min
 
 **Фиксы**
 
@@ -901,6 +904,7 @@
 - Crowbar and shots hit zhiltsy at their real positions (smoothed poses made blows miss)
 - Rear-left seat boarding no longer pokes through the cab wall
 - NET4: props and trailers no longer jump after packet loss
+- COOPSWEEP2: all 235 co-op sweep rows pass; carcass unload, walk-in ruin walls, tailgate prompt, raided garden bed, raid damage hash
 
 ---
 

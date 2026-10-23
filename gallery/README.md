@@ -252,6 +252,7 @@
 - [radio-audio · 1](radio-audio-a0340eae-001.md) — 6
 - [radioregion · 1](radioregion-5c79b80a-001.md) — 8
 - [raid2 · 1](raid2-55949163-001.md) — 7
+- [raidcfg · 1](raidcfg-251c2931-001.md) — 1
 - [rail2 · 1](rail2-1ba80a0c-001.md) — 51
 - [rail3 · 1](rail3-92260b61-001.md) — 60
 - [rail3 · 2](rail3-92260b61-002.md) — 34
