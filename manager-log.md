@@ -1313,3 +1313,4 @@ One line per decision. Times are local (Mac).
 - 07:15 idle tick: no agents, waiting for owner's PLAYTEST1 decision; design in sync; disk 83Gi.
 - 07:51 idle tick: no agents, waiting for owner's PLAYTEST1 decision; design in sync; disk 83Gi.
 - 08:06 owner decisions part 1: build book only buildable, one screen with sections, Shift keys, one-key build mode and tech screen; basic wood set open from start; tech xp for any gathering; POI nests start small and grow. Sent remaining questions list.
+- 08:15 idle tick: no agents, waiting for owner answers (questions 1-16); design in sync; disk 81Gi.
