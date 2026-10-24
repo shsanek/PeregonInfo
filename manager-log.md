@@ -1353,3 +1353,4 @@ One line per decision. Times are local (Mac).
 - 15:08 tick: PLAYTEST2 running; disk 29Gi.
 - 15:09 disk 29 GB (Xcode build outside the manager running): deleted the previous manager session's /tmp scratch (7.3 GB) and /tmp/claude-501/par2 (5 GB). Old idle worktrees from 10-07..10-10 have uncommitted changes → kept. Disk 41Gi.
 - 15:28 tick: PLAYTEST2 running; disk 41Gi.
+- 15:48 tick: PLAYTEST2 running; disk 40Gi.
