@@ -354,7 +354,8 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | D4 MISC | Axe into inventory; rescue new lore + destination; windscreen fog fix; spent casings removed / ammo recipe simplified; bed log stack 3 high | merged a284a01385 (protocol 97) + test compile fix 8b57cb1f0b |
 | D5 TECHUI | Icarus-style tech screen per docs/tech-tree.md §8 (tiers per page, hover shows unlocks, lines to benches, search), mouse «Выучить» without modal | D2, D1 merged | merged 82cf6aff4f (protocol 98) |
 | WEAPONS-L | Rifle/MG/bow/stake/flamethrower leftovers | - | running (claude/peregon-weaponsl) |
-| WORLD-L | PT5/PT4/TRUCKDMG/D3 leftovers | - | running (claude/peregon-worldl) |
+| WORLD-L | PT5/PT4/TRUCKDMG/D3 leftovers | - | merged 4f62c2da74 (protocol 99) |
 | SWARM5 | SWARM4-L + SWARM2-L leftovers | - | running (claude/peregon-swarm5) |
 | TESTS-UPDATE | Rewrite outdated test expectations after 2026-10-23/24 changes (care rescue, woodcut, tech, build, bugs, swarm…) | tests allowed | blocked (tests paused) |
 | PTPOLISH | PLAYTEST1 §3.2–3.4 remaining items + D5 leftovers (unlock lists for code-checked nodes, cross-section links, station icons) | - | running (claude/peregon-ptpolish) |
+| PAR3 | PAR-C2 thread-safe field reads, PAR-N2 pack overlap, maybe PAR-V | - | running (claude/peregon-par3) |
