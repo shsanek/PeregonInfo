@@ -1350,3 +1350,4 @@ One line per decision. Times are local (Mac).
 - 14:28 SWARM5 05a9f0e5d3, POLISH2 01c39517c2, FORESTCOL 2519b656a0 merged (all green), worktrees removed. Machine clean → PLAYTEST2 started as the only agent from 2519b656a0. Disk 70 GB.
 - 14:48 tick: PLAYTEST2 running alone; disk 39Gi.
 - 14:48 machine not clean: Xcode build (~450% CPU, SwiftBuild) running outside the manager; disk 70→39 GB in 20 min. PLAYTEST2 running.
+- 15:08 tick: PLAYTEST2 running; disk 29Gi.
