@@ -358,7 +358,7 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | SWARM5 | SWARM4-L + SWARM2-L leftovers | - | running (claude/peregon-swarm5) |
 | TESTS-UPDATE | Rewrite outdated test expectations after 2026-10-23/24 changes (care rescue, woodcut, tech, build, bugs, swarm…) | tests allowed | blocked (tests paused) |
 | PTPOLISH | PLAYTEST1 §3.2–3.4 remaining items + D5 leftovers (unlock lists for code-checked nodes, cross-section links, station icons) | - | merged 0b70102e03 (protocol 100) |
-| PAR3 | PAR-C2 thread-safe field reads, PAR-N2 pack overlap, maybe PAR-V | - | running (claude/peregon-par3) |
+| PAR3 | PAR-C2 thread-safe field reads, PAR-N2 pack overlap, maybe PAR-V | - | merged |
 | FORESTCOL | Owner: forest objects (fallen trees, stumps…) have bad collision — truck bounces/flips, rarely drives over; inventory + fix | - | running (claude/peregon-forestcol) |
 | POLISH2 | PTPOLISH/D4 leftovers: mallet size, bog water, door from inside, stone/stick models, winter fog, glass save, hotbar slot actions | - | running (claude/peregon-polish2) |
 | PLAYTEST2 | Second bot play-test from a real new game after SWARM5/PAR3/FORESTCOL/POLISH2 merge; ONLY agent on a clean machine; same rules as PLAYTEST1 (no hacks, notes + screenshots, list problems, fix only blockers), compare with PLAYTEST1 | all four merged | queued — owner asked 2026-10-24 |
