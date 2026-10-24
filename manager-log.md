@@ -1362,3 +1362,4 @@ One line per decision. Times are local (Mac).
 - 17:20 owner on PLAYTEST2: meadow a bit firmer only there + mud volume/endless mounds check (separate agent), all other fixes yes, rucksack at nest stays. Started MUD, HUT, THREATS2, TECHPACE.
 - 17:23 owner: proper voxel soil/water/snow simulation near the truck with mixing, churning, flooding, persistence of composition+heights → added to MUD scope (meadow fix committed first, then staged voxel system).
 - 17:24 owner: rivers too — unified voxel material sim (water as a material) around the truck: water hits the truck, climbs over the hood, drag/buoyancy/current → MUD stage (c).
+- 17:30 tick: MUD, HUT, THREATS2, TECHPACE running; owner: remove/extend dig-in depth cap → MUD; disk 34Gi.
