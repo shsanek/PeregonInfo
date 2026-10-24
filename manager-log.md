@@ -1358,3 +1358,4 @@ One line per decision. Times are local (Mac).
 - 16:28 tick: PLAYTEST2 running; disk 82Gi.
 - 16:48 tick: PLAYTEST2 running; disk 62Gi.
 - 17:04 PLAYTEST2 done + merged c0689925de (bot + report, no game code). 28/46 PLAYTEST1 items fixed, 0 regressions; new blockers for driving: start meadow mud. 61 shots published. Waiting for owner's go on next tasks.
+- 17:09 idle tick: no agents, waiting for owner's go on PLAYTEST2 fix groups; design in sync; disk 59Gi.
