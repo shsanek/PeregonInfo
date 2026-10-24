@@ -1384,3 +1384,4 @@ One line per decision. Times are local (Mac).
 - 23:55 owner plan: finish MUD, EARLY-L, NOHINTS (merge each) → PLAYTEST3 alone on a clean machine → write conclusions (report + PeregonInfo + handoff) → stop the manager loop.
 - 00:20 merged NOHINTS (29e92bdd57, ff), protocol stays 109.
 - 00:20 decision: tech-book descriptions in data/survival/tech.txt (e.g. ТА-21 tow ball at the garage bay) stay — they describe what a learned technology gives, not an interaction hint.
+- 00:30 owner: MUD merge must come with several PeregonInfo screenshots — water, snow, mud ruts, mud sticking to the wheels, mixing. Forwarded to MUD (≥8 shots, Russian captions).
