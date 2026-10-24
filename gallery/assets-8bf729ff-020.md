@@ -2,8 +2,6 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/veg_gb_veg_larch/01_blender.jpg](../shots/assets/veg_gb_veg_larch/01_blender.jpg)
-
 ![assets/veg_gb_veg_larch_old/01_blender.jpg](../shots/assets/veg_gb_veg_larch_old/01_blender.jpg)
 
 ![assets/veg_gb_veg_larch_young/01_blender.jpg](../shots/assets/veg_gb_veg_larch_young/01_blender.jpg)

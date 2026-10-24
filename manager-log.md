@@ -1377,3 +1377,4 @@ One line per decision. Times are local (Mac).
 - 22:20 owner: PLAYTEST3 waits until the MUD voxel engine is finished and merged, then runs alone on a clean machine (stop/finish all other agents first).
 - 22:40 merged WINBOT (dabedb84d2, ff): ptbot on Windows, state.txt rename stall fixed, cmd.txt reader hardened; empty cmd.txt crash not reproduced. Use python (not python3) and build peregon_render_d3d12 too. Slot left empty (owner: PLAYTEST3 after MUD on a clean machine).
 - 22:40 owner: voxel sim must run on its own worker thread from the start — forwarded to MUD.
+- 23:30 merged ROPECABLE (c5b3aad0b6) into design, protocol 109, win64 green. Open owner question: trailer prompt «нет фаркопа — поставить на гаражном посту» kept.

@@ -2,8 +2,6 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
-![assets/truck_engine/06_lods.jpg](../shots/assets/truck_engine/06_lods.jpg)
-
 ![assets/truck_floor/01_raw.jpg](../shots/assets/truck_floor/01_raw.jpg)
 
 ![assets/truck_floor/02_clean.jpg](../shots/assets/truck_floor/02_clean.jpg)
@@ -121,3 +119,5 @@
 ![assets/veg_gb_veg_juniper/01_blender.jpg](../shots/assets/veg_gb_veg_juniper/01_blender.jpg)
 
 ![assets/veg_gb_veg_juniper_creeping/01_blender.jpg](../shots/assets/veg_gb_veg_juniper_creeping/01_blender.jpg)
+
+![assets/veg_gb_veg_larch/01_blender.jpg](../shots/assets/veg_gb_veg_larch/01_blender.jpg)
