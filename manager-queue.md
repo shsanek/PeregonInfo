@@ -361,3 +361,4 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | PAR3 | PAR-C2 thread-safe field reads, PAR-N2 pack overlap, maybe PAR-V | - | running (claude/peregon-par3) |
 | FORESTCOL | Owner: forest objects (fallen trees, stumps…) have bad collision — truck bounces/flips, rarely drives over; inventory + fix | - | running (claude/peregon-forestcol) |
 | POLISH2 | PTPOLISH/D4 leftovers: mallet size, bog water, door from inside, stone/stick models, winter fog, glass save, hotbar slot actions | - | running (claude/peregon-polish2) |
+| PLAYTEST2 | Second bot play-test from a real new game after SWARM5/PAR3/FORESTCOL/POLISH2 merge; ONLY agent on a clean machine; same rules as PLAYTEST1 (no hacks, notes + screenshots, list problems, fix only blockers), compare with PLAYTEST1 | all four merged | queued — owner asked 2026-10-24 |
