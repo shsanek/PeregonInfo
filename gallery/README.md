@@ -226,6 +226,8 @@
 - [players · 1](players-afc0d772-001.md) — 7
 - [playfix · 1](playfix-c7f249b2-001.md) — 3
 - [playtest1 · 1](playtest1-93408e19-001.md) — 58
+- [playtest2 · 1](playtest2-0e1c1253-001.md) — 60
+- [playtest2 · 2](playtest2-0e1c1253-002.md) — 1
 - [plowsink · 1](plowsink-4496fb01-001.md) — 10
 - [pm1 · 1](pm1-b2dd687e-001.md) — 13
 - [pm2 · 1](pm2-5b8a6a19-001.md) — 9
