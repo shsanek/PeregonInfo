@@ -1318,3 +1318,4 @@ One line per decision. Times are local (Mac).
 - 08:25 owner: Icarus tech tree UI as reference → D2 designs tech screen; axe craftable at game start (no tools/bench/tech), weapon slot, melee weapon → D4 (verify in a real new game), D2 adds it to the free first set.
 - 08:26 owner: axe = stone + stick only; stones/sticks must be ground pickups everywhere, renewable — losing the axe never ends the game → D4, D2.
 - 08:29 owner: 5 hand hotbar slots + bigger rucksack → D4; every recipe input must have a renewable source (not one-time loot; station kerosene and coal piles infinite for this reason) → D2 full audit with deps.py.
+- 08:35 tick: D1-D4 running; design in sync; disk 51Gi.
