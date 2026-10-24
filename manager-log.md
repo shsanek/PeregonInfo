@@ -1321,3 +1321,4 @@ One line per decision. Times are local (Mac).
 - 08:35 tick: D1-D4 running; design in sync; disk 51Gi.
 - 08:59 D1 merged 6a2676fa4f (protocol 94, clean), worktree removed. Leftovers: same-name pieces from different sets, mallet auto-pickup on site work, undone pulled material lands on ground, mouse Выучить still opens modal (D2 tech screen).
 - 08:59 tick: D2, D3, D4 running; design in sync; disk 55Gi.
+- 09:15 tick: D2, D3, D4 running; design in sync; disk 54Gi.
