@@ -1327,3 +1327,4 @@ One line per decision. Times are local (Mac).
 - 09:43 D2 merged f488262f2d (protocol 96, playtest conflict), worktree removed. D4 told to merge design + wire hand_blade/xp hooks. D5 TECHUI queued (needs owner go).
 - 09:55 tick: D4 running (merging design); design in sync; disk 73Gi.
 - 10:13 owner: why only one task → keep 4 agents in parallel always, manager monitors. Started D5 TECHUI, WEAPONS-L, WORLD-L; D4 merged a284a01385 (protocol 97) — pushed before the build finished, play_care_tests failed to compile (rescue_lost_count removed) → fixed 8b57cb1f0b; lesson: commit merges only after a green build. Slot → SWARM5.
+- 10:31 tick: D5, WEAPONS-L, WORLD-L, SWARM5 running (4/4); disk 43Gi.
