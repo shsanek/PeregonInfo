@@ -1332,3 +1332,4 @@ One line per decision. Times are local (Mac).
 - 11:00 D5 merged 82cf6aff4f (protocol 98, build green before commit), worktree removed. Slot → PTPOLISH. Running: WEAPONS-L, WORLD-L, SWARM5, PTPOLISH.
 - 11:11 tick: WEAPONS-L, WORLD-L, SWARM5, PTPOLISH running (4/4); disk 39Gi.
 - 11:11 disk 39 GB → removed merged HIVES and NET6 worktrees (ancestor, clean, out/ + art-src copied). Disk 57Gi. WEAPONS-L a2c5e3923d (stake jab pose, corpses on stakes).
+- 11:31 tick: WEAPONS-L, WORLD-L, SWARM5, PTPOLISH running (4/4); disk 60Gi.
