@@ -1365,3 +1365,4 @@ One line per decision. Times are local (Mac).
 - 17:30 tick: MUD, HUT, THREATS2, TECHPACE running; owner: remove/extend dig-in depth cap → MUD; disk 34Gi.
 - 17:32 disk 34 GB, load ~1000 (4 fresh builds): removed build/layers-probe and out/agent-swarm2/3/4 (superseded by SWARM5 videos; stills kept in PeregonInfo).
 - 17:33 owner moves to another machine: all 4 agents told to wrap up (commit WIP + handoff); manager will push their branches and write manager-handoff.md. Loop stopped.
+- 17:36 wrap-up done: MUD 6747cb700d, HUT 1c292e68c8, THREATS2 445d274f63, TECHPACE a7b64ea0bb pushed (analysis/WIP + handoffs); their worktrees and builds removed. manager-handoff.md rewritten with restart prompt. Disk 67 GB.

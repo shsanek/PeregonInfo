@@ -1,37 +1,65 @@
-# Peregon manager handoff — 2026-10-23 ~16:10
+# Peregon manager handoff — 2026-10-24 ~18:00
 
-Stopped on the owner's order (usage limit). Design branch: `claude/peregon-design`.
+Stopped by the owner (moving to another machine). Design branch: `claude/peregon-design`, pushed tip **`171dde1ffb`**
+(net protocol **104**). Every merged task has a Russian PeregonInfo entry; the changelog checkpoint is `c0689925de`.
 
-## State of design
-- Pushed tip: `787fc8897e` Merge NET6/NET4abc (protocol 76). Play-test build = this.
-- TRUCKDMG `c6e3463ea5` merge was tried and ABORTED (design is clean at 787fc8897e): the merged tree fails `coop_audit_tests` 28/30 — `pickup_same_tick_contention_goes_to_one_player_and_observers_see_it_leave_the_ground` (coop_audit_tests.cpp:538-559, shell_box) and `pickup_two_clients_press_e_on_one_item_over_real_transports` (:609). truckdmg 10/10 and crafting 15/15 passed; net_world/coopsweep were not finished. Next: check whether these two fail on 787fc8897e alone (then it is NET6, not TRUCKDMG), fix, redo the merge with `kNetProtocol = 77`.
-- `S=/private/tmp/claude-501/-Users-alex--superset-worktrees-EXEcutor-capricious-buckthorn-2906c1e8/b826acff-2ccc-4929-a151-bdd6e0e01d4e/scratchpad` (may be gone after reboot; pattern: cmake --preset native-release, build targets, run `build/native-release/bin/<suite>` with `PEREGON_MAP_DIR=$(cd ../map/r1 && pwd)`).
+## Owner rules in force
 
-## Agent branches (worktrees under /Users/alex/Downloads/winwin/EXEcutor/.claude/worktrees/agent-<id>)
-| Task | Branch | State | Handoff |
+- Reply to the owner in Russian; agents, docs, commits in English. No code comments. Native macOS only.
+- **Test suites are paused** (owner): build + stages + the play-test bot only. Many test expectations are outdated
+  after 2026-10-23/24 (care rescue, woodcut, tech, build, bugs, swarm, stakes, combat2, cargo, net slots…).
+- **Always 4 agents in parallel**, manager monitors on a 20-minute loop; fill a freed slot at once from the queue.
+- **Commit a merge only after a green build** (never `build ; commit`). Bump `kNetProtocol` on every gameplay merge.
+- Spawn agents from the EXEcutor root (never from `games/peregon/reports`, which is the PeregonInfo submodule).
+- No redundant hints/tutorials; never tell the player where resources come from; book shows only buildable pieces.
+- Every recipe input must have a renewable source (`tools/balance/deps.py --check`).
+- Weapons/defences are Blender placeholders (no Tripo). Never pay.
+- Progression reference: **Icarus** (docs/tech-research.md).
+- Remove agent worktrees only after their branch is an ancestor of design (or pushed) and clean; keep >30 GB free.
+
+## Unfinished agent branches (pushed, worktrees removed — each has a handoff with exact next steps)
+
+| Task | Branch @ tip | Handoff | State |
 |---|---|---|---|
-| NET6 | claude/peregon-net6 | code merged (787fc8897e); net6fix matrix rerun interrupted; docs/baseline not committed to design | docs/handoff-net6.md on branch |
-| TRUCKDMG | claude/peregon-truckdmg | done, `c6e3463ea5`, merge pending verify (above) | docs/truck_damage.md, playtest §48 |
-| NEST2 | claude/peregon-nest2 | Tripo nest kit, defence, creep fix (`fc5e643f41`+); co-op suites were running | docs/handoff-nest2.md on branch |
-| SWARM2 | claude/peregon-swarm2 | commander + nav field, game splice; owner asked a TOP-DOWN battle video with commander overlays (roles, routes, influence map, plan labels; land base + base behind water/ice) | docs/handoff-swarm2.md on branch |
+| MUD | `claude/peregon-mud` @ 6747cb700d | docs/handoff-mud.md, docs/soil-voxels.md | analysis only. Next: (a) start meadow a bit firmer only there (wetness 9 in `map/regions/zarechye/paint/r6_north.json`), rescue drops on firm ground — commit alone; (b) fix endless mounds (`RutField::press` measures from untouched ground), remove/raise all dig-in depth caps, voxel soil/mud/snow with conservation + persistence of heights and composition; (c) voxel river water around the truck (hits the body, over the hood, drag/buoyancy/current) |
+| HUT | `claude/peregon-hut` @ 1c292e68c8 | docs/handoff-hut.md | analysis only. Doorway ≥2 m (12 courses), stove not trapping (corner placement, exit check, doors swing away), roof where aimed, dismantle 5 s hold with proper refund + barrel back, site prompts not hidden |
+| THREATS2 | `claude/peregon-threats2` @ 445d274f63 | docs/handoff-threats2.md | analysis only. Death keeps hunger/thirst; heart HP 250/600/950/1300; arrows hurt nests; pour 5 l kerosene/diesel; nests within ~2.5 km of the tent grow at ~35 % until day 4; bot attack check. Rucksack at the nest after death stays (owner) |
+| TECHPACE | `claude/peregon-techpace` @ a7b64ea0bb | docs/handoff-techpace.md | WIP, **not compiled**: deps.py profile fixed, brushwood 4 per dead tree + crown armfuls. Next: build, stone chimney at Т-1, Т-2 ~200 with more xp per action, bot pacing before/after |
 
-Numbering: protocol next free 78. Save sections NEST2 460–469, SWARM2 470–479, TRUCKDMG 480–489. Message ids NEST2 90–99, SWARM2 100–109. Net chunk SWARM2 71, truck chunk 9 (TRUCKDMG). Playtest next free §49.
+Start these four first (fresh agents from their branches; merge design into each first).
 
-## Merge order next
-1. Finish TRUCKDMG merge (above), push, report entry.
-2. NEST2 (expect conflicts in play_swarm.cpp / coop_audit_tests.cpp / playtest.md).
-3. SWARM2 after its top-down video.
-4. NET6 docs commit only.
-After each verified merge: remove the worktree only per the cleanup rule (ancestor check, tests green, clean tree, copy out/ and design/art-src/gen).
+## Done 2026-10-23/24 (all merged into design)
 
-## Report backlog (PeregonInfo, games/peregon/reports)
-Entries not written yet: FIXMERGE, BUGANIM (shots/buganim), HIVES, NET6, TRUCKDMG (shots in agent out/truckdmg). Bug animation videos in reports/anim/ (42 MB) not committed — owner never answered whether to publish.
+TRUCKDMG, NEST2, NET6 docs, SWARM2–5, TRUCKMG, ARMS1, DEFENCE1, EARLY1–2, BUGFX, PT1–PT6, POLISH1–2, PTPOLISH,
+D1–D5, WEAPONS-L, WORLD-L, PAR3, FORESTCOL, PLAYTEST1 + PLAYTEST2 (reports docs/playtest1-report.md,
+docs/playtest2-report.md; bot `src/game/play/play_ptbot.*`, docs/handoff-playtest2.md).
 
-## Backlog after
-Owner play-test notes (play-test not started yet); bug sounds/loot/fear/xp; flamethrower + creep damage; player models in Tripo (needs owner yes, concepts in reports/shots/players); TESTFIX leftovers (tow winch slide 1.69 m, shaderc grass_card vs_2_0 13 temps, render_checks unbound registers); balance at ×1; loot rows; PAR-C2/N2/R2; internet test with Tallinn; TRUCKDMG leftovers (mirrors mesh, smaller bites, fire scorch, door-gap dents).
-Open owner questions: BA-8 tree pace, Q-FEAR cab, Q-HUT −23 °C, Q-RAIN, spare wheel, layered forest.
+PLAYTEST2 vs PLAYTEST1: 28 fixed, 5 partly, 6 still, 0 regressed, 7 not reached. Driving/Sawmill untested because
+both start trucks sink in the camp meadow (→ MUD stage a).
+
+## Next after the four
+
+- PLAYTEST3 (only agent on a clean machine) once MUD (a), HUT, THREATS2, TECHPACE are merged — must cover driving,
+  forest (FORESTCOL), hauling, Sawmill.
+- Queue leftovers in manager-queue.md; owner-waiting: ICEPROBE, player models in Tripo, internet co-op test,
+  «N — открыть блокнот» banner; blocked: TESTS-UPDATE, COOPAUDIT (tests paused).
+
+## Notes
+
+- 5 old worktrees from 10-07…10-10 (perfdll, w9b-cargo-flyout, s2-gunplay, r1b-veg-perf, region) have uncommitted
+  changes — not ours, left alone.
+- `games/peregon/assets/truck_hero/kolymaga_hero_baked.blend` is 52.75 MB (GitHub warns >50 MB).
+- Map for builds: symlink `games/peregon/build/map/r1` to an existing r1 bake (don't regenerate unless asked).
 
 ## Restart prompt
+
 ```
-You are the Peregon development manager (games/peregon in /Users/alex/.superset/worktrees/EXEcutor/capricious-buckthorn-2906c1e8, branch claude/peregon-design). Reply to the owner in Russian; sub-agents, docs and commits in English. Read games/peregon/reports/manager-handoff.md first, then the agent handoffs on claude/peregon-net6, claude/peregon-nest2, claude/peregon-swarm2. Do in order: finish the TRUCKDMG merge (verify build + touched suites, then commit/push), merge NEST2, then restart SWARM2 as a fresh Claude sub-agent (isolation worktree, spawned from the repo root) from its branch and handoff to make the owner's top-down commander video, then merge it; merge NET6 docs. Write PeregonInfo report entries for every merge and the backlog listed in the handoff. Log each step in reports/manager-log.md, run a 20-minute loop. Rules: no code comments, native macOS only, never force-push, never pay/type passwords, remove worktrees only after verified merge, watch free disk (>30 GB).
+You are the Peregon development manager (games/peregon, branch claude/peregon-design). Reply to the owner in Russian;
+sub-agents, docs and commits in English. Read games/peregon/reports/manager-handoff.md first. Restart the four
+unfinished tasks as fresh sub-agents (isolation worktree, spawned from the EXEcutor root) from their pushed branches
+and handoffs: MUD (meadow first, then voxel soil/snow, then voxel river water), HUT, THREATS2, TECHPACE. Merge each
+when done (build green before commit, protocol bump), write Russian PeregonInfo entries, log in
+reports/manager-log.md, keep 4 agents running, 20-minute loop. Then propose PLAYTEST3. Rules: no code comments,
+native macOS only, no test suites until the owner lifts it, never force-push, never pay, remove worktrees only after
+verified merge, keep >30 GB free.
 ```
