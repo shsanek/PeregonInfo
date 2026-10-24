@@ -1364,3 +1364,4 @@ One line per decision. Times are local (Mac).
 - 17:24 owner: rivers too — unified voxel material sim (water as a material) around the truck: water hits the truck, climbs over the hood, drag/buoyancy/current → MUD stage (c).
 - 17:30 tick: MUD, HUT, THREATS2, TECHPACE running; owner: remove/extend dig-in depth cap → MUD; disk 34Gi.
 - 17:32 disk 34 GB, load ~1000 (4 fresh builds): removed build/layers-probe and out/agent-swarm2/3/4 (superseded by SWARM5 videos; stills kept in PeregonInfo).
+- 17:33 owner moves to another machine: all 4 agents told to wrap up (commit WIP + handoff); manager will push their branches and write manager-handoff.md. Loop stopped.
