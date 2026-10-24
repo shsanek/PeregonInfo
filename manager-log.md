@@ -1341,3 +1341,4 @@ One line per decision. Times are local (Mac).
 - 12:43 WEAPONS-L merged 610b4c9028 (protocol 101, green). Owner: forest collision bad → FORESTCOL started; POLISH2 started. Running: SWARM5, PAR3, FORESTCOL, POLISH2.
 - 12:45 owner: queue is empty → after SWARM5, PAR3, FORESTCOL, POLISH2 merge, run PLAYTEST2 alone on a clean machine. No new agents until then.
 - 12:47 tick: SWARM5, PAR3, FORESTCOL, POLISH2 running; disk 49Gi.
+- 13:07 tick: 4 running; disk 38Gi.
