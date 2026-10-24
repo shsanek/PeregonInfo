@@ -81,6 +81,7 @@
 - [d1 · 1](d1-8b53639f-001.md) — 4
 - [d2 · 1](d2-e788103e-001.md) — 4
 - [d3 · 1](d3-f451a617-001.md) — 4
+- [d4 · 1](d4-af327a64-001.md) — 5
 - [defence1 · 1](defence1-bd669a05-001.md) — 6
 - [dialogue · 1](dialogue-abe0ba24-001.md) — 7
 - [dialogue-modern · 1](dialogue-modern-74330e67-001.md) — 5

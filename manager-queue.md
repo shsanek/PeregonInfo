@@ -351,5 +351,9 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | D1 BUILDUX | Build book: only buildable pieces, one screen with sections, Shift shortcuts, one key in/out of build mode and of the tech screen, learn tech with E, wall snapping fix | merged 6a2676fa4f (protocol 94) |
 | D2 TECHTREE | Icarus research → tech tree redesign: moderate node merge, xp drips from any gathering, first build set free incl. stakes/bow/arrows without a bench, remove the useless bench, pacing | merged f488262f2d (protocol 96); tech screen UI = design only (docs/tech-tree.md §8) |
 | D3 THREATS | Nests at POIs and the start nest start small and grow; chases break off by distance; small early raids; Settings controls; lower engine/noise influence; bugs don't hide under the truck; notebook «нужно выжить» | merged 16506b6861 (protocol 95) |
-| D4 MISC | Axe into inventory; rescue new lore + destination; windscreen fog fix; spent casings removed / ammo recipe simplified; bed log stack 3 high | running |
-| D5 TECHUI | Icarus-style tech screen per docs/tech-tree.md §8 (tiers per page, hover shows unlocks, lines to benches, search), mouse «Выучить» without modal | D2, D1 merged | queued — needs owner go |
+| D4 MISC | Axe into inventory; rescue new lore + destination; windscreen fog fix; spent casings removed / ammo recipe simplified; bed log stack 3 high | merged a284a01385 (protocol 97) + test compile fix 8b57cb1f0b |
+| D5 TECHUI | Icarus-style tech screen per docs/tech-tree.md §8 (tiers per page, hover shows unlocks, lines to benches, search), mouse «Выучить» without modal | D2, D1 merged | running (claude/peregon-d5) |
+| WEAPONS-L | Rifle/MG/bow/stake/flamethrower leftovers | - | running (claude/peregon-weaponsl) |
+| WORLD-L | PT5/PT4/TRUCKDMG/D3 leftovers | - | running (claude/peregon-worldl) |
+| SWARM5 | SWARM4-L + SWARM2-L leftovers | - | running (claude/peregon-swarm5) |
+| TESTS-UPDATE | Rewrite outdated test expectations after 2026-10-23/24 changes (care rescue, woodcut, tech, build, bugs, swarm…) | tests allowed | blocked (tests paused) |
