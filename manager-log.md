@@ -1360,3 +1360,4 @@ One line per decision. Times are local (Mac).
 - 17:04 PLAYTEST2 done + merged c0689925de (bot + report, no game code). 28/46 PLAYTEST1 items fixed, 0 regressions; new blockers for driving: start meadow mud. 61 shots published. Waiting for owner's go on next tasks.
 - 17:09 idle tick: no agents, waiting for owner's go on PLAYTEST2 fix groups; design in sync; disk 59Gi.
 - 17:20 owner on PLAYTEST2: meadow a bit firmer only there + mud volume/endless mounds check (separate agent), all other fixes yes, rucksack at nest stays. Started MUD, HUT, THREATS2, TECHPACE.
+- 17:23 owner: proper voxel soil/water/snow simulation near the truck with mixing, churning, flooding, persistence of composition+heights → added to MUD scope (meadow fix committed first, then staged voxel system).

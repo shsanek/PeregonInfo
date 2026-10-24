@@ -367,7 +367,7 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 
 | ID | Task | Status |
 |----|------|--------|
-| MUD | Start meadow a bit firmer just there (not hard); check mud displacement — it builds endless mounds instead of the wheel digging in, looks like material volume isn't conserved; rescue drops on firmer ground | running |
+| MUD | Start meadow a bit firmer just there (not hard); + owner 2026-10-24: proper VOXEL soil/water/snow near the truck (water mixes in, wheels churn and wind up soil/water, mixing, flooding; on driving away remember composition and heights, saved + co-op); check mud displacement — it builds endless mounds instead of the wheel digging in, looks like material volume isn't conserved; rescue drops on firmer ground | running |
 | HUT | Doorway ≥ player height, stove doesn't trap, door/opening, roof goes where aimed, dismantling a finished piece = hold with refund, stove returns the barrel | running |
 | THREATS2 | Start nest beatable with the early kit by day 3 (slower growth near start or bow/stakes viable), death does not refill hunger; rucksack stays at the nest after death — owner: keep as is | running |
 | TECHPACE | Т-2 wall on day 2 softened, flue/pipe earlier (stove smoke), more brushwood; first-hours pacing check | running |
