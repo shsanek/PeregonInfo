@@ -1385,3 +1385,4 @@ One line per decision. Times are local (Mac).
 - 00:20 merged NOHINTS (29e92bdd57, ff), protocol stays 109.
 - 00:20 decision: tech-book descriptions in data/survival/tech.txt (e.g. ТА-21 tow ball at the garage bay) stay — they describe what a learned technology gives, not an interaction hint.
 - 00:30 owner: MUD merge must come with several PeregonInfo screenshots — water, snow, mud ruts, mud sticking to the wheels, mixing. Forwarded to MUD (≥8 shots, Russian captions).
+- 01:10 merged MUD (edb532361a, ff), protocol 110, win64 green. 11 shots → shots/mud. Map rebake (camp meadow paint) postponed until EARLY-L ends (it runs on the shared bake), then before PLAYTEST3.
