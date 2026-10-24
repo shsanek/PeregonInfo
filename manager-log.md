@@ -1335,3 +1335,4 @@ One line per decision. Times are local (Mac).
 - 11:31 tick: WEAPONS-L, WORLD-L, SWARM5, PTPOLISH running (4/4); disk 60Gi.
 - 11:51 tick: WEAPONS-L, WORLD-L, SWARM5, PTPOLISH running (4/4); disk 60Gi.
 - 11:58 WORLD-L merged 4f62c2da74 (protocol 99, green build). GitHub warns kolymaga_hero_baked.blend is 52.75 MB (>50 MB recommended, <100 MB limit). Slot → PAR3. Running: WEAPONS-L, SWARM5, PTPOLISH, PAR3. Queue otherwise only owner-waiting items.
+- 12:11 tick: WEAPONS-L, SWARM5, PTPOLISH, PAR3 running (4/4); disk 47Gi.
