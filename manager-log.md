@@ -1330,3 +1330,4 @@ One line per decision. Times are local (Mac).
 - 10:31 tick: D5, WEAPONS-L, WORLD-L, SWARM5 running (4/4); disk 43Gi.
 - 10:51 tick: WEAPONS-L committed 0b1049c616 (rifle bench + rag cleaning); D5, WORLD-L, SWARM5 coding; disk 47Gi.
 - 11:00 D5 merged 82cf6aff4f (protocol 98, build green before commit), worktree removed. Slot → PTPOLISH. Running: WEAPONS-L, WORLD-L, SWARM5, PTPOLISH.
+- 11:11 tick: WEAPONS-L, WORLD-L, SWARM5, PTPOLISH running (4/4); disk 39Gi.
