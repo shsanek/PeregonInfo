@@ -1386,3 +1386,5 @@ One line per decision. Times are local (Mac).
 - 00:20 decision: tech-book descriptions in data/survival/tech.txt (e.g. ТА-21 tow ball at the garage bay) stay — they describe what a learned technology gives, not an interaction hint.
 - 00:30 owner: MUD merge must come with several PeregonInfo screenshots — water, snow, mud ruts, mud sticking to the wheels, mixing. Forwarded to MUD (≥8 shots, Russian captions).
 - 01:10 merged MUD (edb532361a, ff), protocol 110, win64 green. 11 shots → shots/mud. Map rebake (camp meadow paint) postponed until EARLY-L ends (it runs on the shared bake), then before PLAYTEST3.
+- 03:40 merged EARLY-L (00b393aff9, ff), protocol 111, win64 green. Т-2 by a building bot: d3 17:37.
+- 03:40 decision: stone scarcity at camp (8 stones at Т-1, ~3 nearby), Sawmill nest start (150?) and the dry-creep smoulder rule wait for PLAYTEST3 findings — no new agent before it (clean machine).
