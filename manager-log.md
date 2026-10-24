@@ -1344,3 +1344,4 @@ One line per decision. Times are local (Mac).
 - 13:07 tick: 4 running; disk 38Gi.
 - 13:24 PAR3 merged (green build), worktree removed. Waiting SWARM5, FORESTCOL, POLISH2 → then PLAYTEST2.
 - 13:27 tick: SWARM5, FORESTCOL, POLISH2 running; disk 53Gi.
+- 13:47 tick: SWARM5, FORESTCOL, POLISH2 running; disk 34Gi.
