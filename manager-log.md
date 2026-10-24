@@ -1319,3 +1319,4 @@ One line per decision. Times are local (Mac).
 - 08:26 owner: axe = stone + stick only; stones/sticks must be ground pickups everywhere, renewable — losing the axe never ends the game → D4, D2.
 - 08:29 owner: 5 hand hotbar slots + bigger rucksack → D4; every recipe input must have a renewable source (not one-time loot; station kerosene and coal piles infinite for this reason) → D2 full audit with deps.py.
 - 08:35 tick: D1-D4 running; design in sync; disk 51Gi.
+- 08:59 D1 merged 6a2676fa4f (protocol 94, clean), worktree removed. Leftovers: same-name pieces from different sets, mallet auto-pickup on site work, undone pulled material lands on ground, mouse Выучить still opens modal (D2 tech screen).
