@@ -1316,3 +1316,4 @@ One line per decision. Times are local (Mac).
 - 08:15 idle tick: no agents, waiting for owner answers (questions 1-16); design in sync; disk 81Gi.
 - 08:19 owner answered PLAYTEST1 questions 1-16 → D1 BUILDUX, D2 TECHTREE (Icarus research), D3 THREATS, D4 MISC started in parallel.
 - 08:25 owner: Icarus tech tree UI as reference → D2 designs tech screen; axe craftable at game start (no tools/bench/tech), weapon slot, melee weapon → D4 (verify in a real new game), D2 adds it to the free first set.
+- 08:26 owner: axe = stone + stick only; stones/sticks must be ground pickups everywhere, renewable — losing the axe never ends the game → D4, D2.
