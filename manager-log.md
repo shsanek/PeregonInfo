@@ -1363,3 +1363,4 @@ One line per decision. Times are local (Mac).
 - 17:23 owner: proper voxel soil/water/snow simulation near the truck with mixing, churning, flooding, persistence of composition+heights → added to MUD scope (meadow fix committed first, then staged voxel system).
 - 17:24 owner: rivers too — unified voxel material sim (water as a material) around the truck: water hits the truck, climbs over the hood, drag/buoyancy/current → MUD stage (c).
 - 17:30 tick: MUD, HUT, THREATS2, TECHPACE running; owner: remove/extend dig-in depth cap → MUD; disk 34Gi.
+- 17:32 disk 34 GB, load ~1000 (4 fresh builds): removed build/layers-probe and out/agent-swarm2/3/4 (superseded by SWARM5 videos; stills kept in PeregonInfo).
