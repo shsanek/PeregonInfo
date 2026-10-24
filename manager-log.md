@@ -1382,3 +1382,5 @@ One line per decision. Times are local (Mac).
 - 23:50 decision: trailer prompt «нет фаркопа — поставить на гаражном посту» goes too (no hints where to get fittings); NOHINTS agent removes it and similar texts.
 - 23:50 decision: TECHPACE's progression.py Т-2 window lower edge 0.6 h kept (model runs ahead of real play; PLAYTEST3 will check real pacing).
 - 23:55 owner plan: finish MUD, EARLY-L, NOHINTS (merge each) → PLAYTEST3 alone on a clean machine → write conclusions (report + PeregonInfo + handoff) → stop the manager loop.
+- 00:20 merged NOHINTS (29e92bdd57, ff), protocol stays 109.
+- 00:20 decision: tech-book descriptions in data/survival/tech.txt (e.g. ТА-21 tow ball at the garage bay) stay — they describe what a learned technology gives, not an interaction hint.
