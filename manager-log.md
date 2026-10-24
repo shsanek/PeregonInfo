@@ -1348,3 +1348,4 @@ One line per decision. Times are local (Mac).
 - 13:47 disk 34 GB: SWARM5 out/ 8.6 GB (recording) — told to delete BMP/frames as it goes. FORESTCOL, POLISH2 small.
 - 14:07 tick: SWARM5 merge staged (swarm.cpp conflict combined: chew rule + WORLD-L quiet player), build running; FORESTCOL dd0e0ba4fa rounded collision, recording clips; POLISH2 working; disk 47 GB.
 - 14:28 SWARM5 05a9f0e5d3, POLISH2 01c39517c2, FORESTCOL 2519b656a0 merged (all green), worktrees removed. Machine clean → PLAYTEST2 started as the only agent from 2519b656a0. Disk 70 GB.
+- 14:48 tick: PLAYTEST2 running alone; disk 39Gi.
