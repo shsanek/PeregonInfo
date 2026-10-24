@@ -362,3 +362,12 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | FORESTCOL | Owner: forest objects (fallen trees, stumps…) have bad collision — truck bounces/flips, rarely drives over; inventory + fix | - | merged 2519b656a0 (protocol 104) |
 | POLISH2 | PTPOLISH/D4 leftovers: mallet size, bog water, door from inside, stone/stick models, winter fog, glass save, hotbar slot actions | - | merged 01c39517c2 (protocol 103) |
 | PLAYTEST2 | Second bot play-test from a real new game after SWARM5/PAR3/FORESTCOL/POLISH2 merge; ONLY agent on a clean machine; same rules as PLAYTEST1 (no hacks, notes + screenshots, list problems, fix only blockers), compare with PLAYTEST1 | all four merged | merged c0689925de — report docs/playtest2-report.md, waiting owner |
+
+## Owner decisions on PLAYTEST2 — 2026-10-24 evening
+
+| ID | Task | Status |
+|----|------|--------|
+| MUD | Start meadow a bit firmer just there (not hard); check mud displacement — it builds endless mounds instead of the wheel digging in, looks like material volume isn't conserved; rescue drops on firmer ground | running |
+| HUT | Doorway ≥ player height, stove doesn't trap, door/opening, roof goes where aimed, dismantling a finished piece = hold with refund, stove returns the barrel | running |
+| THREATS2 | Start nest beatable with the early kit by day 3 (slower growth near start or bow/stakes viable), death does not refill hunger; rucksack stays at the nest after death — owner: keep as is | running |
+| TECHPACE | Т-2 wall on day 2 softened, flue/pipe earlier (stove smoke), more brushwood; first-hours pacing check | running |
