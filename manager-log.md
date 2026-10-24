@@ -1346,3 +1346,4 @@ One line per decision. Times are local (Mac).
 - 13:27 tick: SWARM5, FORESTCOL, POLISH2 running; disk 53Gi.
 - 13:47 tick: SWARM5, FORESTCOL, POLISH2 running; disk 34Gi.
 - 13:47 disk 34 GB: SWARM5 out/ 8.6 GB (recording) — told to delete BMP/frames as it goes. FORESTCOL, POLISH2 small.
+- 14:07 tick: SWARM5 merge staged (swarm.cpp conflict combined: chew rule + WORLD-L quiet player), build running; FORESTCOL dd0e0ba4fa rounded collision, recording clips; POLISH2 working; disk 47 GB.
