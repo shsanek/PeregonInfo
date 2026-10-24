@@ -333,3 +333,11 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | POLISH1 | Icons for all items added 2026-10-23 + fix icon build script (pva2_items), balance tool knows bug remains as a source, «Детали» → «Запчасти» | - | merged a903cdd86c |
 | PT4-L | Coal-pit excavator nest gate; motor-depot truck and depot cart trailer part lists; optional one-time guard nest seeding for old saves | - | queued |
 | TRUCKMG-L | Bed MG leftovers: gunner hands on grips, remote shot audio on clients, icon, cargo pushed out of the gunner circle, coop_seats_tests tailgate climb update | tests for the last item | queued |
+
+## Owner decisions on PLAYTEST1 — 2026-10-24 (part 1)
+
+- Build book: never show what can't be built; all buildable pieces on ONE screen, split into sections; handier keys via Shift; build mode on/off by ONE key; the tech screen the same (one key in/out).
+- Basic wooden building open from the start (no tech for the basic wood set).
+- Tech XP drips constantly for any resource gathering (felling, gathering, mining, hauling, etc.), not only places.
+- Nests at POIs start small and grow over time.
+- Remaining PLAYTEST1 items: owner answers more (list sent 2026-10-24).
