@@ -1325,3 +1325,4 @@ One line per decision. Times are local (Mac).
 - 09:28 D3 merged 16506b6861 (protocol 95), worktree removed. D2, D4 running.
 - 09:35 tick: D2, D4 running; design in sync; disk 66Gi.
 - 09:43 D2 merged f488262f2d (protocol 96, playtest conflict), worktree removed. D4 told to merge design + wire hand_blade/xp hooks. D5 TECHUI queued (needs owner go).
+- 09:55 tick: D4 running (merging design); design in sync; disk 73Gi.
