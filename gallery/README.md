@@ -240,6 +240,7 @@
 - [pt3 · 1](pt3-d0ba0ae3-001.md) — 4
 - [pt4 · 1](pt4-9e037d8d-001.md) — 4
 - [pt5 · 1](pt5-06873df6-001.md) — 4
+- [ptpolish · 1](ptpolish-2c1e2e90-001.md) — 4
 - [ptrun · 1](ptrun-9088e4ed-001.md) — 7
 - [pv0-hostiles · 1](pv0-hostiles-6c6da91a-001.md) — 4
 - [pv0-places · 1](pv0-places-6c5e289d-001.md) — 12
@@ -468,6 +469,7 @@
 - [waterrefl · 1](waterrefl-da1f8a09-001.md) — 9
 - [wc1 · 1](wc1-e5c6fe9e-001.md) — 16
 - [weapons · 1](weapons-167a79b5-001.md) — 48
+- [weaponsl · 1](weaponsl-3c6efcb3-001.md) — 4
 - [wheat_kolkhoz · 1](wheat-kolkhoz-cf5b05d3-001.md) — 24
 - [wheel · 1](wheel-ba599261-001.md) — 6
 - [wheel2 · 1](wheel2-73b1d903-001.md) — 3

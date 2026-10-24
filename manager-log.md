@@ -1338,3 +1338,4 @@ One line per decision. Times are local (Mac).
 - 12:11 tick: WEAPONS-L, SWARM5, PTPOLISH, PAR3 running (4/4); disk 47Gi.
 - 12:31 tick: WEAPONS-L merge build in progress (staged, protocol 101); SWARM5, PAR3, FORESTCOL, POLISH2 running; disk 36Gi.
 - 12:32 disk 36 GB → deleted intermediate frames/overlay dirs and big traces from out/agent-swarm2/3/4 and defence1 (videos + stills kept). Disk 46 GB. Load ~600 (4 fresh worktree builds + WEAPONS-L merge build).
+- 12:43 WEAPONS-L merged 610b4c9028 (protocol 101, green). Owner: forest collision bad → FORESTCOL started; POLISH2 started. Running: SWARM5, PAR3, FORESTCOL, POLISH2.

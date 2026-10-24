@@ -353,9 +353,11 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 | D3 THREATS | Nests at POIs and the start nest start small and grow; chases break off by distance; small early raids; Settings controls; lower engine/noise influence; bugs don't hide under the truck; notebook «нужно выжить» | merged 16506b6861 (protocol 95) |
 | D4 MISC | Axe into inventory; rescue new lore + destination; windscreen fog fix; spent casings removed / ammo recipe simplified; bed log stack 3 high | merged a284a01385 (protocol 97) + test compile fix 8b57cb1f0b |
 | D5 TECHUI | Icarus-style tech screen per docs/tech-tree.md §8 (tiers per page, hover shows unlocks, lines to benches, search), mouse «Выучить» without modal | D2, D1 merged | merged 82cf6aff4f (protocol 98) |
-| WEAPONS-L | Rifle/MG/bow/stake/flamethrower leftovers | - | running (claude/peregon-weaponsl) |
+| WEAPONS-L | Rifle/MG/bow/stake/flamethrower leftovers | - | merged 610b4c9028 (protocol 101) |
 | WORLD-L | PT5/PT4/TRUCKDMG/D3 leftovers | - | merged 4f62c2da74 (protocol 99) |
 | SWARM5 | SWARM4-L + SWARM2-L leftovers | - | running (claude/peregon-swarm5) |
 | TESTS-UPDATE | Rewrite outdated test expectations after 2026-10-23/24 changes (care rescue, woodcut, tech, build, bugs, swarm…) | tests allowed | blocked (tests paused) |
-| PTPOLISH | PLAYTEST1 §3.2–3.4 remaining items + D5 leftovers (unlock lists for code-checked nodes, cross-section links, station icons) | - | running (claude/peregon-ptpolish) |
+| PTPOLISH | PLAYTEST1 §3.2–3.4 remaining items + D5 leftovers (unlock lists for code-checked nodes, cross-section links, station icons) | - | merged 0b70102e03 (protocol 100) |
 | PAR3 | PAR-C2 thread-safe field reads, PAR-N2 pack overlap, maybe PAR-V | - | running (claude/peregon-par3) |
+| FORESTCOL | Owner: forest objects (fallen trees, stumps…) have bad collision — truck bounces/flips, rarely drives over; inventory + fix | - | running (claude/peregon-forestcol) |
+| POLISH2 | PTPOLISH/D4 leftovers: mallet size, bog water, door from inside, stone/stick models, winter fog, glass save, hotbar slot actions | - | running (claude/peregon-polish2) |
