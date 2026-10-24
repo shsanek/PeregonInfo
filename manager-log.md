@@ -1304,3 +1304,4 @@ One line per decision. Times are local (Mac).
 - 02:56 PLAYTEST1 done + merged debab2f7c3 (bot + 3 blocker fixes: axe at campfire/tagan, aimed axe wins E, respawn 60 m from bugs; no wire change). Report docs/playtest1-report.md (46 problems, building + tech analysis), 58 shots published. Waiting for the owner's decision on fixes; no agents running.
 - 03:15 idle tick: no agents, waiting for owner's PLAYTEST1 decision; design in sync; disk 88Gi.
 - 03:51 idle tick: no agents, waiting for owner's PLAYTEST1 decision; design in sync; disk 87Gi.
+- 04:15 idle tick: no agents, waiting for owner's PLAYTEST1 decision; design in sync; disk 87Gi.
