@@ -1355,3 +1355,4 @@ One line per decision. Times are local (Mac).
 - 15:28 tick: PLAYTEST2 running; disk 41Gi.
 - 15:48 tick: PLAYTEST2 running; disk 40Gi.
 - 16:08 tick: PLAYTEST2 running; disk 41Gi.
+- 16:28 tick: PLAYTEST2 running; disk 82Gi.
