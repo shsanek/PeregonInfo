@@ -341,3 +341,14 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 - Tech XP drips constantly for any resource gathering (felling, gathering, mining, hauling, etc.), not only places.
 - Nests at POIs start small and grow over time.
 - Remaining PLAYTEST1 items: owner answers more (list sent 2026-10-24).
+
+## Owner decisions on PLAYTEST1 — 2026-10-24 (part 2) → agents D1–D4
+
+1 goal: notebook may say «нужно выжить», no step-by-step tutorial. 2 axe stays where it is (visible enough), no extra hints — redundant hints make the player feel dumb. 3 chases must break off after some distance; early nests and raids small; keep owner-facing Settings controls for raids/nests. 4 remove the extra (useless) bench; don't add all crafting at once — players progress. 5 allow putting the axe into the inventory (free the hand). 6 first build set FREE and pre-learned, plus stakes, bow and arrows, buildable/craftable without a bench. 7 fix wall snapping. 8 bed log stack 3 high instead of 2. 9 merge tech nodes moderately; study Icarus (wiki: tech tree, xp sources, points, pacing) — balance of difficulty and realism. 10 fix learning with E. 11 meadow sinking OK (player error). 12 rescue: replace the old villager text, invent new lore. 13 no hint, but lower engine/noise influence on bugs. 14 windscreen fog is nonsense, open windows don't help — fix. 15 bugs must not hide under the truck. 16 remove spent casings; if they are needed for ammo, simplify the recipe.
+
+| ID | Scope | Status |
+|----|-------|--------|
+| D1 BUILDUX | Build book: only buildable pieces, one screen with sections, Shift shortcuts, one key in/out of build mode and of the tech screen, learn tech with E, wall snapping fix | running |
+| D2 TECHTREE | Icarus research → tech tree redesign: moderate node merge, xp drips from any gathering, first build set free incl. stakes/bow/arrows without a bench, remove the useless bench, pacing | running |
+| D3 THREATS | Nests at POIs and the start nest start small and grow; chases break off by distance; small early raids; Settings controls; lower engine/noise influence; bugs don't hide under the truck; notebook «нужно выжить» | running |
+| D4 MISC | Axe into inventory; rescue new lore + destination; windscreen fog fix; spent casings removed / ammo recipe simplified; bed log stack 3 high | running |
