@@ -1,10 +1,10 @@
 {
   "source_repository": "https://github.com/shsanek/EXEcutor",
-  "source_commit": "c0689925de0adef44f28bcf2f3d147b45e94aaf1",
+  "source_commit": "e6428597685e78906c3c6cd5db07437486eba2a7",
   "changes_covered_commit": "c0689925de0adef44f28bcf2f3d147b45e94aaf1",
-  "entries": 538,
+  "entries": 540,
   "model_groups": 8,
-  "images": 10905,
+  "images": 10906,
   "generated_pages": [
     "CHANGELOG.md",
     "changes.html",

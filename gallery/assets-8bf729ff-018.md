@@ -2,6 +2,8 @@
 
 [Все изображения](README.md) · [Главный отчёт](../README.md)
 
+![assets/tree_seasons_leaf_shrubs/08_snow.jpg](../shots/assets/tree_seasons_leaf_shrubs/08_snow.jpg)
+
 ![assets/tree_seasons_leaf_shrubs/09_young.jpg](../shots/assets/tree_seasons_leaf_shrubs/09_young.jpg)
 
 ![assets/tree_seasons_leaf_shrubs/10_blossom.jpg](../shots/assets/tree_seasons_leaf_shrubs/10_blossom.jpg)
@@ -119,5 +121,3 @@
 ![assets/truck_engine/04_raw.jpg](../shots/assets/truck_engine/04_raw.jpg)
 
 ![assets/truck_engine/05_clean.jpg](../shots/assets/truck_engine/05_clean.jpg)
-
-![assets/truck_engine/06_lods.jpg](../shots/assets/truck_engine/06_lods.jpg)

@@ -1366,3 +1366,9 @@ One line per decision. Times are local (Mac).
 - 17:32 disk 34 GB, load ~1000 (4 fresh builds): removed build/layers-probe and out/agent-swarm2/3/4 (superseded by SWARM5 videos; stills kept in PeregonInfo).
 - 17:33 owner moves to another machine: all 4 agents told to wrap up (commit WIP + handoff); manager will push their branches and write manager-handoff.md. Loop stopped.
 - 17:36 wrap-up done: MUD 6747cb700d, HUT 1c292e68c8, THREATS2 445d274f63, TECHPACE a7b64ea0bb pushed (analysis/WIP + handoffs); their worktrees and builds removed. manager-handoff.md rewritten with restart prompt. Disk 67 GB.
+
+## 2026-10-24 evening — Windows machine
+
+- 19:50 restarted on the Windows machine (win64 builds instead of native macOS). Pulled design, started MUD, HUT, THREATS2, TECHPACE as fresh agents from their branches; 20-min loop.
+- 19:55 owner on MUD: one shared voxel engine, all materials (soil, mud, snow, water) differ only by properties and are simulated simultaneously in one multi-material grid near the truck; bake heights + composition on leaving, reconstruct on return, smooth transition; emergent water from the river wetting soil, filling ruts, mixing with snow. Forwarded to MUD.
+- 20:40 merged MUD V0 (c5afe95585, firmer start meadow) + THREATS2 (b805dc5ba8) into design, protocol 106 (b43505ca0a), win64 build green. Started WINBOT (ptbot on Windows, empty cmd.txt crash) in the THREATS2 slot, needed for PLAYTEST3 here. Report generator needs node from fnm on this machine.

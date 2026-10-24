@@ -6621,6 +6621,11 @@ window.PEREGON_ASSETS = [
     "src": "shots/assets/tree_seasons_bb_birch_a/01_source.jpg"
    },
    {
+    "label": "source.jpg",
+    "n": 1,
+    "src": "shots/assets/tree_seasons_bb_birch_a/01_source.jpg.png"
+   },
+   {
     "label": "green mask",
     "n": 2,
     "src": "shots/assets/tree_seasons_bb_birch_a/02_green_mask.jpg"
