@@ -79,6 +79,7 @@
 - [cordonlived · 1](cordonlived-ecdf238b-001.md) — 13
 - [crew39 · 1](crew39-bd3731d1-001.md) — 21
 - [d1 · 1](d1-8b53639f-001.md) — 4
+- [d3 · 1](d3-f451a617-001.md) — 4
 - [defence1 · 1](defence1-bd669a05-001.md) — 6
 - [dialogue · 1](dialogue-abe0ba24-001.md) — 7
 - [dialogue-modern · 1](dialogue-modern-74330e67-001.md) — 5

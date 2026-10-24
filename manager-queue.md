@@ -350,5 +350,5 @@ Max 4 agents. Tests paused by the owner: build + stages only until he lifts it.
 |----|-------|--------|
 | D1 BUILDUX | Build book: only buildable pieces, one screen with sections, Shift shortcuts, one key in/out of build mode and of the tech screen, learn tech with E, wall snapping fix | merged 6a2676fa4f (protocol 94) |
 | D2 TECHTREE | Icarus research → tech tree redesign: moderate node merge, xp drips from any gathering, first build set free incl. stakes/bow/arrows without a bench, remove the useless bench, pacing | running |
-| D3 THREATS | Nests at POIs and the start nest start small and grow; chases break off by distance; small early raids; Settings controls; lower engine/noise influence; bugs don't hide under the truck; notebook «нужно выжить» | running |
+| D3 THREATS | Nests at POIs and the start nest start small and grow; chases break off by distance; small early raids; Settings controls; lower engine/noise influence; bugs don't hide under the truck; notebook «нужно выжить» | merged 16506b6861 (protocol 95) |
 | D4 MISC | Axe into inventory; rescue new lore + destination; windscreen fog fix; spent casings removed / ammo recipe simplified; bed log stack 3 high | running |
